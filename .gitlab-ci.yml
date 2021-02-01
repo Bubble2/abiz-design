@@ -3,7 +3,7 @@
 pages:
   stage: deploy
   script:
-    - cp docs-dist/ public
+    - cp -rf docs-dist/* public
   artifacts:
     paths:
       - public
