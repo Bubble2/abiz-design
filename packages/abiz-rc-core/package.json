@@ -1,0 +1,19 @@
+{
+  "name": "@abiz/rc",
+  "version": "0.0.1",
+  "description": "abiz react component",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "start": "dumi dev",
+    "build": "father-build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "antd": "^4.9.4"
+  },
+  "author": "guozhaodong",
+  "license": "ISC"
+}
