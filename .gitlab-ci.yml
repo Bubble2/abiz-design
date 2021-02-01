@@ -3,11 +3,9 @@
 pages:
   stage: deploy
   script:
-    - mkdir .public
-    - cp -r docs-dist .public
-    - mv .public public
+    - echo 'Nothing to do...'
   artifacts:
     paths:
-      - public
+      - docs-dist
   only:
     - master
