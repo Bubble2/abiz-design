@@ -1,10 +1,11 @@
 import { defineConfig } from 'dumi';
 import path from 'path';
 
+const isProduction = process.env.NODE_ENV === 'production'
 export default defineConfig({
   title: 'abiz-design',
-  favicon: '/images/favicon.ico',
-  logo: '/images/logo.jpg',
+  favicon: (isProduction? '/abiz-design':'')+'/images/favicon.ico',
+  logo: (isProduction? '/abiz-design':'')+'/images/logo.jpg',
   outputPath: 'docs-dist',
   base: '/abiz-design',
   publicPath: '/abiz-design/',
