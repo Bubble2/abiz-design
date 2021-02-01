@@ -11,12 +11,12 @@ group:
 ---
 
 
-<!-- ``` jsx
+``` jsx
 import React from 'react';
 import {ConfigProvider, Button} from '@abiz/rc-miccn';
 
 export default ()=>{
   return <ConfigProvider><Button>内贸站按钮</Button></ConfigProvider>
 }
-``` -->
+```
 

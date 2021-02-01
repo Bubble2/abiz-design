@@ -1,12 +1,11 @@
 {
-  "name": "@abiz/rc",
+  "name": "@abiz/rc-core",
   "version": "0.0.1",
   "description": "abiz react component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "start": "dumi dev",
     "build": "father-build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

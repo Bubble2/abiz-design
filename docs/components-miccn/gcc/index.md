@@ -11,12 +11,12 @@ group:
 ---
 
 
-<!-- ``` jsx
+``` jsx
 import React from 'react';
 import {Gcc} from '@abiz/rc-miccn';
 
 export default ()=>{
   return <Gcc>111按钮</Gcc> 
 }
-``` -->
+```
 

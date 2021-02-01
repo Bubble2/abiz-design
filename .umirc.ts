@@ -6,9 +6,8 @@ export default defineConfig({
   favicon: '/images/favicon.ico',
   logo: '/images/logo.jpg',
   outputPath: 'docs-dist',
-  base: 'http://git.vemic.com/abiz-fe/abiz-design/',
-  publicPath: 'http://git.vemic.com/abiz-fe/abiz-design/',
-  repo: 'http://git.vemic.com/abiz-fe/abiz-design.git', 
+  base: '/abiz-design/',
+  publicPath: 'http://abiz-fe.git.vemic.com/abiz-design/',
   mode: 'site',
   extraBabelPlugins: [
     ['babel-plugin-import', {
@@ -25,7 +24,7 @@ export default defineConfig({
   },
   alias: {
     '@abiz-rc-core': path.resolve(__dirname, 'packages/abiz-rc-core/src'),
-    'node_modules': path.resolve(__dirname, "packages/abiz-rc-core/node_modules")
+    'antd': path.resolve(__dirname, "packages/abiz-rc-core/node_modules/antd")
   }
   // more config: https://d.umijs.org/config
 });
