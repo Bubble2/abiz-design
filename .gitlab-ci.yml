@@ -1,17 +1,13 @@
 # This file is a template, and might need editing before it works on your project.
-# Full project: https://gitlab.com/pages/hexo
-image: node:10.15.3
-
+# Full project: https://gitlab.com/pages/plain-html
 pages:
-  script:
-    - npm install hexo-cli -g
-    - hexo generate
+  stage: deploy
+  # script:
+  #   - mkdir .public
+  #   - cp -r * .public
+  #   - mv .public public
   artifacts:
     paths:
       - docs-dist
-  cache:
-    paths:
-      - node_modules
-    key: project
   only:
     - master
