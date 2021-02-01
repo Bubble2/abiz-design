@@ -6,7 +6,7 @@ export default defineConfig({
   favicon: '/images/favicon.ico',
   logo: '/images/logo.jpg',
   outputPath: 'docs-dist',
-  base: 'http://abiz-fe.git.vemic.com/abiz-design/',
+  base: '/abiz-design/',
   publicPath: 'http://abiz-fe.git.vemic.com/abiz-design/',
   mode: 'site',
   extraBabelPlugins: [
