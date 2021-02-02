@@ -1,11 +1,11 @@
 {
   "name": "abiz-design",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "scripts": {
     "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
-    "publish": "lerna publish",
+    "publish": "lerna publish from-git",
     "start": "dumi dev",
     "docs:build": "dumi build --mode=production",
     "docs:deploy": "gh-pages -d . -r http://git.vemic.com/abiz-fe/abiz-design.git",
