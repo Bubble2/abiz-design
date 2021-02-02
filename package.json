@@ -5,7 +5,7 @@
     "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
-    "publish": "lerna publish from-git",
+    "publish": "lerna publish",
     "start": "dumi dev",
     "docs:build": "dumi build --mode=production",
     "docs:deploy": "gh-pages -d . -r http://git.vemic.com/abiz-fe/abiz-design.git",
