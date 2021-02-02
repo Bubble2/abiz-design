@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "abizd",
-  "version": "1.0.0",
+  "name": "abiz-design",
+  "version": "0.0.1",
   "scripts": {
     "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
     "bootstrap": "lerna bootstrap",

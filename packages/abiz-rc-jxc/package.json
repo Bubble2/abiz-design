@@ -1,7 +1,7 @@
 {
   "name": "@abiz/rc-jxc",
   "version": "0.0.1",
-  "description": "abiz react component",
+  "description": "jxc react component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "lib/index.d.ts",
