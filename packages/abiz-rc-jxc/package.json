@@ -1,6 +1,6 @@
 {
   "name": "@abiz/rc-jxc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "jxc react component",
   "keywords": [
     "abiz",
@@ -21,7 +21,7 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@abiz/rc-core": "^0.0.2"
+    "@abiz/rc-core": "^0.0.3"
   },
   "author": "guozhaodong",
   "license": "ISC",

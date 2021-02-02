@@ -6,13 +6,13 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "Button", {
   enumerable: true,
   get: function get() {
-    return _button.default;
+    return _rcCore.Button;
   }
 });
 Object.defineProperty(exports, "Gcc", {
   enumerable: true,
   get: function get() {
-    return _gcc.default;
+    return _rcCore.Gcc;
   }
 });
 Object.defineProperty(exports, "ConfigProvider", {
@@ -22,9 +22,7 @@ Object.defineProperty(exports, "ConfigProvider", {
   }
 });
 
-var _button = _interopRequireDefault(require("@abiz-rc-core/button"));
-
-var _gcc = _interopRequireDefault(require("@abiz-rc-core/gcc"));
+var _rcCore = require("@abiz/rc-core");
 
 var _configProvider = _interopRequireDefault(require("./configProvider"));
 

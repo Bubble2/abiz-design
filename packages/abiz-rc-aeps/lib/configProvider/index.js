@@ -7,7 +7,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _abizRcCore = require("@abiz-rc-core");
+var _rcCore = require("@abiz/rc-core");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21,7 +21,7 @@ var _default = function _default(_ref) {
   var children = _ref.children,
       otherPorps = _objectWithoutProperties(_ref, ["children"]);
 
-  return /*#__PURE__*/_react.default.createElement(_abizRcCore.ConfigProvider, _extends({
+  return /*#__PURE__*/_react.default.createElement(_rcCore.ConfigProvider, _extends({
     prefixCls: "aeps"
   }, otherPorps), children);
 };
