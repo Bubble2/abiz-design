@@ -2,12 +2,20 @@
   "name": "@abiz/rc-core",
   "version": "0.0.1",
   "description": "abiz core react component",
+  "keywords": [
+    "abiz",
+    "@abiz/rc-core",
+    "abiz-rc-core"
+  ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build": "father-build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "father-build"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "dependencies": {
     "@ant-design/icons": "^4.3.0",

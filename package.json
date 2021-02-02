@@ -1,6 +1,6 @@
 {
   "name": "abiz-design",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
     "bootstrap": "lerna bootstrap",
