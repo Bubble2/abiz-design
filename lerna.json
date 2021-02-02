@@ -1,13 +1,10 @@
 {
     "packages": ["packages/*"],
     "command": {
-      "version": {
-        "exact": true,
-        "allowBranch": "master",
-        "includeMergedTags": true
-      },
       "publish": {
-        "registry": "http://npm.focustech.vemic.com/"
+        "registry": "http://npm.focustech.vemic.com/",
+        "ignoreChanges": ["*.md"],
+        "message": "chore: publish"
       }
     },
     "version": "independent"

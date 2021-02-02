@@ -7,6 +7,9 @@
     "@abiz/rc-core",
     "abiz-rc-core"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "lib/index.d.ts",

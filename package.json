@@ -6,6 +6,8 @@
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
     "publish": "lerna publish",
+    "publish:git": "lerna publish from-git",
+    "publish:package": "lerna publish from-package",
     "start": "dumi dev",
     "docs:build": "dumi build --mode=production",
     "docs:deploy": "gh-pages -d . -r http://git.vemic.com/abiz-fe/abiz-design.git",
