@@ -1,5 +1,5 @@
 import React from 'react';
-import {ConfigProvider} from '@abiz-rc-core';
+import {ConfigProvider} from '@abiz/rc-core';
 
 export default ({children, ...otherPorps})=>{
     return (

@@ -25,5 +25,6 @@
     "antd": "^4.9.4"
   },
   "author": "guozhaodong",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "351ed9db3494d540d97cda47b3f21bcdf674f08d"
 }
