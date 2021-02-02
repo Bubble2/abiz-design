@@ -1,6 +1,5 @@
 {
   "name": "@abiz/rc-aeps",
-  "version": "0.0.1",
   "description": "aeps react component",
   "main": "lib/index.js",
   "module": "es/index.js",

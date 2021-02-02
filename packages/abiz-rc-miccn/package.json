@@ -1,6 +1,5 @@
 {
   "name": "@abiz/rc-miccn",
-  "version": "0.0.1",
   "description": "miccn react component",
   "main": "lib/index.js",
   "module": "es/index.js",
