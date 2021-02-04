@@ -5,9 +5,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+require("antd/es/layout/style/css");
 
-var _antd = require("antd");
+var _layout = _interopRequireDefault(require("antd/es/layout"));
+
+var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19,7 +21,7 @@ var _default = function _default(_ref) {
   var children = _ref.children,
       otherProps = _objectWithoutProperties(_ref, ["children"]);
 
-  return /*#__PURE__*/_react.default.createElement(_antd.Layout, otherProps, children);
+  return /*#__PURE__*/_react.default.createElement(_layout.default, otherProps, children);
 };
 
 exports.default = _default;

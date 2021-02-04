@@ -5,7 +5,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+require("antd/es/row/style/css");
 
-var _default = _antd.Row;
+var _row = _interopRequireDefault(require("antd/es/row"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _row.default;
 exports.default = _default;

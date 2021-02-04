@@ -7,6 +7,7 @@
     "@abiz/rc-aeps",
     "abiz-rc-aeps"
   ],
+  "javascriptEnabled": true,
   "publishConfig": {
     "access": "public"
   },

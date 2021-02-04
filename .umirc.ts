@@ -16,13 +16,18 @@ export default defineConfig({
       {
         libraryName: 'antd',
         libraryDirectory: 'es',
-        style: true,
+        style: 'css',
       },
     ],
   ],
-  // lessLoader:{
-  //   paths: [path.resolve(__dirname, "packages")],
-  // },
+  lessLoader:{
+    paths : [
+      path.join(__dirname, 'packages', '/abiz-rc-aeps/src'),
+      path.join(__dirname, 'packages', '/abiz-rc-core/src'),
+      path.join(__dirname, 'packages', '/abiz-rc-jxc/src'),
+      path.join(__dirname, 'packages', '/abiz-rc-miccn/src')  
+    ],
+  },
   resolve: {
     includes: ['docs'],
   },

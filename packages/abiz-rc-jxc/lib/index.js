@@ -20,6 +20,6 @@ var _button = _interopRequireDefault(require("./button"));
 
 var _configProvider = _interopRequireDefault(require("./configProvider"));
 
-require("./style/index.less");
+require("./style/index.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
