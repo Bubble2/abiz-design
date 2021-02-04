@@ -7,11 +7,5 @@
       "message": "chore: publish"
     }
   },
-  "pkgs": [
-    "abiz-rc-core",
-    "abiz-rc-aeps",
-    "abiz-rc-jxc",
-    "abiz-rc-miccn"
-  ],
   "version": "independent"
 }

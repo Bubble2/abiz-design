@@ -9,6 +9,12 @@ export default {
     type: 'babel',
     importLibToEs: true,
   },
+  pkgs: [
+    "abiz-rc-core",
+    "abiz-rc-aeps",
+    "abiz-rc-jxc",
+    "abiz-rc-miccn"
+  ],
   lessInBabelMode: {
     paths : [
       path.join(__dirname, 'packages', '/abiz-rc-aeps/src'),
