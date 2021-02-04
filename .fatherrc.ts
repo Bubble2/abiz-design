@@ -9,16 +9,6 @@ export default {
     type: 'babel',
     importLibToEs: true,
   },
-  extraBabelPlugins: [
-    [
-      'babel-plugin-import',
-      {
-        libraryName: 'antd',
-        libraryDirectory: 'es',
-        style: 'css',
-      },
-    ],
-  ],
   lessInBabelMode: {
     paths : [
       path.join(__dirname, 'packages', '/abiz-rc-aeps/src'),

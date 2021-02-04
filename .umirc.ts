@@ -10,24 +10,16 @@ export default defineConfig({
   base: '/abiz-design',
   publicPath: '/abiz-design/',
   mode: 'site',
-  extraBabelPlugins: [
-    [
-      'babel-plugin-import',
-      {
-        libraryName: 'antd',
-        libraryDirectory: 'es',
-        style: 'css',
-      },
-    ],
-  ],
-  lessLoader:{
-    paths : [
-      path.join(__dirname, 'packages', '/abiz-rc-aeps/src'),
-      path.join(__dirname, 'packages', '/abiz-rc-core/src'),
-      path.join(__dirname, 'packages', '/abiz-rc-jxc/src'),
-      path.join(__dirname, 'packages', '/abiz-rc-miccn/src')  
-    ],
-  },
+  // extraBabelPlugins: [
+  //   [
+  //     'babel-plugin-import',
+  //     {
+  //       libraryName: 'antd',
+  //       libraryDirectory: 'es',
+  //       style: true,
+  //     },
+  //   ],
+  // ],
   resolve: {
     includes: ['docs'],
   },
