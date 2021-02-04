@@ -1,1 +1,1 @@
-# @abiz/rc-jxc  小优采react组件库
+# @abiz/rc-jxc 小优采 react 组件库

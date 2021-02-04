@@ -12,7 +12,7 @@ features:
     title: 简单易用
     desc: 在 `antd` 基础上封装<br/> 即拿即用
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziik0f/487a2685-8f68-4c34-824f-e34c171d0dfd_w96_h96.png
-    title:  Ant Design
+    title: Ant Design
     desc: 与 `antd` 写法一致<br/> 当前对应版本 `4.8.0`
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
     title: Feature 3

@@ -2,18 +2,20 @@
   "name": "abiz-design",
   "version": "0.0.1",
   "scripts": {
-    "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
-    "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
+    "bootstrap": "lerna bootstrap",
+    "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
+
     "publish": "lerna publish",
     "publish:git": "lerna publish from-git",
     "publish:package": "lerna publish from-package",
+
     "start": "dumi dev",
     "docs:build": "dumi build --mode=production",
-    "docs:deploy": "gh-pages -d . -r http://git.vemic.com/abiz-fe/abiz-design.git",
+
     "build": "father-build",
-    "deploy": "npm run docs:build && npm run docs:deploy",
-    "release": "npm run build && npm publish",
+    "release": "npm run build && npm run publish",
+
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:update": "umi-test --updateSnapshot",

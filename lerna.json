@@ -1,11 +1,17 @@
 {
-    "packages": ["packages/*"],
-    "command": {
-      "publish": {
-        "registry": "http://npm.focustech.vemic.com/",
-        "ignoreChanges": ["*.md"],
-        "message": "chore: publish"
-      }
-    },
-    "version": "independent"
-  }
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "registry": "http://npm.focustech.vemic.com/",
+      "ignoreChanges": ["*.md"],
+      "message": "chore: publish"
+    }
+  },
+  "pkgs": [
+    "abiz-rc-core",
+    "abiz-rc-aeps",
+    "abiz-rc-jxc",
+    "abiz-rc-miccn"
+  ],
+  "version": "independent"
+}

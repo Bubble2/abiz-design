@@ -5,10 +5,10 @@
  */
 
 import React from 'react';
-import {ConfigProvider, Button} from '@abiz/rc-miccn';
+import { ConfigProvider, Button } from '@abiz/rc-miccn';
 
-export default ()=>{
-  return(
+export default () => {
+  return (
     <ConfigProvider>
       <Button type="primary" block>
         Primary
@@ -21,6 +21,6 @@ export default ()=>{
         Link
       </Button>
     </ConfigProvider>
-  )
-}
+  );
+};
 ```

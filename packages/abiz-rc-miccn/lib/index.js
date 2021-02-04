@@ -6,13 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "Button", {
   enumerable: true,
   get: function get() {
-    return _rcCore.Button;
-  }
-});
-Object.defineProperty(exports, "Gcc", {
-  enumerable: true,
-  get: function get() {
-    return _rcCore.Gcc;
+    return _button.default;
   }
 });
 Object.defineProperty(exports, "ConfigProvider", {
@@ -22,7 +16,7 @@ Object.defineProperty(exports, "ConfigProvider", {
   }
 });
 
-var _rcCore = require("@abiz/rc-core");
+var _button = _interopRequireDefault(require("./button"));
 
 var _configProvider = _interopRequireDefault(require("./configProvider"));
 

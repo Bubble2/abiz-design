@@ -1,1 +1,1 @@
-# @abiz/rc-miccn  内贸站react组件库
+# @abiz/rc-miccn 内贸站 react 组件库

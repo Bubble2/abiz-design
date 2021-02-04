@@ -5,5 +5,6 @@ export default {
   esm: {
     type: 'babel',
     importLibToEs: true,
-  }
+  },
+  // lessInBabelMode: true
 };

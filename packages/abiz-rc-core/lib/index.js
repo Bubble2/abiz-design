@@ -9,10 +9,10 @@ Object.defineProperty(exports, "Button", {
     return _button.default;
   }
 });
-Object.defineProperty(exports, "Gcc", {
+Object.defineProperty(exports, "Grid", {
   enumerable: true,
   get: function get() {
-    return _gcc.default;
+    return _grid.default;
   }
 });
 Object.defineProperty(exports, "Row", {
@@ -36,14 +36,12 @@ Object.defineProperty(exports, "ConfigProvider", {
 
 var _button = _interopRequireDefault(require("./button"));
 
-var _gcc = _interopRequireDefault(require("./gcc"));
+var _grid = _interopRequireDefault(require("./grid"));
 
 var _row = _interopRequireDefault(require("./row"));
 
 var _col = _interopRequireDefault(require("./col"));
 
 var _configProvider = _interopRequireDefault(require("./configProvider"));
-
-require("./style/index.less");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
