@@ -1,1 +1,1 @@
-# @abiz/rc-core  百卓react组件库核心库
+# @abiz/rc-core 百卓 react 组件库核心库

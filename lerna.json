@@ -1,11 +1,11 @@
 {
-    "packages": ["packages/*"],
-    "command": {
-      "publish": {
-        "registry": "http://npm.focustech.vemic.com/",
-        "ignoreChanges": ["*.md"],
-        "message": "chore: publish"
-      }
-    },
-    "version": "independent"
-  }
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "registry": "http://npm.focustech.vemic.com/",
+      "ignoreChanges": ["*.md", "src/*"],
+      "message": "chore: publish"
+    }
+  },
+  "version": "independent"
+}

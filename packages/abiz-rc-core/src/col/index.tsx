@@ -1,4 +1,4 @@
 import React from 'react';
-import {Col} from 'antd';
+import { Col } from 'antd';
 
-export default Col
+export default Col;

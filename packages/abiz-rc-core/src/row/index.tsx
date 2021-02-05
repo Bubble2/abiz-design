@@ -1,4 +1,4 @@
 import React from 'react';
-import {Row} from 'antd';
+import { Row } from 'antd';
 
-export default Row
+export default Row;

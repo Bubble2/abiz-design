@@ -10,13 +10,15 @@ group:
   title: 组件
 ---
 
-
-``` jsx
+```jsx
 import React from 'react';
-import {ConfigProvider, Button} from '@abiz/rc-jxc';
+import { ConfigProvider, Button } from '@abiz/rc-jxc';
 
-export default ()=>{
-  return <ConfigProvider><Button>小优采按钮</Button></ConfigProvider>
-}
+export default () => {
+  return (
+    <ConfigProvider>
+      <Button>小优采按钮</Button>
+    </ConfigProvider>
+  );
+};
 ```
-

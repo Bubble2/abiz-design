@@ -1,3 +1,5 @@
+import path from 'path';
+
 export default {
   // target: 'node',
   disableTypeCheck: true,
@@ -5,5 +7,20 @@ export default {
   esm: {
     type: 'babel',
     importLibToEs: true,
+  },
+  pkgs: [
+    "abiz-rc-core",
+    "abiz-rc-aeps",
+    "abiz-rc-jxc",
+    "abiz-rc-miccn"
+  ],
+  lessInBabelMode: {
+    paths : [
+      path.join(__dirname, 'packages', '/abiz-rc-aeps/src'),
+      path.join(__dirname, 'packages', '/abiz-rc-core/src'),
+      path.join(__dirname, 'packages', '/abiz-rc-jxc/src'),
+      path.join(__dirname, 'packages', '/abiz-rc-miccn/src')  
+    ],
+    javascriptEnabled: true
   }
 };

@@ -1,9 +1,5 @@
-import {Col} from '@abiz-rc-core'
+import { Col } from '@abiz-rc-core';
 
-export default ({ children, ...props}) => {
-  return (
-    <Col {...props}>
-      {children}
-    </Col>
-  );
+export default ({ children, ...props }) => {
+  return <Col {...props}>{children}</Col>;
 };

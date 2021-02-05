@@ -1,10 +1,13 @@
 import React from 'react';
-import {ConfigProvider} from '@abiz/rc-core';
+import { ConfigProvider } from '@abiz/rc-core';
 
-export default ({children, ...otherPorps})=>{
+export default class extends React.Component {
+  render(){
+    const { children, ...otherProps } = this.props;
     return (
-        <ConfigProvider prefixCls="jxc" {...otherPorps}>
-            {children}
-        </ConfigProvider>
-    )
-}
+      <ConfigProvider prefixCls="jxc" {...otherProps}>
+        {children}
+      </ConfigProvider>
+    );
+  }
+};

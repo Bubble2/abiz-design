@@ -1,10 +1,4 @@
 import React from 'react';
-import {ConfigProvider} from 'antd';
+import { ConfigProvider } from 'antd';
 
-export default ({children, ...otherPorps})=>{
-    return (
-        <ConfigProvider {...otherPorps}>
-            {children}
-        </ConfigProvider>
-    )
-}
+export default ConfigProvider

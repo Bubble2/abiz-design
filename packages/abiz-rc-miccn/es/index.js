@@ -1,4 +1,3 @@
-export { Button } from '@abiz/rc-core';
-export { Gcc } from '@abiz/rc-core';
+export { default as Button } from './button';
 export { default as ConfigProvider } from './configProvider';
-import './style/index.less';
+import "./style/index.css";
