@@ -1,5 +1,5 @@
-import { Col } from '@abiz-rc-core';
+import {ConfigProvider, Col } from '@abiz/rc-core';
 
 export default ({ children, ...props }) => {
-  return <Col {...props}>{children}</Col>;
+  return <ConfigProvider><Col {...props}>{children}</Col></ConfigProvider>;
 };

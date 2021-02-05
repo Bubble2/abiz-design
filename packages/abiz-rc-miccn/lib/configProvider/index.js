@@ -17,13 +17,14 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
-var _default = function _default(_ref) {
+var _default = /*#__PURE__*/_react.default.forwardRef(function (_ref, ref) {
   var children = _ref.children,
       otherProps = _objectWithoutProperties(_ref, ["children"]);
 
   return /*#__PURE__*/_react.default.createElement(_rcCore.ConfigProvider, _extends({
-    prefixCls: "miccn"
+    prefixCls: "miccn",
+    forwardedRef: ref
   }, otherProps), children);
-};
+});
 
 exports.default = _default;
