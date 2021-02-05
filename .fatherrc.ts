@@ -1,6 +1,5 @@
 import path from 'path';
 
-console.log('nsaidhasoidjsaoidj',path.join(__dirname, 'packages', '/abiz-rc-aeps/src'))
 export default {
   // target: 'node',
   disableTypeCheck: true,
