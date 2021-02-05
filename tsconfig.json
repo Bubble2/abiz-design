@@ -1,22 +1,19 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "jsx": "react",
-    "esModuleInterop": true,
-    "sourceMap": true,
     "baseUrl": "./",
-    // "strict": true,
-    "declaration": true,
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"],
-      "@packages": ["packages/*"],
-      "@abiz-rc-core": ["packages/abiz-rc-core/src/*"]
+      "@packages": ["packages/*"]
     },
-    "allowSyntheticDefaultImports": true
+    "declaration": true,
+    "declarationMap": true, 
+    "allowJs": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "target": "esnext"
   },
   "include": ["./typings.d.ts", "./packages/**/*.tsx", "./packages/**/*.ts"],
   "exclude": [

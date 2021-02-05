@@ -1,6 +1,6 @@
 {
   "name": "@abiz/rc-miccn",
-  "version": "^0.0.1-alpha.0",
+  "version": "0.0.1-alpha.2",
   "description": "miccn react component",
   "keywords": [
     "abiz",
@@ -21,9 +21,9 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@abiz/rc-core": "^0.0.1-alpha.0"
+    "@abiz/rc-core": "^0.0.1-alpha.2"
   },
   "author": "guozhaodong",
   "license": "ISC",
-  "gitHead": "351ed9db3494d540d97cda47b3f21bcdf674f08d"
+  "gitHead": "75ce07a7bf26d57199271ec26b96c81173a7a713"
 }

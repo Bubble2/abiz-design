@@ -1,13 +1,12 @@
 {
-  "name": "@abiz/rc-aeps",
-  "version": "0.0.1-alpha.2",
-  "description": "aeps react component",
+  "name": "@abiz/icons",
+  "version": "0.0.1-alpha.1",
+  "description": "abiz icon react component",
   "keywords": [
     "abiz",
-    "@abiz/rc-aeps",
-    "abiz-rc-aeps"
+    "@abiz/icons",
+    "abiz-icons"
   ],
-  "javascriptEnabled": true,
   "publishConfig": {
     "access": "public"
   },
@@ -22,9 +21,8 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@abiz/rc-core": "^0.0.1-alpha.2"
+    "@ant-design/icons": "^4.3.0"
   },
   "author": "guozhaodong",
-  "license": "ISC",
-  "gitHead": "75ce07a7bf26d57199271ec26b96c81173a7a713"
+  "license": "ISC"
 }

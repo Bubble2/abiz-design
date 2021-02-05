@@ -6,11 +6,12 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 import React from 'react';
 import { ConfigProvider } from '@abiz/rc-core';
-export default (function (_ref) {
+export default /*#__PURE__*/React.forwardRef(function (_ref, ref) {
   var children = _ref.children,
-      otherPorps = _objectWithoutProperties(_ref, ["children"]);
+      otherProps = _objectWithoutProperties(_ref, ["children"]);
 
   return /*#__PURE__*/React.createElement(ConfigProvider, _extends({
-    prefixCls: "aeps"
-  }, otherPorps), children);
+    prefixCls: "aeps",
+    forwardedRef: ref
+  }, otherProps), children);
 });

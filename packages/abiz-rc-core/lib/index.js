@@ -44,4 +44,6 @@ var _col = _interopRequireDefault(require("./col"));
 
 var _configProvider = _interopRequireDefault(require("./configProvider"));
 
+require("./style/index.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
