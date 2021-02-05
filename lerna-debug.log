@@ -1,21 +1,70 @@
-38 error Error: Command failed: git add -- packages/abiz-rc-core/package.json packages/abiz-rc-core/package-lock.json packages/abiz-rc-miccn/package.json packages/abiz-rc-miccn/package-lock.json packages/abiz-rc-aeps/package.json packages/abiz-rc-aeps/package-lock.json packages/abiz-rc-jxc/package.json packages/abiz-rc-jxc/package-lock.json
-38 error warning: LF will be replaced by CRLF in packages/abiz-rc-aeps/package-lock.json.
-38 error The file will have its original line endings in your working directory
-38 error warning: LF will be replaced by CRLF in packages/abiz-rc-aeps/package.json.
-38 error The file will have its original line endings in your working directory
-38 error warning: LF will be replaced by CRLF in packages/abiz-rc-core/package.json.
-38 error The file will have its original line endings in your working directory
-38 error warning: LF will be replaced by CRLF in packages/abiz-rc-jxc/package-lock.json.
-38 error The file will have its original line endings in your working directory
-38 error warning: LF will be replaced by CRLF in packages/abiz-rc-jxc/package.json.
-38 error The file will have its original line endings in your working directory
-38 error warning: LF will be replaced by CRLF in packages/abiz-rc-miccn/package-lock.json.
-38 error The file will have its original line endings in your working directory
-38 error warning: LF will be replaced by CRLF in packages/abiz-rc-miccn/package.json.
-38 error The file will have its original line endings in your working directory
-38 error The following paths are ignored by one of your .gitignore files:
-38 error packages/abiz-rc-core/package-lock.json
-38 error Use -f if you really want to add them.
-38 error
-38 error     at makeError (D:\git\abiz-design\node_modules\@lerna\child-process\node_modules\execa\index.js:174:9)
-38 error     at Promise.all.then.arr (D:\git\abiz-design\node_modules\@lerna\child-process\node_modules\execa\index.js:278:16)
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   bump: 'from-package' }
+1 notice cli v3.22.1
+2 verbose rootPath D:\git\abiz-design
+3 info versioning independent
+4 verbose session 282644fbb5105c27
+5 verbose user-agent lerna/3.22.1/node@v10.16.3+x64 (win32)
+6 verbose git-describe undefined => "@abiz/rc-aeps@0.0.9-alpha.0-3-g75ce07a"
+7 silly git-describe parsed => {"lastTagName":"@abiz/rc-aeps@0.0.9-alpha.0","lastVersion":"0.0.9-alpha.0","refCount":"3","sha":"75ce07a","isDirty":false}
+8 silly getUnpublishedPackages
+9 warn Unable to determine published version, assuming "@abiz/rc-aeps" unpublished.
+10 warn Unable to determine published version, assuming "@abiz/rc-core" unpublished.
+11 warn Unable to determine published version, assuming "@abiz/rc-jxc" unpublished.
+12 warn Unable to determine published version, assuming "@abiz/rc-miccn" unpublished.
+13 info publish Publishing packages to npm...
+14 notice Skipping all user and access validation due to third-party registry
+15 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+16 warn ENOLICENSE Packages @abiz/rc-aeps, @abiz/rc-core, @abiz/rc-jxc, and @abiz/rc-miccn are missing a license.
+16 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+16 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+17 silly getCurrentSHA
+18 verbose getCurrentSHA 75ce07a7bf26d57199271ec26b96c81173a7a713
+19 silly lifecycle No script for "prepublish" in "abiz-design", continuing
+20 silly lifecycle No script for "prepare" in "abiz-design", continuing
+21 silly lifecycle No script for "prepublishOnly" in "abiz-design", continuing
+22 silly lifecycle No script for "prepack" in "abiz-design", continuing
+23 verbose pack-directory packages\abiz-rc-aeps
+24 verbose pack-directory packages\abiz-rc-core
+25 verbose pack-directory packages\abiz-rc-jxc
+26 verbose pack-directory packages\abiz-rc-miccn
+27 silly lifecycle No script for "prepublish" in "@abiz/rc-aeps", continuing
+28 silly lifecycle No script for "prepublish" in "@abiz/rc-core", continuing
+29 silly lifecycle No script for "prepublish" in "@abiz/rc-jxc", continuing
+30 silly lifecycle No script for "prepublish" in "@abiz/rc-miccn", continuing
+31 silly lifecycle No script for "prepare" in "@abiz/rc-aeps", continuing
+32 silly lifecycle No script for "prepare" in "@abiz/rc-core", continuing
+33 silly lifecycle No script for "prepare" in "@abiz/rc-jxc", continuing
+34 silly lifecycle No script for "prepare" in "@abiz/rc-miccn", continuing
+35 silly lifecycle No script for "prepublishOnly" in "@abiz/rc-aeps", continuing
+36 silly lifecycle No script for "prepublishOnly" in "@abiz/rc-core", continuing
+37 silly lifecycle No script for "prepublishOnly" in "@abiz/rc-miccn", continuing
+38 silly lifecycle No script for "prepublishOnly" in "@abiz/rc-jxc", continuing
+39 silly lifecycle No script for "prepack" in "@abiz/rc-aeps", continuing
+40 silly lifecycle No script for "prepack" in "@abiz/rc-core", continuing
+41 silly lifecycle No script for "prepack" in "@abiz/rc-miccn", continuing
+42 silly lifecycle No script for "prepack" in "@abiz/rc-jxc", continuing
+43 silly lifecycle No script for "postpack" in "@abiz/rc-aeps", continuing
+44 verbose packed packages\abiz-rc-aeps
+45 silly lifecycle No script for "postpack" in "@abiz/rc-jxc", continuing
+46 verbose packed packages\abiz-rc-jxc
+47 silly lifecycle No script for "postpack" in "@abiz/rc-miccn", continuing
+48 verbose packed packages\abiz-rc-miccn
+49 silly lifecycle No script for "postpack" in "@abiz/rc-core", continuing
+50 verbose packed packages\abiz-rc-core
+51 silly lifecycle No script for "postpack" in "abiz-design", continuing
+52 verbose publish @abiz/rc-aeps
+53 verbose publish @abiz/rc-core
+54 verbose publish @abiz/rc-jxc
+55 verbose publish @abiz/rc-miccn
+56 error Error: Invalid version: "^0.0.1-alpha.0"
+56 error     at Object.fixVersionField (D:\git\abiz-design\node_modules\normalize-package-data\lib\fixer.js:191:13)
+56 error     at D:\git\abiz-design\node_modules\normalize-package-data\lib\normalize.js:32:38
+56 error     at Array.forEach (<anonymous>)
+56 error     at normalize (D:\git\abiz-design\node_modules\normalize-package-data\lib\normalize.js:31:15)
+56 error     at final (D:\git\abiz-design\node_modules\read-package-json\read-json.js:424:5)
+56 error     at then (D:\git\abiz-design\node_modules\read-package-json\read-json.js:156:5)
+56 error     at D:\git\abiz-design\node_modules\read-package-json\read-json.js:276:12
