@@ -4,7 +4,8 @@
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"],
-      "@packages": ["packages/*"]
+      "@packages": ["packages/*"],
+      "@abiz/rc-core": ["packages/abiz-rc-core/src"]
     },
     "declaration": true,
     "declarationMap": true, 

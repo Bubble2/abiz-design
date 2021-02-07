@@ -28,6 +28,7 @@ export default defineConfig({
     '@abiz-rc-miccn': path.resolve(__dirname, 'packages/abiz-rc-miccn/src'),
     '@abiz-rc-aeps': path.resolve(__dirname, 'packages/abiz-rc-aeps/src'),
     '@abiz-rc-jxc': path.resolve(__dirname, 'packages/abiz-rc-jxc/src'),
+    '@docs-common': path.resolve(__dirname, 'docs-common'),
     'antd': path.resolve(__dirname, 'packages/abiz-rc-core/node_modules/antd'),
     'miccn-antd': path.resolve(__dirname, 'packages/abiz-rc-miccn/node_modules/@abiz/rc-core/node_modules/antd'),
     'aeps-antd': path.resolve(__dirname, 'packages/abiz-rc-aeps/node_modules/@abiz/rc-core/node_modules/antd'),
