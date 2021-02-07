@@ -16,7 +16,8 @@
     "test": "umi-test",
     "test:update": "umi-test --updateSnapshot",
     "test:coverage": "umi-test --coverage",
-    "fix-memory-limit": "cross-env LIMIT=4096 increase-memory-limit"
+    "fix-memory-limit": "cross-env LIMIT=4096 increase-memory-limit",
+    "link": "lerna link"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
