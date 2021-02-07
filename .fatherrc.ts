@@ -9,6 +9,7 @@ export default {
     importLibToEs: true,
   },
   pkgs: [
+    "abiz-icons",
     "abiz-rc-core",
     "abiz-rc-aeps",
     "abiz-rc-jxc",
@@ -16,8 +17,9 @@ export default {
   ],
   lessInBabelMode: {
     paths : [
-      path.join(__dirname, 'packages', '/abiz-rc-aeps/src'),
+      path.join(__dirname, 'packages', '/abiz-icons/src'),
       path.join(__dirname, 'packages', '/abiz-rc-core/src'),
+      path.join(__dirname, 'packages', '/abiz-rc-aeps/src'),
       path.join(__dirname, 'packages', '/abiz-rc-jxc/src'),
       path.join(__dirname, 'packages', '/abiz-rc-miccn/src')  
     ],
