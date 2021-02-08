@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _carousel = _interopRequireDefault(require("antd/lib/carousel"));
 
-var _default = _antd.Carousel;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _carousel.default;
 exports.default = _default;

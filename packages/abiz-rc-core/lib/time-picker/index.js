@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _timePicker = _interopRequireDefault(require("antd/lib/time-picker"));
 
-var _default = _antd.TimePicker;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _timePicker.default;
 exports.default = _default;

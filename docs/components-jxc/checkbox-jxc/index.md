@@ -23,7 +23,7 @@ group:
 
 <Row gutter=8>
 <Col span=12>
-  <embed src="@abiz-rc-jxc/checkbox/demo/index.md"></embed>
+  <!-- <embed src="@abiz-rc-jxc/checkbox/demo/index.md"></embed> -->
   
 </Col> 
 <Col span=12>

@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _tooltip = _interopRequireDefault(require("antd/lib/tooltip"));
 
-var _default = _antd.Tooltip;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _tooltip.default;
 exports.default = _default;

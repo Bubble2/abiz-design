@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _radio = _interopRequireDefault(require("antd/lib/radio"));
 
-var _default = _antd.Radio;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _radio.default;
 exports.default = _default;

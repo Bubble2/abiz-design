@@ -1,2 +1,2 @@
-import { Drawer } from 'antd';
-export default Drawer;
+import _Drawer from "antd/es/drawer";
+export default _Drawer;

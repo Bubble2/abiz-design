@@ -1,2 +1,2 @@
-import { AutoComplete } from 'antd';
-export default AutoComplete;
+import _AutoComplete from "antd/es/auto-complete";
+export default _AutoComplete;

@@ -1,2 +1,2 @@
-import { Button } from 'antd';
-export default Button;
+import _Button from "antd/es/button";
+export default _Button;

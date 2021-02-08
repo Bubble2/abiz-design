@@ -10,29 +10,51 @@ export default defineConfig({
   base: '/abiz-design',
   publicPath: '/abiz-design/',
   mode: 'site',
-  // extraBabelPlugins: [
-  //   [
-  //     'babel-plugin-import',
-  //     {
-  //       libraryName: 'antd',
-  //       libraryDirectory: 'es',
-  //       style: true,
-  //     },
-  //   ],
-  // ],
+  extraBabelPlugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: '@abiz/rc-aeps',
+        libraryDirectory: 'es',
+        style: (name) => `${name}/style/index`
+      },
+      '@abiz/rc-aeps'
+    ],
+    [
+      'babel-plugin-import',
+      {
+        libraryName: '@abiz/rc-jxc',
+        libraryDirectory: 'es',
+        style: (name) => `${name}/style/index`
+      },
+      '@abiz/rc-jxc'
+    ],
+    [
+      'babel-plugin-import',
+      {
+        libraryName: '@abiz/rc-miccn',
+        libraryDirectory: 'es',
+        style: (name) => `${name}/style/index`
+      },
+      '@abiz/rc-miccn'
+    ]
+  ],
   resolve: {
     includes: ['docs'],
+  },
+  lessLoader: {
+    paths : [
+      path.join(__dirname, 'packages/abiz-rc-jxc/node_modules/', '@abiz/rc-core'),
+      path.join(__dirname, 'packages/abiz-rc-aeps/node_modules/', '@abiz/rc-core'),
+      path.join(__dirname, 'packages/abiz-rc-miccn/node_modules/', '@abiz/rc-core')  
+    ],
   },
   alias: {
     '@abiz-rc-core': path.resolve(__dirname, 'packages/abiz-rc-core/src'),
     '@abiz-rc-miccn': path.resolve(__dirname, 'packages/abiz-rc-miccn/src'),
     '@abiz-rc-aeps': path.resolve(__dirname, 'packages/abiz-rc-aeps/src'),
     '@abiz-rc-jxc': path.resolve(__dirname, 'packages/abiz-rc-jxc/src'),
-    '@docs-common': path.resolve(__dirname, 'docs-common'),
-    'antd': path.resolve(__dirname, 'packages/abiz-rc-core/node_modules/antd'),
-    'miccn-antd': path.resolve(__dirname, 'packages/abiz-rc-miccn/node_modules/@abiz/rc-core/node_modules/antd'),
-    'aeps-antd': path.resolve(__dirname, 'packages/abiz-rc-aeps/node_modules/@abiz/rc-core/node_modules/antd'),
-    'jxc-antd': path.resolve(__dirname, 'packages/abiz-rc-jxc/node_modules/@abiz/rc-core/node_modules/antd'),
+    '@docs-common': path.resolve(__dirname, 'docs-common')
   },
   styles: [
     `[class$="-previewer-demo"] [class*="-btn"]{

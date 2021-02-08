@@ -1,2 +1,2 @@
-import { Affix } from 'antd';
-export default Affix;
+import _Affix from "antd/es/affix";
+export default _Affix;

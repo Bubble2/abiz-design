@@ -1,0 +1,252 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-skeleton {
+  display: table;
+  width: 100%;
+}
+.miccn-skeleton-header {
+  display: table-cell;
+  padding-right: 16px;
+  vertical-align: top;
+}
+.miccn-skeleton-header .miccn-skeleton-avatar {
+  display: inline-block;
+  vertical-align: top;
+  background: rgba(190, 190, 190, 0.2);
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+.miccn-skeleton-header .miccn-skeleton-avatar.miccn-skeleton-avatar-circle {
+  border-radius: 50%;
+}
+.miccn-skeleton-header .miccn-skeleton-avatar-lg {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.miccn-skeleton-header .miccn-skeleton-avatar-lg.miccn-skeleton-avatar-circle {
+  border-radius: 50%;
+}
+.miccn-skeleton-header .miccn-skeleton-avatar-sm {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+.miccn-skeleton-header .miccn-skeleton-avatar-sm.miccn-skeleton-avatar-circle {
+  border-radius: 50%;
+}
+.miccn-skeleton-content {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+}
+.miccn-skeleton-content .miccn-skeleton-title {
+  width: 100%;
+  height: 16px;
+  margin-top: 16px;
+  background: rgba(190, 190, 190, 0.2);
+  border-radius: 4px;
+}
+.miccn-skeleton-content .miccn-skeleton-title + .miccn-skeleton-paragraph {
+  margin-top: 24px;
+}
+.miccn-skeleton-content .miccn-skeleton-paragraph {
+  padding: 0;
+}
+.miccn-skeleton-content .miccn-skeleton-paragraph > li {
+  width: 100%;
+  height: 16px;
+  list-style: none;
+  background: rgba(190, 190, 190, 0.2);
+  border-radius: 4px;
+}
+.miccn-skeleton-content .miccn-skeleton-paragraph > li:last-child:not(:first-child):not(:nth-child(2)) {
+  width: 61%;
+}
+.miccn-skeleton-content .miccn-skeleton-paragraph > li + li {
+  margin-top: 16px;
+}
+.miccn-skeleton-with-avatar .miccn-skeleton-content .miccn-skeleton-title {
+  margin-top: 12px;
+}
+.miccn-skeleton-with-avatar .miccn-skeleton-content .miccn-skeleton-title + .miccn-skeleton-paragraph {
+  margin-top: 28px;
+}
+.miccn-skeleton-round .miccn-skeleton-content .miccn-skeleton-title,
+.miccn-skeleton-round .miccn-skeleton-content .miccn-skeleton-paragraph > li {
+  border-radius: 100px;
+}
+.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-content .miccn-skeleton-title,
+.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-content .miccn-skeleton-paragraph > li {
+  background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
+  background-size: 400% 100%;
+  animation: miccn-skeleton-loading 1.4s ease infinite;
+}
+.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-avatar {
+  background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
+  background-size: 400% 100%;
+  animation: miccn-skeleton-loading 1.4s ease infinite;
+}
+.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-button {
+  background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
+  background-size: 400% 100%;
+  animation: miccn-skeleton-loading 1.4s ease infinite;
+}
+.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-input {
+  background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
+  background-size: 400% 100%;
+  animation: miccn-skeleton-loading 1.4s ease infinite;
+}
+.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-image {
+  background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
+  background-size: 400% 100%;
+  animation: miccn-skeleton-loading 1.4s ease infinite;
+}
+.miccn-skeleton-element {
+  display: inline-block;
+  width: auto;
+}
+.miccn-skeleton-element .miccn-skeleton-button {
+  display: inline-block;
+  vertical-align: top;
+  background: rgba(190, 190, 190, 0.2);
+  border-radius: 2px;
+  width: 64px;
+  height: 32px;
+  line-height: 32px;
+}
+.miccn-skeleton-element .miccn-skeleton-button.miccn-skeleton-button-circle {
+  width: 32px;
+  border-radius: 50%;
+}
+.miccn-skeleton-element .miccn-skeleton-button.miccn-skeleton-button-round {
+  border-radius: 32px;
+}
+.miccn-skeleton-element .miccn-skeleton-button-lg {
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+}
+.miccn-skeleton-element .miccn-skeleton-button-lg.miccn-skeleton-button-circle {
+  width: 40px;
+  border-radius: 50%;
+}
+.miccn-skeleton-element .miccn-skeleton-button-lg.miccn-skeleton-button-round {
+  border-radius: 40px;
+}
+.miccn-skeleton-element .miccn-skeleton-button-sm {
+  width: 48px;
+  height: 24px;
+  line-height: 24px;
+}
+.miccn-skeleton-element .miccn-skeleton-button-sm.miccn-skeleton-button-circle {
+  width: 24px;
+  border-radius: 50%;
+}
+.miccn-skeleton-element .miccn-skeleton-button-sm.miccn-skeleton-button-round {
+  border-radius: 24px;
+}
+.miccn-skeleton-element .miccn-skeleton-avatar {
+  display: inline-block;
+  vertical-align: top;
+  background: rgba(190, 190, 190, 0.2);
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+.miccn-skeleton-element .miccn-skeleton-avatar.miccn-skeleton-avatar-circle {
+  border-radius: 50%;
+}
+.miccn-skeleton-element .miccn-skeleton-avatar-lg {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.miccn-skeleton-element .miccn-skeleton-avatar-lg.miccn-skeleton-avatar-circle {
+  border-radius: 50%;
+}
+.miccn-skeleton-element .miccn-skeleton-avatar-sm {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+.miccn-skeleton-element .miccn-skeleton-avatar-sm.miccn-skeleton-avatar-circle {
+  border-radius: 50%;
+}
+.miccn-skeleton-element .miccn-skeleton-input {
+  display: inline-block;
+  vertical-align: top;
+  background: rgba(190, 190, 190, 0.2);
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+}
+.miccn-skeleton-element .miccn-skeleton-input-lg {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+.miccn-skeleton-element .miccn-skeleton-input-sm {
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+}
+.miccn-skeleton-element .miccn-skeleton-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  background: rgba(190, 190, 190, 0.2);
+  width: 96px;
+  height: 96px;
+  line-height: 96px;
+}
+.miccn-skeleton-element .miccn-skeleton-image.miccn-skeleton-image-circle {
+  border-radius: 50%;
+}
+.miccn-skeleton-element .miccn-skeleton-image-path {
+  fill: #bfbfbf;
+}
+.miccn-skeleton-element .miccn-skeleton-image-svg {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  max-width: 192px;
+  max-height: 192px;
+}
+.miccn-skeleton-element .miccn-skeleton-image-svg.miccn-skeleton-image-circle {
+  border-radius: 50%;
+}
+@keyframes miccn-skeleton-loading {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.miccn-skeleton-rtl {
+  direction: rtl;
+}
+.miccn-skeleton-rtl .miccn-skeleton-header {
+  padding-right: 0;
+  padding-left: 16px;
+}
+.miccn-skeleton-rtl.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-content .miccn-skeleton-title,
+.miccn-skeleton-rtl.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-content .miccn-skeleton-paragraph > li {
+  animation-name: miccn-skeleton-loading-rtl;
+}
+.miccn-skeleton-rtl.miccn-skeleton.miccn-skeleton-active .miccn-skeleton-avatar {
+  animation-name: miccn-skeleton-loading-rtl;
+}
+@keyframes miccn-skeleton-loading-rtl {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

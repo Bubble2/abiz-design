@@ -1,2 +1,2 @@
-import { Input } from 'antd';
-export default Input;
+import _Input from "antd/es/input";
+export default _Input;

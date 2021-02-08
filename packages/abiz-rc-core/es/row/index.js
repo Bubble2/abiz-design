@@ -1,2 +1,2 @@
-import { Row } from 'antd';
-export default Row;
+import _Row from "antd/es/row";
+export default _Row;

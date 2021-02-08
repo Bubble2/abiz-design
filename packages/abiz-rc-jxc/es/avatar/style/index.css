@@ -1,0 +1,107 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.jxc-avatar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  background: #ccc;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+}
+.jxc-avatar-image {
+  background: transparent;
+}
+.jxc-avatar .jxc-image-img {
+  display: block;
+}
+.jxc-avatar-string {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 center;
+}
+.jxc-avatar.jxc-avatar-icon {
+  font-size: 18px;
+}
+.jxc-avatar.jxc-avatar-icon > .anticon {
+  margin: 0;
+}
+.jxc-avatar-lg {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+}
+.jxc-avatar-lg-string {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 center;
+}
+.jxc-avatar-lg.jxc-avatar-icon {
+  font-size: 24px;
+}
+.jxc-avatar-lg.jxc-avatar-icon > .anticon {
+  margin: 0;
+}
+.jxc-avatar-sm {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+}
+.jxc-avatar-sm-string {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 center;
+}
+.jxc-avatar-sm.jxc-avatar-icon {
+  font-size: 14px;
+}
+.jxc-avatar-sm.jxc-avatar-icon > .anticon {
+  margin: 0;
+}
+.jxc-avatar-square {
+  border-radius: 2px;
+}
+.jxc-avatar > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.jxc-avatar-group {
+  display: inline-flex;
+}
+.jxc-avatar-group .jxc-avatar {
+  border: 1px solid #fff;
+}
+.jxc-avatar-group .jxc-avatar:not(:first-child) {
+  margin-left: -8px;
+}
+.jxc-avatar-group-popover .jxc-avatar + .jxc-avatar {
+  margin-left: 3px;
+}
+.jxc-avatar-group-rtl .jxc-avatar:not(:first-child) {
+  margin-right: -8px;
+  margin-left: 0;
+}
+.jxc-avatar-group-popover.jxc-popover-rtl .jxc-avatar + .jxc-avatar {
+  margin-right: 3px;
+  margin-left: 0;
+}

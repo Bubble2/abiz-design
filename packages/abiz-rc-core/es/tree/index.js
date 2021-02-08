@@ -1,2 +1,2 @@
-import { Tree } from 'antd';
-export default Tree;
+import _Tree from "antd/es/tree";
+export default _Tree;

@@ -1,2 +1,2 @@
-import { Spin } from 'antd';
-export default Spin;
+import _Spin from "antd/es/spin";
+export default _Spin;

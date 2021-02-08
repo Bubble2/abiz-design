@@ -1,2 +1,2 @@
-import { notification } from 'antd';
-export default notification;
+import _notification from "antd/es/notification";
+export default _notification;

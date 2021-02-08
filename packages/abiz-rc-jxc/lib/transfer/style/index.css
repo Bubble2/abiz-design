@@ -1,0 +1,278 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+@keyframes antCheckboxEffect {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+.jxc-transfer-customize-list .jxc-transfer-list {
+  flex: 1 1 50%;
+  width: auto;
+  height: auto;
+  min-height: 200px;
+}
+.jxc-transfer-customize-list .jxc-table-wrapper .jxc-table-small {
+  border: 0;
+  border-radius: 0;
+}
+.jxc-transfer-customize-list .jxc-table-wrapper .jxc-table-small > .jxc-table-content > .jxc-table-body > table > .jxc-table-thead > tr > th {
+  background: #fafafa;
+}
+.jxc-transfer-customize-list .jxc-table-wrapper .jxc-table-small > .jxc-table-content .jxc-table-row:last-child td {
+  border-bottom: 1px solid #f0f0f0;
+}
+.jxc-transfer-customize-list .jxc-table-wrapper .jxc-table-small .jxc-table-body {
+  margin: 0;
+}
+.jxc-transfer-customize-list .jxc-table-wrapper .jxc-table-pagination.jxc-pagination {
+  margin: 16px 0 4px;
+}
+.jxc-transfer-customize-list .jxc-input[disabled] {
+  background-color: transparent;
+}
+.jxc-transfer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+.jxc-transfer-disabled .jxc-transfer-list {
+  background: #f5f5f5;
+}
+.jxc-transfer-list {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 200px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+.jxc-transfer-list-with-pagination {
+  width: 250px;
+  height: auto;
+}
+.jxc-transfer-list-search {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.jxc-transfer-list-search-action {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  width: 28px;
+  color: rgba(0, 0, 0, 0.25);
+  line-height: 32px;
+  text-align: center;
+}
+.jxc-transfer-list-search-action .anticon {
+  color: rgba(0, 0, 0, 0.25);
+  transition: all 0.3s;
+}
+.jxc-transfer-list-search-action .anticon:hover {
+  color: rgba(0, 0, 0, 0.45);
+}
+span.jxc-transfer-list-search-action {
+  pointer-events: none;
+}
+.jxc-transfer-list-header {
+  display: flex;
+  flex: none;
+  align-items: center;
+  height: 40px;
+  padding: 8px 12px 9px;
+  color: rgba(0, 0, 0, 0.85);
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 2px 2px 0 0;
+}
+.jxc-transfer-list-header > *:not(:last-child) {
+  margin-right: 4px;
+}
+.jxc-transfer-list-header > * {
+  flex: none;
+}
+.jxc-transfer-list-header-title {
+  flex: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: right;
+  text-overflow: ellipsis;
+}
+.jxc-transfer-list-header-dropdown {
+  font-size: 10px;
+  transform: translateY(10%);
+  cursor: pointer;
+}
+.jxc-transfer-list-header-dropdown[disabled] {
+  cursor: not-allowed;
+}
+.jxc-transfer-list-body {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 14px;
+}
+.jxc-transfer-list-body-search-wrapper {
+  position: relative;
+  flex: none;
+  padding: 12px;
+}
+.jxc-transfer-list-content {
+  flex: auto;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+}
+.jxc-transfer-list-content-item {
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 12px;
+  overflow: hidden;
+  line-height: 20px;
+  transition: all 0.3s;
+}
+.jxc-transfer-list-content-item > *:not(:last-child) {
+  margin-right: 8px;
+}
+.jxc-transfer-list-content-item > * {
+  flex: none;
+}
+.jxc-transfer-list-content-item-text {
+  flex: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.jxc-transfer-list-content-item-remove {
+  color: #1DA57A;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  position: relative;
+  color: #d9d9d9;
+}
+.jxc-transfer-list-content-item-remove:focus,
+.jxc-transfer-list-content-item-remove:hover {
+  color: #3db389;
+}
+.jxc-transfer-list-content-item-remove:active {
+  color: #118060;
+}
+.jxc-transfer-list-content-item-remove::after {
+  position: absolute;
+  top: -6px;
+  right: -50%;
+  bottom: -6px;
+  left: -50%;
+  content: '';
+}
+.jxc-transfer-list-content-item-remove:hover {
+  color: #3db389;
+}
+.jxc-transfer-list-content-item:not(.jxc-transfer-list-content-item-disabled):hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.jxc-transfer-list-content-item:not(.jxc-transfer-list-content-item-disabled).jxc-transfer-list-content-item-checked:hover {
+  background-color: #ffdcf9;
+}
+.jxc-transfer-list-content-show-remove .jxc-transfer-list-content-item:not(.jxc-transfer-list-content-item-disabled):hover {
+  background: transparent;
+  cursor: default;
+}
+.jxc-transfer-list-content-item-checked {
+  background-color: #ffe6fb;
+}
+.jxc-transfer-list-content-item-disabled {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+.jxc-transfer-list-pagination {
+  padding: 8px 0;
+  text-align: right;
+  border-top: 1px solid #f0f0f0;
+}
+.jxc-transfer-list-body-not-found {
+  flex: none;
+  width: 100%;
+  margin: auto 0;
+  color: rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.jxc-transfer-list-footer {
+  border-top: 1px solid #f0f0f0;
+}
+.jxc-transfer-operation {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-self: center;
+  margin: 0 8px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.jxc-transfer-operation .jxc-btn {
+  display: block;
+}
+.jxc-transfer-operation .jxc-btn:first-child {
+  margin-bottom: 4px;
+}
+.jxc-transfer-operation .jxc-btn .anticon {
+  font-size: 12px;
+}
+.jxc-transfer .jxc-empty-image {
+  max-height: -2px;
+}
+.jxc-transfer-rtl {
+  direction: rtl;
+}
+.jxc-transfer-rtl .jxc-transfer-list-search {
+  padding-right: 8px;
+  padding-left: 24px;
+}
+.jxc-transfer-rtl .jxc-transfer-list-search-action {
+  right: auto;
+  left: 12px;
+}
+.jxc-transfer-rtl .jxc-transfer-list-header > *:not(:last-child) {
+  margin-right: 0;
+  margin-left: 4px;
+}
+.jxc-transfer-rtl .jxc-transfer-list-header {
+  right: 0;
+  left: auto;
+}
+.jxc-transfer-rtl .jxc-transfer-list-header-title {
+  text-align: left;
+}
+.jxc-transfer-rtl .jxc-transfer-list-content-item > *:not(:last-child) {
+  margin-right: 0;
+  margin-left: 8px;
+}
+.jxc-transfer-rtl .jxc-transfer-list-pagination {
+  text-align: left;
+}
+.jxc-transfer-rtl .jxc-transfer-list-footer {
+  right: 0;
+  left: auto;
+}

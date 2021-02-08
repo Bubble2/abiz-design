@@ -1,0 +1,68 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.aeps-result {
+  padding: 48px 32px;
+}
+.aeps-result-success .aeps-result-icon > .anticon {
+  color: #52c41a;
+}
+.aeps-result-error .aeps-result-icon > .anticon {
+  color: #ff4d4f;
+}
+.aeps-result-info .aeps-result-icon > .anticon {
+  color: red;
+}
+.aeps-result-warning .aeps-result-icon > .anticon {
+  color: #faad14;
+}
+.aeps-result-image {
+  width: 250px;
+  height: 295px;
+  margin: auto;
+}
+.aeps-result-icon {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.aeps-result-icon > .anticon {
+  font-size: 72px;
+}
+.aeps-result-title {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 24px;
+  line-height: 1.8;
+  text-align: center;
+}
+.aeps-result-subtitle {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+}
+.aeps-result-extra {
+  margin: 24px 0 0 0;
+  text-align: center;
+}
+.aeps-result-extra > * {
+  margin-right: 8px;
+}
+.aeps-result-extra > *:last-child {
+  margin-right: 0;
+}
+.aeps-result-content {
+  margin-top: 24px;
+  padding: 24px 40px;
+  background-color: #fafafa;
+}
+.aeps-result-rtl {
+  direction: rtl;
+}
+.aeps-result-rtl .aeps-result-extra > * {
+  margin-right: 0;
+  margin-left: 8px;
+}
+.aeps-result-rtl .aeps-result-extra > *:last-child {
+  margin-left: 0;
+}

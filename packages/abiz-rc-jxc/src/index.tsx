@@ -1,129 +1,127 @@
-export { Affix } from '@abiz/rc-core';
+export { default as Affix } from './affix';
 
-export { Anchor } from '@abiz/rc-core';
+export { default as Anchor } from './anchor';
 
-export { AutoComplete } from '@abiz/rc-core';
+export { default as AutoComplete } from './auto-complete';
 
-export { Alert } from '@abiz/rc-core';
+export { default as Alert } from './alert';
 
-export { Avatar } from '@abiz/rc-core';
+export { default as Avatar } from './avatar';
 
-export { BackTop } from '@abiz/rc-core';
+export { default as BackTop } from './back-top';
 
-export { Badge } from '@abiz/rc-core';
+export { default as Badge } from './badge';
 
-export { Breadcrumb } from '@abiz/rc-core';
+export { default as Breadcrumb } from './breadcrumb';
 
-export { Button } from '@abiz/rc-core';
+export { default as Button } from './button';
 
-export { Calendar } from '@abiz/rc-core';
+export { default as Calendar } from './calendar';
 
-export { Card } from '@abiz/rc-core';
+export { default as Card } from './card';
 
-export { Collapse } from '@abiz/rc-core';
+export { default as Collapse } from './collapse';
 
-export { Carousel } from '@abiz/rc-core';
+export { default as Carousel } from './carousel';
 
-export { Cascader } from '@abiz/rc-core';
+export { default as Cascader } from './cascader';
 
-export { Checkbox } from '@abiz/rc-core';
+export { default as Checkbox } from './checkbox';
 
-export { Col } from '@abiz/rc-core';
+export { default as Col } from './col';
 
-export { Comment } from '@abiz/rc-core';
+export { default as Comment } from './comment';
 
 export { default as ConfigProvider } from './config-provider';
 
-export { DatePicker } from '@abiz/rc-core';
+export { default as DatePicker } from './date-picker';
 
-export { Descriptions } from '@abiz/rc-core';
+export { default as Descriptions } from './descriptions';
 
-export { Divider } from '@abiz/rc-core';
+export { default as Divider } from './divider';
 
-export { Dropdown } from '@abiz/rc-core';
+export { default as Dropdown } from './dropdown';
 
-export { Drawer } from '@abiz/rc-core';
+export { default as Drawer } from './drawer';
 
-export { Empty } from '@abiz/rc-core';
+export { default as Empty } from './empty';
 
-export { Form } from '@abiz/rc-core';
+export { default as Form } from './form';
 
-export { Grid } from '@abiz/rc-core';
+export { default as Grid } from './grid';
 
-export { Input } from '@abiz/rc-core';
+export { default as Input } from './input';
 
-export { Image } from '@abiz/rc-core';
+export { default as Image } from './image';
 
-export { InputNumber } from '@abiz/rc-core';
+export { default as InputNumber } from './input-number';
 
-export { Layout } from '@abiz/rc-core';
+export { default as Layout } from './layout';
 
-export { List } from '@abiz/rc-core';
+export { default as List } from './list';
 
-export { message } from '@abiz/rc-core';
+export { default as message } from './message';
 
-export { Menu } from '@abiz/rc-core';
+export { default as Menu } from './menu';
 
-export { Mentions } from '@abiz/rc-core';
+export { default as Mentions } from './mentions';
 
-export { Modal } from '@abiz/rc-core';
+export { default as Modal } from './modal';
 
-export { Statistic } from '@abiz/rc-core';
+export { default as Statistic } from './statistic';
 
-export { notification } from '@abiz/rc-core';
+export { default as notification } from './notification';
 
-export { PageHeader } from '@abiz/rc-core';
+export { default as PageHeader } from './page-header';
 
-export { Pagination } from '@abiz/rc-core';
+export { default as Pagination } from './pagination';
 
-export { Popconfirm } from '@abiz/rc-core';
+export { default as Popconfirm } from './popconfirm';
 
-export { Popover } from '@abiz/rc-core';
+export { default as Popover } from './popover';
 
-export { Progress } from '@abiz/rc-core';
+export { default as Progress } from './progress';
 
-export { Radio } from '@abiz/rc-core';
+export { default as Radio } from './radio';
 
-export { Rate } from '@abiz/rc-core';
+export { default as Rate } from './rate';
 
-export { Result } from '@abiz/rc-core';
+export { default as Result } from './result';
 
-export { Row } from '@abiz/rc-core';
+export { default as Row } from './row';
 
-export { Select } from '@abiz/rc-core';
+export { default as Select } from './select';
 
-export { Skeleton } from '@abiz/rc-core';
+export { default as Skeleton } from './skeleton';
 
-export { Slider } from '@abiz/rc-core';
+export { default as Slider } from './slider';
 
-export { Space } from '@abiz/rc-core';
+export { default as Space } from './space';
 
-export { Spin } from '@abiz/rc-core';
+export { default as Spin } from './spin';
 
-export { Steps } from '@abiz/rc-core';
+export { default as Steps } from './steps';
 
-export { Switch } from '@abiz/rc-core';
+export { default as Switch } from './switch';
 
-export { Table } from '@abiz/rc-core';
+export { default as Table } from './table';
 
-export { Transfer } from '@abiz/rc-core';
+export { default as Transfer } from './transfer';
 
-export { Tree } from '@abiz/rc-core';
+export { default as Tree } from './tree';
 
-export { TreeSelect } from '@abiz/rc-core';
+export { default as TreeSelect } from './tree-select';
 
-export { Tabs } from '@abiz/rc-core';
+export { default as Tabs } from './tabs';
 
-export { Tag } from '@abiz/rc-core';
+export { default as Tag } from './tag';
 
-export { TimePicker } from '@abiz/rc-core';
+export { default as TimePicker } from './time-picker';
 
-export { Timeline } from '@abiz/rc-core';
+export { default as Timeline } from './timeline';
 
-export { Tooltip } from '@abiz/rc-core';
+export { default as Tooltip } from './tooltip';
 
-export { Typography } from '@abiz/rc-core';
+export { default as Typography } from './typography';
 
-export { Upload } from '@abiz/rc-core';
-
-import './style/index.less'
+export { default as Upload } from './upload';

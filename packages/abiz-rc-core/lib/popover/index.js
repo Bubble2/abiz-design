@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _popover = _interopRequireDefault(require("antd/lib/popover"));
 
-var _default = _antd.Popover;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _popover.default;
 exports.default = _default;

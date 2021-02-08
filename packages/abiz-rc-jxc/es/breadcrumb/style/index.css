@@ -1,0 +1,70 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.jxc-breadcrumb {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+.jxc-breadcrumb .anticon {
+  font-size: 14px;
+}
+.jxc-breadcrumb a {
+  color: rgba(0, 0, 0, 0.45);
+  transition: color 0.3s;
+}
+.jxc-breadcrumb a:hover {
+  color: #ff29f8;
+}
+.jxc-breadcrumb > span:last-child {
+  color: rgba(0, 0, 0, 0.85);
+}
+.jxc-breadcrumb > span:last-child a {
+  color: rgba(0, 0, 0, 0.85);
+}
+.jxc-breadcrumb > span:last-child .jxc-breadcrumb-separator {
+  display: none;
+}
+.jxc-breadcrumb-separator {
+  margin: 0 8px;
+  color: rgba(0, 0, 0, 0.45);
+}
+.jxc-breadcrumb-link > .anticon + span,
+.jxc-breadcrumb-link > .anticon + a {
+  margin-left: 4px;
+}
+.jxc-breadcrumb-overlay-link > .anticon {
+  margin-left: 4px;
+}
+.jxc-breadcrumb-rtl {
+  direction: rtl;
+}
+.jxc-breadcrumb-rtl::before {
+  display: table;
+  content: '';
+}
+.jxc-breadcrumb-rtl::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.jxc-breadcrumb-rtl > span {
+  float: right;
+}
+.jxc-breadcrumb-rtl .jxc-breadcrumb-link > .anticon + span,
+.jxc-breadcrumb-rtl .jxc-breadcrumb-link > .anticon + a {
+  margin-right: 4px;
+  margin-left: 0;
+}
+.jxc-breadcrumb-rtl .jxc-breadcrumb-overlay-link > .anticon {
+  margin-right: 4px;
+  margin-left: 0;
+}

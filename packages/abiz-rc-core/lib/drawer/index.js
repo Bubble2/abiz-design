@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _drawer = _interopRequireDefault(require("antd/lib/drawer"));
 
-var _default = _antd.Drawer;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _drawer.default;
 exports.default = _default;

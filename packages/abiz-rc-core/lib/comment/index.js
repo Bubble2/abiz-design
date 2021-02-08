@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _datePicker = _interopRequireDefault(require("antd/lib/date-picker"));
 
-var _default = _antd.DatePicker;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _datePicker.default;
 exports.default = _default;

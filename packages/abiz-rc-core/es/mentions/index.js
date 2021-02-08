@@ -1,2 +1,2 @@
-import { Mentions } from 'antd';
-export default Mentions;
+import _Mentions from "antd/es/mentions";
+export default _Mentions;

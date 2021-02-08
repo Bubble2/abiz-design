@@ -3,7 +3,7 @@ import { ConfigProvider } from '@abiz/rc-core';
 
 export default React.forwardRef(({ children, ...otherProps }, ref)=>{
   return (
-    <ConfigProvider prefixCls="aeps" forwardedRef={ref} {...otherProps}>
+    <ConfigProvider prefixCls="jxc" forwardedRef={ref} {...otherProps}>
       {children}
     </ConfigProvider>
   );

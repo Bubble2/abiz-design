@@ -15,7 +15,7 @@
   "module": "es/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build": "father-build"
+    "aeps-build": "father-build"
   },
   "peerDependencies": {
     "react": "^16.13.1",

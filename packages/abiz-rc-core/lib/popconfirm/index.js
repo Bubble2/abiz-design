@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _popconfirm = _interopRequireDefault(require("antd/lib/popconfirm"));
 
-var _default = _antd.Popconfirm;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _popconfirm.default;
 exports.default = _default;

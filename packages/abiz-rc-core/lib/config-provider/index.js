@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _configProvider = _interopRequireDefault(require("antd/lib/config-provider"));
 
-var _antd = require("antd");
+var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21,7 +21,7 @@ var _default = /*#__PURE__*/_react.default.forwardRef(function (_ref, ref) {
   var children = _ref.children,
       otherProps = _objectWithoutProperties(_ref, ["children"]);
 
-  return /*#__PURE__*/_react.default.createElement(_antd.ConfigProvider, _extends({
+  return /*#__PURE__*/_react.default.createElement(_configProvider.default, _extends({
     prefixCls: "abiz-core",
     forwardedRef: ref
   }, otherProps), children);

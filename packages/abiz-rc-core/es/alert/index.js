@@ -1,2 +1,2 @@
-import { Alert } from 'antd';
-export default Alert;
+import _Alert from "antd/es/alert";
+export default _Alert;

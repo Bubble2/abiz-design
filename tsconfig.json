@@ -9,7 +9,7 @@
     },
     "declaration": true,
     "declarationMap": true, 
-    "allowJs": false,
+    "allowJs": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "experimentalDecorators": true,

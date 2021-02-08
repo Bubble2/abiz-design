@@ -1,2 +1,2 @@
-import { List } from 'antd';
-export default List;
+import _List from "antd/es/list";
+export default _List;

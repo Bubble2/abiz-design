@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _switch = _interopRequireDefault(require("antd/lib/switch"));
 
-var _default = _antd.Switch;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _switch.default;
 exports.default = _default;

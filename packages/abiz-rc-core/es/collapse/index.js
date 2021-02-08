@@ -1,2 +1,2 @@
-import { Collapse } from 'antd';
-export default Collapse;
+import _Collapse from "antd/es/collapse";
+export default _Collapse;

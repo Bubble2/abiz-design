@@ -1,2 +1,2 @@
-import { Col } from 'antd';
-export default Col;
+import _Col from "antd/es/col";
+export default _Col;

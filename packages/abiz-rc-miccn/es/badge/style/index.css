@@ -1,0 +1,434 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-badge {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+}
+.miccn-badge-count {
+  z-index: auto;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-align: center;
+  background: #ff4d4f;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #fff;
+}
+.miccn-badge-count a,
+.miccn-badge-count a:hover {
+  color: #fff;
+}
+.miccn-badge-count-sm {
+  min-width: 14px;
+  height: 14px;
+  padding: 0;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 7px;
+}
+.miccn-badge-multiple-words {
+  padding: 0 8px;
+}
+.miccn-badge-dot {
+  z-index: auto;
+  width: 6px;
+  min-width: 6px;
+  height: 6px;
+  background: #ff4d4f;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px #fff;
+}
+.miccn-badge-count,
+.miccn-badge-dot,
+.miccn-badge .miccn-scroll-number-custom-component {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  transform-origin: 100% 0%;
+}
+.miccn-badge-status {
+  line-height: inherit;
+  vertical-align: baseline;
+}
+.miccn-badge-status-dot {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.miccn-badge-status-success {
+  background-color: #52c41a;
+}
+.miccn-badge-status-processing {
+  position: relative;
+  background-color: #1890ff;
+}
+.miccn-badge-status-processing::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #1890ff;
+  border-radius: 50%;
+  animation: antStatusProcessing 1.2s infinite ease-in-out;
+  content: '';
+}
+.miccn-badge-status-default {
+  background-color: #d9d9d9;
+}
+.miccn-badge-status-error {
+  background-color: #ff4d4f;
+}
+.miccn-badge-status-warning {
+  background-color: #faad14;
+}
+.miccn-badge-status-pink {
+  background: #eb2f96;
+}
+.miccn-badge-status-magenta {
+  background: #eb2f96;
+}
+.miccn-badge-status-red {
+  background: #f5222d;
+}
+.miccn-badge-status-volcano {
+  background: #fa541c;
+}
+.miccn-badge-status-orange {
+  background: #fa8c16;
+}
+.miccn-badge-status-yellow {
+  background: #fadb14;
+}
+.miccn-badge-status-gold {
+  background: #faad14;
+}
+.miccn-badge-status-cyan {
+  background: #13c2c2;
+}
+.miccn-badge-status-lime {
+  background: #a0d911;
+}
+.miccn-badge-status-green {
+  background: #52c41a;
+}
+.miccn-badge-status-blue {
+  background: #1890ff;
+}
+.miccn-badge-status-geekblue {
+  background: #2f54eb;
+}
+.miccn-badge-status-purple {
+  background: #722ed1;
+}
+.miccn-badge-status-text {
+  margin-left: 8px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+}
+.miccn-badge-zoom-appear,
+.miccn-badge-zoom-enter {
+  animation: antZoomBadgeIn 0.3s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+  animation-fill-mode: both;
+}
+.miccn-badge-zoom-leave {
+  animation: antZoomBadgeOut 0.3s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+  animation-fill-mode: both;
+}
+.miccn-badge-not-a-wrapper .miccn-badge-zoom-appear,
+.miccn-badge-not-a-wrapper .miccn-badge-zoom-enter {
+  animation: antNoWrapperZoomBadgeIn 0.3s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+}
+.miccn-badge-not-a-wrapper .miccn-badge-zoom-leave {
+  animation: antNoWrapperZoomBadgeOut 0.3s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+}
+.miccn-badge-not-a-wrapper:not(.miccn-badge-status) {
+  vertical-align: middle;
+}
+.miccn-badge-not-a-wrapper .miccn-scroll-number {
+  position: relative;
+  top: auto;
+  display: block;
+  transform-origin: 50% 50%;
+}
+.miccn-badge-not-a-wrapper .miccn-badge-count {
+  transform: none;
+}
+@keyframes antStatusProcessing {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+.miccn-scroll-number {
+  overflow: hidden;
+}
+.miccn-scroll-number-only {
+  display: inline-block;
+  height: 20px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.miccn-scroll-number-only > p.miccn-scroll-number-only-unit {
+  height: 20px;
+  margin: 0;
+}
+.miccn-scroll-number-symbol {
+  vertical-align: top;
+}
+@keyframes antZoomBadgeIn {
+  0% {
+    transform: scale(0) translate(50%, -50%);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translate(50%, -50%);
+  }
+}
+@keyframes antZoomBadgeOut {
+  0% {
+    transform: scale(1) translate(50%, -50%);
+  }
+  100% {
+    transform: scale(0) translate(50%, -50%);
+    opacity: 0;
+  }
+}
+@keyframes antNoWrapperZoomBadgeIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes antNoWrapperZoomBadgeOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+.miccn-ribbon-wrapper {
+  position: relative;
+}
+.miccn-ribbon {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: absolute;
+  top: 8px;
+  height: 22px;
+  padding: 0 8px;
+  color: #fff;
+  line-height: 22px;
+  white-space: nowrap;
+  background-color: #00f;
+  border-radius: 2px;
+}
+.miccn-ribbon-text {
+  color: #fff;
+}
+.miccn-ribbon-corner {
+  position: absolute;
+  top: 100%;
+  width: 8px;
+  height: 8px;
+  color: currentColor;
+  border: 4px solid;
+  transform: scaleY(0.75);
+  transform-origin: top;
+}
+.miccn-ribbon-corner::after {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: inherit;
+  height: inherit;
+  color: rgba(0, 0, 0, 0.25);
+  border: inherit;
+  content: '';
+}
+.miccn-ribbon-color-pink {
+  color: #eb2f96;
+  background: #eb2f96;
+}
+.miccn-ribbon-color-magenta {
+  color: #eb2f96;
+  background: #eb2f96;
+}
+.miccn-ribbon-color-red {
+  color: #f5222d;
+  background: #f5222d;
+}
+.miccn-ribbon-color-volcano {
+  color: #fa541c;
+  background: #fa541c;
+}
+.miccn-ribbon-color-orange {
+  color: #fa8c16;
+  background: #fa8c16;
+}
+.miccn-ribbon-color-yellow {
+  color: #fadb14;
+  background: #fadb14;
+}
+.miccn-ribbon-color-gold {
+  color: #faad14;
+  background: #faad14;
+}
+.miccn-ribbon-color-cyan {
+  color: #13c2c2;
+  background: #13c2c2;
+}
+.miccn-ribbon-color-lime {
+  color: #a0d911;
+  background: #a0d911;
+}
+.miccn-ribbon-color-green {
+  color: #52c41a;
+  background: #52c41a;
+}
+.miccn-ribbon-color-blue {
+  color: #1890ff;
+  background: #1890ff;
+}
+.miccn-ribbon-color-geekblue {
+  color: #2f54eb;
+  background: #2f54eb;
+}
+.miccn-ribbon-color-purple {
+  color: #722ed1;
+  background: #722ed1;
+}
+.miccn-ribbon.miccn-ribbon-placement-end {
+  right: -8px;
+  border-bottom-right-radius: 0;
+}
+.miccn-ribbon.miccn-ribbon-placement-end .miccn-ribbon-corner {
+  right: 0;
+  border-color: currentColor transparent transparent currentColor;
+}
+.miccn-ribbon.miccn-ribbon-placement-start {
+  left: -8px;
+  border-bottom-left-radius: 0;
+}
+.miccn-ribbon.miccn-ribbon-placement-start .miccn-ribbon-corner {
+  left: 0;
+  border-color: currentColor currentColor transparent transparent;
+}
+.miccn-badge-rtl {
+  direction: rtl;
+}
+.miccn-badge-rtl .miccn-badge-count,
+.miccn-badge-rtl .miccn-badge-dot,
+.miccn-badge-rtl .miccn-badge .miccn-scroll-number-custom-component {
+  right: auto;
+  left: 0;
+  direction: ltr;
+  transform: translate(-50%, -50%);
+  transform-origin: 0% 0%;
+}
+.miccn-badge-rtl.miccn-badge .miccn-scroll-number-custom-component {
+  right: auto;
+  left: 0;
+  transform: translate(-50%, -50%);
+  transform-origin: 0% 0%;
+}
+.miccn-badge-rtl .miccn-badge-status-text {
+  margin-right: 8px;
+  margin-left: 0;
+}
+.miccn-badge-rtl .miccn-badge-zoom-appear,
+.miccn-badge-rtl .miccn-badge-zoom-enter {
+  animation-name: antZoomBadgeInRtl;
+}
+.miccn-badge-rtl .miccn-badge-zoom-leave {
+  animation-name: antZoomBadgeOutRtl;
+}
+.miccn-badge-not-a-wrapper .miccn-badge-count {
+  transform: none;
+}
+.miccn-ribbon-rtl {
+  direction: rtl;
+}
+.miccn-ribbon-rtl.miccn-ribbon-placement-end {
+  right: unset;
+  left: -8px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.miccn-ribbon-rtl.miccn-ribbon-placement-end .miccn-ribbon-corner {
+  right: unset;
+  left: 0;
+  border-color: currentColor currentColor transparent transparent;
+}
+.miccn-ribbon-rtl.miccn-ribbon-placement-end .miccn-ribbon-corner::after {
+  border-color: currentColor currentColor transparent transparent;
+}
+.miccn-ribbon-rtl.miccn-ribbon-placement-start {
+  right: -8px;
+  left: unset;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.miccn-ribbon-rtl.miccn-ribbon-placement-start .miccn-ribbon-corner {
+  right: 0;
+  left: unset;
+  border-color: currentColor transparent transparent currentColor;
+}
+.miccn-ribbon-rtl.miccn-ribbon-placement-start .miccn-ribbon-corner::after {
+  border-color: currentColor transparent transparent currentColor;
+}
+@keyframes antZoomBadgeInRtl {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+@keyframes antZoomBadgeOutRtl {
+  0% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0;
+  }
+}

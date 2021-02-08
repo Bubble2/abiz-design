@@ -1,2 +1,2 @@
-import { Breadcrumb } from 'antd';
-export default Breadcrumb;
+import _Breadcrumb from "antd/es/breadcrumb";
+export default _Breadcrumb;

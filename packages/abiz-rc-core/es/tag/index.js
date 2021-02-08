@@ -1,2 +1,2 @@
-import { Tag } from 'antd';
-export default Tag;
+import _Tag from "antd/es/tag";
+export default _Tag;

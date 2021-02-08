@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _modal = _interopRequireDefault(require("antd/lib/modal"));
 
-var _default = _antd.Modal;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _modal.default;
 exports.default = _default;
