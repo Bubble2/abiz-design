@@ -10,44 +10,47 @@ export default defineConfig({
   base: '/abiz-design',
   publicPath: '/abiz-design/',
   mode: 'site',
-  extraBabelPlugins: [
-    [
-      'babel-plugin-import',
-      {
-        libraryName: '@abiz/rc-aeps',
-        libraryDirectory: 'es',
-        style: (name) => `${name}/style/index`
-      },
-      '@abiz/rc-aeps'
-    ],
-    [
-      'babel-plugin-import',
-      {
-        libraryName: '@abiz/rc-jxc',
-        libraryDirectory: 'es',
-        style: (name) => `${name}/style/index`
-      },
-      '@abiz/rc-jxc'
-    ],
-    [
-      'babel-plugin-import',
-      {
-        libraryName: '@abiz/rc-miccn',
-        libraryDirectory: 'es',
-        style: (name) => `${name}/style/index`
-      },
-      '@abiz/rc-miccn'
-    ]
-  ],
+  // extraBabelPlugins: [
+  //   [
+  //     'babel-plugin-import',
+  //     {
+  //       libraryName: '@abiz/rc-aeps',
+  //       libraryDirectory: 'es',
+  //       style: (name) => {
+  //         return `@abiz/rc-aeps/es/style/all.css`;
+  //       }
+  //     },
+  //     '@abiz/rc-aeps'
+  //   ],
+  //   [
+  //     'babel-plugin-import',
+  //     {
+  //       libraryName: '@abiz/rc-jxc',
+  //       libraryDirectory: 'es',
+  //       style: (name) => {
+  //         return `@abiz/rc-jxc/es/style/all.css`;
+  //       }
+  //     },
+  //     '@abiz/rc-jxc'
+  //   ],
+  //   [
+  //     'babel-plugin-import',
+  //     {
+  //       libraryName: '@abiz/rc-miccn',
+  //       libraryDirectory: 'es',
+  //       style: (name) => {
+  //         return `@abiz/rc-miccn/es/style/all.css`;
+  //       }
+  //     },
+  //     '@abiz/rc-miccn'
+  //   ]
+  // ],
+  styleLoader: {
+  },
+  cssLoader: {
+  },
   resolve: {
     includes: ['docs'],
-  },
-  lessLoader: {
-    paths : [
-      path.join(__dirname, 'packages/abiz-rc-jxc/node_modules/', '@abiz/rc-core'),
-      path.join(__dirname, 'packages/abiz-rc-aeps/node_modules/', '@abiz/rc-core'),
-      path.join(__dirname, 'packages/abiz-rc-miccn/node_modules/', '@abiz/rc-core')  
-    ],
   },
   alias: {
     '@abiz-rc-core': path.resolve(__dirname, 'packages/abiz-rc-core/src'),

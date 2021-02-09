@@ -101,9 +101,9 @@
 }
 .miccn-drawer-title {
   margin: 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22px;
 }
 .miccn-drawer-content {
@@ -120,10 +120,10 @@
   right: 0;
   z-index: 10;
   display: block;
-  padding: 20px;
-  color: rgba(0, 0, 0, 0.45);
+  padding: 21px;
+  color: #222;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   line-height: 1;
   text-align: center;
@@ -144,18 +144,18 @@
 .miccn-drawer-header-no-title .miccn-drawer-close {
   margin-right: var(--scroll-bar);
   /* stylelint-disable-next-line function-calc-no-invalid */
-  padding-right: calc(20px - var(--scroll-bar));
+  padding-right: calc(21px - var(--scroll-bar));
 }
 .miccn-drawer-header {
   position: relative;
   padding: 16px 24px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   background: #fff;
   border-bottom: 1px solid #f0f0f0;
   border-radius: 2px 2px 0 0;
 }
 .miccn-drawer-header-no-title {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   background: #fff;
 }
 .miccn-drawer-wrapper-body {
@@ -169,7 +169,7 @@
   flex-grow: 1;
   padding: 24px;
   overflow: auto;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5715;
   word-wrap: break-word;
 }

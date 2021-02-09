@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -38,8 +38,8 @@
 }
 .miccn-list-empty-text {
   padding: 16px;
-  color: rgba(0, 0, 0, 0.25);
-  font-size: 14px;
+  color: #ccc;
+  font-size: 13px;
   text-align: center;
 }
 .miccn-list-items {
@@ -52,7 +52,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .miccn-list-item-meta {
   display: flex;
@@ -66,24 +66,24 @@
 .miccn-list-item-meta-content {
   flex: 1 0;
   width: 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .miccn-list-item-meta-title {
   margin-bottom: 4px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
 }
 .miccn-list-item-meta-title > a {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   transition: all 0.3s;
 }
 .miccn-list-item-meta-title > a:hover {
-  color: #00f;
+  color: #f0e;
 }
 .miccn-list-item-meta-description {
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
 }
 .miccn-list-item-action {
@@ -97,8 +97,8 @@
   position: relative;
   display: inline-block;
   padding: 0 8px;
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
   text-align: center;
 }
@@ -127,7 +127,7 @@
 }
 .miccn-list-empty {
   padding: 16px 0;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   font-size: 12px;
   text-align: center;
 }
@@ -170,8 +170,8 @@
 }
 .miccn-list-vertical .miccn-list-item-meta-title {
   margin-bottom: 12px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 16px;
+  color: #222;
+  font-size: 15px;
   line-height: 24px;
 }
 .miccn-list-vertical .miccn-list-item-action {
@@ -199,7 +199,7 @@
   float: right;
 }
 .miccn-list-bordered {
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
 }
 .miccn-list-bordered .miccn-list-header {

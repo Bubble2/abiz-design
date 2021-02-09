@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -17,7 +17,7 @@
 .jxc-progress-line {
   position: relative;
   width: 100%;
-  font-size: 14px;
+  font-size: 13px;
 }
 .jxc-progress-steps {
   display: inline-block;
@@ -80,13 +80,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #52c41a;
+  background-color: #2b9262;
 }
 .jxc-progress-text {
   display: inline-block;
   width: 2em;
   margin-left: 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   font-size: 1em;
   line-height: 1;
   white-space: nowrap;
@@ -95,7 +95,7 @@
   word-break: normal;
 }
 .jxc-progress-text .anticon {
-  font-size: 14px;
+  font-size: 13px;
 }
 .jxc-progress-status-active .jxc-progress-bg::before {
   position: absolute;
@@ -110,22 +110,22 @@
   content: '';
 }
 .jxc-progress-status-exception .jxc-progress-bg {
-  background-color: #ff4d4f;
+  background-color: #ff6060;
 }
 .jxc-progress-status-exception .jxc-progress-text {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .jxc-progress-status-exception .jxc-progress-inner:not(.jxc-progress-circle-gradient) .jxc-progress-circle-path {
-  stroke: #ff4d4f;
+  stroke: #ff6060;
 }
 .jxc-progress-status-success .jxc-progress-bg {
-  background-color: #52c41a;
+  background-color: #2b9262;
 }
 .jxc-progress-status-success .jxc-progress-text {
-  color: #52c41a;
+  color: #2b9262;
 }
 .jxc-progress-status-success .jxc-progress-inner:not(.jxc-progress-circle-gradient) .jxc-progress-circle-path {
-  stroke: #52c41a;
+  stroke: #2b9262;
 }
 .jxc-progress-circle .jxc-progress-inner {
   position: relative;
@@ -139,7 +139,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-size: 1em;
   line-height: 1;
   white-space: normal;
@@ -150,10 +150,10 @@
   font-size: 1.16666667em;
 }
 .jxc-progress-circle.jxc-progress-status-exception .jxc-progress-text {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .jxc-progress-circle.jxc-progress-status-success .jxc-progress-text {
-  color: #52c41a;
+  color: #2b9262;
 }
 @keyframes jxc-progress-active {
   0% {

@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -45,7 +45,7 @@
   vertical-align: middle;
   list-style: none;
   background-color: #fff;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   outline: 0;
   cursor: pointer;
@@ -54,7 +54,7 @@
 .miccn-pagination-item a {
   display: block;
   padding: 0 6px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   transition: none;
 }
 .miccn-pagination-item a:hover {
@@ -62,28 +62,28 @@
 }
 .miccn-pagination-item:focus,
 .miccn-pagination-item:hover {
-  border-color: #00f;
+  border-color: #f0e;
   transition: all 0.3s;
 }
 .miccn-pagination-item:focus a,
 .miccn-pagination-item:hover a {
-  color: #00f;
+  color: #f0e;
 }
 .miccn-pagination-item-active {
   font-weight: 500;
-  background: #fff;
-  border-color: #00f;
+  background: #2b9262;
+  border-color: #f0e;
 }
 .miccn-pagination-item-active a {
-  color: #00f;
+  color: #f0e;
 }
 .miccn-pagination-item-active:focus,
 .miccn-pagination-item-active:hover {
-  border-color: #2930ff;
+  border-color: #ff29ea;
 }
 .miccn-pagination-item-active:focus a,
 .miccn-pagination-item-active:hover a {
-  color: #2930ff;
+  color: #ff29ea;
 }
 .miccn-pagination-jump-prev,
 .miccn-pagination-jump-next {
@@ -95,7 +95,7 @@
 }
 .miccn-pagination-jump-prev .miccn-pagination-item-container .miccn-pagination-item-link-icon,
 .miccn-pagination-jump-next .miccn-pagination-item-container .miccn-pagination-item-link-icon {
-  color: #00f;
+  color: #f0e;
   font-size: 12px;
   letter-spacing: -1px;
   opacity: 0;
@@ -118,7 +118,7 @@
   left: 0;
   display: block;
   margin: auto;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
   text-align: center;
@@ -150,7 +150,7 @@
   display: inline-block;
   min-width: 32px;
   height: 32px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   line-height: 32px;
   text-align: center;
@@ -167,13 +167,13 @@
 }
 .miccn-pagination-prev button,
 .miccn-pagination-next button {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   cursor: pointer;
   user-select: none;
 }
 .miccn-pagination-prev:hover button,
 .miccn-pagination-next:hover button {
-  border-color: #2930ff;
+  border-color: #ff29ea;
 }
 .miccn-pagination-prev .miccn-pagination-item-link,
 .miccn-pagination-next .miccn-pagination-item-link {
@@ -184,7 +184,7 @@
   font-size: 12px;
   text-align: center;
   background-color: #fff;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   outline: none;
   transition: all 0.3s;
@@ -193,8 +193,8 @@
 .miccn-pagination-next:focus .miccn-pagination-item-link,
 .miccn-pagination-prev:hover .miccn-pagination-item-link,
 .miccn-pagination-next:hover .miccn-pagination-item-link {
-  color: #00f;
-  border-color: #00f;
+  color: #f0e;
+  border-color: #f0e;
 }
 .miccn-pagination-disabled,
 .miccn-pagination-disabled:hover,
@@ -204,8 +204,8 @@
 .miccn-pagination-disabled .miccn-pagination-item-link,
 .miccn-pagination-disabled:hover .miccn-pagination-item-link,
 .miccn-pagination-disabled:focus .miccn-pagination-item-link {
-  color: rgba(0, 0, 0, 0.25);
-  border-color: #d9d9d9;
+  color: #ccc;
+  border-color: #d2d2d2;
   cursor: not-allowed;
 }
 .miccn-pagination-slash {
@@ -238,13 +238,13 @@
   display: inline-block;
   width: 100%;
   min-width: 0;
-  padding: 4px 11px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  padding: 4.8px 11px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   transition: all 0.3s;
   width: 50px;
@@ -254,40 +254,40 @@
   opacity: 1;
 }
 .miccn-pagination-options-quick-jumper input::placeholder {
-  color: #bfbfbf;
+  color: #b0b0b0;
 }
 .miccn-pagination-options-quick-jumper input:placeholder-shown {
   text-overflow: ellipsis;
 }
 .miccn-pagination-options-quick-jumper input:hover {
-  border-color: #2930ff;
+  border-color: #ff29ea;
   border-right-width: 1px !important;
 }
 .miccn-pagination-options-quick-jumper input:focus,
 .miccn-pagination-options-quick-jumper input-focused {
-  border-color: #2930ff;
+  border-color: #ff29ea;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 0, 238, 0.2);
 }
 .miccn-pagination-options-quick-jumper input-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .miccn-pagination-options-quick-jumper input-disabled:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .miccn-pagination-options-quick-jumper input[disabled] {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .miccn-pagination-options-quick-jumper input[disabled]:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .miccn-pagination-options-quick-jumper input-borderless,
@@ -309,11 +309,11 @@ textarea.miccn-pagination-options-quick-jumper input {
   transition: all 0.3s, height 0s;
 }
 .miccn-pagination-options-quick-jumper input-lg {
-  padding: 6.5px 11px;
-  font-size: 16px;
+  padding: 7.3px 11px;
+  font-size: 15px;
 }
 .miccn-pagination-options-quick-jumper input-sm {
-  padding: 0px 7px;
+  padding: 0.8px 7px;
 }
 .miccn-pagination-simple .miccn-pagination-prev,
 .miccn-pagination-simple .miccn-pagination-next {
@@ -344,18 +344,18 @@ textarea.miccn-pagination-options-quick-jumper input {
   padding: 0 6px;
   text-align: center;
   background-color: #fff;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   outline: none;
   transition: border-color 0.3s;
 }
 .miccn-pagination-simple .miccn-pagination-simple-pager input:hover {
-  border-color: #00f;
+  border-color: #f0e;
 }
 .miccn-pagination-simple .miccn-pagination-simple-pager input[disabled] {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background: #f5f5f5;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   cursor: not-allowed;
 }
 .miccn-pagination.mini .miccn-pagination-total-text,
@@ -407,7 +407,7 @@ textarea.miccn-pagination-options-quick-jumper input {
   line-height: 24px;
 }
 .miccn-pagination.mini .miccn-pagination-options-quick-jumper input {
-  padding: 0px 7px;
+  padding: 0.8px 7px;
   width: 44px;
 }
 .miccn-pagination.miccn-pagination-disabled {
@@ -415,11 +415,11 @@ textarea.miccn-pagination-options-quick-jumper input {
 }
 .miccn-pagination.miccn-pagination-disabled .miccn-pagination-item {
   background: #f5f5f5;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   cursor: not-allowed;
 }
 .miccn-pagination.miccn-pagination-disabled .miccn-pagination-item a {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background: transparent;
   border: none;
   cursor: not-allowed;
@@ -432,9 +432,9 @@ textarea.miccn-pagination-options-quick-jumper input {
   color: #fff;
 }
 .miccn-pagination.miccn-pagination-disabled .miccn-pagination-item-link {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background: #f5f5f5;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   cursor: not-allowed;
 }
 .miccn-pagination-simple.miccn-pagination.miccn-pagination-disabled .miccn-pagination-item-link {
@@ -447,7 +447,7 @@ textarea.miccn-pagination-options-quick-jumper input {
   opacity: 1;
 }
 .miccn-pagination.miccn-pagination-disabled .miccn-pagination-simple-pager {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 @media only screen and (max-width: 992px) {
   .miccn-pagination-item-after-jump-prev,

@@ -6,15 +6,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
   font-feature-settings: 'tnum';
   position: absolute;
   display: none;
-  color: #00f;
+  color: #f0e;
   text-align: center;
   vertical-align: middle;
   opacity: 0;
@@ -48,7 +48,7 @@
   position: absolute;
   top: 50%;
   width: 100%;
-  padding-top: 5px;
+  padding-top: 5.5px;
   text-shadow: 0 1px 2px #fff;
 }
 .miccn-spin-nested-loading > div > .miccn-spin.miccn-spin-show-text .miccn-spin-dot {
@@ -58,7 +58,7 @@
   margin: -7px;
 }
 .miccn-spin-nested-loading > div > .miccn-spin-sm .miccn-spin-text {
-  padding-top: 2px;
+  padding-top: 2.5px;
 }
 .miccn-spin-nested-loading > div > .miccn-spin-sm.miccn-spin-show-text .miccn-spin-dot {
   margin-top: -17px;
@@ -67,7 +67,7 @@
   margin: -16px;
 }
 .miccn-spin-nested-loading > div > .miccn-spin-lg .miccn-spin-text {
-  padding-top: 11px;
+  padding-top: 11.5px;
 }
 .miccn-spin-nested-loading > div > .miccn-spin-lg.miccn-spin-show-text .miccn-spin-dot {
   margin-top: -26px;
@@ -104,7 +104,7 @@
   pointer-events: auto;
 }
 .miccn-spin-tip {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .miccn-spin-dot {
   position: relative;
@@ -118,7 +118,7 @@
   display: block;
   width: 9px;
   height: 9px;
-  background-color: #00f;
+  background-color: #f0e;
   border-radius: 100%;
   transform: scale(0.75);
   transform-origin: 50% 50%;

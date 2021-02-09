@@ -388,6 +388,8 @@ Object.defineProperty(exports, "Upload", {
   }
 });
 
+require("./style/all.css");
+
 var _affix = _interopRequireDefault(require("./affix"));
 
 var _anchor = _interopRequireDefault(require("./anchor"));

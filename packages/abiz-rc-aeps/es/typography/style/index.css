@@ -3,28 +3,28 @@
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 .aeps-typography {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   overflow-wrap: break-word;
 }
 .aeps-typography.aeps-typography-secondary {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .aeps-typography.aeps-typography-success {
-  color: #52c41a;
+  color: #2b9262;
 }
 .aeps-typography.aeps-typography-warning {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .aeps-typography.aeps-typography-danger {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 a.aeps-typography.aeps-typography-danger:active,
 a.aeps-typography.aeps-typography-danger:focus,
 a.aeps-typography.aeps-typography-danger:hover {
-  color: #ff7875;
+  color: #ff8e8a;
 }
 .aeps-typography.aeps-typography-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
   user-select: none;
 }
@@ -35,41 +35,41 @@ div.aeps-typography,
 h1.aeps-typography,
 .aeps-typography h1 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 36px;
   line-height: 1.23;
 }
 h2.aeps-typography,
 .aeps-typography h2 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1.35;
 }
 h3.aeps-typography,
 .aeps-typography h3 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 1.35;
 }
 h4.aeps-typography,
 .aeps-typography h4 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.4;
 }
 h5.aeps-typography,
 .aeps-typography h5 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
 }
 .aeps-typography + h1.aeps-typography,
@@ -132,7 +132,7 @@ span.aeps-typography-ellipsis {
 }
 a.aeps-typography,
 .aeps-typography a {
-  color: #1DA57A;
+  color: #0066dd;
   outline: none;
   cursor: pointer;
   transition: color 0.3s;
@@ -142,11 +142,11 @@ a.aeps-typography:focus,
 .aeps-typography a:focus,
 a.aeps-typography:hover,
 .aeps-typography a:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 a.aeps-typography:active,
 .aeps-typography a:active {
-  color: #118060;
+  color: #0050b8;
 }
 a.aeps-typography:active,
 .aeps-typography a:active,
@@ -158,7 +158,7 @@ a.aeps-typography[disabled],
 .aeps-typography a[disabled],
 a.aeps-typography.aeps-typography-disabled,
 .aeps-typography a.aeps-typography-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 a.aeps-typography[disabled]:active,
@@ -169,7 +169,7 @@ a.aeps-typography[disabled]:hover,
 .aeps-typography a[disabled]:hover,
 a.aeps-typography.aeps-typography-disabled:hover,
 .aeps-typography a.aeps-typography-disabled:hover {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 a.aeps-typography[disabled]:active,
 .aeps-typography a[disabled]:active,
@@ -213,7 +213,7 @@ a.aeps-typography.aeps-typography-disabled:active,
 .aeps-typography-expand,
 .aeps-typography-edit,
 .aeps-typography-copy {
-  color: #1DA57A;
+  color: #0066dd;
   text-decoration: none;
   outline: none;
   cursor: pointer;
@@ -226,31 +226,31 @@ a.aeps-typography.aeps-typography-disabled:active,
 .aeps-typography-expand:hover,
 .aeps-typography-edit:hover,
 .aeps-typography-copy:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 .aeps-typography-expand:active,
 .aeps-typography-edit:active,
 .aeps-typography-copy:active {
-  color: #118060;
+  color: #0050b8;
 }
 .aeps-typography-copy-success,
 .aeps-typography-copy-success:hover,
 .aeps-typography-copy-success:focus {
-  color: #52c41a;
+  color: #2b9262;
 }
 .aeps-typography-edit-content {
   position: relative;
 }
 div.aeps-typography-edit-content {
   left: -12px;
-  margin-top: -5px;
-  margin-bottom: calc(1em - 4px - 1px);
+  margin-top: -5.8px;
+  margin-bottom: calc(1em - 4.8px - 1px);
 }
 .aeps-typography-edit-content-confirm {
   position: absolute;
   right: 10px;
   bottom: 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   pointer-events: none;
 }
 .aeps-typography-edit-content textarea {

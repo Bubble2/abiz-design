@@ -226,10 +226,10 @@
   /* To support leave along ErrorList. We add additional className to handle explain style */
 }
 .miccn-form-item-explain.miccn-form-item-explain-error {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .miccn-form-item-explain.miccn-form-item-explain-warning {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .miccn-form-item-has-feedback .miccn-input {
   padding-right: 24px;
@@ -260,13 +260,13 @@
   right: 32px;
 }
 .miccn-form-item-has-feedback .miccn-picker {
-  padding-right: 29.2px;
+  padding-right: 27.9px;
 }
 .miccn-form-item-has-feedback .miccn-picker-large {
-  padding-right: 29.2px;
+  padding-right: 27.9px;
 }
 .miccn-form-item-has-feedback .miccn-picker-small {
-  padding-right: 25.2px;
+  padding-right: 23.9px;
 }
 .miccn-form-item-has-feedback.miccn-form-item-has-success .miccn-form-item-children-icon,
 .miccn-form-item-has-feedback.miccn-form-item-has-warning .miccn-form-item-children-icon,
@@ -279,7 +279,7 @@
   width: 32px;
   height: 20px;
   margin-top: -10px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   text-align: center;
   visibility: visible;
@@ -287,232 +287,232 @@
   pointer-events: none;
 }
 .miccn-form-item-has-success.miccn-form-item-has-feedback .miccn-form-item-children-icon {
-  color: #52c41a;
+  color: #2b9262;
   animation-name: diffZoomIn1 !important;
 }
 .miccn-form-item-has-warning .miccn-form-item-split {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .miccn-form-item-has-warning .miccn-input,
 .miccn-form-item-has-warning .miccn-input-affix-wrapper,
 .miccn-form-item-has-warning .miccn-input:hover,
 .miccn-form-item-has-warning .miccn-input-affix-wrapper:hover {
   background-color: #fff;
-  border-color: #faad14;
+  border-color: #ff6d1e;
 }
 .miccn-form-item-has-warning .miccn-input:focus,
 .miccn-form-item-has-warning .miccn-input-affix-wrapper:focus,
 .miccn-form-item-has-warning .miccn-input-focused,
 .miccn-form-item-has-warning .miccn-input-affix-wrapper-focused {
-  border-color: #ffc53d;
+  border-color: #ff8e47;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(250, 173, 20, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 109, 30, 0.2);
 }
 .miccn-form-item-has-warning .miccn-input-disabled {
   background-color: #f5f5f5;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
 }
 .miccn-form-item-has-warning .miccn-input-affix-wrapper-disabled {
   background-color: #f5f5f5;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
 }
 .miccn-form-item-has-warning .miccn-input-affix-wrapper-disabled input:focus {
   box-shadow: none !important;
 }
 .miccn-form-item-has-warning .miccn-calendar-picker-open .miccn-calendar-picker-input {
-  border-color: #ffc53d;
+  border-color: #ff8e47;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(250, 173, 20, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 109, 30, 0.2);
 }
 .miccn-form-item-has-warning .miccn-input-prefix {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .miccn-form-item-has-warning .miccn-input-group-addon {
-  color: #faad14;
-  border-color: #faad14;
+  color: #ff6d1e;
+  border-color: #ff6d1e;
 }
 .miccn-form-item-has-warning .has-feedback {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .miccn-form-item-has-warning.miccn-form-item-has-feedback .miccn-form-item-children-icon {
-  color: #faad14;
+  color: #ff6d1e;
   animation-name: diffZoomIn3 !important;
 }
 .miccn-form-item-has-warning .miccn-select:not(.miccn-select-disabled):not(.miccn-select-customize-input) .miccn-select-selector {
   background-color: #fff;
-  border-color: #faad14 !important;
+  border-color: #ff6d1e !important;
 }
 .miccn-form-item-has-warning .miccn-select:not(.miccn-select-disabled):not(.miccn-select-customize-input).miccn-select-open .miccn-select-selector,
 .miccn-form-item-has-warning .miccn-select:not(.miccn-select-disabled):not(.miccn-select-customize-input).miccn-select-focused .miccn-select-selector {
-  border-color: #ffc53d;
+  border-color: #ff8e47;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(250, 173, 20, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 109, 30, 0.2);
 }
 .miccn-form-item-has-warning .miccn-input-number,
 .miccn-form-item-has-warning .miccn-picker {
   background-color: #fff;
-  border-color: #faad14;
+  border-color: #ff6d1e;
 }
 .miccn-form-item-has-warning .miccn-input-number-focused,
 .miccn-form-item-has-warning .miccn-picker-focused,
 .miccn-form-item-has-warning .miccn-input-number:focus,
 .miccn-form-item-has-warning .miccn-picker:focus {
-  border-color: #ffc53d;
+  border-color: #ff8e47;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(250, 173, 20, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 109, 30, 0.2);
 }
 .miccn-form-item-has-warning .miccn-input-number:not([disabled]):hover,
 .miccn-form-item-has-warning .miccn-picker:not([disabled]):hover {
   background-color: #fff;
-  border-color: #faad14;
+  border-color: #ff6d1e;
 }
 .miccn-form-item-has-warning .miccn-cascader-picker:focus .miccn-cascader-input {
-  border-color: #ffc53d;
+  border-color: #ff8e47;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(250, 173, 20, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 109, 30, 0.2);
 }
 .miccn-form-item-has-error .miccn-form-item-split {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .miccn-form-item-has-error .miccn-input,
 .miccn-form-item-has-error .miccn-input-affix-wrapper,
 .miccn-form-item-has-error .miccn-input:hover,
 .miccn-form-item-has-error .miccn-input-affix-wrapper:hover {
   background-color: #fff;
-  border-color: #ff4d4f;
+  border-color: #ff6060;
 }
 .miccn-form-item-has-error .miccn-input:focus,
 .miccn-form-item-has-error .miccn-input-affix-wrapper:focus,
 .miccn-form-item-has-error .miccn-input-focused,
 .miccn-form-item-has-error .miccn-input-affix-wrapper-focused {
-  border-color: #ff7875;
+  border-color: #ff8e8a;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 96, 96, 0.2);
 }
 .miccn-form-item-has-error .miccn-input-disabled {
   background-color: #f5f5f5;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
 }
 .miccn-form-item-has-error .miccn-input-affix-wrapper-disabled {
   background-color: #f5f5f5;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
 }
 .miccn-form-item-has-error .miccn-input-affix-wrapper-disabled input:focus {
   box-shadow: none !important;
 }
 .miccn-form-item-has-error .miccn-calendar-picker-open .miccn-calendar-picker-input {
-  border-color: #ff7875;
+  border-color: #ff8e8a;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 96, 96, 0.2);
 }
 .miccn-form-item-has-error .miccn-input-prefix {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .miccn-form-item-has-error .miccn-input-group-addon {
-  color: #ff4d4f;
-  border-color: #ff4d4f;
+  color: #ff6060;
+  border-color: #ff6060;
 }
 .miccn-form-item-has-error .has-feedback {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .miccn-form-item-has-error.miccn-form-item-has-feedback .miccn-form-item-children-icon {
-  color: #ff4d4f;
+  color: #ff6060;
   animation-name: diffZoomIn2 !important;
 }
 .miccn-form-item-has-error .miccn-select:not(.miccn-select-disabled):not(.miccn-select-customize-input) .miccn-select-selector {
   background-color: #fff;
-  border-color: #ff4d4f !important;
+  border-color: #ff6060 !important;
 }
 .miccn-form-item-has-error .miccn-select:not(.miccn-select-disabled):not(.miccn-select-customize-input).miccn-select-open .miccn-select-selector,
 .miccn-form-item-has-error .miccn-select:not(.miccn-select-disabled):not(.miccn-select-customize-input).miccn-select-focused .miccn-select-selector {
-  border-color: #ff7875;
+  border-color: #ff8e8a;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 96, 96, 0.2);
 }
 .miccn-form-item-has-error .miccn-input-group-addon .miccn-select.miccn-select-single:not(.miccn-select-customize-input) .miccn-select-selector {
   border: 0;
 }
 .miccn-form-item-has-error .miccn-select.miccn-select-auto-complete .miccn-input:focus {
-  border-color: #ff4d4f;
+  border-color: #ff6060;
 }
 .miccn-form-item-has-error .miccn-input-number,
 .miccn-form-item-has-error .miccn-picker {
   background-color: #fff;
-  border-color: #ff4d4f;
+  border-color: #ff6060;
 }
 .miccn-form-item-has-error .miccn-input-number-focused,
 .miccn-form-item-has-error .miccn-picker-focused,
 .miccn-form-item-has-error .miccn-input-number:focus,
 .miccn-form-item-has-error .miccn-picker:focus {
-  border-color: #ff7875;
+  border-color: #ff8e8a;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 96, 96, 0.2);
 }
 .miccn-form-item-has-error .miccn-input-number:not([disabled]):hover,
 .miccn-form-item-has-error .miccn-picker:not([disabled]):hover {
   background-color: #fff;
-  border-color: #ff4d4f;
+  border-color: #ff6060;
 }
 .miccn-form-item-has-error .miccn-mention-wrapper .miccn-mention-editor,
 .miccn-form-item-has-error .miccn-mention-wrapper .miccn-mention-editor:not([disabled]):hover {
   background-color: #fff;
-  border-color: #ff4d4f;
+  border-color: #ff6060;
 }
 .miccn-form-item-has-error .miccn-mention-wrapper.miccn-mention-active:not([disabled]) .miccn-mention-editor,
 .miccn-form-item-has-error .miccn-mention-wrapper .miccn-mention-editor:not([disabled]):focus {
-  border-color: #ff7875;
+  border-color: #ff8e8a;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 96, 96, 0.2);
 }
 .miccn-form-item-has-error .miccn-cascader-picker:focus .miccn-cascader-input {
   background-color: #fff;
-  border-color: #ff7875;
+  border-color: #ff8e8a;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 96, 96, 0.2);
 }
 .miccn-form-item-has-error .miccn-transfer-list {
-  border-color: #ff4d4f;
+  border-color: #ff6060;
 }
 .miccn-form-item-has-error .miccn-transfer-list-search:not([disabled]) {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
 }
 .miccn-form-item-has-error .miccn-transfer-list-search:not([disabled]):hover {
-  border-color: #2930ff;
+  border-color: #ff29ea;
   border-right-width: 1px !important;
 }
 .miccn-form-item-has-error .miccn-transfer-list-search:not([disabled]):focus {
-  border-color: #2930ff;
+  border-color: #ff29ea;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 0, 238, 0.2);
 }
 .miccn-form-item-has-error .miccn-radio-button-wrapper {
-  border-color: #ff4d4f !important;
+  border-color: #ff6060 !important;
 }
 .miccn-form-item-has-error .miccn-radio-button-wrapper:not(:first-child)::before {
-  background-color: #ff4d4f;
+  background-color: #ff6060;
 }
 .miccn-form-item-is-validating.miccn-form-item-has-feedback .miccn-form-item-children-icon {
   display: inline-block;
-  color: #00f;
+  color: #f0e;
 }
 .miccn-form {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -523,14 +523,14 @@
   width: 100%;
   margin-bottom: 20px;
   padding: 0;
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 16px;
+  color: #222;
+  font-size: 15px;
   line-height: inherit;
   border: 0;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d2d2d2;
 }
 .miccn-form label {
-  font-size: 14px;
+  font-size: 13px;
 }
 .miccn-form input[type='search'] {
   box-sizing: border-box;
@@ -560,8 +560,8 @@
 .miccn-form output {
   display: block;
   padding-top: 15px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
 }
 .miccn-form .miccn-form-text {
@@ -584,8 +584,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -616,18 +616,18 @@
   display: inline-flex;
   align-items: center;
   height: 32px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
 }
 .miccn-form-item-label > label > .anticon {
-  font-size: 14px;
+  font-size: 13px;
   vertical-align: top;
 }
 .miccn-form-item-label > label.miccn-form-item-required:not(.miccn-form-item-required-mark-optional)::before {
   display: inline-block;
   margin-right: 4px;
   color: #ff4d4f;
-  font-size: 14px;
+  font-size: 13px;
   font-family: SimSun, sans-serif;
   line-height: 1;
   content: '*';
@@ -638,7 +638,7 @@
 .miccn-form-item-label > label .miccn-form-item-optional {
   display: inline-block;
   margin-left: 4px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .miccn-form-hide-required-mark .miccn-form-item-label > label .miccn-form-item-optional {
   display: none;
@@ -646,7 +646,7 @@
 .miccn-form-item-label > label .miccn-form-item-tooltip {
   writing-mode: horizontal-tb;
   margin-inline-start: 4px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .miccn-form-item-label > label::after {
   content: ':';
@@ -679,9 +679,9 @@
 .miccn-form-item-extra {
   clear: both;
   min-height: 24px;
-  padding-top: 0px;
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 14px;
+  padding-top: 1px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
   transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -819,15 +819,15 @@
 }
 .miccn-form-rtl .miccn-form-item-has-feedback .miccn-picker {
   padding-right: 11px;
-  padding-left: 29.2px;
+  padding-left: 27.9px;
 }
 .miccn-form-rtl .miccn-form-item-has-feedback .miccn-picker-large {
   padding-right: 11px;
-  padding-left: 29.2px;
+  padding-left: 27.9px;
 }
 .miccn-form-rtl .miccn-form-item-has-feedback .miccn-picker-small {
   padding-right: 7px;
-  padding-left: 25.2px;
+  padding-left: 23.9px;
 }
 .miccn-form-rtl .miccn-form-item-has-feedback.miccn-form-item-has-success .miccn-form-item-children-icon,
 .miccn-form-rtl .miccn-form-item-has-feedback.miccn-form-item-has-warning .miccn-form-item-children-icon,

@@ -1,4 +1,5 @@
 import path from 'path';
+const theme = require('./src/style/themes/variables')
 
 export default {
   // target: 'node',
@@ -22,12 +23,6 @@ export default {
       path.join(__dirname, 'packages/abiz-rc-miccn/node_modules/', '@abiz/rc-core')  
     ],
     javascriptEnabled: true,
-    modifyVars: {
-      'ant-prefix': 'miccn',
-      'btn-line-height': '200px',
-      'primary-color': '#00f',
-      'link-color': '#1DA57A',
-      'border-radius-base': '2px'
-    }
+    modifyVars: theme
   }
 };

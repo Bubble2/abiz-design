@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -34,12 +34,12 @@
   overflow: hidden;
   color: #fff;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: #222;
   border-radius: 20px;
   transition: all 0.3s;
 }
 .aeps-back-top-content:hover {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #222;
   transition: all 0.3s;
 }
 .aeps-back-top-icon {

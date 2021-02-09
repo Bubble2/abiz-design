@@ -43,14 +43,14 @@
   content: '\a0';
 }
 .miccn-select-single.miccn-select-show-arrow .miccn-select-selection-search {
-  right: 25px;
+  right: 24px;
 }
 .miccn-select-single.miccn-select-show-arrow .miccn-select-selection-item,
 .miccn-select-single.miccn-select-show-arrow .miccn-select-selection-placeholder {
-  padding-right: 18px;
+  padding-right: 17px;
 }
 .miccn-select-single.miccn-select-open .miccn-select-selection-item {
-  color: #bfbfbf;
+  color: #b0b0b0;
 }
 .miccn-select-single:not(.miccn-select-customize-input) .miccn-select-selector {
   width: 100%;
@@ -109,11 +109,11 @@
   padding: 0 7px;
 }
 .miccn-select-single.miccn-select-sm:not(.miccn-select-customize-input).miccn-select-show-arrow .miccn-select-selection-search {
-  right: 28px;
+  right: 26.5px;
 }
 .miccn-select-single.miccn-select-sm:not(.miccn-select-customize-input).miccn-select-show-arrow .miccn-select-selection-item,
 .miccn-select-single.miccn-select-sm:not(.miccn-select-customize-input).miccn-select-show-arrow .miccn-select-selection-placeholder {
-  padding-right: 21px;
+  padding-right: 19.5px;
 }
 .miccn-select-single.miccn-select-lg:not(.miccn-select-customize-input) .miccn-select-selector {
   padding: 0 11px;
@@ -138,7 +138,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 1px 4px;
+  padding: 0.8px 4.8px;
 }
 .miccn-select-show-search.miccn-select-multiple .miccn-select-selector {
   cursor: text;
@@ -150,8 +150,8 @@
 .miccn-select-multiple .miccn-select-selector::after {
   display: inline-block;
   width: 0;
-  margin: 2px 0;
-  line-height: 24px;
+  margin: 3px 0;
+  line-height: 22.4px;
   content: '\a0';
 }
 .miccn-select-multiple.miccn-select-show-arrow .miccn-select-selector,
@@ -164,13 +164,13 @@
   flex: none;
   box-sizing: border-box;
   max-width: 100%;
-  height: 24px;
-  margin-top: 2px;
-  margin-inline-end: 4px;
-  margin-bottom: 2px;
+  height: 22.4px;
+  margin-top: 3px;
+  margin-inline-end: 4.8px;
+  margin-bottom: 3px;
   padding-inline-start: 8px;
   padding-inline-end: 4px;
-  line-height: 22px;
+  line-height: 20.4px;
   background: #f5f5f5;
   border: 1px solid #f0f0f0;
   border-radius: 2px;
@@ -180,7 +180,7 @@
 }
 .miccn-select-disabled.miccn-select-multiple .miccn-select-selection-item {
   color: #bfbfbf;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   cursor: not-allowed;
 }
 .miccn-select-multiple .miccn-select-selection-item-content {
@@ -201,7 +201,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   font-weight: bold;
   font-size: 10px;
   line-height: inherit;
@@ -231,15 +231,15 @@
 .miccn-select-multiple .miccn-select-selection-search {
   position: relative;
   max-width: 100%;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  margin-inline-start: 7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-inline-start: 6.2px;
 }
 .miccn-select-multiple .miccn-select-selection-search-input,
 .miccn-select-multiple .miccn-select-selection-search-mirror {
-  height: 24px;
+  height: 22.4px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  line-height: 24px;
+  line-height: 22.4px;
   transition: all 0.3s;
 }
 .miccn-select-multiple .miccn-select-selection-search-input {
@@ -263,36 +263,36 @@
   transition: all 0.3s;
 }
 .miccn-select-multiple.miccn-select-lg .miccn-select-selector::after {
-  line-height: 32px;
+  line-height: 30.4px;
 }
 .miccn-select-multiple.miccn-select-lg .miccn-select-selection-item {
-  height: 32px;
-  line-height: 30px;
+  height: 30.4px;
+  line-height: 28.4px;
 }
 .miccn-select-multiple.miccn-select-lg .miccn-select-selection-search {
-  height: 33px;
-  line-height: 33px;
+  height: 31.2px;
+  line-height: 31.2px;
 }
 .miccn-select-multiple.miccn-select-lg .miccn-select-selection-search-input,
 .miccn-select-multiple.miccn-select-lg .miccn-select-selection-search-mirror {
-  height: 32px;
-  line-height: 30px;
+  height: 30.4px;
+  line-height: 28.4px;
 }
 .miccn-select-multiple.miccn-select-sm .miccn-select-selector::after {
-  line-height: 16px;
+  line-height: 14.4px;
 }
 .miccn-select-multiple.miccn-select-sm .miccn-select-selection-item {
-  height: 16px;
-  line-height: 14px;
+  height: 14.4px;
+  line-height: 12.4px;
 }
 .miccn-select-multiple.miccn-select-sm .miccn-select-selection-search {
-  height: 17px;
-  line-height: 17px;
+  height: 15.2px;
+  line-height: 15.2px;
 }
 .miccn-select-multiple.miccn-select-sm .miccn-select-selection-search-input,
 .miccn-select-multiple.miccn-select-sm .miccn-select-selection-search-mirror {
-  height: 16px;
-  line-height: 14px;
+  height: 14.4px;
+  line-height: 12.4px;
 }
 .miccn-select-multiple.miccn-select-sm .miccn-select-selection-placeholder {
   left: 7px;
@@ -312,8 +312,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -325,7 +325,7 @@
 .miccn-select:not(.miccn-select-customize-input) .miccn-select-selector {
   position: relative;
   background-color: #fff;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -339,13 +339,13 @@
   cursor: auto;
 }
 .miccn-select-focused:not(.miccn-select-disabled).miccn-select:not(.miccn-select-customize-input) .miccn-select-selector {
-  border-color: #2930ff;
+  border-color: #ff29ea;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 0, 238, 0.2);
 }
 .miccn-select-disabled.miccn-select:not(.miccn-select-customize-input) .miccn-select-selector {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background: #f5f5f5;
   cursor: not-allowed;
 }
@@ -365,7 +365,7 @@
   -webkit-appearance: none;
 }
 .miccn-select:not(.miccn-select-disabled):hover .miccn-select-selector {
-  border-color: #2930ff;
+  border-color: #ff29ea;
   border-right-width: 1px !important;
 }
 .miccn-select-selection-item {
@@ -383,7 +383,7 @@
 .miccn-select-selection-placeholder {
   flex: 1;
   overflow: hidden;
-  color: #bfbfbf;
+  color: #b0b0b0;
   white-space: nowrap;
   text-overflow: ellipsis;
   pointer-events: none;
@@ -410,7 +410,7 @@
   width: 12px;
   height: 12px;
   margin-top: -6px;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   font-size: 12px;
   line-height: 1;
   text-align: center;
@@ -450,7 +450,7 @@
   width: 12px;
   height: 12px;
   margin-top: -6px;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   font-size: 12px;
   font-style: normal;
   line-height: 1;
@@ -466,7 +466,7 @@
   display: block;
 }
 .miccn-select-clear:hover {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .miccn-select:hover .miccn-select-clear {
   opacity: 1;
@@ -474,7 +474,7 @@
 .miccn-select-dropdown {
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -486,12 +486,12 @@
   box-sizing: border-box;
   padding: 4px 0;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 13px;
   font-variant: initial;
   background-color: #fff;
   border-radius: 2px;
   outline: none;
-  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 .miccn-select-dropdown.slide-up-enter.slide-up-enter-active.miccn-select-dropdown-placement-bottomLeft,
 .miccn-select-dropdown.slide-up-appear.slide-up-appear-active.miccn-select-dropdown-placement-bottomLeft {
@@ -511,33 +511,33 @@
   display: none;
 }
 .miccn-select-dropdown-empty {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 .miccn-select-item-empty {
   position: relative;
   display: block;
   min-height: 32px;
   padding: 5px 12px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 22px;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 .miccn-select-item {
   position: relative;
   display: block;
   min-height: 32px;
   padding: 5px 12px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 22px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 .miccn-select-item-group {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   font-size: 12px;
   cursor: default;
 }
@@ -557,22 +557,22 @@
   background-color: #f5f5f5;
 }
 .miccn-select-item-option-selected:not(.miccn-select-item-option-disabled) {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  background-color: #e6eaff;
+  background-color: #f0fcf6;
 }
 .miccn-select-item-option-selected:not(.miccn-select-item-option-disabled) .miccn-select-item-option-state {
-  color: #00f;
+  color: #f0e;
 }
 .miccn-select-item-option-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 .miccn-select-item-option-grouped {
   padding-left: 24px;
 }
 .miccn-select-lg {
-  font-size: 16px;
+  font-size: 15px;
 }
 .miccn-select-borderless .miccn-select-selector {
   background-color: transparent !important;
@@ -599,7 +599,7 @@
 }
 .miccn-select-rtl.miccn-select-multiple.miccn-select-show-arrow .miccn-select-selector,
 .miccn-select-rtl.miccn-select-multiple.miccn-select-allow-clear .miccn-select-selector {
-  padding-right: 4px;
+  padding-right: 4.8px;
   padding-left: 24px;
 }
 .miccn-select-rtl.miccn-select-multiple .miccn-select-selection-item {
@@ -633,12 +633,12 @@
 }
 .miccn-select-rtl.miccn-select-single.miccn-select-show-arrow .miccn-select-selection-search {
   right: 11px;
-  left: 25px;
+  left: 24px;
 }
 .miccn-select-rtl.miccn-select-single.miccn-select-show-arrow .miccn-select-selection-item,
 .miccn-select-rtl.miccn-select-single.miccn-select-show-arrow .miccn-select-selection-placeholder {
   padding-right: 0;
-  padding-left: 18px;
+  padding-left: 17px;
 }
 .miccn-select-rtl.miccn-select-single:not(.miccn-select-customize-input) .miccn-select-selector {
   padding: 0 11px;
@@ -649,5 +649,5 @@
 .miccn-select-rtl.miccn-select-single.miccn-select-sm:not(.miccn-select-customize-input).miccn-select-show-arrow .miccn-select-selection-item,
 .miccn-select-rtl.miccn-select-single.miccn-select-sm:not(.miccn-select-customize-input).miccn-select-show-arrow .miccn-select-selection-placeholder {
   padding-right: 0;
-  padding-left: 21px;
+  padding-left: 19.5px;
 }

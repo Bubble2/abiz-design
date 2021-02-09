@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -55,9 +55,9 @@
 }
 .miccn-modal-title {
   margin: 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22px;
   word-wrap: break-word;
 }
@@ -76,7 +76,7 @@
   right: 0;
   z-index: 10;
   padding: 0;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   font-weight: 700;
   line-height: 1;
   text-decoration: none;
@@ -90,7 +90,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   line-height: 56px;
   text-align: center;
@@ -104,14 +104,14 @@
 }
 .miccn-modal-header {
   padding: 16px 24px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   background: #fff;
   border-bottom: 1px solid #f0f0f0;
   border-radius: 2px 2px 0 0;
 }
 .miccn-modal-body {
   padding: 24px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5715;
   word-wrap: break-word;
 }
@@ -172,15 +172,15 @@
 .miccn-modal-confirm-body .miccn-modal-confirm-title {
   display: block;
   overflow: hidden;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.4;
 }
 .miccn-modal-confirm-body .miccn-modal-confirm-content {
   margin-top: 8px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
 }
 .miccn-modal-confirm-body > .anticon {
   float: left;
@@ -199,17 +199,17 @@
   margin-left: 8px;
 }
 .miccn-modal-confirm-error .miccn-modal-confirm-body > .anticon {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .miccn-modal-confirm-warning .miccn-modal-confirm-body > .anticon,
 .miccn-modal-confirm-confirm .miccn-modal-confirm-body > .anticon {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .miccn-modal-confirm-info .miccn-modal-confirm-body > .anticon {
-  color: #00f;
+  color: #f0e;
 }
 .miccn-modal-confirm-success .miccn-modal-confirm-body > .anticon {
-  color: #52c41a;
+  color: #2b9262;
 }
 .miccn-modal-wrap-rtl {
   direction: rtl;

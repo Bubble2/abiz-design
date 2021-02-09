@@ -1,3 +1,5 @@
+import './style/all.less'
+
 export { default as Affix } from './affix';
 
 export { default as Anchor } from './anchor';

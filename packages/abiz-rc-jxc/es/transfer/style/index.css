@@ -23,7 +23,7 @@
   border-radius: 0;
 }
 .jxc-transfer-customize-list .jxc-table-wrapper .jxc-table-small > .jxc-table-content > .jxc-table-body > table > .jxc-table-thead > tr > th {
-  background: #fafafa;
+  background: #f0f0f0;
 }
 .jxc-transfer-customize-list .jxc-table-wrapper .jxc-table-small > .jxc-table-content .jxc-table-row:last-child td {
   border-bottom: 1px solid #f0f0f0;
@@ -41,8 +41,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -59,7 +59,7 @@
   flex-direction: column;
   width: 180px;
   height: 200px;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
 }
 .jxc-transfer-list-with-pagination {
@@ -76,16 +76,16 @@
   right: 12px;
   bottom: 12px;
   width: 28px;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   line-height: 32px;
   text-align: center;
 }
 .jxc-transfer-list-search-action .anticon {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   transition: all 0.3s;
 }
 .jxc-transfer-list-search-action .anticon:hover {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 span.jxc-transfer-list-search-action {
   pointer-events: none;
@@ -95,8 +95,8 @@ span.jxc-transfer-list-search-action {
   flex: none;
   align-items: center;
   height: 40px;
-  padding: 8px 12px 9px;
-  color: rgba(0, 0, 0, 0.85);
+  padding: 9px 12px 10px;
+  color: #222;
   background: #fff;
   border-bottom: 1px solid #f0f0f0;
   border-radius: 2px 2px 0 0;
@@ -127,7 +127,7 @@ span.jxc-transfer-list-search-action {
   flex: auto;
   flex-direction: column;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 13px;
 }
 .jxc-transfer-list-body-search-wrapper {
   position: relative;
@@ -163,20 +163,20 @@ span.jxc-transfer-list-search-action {
   text-overflow: ellipsis;
 }
 .jxc-transfer-list-content-item-remove {
-  color: #1DA57A;
+  color: #0066dd;
   text-decoration: none;
   outline: none;
   cursor: pointer;
   transition: color 0.3s;
   position: relative;
-  color: #d9d9d9;
+  color: #d2d2d2;
 }
 .jxc-transfer-list-content-item-remove:focus,
 .jxc-transfer-list-content-item-remove:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 .jxc-transfer-list-content-item-remove:active {
-  color: #118060;
+  color: #0050b8;
 }
 .jxc-transfer-list-content-item-remove::after {
   position: absolute;
@@ -187,24 +187,24 @@ span.jxc-transfer-list-search-action {
   content: '';
 }
 .jxc-transfer-list-content-item-remove:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 .jxc-transfer-list-content-item:not(.jxc-transfer-list-content-item-disabled):hover {
   background-color: #f5f5f5;
   cursor: pointer;
 }
 .jxc-transfer-list-content-item:not(.jxc-transfer-list-content-item-disabled).jxc-transfer-list-content-item-checked:hover {
-  background-color: #ffdcf9;
+  background-color: #e7faf1;
 }
 .jxc-transfer-list-content-show-remove .jxc-transfer-list-content-item:not(.jxc-transfer-list-content-item-disabled):hover {
   background: transparent;
   cursor: default;
 }
 .jxc-transfer-list-content-item-checked {
-  background-color: #ffe6fb;
+  background-color: #f0fcf6;
 }
 .jxc-transfer-list-content-item-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 .jxc-transfer-list-pagination {
@@ -216,7 +216,7 @@ span.jxc-transfer-list-search-action {
   flex: none;
   width: 100%;
   margin: auto 0;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   text-align: center;
 }
 .jxc-transfer-list-footer {

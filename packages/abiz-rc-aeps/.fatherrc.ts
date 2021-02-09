@@ -1,4 +1,5 @@
 import path from 'path';
+const theme = require('./src/style/themes/variables')
 
 export default {
   // target: 'node',
@@ -22,11 +23,6 @@ export default {
       path.join(__dirname, 'packages/abiz-rc-aeps/node_modules/', '@abiz/rc-core')   
     ],
     javascriptEnabled: true,
-    modifyVars: {
-      'ant-prefix': 'aeps',
-      'primary-color': 'red',
-      'link-color': '#1DA57A',
-      'border-radius-base': '2px'
-    }
+    modifyVars: theme
   }
 };

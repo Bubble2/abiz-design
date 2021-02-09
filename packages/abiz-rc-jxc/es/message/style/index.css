@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -32,23 +32,23 @@
   pointer-events: all;
 }
 .jxc-message-success .anticon {
-  color: #52c41a;
+  color: #2b9262;
 }
 .jxc-message-error .anticon {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .jxc-message-warning .anticon {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .jxc-message-info .anticon,
 .jxc-message-loading .anticon {
-  color: #f0f;
+  color: #fdf;
 }
 .jxc-message .anticon {
   position: relative;
   top: 1px;
   margin-right: 8px;
-  font-size: 16px;
+  font-size: 15px;
 }
 .jxc-message-notice.move-up-leave.move-up-leave-active {
   animation-name: MessageMoveOut;

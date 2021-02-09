@@ -10,17 +10,17 @@
 .jxc-descriptions-title {
   flex: auto;
   overflow: hidden;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5715;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 .jxc-descriptions-extra {
   margin-left: auto;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
 }
 .jxc-descriptions-view {
   width: 100%;
@@ -39,9 +39,9 @@
   border-bottom: none;
 }
 .jxc-descriptions-item-label {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5715;
   text-align: start;
 }
@@ -61,8 +61,8 @@
 .jxc-descriptions-item-content {
   display: table-cell;
   flex: 1;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
   word-break: break-word;
   overflow-wrap: break-word;

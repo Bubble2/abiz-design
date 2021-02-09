@@ -28,14 +28,14 @@
 .jxc-layout-header {
   height: 64px;
   padding: 0 50px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   line-height: 64px;
   background: #001529;
 }
 .jxc-layout-footer {
   padding: 24px 50px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   background: #f0f2f5;
 }
 .jxc-layout-content {
@@ -113,11 +113,11 @@
   background: #fff;
 }
 .jxc-layout-sider-light .jxc-layout-sider-trigger {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   background: #fff;
 }
 .jxc-layout-sider-light .jxc-layout-sider-zero-width-trigger {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   background: #fff;
 }
 .jxc-layout-rtl {

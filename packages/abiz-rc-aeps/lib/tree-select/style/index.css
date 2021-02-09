@@ -21,8 +21,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -39,7 +39,7 @@
 .aeps-select-tree-checkbox-wrapper:hover .aeps-select-tree-checkbox-inner,
 .aeps-select-tree-checkbox:hover .aeps-select-tree-checkbox-inner,
 .aeps-select-tree-checkbox-input:focus + .aeps-select-tree-checkbox-inner {
-  border-color: red;
+  border-color: #fdf;
 }
 .aeps-select-tree-checkbox-checked::after {
   position: absolute;
@@ -47,7 +47,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid red;
+  border: 1px solid #fdf;
   border-radius: 2px;
   visibility: hidden;
   animation: antCheckboxEffect 0.36s ease-in-out;
@@ -67,7 +67,7 @@
   height: 16px;
   direction: ltr;
   background-color: #fff;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   border-collapse: separate;
   transition: all 0.3s;
@@ -111,14 +111,14 @@
   content: ' ';
 }
 .aeps-select-tree-checkbox-checked .aeps-select-tree-checkbox-inner {
-  background-color: red;
-  border-color: red;
+  background-color: #fdf;
+  border-color: #fdf;
 }
 .aeps-select-tree-checkbox-disabled {
   cursor: not-allowed;
 }
 .aeps-select-tree-checkbox-disabled.aeps-select-tree-checkbox-checked .aeps-select-tree-checkbox-inner::after {
-  border-color: rgba(0, 0, 0, 0.25);
+  border-color: #ccc;
   animation-name: none;
 }
 .aeps-select-tree-checkbox-disabled .aeps-select-tree-checkbox-input {
@@ -126,7 +126,7 @@
 }
 .aeps-select-tree-checkbox-disabled .aeps-select-tree-checkbox-inner {
   background-color: #f5f5f5;
-  border-color: #d9d9d9 !important;
+  border-color: #d2d2d2 !important;
 }
 .aeps-select-tree-checkbox-disabled .aeps-select-tree-checkbox-inner::after {
   border-color: #f5f5f5;
@@ -134,7 +134,7 @@
   animation-name: none;
 }
 .aeps-select-tree-checkbox-disabled + span {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 .aeps-select-tree-checkbox-disabled:hover::after,
@@ -145,8 +145,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -169,8 +169,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -189,22 +189,22 @@
 }
 .aeps-select-tree-checkbox-indeterminate .aeps-select-tree-checkbox-inner {
   background-color: #fff;
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
 }
 .aeps-select-tree-checkbox-indeterminate .aeps-select-tree-checkbox-inner::after {
   top: 50%;
   left: 50%;
   width: 8px;
   height: 8px;
-  background-color: red;
+  background-color: #fdf;
   border: 0;
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
   content: ' ';
 }
 .aeps-select-tree-checkbox-indeterminate.aeps-select-tree-checkbox-disabled .aeps-select-tree-checkbox-inner::after {
-  background-color: rgba(0, 0, 0, 0.25);
-  border-color: rgba(0, 0, 0, 0.25);
+  background-color: #ccc;
+  border-color: #ccc;
 }
 .aeps-tree-select-dropdown {
   padding: 8px 4px 0;
@@ -228,8 +228,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -239,7 +239,7 @@
   transition: background-color 0.3s;
 }
 .aeps-select-tree-focused:not(:hover):not(.aeps-select-tree-active-focused) {
-  background: #ffeae6;
+  background: #f0fcf6;
 }
 .aeps-select-tree-list-holder-inner {
   align-items: flex-start;
@@ -257,7 +257,7 @@
   outline: none;
 }
 .aeps-select-tree .aeps-select-tree-treenode-disabled .aeps-select-tree-node-content-wrapper {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 .aeps-select-tree .aeps-select-tree-treenode-disabled .aeps-select-tree-node-content-wrapper:hover {
@@ -307,7 +307,7 @@
   transform: rotate(-90deg);
 }
 .aeps-select-tree-switcher-loading-icon {
-  color: red;
+  color: #fdf;
 }
 .aeps-select-tree-switcher-leaf-line {
   position: relative;
@@ -353,7 +353,7 @@
   background-color: #f5f5f5;
 }
 .aeps-select-tree .aeps-select-tree-node-content-wrapper.aeps-select-tree-node-selected {
-  background-color: #ffafa3;
+  background-color: #fff0fd;
 }
 .aeps-select-tree .aeps-select-tree-node-content-wrapper .aeps-select-tree-iconEle {
   display: inline-block;
@@ -377,7 +377,7 @@
   position: absolute;
   z-index: 1;
   height: 2px;
-  background-color: red;
+  background-color: #fdf;
   border-radius: 1px;
   pointer-events: none;
 }
@@ -388,12 +388,12 @@
   width: 8px;
   height: 8px;
   background-color: transparent;
-  border: 2px solid red;
+  border: 2px solid #fdf;
   border-radius: 50%;
   content: '';
 }
 .aeps-select-tree .aeps-select-tree-treenode.drop-container > [draggable] {
-  box-shadow: 0 0 0 2px red;
+  box-shadow: 0 0 0 2px #fdf;
 }
 .aeps-select-tree-show-line .aeps-select-tree-indent-unit {
   position: relative;
@@ -404,7 +404,7 @@
   top: 0;
   right: 12px;
   bottom: -4px;
-  border-right: 1px solid #d9d9d9;
+  border-right: 1px solid #d2d2d2;
   content: '';
 }
 .aeps-select-tree-show-line .aeps-select-tree-indent-unit-end::before {

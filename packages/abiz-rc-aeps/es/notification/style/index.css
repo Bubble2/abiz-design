@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -28,7 +28,7 @@
   animation-name: NotificationLeftFadeIn;
 }
 .aeps-notification-close-icon {
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
 }
 .aeps-notification-hook-holder,
@@ -61,8 +61,8 @@
 }
 .aeps-notification-notice-message {
   margin-bottom: 8px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 16px;
+  color: #222;
+  font-size: 15px;
   line-height: 24px;
 }
 .aeps-notification-notice-message-single-line-auto-margin {
@@ -77,7 +77,7 @@
   content: '';
 }
 .aeps-notification-notice-description {
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-notification-notice-closable .aeps-notification-notice-message {
   padding-right: 24px;
@@ -85,11 +85,11 @@
 .aeps-notification-notice-with-icon .aeps-notification-notice-message {
   margin-bottom: 4px;
   margin-left: 48px;
-  font-size: 16px;
+  font-size: 15px;
 }
 .aeps-notification-notice-with-icon .aeps-notification-notice-description {
   margin-left: 48px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-notification-notice-icon {
   position: absolute;
@@ -98,26 +98,26 @@
   line-height: 24px;
 }
 .anticon.aeps-notification-notice-icon-success {
-  color: #52c41a;
+  color: #2b9262;
 }
 .anticon.aeps-notification-notice-icon-info {
-  color: red;
+  color: #fdf;
 }
 .anticon.aeps-notification-notice-icon-warning {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .anticon.aeps-notification-notice-icon-error {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .aeps-notification-notice-close {
   position: absolute;
   top: 16px;
   right: 22px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   outline: none;
 }
 .aeps-notification-notice-close:hover {
-  color: rgba(0, 0, 0, 0.67);
+  color: #141414;
 }
 .aeps-notification-notice-btn {
   float: right;

@@ -4,8 +4,8 @@
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 .jxc-timeline {
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   font-feature-settings: 'tnum';
@@ -17,7 +17,7 @@
   position: relative;
   margin: 0;
   padding-bottom: 20px;
-  font-size: 14px;
+  font-size: 13px;
   list-style: none;
 }
 .jxc-timeline-item-tail {
@@ -43,20 +43,20 @@
   border-radius: 100px;
 }
 .jxc-timeline-item-head-blue {
-  color: #f0f;
-  border-color: #f0f;
+  color: #fdf;
+  border-color: #fdf;
 }
 .jxc-timeline-item-head-red {
-  color: #ff4d4f;
-  border-color: #ff4d4f;
+  color: #ff6060;
+  border-color: #ff6060;
 }
 .jxc-timeline-item-head-green {
-  color: #52c41a;
-  border-color: #52c41a;
+  color: #2b9262;
+  border-color: #2b9262;
 }
 .jxc-timeline-item-head-gray {
-  color: rgba(0, 0, 0, 0.25);
-  border-color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
+  border-color: #ccc;
 }
 .jxc-timeline-item-head-custom {
   position: absolute;
@@ -74,7 +74,7 @@
 }
 .jxc-timeline-item-content {
   position: relative;
-  top: -7.001px;
+  top: -6.4295px;
   margin: 0 0 0 26px;
   word-break: break-word;
 }
@@ -146,7 +146,7 @@
 }
 .jxc-timeline.jxc-timeline-label .jxc-timeline-item-label {
   position: absolute;
-  top: -7.001px;
+  top: -6.4295px;
   width: calc(50% - 12px);
   text-align: right;
 }

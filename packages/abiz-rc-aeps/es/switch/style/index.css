@@ -5,8 +5,8 @@
 .aeps-switch {
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -18,7 +18,7 @@
   height: 22px;
   line-height: 22px;
   vertical-align: middle;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: #ccc;
   border: 0;
   border-radius: 100px;
   cursor: pointer;
@@ -27,16 +27,16 @@
 }
 .aeps-switch:focus {
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.1);
 }
 .aeps-switch-checked:focus {
-  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
 }
 .aeps-switch:focus:hover {
   box-shadow: none;
 }
 .aeps-switch-checked {
-  background-color: red;
+  background-color: #fdf;
 }
 .aeps-switch-loading,
 .aeps-switch-disabled {
@@ -91,12 +91,12 @@
 }
 .aeps-switch-loading-icon {
   position: relative;
-  top: 2px;
+  top: 2.5px;
   color: rgba(0, 0, 0, 0.65);
   vertical-align: top;
 }
 .aeps-switch-checked .aeps-switch-loading-icon {
-  color: red;
+  color: #fdf;
 }
 .aeps-switch-small {
   min-width: 28px;

@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -34,9 +34,9 @@
   min-height: 48px;
   margin-bottom: -1px;
   padding: 0 24px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   background: transparent;
   border-bottom: 1px solid #f0f0f0;
   border-radius: 2px 2px 0 0;
@@ -71,9 +71,9 @@
 .aeps-card-head .aeps-tabs {
   clear: both;
   margin-bottom: -17px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-card-head .aeps-tabs-bar {
   border-bottom: 1px solid #f0f0f0;
@@ -82,9 +82,9 @@
   float: right;
   margin-left: auto;
   padding: 16px 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-card-rtl .aeps-card-extra {
   margin-right: auto;
@@ -161,7 +161,7 @@
 .aeps-card-actions > li {
   float: left;
   margin: 12px 0;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   text-align: center;
 }
 .aeps-card-rtl .aeps-card-actions > li {
@@ -171,25 +171,25 @@
   position: relative;
   display: block;
   min-width: 32px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5715;
   cursor: pointer;
 }
 .aeps-card-actions > li > span:hover {
-  color: red;
+  color: #fdf;
   transition: color 0.3s;
 }
 .aeps-card-actions > li > span a:not(.aeps-btn),
 .aeps-card-actions > li > span > .anticon {
   display: inline-block;
   width: 100%;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   line-height: 22px;
   transition: color 0.3s;
 }
 .aeps-card-actions > li > span a:not(.aeps-btn):hover,
 .aeps-card-actions > li > span > .anticon:hover {
-  color: red;
+  color: #fdf;
 }
 .aeps-card-actions > li > span > .anticon {
   font-size: 16px;
@@ -208,7 +208,7 @@
 }
 .aeps-card-type-inner .aeps-card-head-title {
   padding: 12px 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-card-type-inner .aeps-card-body {
   padding: 16px 24px;
@@ -245,14 +245,14 @@
 }
 .aeps-card-meta-title {
   overflow: hidden;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 .aeps-card-meta-description {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .aeps-card-loading {
   overflow: hidden;
@@ -283,14 +283,14 @@
 .aeps-card-small > .aeps-card-head {
   min-height: 36px;
   padding: 0 12px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-card-small > .aeps-card-head > .aeps-card-head-wrapper > .aeps-card-head-title {
   padding: 8px 0;
 }
 .aeps-card-small > .aeps-card-head > .aeps-card-head-wrapper > .aeps-card-extra {
   padding: 8px 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-card-small > .aeps-card-body {
   padding: 12px;

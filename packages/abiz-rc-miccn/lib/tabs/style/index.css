@@ -4,11 +4,11 @@
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 .miccn-tabs-small > .miccn-tabs-nav .miccn-tabs-tab {
   padding: 8px 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 .miccn-tabs-large > .miccn-tabs-nav .miccn-tabs-tab {
   padding: 16px 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 .miccn-tabs-card.miccn-tabs-small > .miccn-tabs-nav .miccn-tabs-tab {
   padding: 6px 16px;
@@ -183,7 +183,7 @@
 .miccn-tabs-left > div > .miccn-tabs-nav .miccn-tabs-tab-active .miccn-tabs-tab-btn,
 .miccn-tabs-right > div > .miccn-tabs-nav .miccn-tabs-tab-active .miccn-tabs-tab-btn {
   font-weight: normal;
-  text-shadow: 0 0 0.25px #0700d9;
+  text-shadow: 0 0 0.25px #d900d2;
 }
 .miccn-tabs-left > .miccn-tabs-nav .miccn-tabs-nav-wrap,
 .miccn-tabs-right > .miccn-tabs-nav .miccn-tabs-nav-wrap,
@@ -286,8 +286,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -313,16 +313,16 @@
   background-clip: padding-box;
   border-radius: 2px;
   outline: none;
-  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 .miccn-tabs-dropdown-menu-item {
   min-width: 120px;
   margin: 0;
   padding: 5px 12px;
   overflow: hidden;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 22px;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -334,21 +334,21 @@
 }
 .miccn-tabs-dropdown-menu-item-disabled,
 .miccn-tabs-dropdown-menu-item-disabled:hover {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background: transparent;
   cursor: not-allowed;
 }
 .miccn-tabs-card > .miccn-tabs-nav .miccn-tabs-tab,
 .miccn-tabs-card > div > .miccn-tabs-nav .miccn-tabs-tab {
   margin: 0;
-  padding: 8px 16px;
+  padding: 9px 16px;
   background: #fafafa;
   border: 1px solid #f0f0f0;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .miccn-tabs-card > .miccn-tabs-nav .miccn-tabs-tab-active,
 .miccn-tabs-card > div > .miccn-tabs-nav .miccn-tabs-tab-active {
-  color: #00f;
+  color: #f0e;
   background: #fff;
 }
 .miccn-tabs-card > .miccn-tabs-nav .miccn-tabs-ink-bar,
@@ -403,8 +403,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -461,7 +461,7 @@
 .miccn-tabs > .miccn-tabs-nav .miccn-tabs-nav-more,
 .miccn-tabs > div > .miccn-tabs-nav .miccn-tabs-nav-more {
   position: relative;
-  padding: 8px 16px;
+  padding: 9px 16px;
   background: transparent;
   border: 0;
 }
@@ -488,13 +488,13 @@
 }
 .miccn-tabs > .miccn-tabs-nav .miccn-tabs-nav-add:hover,
 .miccn-tabs > div > .miccn-tabs-nav .miccn-tabs-nav-add:hover {
-  color: #2930ff;
+  color: #ff29ea;
 }
 .miccn-tabs > .miccn-tabs-nav .miccn-tabs-nav-add:active,
 .miccn-tabs > div > .miccn-tabs-nav .miccn-tabs-nav-add:active,
 .miccn-tabs > .miccn-tabs-nav .miccn-tabs-nav-add:focus,
 .miccn-tabs > div > .miccn-tabs-nav .miccn-tabs-nav-add:focus {
-  color: #0700d9;
+  color: #d900d2;
 }
 .miccn-tabs-extra-content {
   flex: none;
@@ -505,7 +505,7 @@
 }
 .miccn-tabs-ink-bar {
   position: absolute;
-  background: #00f;
+  background: #f0e;
   pointer-events: none;
 }
 .miccn-tabs-tab {
@@ -514,7 +514,7 @@
   align-items: center;
   margin: 0 32px 0 0;
   padding: 12px 0;
-  font-size: 14px;
+  font-size: 13px;
   background: transparent;
   border: 0;
   outline: none;
@@ -528,7 +528,7 @@
 .miccn-tabs-tab-remove:focus,
 .miccn-tabs-tab-btn:active,
 .miccn-tabs-tab-remove:active {
-  color: #0700d9;
+  color: #d900d2;
 }
 .miccn-tabs-tab-btn {
   outline: none;
@@ -538,7 +538,7 @@
   flex: none;
   margin-right: -4px;
   margin-left: 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   font-size: 12px;
   background: transparent;
   border: none;
@@ -547,24 +547,24 @@
   transition: all 0.3s;
 }
 .miccn-tabs-tab-remove:hover {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .miccn-tabs-tab:hover {
-  color: #2930ff;
+  color: #ff29ea;
 }
 .miccn-tabs-tab.miccn-tabs-tab-active .miccn-tabs-tab-btn {
-  color: #00f;
+  color: #f0e;
   font-weight: 500;
 }
 .miccn-tabs-tab.miccn-tabs-tab-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 .miccn-tabs-tab.miccn-tabs-tab-disabled .miccn-tabs-tab-btn:focus,
 .miccn-tabs-tab.miccn-tabs-tab-disabled .miccn-tabs-tab-remove:focus,
 .miccn-tabs-tab.miccn-tabs-tab-disabled .miccn-tabs-tab-btn:active,
 .miccn-tabs-tab.miccn-tabs-tab-disabled .miccn-tabs-tab-remove:active {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 .miccn-tabs-tab .miccn-tabs-tab-remove .anticon {
   margin: 0;

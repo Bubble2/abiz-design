@@ -12,7 +12,7 @@ export default /*#__PURE__*/React.forwardRef(function (_ref, ref) {
       otherProps = _objectWithoutProperties(_ref, ["children"]);
 
   return /*#__PURE__*/React.createElement(_ConfigProvider, _extends({
-    prefixCls: "jxc",
+    prefixCls: "aeps",
     forwardedRef: ref
   }, otherProps), children);
 });

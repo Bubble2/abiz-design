@@ -4,8 +4,8 @@
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 .aeps-rate {
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   font-feature-settings: 'tnum';
@@ -71,7 +71,7 @@
 .aeps-rate-text {
   display: inline-block;
   margin: 0 8px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-rate-rtl {
   direction: rtl;

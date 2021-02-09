@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -43,18 +43,18 @@
   width: 32px;
   height: 32px;
   margin: 0 8px 0 0;
-  font-size: 16px;
+  font-size: 15px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   line-height: 32px;
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #ccc;
   border-radius: 32px;
   transition: background-color 0.3s, border-color 0.3s;
 }
 .aeps-steps-item-icon .aeps-steps-icon {
   position: relative;
   top: -1px;
-  color: red;
+  color: #fdf;
   line-height: 1;
 }
 .aeps-steps-item-tail {
@@ -77,8 +77,8 @@
   position: relative;
   display: inline-block;
   padding-right: 16px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 16px;
+  color: #222;
+  font-size: 15px;
   line-height: 32px;
 }
 .aeps-steps-item-title::after {
@@ -94,60 +94,60 @@
 .aeps-steps-item-subtitle {
   display: inline;
   margin-left: 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-steps-item-description {
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
 }
 .aeps-steps-item-wait .aeps-steps-item-icon {
   background-color: #fff;
-  border-color: rgba(0, 0, 0, 0.25);
+  border-color: #ccc;
 }
 .aeps-steps-item-wait .aeps-steps-item-icon > .aeps-steps-icon {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 .aeps-steps-item-wait .aeps-steps-item-icon > .aeps-steps-icon .aeps-steps-icon-dot {
-  background: rgba(0, 0, 0, 0.25);
+  background: #ccc;
 }
 .aeps-steps-item-wait > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-title {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .aeps-steps-item-wait > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-title::after {
   background-color: #f0f0f0;
 }
 .aeps-steps-item-wait > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-description {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .aeps-steps-item-wait > .aeps-steps-item-container > .aeps-steps-item-tail::after {
   background-color: #f0f0f0;
 }
 .aeps-steps-item-process .aeps-steps-item-icon {
   background-color: #fff;
-  border-color: red;
+  border-color: #fdf;
 }
 .aeps-steps-item-process .aeps-steps-item-icon > .aeps-steps-icon {
-  color: red;
+  color: #fdf;
 }
 .aeps-steps-item-process .aeps-steps-item-icon > .aeps-steps-icon .aeps-steps-icon-dot {
-  background: red;
+  background: #fdf;
 }
 .aeps-steps-item-process > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-title {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .aeps-steps-item-process > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-title::after {
   background-color: #f0f0f0;
 }
 .aeps-steps-item-process > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-description {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .aeps-steps-item-process > .aeps-steps-item-container > .aeps-steps-item-tail::after {
   background-color: #f0f0f0;
 }
 .aeps-steps-item-process > .aeps-steps-item-container > .aeps-steps-item-icon {
-  background: red;
+  background: #fdf;
 }
 .aeps-steps-item-process > .aeps-steps-item-container > .aeps-steps-item-icon .aeps-steps-icon {
   color: #fff;
@@ -157,50 +157,50 @@
 }
 .aeps-steps-item-finish .aeps-steps-item-icon {
   background-color: #fff;
-  border-color: red;
+  border-color: #fdf;
 }
 .aeps-steps-item-finish .aeps-steps-item-icon > .aeps-steps-icon {
-  color: red;
+  color: #fdf;
 }
 .aeps-steps-item-finish .aeps-steps-item-icon > .aeps-steps-icon .aeps-steps-icon-dot {
-  background: red;
+  background: #fdf;
 }
 .aeps-steps-item-finish > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-title {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .aeps-steps-item-finish > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-title::after {
-  background-color: red;
+  background-color: #fdf;
 }
 .aeps-steps-item-finish > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-description {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .aeps-steps-item-finish > .aeps-steps-item-container > .aeps-steps-item-tail::after {
-  background-color: red;
+  background-color: #fdf;
 }
 .aeps-steps-item-error .aeps-steps-item-icon {
   background-color: #fff;
-  border-color: #ff4d4f;
+  border-color: #ff6060;
 }
 .aeps-steps-item-error .aeps-steps-item-icon > .aeps-steps-icon {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .aeps-steps-item-error .aeps-steps-item-icon > .aeps-steps-icon .aeps-steps-icon-dot {
-  background: #ff4d4f;
+  background: #ff6060;
 }
 .aeps-steps-item-error > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-title {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .aeps-steps-item-error > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-title::after {
   background-color: #f0f0f0;
 }
 .aeps-steps-item-error > .aeps-steps-item-container > .aeps-steps-item-content > .aeps-steps-item-description {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .aeps-steps-item-error > .aeps-steps-item-container > .aeps-steps-item-tail::after {
   background-color: #f0f0f0;
 }
 .aeps-steps-item.aeps-steps-next-error .aeps-steps-item-title::after {
-  background: #ff4d4f;
+  background: #ff6060;
 }
 .aeps-steps-item-disabled {
   cursor: not-allowed;
@@ -217,13 +217,13 @@
 .aeps-steps .aeps-steps-item:not(.aeps-steps-item-active) > .aeps-steps-item-container[role='button']:hover .aeps-steps-item-title,
 .aeps-steps .aeps-steps-item:not(.aeps-steps-item-active) > .aeps-steps-item-container[role='button']:hover .aeps-steps-item-subtitle,
 .aeps-steps .aeps-steps-item:not(.aeps-steps-item-active) > .aeps-steps-item-container[role='button']:hover .aeps-steps-item-description {
-  color: red;
+  color: #fdf;
 }
 .aeps-steps .aeps-steps-item:not(.aeps-steps-item-active):not(.aeps-steps-item-process) > .aeps-steps-item-container[role='button']:hover .aeps-steps-item-icon {
-  border-color: red;
+  border-color: #fdf;
 }
 .aeps-steps .aeps-steps-item:not(.aeps-steps-item-active):not(.aeps-steps-item-process) > .aeps-steps-item-container[role='button']:hover .aeps-steps-item-icon .aeps-steps-icon {
-  color: red;
+  color: #fdf;
 }
 .aeps-steps-horizontal:not(.aeps-steps-label-vertical) .aeps-steps-item {
   padding-left: 16px;
@@ -256,7 +256,7 @@
   line-height: 32px;
 }
 .aeps-steps-item-custom.aeps-steps-item-process .aeps-steps-item-icon > .aeps-steps-icon {
-  color: red;
+  color: #fdf;
 }
 .aeps-steps:not(.aeps-steps-vertical) .aeps-steps-item-custom .aeps-steps-item-icon {
   width: auto;
@@ -279,15 +279,15 @@
 }
 .aeps-steps-small .aeps-steps-item-title {
   padding-right: 12px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 24px;
 }
 .aeps-steps-small .aeps-steps-item-title::after {
   top: 12px;
 }
 .aeps-steps-small .aeps-steps-item-description {
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
 }
 .aeps-steps-small .aeps-steps-item-tail {
   top: 8px;
@@ -543,7 +543,7 @@
   display: inline-block;
   width: 0;
   height: 2px;
-  background-color: red;
+  background-color: #fdf;
   transition: width 0.3s, left 0.3s;
   transition-timing-function: ease-out;
   content: '';

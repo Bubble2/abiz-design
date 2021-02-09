@@ -7,13 +7,13 @@
   display: inline-block;
   width: 100%;
   min-width: 0;
-  padding: 4px 11px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  padding: 4.8px 11px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   transition: all 0.3s;
   display: inline-flex;
@@ -22,13 +22,13 @@
   opacity: 1;
 }
 .jxc-input-affix-wrapper::placeholder {
-  color: #bfbfbf;
+  color: #b0b0b0;
 }
 .jxc-input-affix-wrapper:placeholder-shown {
   text-overflow: ellipsis;
 }
 .jxc-input-affix-wrapper:hover {
-  border-color: #ff29f8;
+  border-color: #fff0fe;
   border-right-width: 1px !important;
 }
 .jxc-input-rtl .jxc-input-affix-wrapper:hover {
@@ -37,10 +37,10 @@
 }
 .jxc-input-affix-wrapper:focus,
 .jxc-input-affix-wrapper-focused {
-  border-color: #ff29f8;
+  border-color: #fff0fe;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 0, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
 }
 .jxc-input-rtl .jxc-input-affix-wrapper:focus,
 .jxc-input-rtl .jxc-input-affix-wrapper-focused {
@@ -48,23 +48,23 @@
   border-left-width: 1px !important;
 }
 .jxc-input-affix-wrapper-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .jxc-input-affix-wrapper-disabled:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .jxc-input-affix-wrapper[disabled] {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .jxc-input-affix-wrapper[disabled]:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .jxc-input-affix-wrapper-borderless,
@@ -86,17 +86,17 @@ textarea.jxc-input-affix-wrapper {
   transition: all 0.3s, height 0s;
 }
 .jxc-input-affix-wrapper-lg {
-  padding: 6.5px 11px;
-  font-size: 16px;
+  padding: 7.3px 11px;
+  font-size: 15px;
 }
 .jxc-input-affix-wrapper-sm {
-  padding: 0px 7px;
+  padding: 0.8px 7px;
 }
 .jxc-input-affix-wrapper-rtl {
   direction: rtl;
 }
 .jxc-input-affix-wrapper:hover {
-  border-color: #ff29f8;
+  border-color: #fff0fe;
   border-right-width: 1px !important;
   z-index: 1;
 }
@@ -141,17 +141,17 @@ textarea.jxc-input-affix-wrapper {
 }
 .jxc-input-clear-icon {
   margin: 0 4px;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   font-size: 12px;
   vertical-align: -1px;
   cursor: pointer;
   transition: color 0.3s;
 }
 .jxc-input-clear-icon:hover {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .jxc-input-clear-icon:active {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .jxc-input-clear-icon-hidden {
   visibility: hidden;
@@ -180,13 +180,13 @@ textarea.jxc-input-affix-wrapper {
   display: inline-block;
   width: 100%;
   min-width: 0;
-  padding: 4px 11px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  padding: 4.8px 11px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.5715;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   transition: all 0.3s;
 }
@@ -194,13 +194,13 @@ textarea.jxc-input-affix-wrapper {
   opacity: 1;
 }
 .jxc-input::placeholder {
-  color: #bfbfbf;
+  color: #b0b0b0;
 }
 .jxc-input:placeholder-shown {
   text-overflow: ellipsis;
 }
 .jxc-input:hover {
-  border-color: #ff29f8;
+  border-color: #fff0fe;
   border-right-width: 1px !important;
 }
 .jxc-input-rtl .jxc-input:hover {
@@ -209,10 +209,10 @@ textarea.jxc-input-affix-wrapper {
 }
 .jxc-input:focus,
 .jxc-input-focused {
-  border-color: #ff29f8;
+  border-color: #fff0fe;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 0, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
 }
 .jxc-input-rtl .jxc-input:focus,
 .jxc-input-rtl .jxc-input-focused {
@@ -220,23 +220,23 @@ textarea.jxc-input-affix-wrapper {
   border-left-width: 1px !important;
 }
 .jxc-input-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .jxc-input-disabled:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .jxc-input[disabled] {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .jxc-input[disabled]:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .jxc-input-borderless,
@@ -258,11 +258,11 @@ textarea.jxc-input {
   transition: all 0.3s, height 0s;
 }
 .jxc-input-lg {
-  padding: 6.5px 11px;
-  font-size: 16px;
+  padding: 7.3px 11px;
+  font-size: 15px;
 }
 .jxc-input-sm {
-  padding: 0px 7px;
+  padding: 0.8px 7px;
 }
 .jxc-input-rtl {
   direction: rtl;
@@ -271,8 +271,8 @@ textarea.jxc-input {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -333,17 +333,17 @@ textarea.jxc-input {
 .jxc-input-group-addon {
   position: relative;
   padding: 0 11px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
   background-color: #fafafa;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   transition: all 0.3s;
 }
 .jxc-input-group-addon .jxc-select {
-  margin: -5px -11px;
+  margin: -5.8px -11px;
 }
 .jxc-input-group-addon .jxc-select.jxc-select-single:not(.jxc-select-customize-input) .jxc-select-selector {
   background-color: inherit;
@@ -352,7 +352,7 @@ textarea.jxc-input {
 }
 .jxc-input-group-addon .jxc-select-open .jxc-select-selector,
 .jxc-input-group-addon .jxc-select-focused .jxc-select-selector {
-  color: #f0f;
+  color: #fdf;
 }
 .jxc-input-group > .jxc-input:first-child,
 .jxc-input-group-addon:first-child {
@@ -390,12 +390,12 @@ textarea.jxc-input {
 }
 .jxc-input-group-lg .jxc-input,
 .jxc-input-group-lg > .jxc-input-group-addon {
-  padding: 6.5px 11px;
-  font-size: 16px;
+  padding: 7.3px 11px;
+  font-size: 15px;
 }
 .jxc-input-group-sm .jxc-input,
 .jxc-input-group-sm > .jxc-input-group-addon {
-  padding: 0px 7px;
+  padding: 0.8px 7px;
 }
 .jxc-input-group-lg .jxc-select-single .jxc-select-selector {
   height: 40px;
@@ -521,12 +521,12 @@ textarea.jxc-input {
   border-radius: 0 2px 2px 0;
 }
 .jxc-input-group-rtl .jxc-input-group-addon:first-child {
-  border-right: 1px solid #d9d9d9;
+  border-right: 1px solid #d2d2d2;
   border-left: 0;
 }
 .jxc-input-group-rtl .jxc-input-group-addon:last-child {
   border-right: 0;
-  border-left: 1px solid #d9d9d9;
+  border-left: 1px solid #d2d2d2;
 }
 .jxc-input-group-rtl.jxc-input-group > .jxc-input:last-child,
 .jxc-input-group-rtl.jxc-input-group-addon:last-child {
@@ -571,7 +571,7 @@ textarea.jxc-input {
   vertical-align: top;
 }
 .jxc-input-password-icon {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -591,17 +591,17 @@ textarea.jxc-input {
 }
 .jxc-input-textarea-show-count::after {
   display: block;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   text-align: right;
   content: attr(data-count);
 }
 .jxc-input-search .jxc-input:hover,
 .jxc-input-search .jxc-input:focus {
-  border-color: #ff29f8;
+  border-color: #fff0fe;
 }
 .jxc-input-search .jxc-input:hover + .jxc-input-group-addon .jxc-input-search-button:not(.jxc-btn-primary),
 .jxc-input-search .jxc-input:focus + .jxc-input-group-addon .jxc-input-search-button:not(.jxc-btn-primary) {
-  border-left-color: #ff29f8;
+  border-left-color: #fff0fe;
 }
 .jxc-input-search .jxc-input-affix-wrapper {
   border-radius: 0;
@@ -620,7 +620,7 @@ textarea.jxc-input {
   border-radius: 0 2px 2px 0;
 }
 .jxc-input-search > .jxc-input-group > .jxc-input-group-addon:last-child .jxc-input-search-button:not(.jxc-btn-primary) {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .jxc-input-search > .jxc-input-group > .jxc-input-group-addon:last-child .jxc-input-search-button:not(.jxc-btn-primary).jxc-btn-loading::before {
   top: 0;
@@ -676,12 +676,12 @@ textarea.jxc-input {
 }
 .jxc-input-search-rtl .jxc-input:hover + .jxc-input-group-addon .jxc-input-search-button:not(.jxc-btn-primary),
 .jxc-input-search-rtl .jxc-input:focus + .jxc-input-group-addon .jxc-input-search-button:not(.jxc-btn-primary) {
-  border-right-color: #ff29f8;
-  border-left-color: #d9d9d9;
+  border-right-color: #fff0fe;
+  border-left-color: #d2d2d2;
 }
 .jxc-input-search-rtl > .jxc-input-group > .jxc-input-affix-wrapper:hover,
 .jxc-input-search-rtl > .jxc-input-group > .jxc-input-affix-wrapper-focused {
-  border-right-color: #ff29f8;
+  border-right-color: #fff0fe;
 }
 .jxc-input-search-rtl > .jxc-input-group > .jxc-input-group-addon {
   right: -1px;

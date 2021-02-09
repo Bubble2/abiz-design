@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -34,9 +34,9 @@
   min-height: 48px;
   margin-bottom: -1px;
   padding: 0 24px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   background: transparent;
   border-bottom: 1px solid #f0f0f0;
   border-radius: 2px 2px 0 0;
@@ -71,9 +71,9 @@
 .jxc-card-head .jxc-tabs {
   clear: both;
   margin-bottom: -17px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
 }
 .jxc-card-head .jxc-tabs-bar {
   border-bottom: 1px solid #f0f0f0;
@@ -82,9 +82,9 @@
   float: right;
   margin-left: auto;
   padding: 16px 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 13px;
 }
 .jxc-card-rtl .jxc-card-extra {
   margin-right: auto;
@@ -161,7 +161,7 @@
 .jxc-card-actions > li {
   float: left;
   margin: 12px 0;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   text-align: center;
 }
 .jxc-card-rtl .jxc-card-actions > li {
@@ -171,25 +171,25 @@
   position: relative;
   display: block;
   min-width: 32px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5715;
   cursor: pointer;
 }
 .jxc-card-actions > li > span:hover {
-  color: #f0f;
+  color: #fdf;
   transition: color 0.3s;
 }
 .jxc-card-actions > li > span a:not(.jxc-btn),
 .jxc-card-actions > li > span > .anticon {
   display: inline-block;
   width: 100%;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   line-height: 22px;
   transition: color 0.3s;
 }
 .jxc-card-actions > li > span a:not(.jxc-btn):hover,
 .jxc-card-actions > li > span > .anticon:hover {
-  color: #f0f;
+  color: #fdf;
 }
 .jxc-card-actions > li > span > .anticon {
   font-size: 16px;
@@ -208,7 +208,7 @@
 }
 .jxc-card-type-inner .jxc-card-head-title {
   padding: 12px 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 .jxc-card-type-inner .jxc-card-body {
   padding: 16px 24px;
@@ -245,14 +245,14 @@
 }
 .jxc-card-meta-title {
   overflow: hidden;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 .jxc-card-meta-description {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .jxc-card-loading {
   overflow: hidden;
@@ -283,14 +283,14 @@
 .jxc-card-small > .jxc-card-head {
   min-height: 36px;
   padding: 0 12px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .jxc-card-small > .jxc-card-head > .jxc-card-head-wrapper > .jxc-card-head-title {
   padding: 8px 0;
 }
 .jxc-card-small > .jxc-card-head > .jxc-card-head-wrapper > .jxc-card-extra {
   padding: 8px 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 .jxc-card-small > .jxc-card-body {
   padding: 12px;

@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -88,7 +88,7 @@
 .aeps-slider-track {
   position: absolute;
   height: 4px;
-  background-color: #ff887a;
+  background-color: #fff0fd;
   border-radius: 2px;
   transition: background-color 0.3s;
 }
@@ -98,51 +98,51 @@
   height: 14px;
   margin-top: -5px;
   background-color: #fff;
-  border: solid 2px #ff887a;
+  border: solid 2px #fff0fd;
   border-radius: 50%;
   box-shadow: 0;
   cursor: pointer;
   transition: border-color 0.3s, box-shadow 0.6s, transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 .aeps-slider-handle-dragging.aeps-slider-handle-dragging.aeps-slider-handle-dragging {
-  border-color: #ff3333;
-  box-shadow: 0 0 0 5px rgba(255, 0, 0, 0.12);
+  border-color: #ffe4ff;
+  box-shadow: 0 0 0 5px rgba(255, 221, 255, 0.12);
 }
 .aeps-slider-handle:focus {
-  border-color: #ff3333;
+  border-color: #ffe4ff;
   outline: none;
-  box-shadow: 0 0 0 5px rgba(255, 0, 0, 0.12);
+  box-shadow: 0 0 0 5px rgba(255, 221, 255, 0.12);
 }
 .aeps-slider-handle.aeps-tooltip-open {
-  border-color: red;
+  border-color: #fdf;
 }
 .aeps-slider:hover .aeps-slider-rail {
   background-color: #e1e1e1;
 }
 .aeps-slider:hover .aeps-slider-track {
-  background-color: #ff5d52;
+  background-color: #fff0fe;
 }
 .aeps-slider:hover .aeps-slider-handle:not(.aeps-tooltip-open) {
-  border-color: #ff5d52;
+  border-color: #fff0fe;
 }
 .aeps-slider-mark {
   position: absolute;
   top: 14px;
   left: 0;
   width: 100%;
-  font-size: 14px;
+  font-size: 13px;
 }
 .aeps-slider-mark-text {
   position: absolute;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   text-align: center;
   word-break: keep-all;
   cursor: pointer;
   user-select: none;
 }
 .aeps-slider-mark-text-active {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .aeps-slider-step {
   position: absolute;
@@ -168,18 +168,18 @@
   margin-left: -4px;
 }
 .aeps-slider-dot-active {
-  border-color: #ff8080;
+  border-color: #ffeeff;
 }
 .aeps-slider-disabled {
   cursor: not-allowed;
 }
 .aeps-slider-disabled .aeps-slider-track {
-  background-color: rgba(0, 0, 0, 0.25) !important;
+  background-color: #ccc !important;
 }
 .aeps-slider-disabled .aeps-slider-handle,
 .aeps-slider-disabled .aeps-slider-dot {
   background-color: #fff;
-  border-color: rgba(0, 0, 0, 0.25) !important;
+  border-color: #ccc !important;
   box-shadow: none;
   cursor: not-allowed;
 }

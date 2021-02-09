@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -78,7 +78,7 @@
   border-radius: 50%;
 }
 .jxc-badge-status-success {
-  background-color: #52c41a;
+  background-color: #2b9262;
 }
 .jxc-badge-status-processing {
   position: relative;
@@ -99,10 +99,10 @@
   background-color: #d9d9d9;
 }
 .jxc-badge-status-error {
-  background-color: #ff4d4f;
+  background-color: #ff6060;
 }
 .jxc-badge-status-warning {
-  background-color: #faad14;
+  background-color: #ff6d1e;
 }
 .jxc-badge-status-pink {
   background: #eb2f96;
@@ -145,8 +145,8 @@
 }
 .jxc-badge-status-text {
   margin-left: 8px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
 }
 .jxc-badge-zoom-appear,
 .jxc-badge-zoom-enter {
@@ -244,8 +244,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -257,7 +257,7 @@
   color: #fff;
   line-height: 22px;
   white-space: nowrap;
-  background-color: #f0f;
+  background-color: #fdf;
   border-radius: 2px;
 }
 .jxc-ribbon-text {

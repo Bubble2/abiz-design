@@ -3,28 +3,28 @@
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 .miccn-typography {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   overflow-wrap: break-word;
 }
 .miccn-typography.miccn-typography-secondary {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .miccn-typography.miccn-typography-success {
-  color: #52c41a;
+  color: #2b9262;
 }
 .miccn-typography.miccn-typography-warning {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .miccn-typography.miccn-typography-danger {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 a.miccn-typography.miccn-typography-danger:active,
 a.miccn-typography.miccn-typography-danger:focus,
 a.miccn-typography.miccn-typography-danger:hover {
-  color: #ff7875;
+  color: #ff8e8a;
 }
 .miccn-typography.miccn-typography-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
   user-select: none;
 }
@@ -35,41 +35,41 @@ div.miccn-typography,
 h1.miccn-typography,
 .miccn-typography h1 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 36px;
   line-height: 1.23;
 }
 h2.miccn-typography,
 .miccn-typography h2 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1.35;
 }
 h3.miccn-typography,
 .miccn-typography h3 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 1.35;
 }
 h4.miccn-typography,
 .miccn-typography h4 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.4;
 }
 h5.miccn-typography,
 .miccn-typography h5 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
 }
 .miccn-typography + h1.miccn-typography,
@@ -132,7 +132,7 @@ span.miccn-typography-ellipsis {
 }
 a.miccn-typography,
 .miccn-typography a {
-  color: #1DA57A;
+  color: #0066dd;
   outline: none;
   cursor: pointer;
   transition: color 0.3s;
@@ -142,11 +142,11 @@ a.miccn-typography:focus,
 .miccn-typography a:focus,
 a.miccn-typography:hover,
 .miccn-typography a:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 a.miccn-typography:active,
 .miccn-typography a:active {
-  color: #118060;
+  color: #0050b8;
 }
 a.miccn-typography:active,
 .miccn-typography a:active,
@@ -158,7 +158,7 @@ a.miccn-typography[disabled],
 .miccn-typography a[disabled],
 a.miccn-typography.miccn-typography-disabled,
 .miccn-typography a.miccn-typography-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 a.miccn-typography[disabled]:active,
@@ -169,7 +169,7 @@ a.miccn-typography[disabled]:hover,
 .miccn-typography a[disabled]:hover,
 a.miccn-typography.miccn-typography-disabled:hover,
 .miccn-typography a.miccn-typography-disabled:hover {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 a.miccn-typography[disabled]:active,
 .miccn-typography a[disabled]:active,
@@ -213,7 +213,7 @@ a.miccn-typography.miccn-typography-disabled:active,
 .miccn-typography-expand,
 .miccn-typography-edit,
 .miccn-typography-copy {
-  color: #1DA57A;
+  color: #0066dd;
   text-decoration: none;
   outline: none;
   cursor: pointer;
@@ -226,31 +226,31 @@ a.miccn-typography.miccn-typography-disabled:active,
 .miccn-typography-expand:hover,
 .miccn-typography-edit:hover,
 .miccn-typography-copy:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 .miccn-typography-expand:active,
 .miccn-typography-edit:active,
 .miccn-typography-copy:active {
-  color: #118060;
+  color: #0050b8;
 }
 .miccn-typography-copy-success,
 .miccn-typography-copy-success:hover,
 .miccn-typography-copy-success:focus {
-  color: #52c41a;
+  color: #2b9262;
 }
 .miccn-typography-edit-content {
   position: relative;
 }
 div.miccn-typography-edit-content {
   left: -12px;
-  margin-top: -5px;
-  margin-bottom: calc(1em - 4px - 1px);
+  margin-top: -5.8px;
+  margin-bottom: calc(1em - 4.8px - 1px);
 }
 .miccn-typography-edit-content-confirm {
   position: absolute;
   right: 10px;
   bottom: 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   pointer-events: none;
 }
 .miccn-typography-edit-content textarea {

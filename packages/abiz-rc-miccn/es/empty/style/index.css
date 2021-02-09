@@ -4,7 +4,7 @@
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 .miccn-empty {
   margin: 0 8px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5715;
   text-align: center;
 }
@@ -24,14 +24,14 @@
 }
 .miccn-empty-normal {
   margin: 32px 0;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 .miccn-empty-normal .miccn-empty-image {
   height: 40px;
 }
 .miccn-empty-small {
   margin: 8px 0;
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 .miccn-empty-small .miccn-empty-image {
   height: 35px;

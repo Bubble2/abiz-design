@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -31,7 +31,7 @@
   line-height: 1;
 }
 .jxc-page-header-back-button {
-  color: #1DA57A;
+  color: #0066dd;
   text-decoration: none;
   outline: none;
   transition: color 0.3s;
@@ -40,10 +40,10 @@
 }
 .jxc-page-header-back-button:focus,
 .jxc-page-header-back-button:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 .jxc-page-header-back-button:active {
-  color: #118060;
+  color: #0050b8;
 }
 .jxc-page-header .jxc-divider-vertical {
   height: 14px;
@@ -66,9 +66,9 @@
 .jxc-page-header-heading-title {
   margin-right: 12px;
   margin-bottom: 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 32px;
   overflow: hidden;
   white-space: nowrap;
@@ -79,7 +79,7 @@
 }
 .jxc-page-header-heading-sub-title {
   margin-right: 12px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   font-size: 14px;
   line-height: 1.5715;
   overflow: hidden;

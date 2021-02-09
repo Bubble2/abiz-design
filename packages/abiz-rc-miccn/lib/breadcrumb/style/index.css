@@ -6,36 +6,35 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
   font-feature-settings: 'tnum';
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
 }
 .miccn-breadcrumb .anticon {
-  font-size: 14px;
+  font-size: 13px;
 }
 .miccn-breadcrumb a {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   transition: color 0.3s;
 }
 .miccn-breadcrumb a:hover {
-  color: #2930ff;
+  color: #ff29ea;
 }
 .miccn-breadcrumb > span:last-child {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .miccn-breadcrumb > span:last-child a {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 .miccn-breadcrumb > span:last-child .miccn-breadcrumb-separator {
   display: none;
 }
 .miccn-breadcrumb-separator {
   margin: 0 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .miccn-breadcrumb-link > .anticon + span,
 .miccn-breadcrumb-link > .anticon + a {

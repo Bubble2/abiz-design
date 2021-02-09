@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -92,13 +92,13 @@
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-cell-selected:hover .jxc-picker-calendar-date,
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-cell-selected .jxc-picker-calendar-date-today,
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-cell-selected:hover .jxc-picker-calendar-date-today {
-  background: #ffe6fb;
+  background: #f0fcf6;
 }
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-cell-selected .jxc-picker-calendar-date .jxc-picker-calendar-date-value,
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-cell-selected:hover .jxc-picker-calendar-date .jxc-picker-calendar-date-value,
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-cell-selected .jxc-picker-calendar-date-today .jxc-picker-calendar-date-value,
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-cell-selected:hover .jxc-picker-calendar-date-today .jxc-picker-calendar-date-value {
-  color: #f0f;
+  color: #fdf;
 }
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-calendar-date {
   display: block;
@@ -120,15 +120,15 @@
   width: auto;
   height: 86px;
   overflow-y: auto;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   line-height: 1.5715;
   text-align: left;
 }
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-calendar-date-today {
-  border-color: #f0f;
+  border-color: #fdf;
 }
 .jxc-picker-calendar-full .jxc-picker-panel .jxc-picker-calendar-date-today .jxc-picker-calendar-date-value {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 @media only screen and (max-width: 480px) {
   .jxc-picker-calendar-header {

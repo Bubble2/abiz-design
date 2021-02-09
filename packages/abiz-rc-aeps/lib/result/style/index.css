@@ -6,16 +6,16 @@
   padding: 48px 32px;
 }
 .aeps-result-success .aeps-result-icon > .anticon {
-  color: #52c41a;
+  color: #2b9262;
 }
 .aeps-result-error .aeps-result-icon > .anticon {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 .aeps-result-info .aeps-result-icon > .anticon {
-  color: red;
+  color: #fdf;
 }
 .aeps-result-warning .aeps-result-icon > .anticon {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .aeps-result-image {
   width: 250px;
@@ -30,14 +30,14 @@
   font-size: 72px;
 }
 .aeps-result-title {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-size: 24px;
   line-height: 1.8;
   text-align: center;
 }
 .aeps-result-subtitle {
-  color: rgba(0, 0, 0, 0.45);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   line-height: 1.6;
   text-align: center;
 }

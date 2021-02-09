@@ -6,8 +6,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  color: #222;
+  font-size: 13px;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -92,13 +92,13 @@
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-cell-selected:hover .miccn-picker-calendar-date,
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-cell-selected .miccn-picker-calendar-date-today,
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-cell-selected:hover .miccn-picker-calendar-date-today {
-  background: #e6eaff;
+  background: #f0fcf6;
 }
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-cell-selected .miccn-picker-calendar-date .miccn-picker-calendar-date-value,
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-cell-selected:hover .miccn-picker-calendar-date .miccn-picker-calendar-date-value,
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-cell-selected .miccn-picker-calendar-date-today .miccn-picker-calendar-date-value,
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-cell-selected:hover .miccn-picker-calendar-date-today .miccn-picker-calendar-date-value {
-  color: #00f;
+  color: #f0e;
 }
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-calendar-date {
   display: block;
@@ -120,15 +120,15 @@
   width: auto;
   height: 86px;
   overflow-y: auto;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   line-height: 1.5715;
   text-align: left;
 }
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-calendar-date-today {
-  border-color: #00f;
+  border-color: #f0e;
 }
 .miccn-picker-calendar-full .miccn-picker-panel .miccn-picker-calendar-date-today .miccn-picker-calendar-date-value {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
 }
 @media only screen and (max-width: 480px) {
   .miccn-picker-calendar-header {

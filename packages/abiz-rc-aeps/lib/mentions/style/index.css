@@ -10,12 +10,12 @@
   font-feature-settings: 'tnum';
   width: 100%;
   min-width: 0;
-  padding: 4px 11px;
-  color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  padding: 4.8px 11px;
+  color: #222;
+  font-size: 13px;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #d2d2d2;
   border-radius: 2px;
   transition: all 0.3s;
   position: relative;
@@ -31,40 +31,40 @@
   opacity: 1;
 }
 .aeps-mentions::placeholder {
-  color: #bfbfbf;
+  color: #b0b0b0;
 }
 .aeps-mentions:placeholder-shown {
   text-overflow: ellipsis;
 }
 .aeps-mentions:hover {
-  border-color: #ff3029;
+  border-color: #fff0fe;
   border-right-width: 1px !important;
 }
 .aeps-mentions:focus,
 .aeps-mentions-focused {
-  border-color: #ff3029;
+  border-color: #fff0fe;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
 }
 .aeps-mentions-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .aeps-mentions-disabled:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .aeps-mentions[disabled] {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .aeps-mentions[disabled]:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .aeps-mentions-borderless,
@@ -86,33 +86,33 @@ textarea.aeps-mentions {
   transition: all 0.3s, height 0s;
 }
 .aeps-mentions-lg {
-  padding: 6.5px 11px;
-  font-size: 16px;
+  padding: 7.3px 11px;
+  font-size: 15px;
 }
 .aeps-mentions-sm {
-  padding: 0px 7px;
+  padding: 0.8px 7px;
 }
 .aeps-mentions-disabled > textarea {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
 .aeps-mentions-disabled > textarea:hover {
-  border-color: #d9d9d9;
+  border-color: #d2d2d2;
   border-right-width: 1px !important;
 }
 .aeps-mentions-focused {
-  border-color: #ff3029;
+  border-color: #fff0fe;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
 }
 .aeps-mentions > textarea,
 .aeps-mentions-measure {
   min-height: 30px;
   margin: 0;
-  padding: 4px 11px;
+  padding: 4.8px 11px;
   overflow: inherit;
   overflow-x: hidden;
   overflow-y: auto;
@@ -143,7 +143,7 @@ textarea.aeps-mentions {
   opacity: 1;
 }
 .aeps-mentions > textarea::placeholder {
-  color: #bfbfbf;
+  color: #b0b0b0;
 }
 .aeps-mentions > textarea:placeholder-shown {
   text-overflow: ellipsis;
@@ -165,7 +165,7 @@ textarea.aeps-mentions {
 .aeps-mentions-dropdown {
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -175,12 +175,12 @@ textarea.aeps-mentions {
   left: -9999px;
   z-index: 1050;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 13px;
   font-variant: initial;
   background-color: #fff;
   border-radius: 2px;
   outline: none;
-  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 .aeps-mentions-dropdown-hidden {
   display: none;
@@ -199,7 +199,7 @@ textarea.aeps-mentions {
   min-width: 100px;
   padding: 5px 12px;
   overflow: hidden;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: normal;
   line-height: 1.5715;
   white-space: nowrap;
@@ -217,16 +217,16 @@ textarea.aeps-mentions {
   border-radius: 0 0 2px 2px;
 }
 .aeps-mentions-dropdown-menu-item-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 .aeps-mentions-dropdown-menu-item-disabled:hover {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   background-color: #fff;
   cursor: not-allowed;
 }
 .aeps-mentions-dropdown-menu-item-selected {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
   background-color: #fafafa;
 }

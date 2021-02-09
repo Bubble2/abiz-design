@@ -3,28 +3,28 @@
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
 .jxc-typography {
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   overflow-wrap: break-word;
 }
 .jxc-typography.jxc-typography-secondary {
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
 }
 .jxc-typography.jxc-typography-success {
-  color: #52c41a;
+  color: #2b9262;
 }
 .jxc-typography.jxc-typography-warning {
-  color: #faad14;
+  color: #ff6d1e;
 }
 .jxc-typography.jxc-typography-danger {
-  color: #ff4d4f;
+  color: #ff6060;
 }
 a.jxc-typography.jxc-typography-danger:active,
 a.jxc-typography.jxc-typography-danger:focus,
 a.jxc-typography.jxc-typography-danger:hover {
-  color: #ff7875;
+  color: #ff8e8a;
 }
 .jxc-typography.jxc-typography-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
   user-select: none;
 }
@@ -35,41 +35,41 @@ div.jxc-typography,
 h1.jxc-typography,
 .jxc-typography h1 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 36px;
   line-height: 1.23;
 }
 h2.jxc-typography,
 .jxc-typography h2 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1.35;
 }
 h3.jxc-typography,
 .jxc-typography h3 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 1.35;
 }
 h4.jxc-typography,
 .jxc-typography h4 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.4;
 }
 h5.jxc-typography,
 .jxc-typography h5 {
   margin-bottom: 0.5em;
-  color: rgba(0, 0, 0, 0.85);
+  color: #222;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
 }
 .jxc-typography + h1.jxc-typography,
@@ -132,7 +132,7 @@ span.jxc-typography-ellipsis {
 }
 a.jxc-typography,
 .jxc-typography a {
-  color: #1DA57A;
+  color: #0066dd;
   outline: none;
   cursor: pointer;
   transition: color 0.3s;
@@ -142,11 +142,11 @@ a.jxc-typography:focus,
 .jxc-typography a:focus,
 a.jxc-typography:hover,
 .jxc-typography a:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 a.jxc-typography:active,
 .jxc-typography a:active {
-  color: #118060;
+  color: #0050b8;
 }
 a.jxc-typography:active,
 .jxc-typography a:active,
@@ -158,7 +158,7 @@ a.jxc-typography[disabled],
 .jxc-typography a[disabled],
 a.jxc-typography.jxc-typography-disabled,
 .jxc-typography a.jxc-typography-disabled {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
   cursor: not-allowed;
 }
 a.jxc-typography[disabled]:active,
@@ -169,7 +169,7 @@ a.jxc-typography[disabled]:hover,
 .jxc-typography a[disabled]:hover,
 a.jxc-typography.jxc-typography-disabled:hover,
 .jxc-typography a.jxc-typography-disabled:hover {
-  color: rgba(0, 0, 0, 0.25);
+  color: #ccc;
 }
 a.jxc-typography[disabled]:active,
 .jxc-typography a[disabled]:active,
@@ -213,7 +213,7 @@ a.jxc-typography.jxc-typography-disabled:active,
 .jxc-typography-expand,
 .jxc-typography-edit,
 .jxc-typography-copy {
-  color: #1DA57A;
+  color: #0066dd;
   text-decoration: none;
   outline: none;
   cursor: pointer;
@@ -226,31 +226,31 @@ a.jxc-typography.jxc-typography-disabled:active,
 .jxc-typography-expand:hover,
 .jxc-typography-edit:hover,
 .jxc-typography-copy:hover {
-  color: #3db389;
+  color: #2688eb;
 }
 .jxc-typography-expand:active,
 .jxc-typography-edit:active,
 .jxc-typography-copy:active {
-  color: #118060;
+  color: #0050b8;
 }
 .jxc-typography-copy-success,
 .jxc-typography-copy-success:hover,
 .jxc-typography-copy-success:focus {
-  color: #52c41a;
+  color: #2b9262;
 }
 .jxc-typography-edit-content {
   position: relative;
 }
 div.jxc-typography-edit-content {
   left: -12px;
-  margin-top: -5px;
-  margin-bottom: calc(1em - 4px - 1px);
+  margin-top: -5.8px;
+  margin-bottom: calc(1em - 4.8px - 1px);
 }
 .jxc-typography-edit-content-confirm {
   position: absolute;
   right: 10px;
   bottom: 8px;
-  color: rgba(0, 0, 0, 0.45);
+  color: #222;
   pointer-events: none;
 }
 .jxc-typography-edit-content textarea {
