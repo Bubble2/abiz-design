@@ -1,2 +1,2 @@
-import { BackTop } from 'antd';
-export default BackTop;
+import _BackTop from "antd/es/back-top";
+export default _BackTop;

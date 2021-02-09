@@ -1,0 +1,344 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.jxc-typography {
+  color: #222;
+  overflow-wrap: break-word;
+}
+.jxc-typography.jxc-typography-secondary {
+  color: #222;
+}
+.jxc-typography.jxc-typography-success {
+  color: #2b9262;
+}
+.jxc-typography.jxc-typography-warning {
+  color: #ff6d1e;
+}
+.jxc-typography.jxc-typography-danger {
+  color: #ff6060;
+}
+a.jxc-typography.jxc-typography-danger:active,
+a.jxc-typography.jxc-typography-danger:focus,
+a.jxc-typography.jxc-typography-danger:hover {
+  color: #ff8e8a;
+}
+.jxc-typography.jxc-typography-disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  user-select: none;
+}
+div.jxc-typography,
+.jxc-typography p {
+  margin-bottom: 1em;
+}
+h1.jxc-typography,
+.jxc-typography h1 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.23;
+}
+h2.jxc-typography,
+.jxc-typography h2 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.35;
+}
+h3.jxc-typography,
+.jxc-typography h3 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 1.35;
+}
+h4.jxc-typography,
+.jxc-typography h4 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.4;
+}
+h5.jxc-typography,
+.jxc-typography h5 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.jxc-typography + h1.jxc-typography,
+.jxc-typography + h2.jxc-typography,
+.jxc-typography + h3.jxc-typography,
+.jxc-typography + h4.jxc-typography,
+.jxc-typography + h5.jxc-typography {
+  margin-top: 1.2em;
+}
+.jxc-typography div + h1,
+.jxc-typography ul + h1,
+.jxc-typography li + h1,
+.jxc-typography p + h1,
+.jxc-typography h1 + h1,
+.jxc-typography h2 + h1,
+.jxc-typography h3 + h1,
+.jxc-typography h4 + h1,
+.jxc-typography h5 + h1,
+.jxc-typography div + h2,
+.jxc-typography ul + h2,
+.jxc-typography li + h2,
+.jxc-typography p + h2,
+.jxc-typography h1 + h2,
+.jxc-typography h2 + h2,
+.jxc-typography h3 + h2,
+.jxc-typography h4 + h2,
+.jxc-typography h5 + h2,
+.jxc-typography div + h3,
+.jxc-typography ul + h3,
+.jxc-typography li + h3,
+.jxc-typography p + h3,
+.jxc-typography h1 + h3,
+.jxc-typography h2 + h3,
+.jxc-typography h3 + h3,
+.jxc-typography h4 + h3,
+.jxc-typography h5 + h3,
+.jxc-typography div + h4,
+.jxc-typography ul + h4,
+.jxc-typography li + h4,
+.jxc-typography p + h4,
+.jxc-typography h1 + h4,
+.jxc-typography h2 + h4,
+.jxc-typography h3 + h4,
+.jxc-typography h4 + h4,
+.jxc-typography h5 + h4,
+.jxc-typography div + h5,
+.jxc-typography ul + h5,
+.jxc-typography li + h5,
+.jxc-typography p + h5,
+.jxc-typography h1 + h5,
+.jxc-typography h2 + h5,
+.jxc-typography h3 + h5,
+.jxc-typography h4 + h5,
+.jxc-typography h5 + h5 {
+  margin-top: 1.2em;
+}
+a.jxc-typography-ellipsis,
+span.jxc-typography-ellipsis {
+  display: inline-block;
+}
+a.jxc-typography,
+.jxc-typography a {
+  color: #0066dd;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+a.jxc-typography:focus,
+.jxc-typography a:focus,
+a.jxc-typography:hover,
+.jxc-typography a:hover {
+  color: #2688eb;
+}
+a.jxc-typography:active,
+.jxc-typography a:active {
+  color: #0050b8;
+}
+a.jxc-typography:active,
+.jxc-typography a:active,
+a.jxc-typography:hover,
+.jxc-typography a:hover {
+  text-decoration: none;
+}
+a.jxc-typography[disabled],
+.jxc-typography a[disabled],
+a.jxc-typography.jxc-typography-disabled,
+.jxc-typography a.jxc-typography-disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+a.jxc-typography[disabled]:active,
+.jxc-typography a[disabled]:active,
+a.jxc-typography.jxc-typography-disabled:active,
+.jxc-typography a.jxc-typography-disabled:active,
+a.jxc-typography[disabled]:hover,
+.jxc-typography a[disabled]:hover,
+a.jxc-typography.jxc-typography-disabled:hover,
+.jxc-typography a.jxc-typography-disabled:hover {
+  color: #ccc;
+}
+a.jxc-typography[disabled]:active,
+.jxc-typography a[disabled]:active,
+a.jxc-typography.jxc-typography-disabled:active,
+.jxc-typography a.jxc-typography-disabled:active {
+  pointer-events: none;
+}
+.jxc-typography code {
+  margin: 0 0.2em;
+  padding: 0.2em 0.4em 0.1em;
+  font-size: 85%;
+  background: rgba(150, 150, 150, 0.1);
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  border-radius: 3px;
+}
+.jxc-typography kbd {
+  margin: 0 0.2em;
+  padding: 0.15em 0.4em 0.1em;
+  font-size: 90%;
+  background: rgba(150, 150, 150, 0.06);
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  border-bottom-width: 2px;
+  border-radius: 3px;
+}
+.jxc-typography mark {
+  padding: 0;
+  background-color: #ffe58f;
+}
+.jxc-typography u,
+.jxc-typography ins {
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+.jxc-typography s,
+.jxc-typography del {
+  text-decoration: line-through;
+}
+.jxc-typography strong {
+  font-weight: 600;
+}
+.jxc-typography-expand,
+.jxc-typography-edit,
+.jxc-typography-copy {
+  color: #0066dd;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-left: 4px;
+}
+.jxc-typography-expand:focus,
+.jxc-typography-edit:focus,
+.jxc-typography-copy:focus,
+.jxc-typography-expand:hover,
+.jxc-typography-edit:hover,
+.jxc-typography-copy:hover {
+  color: #2688eb;
+}
+.jxc-typography-expand:active,
+.jxc-typography-edit:active,
+.jxc-typography-copy:active {
+  color: #0050b8;
+}
+.jxc-typography-copy-success,
+.jxc-typography-copy-success:hover,
+.jxc-typography-copy-success:focus {
+  color: #2b9262;
+}
+.jxc-typography-edit-content {
+  position: relative;
+}
+div.jxc-typography-edit-content {
+  left: -12px;
+  margin-top: -5.8px;
+  margin-bottom: calc(1em - 4.8px - 1px);
+}
+.jxc-typography-edit-content-confirm {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  color: #222;
+  pointer-events: none;
+}
+.jxc-typography-edit-content textarea {
+  -moz-transition: none;
+}
+.jxc-typography ul,
+.jxc-typography ol {
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+.jxc-typography ul li,
+.jxc-typography ol li {
+  margin: 0 0 0 20px;
+  padding: 0 0 0 4px;
+}
+.jxc-typography ul {
+  list-style-type: circle;
+}
+.jxc-typography ul ul {
+  list-style-type: disc;
+}
+.jxc-typography ol {
+  list-style-type: decimal;
+}
+.jxc-typography pre,
+.jxc-typography blockquote {
+  margin: 1em 0;
+}
+.jxc-typography pre {
+  padding: 0.4em 0.6em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: rgba(150, 150, 150, 0.1);
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  border-radius: 3px;
+}
+.jxc-typography pre code {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  background: transparent;
+  border: 0;
+}
+.jxc-typography blockquote {
+  padding: 0 0 0 0.6em;
+  border-left: 4px solid rgba(100, 100, 100, 0.2);
+  opacity: 0.85;
+}
+.jxc-typography-ellipsis-single-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+a.jxc-typography-ellipsis-single-line,
+span.jxc-typography-ellipsis-single-line {
+  vertical-align: bottom;
+}
+.jxc-typography-ellipsis-multiple-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /*! autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.jxc-typography-rtl {
+  direction: rtl;
+}
+.jxc-typography-rtl .jxc-typography-expand,
+.jxc-typography-rtl .jxc-typography-edit,
+.jxc-typography-rtl .jxc-typography-copy {
+  margin-right: 4px;
+  margin-left: 0;
+}
+.jxc-typography-rtl .jxc-typography-expand {
+  float: left;
+}
+div.jxc-typography-edit-content.jxc-typography-rtl {
+  right: -12px;
+  left: auto;
+}
+.jxc-typography-rtl .jxc-typography-edit-content-confirm {
+  right: auto;
+  left: 10px;
+}
+.jxc-typography-rtl.jxc-typography ul li,
+.jxc-typography-rtl.jxc-typography ol li {
+  margin: 0 20px 0 0;
+  padding: 0 4px 0 0;
+}

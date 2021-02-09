@@ -1,0 +1,50 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-statistic {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+}
+.miccn-statistic-title {
+  margin-bottom: 4px;
+  color: #222;
+  font-size: 13px;
+}
+.miccn-statistic-content {
+  color: #222;
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+.miccn-statistic-content-value {
+  display: inline-block;
+  direction: ltr;
+}
+.miccn-statistic-content-prefix,
+.miccn-statistic-content-suffix {
+  display: inline-block;
+}
+.miccn-statistic-content-prefix {
+  margin-right: 4px;
+}
+.miccn-statistic-content-suffix {
+  margin-left: 4px;
+}
+.miccn-statistic-rtl {
+  direction: rtl;
+}
+.miccn-statistic-rtl .miccn-statistic-content-prefix {
+  margin-right: 0;
+  margin-left: 4px;
+}
+.miccn-statistic-rtl .miccn-statistic-content-suffix {
+  margin-right: 4px;
+  margin-left: 0;
+}

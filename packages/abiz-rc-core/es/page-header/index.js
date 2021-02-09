@@ -1,2 +1,2 @@
-import { PageHeader } from 'antd';
-export default PageHeader;
+import _PageHeader from "antd/es/page-header";
+export default _PageHeader;

@@ -1,2 +1,2 @@
-import { Statistic } from 'antd';
-export default Statistic;
+import _Statistic from "antd/es/statistic";
+export default _Statistic;

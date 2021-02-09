@@ -1,0 +1,172 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.aeps-picker-calendar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  background: #fff;
+}
+.aeps-picker-calendar-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 0;
+}
+.aeps-picker-calendar-header .aeps-picker-calendar-year-select {
+  min-width: 80px;
+}
+.aeps-picker-calendar-header .aeps-picker-calendar-month-select {
+  min-width: 70px;
+  margin-left: 8px;
+}
+.aeps-picker-calendar-header .aeps-picker-calendar-mode-switch {
+  margin-left: 8px;
+}
+.aeps-picker-calendar .aeps-picker-panel {
+  background: #fff;
+  border: 0;
+  border-top: 1px solid #f0f0f0;
+  border-radius: 0;
+}
+.aeps-picker-calendar .aeps-picker-panel .aeps-picker-month-panel,
+.aeps-picker-calendar .aeps-picker-panel .aeps-picker-date-panel {
+  width: auto;
+}
+.aeps-picker-calendar .aeps-picker-panel .aeps-picker-body {
+  padding: 8px 0;
+}
+.aeps-picker-calendar .aeps-picker-panel .aeps-picker-content {
+  width: 100%;
+}
+.aeps-picker-calendar-mini {
+  border-radius: 2px;
+}
+.aeps-picker-calendar-mini .aeps-picker-calendar-header {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.aeps-picker-calendar-mini .aeps-picker-panel {
+  border-radius: 0 0 2px 2px;
+}
+.aeps-picker-calendar-mini .aeps-picker-content {
+  height: 256px;
+}
+.aeps-picker-calendar-mini .aeps-picker-content th {
+  height: auto;
+  padding: 0;
+  line-height: 18px;
+}
+.aeps-picker-calendar-full .aeps-picker-panel {
+  display: block;
+  width: 100%;
+  text-align: right;
+  background: #fff;
+  border: 0;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-body th,
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-body td {
+  padding: 0;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-body th {
+  height: auto;
+  padding: 0 12px 5px 0;
+  line-height: 18px;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell::before {
+  display: none;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell:hover .aeps-picker-calendar-date {
+  background: #f5f5f5;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell .aeps-picker-calendar-date-today::before {
+  display: none;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected .aeps-picker-calendar-date,
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected:hover .aeps-picker-calendar-date,
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected .aeps-picker-calendar-date-today,
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected:hover .aeps-picker-calendar-date-today {
+  background: #f0fcf6;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected .aeps-picker-calendar-date .aeps-picker-calendar-date-value,
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected:hover .aeps-picker-calendar-date .aeps-picker-calendar-date-value,
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected .aeps-picker-calendar-date-today .aeps-picker-calendar-date-value,
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected:hover .aeps-picker-calendar-date-today .aeps-picker-calendar-date-value {
+  color: #fdf;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 0 4px;
+  padding: 4px 8px 0;
+  border: 0;
+  border-top: 2px solid #f0f0f0;
+  border-radius: 0;
+  transition: background 0.3s;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date-value {
+  line-height: 24px;
+  transition: color 0.3s;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date-content {
+  position: static;
+  width: auto;
+  height: 86px;
+  overflow-y: auto;
+  color: #222;
+  line-height: 1.5715;
+  text-align: left;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date-today {
+  border-color: #fdf;
+}
+.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date-today .aeps-picker-calendar-date-value {
+  color: #222;
+}
+@media only screen and (max-width: 480px) {
+  .aeps-picker-calendar-header {
+    display: block;
+  }
+  .aeps-picker-calendar-header .aeps-picker-calendar-year-select {
+    width: 50%;
+  }
+  .aeps-picker-calendar-header .aeps-picker-calendar-month-select {
+    width: calc(50% - 8px);
+  }
+  .aeps-picker-calendar-header .aeps-picker-calendar-mode-switch {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 0;
+  }
+  .aeps-picker-calendar-header .aeps-picker-calendar-mode-switch > label {
+    width: 50%;
+    text-align: center;
+  }
+}
+.aeps-picker-calendar-rtl {
+  direction: rtl;
+}
+.aeps-picker-calendar-rtl .aeps-picker-calendar-header .aeps-picker-calendar-month-select {
+  margin-right: 8px;
+  margin-left: 0;
+}
+.aeps-picker-calendar-rtl .aeps-picker-calendar-header .aeps-picker-calendar-mode-switch {
+  margin-right: 8px;
+  margin-left: 0;
+}
+.aeps-picker-calendar-rtl.aeps-picker-calendar-full .aeps-picker-panel {
+  text-align: left;
+}
+.aeps-picker-calendar-rtl.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-body th {
+  padding: 0 0 5px 12px;
+}
+.aeps-picker-calendar-rtl.aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date-content {
+  text-align: right;
+}

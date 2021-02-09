@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _pagination = _interopRequireDefault(require("antd/lib/pagination"));
 
-var _default = _antd.Pagination;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _pagination.default;
 exports.default = _default;

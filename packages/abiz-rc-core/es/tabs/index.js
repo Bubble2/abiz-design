@@ -1,2 +1,2 @@
-import { Tabs } from 'antd';
-export default Tabs;
+import _Tabs from "antd/es/tabs";
+export default _Tabs;

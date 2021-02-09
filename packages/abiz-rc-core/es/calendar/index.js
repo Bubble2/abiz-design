@@ -1,2 +1,2 @@
-import { Calendar } from 'antd';
-export default Calendar;
+import _Calendar from "antd/es/calendar";
+export default _Calendar;

@@ -1,0 +1,236 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.jxc-timeline {
+  box-sizing: border-box;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  font-feature-settings: 'tnum';
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.jxc-timeline-item {
+  position: relative;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 13px;
+  list-style: none;
+}
+.jxc-timeline-item-tail {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  height: calc(100% - 10px);
+  border-left: 2px solid #f0f0f0;
+}
+.jxc-timeline-item-pending .jxc-timeline-item-head {
+  font-size: 12px;
+  background-color: transparent;
+}
+.jxc-timeline-item-pending .jxc-timeline-item-tail {
+  display: none;
+}
+.jxc-timeline-item-head {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 100px;
+}
+.jxc-timeline-item-head-blue {
+  color: #fdf;
+  border-color: #fdf;
+}
+.jxc-timeline-item-head-red {
+  color: #ff6060;
+  border-color: #ff6060;
+}
+.jxc-timeline-item-head-green {
+  color: #2b9262;
+  border-color: #2b9262;
+}
+.jxc-timeline-item-head-gray {
+  color: #ccc;
+  border-color: #ccc;
+}
+.jxc-timeline-item-head-custom {
+  position: absolute;
+  top: 5.5px;
+  left: 5px;
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  padding: 3px 1px;
+  line-height: 1;
+  text-align: center;
+  border: 0;
+  border-radius: 0;
+  transform: translate(-50%, -50%);
+}
+.jxc-timeline-item-content {
+  position: relative;
+  top: -6.4295px;
+  margin: 0 0 0 26px;
+  word-break: break-word;
+}
+.jxc-timeline-item-last > .jxc-timeline-item-tail {
+  display: none;
+}
+.jxc-timeline-item-last > .jxc-timeline-item-content {
+  min-height: 48px;
+}
+.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-tail,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-tail,
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-tail,
+.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-head,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-head,
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-head,
+.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-head-custom,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-head-custom,
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-head-custom {
+  left: 50%;
+}
+.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-head,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-head,
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-head {
+  margin-left: -4px;
+}
+.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-head-custom,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-head-custom,
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-head-custom {
+  margin-left: 1px;
+}
+.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-left .jxc-timeline-item-content,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-left .jxc-timeline-item-content,
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-left .jxc-timeline-item-content {
+  left: calc(50% - 4px);
+  width: calc(50% - 14px);
+  text-align: left;
+}
+.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-right .jxc-timeline-item-content,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-content,
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-right .jxc-timeline-item-content {
+  width: calc(50% - 12px);
+  margin: 0;
+  text-align: right;
+}
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-tail,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-head,
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-head-custom {
+  left: calc(100% - 4px - 2px);
+}
+.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-content {
+  width: calc(100% - 18px);
+}
+.jxc-timeline.jxc-timeline-pending .jxc-timeline-item-last .jxc-timeline-item-tail {
+  display: block;
+  height: calc(100% - 14px);
+  border-left: 2px dotted #f0f0f0;
+}
+.jxc-timeline.jxc-timeline-reverse .jxc-timeline-item-last .jxc-timeline-item-tail {
+  display: none;
+}
+.jxc-timeline.jxc-timeline-reverse .jxc-timeline-item-pending .jxc-timeline-item-tail {
+  top: 15px;
+  display: block;
+  height: calc(100% - 15px);
+  border-left: 2px dotted #f0f0f0;
+}
+.jxc-timeline.jxc-timeline-reverse .jxc-timeline-item-pending .jxc-timeline-item-content {
+  min-height: 48px;
+}
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-label {
+  position: absolute;
+  top: -6.4295px;
+  width: calc(50% - 12px);
+  text-align: right;
+}
+.jxc-timeline.jxc-timeline-label .jxc-timeline-item-right .jxc-timeline-item-label {
+  left: calc(50% + 14px);
+  width: calc(50% - 14px);
+  text-align: left;
+}
+.jxc-timeline-rtl {
+  direction: rtl;
+}
+.jxc-timeline-rtl .jxc-timeline-item-tail {
+  right: 4px;
+  left: auto;
+  border-right: 2px solid #f0f0f0;
+  border-left: none;
+}
+.jxc-timeline-rtl .jxc-timeline-item-head-custom {
+  right: 5px;
+  left: auto;
+  transform: translate(50%, -50%);
+}
+.jxc-timeline-rtl .jxc-timeline-item-content {
+  margin: 0 18px 0 0;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-tail,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-tail,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-tail,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-head,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-head,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-head,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-head-custom,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-head-custom,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-head-custom {
+  right: 50%;
+  left: auto;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-head,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-head,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-head {
+  margin-right: -4px;
+  margin-left: 0;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-head-custom,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-head-custom,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-head-custom {
+  margin-right: 1px;
+  margin-left: 0;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-left .jxc-timeline-item-content,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-left .jxc-timeline-item-content,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-left .jxc-timeline-item-content {
+  right: calc(50% - 4px);
+  left: auto;
+  text-align: right;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-alternate .jxc-timeline-item-right .jxc-timeline-item-content,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-content,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-right .jxc-timeline-item-content {
+  text-align: left;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-tail,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-head,
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-head-custom {
+  right: 0;
+  left: auto;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-right .jxc-timeline-item-right .jxc-timeline-item-content {
+  width: 100%;
+  margin-right: 18px;
+  text-align: right;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-pending .jxc-timeline-item-last .jxc-timeline-item-tail {
+  border-right: 2px dotted #f0f0f0;
+  border-left: none;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-reverse .jxc-timeline-item-pending .jxc-timeline-item-tail {
+  border-right: 2px dotted #f0f0f0;
+  border-left: none;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-label {
+  text-align: left;
+}
+.jxc-timeline-rtl.jxc-timeline.jxc-timeline-label .jxc-timeline-item-right .jxc-timeline-item-label {
+  right: calc(50% + 14px);
+  text-align: right;
+}

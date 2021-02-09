@@ -1,0 +1,249 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.jxc-modal {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  pointer-events: none;
+  position: relative;
+  top: 100px;
+  width: auto;
+  max-width: calc(100vw - 32px);
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+.jxc-modal.zoom-enter,
+.jxc-modal.zoom-appear {
+  transform: none;
+  opacity: 0;
+  animation-duration: 0.3s;
+  user-select: none;
+}
+.jxc-modal-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.jxc-modal-mask-hidden {
+  display: none;
+}
+.jxc-modal-wrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  outline: 0;
+  -webkit-overflow-scrolling: touch;
+}
+.jxc-modal-wrap {
+  z-index: 1000;
+}
+.jxc-modal-title {
+  margin: 0;
+  color: #222;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+.jxc-modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+}
+.jxc-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  padding: 0;
+  color: #222;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.jxc-modal-close-x {
+  display: block;
+  width: 56px;
+  height: 56px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 56px;
+  text-align: center;
+  text-transform: none;
+  text-rendering: auto;
+}
+.jxc-modal-close:focus,
+.jxc-modal-close:hover {
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+}
+.jxc-modal-header {
+  padding: 16px 24px;
+  color: #222;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 2px 2px 0 0;
+}
+.jxc-modal-body {
+  padding: 24px;
+  font-size: 13px;
+  line-height: 1.5715;
+  word-wrap: break-word;
+}
+.jxc-modal-footer {
+  padding: 10px 16px;
+  text-align: right;
+  background: transparent;
+  border-top: 1px solid #f0f0f0;
+  border-radius: 0 0 2px 2px;
+}
+.jxc-modal-footer button + button {
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.jxc-modal-open {
+  overflow: hidden;
+}
+.jxc-modal-centered {
+  text-align: center;
+}
+.jxc-modal-centered::before {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+  content: '';
+}
+.jxc-modal-centered .jxc-modal {
+  top: 0;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+@media (max-width: 767px) {
+  .jxc-modal {
+    max-width: calc(100vw - 16px);
+    margin: 8px auto;
+  }
+  .jxc-modal-centered .jxc-modal {
+    flex: 1;
+  }
+}
+.jxc-modal-confirm .jxc-modal-header {
+  display: none;
+}
+.jxc-modal-confirm .jxc-modal-body {
+  padding: 32px 32px 24px;
+}
+.jxc-modal-confirm-body-wrapper::before {
+  display: table;
+  content: '';
+}
+.jxc-modal-confirm-body-wrapper::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.jxc-modal-confirm-body .jxc-modal-confirm-title {
+  display: block;
+  overflow: hidden;
+  color: #222;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.jxc-modal-confirm-body .jxc-modal-confirm-content {
+  margin-top: 8px;
+  color: #222;
+  font-size: 13px;
+}
+.jxc-modal-confirm-body > .anticon {
+  float: left;
+  margin-right: 16px;
+  font-size: 22px;
+}
+.jxc-modal-confirm-body > .anticon + .jxc-modal-confirm-title + .jxc-modal-confirm-content {
+  margin-left: 38px;
+}
+.jxc-modal-confirm .jxc-modal-confirm-btns {
+  float: right;
+  margin-top: 24px;
+}
+.jxc-modal-confirm .jxc-modal-confirm-btns button + button {
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.jxc-modal-confirm-error .jxc-modal-confirm-body > .anticon {
+  color: #ff6060;
+}
+.jxc-modal-confirm-warning .jxc-modal-confirm-body > .anticon,
+.jxc-modal-confirm-confirm .jxc-modal-confirm-body > .anticon {
+  color: #ff6d1e;
+}
+.jxc-modal-confirm-info .jxc-modal-confirm-body > .anticon {
+  color: #fdf;
+}
+.jxc-modal-confirm-success .jxc-modal-confirm-body > .anticon {
+  color: #2b9262;
+}
+.jxc-modal-wrap-rtl {
+  direction: rtl;
+}
+.jxc-modal-wrap-rtl .jxc-modal-close {
+  right: initial;
+  left: 0;
+}
+.jxc-modal-wrap-rtl .jxc-modal-footer {
+  text-align: left;
+}
+.jxc-modal-wrap-rtl .jxc-modal-footer button + button {
+  margin-right: 8px;
+  margin-left: 0;
+}
+.jxc-modal-wrap-rtl .jxc-modal-confirm-body {
+  direction: rtl;
+}
+.jxc-modal-wrap-rtl .jxc-modal-confirm-body > .anticon {
+  float: right;
+  margin-right: 0;
+  margin-left: 16px;
+}
+.jxc-modal-wrap-rtl .jxc-modal-confirm-body > .anticon + .jxc-modal-confirm-title + .jxc-modal-confirm-content {
+  margin-right: 38px;
+  margin-left: 0;
+}
+.jxc-modal-wrap-rtl .jxc-modal-confirm-btns {
+  float: left;
+}
+.jxc-modal-wrap-rtl .jxc-modal-confirm-btns button + button {
+  margin-right: 8px;
+  margin-left: 0;
+}
+.jxc-modal-wrap-rtl.jxc-modal-centered .jxc-modal {
+  text-align: right;
+}

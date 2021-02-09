@@ -1,0 +1,28 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.jxc-space {
+  display: inline-flex;
+}
+.jxc-space-vertical {
+  flex-direction: column;
+}
+.jxc-space-align-center {
+  align-items: center;
+}
+.jxc-space-align-start {
+  align-items: flex-start;
+}
+.jxc-space-align-end {
+  align-items: flex-end;
+}
+.jxc-space-align-baseline {
+  align-items: baseline;
+}
+.jxc-space-item:empty {
+  display: none;
+}
+.jxc-space-rtl {
+  direction: rtl;
+}

@@ -1,0 +1,107 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-avatar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  background: #ccc;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+}
+.miccn-avatar-image {
+  background: transparent;
+}
+.miccn-avatar .miccn-image-img {
+  display: block;
+}
+.miccn-avatar-string {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 center;
+}
+.miccn-avatar.miccn-avatar-icon {
+  font-size: 18px;
+}
+.miccn-avatar.miccn-avatar-icon > .anticon {
+  margin: 0;
+}
+.miccn-avatar-lg {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+}
+.miccn-avatar-lg-string {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 center;
+}
+.miccn-avatar-lg.miccn-avatar-icon {
+  font-size: 24px;
+}
+.miccn-avatar-lg.miccn-avatar-icon > .anticon {
+  margin: 0;
+}
+.miccn-avatar-sm {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+}
+.miccn-avatar-sm-string {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 center;
+}
+.miccn-avatar-sm.miccn-avatar-icon {
+  font-size: 14px;
+}
+.miccn-avatar-sm.miccn-avatar-icon > .anticon {
+  margin: 0;
+}
+.miccn-avatar-square {
+  border-radius: 2px;
+}
+.miccn-avatar > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.miccn-avatar-group {
+  display: inline-flex;
+}
+.miccn-avatar-group .miccn-avatar {
+  border: 1px solid #fff;
+}
+.miccn-avatar-group .miccn-avatar:not(:first-child) {
+  margin-left: -8px;
+}
+.miccn-avatar-group-popover .miccn-avatar + .miccn-avatar {
+  margin-left: 3px;
+}
+.miccn-avatar-group-rtl .miccn-avatar:not(:first-child) {
+  margin-right: -8px;
+  margin-left: 0;
+}
+.miccn-avatar-group-popover.miccn-popover-rtl .miccn-avatar + .miccn-avatar {
+  margin-right: 3px;
+  margin-left: 0;
+}

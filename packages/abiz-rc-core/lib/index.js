@@ -516,6 +516,4 @@ var _typography = _interopRequireDefault(require("./typography"));
 
 var _upload = _interopRequireDefault(require("./upload"));
 
-require("./style/index.css");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

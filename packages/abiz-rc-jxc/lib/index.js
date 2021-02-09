@@ -388,134 +388,134 @@ Object.defineProperty(exports, "Upload", {
   }
 });
 
-var _affix = _interopRequireDefault(require("@abiz/rc-core/affix"));
+require("./style/all.css");
 
-var _anchor = _interopRequireDefault(require("@abiz/rc-core/anchor"));
+var _affix = _interopRequireDefault(require("./affix"));
 
-var _autoComplete = _interopRequireDefault(require("@abiz/rc-core/auto-complete"));
+var _anchor = _interopRequireDefault(require("./anchor"));
 
-var _alert = _interopRequireDefault(require("@abiz/rc-core/alert"));
+var _autoComplete = _interopRequireDefault(require("./auto-complete"));
 
-var _avatar = _interopRequireDefault(require("@abiz/rc-core/avatar"));
+var _alert = _interopRequireDefault(require("./alert"));
 
-var _backTop = _interopRequireDefault(require("@abiz/rc-core/back-top"));
+var _avatar = _interopRequireDefault(require("./avatar"));
 
-var _badge = _interopRequireDefault(require("@abiz/rc-core/badge"));
+var _backTop = _interopRequireDefault(require("./back-top"));
 
-var _breadcrumb = _interopRequireDefault(require("@abiz/rc-core/breadcrumb"));
+var _badge = _interopRequireDefault(require("./badge"));
 
-var _button = _interopRequireDefault(require("@abiz/rc-core/button"));
+var _breadcrumb = _interopRequireDefault(require("./breadcrumb"));
 
-var _calendar = _interopRequireDefault(require("@abiz/rc-core/calendar"));
+var _button = _interopRequireDefault(require("./button"));
 
-var _card = _interopRequireDefault(require("@abiz/rc-core/card"));
+var _calendar = _interopRequireDefault(require("./calendar"));
 
-var _collapse = _interopRequireDefault(require("@abiz/rc-core/collapse"));
+var _card = _interopRequireDefault(require("./card"));
 
-var _carousel = _interopRequireDefault(require("@abiz/rc-core/carousel"));
+var _collapse = _interopRequireDefault(require("./collapse"));
 
-var _cascader = _interopRequireDefault(require("@abiz/rc-core/cascader"));
+var _carousel = _interopRequireDefault(require("./carousel"));
 
-var _checkbox = _interopRequireDefault(require("@abiz/rc-core/checkbox"));
+var _cascader = _interopRequireDefault(require("./cascader"));
 
-var _col = _interopRequireDefault(require("@abiz/rc-core/col"));
+var _checkbox = _interopRequireDefault(require("./checkbox"));
 
-var _comment = _interopRequireDefault(require("@abiz/rc-core/comment"));
+var _col = _interopRequireDefault(require("./col"));
 
-var _configProvider = _interopRequireDefault(require("./configProvider"));
+var _comment = _interopRequireDefault(require("./comment"));
 
-var _datePicker = _interopRequireDefault(require("@abiz/rc-core/date-picker"));
+var _configProvider = _interopRequireDefault(require("./config-provider"));
 
-var _descriptions = _interopRequireDefault(require("@abiz/rc-core/descriptions"));
+var _datePicker = _interopRequireDefault(require("./date-picker"));
 
-var _divider = _interopRequireDefault(require("@abiz/rc-core/divider"));
+var _descriptions = _interopRequireDefault(require("./descriptions"));
 
-var _dropdown = _interopRequireDefault(require("@abiz/rc-core/dropdown"));
+var _divider = _interopRequireDefault(require("./divider"));
 
-var _drawer = _interopRequireDefault(require("@abiz/rc-core/drawer"));
+var _dropdown = _interopRequireDefault(require("./dropdown"));
 
-var _empty = _interopRequireDefault(require("@abiz/rc-core/empty"));
+var _drawer = _interopRequireDefault(require("./drawer"));
 
-var _form = _interopRequireDefault(require("@abiz/rc-core/form"));
+var _empty = _interopRequireDefault(require("./empty"));
 
-var _grid = _interopRequireDefault(require("@abiz/rc-core/grid"));
+var _form = _interopRequireDefault(require("./form"));
 
-var _input = _interopRequireDefault(require("@abiz/rc-core/input"));
+var _grid = _interopRequireDefault(require("./grid"));
 
-var _image = _interopRequireDefault(require("@abiz/rc-core/image"));
+var _input = _interopRequireDefault(require("./input"));
 
-var _inputNumber = _interopRequireDefault(require("@abiz/rc-core/input-number"));
+var _image = _interopRequireDefault(require("./image"));
 
-var _layout = _interopRequireDefault(require("@abiz/rc-core/layout"));
+var _inputNumber = _interopRequireDefault(require("./input-number"));
 
-var _list = _interopRequireDefault(require("@abiz/rc-core/list"));
+var _layout = _interopRequireDefault(require("./layout"));
 
-var _message = _interopRequireDefault(require("@abiz/rc-core/message"));
+var _list = _interopRequireDefault(require("./list"));
 
-var _menu = _interopRequireDefault(require("@abiz/rc-core/menu"));
+var _message = _interopRequireDefault(require("./message"));
 
-var _mentions = _interopRequireDefault(require("@abiz/rc-core/mentions"));
+var _menu = _interopRequireDefault(require("./menu"));
 
-var _modal = _interopRequireDefault(require("@abiz/rc-core/modal"));
+var _mentions = _interopRequireDefault(require("./mentions"));
 
-var _statistic = _interopRequireDefault(require("@abiz/rc-core/statistic"));
+var _modal = _interopRequireDefault(require("./modal"));
 
-var _notification = _interopRequireDefault(require("@abiz/rc-core/notification"));
+var _statistic = _interopRequireDefault(require("./statistic"));
 
-var _pageHeader = _interopRequireDefault(require("@abiz/rc-core/page-header"));
+var _notification = _interopRequireDefault(require("./notification"));
 
-var _pagination = _interopRequireDefault(require("@abiz/rc-core/pagination"));
+var _pageHeader = _interopRequireDefault(require("./page-header"));
 
-var _popconfirm = _interopRequireDefault(require("@abiz/rc-core/popconfirm"));
+var _pagination = _interopRequireDefault(require("./pagination"));
 
-var _popover = _interopRequireDefault(require("@abiz/rc-core/popover"));
+var _popconfirm = _interopRequireDefault(require("./popconfirm"));
 
-var _progress = _interopRequireDefault(require("@abiz/rc-core/progress"));
+var _popover = _interopRequireDefault(require("./popover"));
 
-var _radio = _interopRequireDefault(require("@abiz/rc-core/radio"));
+var _progress = _interopRequireDefault(require("./progress"));
 
-var _rate = _interopRequireDefault(require("@abiz/rc-core/rate"));
+var _radio = _interopRequireDefault(require("./radio"));
 
-var _result = _interopRequireDefault(require("@abiz/rc-core/result"));
+var _rate = _interopRequireDefault(require("./rate"));
 
-var _row = _interopRequireDefault(require("@abiz/rc-core/row"));
+var _result = _interopRequireDefault(require("./result"));
 
-var _select = _interopRequireDefault(require("@abiz/rc-core/select"));
+var _row = _interopRequireDefault(require("./row"));
 
-var _skeleton = _interopRequireDefault(require("@abiz/rc-core/skeleton"));
+var _select = _interopRequireDefault(require("./select"));
 
-var _slider = _interopRequireDefault(require("@abiz/rc-core/slider"));
+var _skeleton = _interopRequireDefault(require("./skeleton"));
 
-var _space = _interopRequireDefault(require("@abiz/rc-core/space"));
+var _slider = _interopRequireDefault(require("./slider"));
 
-var _spin = _interopRequireDefault(require("@abiz/rc-core/spin"));
+var _space = _interopRequireDefault(require("./space"));
 
-var _steps = _interopRequireDefault(require("@abiz/rc-core/steps"));
+var _spin = _interopRequireDefault(require("./spin"));
 
-var _switch = _interopRequireDefault(require("@abiz/rc-core/switch"));
+var _steps = _interopRequireDefault(require("./steps"));
 
-var _table = _interopRequireDefault(require("@abiz/rc-core/table"));
+var _switch = _interopRequireDefault(require("./switch"));
 
-var _transfer = _interopRequireDefault(require("@abiz/rc-core/transfer"));
+var _table = _interopRequireDefault(require("./table"));
 
-var _tree = _interopRequireDefault(require("@abiz/rc-core/tree"));
+var _transfer = _interopRequireDefault(require("./transfer"));
 
-var _treeSelect = _interopRequireDefault(require("@abiz/rc-core/tree-select"));
+var _tree = _interopRequireDefault(require("./tree"));
 
-var _tabs = _interopRequireDefault(require("@abiz/rc-core/tabs"));
+var _treeSelect = _interopRequireDefault(require("./tree-select"));
 
-var _tag = _interopRequireDefault(require("@abiz/rc-core/tag"));
+var _tabs = _interopRequireDefault(require("./tabs"));
 
-var _timePicker = _interopRequireDefault(require("@abiz/rc-core/time-picker"));
+var _tag = _interopRequireDefault(require("./tag"));
 
-var _timeline = _interopRequireDefault(require("@abiz/rc-core/timeline"));
+var _timePicker = _interopRequireDefault(require("./time-picker"));
 
-var _tooltip = _interopRequireDefault(require("@abiz/rc-core/tooltip"));
+var _timeline = _interopRequireDefault(require("./timeline"));
 
-var _typography = _interopRequireDefault(require("@abiz/rc-core/typography"));
+var _tooltip = _interopRequireDefault(require("./tooltip"));
 
-var _upload = _interopRequireDefault(require("@abiz/rc-core/upload"));
+var _typography = _interopRequireDefault(require("./typography"));
 
-require("./style/index.css");
+var _upload = _interopRequireDefault(require("./upload"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

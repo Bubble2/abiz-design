@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _typography = _interopRequireDefault(require("antd/lib/typography"));
 
-var _default = _antd.Typography;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _typography.default;
 exports.default = _default;

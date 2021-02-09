@@ -10,7 +10,11 @@
     "publish:package": "lerna publish from-package",
     "start": "dumi dev",
     "docs:build": "dumi build --mode=production",
-    "build": "father-build",
+    "build": "lerna run core-build && father-build && lerna run aeps-build && lerna run jxc-build && lerna run miccn-build",
+    "build:core": "lerna run core-build",
+    "build:aeps": "lerna run aeps-build",
+    "build:jxc": "lerna run jxc-build",
+    "build:miccn": "lerna run miccn-build",
     "release": "npm run build && npm run publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
@@ -34,8 +38,8 @@
     "@umijs/fabric": "^2.4.11",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@umijs/test": "^3.0.5",
@@ -46,6 +50,7 @@
     "gh-pages": "^3.0.0",
     "increase-memory-limit": "^1.0.7",
     "lerna": "^3.22.1",
+    "less-vars-to-js": "^1.3.0",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "yorkie": "^2.0.0"

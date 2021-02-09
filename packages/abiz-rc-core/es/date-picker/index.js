@@ -1,2 +1,2 @@
-import { Comment } from 'antd';
-export default Comment;
+import _Comment from "antd/es/comment";
+export default _Comment;

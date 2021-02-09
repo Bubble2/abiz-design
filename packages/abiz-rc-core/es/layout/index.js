@@ -1,2 +1,2 @@
-import { Layout } from 'antd';
-export default Layout;
+import _Layout from "antd/es/layout";
+export default _Layout;

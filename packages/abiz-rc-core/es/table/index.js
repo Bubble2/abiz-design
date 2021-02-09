@@ -1,2 +1,2 @@
-import { Table } from 'antd';
-export default Table;
+import _Table from "antd/es/table";
+export default _Table;

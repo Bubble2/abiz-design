@@ -1,2 +1,2 @@
-import { Space } from 'antd';
-export default Space;
+import _Space from "antd/es/space";
+export default _Space;

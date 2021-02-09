@@ -1,2 +1,2 @@
-import { Empty } from 'antd';
-export default Empty;
+import _Empty from "antd/es/empty";
+export default _Empty;

@@ -1,0 +1,101 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.jxc-anchor {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  padding-left: 2px;
+}
+.jxc-anchor-wrapper {
+  margin-left: -4px;
+  padding-left: 4px;
+  overflow: auto;
+  background-color: #fff;
+}
+.jxc-anchor-ink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.jxc-anchor-ink::before {
+  position: relative;
+  display: block;
+  width: 2px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  content: ' ';
+}
+.jxc-anchor-ink-ball {
+  position: absolute;
+  left: 50%;
+  display: none;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border: 2px solid #fdf;
+  border-radius: 8px;
+  transform: translateX(-50%);
+  transition: top 0.3s ease-in-out;
+}
+.jxc-anchor-ink-ball.visible {
+  display: inline-block;
+}
+.jxc-anchor.fixed .jxc-anchor-ink .jxc-anchor-ink-ball {
+  display: none;
+}
+.jxc-anchor-link {
+  padding: 7px 0 7px 16px;
+  line-height: 1.143;
+}
+.jxc-anchor-link-title {
+  position: relative;
+  display: block;
+  margin-bottom: 6px;
+  overflow: hidden;
+  color: #222;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: all 0.3s;
+}
+.jxc-anchor-link-title:only-child {
+  margin-bottom: 0;
+}
+.jxc-anchor-link-active > .jxc-anchor-link-title {
+  color: #fdf;
+}
+.jxc-anchor-link .jxc-anchor-link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.jxc-anchor-rtl {
+  direction: rtl;
+}
+.jxc-anchor-rtl.jxc-anchor-wrapper {
+  margin-right: -4px;
+  margin-left: 0;
+  padding-right: 4px;
+  padding-left: 0;
+}
+.jxc-anchor-rtl .jxc-anchor-ink {
+  right: 0;
+  left: auto;
+}
+.jxc-anchor-rtl .jxc-anchor-ink-ball {
+  right: 50%;
+  left: 0;
+  transform: translateX(50%);
+}
+.jxc-anchor-rtl .jxc-anchor-link {
+  padding: 7px 16px 7px 0;
+}

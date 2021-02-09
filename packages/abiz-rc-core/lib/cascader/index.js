@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _cascader = _interopRequireDefault(require("antd/lib/cascader"));
 
-var _default = _antd.Cascader;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _cascader.default;
 exports.default = _default;

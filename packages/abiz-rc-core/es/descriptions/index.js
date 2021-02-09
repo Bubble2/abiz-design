@@ -1,2 +1,2 @@
-import { Descriptions } from 'antd';
-export default Descriptions;
+import _Descriptions from "antd/es/descriptions";
+export default _Descriptions;

@@ -1,0 +1,190 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-progress {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  display: inline-block;
+}
+.miccn-progress-line {
+  position: relative;
+  width: 100%;
+  font-size: 13px;
+}
+.miccn-progress-steps {
+  display: inline-block;
+}
+.miccn-progress-steps-outer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.miccn-progress-steps-item {
+  flex-shrink: 0;
+  min-width: 2px;
+  margin-right: 2px;
+  background: #f3f3f3;
+  transition: all 0.3s;
+}
+.miccn-progress-steps-item-active {
+  background: #1890ff;
+}
+.miccn-progress-small.miccn-progress-line,
+.miccn-progress-small.miccn-progress-line .miccn-progress-text .anticon {
+  font-size: 12px;
+}
+.miccn-progress-outer {
+  display: inline-block;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+}
+.miccn-progress-show-info .miccn-progress-outer {
+  margin-right: calc(-2em - 8px);
+  padding-right: calc(2em + 8px);
+}
+.miccn-progress-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border-radius: 100px;
+}
+.miccn-progress-circle-trail {
+  stroke: #f5f5f5;
+}
+.miccn-progress-circle-path {
+  animation: miccn-progress-appear 0.3s;
+}
+.miccn-progress-inner:not(.miccn-progress-circle-gradient) .miccn-progress-circle-path {
+  stroke: #1890ff;
+}
+.miccn-progress-success-bg,
+.miccn-progress-bg {
+  position: relative;
+  background-color: #1890ff;
+  border-radius: 100px;
+  transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
+}
+.miccn-progress-success-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2b9262;
+}
+.miccn-progress-text {
+  display: inline-block;
+  width: 2em;
+  margin-left: 8px;
+  color: #222;
+  font-size: 1em;
+  line-height: 1;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: middle;
+  word-break: normal;
+}
+.miccn-progress-text .anticon {
+  font-size: 13px;
+}
+.miccn-progress-status-active .miccn-progress-bg::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 10px;
+  opacity: 0;
+  animation: miccn-progress-active 2.4s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+  content: '';
+}
+.miccn-progress-status-exception .miccn-progress-bg {
+  background-color: #ff6060;
+}
+.miccn-progress-status-exception .miccn-progress-text {
+  color: #ff6060;
+}
+.miccn-progress-status-exception .miccn-progress-inner:not(.miccn-progress-circle-gradient) .miccn-progress-circle-path {
+  stroke: #ff6060;
+}
+.miccn-progress-status-success .miccn-progress-bg {
+  background-color: #2b9262;
+}
+.miccn-progress-status-success .miccn-progress-text {
+  color: #2b9262;
+}
+.miccn-progress-status-success .miccn-progress-inner:not(.miccn-progress-circle-gradient) .miccn-progress-circle-path {
+  stroke: #2b9262;
+}
+.miccn-progress-circle .miccn-progress-inner {
+  position: relative;
+  line-height: 1;
+  background-color: transparent;
+}
+.miccn-progress-circle .miccn-progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 1em;
+  line-height: 1;
+  white-space: normal;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.miccn-progress-circle .miccn-progress-text .anticon {
+  font-size: 1.16666667em;
+}
+.miccn-progress-circle.miccn-progress-status-exception .miccn-progress-text {
+  color: #ff6060;
+}
+.miccn-progress-circle.miccn-progress-status-success .miccn-progress-text {
+  color: #2b9262;
+}
+@keyframes miccn-progress-active {
+  0% {
+    width: 0;
+    opacity: 0.1;
+  }
+  20% {
+    width: 0;
+    opacity: 0.5;
+  }
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+.miccn-progress-rtl {
+  direction: rtl;
+}
+.miccn-progress-rtl.miccn-progress-show-info .miccn-progress-outer {
+  margin-right: 0;
+  margin-left: calc(-2em - 8px);
+  padding-right: 0;
+  padding-left: calc(2em + 8px);
+}
+.miccn-progress-rtl .miccn-progress-success-bg {
+  right: 0;
+  left: auto;
+}
+.miccn-progress-rtl.miccn-progress-line .miccn-progress-text,
+.miccn-progress-rtl.miccn-progress-steps .miccn-progress-text {
+  margin-right: 8px;
+  margin-left: 0;
+  text-align: right;
+}

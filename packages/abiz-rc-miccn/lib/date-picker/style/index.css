@@ -1,0 +1,1005 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-picker {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  padding: 5px 11px 5px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+.miccn-picker:hover,
+.miccn-picker-focused {
+  border-color: #ff29ea;
+  border-right-width: 1px !important;
+}
+.miccn-picker-focused {
+  border-color: #ff29ea;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(255, 0, 238, 0.2);
+}
+.miccn-picker.miccn-picker-disabled {
+  background: #f5f5f5;
+  border-color: #d2d2d2;
+  cursor: not-allowed;
+}
+.miccn-picker.miccn-picker-disabled .miccn-picker-suffix {
+  color: #ccc;
+}
+.miccn-picker.miccn-picker-borderless {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.miccn-picker-input {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+.miccn-picker-input > input {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4.8px 11px;
+  color: #222;
+  font-size: 13px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+  transition: all 0.3s;
+  flex: auto;
+  min-width: 1px;
+  height: auto;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+.miccn-picker-input > input::-moz-placeholder {
+  opacity: 1;
+}
+.miccn-picker-input > input::placeholder {
+  color: #b0b0b0;
+}
+.miccn-picker-input > input:placeholder-shown {
+  text-overflow: ellipsis;
+}
+.miccn-picker-input > input:hover {
+  border-color: #ff29ea;
+  border-right-width: 1px !important;
+}
+.miccn-picker-input > input:focus,
+.miccn-picker-input > input-focused {
+  border-color: #ff29ea;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(255, 0, 238, 0.2);
+}
+.miccn-picker-input > input-disabled {
+  color: #ccc;
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.miccn-picker-input > input-disabled:hover {
+  border-color: #d2d2d2;
+  border-right-width: 1px !important;
+}
+.miccn-picker-input > input[disabled] {
+  color: #ccc;
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.miccn-picker-input > input[disabled]:hover {
+  border-color: #d2d2d2;
+  border-right-width: 1px !important;
+}
+.miccn-picker-input > input-borderless,
+.miccn-picker-input > input-borderless:hover,
+.miccn-picker-input > input-borderless:focus,
+.miccn-picker-input > input-borderless-focused,
+.miccn-picker-input > input-borderless-disabled,
+.miccn-picker-input > input-borderless[disabled] {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+textarea.miccn-picker-input > input {
+  max-width: 100%;
+  height: auto;
+  min-height: 32px;
+  line-height: 1.5715;
+  vertical-align: bottom;
+  transition: all 0.3s, height 0s;
+}
+.miccn-picker-input > input-lg {
+  padding: 7.3px 11px;
+  font-size: 15px;
+}
+.miccn-picker-input > input-sm {
+  padding: 0.8px 7px;
+}
+.miccn-picker-input > input:focus {
+  box-shadow: none;
+}
+.miccn-picker-input > input[disabled] {
+  background: transparent;
+}
+.miccn-picker-input:hover .miccn-picker-clear {
+  opacity: 1;
+}
+.miccn-picker-input-placeholder > input {
+  color: #b0b0b0;
+}
+.miccn-picker-large {
+  padding: 7.5px 11px 7.5px;
+}
+.miccn-picker-large .miccn-picker-input > input {
+  font-size: 15px;
+}
+.miccn-picker-small {
+  padding: 1px 7px 1px;
+}
+.miccn-picker-suffix {
+  align-self: center;
+  margin-left: 4px;
+  color: #ccc;
+  line-height: 1;
+  pointer-events: none;
+}
+.miccn-picker-suffix > * {
+  vertical-align: top;
+}
+.miccn-picker-clear {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: #ccc;
+  line-height: 1;
+  background: #fff;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s, color 0.3s;
+}
+.miccn-picker-clear > * {
+  vertical-align: top;
+}
+.miccn-picker-clear:hover {
+  color: #222;
+}
+.miccn-picker-separator {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 15px;
+  color: #ccc;
+  font-size: 15px;
+  vertical-align: top;
+  cursor: default;
+}
+.miccn-picker-focused .miccn-picker-separator {
+  color: #222;
+}
+.miccn-picker-disabled .miccn-picker-range-separator .miccn-picker-separator {
+  cursor: not-allowed;
+}
+.miccn-picker-range {
+  position: relative;
+  display: inline-flex;
+}
+.miccn-picker-range .miccn-picker-clear {
+  right: 11px;
+}
+.miccn-picker-range:hover .miccn-picker-clear {
+  opacity: 1;
+}
+.miccn-picker-range .miccn-picker-active-bar {
+  bottom: -1px;
+  height: 2px;
+  margin-left: 11px;
+  background: #f0e;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  pointer-events: none;
+}
+.miccn-picker-range.miccn-picker-focused .miccn-picker-active-bar {
+  opacity: 1;
+}
+.miccn-picker-range-separator {
+  align-items: center;
+  padding: 0 8px;
+  line-height: 1;
+}
+.miccn-picker-range.miccn-picker-small .miccn-picker-clear {
+  right: 7px;
+}
+.miccn-picker-range.miccn-picker-small .miccn-picker-active-bar {
+  margin-left: 7px;
+}
+.miccn-picker-dropdown {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: absolute;
+  z-index: 1050;
+}
+.miccn-picker-dropdown-hidden {
+  display: none;
+}
+.miccn-picker-dropdown-placement-bottomLeft .miccn-picker-range-arrow {
+  top: 1.66666667px;
+  display: block;
+  transform: rotate(-45deg);
+}
+.miccn-picker-dropdown-placement-topLeft .miccn-picker-range-arrow {
+  bottom: 1.66666667px;
+  display: block;
+  transform: rotate(135deg);
+}
+.miccn-picker-dropdown.slide-up-enter.slide-up-enter-active.miccn-picker-dropdown-placement-topLeft,
+.miccn-picker-dropdown.slide-up-enter.slide-up-enter-active.miccn-picker-dropdown-placement-topRight,
+.miccn-picker-dropdown.slide-up-appear.slide-up-appear-active.miccn-picker-dropdown-placement-topLeft,
+.miccn-picker-dropdown.slide-up-appear.slide-up-appear-active.miccn-picker-dropdown-placement-topRight {
+  animation-name: antSlideDownIn;
+}
+.miccn-picker-dropdown.slide-up-enter.slide-up-enter-active.miccn-picker-dropdown-placement-bottomLeft,
+.miccn-picker-dropdown.slide-up-enter.slide-up-enter-active.miccn-picker-dropdown-placement-bottomRight,
+.miccn-picker-dropdown.slide-up-appear.slide-up-appear-active.miccn-picker-dropdown-placement-bottomLeft,
+.miccn-picker-dropdown.slide-up-appear.slide-up-appear-active.miccn-picker-dropdown-placement-bottomRight {
+  animation-name: antSlideUpIn;
+}
+.miccn-picker-dropdown.slide-up-leave.slide-up-leave-active.miccn-picker-dropdown-placement-topLeft,
+.miccn-picker-dropdown.slide-up-leave.slide-up-leave-active.miccn-picker-dropdown-placement-topRight {
+  animation-name: antSlideDownOut;
+}
+.miccn-picker-dropdown.slide-up-leave.slide-up-leave-active.miccn-picker-dropdown-placement-bottomLeft,
+.miccn-picker-dropdown.slide-up-leave.slide-up-leave-active.miccn-picker-dropdown-placement-bottomRight {
+  animation-name: antSlideUpOut;
+}
+.miccn-picker-dropdown-range {
+  padding: 6.66666667px 0;
+}
+.miccn-picker-dropdown-range-hidden {
+  display: none;
+}
+.miccn-picker-dropdown .miccn-picker-panel > .miccn-picker-time-panel {
+  padding-top: 4px;
+}
+.miccn-picker-ranges {
+  margin-bottom: 0;
+  padding: 4px 12px;
+  overflow: hidden;
+  line-height: 34px;
+  text-align: left;
+  list-style: none;
+}
+.miccn-picker-ranges > li {
+  display: inline-block;
+}
+.miccn-picker-ranges .miccn-picker-preset > .miccn-tag-blue {
+  color: #f0e;
+  background: #f0fcf6;
+  border-color: #ff7ae9;
+  cursor: pointer;
+}
+.miccn-picker-ranges .miccn-picker-ok {
+  float: right;
+  margin-left: 8px;
+}
+.miccn-picker-range-wrapper {
+  display: flex;
+}
+.miccn-picker-range-arrow {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  width: 10px;
+  height: 10px;
+  margin-left: 16.5px;
+  box-shadow: 2px -2px 6px rgba(0, 0, 0, 0.06);
+  transition: left 0.3s ease-out;
+}
+.miccn-picker-range-arrow::after {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 10px;
+  height: 10px;
+  border: 5px solid #f0f0f0;
+  border-color: #fff #fff transparent transparent;
+  content: '';
+}
+.miccn-picker-panel-container {
+  overflow: hidden;
+  vertical-align: top;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: margin 0.3s;
+}
+.miccn-picker-panel-container .miccn-picker-panels {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  direction: ltr;
+}
+.miccn-picker-panel-container .miccn-picker-panel {
+  vertical-align: top;
+  background: transparent;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+}
+.miccn-picker-panel-container .miccn-picker-panel-focused {
+  border-color: #f0f0f0;
+}
+.miccn-picker-panel {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  outline: none;
+}
+.miccn-picker-panel-focused {
+  border-color: #f0e;
+}
+.miccn-picker-decade-panel,
+.miccn-picker-year-panel,
+.miccn-picker-quarter-panel,
+.miccn-picker-month-panel,
+.miccn-picker-week-panel,
+.miccn-picker-date-panel,
+.miccn-picker-time-panel {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+.miccn-picker-header {
+  display: flex;
+  padding: 0 8px;
+  color: #222;
+  border-bottom: 1px solid #f0f0f0;
+}
+.miccn-picker-header > * {
+  flex: none;
+}
+.miccn-picker-header button {
+  padding: 0;
+  color: #ccc;
+  line-height: 40px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.miccn-picker-header > button {
+  min-width: 1.6em;
+  font-size: 13px;
+}
+.miccn-picker-header > button:hover {
+  color: #222;
+}
+.miccn-picker-header-view {
+  flex: auto;
+  font-weight: 500;
+  line-height: 40px;
+}
+.miccn-picker-header-view button {
+  color: inherit;
+  font-weight: inherit;
+}
+.miccn-picker-header-view button:not(:first-child) {
+  margin-left: 8px;
+}
+.miccn-picker-header-view button:hover {
+  color: #f0e;
+}
+.miccn-picker-prev-icon,
+.miccn-picker-next-icon,
+.miccn-picker-super-prev-icon,
+.miccn-picker-super-next-icon {
+  position: relative;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+}
+.miccn-picker-prev-icon::before,
+.miccn-picker-next-icon::before,
+.miccn-picker-super-prev-icon::before,
+.miccn-picker-super-next-icon::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border: 0 solid currentColor;
+  border-width: 1.5px 0 0 1.5px;
+  content: '';
+}
+.miccn-picker-super-prev-icon::after,
+.miccn-picker-super-next-icon::after {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border: 0 solid currentColor;
+  border-width: 1.5px 0 0 1.5px;
+  content: '';
+}
+.miccn-picker-prev-icon,
+.miccn-picker-super-prev-icon {
+  transform: rotate(-45deg);
+}
+.miccn-picker-next-icon,
+.miccn-picker-super-next-icon {
+  transform: rotate(135deg);
+}
+.miccn-picker-content {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.miccn-picker-content th,
+.miccn-picker-content td {
+  position: relative;
+  min-width: 24px;
+  font-weight: 400;
+}
+.miccn-picker-content th {
+  height: 30px;
+  color: #222;
+  line-height: 30px;
+}
+.miccn-picker-cell {
+  padding: 3px 0;
+  color: #ccc;
+  cursor: pointer;
+}
+.miccn-picker-cell-in-view {
+  color: #222;
+}
+.miccn-picker-cell-disabled {
+  cursor: not-allowed;
+}
+.miccn-picker-cell::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: 24px;
+  transform: translateY(-50%);
+  content: '';
+}
+.miccn-picker-cell .miccn-picker-cell-inner {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  min-width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 2px;
+  transition: background 0.3s, border 0.3s;
+}
+.miccn-picker-cell:hover:not(.miccn-picker-cell-in-view) .miccn-picker-cell-inner,
+.miccn-picker-cell:hover:not(.miccn-picker-cell-selected):not(.miccn-picker-cell-range-start):not(.miccn-picker-cell-range-end):not(.miccn-picker-cell-range-hover-start):not(.miccn-picker-cell-range-hover-end) .miccn-picker-cell-inner {
+  background: #f5f5f5;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-today .miccn-picker-cell-inner::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border: 1px solid #f0e;
+  border-radius: 2px;
+  content: '';
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-in-range {
+  position: relative;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-in-range::before {
+  background: #f0fcf6;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-selected .miccn-picker-cell-inner,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-start .miccn-picker-cell-inner,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-end .miccn-picker-cell-inner {
+  color: #fff;
+  background: #f0e;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-range-start:not(.miccn-picker-cell-range-start-single)::before,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-end:not(.miccn-picker-cell-range-end-single)::before {
+  background: #f0fcf6;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-range-start::before {
+  left: 50%;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-range-end::before {
+  right: 50%;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-start:not(.miccn-picker-cell-in-range):not(.miccn-picker-cell-range-start):not(.miccn-picker-cell-range-end)::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-end:not(.miccn-picker-cell-in-range):not(.miccn-picker-cell-range-start):not(.miccn-picker-cell-range-end)::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-start.miccn-picker-cell-range-start-single::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-start.miccn-picker-cell-range-start.miccn-picker-cell-range-end.miccn-picker-cell-range-end-near-hover::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-end.miccn-picker-cell-range-start.miccn-picker-cell-range-end.miccn-picker-cell-range-start-near-hover::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-end.miccn-picker-cell-range-end-single::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover:not(.miccn-picker-cell-in-range)::after {
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+  height: 24px;
+  border-top: 1px dashed #ff66f5;
+  border-bottom: 1px dashed #ff66f5;
+  transform: translateY(-50%);
+  content: '';
+}
+.miccn-picker-cell-range-hover-start::after,
+.miccn-picker-cell-range-hover-end::after,
+.miccn-picker-cell-range-hover::after {
+  right: 0;
+  left: 2px;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover::before,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-start.miccn-picker-cell-range-hover::before,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-end.miccn-picker-cell-range-hover::before,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-start:not(.miccn-picker-cell-range-start-single).miccn-picker-cell-range-hover-start::before,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-end:not(.miccn-picker-cell-range-end-single).miccn-picker-cell-range-hover-end::before,
+.miccn-picker-panel > :not(.miccn-picker-date-panel) .miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover-start::before,
+.miccn-picker-panel > :not(.miccn-picker-date-panel) .miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover-end::before {
+  background: #ffb3fa;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-range-start:not(.miccn-picker-cell-range-start-single):not(.miccn-picker-cell-range-end) .miccn-picker-cell-inner {
+  border-radius: 2px 0 0 2px;
+}
+.miccn-picker-cell-in-view.miccn-picker-cell-range-end:not(.miccn-picker-cell-range-end-single):not(.miccn-picker-cell-range-start) .miccn-picker-cell-inner {
+  border-radius: 0 2px 2px 0;
+}
+.miccn-picker-date-panel .miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover-start .miccn-picker-cell-inner::after,
+.miccn-picker-date-panel .miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover-end .miccn-picker-cell-inner::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #ffb3fa;
+  content: '';
+}
+.miccn-picker-date-panel .miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover-start .miccn-picker-cell-inner::after {
+  right: -6px;
+  left: 0;
+}
+.miccn-picker-date-panel .miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover-end .miccn-picker-cell-inner::after {
+  right: 0;
+  left: -6px;
+}
+.miccn-picker-cell-range-hover.miccn-picker-cell-range-start::after {
+  right: 50%;
+}
+.miccn-picker-cell-range-hover.miccn-picker-cell-range-end::after {
+  left: 50%;
+}
+tr > .miccn-picker-cell-in-view.miccn-picker-cell-range-hover:first-child::after,
+tr > .miccn-picker-cell-in-view.miccn-picker-cell-range-hover-end:first-child::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-start.miccn-picker-cell-range-hover-edge-start.miccn-picker-cell-range-hover-edge-start-near-range::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-edge-start:not(.miccn-picker-cell-range-hover-edge-start-near-range)::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-start::after {
+  left: 6px;
+  border-left: 1px dashed #ff66f5;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+tr > .miccn-picker-cell-in-view.miccn-picker-cell-range-hover:last-child::after,
+tr > .miccn-picker-cell-in-view.miccn-picker-cell-range-hover-start:last-child::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-end.miccn-picker-cell-range-hover-edge-end.miccn-picker-cell-range-hover-edge-end-near-range::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-edge-end:not(.miccn-picker-cell-range-hover-edge-end-near-range)::after,
+.miccn-picker-cell-in-view.miccn-picker-cell-range-hover-end::after {
+  right: 6px;
+  border-right: 1px dashed #ff66f5;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.miccn-picker-cell-disabled {
+  pointer-events: none;
+}
+.miccn-picker-cell-disabled .miccn-picker-cell-inner {
+  color: #ccc;
+  background: transparent;
+}
+.miccn-picker-cell-disabled::before {
+  background: #f5f5f5;
+}
+.miccn-picker-cell-disabled.miccn-picker-cell-today .miccn-picker-cell-inner::before {
+  border-color: #ccc;
+}
+.miccn-picker-decade-panel .miccn-picker-content,
+.miccn-picker-year-panel .miccn-picker-content,
+.miccn-picker-quarter-panel .miccn-picker-content,
+.miccn-picker-month-panel .miccn-picker-content {
+  height: 264px;
+}
+.miccn-picker-decade-panel .miccn-picker-cell-inner,
+.miccn-picker-year-panel .miccn-picker-cell-inner,
+.miccn-picker-quarter-panel .miccn-picker-cell-inner,
+.miccn-picker-month-panel .miccn-picker-cell-inner {
+  padding: 0 8px;
+}
+.miccn-picker-decade-panel .miccn-picker-cell-disabled .miccn-picker-cell-inner,
+.miccn-picker-year-panel .miccn-picker-cell-disabled .miccn-picker-cell-inner,
+.miccn-picker-quarter-panel .miccn-picker-cell-disabled .miccn-picker-cell-inner,
+.miccn-picker-month-panel .miccn-picker-cell-disabled .miccn-picker-cell-inner {
+  background: #f5f5f5;
+}
+.miccn-picker-quarter-panel .miccn-picker-content {
+  height: 56px;
+}
+.miccn-picker-footer {
+  width: min-content;
+  min-width: 100%;
+  line-height: 38px;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.miccn-picker-panel .miccn-picker-footer {
+  border-top: 1px solid #f0f0f0;
+}
+.miccn-picker-footer-extra {
+  padding: 0 12px;
+  line-height: 38px;
+  text-align: left;
+}
+.miccn-picker-footer-extra:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
+.miccn-picker-now {
+  text-align: left;
+}
+.miccn-picker-today-btn {
+  color: #0066dd;
+}
+.miccn-picker-today-btn:hover {
+  color: #2688eb;
+}
+.miccn-picker-today-btn:active {
+  color: #0050b8;
+}
+.miccn-picker-today-btn.miccn-picker-today-btn-disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.miccn-picker-decade-panel .miccn-picker-cell-inner {
+  padding: 0 4px;
+}
+.miccn-picker-decade-panel .miccn-picker-cell::before {
+  display: none;
+}
+.miccn-picker-year-panel .miccn-picker-body,
+.miccn-picker-quarter-panel .miccn-picker-body,
+.miccn-picker-month-panel .miccn-picker-body {
+  padding: 0 8px;
+}
+.miccn-picker-year-panel .miccn-picker-cell-inner,
+.miccn-picker-quarter-panel .miccn-picker-cell-inner,
+.miccn-picker-month-panel .miccn-picker-cell-inner {
+  width: 60px;
+}
+.miccn-picker-year-panel .miccn-picker-cell-range-hover-start::after,
+.miccn-picker-quarter-panel .miccn-picker-cell-range-hover-start::after,
+.miccn-picker-month-panel .miccn-picker-cell-range-hover-start::after {
+  left: 14px;
+  border-left: 1px dashed #ff66f5;
+  border-radius: 2px 0 0 2px;
+}
+.miccn-picker-panel-rtl .miccn-picker-year-panel .miccn-picker-cell-range-hover-start::after,
+.miccn-picker-panel-rtl .miccn-picker-quarter-panel .miccn-picker-cell-range-hover-start::after,
+.miccn-picker-panel-rtl .miccn-picker-month-panel .miccn-picker-cell-range-hover-start::after {
+  right: 14px;
+  border-right: 1px dashed #ff66f5;
+  border-radius: 0 2px 2px 0;
+}
+.miccn-picker-year-panel .miccn-picker-cell-range-hover-end::after,
+.miccn-picker-quarter-panel .miccn-picker-cell-range-hover-end::after,
+.miccn-picker-month-panel .miccn-picker-cell-range-hover-end::after {
+  right: 14px;
+  border-right: 1px dashed #ff66f5;
+  border-radius: 0 2px 2px 0;
+}
+.miccn-picker-panel-rtl .miccn-picker-year-panel .miccn-picker-cell-range-hover-end::after,
+.miccn-picker-panel-rtl .miccn-picker-quarter-panel .miccn-picker-cell-range-hover-end::after,
+.miccn-picker-panel-rtl .miccn-picker-month-panel .miccn-picker-cell-range-hover-end::after {
+  left: 14px;
+  border-left: 1px dashed #ff66f5;
+  border-radius: 2px 0 0 2px;
+}
+.miccn-picker-week-panel .miccn-picker-body {
+  padding: 8px 12px;
+}
+.miccn-picker-week-panel .miccn-picker-cell:hover .miccn-picker-cell-inner,
+.miccn-picker-week-panel .miccn-picker-cell-selected .miccn-picker-cell-inner,
+.miccn-picker-week-panel .miccn-picker-cell .miccn-picker-cell-inner {
+  background: transparent !important;
+}
+.miccn-picker-week-panel-row td {
+  transition: background 0.3s;
+}
+.miccn-picker-week-panel-row:hover td {
+  background: #f5f5f5;
+}
+.miccn-picker-week-panel-row-selected td,
+.miccn-picker-week-panel-row-selected:hover td {
+  background: #f0e;
+}
+.miccn-picker-week-panel-row-selected td.miccn-picker-cell-week,
+.miccn-picker-week-panel-row-selected:hover td.miccn-picker-cell-week {
+  color: rgba(255, 255, 255, 0.5);
+}
+.miccn-picker-week-panel-row-selected td.miccn-picker-cell-today .miccn-picker-cell-inner::before,
+.miccn-picker-week-panel-row-selected:hover td.miccn-picker-cell-today .miccn-picker-cell-inner::before {
+  border-color: #fff;
+}
+.miccn-picker-week-panel-row-selected td .miccn-picker-cell-inner,
+.miccn-picker-week-panel-row-selected:hover td .miccn-picker-cell-inner {
+  color: #fff;
+}
+.miccn-picker-date-panel .miccn-picker-body {
+  padding: 8px 12px;
+}
+.miccn-picker-date-panel .miccn-picker-content {
+  width: 252px;
+}
+.miccn-picker-date-panel .miccn-picker-content th {
+  width: 36px;
+}
+.miccn-picker-datetime-panel {
+  display: flex;
+}
+.miccn-picker-datetime-panel .miccn-picker-time-panel {
+  border-left: 1px solid #f0f0f0;
+}
+.miccn-picker-datetime-panel .miccn-picker-date-panel,
+.miccn-picker-datetime-panel .miccn-picker-time-panel {
+  transition: opacity 0.3s;
+}
+.miccn-picker-datetime-panel-active .miccn-picker-date-panel,
+.miccn-picker-datetime-panel-active .miccn-picker-time-panel {
+  opacity: 0.3;
+}
+.miccn-picker-datetime-panel-active .miccn-picker-date-panel-active,
+.miccn-picker-datetime-panel-active .miccn-picker-time-panel-active {
+  opacity: 1;
+}
+.miccn-picker-time-panel {
+  width: auto;
+  min-width: auto;
+}
+.miccn-picker-time-panel .miccn-picker-content {
+  display: flex;
+  flex: auto;
+  height: 224px;
+}
+.miccn-picker-time-panel-column {
+  flex: 1 0 auto;
+  width: 56px;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  text-align: left;
+  list-style: none;
+  transition: background 0.3s;
+}
+.miccn-picker-time-panel-column::after {
+  display: block;
+  height: 196px;
+  content: '';
+}
+.miccn-picker-datetime-panel .miccn-picker-time-panel-column::after {
+  height: 198px;
+}
+.miccn-picker-time-panel-column:not(:first-child) {
+  border-left: 1px solid #f0f0f0;
+}
+.miccn-picker-time-panel-column-active {
+  background: rgba(240, 252, 246, 0.2);
+}
+.miccn-picker-time-panel-column:hover {
+  overflow-y: auto;
+}
+.miccn-picker-time-panel-column > li {
+  margin: 0;
+  padding: 0;
+}
+.miccn-picker-time-panel-column > li.miccn-picker-time-panel-cell .miccn-picker-time-panel-cell-inner {
+  display: block;
+  width: 100%;
+  height: 28px;
+  margin: 0;
+  padding: 0 0 0 14px;
+  color: #222;
+  line-height: 28px;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.miccn-picker-time-panel-column > li.miccn-picker-time-panel-cell .miccn-picker-time-panel-cell-inner:hover {
+  background: #f5f5f5;
+}
+.miccn-picker-time-panel-column > li.miccn-picker-time-panel-cell-selected .miccn-picker-time-panel-cell-inner {
+  background: #f0fcf6;
+}
+.miccn-picker-time-panel-column > li.miccn-picker-time-panel-cell-disabled .miccn-picker-time-panel-cell-inner {
+  color: #ccc;
+  background: transparent;
+  cursor: not-allowed;
+}
+/* stylelint-disable-next-line */
+_:-ms-fullscreen .miccn-picker-range-wrapper .miccn-picker-month-panel .miccn-picker-cell,
+:root .miccn-picker-range-wrapper .miccn-picker-month-panel .miccn-picker-cell,
+_:-ms-fullscreen .miccn-picker-range-wrapper .miccn-picker-year-panel .miccn-picker-cell,
+:root .miccn-picker-range-wrapper .miccn-picker-year-panel .miccn-picker-cell {
+  padding: 21px 0;
+}
+.miccn-picker-rtl {
+  direction: rtl;
+}
+.miccn-picker-rtl .miccn-picker-suffix {
+  margin-right: 4px;
+  margin-left: 0;
+}
+.miccn-picker-rtl .miccn-picker-clear {
+  right: auto;
+  left: 0;
+}
+.miccn-picker-rtl .miccn-picker-separator {
+  transform: rotate(180deg);
+}
+.miccn-picker-panel-rtl .miccn-picker-header-view button:not(:first-child) {
+  margin-right: 8px;
+  margin-left: 0;
+}
+.miccn-picker-rtl.miccn-picker-range .miccn-picker-clear {
+  right: auto;
+  left: 11px;
+}
+.miccn-picker-rtl.miccn-picker-range .miccn-picker-active-bar {
+  margin-right: 11px;
+  margin-left: 0;
+}
+.miccn-picker-rtl.miccn-picker-range.miccn-picker-small .miccn-picker-active-bar {
+  margin-right: 7px;
+}
+.miccn-picker-dropdown-rtl .miccn-picker-ranges {
+  text-align: right;
+}
+.miccn-picker-dropdown-rtl .miccn-picker-ranges .miccn-picker-ok {
+  float: left;
+  margin-right: 8px;
+  margin-left: 0;
+}
+.miccn-picker-panel-rtl {
+  direction: rtl;
+}
+.miccn-picker-panel-rtl .miccn-picker-prev-icon,
+.miccn-picker-panel-rtl .miccn-picker-super-prev-icon {
+  transform: rotate(135deg);
+}
+.miccn-picker-panel-rtl .miccn-picker-next-icon,
+.miccn-picker-panel-rtl .miccn-picker-super-next-icon {
+  transform: rotate(-45deg);
+}
+.miccn-picker-cell .miccn-picker-cell-inner {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  min-width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 2px;
+  transition: background 0.3s, border 0.3s;
+}
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-start::before {
+  right: 50%;
+  left: 0;
+}
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-end::before {
+  right: 0;
+  left: 50%;
+}
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-start.miccn-picker-cell-range-end::before {
+  right: 50%;
+  left: 50%;
+}
+.miccn-picker-panel-rtl .miccn-picker-date-panel .miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover-start .miccn-picker-cell-inner::after {
+  right: 0;
+  left: -6px;
+}
+.miccn-picker-panel-rtl .miccn-picker-date-panel .miccn-picker-cell-in-view.miccn-picker-cell-in-range.miccn-picker-cell-range-hover-end .miccn-picker-cell-inner::after {
+  right: -6px;
+  left: 0;
+}
+.miccn-picker-panel-rtl .miccn-picker-cell-range-hover.miccn-picker-cell-range-start::after {
+  right: 0;
+  left: 50%;
+}
+.miccn-picker-panel-rtl .miccn-picker-cell-range-hover.miccn-picker-cell-range-end::after {
+  right: 50%;
+  left: 0;
+}
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-start:not(.miccn-picker-cell-range-start-single):not(.miccn-picker-cell-range-end) .miccn-picker-cell-inner {
+  border-radius: 0 2px 2px 0;
+}
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-end:not(.miccn-picker-cell-range-end-single):not(.miccn-picker-cell-range-start) .miccn-picker-cell-inner {
+  border-radius: 2px 0 0 2px;
+}
+.miccn-picker-panel-rtl tr > .miccn-picker-cell-in-view.miccn-picker-cell-range-hover:not(.miccn-picker-cell-selected):first-child::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-start.miccn-picker-cell-range-hover-edge-start.miccn-picker-cell-range-hover-edge-start-near-range::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-hover-edge-start:not(.miccn-picker-cell-range-hover-edge-start-near-range)::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-hover-start::after {
+  right: 6px;
+  left: 0;
+  border-right: 1px dashed #ff66f5;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.miccn-picker-panel-rtl tr > .miccn-picker-cell-in-view.miccn-picker-cell-range-hover:not(.miccn-picker-cell-selected):last-child::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-end.miccn-picker-cell-range-hover-edge-end.miccn-picker-cell-range-hover-edge-end-near-range::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-hover-edge-end:not(.miccn-picker-cell-range-hover-edge-end-near-range)::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-range-hover-end::after {
+  right: 0;
+  left: 6px;
+  border-right: none;
+  border-left: 1px dashed #ff66f5;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.miccn-picker-panel-rtl tr > .miccn-picker-cell-in-view.miccn-picker-cell-range-hover-start:last-child::after,
+.miccn-picker-panel-rtl tr > .miccn-picker-cell-in-view.miccn-picker-cell-range-hover-end:first-child::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-start.miccn-picker-cell-range-hover-edge-start:not(.miccn-picker-cell-range-hover)::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-start.miccn-picker-cell-range-hover-end.miccn-picker-cell-range-hover-edge-start:not(.miccn-picker-cell-range-hover)::after,
+.miccn-picker-panel-rtl .miccn-picker-cell-in-view.miccn-picker-cell-end.miccn-picker-cell-range-hover-start.miccn-picker-cell-range-hover-edge-end:not(.miccn-picker-cell-range-hover)::after,
+.miccn-picker-panel-rtl tr > .miccn-picker-cell-in-view.miccn-picker-cell-start.miccn-picker-cell-range-hover.miccn-picker-cell-range-hover-edge-start:last-child::after,
+.miccn-picker-panel-rtl tr > .miccn-picker-cell-in-view.miccn-picker-cell-end.miccn-picker-cell-range-hover.miccn-picker-cell-range-hover-edge-end:first-child::after {
+  right: 6px;
+  left: 6px;
+  border-right: 1px dashed #ff66f5;
+  border-left: 1px dashed #ff66f5;
+  border-radius: 2px;
+}
+.miccn-picker-dropdown-rtl .miccn-picker-footer-extra {
+  direction: rtl;
+  text-align: right;
+}
+.miccn-picker-panel-rtl .miccn-picker-time-panel {
+  direction: ltr;
+}

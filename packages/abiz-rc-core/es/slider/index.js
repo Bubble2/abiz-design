@@ -1,2 +1,2 @@
-import { Slider } from 'antd';
-export default Slider;
+import _Slider from "antd/es/slider";
+export default _Slider;

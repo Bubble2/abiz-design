@@ -1,2 +1,2 @@
-import { Popconfirm } from 'antd';
-export default Popconfirm;
+import _Popconfirm from "antd/es/popconfirm";
+export default _Popconfirm;

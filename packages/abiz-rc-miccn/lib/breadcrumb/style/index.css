@@ -1,0 +1,69 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-breadcrumb {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  color: #222;
+  font-size: 13px;
+}
+.miccn-breadcrumb .anticon {
+  font-size: 13px;
+}
+.miccn-breadcrumb a {
+  color: #222;
+  transition: color 0.3s;
+}
+.miccn-breadcrumb a:hover {
+  color: #ff29ea;
+}
+.miccn-breadcrumb > span:last-child {
+  color: #222;
+}
+.miccn-breadcrumb > span:last-child a {
+  color: #222;
+}
+.miccn-breadcrumb > span:last-child .miccn-breadcrumb-separator {
+  display: none;
+}
+.miccn-breadcrumb-separator {
+  margin: 0 8px;
+  color: #222;
+}
+.miccn-breadcrumb-link > .anticon + span,
+.miccn-breadcrumb-link > .anticon + a {
+  margin-left: 4px;
+}
+.miccn-breadcrumb-overlay-link > .anticon {
+  margin-left: 4px;
+}
+.miccn-breadcrumb-rtl {
+  direction: rtl;
+}
+.miccn-breadcrumb-rtl::before {
+  display: table;
+  content: '';
+}
+.miccn-breadcrumb-rtl::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.miccn-breadcrumb-rtl > span {
+  float: right;
+}
+.miccn-breadcrumb-rtl .miccn-breadcrumb-link > .anticon + span,
+.miccn-breadcrumb-rtl .miccn-breadcrumb-link > .anticon + a {
+  margin-right: 4px;
+  margin-left: 0;
+}
+.miccn-breadcrumb-rtl .miccn-breadcrumb-overlay-link > .anticon {
+  margin-right: 4px;
+  margin-left: 0;
+}

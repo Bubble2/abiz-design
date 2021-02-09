@@ -1,2 +1,2 @@
-import { Badge } from 'antd';
-export default Badge;
+import _Badge from "antd/es/badge";
+export default _Badge;

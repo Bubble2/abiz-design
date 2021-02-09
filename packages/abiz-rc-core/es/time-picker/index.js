@@ -1,2 +1,2 @@
-import { TimePicker } from 'antd';
-export default TimePicker;
+import _TimePicker from "antd/es/time-picker";
+export default _TimePicker;

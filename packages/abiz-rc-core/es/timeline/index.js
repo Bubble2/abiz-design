@@ -1,2 +1,2 @@
-import { Timeline } from 'antd';
-export default Timeline;
+import _Timeline from "antd/es/timeline";
+export default _Timeline;

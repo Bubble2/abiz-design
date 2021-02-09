@@ -1,2 +1,2 @@
-import { Select } from 'antd';
-export default Select;
+import _Select from "antd/es/select";
+export default _Select;

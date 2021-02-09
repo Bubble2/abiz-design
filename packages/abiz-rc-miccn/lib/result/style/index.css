@@ -1,0 +1,68 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-result {
+  padding: 48px 32px;
+}
+.miccn-result-success .miccn-result-icon > .anticon {
+  color: #2b9262;
+}
+.miccn-result-error .miccn-result-icon > .anticon {
+  color: #ff6060;
+}
+.miccn-result-info .miccn-result-icon > .anticon {
+  color: #f0e;
+}
+.miccn-result-warning .miccn-result-icon > .anticon {
+  color: #ff6d1e;
+}
+.miccn-result-image {
+  width: 250px;
+  height: 295px;
+  margin: auto;
+}
+.miccn-result-icon {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.miccn-result-icon > .anticon {
+  font-size: 72px;
+}
+.miccn-result-title {
+  color: #222;
+  font-size: 24px;
+  line-height: 1.8;
+  text-align: center;
+}
+.miccn-result-subtitle {
+  color: #222;
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+}
+.miccn-result-extra {
+  margin: 24px 0 0 0;
+  text-align: center;
+}
+.miccn-result-extra > * {
+  margin-right: 8px;
+}
+.miccn-result-extra > *:last-child {
+  margin-right: 0;
+}
+.miccn-result-content {
+  margin-top: 24px;
+  padding: 24px 40px;
+  background-color: #fafafa;
+}
+.miccn-result-rtl {
+  direction: rtl;
+}
+.miccn-result-rtl .miccn-result-extra > * {
+  margin-right: 0;
+  margin-left: 8px;
+}
+.miccn-result-rtl .miccn-result-extra > *:last-child {
+  margin-left: 0;
+}

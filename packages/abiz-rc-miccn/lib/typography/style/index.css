@@ -1,0 +1,344 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-typography {
+  color: #222;
+  overflow-wrap: break-word;
+}
+.miccn-typography.miccn-typography-secondary {
+  color: #222;
+}
+.miccn-typography.miccn-typography-success {
+  color: #2b9262;
+}
+.miccn-typography.miccn-typography-warning {
+  color: #ff6d1e;
+}
+.miccn-typography.miccn-typography-danger {
+  color: #ff6060;
+}
+a.miccn-typography.miccn-typography-danger:active,
+a.miccn-typography.miccn-typography-danger:focus,
+a.miccn-typography.miccn-typography-danger:hover {
+  color: #ff8e8a;
+}
+.miccn-typography.miccn-typography-disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  user-select: none;
+}
+div.miccn-typography,
+.miccn-typography p {
+  margin-bottom: 1em;
+}
+h1.miccn-typography,
+.miccn-typography h1 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.23;
+}
+h2.miccn-typography,
+.miccn-typography h2 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.35;
+}
+h3.miccn-typography,
+.miccn-typography h3 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 1.35;
+}
+h4.miccn-typography,
+.miccn-typography h4 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.4;
+}
+h5.miccn-typography,
+.miccn-typography h5 {
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.miccn-typography + h1.miccn-typography,
+.miccn-typography + h2.miccn-typography,
+.miccn-typography + h3.miccn-typography,
+.miccn-typography + h4.miccn-typography,
+.miccn-typography + h5.miccn-typography {
+  margin-top: 1.2em;
+}
+.miccn-typography div + h1,
+.miccn-typography ul + h1,
+.miccn-typography li + h1,
+.miccn-typography p + h1,
+.miccn-typography h1 + h1,
+.miccn-typography h2 + h1,
+.miccn-typography h3 + h1,
+.miccn-typography h4 + h1,
+.miccn-typography h5 + h1,
+.miccn-typography div + h2,
+.miccn-typography ul + h2,
+.miccn-typography li + h2,
+.miccn-typography p + h2,
+.miccn-typography h1 + h2,
+.miccn-typography h2 + h2,
+.miccn-typography h3 + h2,
+.miccn-typography h4 + h2,
+.miccn-typography h5 + h2,
+.miccn-typography div + h3,
+.miccn-typography ul + h3,
+.miccn-typography li + h3,
+.miccn-typography p + h3,
+.miccn-typography h1 + h3,
+.miccn-typography h2 + h3,
+.miccn-typography h3 + h3,
+.miccn-typography h4 + h3,
+.miccn-typography h5 + h3,
+.miccn-typography div + h4,
+.miccn-typography ul + h4,
+.miccn-typography li + h4,
+.miccn-typography p + h4,
+.miccn-typography h1 + h4,
+.miccn-typography h2 + h4,
+.miccn-typography h3 + h4,
+.miccn-typography h4 + h4,
+.miccn-typography h5 + h4,
+.miccn-typography div + h5,
+.miccn-typography ul + h5,
+.miccn-typography li + h5,
+.miccn-typography p + h5,
+.miccn-typography h1 + h5,
+.miccn-typography h2 + h5,
+.miccn-typography h3 + h5,
+.miccn-typography h4 + h5,
+.miccn-typography h5 + h5 {
+  margin-top: 1.2em;
+}
+a.miccn-typography-ellipsis,
+span.miccn-typography-ellipsis {
+  display: inline-block;
+}
+a.miccn-typography,
+.miccn-typography a {
+  color: #0066dd;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+a.miccn-typography:focus,
+.miccn-typography a:focus,
+a.miccn-typography:hover,
+.miccn-typography a:hover {
+  color: #2688eb;
+}
+a.miccn-typography:active,
+.miccn-typography a:active {
+  color: #0050b8;
+}
+a.miccn-typography:active,
+.miccn-typography a:active,
+a.miccn-typography:hover,
+.miccn-typography a:hover {
+  text-decoration: none;
+}
+a.miccn-typography[disabled],
+.miccn-typography a[disabled],
+a.miccn-typography.miccn-typography-disabled,
+.miccn-typography a.miccn-typography-disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+a.miccn-typography[disabled]:active,
+.miccn-typography a[disabled]:active,
+a.miccn-typography.miccn-typography-disabled:active,
+.miccn-typography a.miccn-typography-disabled:active,
+a.miccn-typography[disabled]:hover,
+.miccn-typography a[disabled]:hover,
+a.miccn-typography.miccn-typography-disabled:hover,
+.miccn-typography a.miccn-typography-disabled:hover {
+  color: #ccc;
+}
+a.miccn-typography[disabled]:active,
+.miccn-typography a[disabled]:active,
+a.miccn-typography.miccn-typography-disabled:active,
+.miccn-typography a.miccn-typography-disabled:active {
+  pointer-events: none;
+}
+.miccn-typography code {
+  margin: 0 0.2em;
+  padding: 0.2em 0.4em 0.1em;
+  font-size: 85%;
+  background: rgba(150, 150, 150, 0.1);
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  border-radius: 3px;
+}
+.miccn-typography kbd {
+  margin: 0 0.2em;
+  padding: 0.15em 0.4em 0.1em;
+  font-size: 90%;
+  background: rgba(150, 150, 150, 0.06);
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  border-bottom-width: 2px;
+  border-radius: 3px;
+}
+.miccn-typography mark {
+  padding: 0;
+  background-color: #ffe58f;
+}
+.miccn-typography u,
+.miccn-typography ins {
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+.miccn-typography s,
+.miccn-typography del {
+  text-decoration: line-through;
+}
+.miccn-typography strong {
+  font-weight: 600;
+}
+.miccn-typography-expand,
+.miccn-typography-edit,
+.miccn-typography-copy {
+  color: #0066dd;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-left: 4px;
+}
+.miccn-typography-expand:focus,
+.miccn-typography-edit:focus,
+.miccn-typography-copy:focus,
+.miccn-typography-expand:hover,
+.miccn-typography-edit:hover,
+.miccn-typography-copy:hover {
+  color: #2688eb;
+}
+.miccn-typography-expand:active,
+.miccn-typography-edit:active,
+.miccn-typography-copy:active {
+  color: #0050b8;
+}
+.miccn-typography-copy-success,
+.miccn-typography-copy-success:hover,
+.miccn-typography-copy-success:focus {
+  color: #2b9262;
+}
+.miccn-typography-edit-content {
+  position: relative;
+}
+div.miccn-typography-edit-content {
+  left: -12px;
+  margin-top: -5.8px;
+  margin-bottom: calc(1em - 4.8px - 1px);
+}
+.miccn-typography-edit-content-confirm {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  color: #222;
+  pointer-events: none;
+}
+.miccn-typography-edit-content textarea {
+  -moz-transition: none;
+}
+.miccn-typography ul,
+.miccn-typography ol {
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+.miccn-typography ul li,
+.miccn-typography ol li {
+  margin: 0 0 0 20px;
+  padding: 0 0 0 4px;
+}
+.miccn-typography ul {
+  list-style-type: circle;
+}
+.miccn-typography ul ul {
+  list-style-type: disc;
+}
+.miccn-typography ol {
+  list-style-type: decimal;
+}
+.miccn-typography pre,
+.miccn-typography blockquote {
+  margin: 1em 0;
+}
+.miccn-typography pre {
+  padding: 0.4em 0.6em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: rgba(150, 150, 150, 0.1);
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  border-radius: 3px;
+}
+.miccn-typography pre code {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  background: transparent;
+  border: 0;
+}
+.miccn-typography blockquote {
+  padding: 0 0 0 0.6em;
+  border-left: 4px solid rgba(100, 100, 100, 0.2);
+  opacity: 0.85;
+}
+.miccn-typography-ellipsis-single-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+a.miccn-typography-ellipsis-single-line,
+span.miccn-typography-ellipsis-single-line {
+  vertical-align: bottom;
+}
+.miccn-typography-ellipsis-multiple-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /*! autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.miccn-typography-rtl {
+  direction: rtl;
+}
+.miccn-typography-rtl .miccn-typography-expand,
+.miccn-typography-rtl .miccn-typography-edit,
+.miccn-typography-rtl .miccn-typography-copy {
+  margin-right: 4px;
+  margin-left: 0;
+}
+.miccn-typography-rtl .miccn-typography-expand {
+  float: left;
+}
+div.miccn-typography-edit-content.miccn-typography-rtl {
+  right: -12px;
+  left: auto;
+}
+.miccn-typography-rtl .miccn-typography-edit-content-confirm {
+  right: auto;
+  left: 10px;
+}
+.miccn-typography-rtl.miccn-typography ul li,
+.miccn-typography-rtl.miccn-typography ol li {
+  margin: 0 20px 0 0;
+  padding: 0 4px 0 0;
+}

@@ -1,0 +1,171 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.miccn-collapse {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  background-color: #fafafa;
+  border: 1px solid #d2d2d2;
+  border-bottom: 0;
+  border-radius: 2px;
+}
+.miccn-collapse > .miccn-collapse-item {
+  border-bottom: 1px solid #d2d2d2;
+}
+.miccn-collapse > .miccn-collapse-item:last-child,
+.miccn-collapse > .miccn-collapse-item:last-child > .miccn-collapse-header {
+  border-radius: 0 0 2px 2px;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header {
+  position: relative;
+  padding: 12px 16px;
+  padding-left: 40px;
+  color: #222;
+  line-height: 1.5715;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header::before {
+  display: table;
+  content: '';
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow {
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 4.21475px;
+  left: 16px;
+  display: inline-block;
+  padding: 12px 16px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  font-size: 12px;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow > * {
+  line-height: 1;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow svg {
+  display: inline-block;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow::before {
+  display: none;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow .miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow-icon {
+  display: block;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow svg {
+  transition: transform 0.24s;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-extra {
+  float: right;
+}
+.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header:focus {
+  outline: none;
+}
+.miccn-collapse > .miccn-collapse-item .miccn-collapse-header-collapsible-only {
+  cursor: default;
+}
+.miccn-collapse > .miccn-collapse-item .miccn-collapse-header-collapsible-only .miccn-collapse-header-text {
+  cursor: pointer;
+}
+.miccn-collapse > .miccn-collapse-item.miccn-collapse-no-arrow > .miccn-collapse-header {
+  padding-left: 12px;
+}
+.miccn-collapse-icon-position-right > .miccn-collapse-item > .miccn-collapse-header {
+  padding: 12px 16px;
+  padding-right: 40px;
+}
+.miccn-collapse-icon-position-right > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow {
+  right: 16px;
+  left: auto;
+}
+.miccn-collapse-content {
+  color: #222;
+  background-color: #fff;
+  border-top: 1px solid #d2d2d2;
+}
+.miccn-collapse-content > .miccn-collapse-content-box {
+  padding: 16px;
+}
+.miccn-collapse-content-hidden {
+  display: none;
+}
+.miccn-collapse-item:last-child > .miccn-collapse-content {
+  border-radius: 0 0 2px 2px;
+}
+.miccn-collapse-borderless {
+  background-color: #fafafa;
+  border: 0;
+}
+.miccn-collapse-borderless > .miccn-collapse-item {
+  border-bottom: 1px solid #d2d2d2;
+}
+.miccn-collapse-borderless > .miccn-collapse-item:last-child,
+.miccn-collapse-borderless > .miccn-collapse-item:last-child .miccn-collapse-header {
+  border-radius: 0;
+}
+.miccn-collapse-borderless > .miccn-collapse-item > .miccn-collapse-content {
+  background-color: transparent;
+  border-top: 0;
+}
+.miccn-collapse-borderless > .miccn-collapse-item > .miccn-collapse-content > .miccn-collapse-content-box {
+  padding-top: 4px;
+}
+.miccn-collapse-ghost {
+  background-color: transparent;
+  border: 0;
+}
+.miccn-collapse-ghost > .miccn-collapse-item {
+  border-bottom: 0;
+}
+.miccn-collapse-ghost > .miccn-collapse-item > .miccn-collapse-content {
+  background-color: transparent;
+  border-top: 0;
+}
+.miccn-collapse-ghost > .miccn-collapse-item > .miccn-collapse-content > .miccn-collapse-content-box {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.miccn-collapse .miccn-collapse-item-disabled > .miccn-collapse-header,
+.miccn-collapse .miccn-collapse-item-disabled > .miccn-collapse-header > .arrow {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.miccn-collapse-rtl {
+  direction: rtl;
+}
+.miccn-collapse-rtl .miccn-collapse > .miccn-collapse-item > .miccn-collapse-header {
+  padding: 12px 16px;
+  padding-right: 40px;
+}
+.miccn-collapse-rtl.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-arrow svg {
+  transform: rotate(180deg);
+}
+.miccn-collapse-rtl.miccn-collapse > .miccn-collapse-item > .miccn-collapse-header .miccn-collapse-extra {
+  float: left;
+}
+.miccn-collapse-rtl.miccn-collapse > .miccn-collapse-item.miccn-collapse-no-arrow > .miccn-collapse-header {
+  padding-right: 12px;
+  padding-left: 0;
+}

@@ -3,7 +3,7 @@
   "command": {
     "publish": {
       "registry": "http://npm.focustech.vemic.com/",
-      "ignoreChanges": ["*.md", "src/*"],
+      "ignoreChanges": ["*.md", "packages/**/src"],
       "message": "chore: publish"
     }
   },

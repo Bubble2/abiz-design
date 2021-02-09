@@ -1,2 +1,2 @@
-import { Modal } from 'antd';
-export default Modal;
+import _Modal from "antd/es/modal";
+export default _Modal;

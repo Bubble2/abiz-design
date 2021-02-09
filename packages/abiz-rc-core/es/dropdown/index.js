@@ -1,2 +1,2 @@
-import { Dropdown } from 'antd';
-export default Dropdown;
+import _Dropdown from "antd/es/dropdown";
+export default _Dropdown;

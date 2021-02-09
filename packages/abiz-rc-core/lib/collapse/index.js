@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _collapse = _interopRequireDefault(require("antd/lib/collapse"));
 
-var _default = _antd.Collapse;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _collapse.default;
 exports.default = _default;

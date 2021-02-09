@@ -1,0 +1,86 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.jxc-rate {
+  box-sizing: border-box;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  font-feature-settings: 'tnum';
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #fadb14;
+  font-size: 20px;
+  line-height: unset;
+  list-style: none;
+  outline: none;
+}
+.jxc-rate-disabled .jxc-rate-star {
+  cursor: default;
+}
+.jxc-rate-disabled .jxc-rate-star:hover {
+  transform: scale(1);
+}
+.jxc-rate-star {
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.jxc-rate-star:not(:last-child) {
+  margin-right: 8px;
+}
+.jxc-rate-star > div:focus {
+  outline: 0;
+}
+.jxc-rate-star > div:hover,
+.jxc-rate-star > div:focus {
+  transform: scale(1.1);
+}
+.jxc-rate-star-first,
+.jxc-rate-star-second {
+  color: #f0f0f0;
+  transition: all 0.3s;
+  user-select: none;
+}
+.jxc-rate-star-first .anticon,
+.jxc-rate-star-second .anticon {
+  vertical-align: middle;
+}
+.jxc-rate-star-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+}
+.jxc-rate-star-half .jxc-rate-star-first,
+.jxc-rate-star-half .jxc-rate-star-second {
+  opacity: 1;
+}
+.jxc-rate-star-half .jxc-rate-star-first,
+.jxc-rate-star-full .jxc-rate-star-second {
+  color: inherit;
+}
+.jxc-rate-text {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 13px;
+}
+.jxc-rate-rtl {
+  direction: rtl;
+}
+.jxc-rate-rtl .jxc-rate-star:not(:last-child) {
+  margin-right: 0;
+  margin-left: 8px;
+}
+.jxc-rate-rtl .jxc-rate-star-first {
+  right: 0;
+  left: auto;
+}

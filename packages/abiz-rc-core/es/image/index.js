@@ -1,2 +1,2 @@
-import { Image } from 'antd';
-export default Image;
+import _Image from "antd/es/image";
+export default _Image;

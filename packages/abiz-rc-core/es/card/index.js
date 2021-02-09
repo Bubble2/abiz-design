@@ -1,2 +1,2 @@
-import { Card } from 'antd';
-export default Card;
+import _Card from "antd/es/card";
+export default _Card;

@@ -5,7 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _antd = require("antd");
+var _treeSelect = _interopRequireDefault(require("antd/lib/tree-select"));
 
-var _default = _antd.TreeSelect;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = _treeSelect.default;
 exports.default = _default;

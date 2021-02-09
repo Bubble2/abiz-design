@@ -1,0 +1,101 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.aeps-anchor {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 13px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  padding-left: 2px;
+}
+.aeps-anchor-wrapper {
+  margin-left: -4px;
+  padding-left: 4px;
+  overflow: auto;
+  background-color: #fff;
+}
+.aeps-anchor-ink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.aeps-anchor-ink::before {
+  position: relative;
+  display: block;
+  width: 2px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  content: ' ';
+}
+.aeps-anchor-ink-ball {
+  position: absolute;
+  left: 50%;
+  display: none;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border: 2px solid #fdf;
+  border-radius: 8px;
+  transform: translateX(-50%);
+  transition: top 0.3s ease-in-out;
+}
+.aeps-anchor-ink-ball.visible {
+  display: inline-block;
+}
+.aeps-anchor.fixed .aeps-anchor-ink .aeps-anchor-ink-ball {
+  display: none;
+}
+.aeps-anchor-link {
+  padding: 7px 0 7px 16px;
+  line-height: 1.143;
+}
+.aeps-anchor-link-title {
+  position: relative;
+  display: block;
+  margin-bottom: 6px;
+  overflow: hidden;
+  color: #222;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: all 0.3s;
+}
+.aeps-anchor-link-title:only-child {
+  margin-bottom: 0;
+}
+.aeps-anchor-link-active > .aeps-anchor-link-title {
+  color: #fdf;
+}
+.aeps-anchor-link .aeps-anchor-link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.aeps-anchor-rtl {
+  direction: rtl;
+}
+.aeps-anchor-rtl.aeps-anchor-wrapper {
+  margin-right: -4px;
+  margin-left: 0;
+  padding-right: 4px;
+  padding-left: 0;
+}
+.aeps-anchor-rtl .aeps-anchor-ink {
+  right: 0;
+  left: auto;
+}
+.aeps-anchor-rtl .aeps-anchor-ink-ball {
+  right: 50%;
+  left: 0;
+  transform: translateX(50%);
+}
+.aeps-anchor-rtl .aeps-anchor-link {
+  padding: 7px 16px 7px 0;
+}

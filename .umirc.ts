@@ -14,12 +14,41 @@ export default defineConfig({
   //   [
   //     'babel-plugin-import',
   //     {
-  //       libraryName: 'antd',
+  //       libraryName: '@abiz/rc-aeps',
   //       libraryDirectory: 'es',
-  //       style: true,
+  //       style: (name) => {
+  //         return `@abiz/rc-aeps/es/style/all.css`;
+  //       }
   //     },
+  //     '@abiz/rc-aeps'
   //   ],
+  //   [
+  //     'babel-plugin-import',
+  //     {
+  //       libraryName: '@abiz/rc-jxc',
+  //       libraryDirectory: 'es',
+  //       style: (name) => {
+  //         return `@abiz/rc-jxc/es/style/all.css`;
+  //       }
+  //     },
+  //     '@abiz/rc-jxc'
+  //   ],
+  //   [
+  //     'babel-plugin-import',
+  //     {
+  //       libraryName: '@abiz/rc-miccn',
+  //       libraryDirectory: 'es',
+  //       style: (name) => {
+  //         return `@abiz/rc-miccn/es/style/all.css`;
+  //       }
+  //     },
+  //     '@abiz/rc-miccn'
+  //   ]
   // ],
+  styleLoader: {
+  },
+  cssLoader: {
+  },
   resolve: {
     includes: ['docs'],
   },
@@ -28,11 +57,7 @@ export default defineConfig({
     '@abiz-rc-miccn': path.resolve(__dirname, 'packages/abiz-rc-miccn/src'),
     '@abiz-rc-aeps': path.resolve(__dirname, 'packages/abiz-rc-aeps/src'),
     '@abiz-rc-jxc': path.resolve(__dirname, 'packages/abiz-rc-jxc/src'),
-    '@docs-common': path.resolve(__dirname, 'docs-common'),
-    'antd': path.resolve(__dirname, 'packages/abiz-rc-core/node_modules/antd'),
-    'miccn-antd': path.resolve(__dirname, 'packages/abiz-rc-miccn/node_modules/@abiz/rc-core/node_modules/antd'),
-    'aeps-antd': path.resolve(__dirname, 'packages/abiz-rc-aeps/node_modules/@abiz/rc-core/node_modules/antd'),
-    'jxc-antd': path.resolve(__dirname, 'packages/abiz-rc-jxc/node_modules/@abiz/rc-core/node_modules/antd'),
+    '@docs-common': path.resolve(__dirname, 'docs-common')
   },
   styles: [
     `[class$="-previewer-demo"] [class*="-btn"]{
