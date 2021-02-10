@@ -18,12 +18,12 @@ group:
 
 <Row gutter=8>
 <Col span=12>
-  <embed src="@abiz-rc-aeps/button/demo/basic.md"></embed>
-  <embed src="@abiz-rc-aeps/button/demo/danger.md"></embed>
+  <embed src="@abiz-rc-aeps/button/demo/basic-aeps.md"></embed>
+  <embed src="@abiz-rc-aeps/button/demo/danger-aeps.md"></embed>
 </Col> 
 <Col span=12>
-  <embed src="@abiz-rc-aeps/button/demo/block.md"></embed>
-  <embed src="@abiz-rc-aeps/button/demo/icon.md"></embed>
+  <embed src="@abiz-rc-aeps/button/demo/block-aeps.md"></embed>
+  <embed src="@abiz-rc-aeps/button/demo/icon-aeps.md"></embed>
 </Col> 
 </Row>
 

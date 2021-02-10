@@ -18,12 +18,12 @@ group:
 
 <Row gutter=8>
 <Col span=12>
-  <embed src="@abiz-rc-miccn/button/demo/basic.md"></embed>
-  <embed src="@abiz-rc-miccn/button/demo/danger.md"></embed>
+  <embed src="@abiz-rc-miccn/button/demo/basic-miccn.md"></embed>
+  <embed src="@abiz-rc-miccn/button/demo/danger-miccn.md"></embed>
 </Col> 
 <Col span=12>
-  <embed src="@abiz-rc-miccn/button/demo/block.md"></embed>
-  <embed src="@abiz-rc-miccn/button/demo/icon.md"></embed>
+  <embed src="@abiz-rc-miccn/button/demo/block-miccn.md"></embed>
+  <embed src="@abiz-rc-miccn/button/demo/icon-miccn.md"></embed>
 </Col> 
 </Row>
 
