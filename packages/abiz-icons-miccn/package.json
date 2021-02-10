@@ -1,11 +1,11 @@
 {
-  "name": "@abiz/icons",
-  "version": "0.0.1-alpha.3",
+  "name": "@abiz/icons-miccn",
+  "version": "0.0.2-alpha.0",
   "description": "abiz icon react component",
   "keywords": [
     "abiz",
-    "@abiz/icons",
-    "abiz-icons"
+    "@abiz/icons-miccn",
+    "abiz-icons-miccn"
   ],
   "publishConfig": {
     "access": "public"

@@ -9,7 +9,9 @@ export default {
     importLibToEs: true,
   },
   pkgs: [
-    "abiz-icons",
+    "abiz-icons-aeps",
+    "abiz-icons-jxc",
+    "abiz-icons-miccn",
     // "abiz-rc-core",
     // "abiz-rc-aeps",
     // "abiz-rc-jxc",
