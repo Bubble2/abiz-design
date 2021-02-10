@@ -6,33 +6,33 @@
 
 import React from 'react';
 import {ConfigProvider, Tooltip, Button } from '@abiz/rc-aeps';
-import { SearchOutlined } from '@abiz/icons';
+import Icon from '@abiz/icons-aeps';
 
 export default () => {
   return (
     <ConfigProvider>
       <Tooltip title="search">
-        <Button type="primary" shape="circle" icon={<SearchOutlined />} />
+        <Button type="primary" shape="circle" icon={<Icon type="icon-customer-manage" />} />
       </Tooltip>
       <Button type="primary" shape="circle">
         A
       </Button>
-      <Button type="primary" icon={<SearchOutlined />}>
+      <Button type="primary" icon={<Icon type="icon-customer-manage" />}>
         Search
       </Button>
       <Tooltip title="search">
-        <Button shape="circle" icon={<SearchOutlined />} />
+        <Button shape="circle" icon={<Icon type="icon-customer-manage" />} />
       </Tooltip>
-      <Button icon={<SearchOutlined />}>Search</Button>
+      <Button icon={<Icon type="icon-customer-manage" />}>Search</Button>
       <br />
       <Tooltip title="search">
-        <Button shape="circle" icon={<SearchOutlined />} />
+        <Button shape="circle" icon={<Icon type="icon-customer-manage" />} />
       </Tooltip>
-      <Button icon={<SearchOutlined />}>Search</Button>
+      <Button icon={<Icon type="icon-customer-manage" />}>Search</Button>
       <Tooltip title="search">
-        <Button type="dashed" shape="circle" icon={<SearchOutlined />} />
+        <Button type="dashed" shape="circle" icon={<Icon type="icon-customer-manage" />} />
       </Tooltip>
-      <Button type="dashed" icon={<SearchOutlined />}>
+      <Button type="dashed" icon={<Icon type="icon-customer-manage" />}>
         Search
       </Button>
     </ConfigProvider>

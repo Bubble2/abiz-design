@@ -10,15 +10,23 @@ group:
   title: 组件
 ---
 
-```jsx
-import React from 'react';
-import { ConfigProvider, Button } from '@abiz/rc-jxc';
+<div>
+<embed src="@docs-common/button/index.md"></embed>
+</div>
 
-export default () => {
-  return (
-    <ConfigProvider>
-      <Button>小优采按钮</Button>
-    </ConfigProvider>
-  );
-};
-```
+## 代码演示
+
+<Row gutter=8>
+<Col span=12>
+  <embed src="@abiz-rc-jxc/button/demo/basic.md"></embed>
+  <embed src="@abiz-rc-jxc/button/demo/danger.md"></embed>
+</Col> 
+<Col span=12>
+  <embed src="@abiz-rc-jxc/button/demo/block.md"></embed>
+  <embed src="@abiz-rc-jxc/button/demo/icon.md"></embed>
+</Col> 
+</Row>
+
+<div>
+<embed src="@docs-common/button/index-api.md"></embed>
+</div>

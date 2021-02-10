@@ -45,10 +45,6 @@ export default defineConfig({
   //     '@abiz/rc-miccn'
   //   ]
   // ],
-  styleLoader: {
-  },
-  cssLoader: {
-  },
   resolve: {
     includes: ['docs'],
   },
