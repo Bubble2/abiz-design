@@ -53,14 +53,14 @@ export default defineConfig({
     {
       title: 'GitLab',
       path: 'http://git.vemic.com/abiz-fe/abiz-design',
-    }
+    },
   ],
   alias: {
     '@abiz-rc-core': path.resolve(__dirname, 'packages/abiz-rc-core/src'),
     '@abiz-rc-miccn': path.resolve(__dirname, 'packages/abiz-rc-miccn/src'),
     '@abiz-rc-aeps': path.resolve(__dirname, 'packages/abiz-rc-aeps/src'),
     '@abiz-rc-jxc': path.resolve(__dirname, 'packages/abiz-rc-jxc/src'),
-    '@docs-common': path.resolve(__dirname, 'docs-common')
+    '@docs-common': path.resolve(__dirname, 'docs-common'),
   },
   styles: [
     `[class$="-previewer-demo"] [class*="-btn"]{

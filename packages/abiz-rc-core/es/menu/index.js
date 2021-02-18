@@ -1,2 +1,2 @@
-import _Menu from "antd/es/menu";
+import _Menu from 'antd/es/menu';
 export default _Menu;

@@ -1,2 +1,2 @@
-import _Mentions from "antd/es/mentions";
+import _Mentions from 'antd/es/mentions';
 export default _Mentions;

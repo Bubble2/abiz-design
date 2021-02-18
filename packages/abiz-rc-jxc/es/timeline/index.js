@@ -1,2 +1,2 @@
-import _Timeline from "@abiz/rc-core/es/timeline";
+import _Timeline from '@abiz/rc-core/es/timeline';
 export default _Timeline;

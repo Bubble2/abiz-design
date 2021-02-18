@@ -1,2 +1,2 @@
-import _Pagination from "antd/es/pagination";
+import _Pagination from 'antd/es/pagination';
 export default _Pagination;

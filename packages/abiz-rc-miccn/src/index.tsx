@@ -1,4 +1,4 @@
-import './style/all.less'
+import './style/all.less';
 
 export { default as Affix } from './affix';
 

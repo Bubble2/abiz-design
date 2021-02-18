@@ -9,9 +9,9 @@ export default {
     importLibToEs: true,
   },
   pkgs: [
-    "abiz-icons-aeps",
-    "abiz-icons-jxc",
-    "abiz-icons-miccn",
+    'abiz-icons-aeps',
+    'abiz-icons-jxc',
+    'abiz-icons-miccn',
     // "abiz-rc-core",
     // "abiz-rc-aeps",
     // "abiz-rc-jxc",
@@ -21,29 +21,29 @@ export default {
     [
       'babel-plugin-import',
       {
-        libraryName: 'antd'
+        libraryName: 'antd',
       },
-      'antd'
+      'antd',
     ],
     [
       'babel-plugin-import',
       {
-        libraryName: '@abiz/rc-core'
+        libraryName: '@abiz/rc-core',
       },
-      '@abiz/rc-core'
-    ]
+      '@abiz/rc-core',
+    ],
   ],
   lessInBabelMode: {
-    paths : [
+    paths: [
       path.join(__dirname, 'packages', '/abiz-rc-aeps/src'),
       path.join(__dirname, 'packages', '/abiz-rc-jxc/src'),
-      path.join(__dirname, 'packages', '/abiz-rc-miccn/src')  
+      path.join(__dirname, 'packages', '/abiz-rc-miccn/src'),
     ],
     javascriptEnabled: true,
     modifyVars: {
       'primary-color': '#1DA57A',
       'link-color': '#1DA57A',
-      'border-radius-base': '2px'
-    }
-  }
+      'border-radius-base': '2px',
+    },
+  },
 };

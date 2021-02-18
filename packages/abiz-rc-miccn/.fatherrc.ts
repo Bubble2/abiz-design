@@ -1,5 +1,5 @@
 import path from 'path';
-const theme = require('./src/style/themes/variables')
+const theme = require('./src/style/themes/variables');
 
 export default {
   // target: 'node',
@@ -13,16 +13,20 @@ export default {
     [
       'babel-plugin-import',
       {
-        libraryName: '@abiz/rc-core'
+        libraryName: '@abiz/rc-core',
       },
-      '@abiz/rc-core'
-    ]
+      '@abiz/rc-core',
+    ],
   ],
   lessInBabelMode: {
-    paths : [
-      path.join(__dirname, 'packages/abiz-rc-miccn/node_modules/', '@abiz/rc-core')  
+    paths: [
+      path.join(
+        __dirname,
+        'packages/abiz-rc-miccn/node_modules/',
+        '@abiz/rc-core',
+      ),
     ],
     javascriptEnabled: true,
-    modifyVars: theme
-  }
+    modifyVars: theme,
+  },
 };

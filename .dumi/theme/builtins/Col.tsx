@@ -1,5 +1,9 @@
-import {ConfigProvider, Col } from '@abiz/rc-jxc';
+import { ConfigProvider, Col } from '@abiz/rc-jxc';
 
 export default ({ children, ...props }) => {
-  return <ConfigProvider><Col {...props}>{children}</Col></ConfigProvider>;
+  return (
+    <ConfigProvider>
+      <Col {...props}>{children}</Col>
+    </ConfigProvider>
+  );
 };
