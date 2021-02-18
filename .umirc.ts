@@ -48,6 +48,13 @@ export default defineConfig({
   resolve: {
     includes: ['docs'],
   },
+  navs: [
+    null, // null 值代表保留约定式生成的导航，只做增量配置
+    {
+      title: 'GitLab',
+      path: 'http://git.vemic.com/abiz-fe/abiz-design',
+    }
+  ],
   alias: {
     '@abiz-rc-core': path.resolve(__dirname, 'packages/abiz-rc-core/src'),
     '@abiz-rc-miccn': path.resolve(__dirname, 'packages/abiz-rc-miccn/src'),
