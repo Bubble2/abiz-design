@@ -68,5 +68,9 @@ export default defineConfig({
         margin-bottom: 12px;
      }`,
   ],
+  dynamicImport: {},
+  nodeModulesTransform: {
+    type: 'none'
+  }
   // more config: https://d.umijs.org/config
 });

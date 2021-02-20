@@ -9,16 +9,19 @@ const packagesPaths = [
     fileNamePrefix: 'aeps',
     path: './packages/abiz-rc-aeps/src/',
     importPath: '@abiz/rc-aeps',
+    iconImportPath: '@abiz/icons-aeps'
   },
   {
     fileNamePrefix: 'jxc',
     path: './packages/abiz-rc-jxc/src/',
     importPath: '@abiz/rc-jxc',
+    iconImportPath: '@abiz/icons-jxc'
   },
   {
     fileNamePrefix: 'miccn',
     path: './packages/abiz-rc-miccn/src/',
     importPath: '@abiz/rc-miccn',
+    iconImportPath: '@abiz/icons-miccn'
   },
 ];
 
@@ -46,10 +49,11 @@ paths.forEach(item => {
       // console.log('title', title);
       let subTitle = data.match(/(?<=zh-CN\n*\s+).+/g);
       subTitle = /^\`/g.test(subTitle) ? '<span></span>' + subTitle : subTitle;
+      subTitle = /^\[[\s\S]+\]/g.test(subTitle) ? subTitle + ':' : subTitle;
       // console.log('subTitle', subTitle);
 
       let code = data.match(/(?<=```\w+\s*\n+)[\s\S]*(?=```)/gim)[0];
-
+      let order = data.match(/(?<=---[\s\S]+order:\s+).+(?=[\s\S]+---)/g);
       code = code.replace(
         /(ReactDOM\.render\(\s*\n*)([\s\S]+)(,\s*\n*mountNode,?\s*\n*\);?)/gim,
         (val, $1, $2, $3) => {
@@ -69,12 +73,29 @@ paths.forEach(item => {
 
       packagesPaths.forEach(pkgPath => {
         let newCode = '';
-        newCode = code.replace(
-          /import\s*(\{)([\s\S]+)antd/g,
-          'import $1ConfigProvider,$2' + pkgPath.importPath,
-        );
+        if(/import[\s\S]+ConfigProvider.+antd'/g.test(code)){
+          newCode = code.replace(
+            /import\s*(\{)(.+)antd'/g,
+            `import $1$2${pkgPath.importPath}'`,
+          );
+        }else{
+          newCode = code.replace(
+            /import\s*(\{)((?!import).+)antd'/g,
+            `import $1ConfigProvider,$2${pkgPath.importPath}'`,
+          );
+        }
 
-        const newData = `
+        newCode = newCode.replace(
+          /@ant-design\/icons/g,
+          pkgPath.iconImportPath,
+        );
+       
+        //多语言antd/lib/locale这个路径还用antd的
+        newCode = newCode.replace(/@abiz\/rc-\w+(\/lib\/locale)/gi, 'antd$1');
+
+        const newData = `---
+order: ${order}
+---
 \`\`\` tsx
     \/**
     * title: ${title}
@@ -106,6 +127,8 @@ paths.forEach(item => {
           itemArr[1] +
           '/' +
           fileNameArr[0] +
+          '-' +
+          itemArr[0] + 
           '-' +
           pkgPath.fileNamePrefix +
           '.' +
