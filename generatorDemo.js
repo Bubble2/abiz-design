@@ -3,6 +3,27 @@ const path = require('path');
 const walkSync = require('walk-sync');
 const antdPath = 'D:/git/ant-design-4.9.4/components/';
 
+function delDir(path){
+  let files = [];
+  if(fs.existsSync(path)){
+      files = fs.readdirSync(path);
+     
+      files.forEach((file, index) => {
+          let curPath = path + "/" + file;
+          if(fs.statSync(curPath).isDirectory()){
+              delDir(curPath); //递归删除文件夹
+          } else {
+              fs.unlinkSync(curPath); //删除文件
+              // console.log('删除文件成功')
+          }
+      });
+      // console.log('files:', files)
+      // console.log('开始删除文件夹')
+      fs.rmdirSync(path);
+  }
+  // console.log('结束删除')
+}
+
 // const packagesPaths = ['./packages/abiz-rc-aeps/src', './packages/abiz-rc-jxc/src', './packages/abiz-rc-miccn/src']
 const packagesPaths = [
   {
@@ -38,6 +59,15 @@ const paths = walkSync(antdPath, {
 });
 // console.log('paths', paths)
 
+//删除所有demo目录文件
+packagesPaths.forEach((pkgPath)=>{
+  paths.forEach((item)=>{
+    const itemArr = item.split('/');
+    delDir(pkgPath.path + '' + itemArr[0] + '/' + itemArr[1]);
+    // console.log('完成删除')
+  })
+})
+
 paths.forEach(item => {
   const itemArr = item.split('/');
   fs.readFile(antdPath + '' + item, 'utf-8', (err, data) => {
@@ -47,13 +77,23 @@ paths.forEach(item => {
       // console.log(data);
       const title = data.match(/(?<=zh-CN:\s+).+/g);
       // console.log('title', title);
-      let subTitle = data.match(/(?<=zh-CN\n*\s+).+/g);
-      subTitle = /^\`/g.test(subTitle) ? '<span></span>' + subTitle : subTitle;
-      subTitle = /^\[[\s\S]+\]/g.test(subTitle) ? subTitle + ':' : subTitle;
-      // console.log('subTitle', subTitle);
+      let subTitle = data.match(/(?<=zh-CN\n*\s+)((?!\n)[\s\S]+)(?=\n*##\s*en-US)/gms);
+      if(subTitle && subTitle.length){
+        subTitle = subTitle[0];
+        subTitle = subTitle.replace(/[\r\n]*/gs, '');
+        subTitle = /^\`/g.test(subTitle) ? '<span></span>' + subTitle : subTitle;
+        subTitle = /^\[[\s\S]+\]/g.test(subTitle) ? subTitle + ':' : subTitle;
+        subTitle = subTitle.replace(/\`\`\`/g, '\\\`\`\`');
+      }
+      
 
-      let code = data.match(/(?<=```\w+\s*\n+)[\s\S]*(?=```)/gim)[0];
+      //提取order属性
       let order = data.match(/(?<=---[\s\S]+order:\s+).+(?=[\s\S]+---)/g);
+
+      //提取代码
+      let code = data.match(/(?<=```(jsx|tsx)\s*\n+)[\s\S]*(?=```)/gim)[0];
+
+      //包裹ConfigProvider组件并暴露
       code = code.replace(
         /(ReactDOM\.render\(\s*\n*)([\s\S]+)(,\s*\n*mountNode,?\s*\n*\);?)/gim,
         (val, $1, $2, $3) => {
@@ -73,14 +113,14 @@ paths.forEach(item => {
 
       packagesPaths.forEach(pkgPath => {
         let newCode = '';
-        if(/import[\s\S]+ConfigProvider.+antd'/g.test(code)){
+        if(/import[\s\S]+ConfigProvider.*antd'/igs.test(code)){
           newCode = code.replace(
-            /import\s*(\{)(.+)antd'/g,
+            /import\s*(\{)((?!import).*)antd'/igs,
             `import $1$2${pkgPath.importPath}'`,
           );
         }else{
           newCode = code.replace(
-            /import\s*(\{)((?!import).+)antd'/g,
+            /import\s*(\{)((?!import).*)antd'/igs,
             `import $1ConfigProvider,$2${pkgPath.importPath}'`,
           );
         }
@@ -109,15 +149,11 @@ order: ${order}
 
         //demo文件夹不存在则创建
         if (!fs.existsSync(pkgPath.path + '' + itemArr[0] + '/' + itemArr[1])) {
-          fs.mkdir(
+          fs.mkdirSync(
             pkgPath.path + '' + itemArr[0] + '/' + itemArr[1],
             { recursive: true },
-            err => {
-              if (err) throw err;
-            },
           );
         }
-
         const fileNameArr = itemArr[2].split('.');
         const fullPath =
           pkgPath.path +
@@ -134,10 +170,8 @@ order: ${order}
           '.' +
           fileNameArr[1];
         // console.log('fullPath',fullPath)
-        fs.writeFile(fullPath, newData, err => {
-          if (err) throw err;
-          console.log(fullPath, '保存成功');
-        });
+        fs.writeFileSync(fullPath, newData);
+        console.log(fullPath, '保存成功');
       });
     }
   });

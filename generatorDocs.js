@@ -17,6 +17,34 @@ const docsPaths = [
     path: './docs/components-aeps/',
     demoUrlPrefix: '@abiz-rc-aeps',
     project: 'aeps'
+  },
+  {
+    nav: {
+      title: '小优采组件',
+      order: 3,
+    },
+    group: {
+      path: '/components-jxc/components',
+      title: '组件',
+      order: 2
+    },
+    path: './docs/components-jxc/',
+    demoUrlPrefix: '@abiz-rc-jxc',
+    project: 'jxc'
+  },
+  {
+    nav: {
+      title: '内贸站组件',
+      order: 4,
+    },
+    group: {
+      path: '/components-miccn/components',
+      title: '组件',
+      order: 2
+    },
+    path: './docs/components-miccn/',
+    demoUrlPrefix: '@abiz-rc-miccn',
+    project: 'miccn'
   }
 ];
 
@@ -139,7 +167,7 @@ group:
         demoArr.forEach((demoItem, index)=>{
           
           demoStrArr[index%cols].push(`
-  <div><embed src="${docPath.demoUrlPrefix}/${itemArr[0]}/demo/${path.basename(demoItem.relativePath)}"></embed></div>
+  <div class="code-box"><embed src="${docPath.demoUrlPrefix}/${itemArr[0]}/demo/${path.basename(demoItem.relativePath)}"></embed></div>
           `)
         })
         for(let i=0;i<cols;i++){

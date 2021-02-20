@@ -47,6 +47,7 @@ export default defineConfig({
   // ],
   resolve: {
     includes: ['docs'],
+    // includes: ['docs/index.md', 'docs/guide', 'docs/components-aeps'],
   },
   navs: [
     null, // null 值代表保留约定式生成的导航，只做增量配置
@@ -66,11 +67,58 @@ export default defineConfig({
     `[class$="-previewer-demo"] [class*="-btn"]{
         margin-right: 8px;
         margin-bottom: 12px;
-     }`,
+     }
+     .code-box{
+       margin-bottom: 16px;
+     }
+     `,
   ],
-  dynamicImport: {},
+  externals: {
+    'react': 'window.React',
+    'react-dom': 'window.ReactDOM',
+  },
+  scripts: [
+    'https://gw.alipayobjects.com/os/lib/react/16.13.1/umd/react.development.js',
+    'https://gw.alipayobjects.com/os/lib/react-dom/16.13.1/umd/react-dom.development.js',
+  ],
+  targets: {
+    chrome: 79,
+    firefox: false,
+    safari: false,
+    edge: false,
+    ios: false,
+  },
+  // dynamicImport: {},
+  // chunks: ['vendors', 'umi'],
+  // chainWebpack: function (config, { webpack }) {
+  //   config.merge({
+  //     optimization: {
+  //       splitChunks: {
+  //         chunks: 'all',
+  //         minSize: 30000,
+  //         minChunks: 3,
+  //         automaticNameDelimiter: '.',
+  //         cacheGroups: {
+  //           vendor: {
+  //             name: 'vendors',
+  //             test({ resource }) {
+  //               return /[\\/]node_modules[\\/]/.test(resource);
+  //             },
+  //             priority: 10,
+  //           },
+  //         },
+  //       },
+  //     }
+  //   });
+  // },
+  devtool: false,
   nodeModulesTransform: {
-    type: 'none'
-  }
+    type: 'none',
+    exclude: []
+  },
+  esbuild: {},
+  extraBabelPlugins: [
+    '@babel/plugin-transform-runtime',
+  ],
   // more config: https://d.umijs.org/config
 });
