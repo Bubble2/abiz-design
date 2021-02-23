@@ -183,7 +183,7 @@
 .jxc-tabs-left > div > .jxc-tabs-nav .jxc-tabs-tab-active .jxc-tabs-tab-btn,
 .jxc-tabs-right > div > .jxc-tabs-nav .jxc-tabs-tab-active .jxc-tabs-tab-btn {
   font-weight: normal;
-  text-shadow: 0 0 0.25px #d7b2d9;
+  text-shadow: 0 0 0.25px #1a6b48;
 }
 .jxc-tabs-left > .jxc-tabs-nav .jxc-tabs-nav-wrap,
 .jxc-tabs-right > .jxc-tabs-nav .jxc-tabs-nav-wrap,
@@ -348,7 +348,7 @@
 }
 .jxc-tabs-card > .jxc-tabs-nav .jxc-tabs-tab-active,
 .jxc-tabs-card > div > .jxc-tabs-nav .jxc-tabs-tab-active {
-  color: #fdf;
+  color: #2b9262;
   background: #fff;
 }
 .jxc-tabs-card > .jxc-tabs-nav .jxc-tabs-ink-bar,
@@ -488,13 +488,13 @@
 }
 .jxc-tabs > .jxc-tabs-nav .jxc-tabs-nav-add:hover,
 .jxc-tabs > div > .jxc-tabs-nav .jxc-tabs-nav-add:hover {
-  color: #fff0fe;
+  color: #479e73;
 }
 .jxc-tabs > .jxc-tabs-nav .jxc-tabs-nav-add:active,
 .jxc-tabs > div > .jxc-tabs-nav .jxc-tabs-nav-add:active,
 .jxc-tabs > .jxc-tabs-nav .jxc-tabs-nav-add:focus,
 .jxc-tabs > div > .jxc-tabs-nav .jxc-tabs-nav-add:focus {
-  color: #d7b2d9;
+  color: #1a6b48;
 }
 .jxc-tabs-extra-content {
   flex: none;
@@ -505,7 +505,7 @@
 }
 .jxc-tabs-ink-bar {
   position: absolute;
-  background: #fdf;
+  background: #2b9262;
   pointer-events: none;
 }
 .jxc-tabs-tab {
@@ -528,7 +528,7 @@
 .jxc-tabs-tab-remove:focus,
 .jxc-tabs-tab-btn:active,
 .jxc-tabs-tab-remove:active {
-  color: #d7b2d9;
+  color: #1a6b48;
 }
 .jxc-tabs-tab-btn {
   outline: none;
@@ -550,10 +550,10 @@
   color: #222;
 }
 .jxc-tabs-tab:hover {
-  color: #fff0fe;
+  color: #479e73;
 }
 .jxc-tabs-tab.jxc-tabs-tab-active .jxc-tabs-tab-btn {
-  color: #fdf;
+  color: #2b9262;
   font-weight: 500;
 }
 .jxc-tabs-tab.jxc-tabs-tab-disabled {

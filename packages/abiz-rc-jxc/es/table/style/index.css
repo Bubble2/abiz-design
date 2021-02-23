@@ -313,7 +313,7 @@ td.jxc-table-column-sort {
 }
 .jxc-table-column-sorter-up.active,
 .jxc-table-column-sorter-down.active {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-table-column-sorter-up + .jxc-table-column-sorter-down {
   margin-top: -0.3em;
@@ -368,7 +368,7 @@ td.jxc-table-column-sort {
   color: #222;
 }
 .jxc-table-filter-trigger.active {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-table-filter-dropdown {
   box-sizing: border-box;

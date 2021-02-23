@@ -1,2 +1,2 @@
-import _Result from 'antd/es/result';
+import _Result from "antd/es/result";
 export default _Result;

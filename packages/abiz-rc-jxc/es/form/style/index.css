@@ -488,14 +488,14 @@
   border-color: #d2d2d2;
 }
 .jxc-form-item-has-error .jxc-transfer-list-search:not([disabled]):hover {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
 }
 .jxc-form-item-has-error .jxc-transfer-list-search:not([disabled]):focus {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-form-item-has-error .jxc-radio-button-wrapper {
   border-color: #ff6060 !important;
@@ -505,7 +505,7 @@
 }
 .jxc-form-item-is-validating.jxc-form-item-has-feedback .jxc-form-item-children-icon {
   display: inline-block;
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-form {
   box-sizing: border-box;

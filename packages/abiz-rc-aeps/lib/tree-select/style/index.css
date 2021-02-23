@@ -39,7 +39,7 @@
 .aeps-select-tree-checkbox-wrapper:hover .aeps-select-tree-checkbox-inner,
 .aeps-select-tree-checkbox:hover .aeps-select-tree-checkbox-inner,
 .aeps-select-tree-checkbox-input:focus + .aeps-select-tree-checkbox-inner {
-  border-color: #fdf;
+  border-color: #ff0;
 }
 .aeps-select-tree-checkbox-checked::after {
   position: absolute;
@@ -47,7 +47,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid #fdf;
+  border: 1px solid #ff0;
   border-radius: 2px;
   visibility: hidden;
   animation: antCheckboxEffect 0.36s ease-in-out;
@@ -111,8 +111,8 @@
   content: ' ';
 }
 .aeps-select-tree-checkbox-checked .aeps-select-tree-checkbox-inner {
-  background-color: #fdf;
-  border-color: #fdf;
+  background-color: #ff0;
+  border-color: #ff0;
 }
 .aeps-select-tree-checkbox-disabled {
   cursor: not-allowed;
@@ -196,7 +196,7 @@
   left: 50%;
   width: 8px;
   height: 8px;
-  background-color: #fdf;
+  background-color: #ff0;
   border: 0;
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
@@ -307,7 +307,7 @@
   transform: rotate(-90deg);
 }
 .aeps-select-tree-switcher-loading-icon {
-  color: #fdf;
+  color: #ff0;
 }
 .aeps-select-tree-switcher-leaf-line {
   position: relative;
@@ -353,7 +353,7 @@
   background-color: #f5f5f5;
 }
 .aeps-select-tree .aeps-select-tree-node-content-wrapper.aeps-select-tree-node-selected {
-  background-color: #fff0fd;
+  background-color: #fff3a3;
 }
 .aeps-select-tree .aeps-select-tree-node-content-wrapper .aeps-select-tree-iconEle {
   display: inline-block;
@@ -377,7 +377,7 @@
   position: absolute;
   z-index: 1;
   height: 2px;
-  background-color: #fdf;
+  background-color: #ff0;
   border-radius: 1px;
   pointer-events: none;
 }
@@ -388,12 +388,12 @@
   width: 8px;
   height: 8px;
   background-color: transparent;
-  border: 2px solid #fdf;
+  border: 2px solid #ff0;
   border-radius: 50%;
   content: '';
 }
 .aeps-select-tree .aeps-select-tree-treenode.drop-container > [draggable] {
-  box-shadow: 0 0 0 2px #fdf;
+  box-shadow: 0 0 0 2px #ff0;
 }
 .aeps-select-tree-show-line .aeps-select-tree-indent-unit {
   position: relative;

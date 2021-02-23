@@ -52,7 +52,7 @@
   text-align: center;
 }
 .aeps-upload.aeps-upload-select-picture-card:hover {
-  border-color: #fdf;
+  border-color: #ff0;
 }
 .aeps-upload-disabled.aeps-upload.aeps-upload-select-picture-card:hover {
   border-color: #d2d2d2;
@@ -72,7 +72,7 @@
   padding: 16px 0;
 }
 .aeps-upload.aeps-upload-drag.aeps-upload-drag-hover:not(.aeps-upload-disabled) {
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-upload.aeps-upload-drag.aeps-upload-disabled {
   cursor: not-allowed;
@@ -86,13 +86,13 @@
   vertical-align: middle;
 }
 .aeps-upload.aeps-upload-drag:not(.aeps-upload-disabled):hover {
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-upload.aeps-upload-drag p.aeps-upload-drag-icon {
   margin-bottom: 20px;
 }
 .aeps-upload.aeps-upload-drag p.aeps-upload-drag-icon .anticon {
-  color: #fff0fe;
+  color: #fff829;
   font-size: 48px;
 }
 .aeps-upload.aeps-upload-drag p.aeps-upload-text {

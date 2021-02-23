@@ -34,7 +34,7 @@
 .jxc-checkbox-wrapper:hover .jxc-checkbox-inner,
 .jxc-checkbox:hover .jxc-checkbox-inner,
 .jxc-checkbox-input:focus + .jxc-checkbox-inner {
-  border-color: #fdf;
+  border-color: #2b9262;
 }
 .jxc-checkbox-checked::after {
   position: absolute;
@@ -42,7 +42,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid #fdf;
+  border: 1px solid #2b9262;
   border-radius: 2px;
   visibility: hidden;
   animation: antCheckboxEffect 0.36s ease-in-out;
@@ -106,8 +106,8 @@
   content: ' ';
 }
 .jxc-checkbox-checked .jxc-checkbox-inner {
-  background-color: #fdf;
-  border-color: #fdf;
+  background-color: #2b9262;
+  border-color: #2b9262;
 }
 .jxc-checkbox-disabled {
   cursor: not-allowed;
@@ -191,7 +191,7 @@
   left: 50%;
   width: 8px;
   height: 8px;
-  background-color: #fdf;
+  background-color: #2b9262;
   border: 0;
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;

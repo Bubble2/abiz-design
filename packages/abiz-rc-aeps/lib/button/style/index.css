@@ -71,9 +71,9 @@
 }
 .aeps-btn:hover,
 .aeps-btn:focus {
-  color: #fff0fe;
+  color: #fff829;
   background: #fff;
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-btn:hover > a:only-child,
 .aeps-btn:focus > a:only-child {
@@ -90,9 +90,9 @@
   content: '';
 }
 .aeps-btn:active {
-  color: #d7b2d9;
+  color: #d2d900;
   background: #fff;
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-btn:active > a:only-child {
   color: currentColor;
@@ -145,8 +145,8 @@
 }
 .aeps-btn-primary {
   color: #fff;
-  background: #fdf;
-  border-color: #fdf;
+  background: #ff0;
+  border-color: #ff0;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
 }
@@ -165,8 +165,8 @@
 .aeps-btn-primary:hover,
 .aeps-btn-primary:focus {
   color: #fff;
-  background: #fff0fe;
-  border-color: #fff0fe;
+  background: #fff829;
+  border-color: #fff829;
 }
 .aeps-btn-primary:hover > a:only-child,
 .aeps-btn-primary:focus > a:only-child {
@@ -184,8 +184,8 @@
 }
 .aeps-btn-primary:active {
   color: #fff;
-  background: #d7b2d9;
-  border-color: #d7b2d9;
+  background: #d2d900;
+  border-color: #d2d900;
 }
 .aeps-btn-primary:active > a:only-child {
   color: currentColor;
@@ -228,21 +228,21 @@
   content: '';
 }
 .aeps-btn-group .aeps-btn-primary:not(:first-child):not(:last-child) {
-  border-right-color: #fff0fe;
-  border-left-color: #fff0fe;
+  border-right-color: #fff829;
+  border-left-color: #fff829;
 }
 .aeps-btn-group .aeps-btn-primary:not(:first-child):not(:last-child):disabled {
   border-color: #d2d2d2;
 }
 .aeps-btn-group .aeps-btn-primary:first-child:not(:last-child) {
-  border-right-color: #fff0fe;
+  border-right-color: #fff829;
 }
 .aeps-btn-group .aeps-btn-primary:first-child:not(:last-child)[disabled] {
   border-right-color: #d2d2d2;
 }
 .aeps-btn-group .aeps-btn-primary:last-child:not(:first-child),
 .aeps-btn-group .aeps-btn-primary + .aeps-btn-primary {
-  border-left-color: #fff0fe;
+  border-left-color: #fff829;
 }
 .aeps-btn-group .aeps-btn-primary:last-child:not(:first-child)[disabled],
 .aeps-btn-group .aeps-btn-primary + .aeps-btn-primary[disabled] {
@@ -267,9 +267,9 @@
 }
 .aeps-btn-ghost:hover,
 .aeps-btn-ghost:focus {
-  color: #fff0fe;
+  color: #fff829;
   background: transparent;
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-btn-ghost:hover > a:only-child,
 .aeps-btn-ghost:focus > a:only-child {
@@ -286,9 +286,9 @@
   content: '';
 }
 .aeps-btn-ghost:active {
-  color: #d7b2d9;
+  color: #d2d900;
   background: transparent;
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-btn-ghost:active > a:only-child {
   color: currentColor;
@@ -350,9 +350,9 @@
 }
 .aeps-btn-dashed:hover,
 .aeps-btn-dashed:focus {
-  color: #fff0fe;
+  color: #fff829;
   background: #fff;
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-btn-dashed:hover > a:only-child,
 .aeps-btn-dashed:focus > a:only-child {
@@ -369,9 +369,9 @@
   content: '';
 }
 .aeps-btn-dashed:active {
-  color: #d7b2d9;
+  color: #d2d900;
   background: #fff;
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-btn-dashed:active > a:only-child {
   color: currentColor;
@@ -517,9 +517,9 @@
 }
 .aeps-btn-link:hover,
 .aeps-btn-link:focus {
-  color: #fff0fe;
+  color: #fff829;
   background: transparent;
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-btn-link:hover > a:only-child,
 .aeps-btn-link:focus > a:only-child {
@@ -536,9 +536,9 @@
   content: '';
 }
 .aeps-btn-link:active {
-  color: #d7b2d9;
+  color: #d2d900;
   background: transparent;
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-btn-link:active > a:only-child {
   color: currentColor;
@@ -636,9 +636,9 @@
 }
 .aeps-btn-text:hover,
 .aeps-btn-text:focus {
-  color: #fff0fe;
+  color: #fff829;
   background: transparent;
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-btn-text:hover > a:only-child,
 .aeps-btn-text:focus > a:only-child {
@@ -655,9 +655,9 @@
   content: '';
 }
 .aeps-btn-text:active {
-  color: #d7b2d9;
+  color: #d2d900;
   background: transparent;
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-btn-text:active > a:only-child {
   color: currentColor;
@@ -924,9 +924,9 @@
 }
 .aeps-btn-dangerous.aeps-btn-link:hover,
 .aeps-btn-dangerous.aeps-btn-link:focus {
-  color: #fff0fe;
+  color: #fff829;
   background: transparent;
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-btn-dangerous.aeps-btn-link:hover > a:only-child,
 .aeps-btn-dangerous.aeps-btn-link:focus > a:only-child {
@@ -943,9 +943,9 @@
   content: '';
 }
 .aeps-btn-dangerous.aeps-btn-link:active {
-  color: #d7b2d9;
+  color: #d2d900;
   background: transparent;
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-btn-dangerous.aeps-btn-link:active > a:only-child {
   color: currentColor;
@@ -1072,9 +1072,9 @@
 }
 .aeps-btn-dangerous.aeps-btn-text:hover,
 .aeps-btn-dangerous.aeps-btn-text:focus {
-  color: #fff0fe;
+  color: #fff829;
   background: transparent;
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-btn-dangerous.aeps-btn-text:hover > a:only-child,
 .aeps-btn-dangerous.aeps-btn-text:focus > a:only-child {
@@ -1091,9 +1091,9 @@
   content: '';
 }
 .aeps-btn-dangerous.aeps-btn-text:active {
-  color: #d7b2d9;
+  color: #d2d900;
   background: transparent;
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-btn-dangerous.aeps-btn-text:active > a:only-child {
   color: currentColor;
@@ -1493,9 +1493,9 @@
   border-color: #fff;
 }
 .aeps-btn-background-ghost.aeps-btn-primary {
-  color: #fdf;
+  color: #ff0;
   background: transparent;
-  border-color: #fdf;
+  border-color: #ff0;
   text-shadow: none;
 }
 .aeps-btn-background-ghost.aeps-btn-primary > a:only-child {
@@ -1512,9 +1512,9 @@
 }
 .aeps-btn-background-ghost.aeps-btn-primary:hover,
 .aeps-btn-background-ghost.aeps-btn-primary:focus {
-  color: #fff0fe;
+  color: #fff829;
   background: transparent;
-  border-color: #fff0fe;
+  border-color: #fff829;
 }
 .aeps-btn-background-ghost.aeps-btn-primary:hover > a:only-child,
 .aeps-btn-background-ghost.aeps-btn-primary:focus > a:only-child {
@@ -1531,9 +1531,9 @@
   content: '';
 }
 .aeps-btn-background-ghost.aeps-btn-primary:active {
-  color: #d7b2d9;
+  color: #d2d900;
   background: transparent;
-  border-color: #d7b2d9;
+  border-color: #d2d900;
 }
 .aeps-btn-background-ghost.aeps-btn-primary:active > a:only-child {
   color: currentColor;
@@ -1855,13 +1855,13 @@ a.aeps-btn-sm {
 }
 .aeps-btn-group-rtl.aeps-btn-group .aeps-btn-primary:last-child:not(:first-child),
 .aeps-btn-group-rtl.aeps-btn-group .aeps-btn-primary + .aeps-btn-primary {
-  border-right-color: #fff0fe;
+  border-right-color: #fff829;
   border-left-color: #d2d2d2;
 }
 .aeps-btn-group-rtl.aeps-btn-group .aeps-btn-primary:last-child:not(:first-child)[disabled],
 .aeps-btn-group-rtl.aeps-btn-group .aeps-btn-primary + .aeps-btn-primary[disabled] {
   border-right-color: #d2d2d2;
-  border-left-color: #fff0fe;
+  border-left-color: #fff829;
 }
 .aeps-btn-rtl.aeps-btn > .aeps-btn-loading-icon .anticon {
   padding-right: 0;

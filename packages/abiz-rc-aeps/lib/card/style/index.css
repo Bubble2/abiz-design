@@ -176,7 +176,7 @@
   cursor: pointer;
 }
 .aeps-card-actions > li > span:hover {
-  color: #fdf;
+  color: #ff0;
   transition: color 0.3s;
 }
 .aeps-card-actions > li > span a:not(.aeps-btn),
@@ -189,7 +189,7 @@
 }
 .aeps-card-actions > li > span a:not(.aeps-btn):hover,
 .aeps-card-actions > li > span > .anticon:hover {
-  color: #fdf;
+  color: #ff0;
 }
 .aeps-card-actions > li > span > .anticon {
   font-size: 16px;

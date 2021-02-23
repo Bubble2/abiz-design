@@ -34,15 +34,15 @@
   text-overflow: ellipsis;
 }
 .aeps-input-number:hover {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
 }
 .aeps-input-number:focus,
 .aeps-input-number-focused {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
 }
 .aeps-input-number-disabled {
   color: #ccc;
@@ -106,7 +106,7 @@ textarea.aeps-input-number {
 }
 .aeps-input-number-handler:hover .aeps-input-number-handler-up-inner,
 .aeps-input-number-handler:hover .aeps-input-number-handler-down-inner {
-  color: #fff0fe;
+  color: #fff829;
 }
 .aeps-input-number-handler-up-inner,
 .aeps-input-number-handler-down-inner {
@@ -148,7 +148,7 @@ textarea.aeps-input-number {
   display: block;
 }
 .aeps-input-number:hover {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
 }
 .aeps-input-number:hover + .aeps-form-item-children-icon {
@@ -156,10 +156,10 @@ textarea.aeps-input-number {
   transition: opacity 0.24s linear 0.24s;
 }
 .aeps-input-number-focused {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
 }
 .aeps-input-number-disabled {
   color: #ccc;

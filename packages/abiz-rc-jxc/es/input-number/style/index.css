@@ -34,15 +34,15 @@
   text-overflow: ellipsis;
 }
 .jxc-input-number:hover {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
 }
 .jxc-input-number:focus,
 .jxc-input-number-focused {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-input-number-disabled {
   color: #ccc;
@@ -106,7 +106,7 @@ textarea.jxc-input-number {
 }
 .jxc-input-number-handler:hover .jxc-input-number-handler-up-inner,
 .jxc-input-number-handler:hover .jxc-input-number-handler-down-inner {
-  color: #fff0fe;
+  color: #479e73;
 }
 .jxc-input-number-handler-up-inner,
 .jxc-input-number-handler-down-inner {
@@ -148,7 +148,7 @@ textarea.jxc-input-number {
   display: block;
 }
 .jxc-input-number:hover {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
 }
 .jxc-input-number:hover + .jxc-form-item-children-icon {
@@ -156,10 +156,10 @@ textarea.jxc-input-number {
   transition: opacity 0.24s linear 0.24s;
 }
 .jxc-input-number-focused {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-input-number-disabled {
   color: #ccc;

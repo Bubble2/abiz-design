@@ -1,2 +1,2 @@
-import _Spin from '@abiz/rc-core/es/spin';
+import _Spin from "@abiz/rc-core/es/spin";
 export default _Spin;

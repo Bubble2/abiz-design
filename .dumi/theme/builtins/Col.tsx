@@ -1,9 +1,4 @@
-import { ConfigProvider, Col } from '@abiz/rc-jxc';
+import { Col } from 'antd';
+import 'antd/lib/Col/style/css';
 
-export default ({ children, ...props }) => {
-  return (
-    <ConfigProvider>
-      <Col {...props}>{children}</Col>
-    </ConfigProvider>
-  );
-};
+export default Col;

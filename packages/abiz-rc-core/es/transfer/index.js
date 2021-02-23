@@ -1,2 +1,2 @@
-import _Transfer from 'antd/es/transfer';
+import _Transfer from "antd/es/transfer";
 export default _Transfer;

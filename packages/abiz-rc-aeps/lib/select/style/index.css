@@ -339,10 +339,10 @@
   cursor: auto;
 }
 .aeps-select-focused:not(.aeps-select-disabled).aeps-select:not(.aeps-select-customize-input) .aeps-select-selector {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
 }
 .aeps-select-disabled.aeps-select:not(.aeps-select-customize-input) .aeps-select-selector {
   color: #ccc;
@@ -365,7 +365,7 @@
   -webkit-appearance: none;
 }
 .aeps-select:not(.aeps-select-disabled):hover .aeps-select-selector {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
 }
 .aeps-select-selection-item {
@@ -562,7 +562,7 @@
   background-color: #f0fcf6;
 }
 .aeps-select-item-option-selected:not(.aeps-select-item-option-disabled) .aeps-select-item-option-state {
-  color: #fdf;
+  color: #ff0;
 }
 .aeps-select-item-option-disabled {
   color: #ccc;

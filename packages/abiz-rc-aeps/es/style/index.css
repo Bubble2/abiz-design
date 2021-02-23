@@ -318,7 +318,7 @@ mark {
 }
 ::selection {
   color: #fff;
-  background: #fdf;
+  background: #ff0;
 }
 .clearfix::before {
   display: table;
@@ -631,7 +631,7 @@ mark {
   position: relative;
 }
 html {
-  --antd-wave-shadow-color: #fdf;
+  --antd-wave-shadow-color: #ff0;
   --scroll-bar: 0;
 }
 [aeps-click-animating-without-extra-node='true']::after,
@@ -643,7 +643,7 @@ html {
   left: 0;
   display: block;
   border-radius: inherit;
-  box-shadow: 0 0 0 0 #fdf;
+  box-shadow: 0 0 0 0 #ff0;
   box-shadow: 0 0 0 0 var(--antd-wave-shadow-color);
   opacity: 0.2;
   animation: fadeEffect 2s cubic-bezier(0.08, 0.82, 0.17, 1), waveEffect 0.4s cubic-bezier(0.08, 0.82, 0.17, 1);
@@ -653,7 +653,7 @@ html {
 }
 @keyframes waveEffect {
   100% {
-    box-shadow: 0 0 0 #fdf;
+    box-shadow: 0 0 0 #ff0;
     box-shadow: 0 0 0 6px var(--antd-wave-shadow-color);
   }
 }

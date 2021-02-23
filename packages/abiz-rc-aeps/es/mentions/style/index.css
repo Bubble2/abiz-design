@@ -37,15 +37,15 @@
   text-overflow: ellipsis;
 }
 .aeps-mentions:hover {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
 }
 .aeps-mentions:focus,
 .aeps-mentions-focused {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
 }
 .aeps-mentions-disabled {
   color: #ccc;
@@ -103,10 +103,10 @@ textarea.aeps-mentions {
   border-right-width: 1px !important;
 }
 .aeps-mentions-focused {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
 }
 .aeps-mentions > textarea,
 .aeps-mentions-measure {

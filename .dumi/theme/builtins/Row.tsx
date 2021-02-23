@@ -1,9 +1,4 @@
-import { ConfigProvider, Row } from '@abiz/rc-jxc';
+import {Row } from 'antd';
+import 'antd/lib/Row/style/css';
 
-export default ({ children, ...props }) => {
-  return (
-    <ConfigProvider>
-      <Row {...props}>{children}</Row>
-    </ConfigProvider>
-  );
-};
+export default Row;

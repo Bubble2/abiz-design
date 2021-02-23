@@ -1,2 +1,2 @@
-import _Form from 'antd/es/form';
+import _Form from "antd/es/form";
 export default _Form;

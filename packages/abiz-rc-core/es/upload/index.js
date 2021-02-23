@@ -1,2 +1,2 @@
-import _Upload from 'antd/es/upload';
+import _Upload from "antd/es/upload";
 export default _Upload;
