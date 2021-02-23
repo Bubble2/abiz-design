@@ -53,10 +53,10 @@
   cursor: not-allowed;
 }
 .jxc-cascader-picker:focus .jxc-cascader-input {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-cascader-picker-borderless .jxc-cascader-input {
   border-color: transparent !important;
@@ -113,7 +113,7 @@
   line-height: 12px;
 }
 .jxc-cascader-picker-label:hover + .jxc-cascader-input:not(.jxc-cascader-picker-disabled .jxc-cascader-picker-label:hover + .jxc-cascader-input) {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
 }
 .jxc-cascader-picker-small .jxc-cascader-picker-clear,

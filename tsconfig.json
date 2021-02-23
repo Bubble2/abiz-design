@@ -8,7 +8,7 @@
       "@abiz/rc-core": ["packages/abiz-rc-core/src"]
     },
     "declaration": true,
-    "declarationMap": true, 
+    "declarationMap": true,
     "allowJs": true,
     "moduleResolution": "node",
     "esModuleInterop": true,

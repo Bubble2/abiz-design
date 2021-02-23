@@ -3,6 +3,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { createFromIconfontCN } from '@ant-design/icons';
 import './iconfont';
+export * from '@ant-design/icons';
 var Icon = /*#__PURE__*/React.forwardRef(function (props, ref) {
   var IconFont = createFromIconfontCN({});
   return /*#__PURE__*/React.createElement(IconFont, _extends({}, props, {

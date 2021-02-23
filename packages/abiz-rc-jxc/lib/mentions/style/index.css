@@ -37,15 +37,15 @@
   text-overflow: ellipsis;
 }
 .jxc-mentions:hover {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
 }
 .jxc-mentions:focus,
 .jxc-mentions-focused {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-mentions-disabled {
   color: #ccc;
@@ -103,10 +103,10 @@ textarea.jxc-mentions {
   border-right-width: 1px !important;
 }
 .jxc-mentions-focused {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-mentions > textarea,
 .jxc-mentions-measure {

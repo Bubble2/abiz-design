@@ -64,17 +64,17 @@
   cursor: pointer;
 }
 .jxc-tag-checkable:not(.jxc-tag-checkable-checked):hover {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-tag-checkable:active,
 .jxc-tag-checkable-checked {
   color: #fff;
 }
 .jxc-tag-checkable-checked {
-  background-color: #fdf;
+  background-color: #2b9262;
 }
 .jxc-tag-checkable:active {
-  background-color: #d7b2d9;
+  background-color: #1a6b48;
 }
 .jxc-tag-hidden {
   display: none;

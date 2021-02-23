@@ -26,7 +26,8 @@
 
 ##### Option
 
-```typescript
+```typescript | pure
+
 interface Option {
   label: string;
   value: string;
@@ -42,4 +43,3 @@ interface Option {
 | --- | --- | --- |
 | blur() | 移除焦点 |  |
 | focus() | 获取焦点 |  |
-

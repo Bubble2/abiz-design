@@ -313,7 +313,7 @@ td.aeps-table-column-sort {
 }
 .aeps-table-column-sorter-up.active,
 .aeps-table-column-sorter-down.active {
-  color: #fdf;
+  color: #ff0;
 }
 .aeps-table-column-sorter-up + .aeps-table-column-sorter-down {
   margin-top: -0.3em;
@@ -368,7 +368,7 @@ td.aeps-table-column-sort {
   color: #222;
 }
 .aeps-table-filter-trigger.active {
-  color: #fdf;
+  color: #ff0;
 }
 .aeps-table-filter-dropdown {
   box-sizing: border-box;

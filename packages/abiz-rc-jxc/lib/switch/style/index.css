@@ -30,13 +30,13 @@
   box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.1);
 }
 .jxc-switch-checked:focus {
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-switch:focus:hover {
   box-shadow: none;
 }
 .jxc-switch-checked {
-  background-color: #fdf;
+  background-color: #2b9262;
 }
 .jxc-switch-loading,
 .jxc-switch-disabled {
@@ -96,7 +96,7 @@
   vertical-align: top;
 }
 .jxc-switch-checked .jxc-switch-loading-icon {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-switch-small {
   min-width: 28px;

@@ -176,7 +176,7 @@
   cursor: pointer;
 }
 .jxc-card-actions > li > span:hover {
-  color: #fdf;
+  color: #2b9262;
   transition: color 0.3s;
 }
 .jxc-card-actions > li > span a:not(.jxc-btn),
@@ -189,7 +189,7 @@
 }
 .jxc-card-actions > li > span a:not(.jxc-btn):hover,
 .jxc-card-actions > li > span > .anticon:hover {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-card-actions > li > span > .anticon {
   font-size: 16px;

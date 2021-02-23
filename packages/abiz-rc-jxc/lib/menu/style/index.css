@@ -87,7 +87,7 @@
   transition: border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .jxc-menu-submenu-selected {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-item:active,
 .jxc-menu-submenu-title:active {
@@ -101,7 +101,7 @@
   color: #222;
 }
 .jxc-menu-item a:hover {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-item a::before {
   position: absolute;
@@ -116,7 +116,7 @@
   color: #222;
 }
 .jxc-menu-item > .jxc-badge a:hover {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-item-divider {
   height: 1px;
@@ -129,7 +129,7 @@
 .jxc-menu:not(.jxc-menu-inline) .jxc-menu-submenu-open,
 .jxc-menu-submenu-active,
 .jxc-menu-submenu-title:hover {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-horizontal .jxc-menu-item,
 .jxc-menu-horizontal .jxc-menu-submenu {
@@ -141,11 +141,11 @@
   background-color: transparent;
 }
 .jxc-menu-item-selected {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-item-selected a,
 .jxc-menu-item-selected a:hover {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu:not(.jxc-menu-horizontal) .jxc-menu-item-selected {
   background-color: #f0fcf6;
@@ -302,7 +302,7 @@
 }
 .jxc-menu-submenu:hover > .jxc-menu-submenu-title > .jxc-menu-submenu-expand-icon,
 .jxc-menu-submenu:hover > .jxc-menu-submenu-title > .jxc-menu-submenu-arrow {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-submenu-inline .jxc-menu-submenu-arrow::before {
   transform: rotate(-45deg) translateX(2.5px);
@@ -325,7 +325,7 @@
 .jxc-menu-vertical .jxc-menu-submenu-selected,
 .jxc-menu-vertical-left .jxc-menu-submenu-selected,
 .jxc-menu-vertical-right .jxc-menu-submenu-selected {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-horizontal {
   line-height: 46px;
@@ -350,8 +350,8 @@
 .jxc-menu-horizontal:not(.jxc-menu-dark) > .jxc-menu-submenu-open,
 .jxc-menu-horizontal:not(.jxc-menu-dark) > .jxc-menu-item-selected,
 .jxc-menu-horizontal:not(.jxc-menu-dark) > .jxc-menu-submenu-selected {
-  color: #fdf;
-  border-bottom: 2px solid #fdf;
+  color: #2b9262;
+  border-bottom: 2px solid #2b9262;
 }
 .jxc-menu-horizontal > .jxc-menu-item,
 .jxc-menu-horizontal > .jxc-menu-submenu {
@@ -368,13 +368,13 @@
   color: #222;
 }
 .jxc-menu-horizontal > .jxc-menu-item a:hover {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-horizontal > .jxc-menu-item a::before {
   bottom: -2px;
 }
 .jxc-menu-horizontal > .jxc-menu-item-selected a {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-menu-horizontal::after {
   display: block;
@@ -396,7 +396,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  border-right: 3px solid #fdf;
+  border-right: 3px solid #2b9262;
   transform: scaleY(0.0001);
   opacity: 0;
   transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -622,7 +622,7 @@
   border-bottom: 0;
 }
 .jxc-menu-dark.jxc-menu-horizontal > .jxc-menu-item:hover {
-  background-color: #fdf;
+  background-color: #2b9262;
 }
 .jxc-menu-dark.jxc-menu-horizontal > .jxc-menu-item > a::before {
   bottom: 0;
@@ -724,7 +724,7 @@
   background-color: transparent;
 }
 .jxc-menu-dark.jxc-menu-dark:not(.jxc-menu-horizontal) .jxc-menu-item-selected {
-  background-color: #fdf;
+  background-color: #2b9262;
 }
 .jxc-menu-dark .jxc-menu-item-selected {
   color: #fff;
@@ -749,7 +749,7 @@
 }
 .jxc-menu.jxc-menu-dark .jxc-menu-item-selected,
 .jxc-menu-submenu-popup.jxc-menu-dark .jxc-menu-item-selected {
-  background-color: #fdf;
+  background-color: #2b9262;
 }
 .jxc-menu-dark .jxc-menu-item-disabled,
 .jxc-menu-dark .jxc-menu-submenu-disabled,

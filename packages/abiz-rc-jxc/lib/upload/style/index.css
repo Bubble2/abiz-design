@@ -52,7 +52,7 @@
   text-align: center;
 }
 .jxc-upload.jxc-upload-select-picture-card:hover {
-  border-color: #fdf;
+  border-color: #2b9262;
 }
 .jxc-upload-disabled.jxc-upload.jxc-upload-select-picture-card:hover {
   border-color: #d2d2d2;
@@ -72,7 +72,7 @@
   padding: 16px 0;
 }
 .jxc-upload.jxc-upload-drag.jxc-upload-drag-hover:not(.jxc-upload-disabled) {
-  border-color: #d7b2d9;
+  border-color: #1a6b48;
 }
 .jxc-upload.jxc-upload-drag.jxc-upload-disabled {
   cursor: not-allowed;
@@ -86,13 +86,13 @@
   vertical-align: middle;
 }
 .jxc-upload.jxc-upload-drag:not(.jxc-upload-disabled):hover {
-  border-color: #fff0fe;
+  border-color: #479e73;
 }
 .jxc-upload.jxc-upload-drag p.jxc-upload-drag-icon {
   margin-bottom: 20px;
 }
 .jxc-upload.jxc-upload-drag p.jxc-upload-drag-icon .anticon {
-  color: #fff0fe;
+  color: #479e73;
   font-size: 48px;
 }
 .jxc-upload.jxc-upload-drag p.jxc-upload-text {

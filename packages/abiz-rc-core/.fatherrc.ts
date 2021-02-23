@@ -12,9 +12,9 @@ export default {
     [
       'babel-plugin-import',
       {
-        libraryName: 'antd'
+        libraryName: 'antd',
       },
-      'antd'
-    ]
-  ]
+      'antd',
+    ],
+  ],
 };

@@ -488,14 +488,14 @@
   border-color: #d2d2d2;
 }
 .aeps-form-item-has-error .aeps-transfer-list-search:not([disabled]):hover {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
 }
 .aeps-form-item-has-error .aeps-transfer-list-search:not([disabled]):focus {
-  border-color: #fff0fe;
+  border-color: #fff829;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
 }
 .aeps-form-item-has-error .aeps-radio-button-wrapper {
   border-color: #ff6060 !important;
@@ -505,7 +505,7 @@
 }
 .aeps-form-item-is-validating.aeps-form-item-has-feedback .aeps-form-item-children-icon {
   display: inline-block;
-  color: #fdf;
+  color: #ff0;
 }
 .aeps-form {
   box-sizing: border-box;

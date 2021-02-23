@@ -28,7 +28,7 @@
   text-overflow: ellipsis;
 }
 .jxc-input-affix-wrapper:hover {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
 }
 .jxc-input-rtl .jxc-input-affix-wrapper:hover {
@@ -37,10 +37,10 @@
 }
 .jxc-input-affix-wrapper:focus,
 .jxc-input-affix-wrapper-focused {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-input-rtl .jxc-input-affix-wrapper:focus,
 .jxc-input-rtl .jxc-input-affix-wrapper-focused {
@@ -96,7 +96,7 @@ textarea.jxc-input-affix-wrapper {
   direction: rtl;
 }
 .jxc-input-affix-wrapper:hover {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   z-index: 1;
 }
@@ -200,7 +200,7 @@ textarea.jxc-input-affix-wrapper {
   text-overflow: ellipsis;
 }
 .jxc-input:hover {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
 }
 .jxc-input-rtl .jxc-input:hover {
@@ -209,10 +209,10 @@ textarea.jxc-input-affix-wrapper {
 }
 .jxc-input:focus,
 .jxc-input-focused {
-  border-color: #fff0fe;
+  border-color: #479e73;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 221, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(43, 146, 98, 0.2);
 }
 .jxc-input-rtl .jxc-input:focus,
 .jxc-input-rtl .jxc-input-focused {
@@ -352,7 +352,7 @@ textarea.jxc-input {
 }
 .jxc-input-group-addon .jxc-select-open .jxc-select-selector,
 .jxc-input-group-addon .jxc-select-focused .jxc-select-selector {
-  color: #fdf;
+  color: #2b9262;
 }
 .jxc-input-group > .jxc-input:first-child,
 .jxc-input-group-addon:first-child {
@@ -597,11 +597,11 @@ textarea.jxc-input {
 }
 .jxc-input-search .jxc-input:hover,
 .jxc-input-search .jxc-input:focus {
-  border-color: #fff0fe;
+  border-color: #479e73;
 }
 .jxc-input-search .jxc-input:hover + .jxc-input-group-addon .jxc-input-search-button:not(.jxc-btn-primary),
 .jxc-input-search .jxc-input:focus + .jxc-input-group-addon .jxc-input-search-button:not(.jxc-btn-primary) {
-  border-left-color: #fff0fe;
+  border-left-color: #479e73;
 }
 .jxc-input-search .jxc-input-affix-wrapper {
   border-radius: 0;
@@ -676,12 +676,12 @@ textarea.jxc-input {
 }
 .jxc-input-search-rtl .jxc-input:hover + .jxc-input-group-addon .jxc-input-search-button:not(.jxc-btn-primary),
 .jxc-input-search-rtl .jxc-input:focus + .jxc-input-group-addon .jxc-input-search-button:not(.jxc-btn-primary) {
-  border-right-color: #fff0fe;
+  border-right-color: #479e73;
   border-left-color: #d2d2d2;
 }
 .jxc-input-search-rtl > .jxc-input-group > .jxc-input-affix-wrapper:hover,
 .jxc-input-search-rtl > .jxc-input-group > .jxc-input-affix-wrapper-focused {
-  border-right-color: #fff0fe;
+  border-right-color: #479e73;
 }
 .jxc-input-search-rtl > .jxc-input-group > .jxc-input-group-addon {
   right: -1px;

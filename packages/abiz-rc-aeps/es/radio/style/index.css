@@ -60,10 +60,10 @@
 .aeps-radio-wrapper:hover .aeps-radio,
 .aeps-radio:hover .aeps-radio-inner,
 .aeps-radio-input:focus + .aeps-radio-inner {
-  border-color: #fdf;
+  border-color: #ff0;
 }
 .aeps-radio-input:focus + .aeps-radio-inner {
-  box-shadow: 0 0 0 3px rgba(255, 221, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.08);
 }
 .aeps-radio-checked::after {
   position: absolute;
@@ -71,7 +71,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid #fdf;
+  border: 1px solid #ff0;
   border-radius: 50%;
   visibility: hidden;
   animation: antRadioEffect 0.36s ease-in-out;
@@ -103,7 +103,7 @@
   display: table;
   width: 8px;
   height: 8px;
-  background-color: #fdf;
+  background-color: #ff0;
   border-top: 0;
   border-left: 0;
   border-radius: 8px;
@@ -123,7 +123,7 @@
   opacity: 0;
 }
 .aeps-radio-checked .aeps-radio-inner {
-  border-color: #fdf;
+  border-color: #ff0;
 }
 .aeps-radio-checked .aeps-radio-inner::after {
   transform: scale(1);
@@ -214,10 +214,10 @@ span.aeps-radio + * {
 }
 .aeps-radio-button-wrapper:hover {
   position: relative;
-  color: #fdf;
+  color: #ff0;
 }
 .aeps-radio-button-wrapper:focus-within {
-  box-shadow: 0 0 0 3px rgba(255, 221, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.08);
 }
 .aeps-radio-button-wrapper .aeps-radio-inner,
 .aeps-radio-button-wrapper input[type='checkbox'],
@@ -229,50 +229,50 @@ span.aeps-radio + * {
 }
 .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled) {
   z-index: 1;
-  color: #fdf;
+  color: #ff0;
   background: #fff;
-  border-color: #fdf;
+  border-color: #ff0;
 }
 .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled)::before {
-  background-color: #fdf;
+  background-color: #ff0;
 }
 .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):first-child {
-  border-color: #fdf;
+  border-color: #ff0;
 }
 .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):hover {
-  color: #fff0fe;
-  border-color: #fff0fe;
+  color: #fff829;
+  border-color: #fff829;
 }
 .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):hover::before {
-  background-color: #fff0fe;
+  background-color: #fff829;
 }
 .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):active {
-  color: #d7b2d9;
-  border-color: #d7b2d9;
+  color: #d2d900;
+  border-color: #d2d900;
 }
 .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):active::before {
-  background-color: #d7b2d9;
+  background-color: #d2d900;
 }
 .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):focus-within {
-  box-shadow: 0 0 0 3px rgba(255, 221, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.08);
 }
 .aeps-radio-group-solid .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled) {
   color: #fff;
-  background: #fdf;
-  border-color: #fdf;
+  background: #ff0;
+  border-color: #ff0;
 }
 .aeps-radio-group-solid .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):hover {
   color: #fff;
-  background: #fff0fe;
-  border-color: #fff0fe;
+  background: #fff829;
+  border-color: #fff829;
 }
 .aeps-radio-group-solid .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):active {
   color: #fff;
-  background: #d7b2d9;
-  border-color: #d7b2d9;
+  background: #d2d900;
+  border-color: #d2d900;
 }
 .aeps-radio-group-solid .aeps-radio-button-wrapper-checked:not(.aeps-radio-button-wrapper-disabled):focus-within {
-  box-shadow: 0 0 0 3px rgba(255, 221, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.08);
 }
 .aeps-radio-button-wrapper-disabled {
   color: #ccc;
@@ -326,7 +326,7 @@ span.aeps-radio + * {
   border-radius: 0 2px 2px 0;
 }
 .aeps-radio-button-wrapper-checked:not([class*=' aeps-radio-button-wrapper-disabled']).aeps-radio-button-wrapper:first-child {
-  border-right-color: #fff0fe;
+  border-right-color: #fff829;
 }
 .aeps-radio-button-wrapper.aeps-radio-button-wrapper-rtl.aeps-radio-button-wrapper:last-child {
   border-radius: 2px 0 0 2px;

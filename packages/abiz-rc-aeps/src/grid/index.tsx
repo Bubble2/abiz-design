@@ -1,3 +1,7 @@
 import React from 'react';
 
-export default null;
+import {Grid} from '@abiz/rc-core';
+
+export default {
+    useBreakpoint: Grid.useBreakpoint
+};

@@ -43,7 +43,7 @@
   width: 8px;
   height: 8px;
   background-color: #fff;
-  border: 2px solid #fdf;
+  border: 2px solid #ff0;
   border-radius: 8px;
   transform: translateX(-50%);
   transition: top 0.3s ease-in-out;
@@ -72,7 +72,7 @@
   margin-bottom: 0;
 }
 .aeps-anchor-link-active > .aeps-anchor-link-title {
-  color: #fdf;
+  color: #ff0;
 }
 .aeps-anchor-link .aeps-anchor-link {
   padding-top: 5px;
