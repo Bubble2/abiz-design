@@ -5,7 +5,7 @@ order: 99
 ```tsx
 /**
  * title: 自定义日期范围选择
- * desc: 当 `RangePicker` 无法满足业务需求时，可以使用两个 `DatePicker` 实现类似的功能。> - 通过设置 `disabledDate` 方法，来约束开始和结束日期。> - 通过 `open` `onOpenChange` 来优化交互。
+ * desc: 当`RangePicker`无法满足业务需求时，可以使用两个`DatePicker`实现类似的功能。>-通过设置`disabledDate`方法，来约束开始和结束日期。>-通过`open``onOpenChange`来优化交互。
  */
 
 import React from 'react';

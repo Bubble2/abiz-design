@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 锚点
+
 <div>
 <embed src="@docs-common/anchor/index.md"></embed>
 </div>
@@ -22,19 +24,19 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/basic-anchor-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/onChange-anchor-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/onClick-anchor-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/static-anchor-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/targetOffset-anchor-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
+  <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/static-anchor-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/customizeHighlight-anchor-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/onClick-anchor-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/targetOffset-anchor-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/anchor/demo/onChange-anchor-jxc.md"></embed></div>
           
   </Col>
           

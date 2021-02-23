@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 单选框
+
 <div>
 <embed src="@docs-common/radio/index.md"></embed>
 </div>
@@ -20,29 +22,29 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/badge-radio-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/basic-radio-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/disabled-radio-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiobutton-solid-radio-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiogroup-radio-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiogroup-options-radio-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiogroup-with-name-radio-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiobutton-solid-radio-miccn.md"></embed></div>
+          
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/basic-radio-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiobutton-radio-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/disabled-radio-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiogroup-more-radio-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiogroup-radio-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/radiobutton-radio-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/size-radio-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/radio/demo/badge-radio-miccn.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 3.1
 ```tsx
 /**
  * title: 必选样式
- * desc: 通过 `requiredMark` 切换必选与可选样式。
+ * desc: 通过`requiredMark`切换必选与可选样式。
  */
 
 import React, { useState } from 'react';

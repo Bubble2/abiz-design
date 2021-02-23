@@ -5,14 +5,14 @@ order: 30
 ```tsx
 /**
  * title: 虚拟列表
- * desc: 通过 `react-window` 引入虚拟滚动方案，实现 100000 条数据的高性能表格。
+ * desc: 通过`react-window`引入虚拟滚动方案，实现100000条数据的高性能表格。
  */
 
 import React, { useState, useEffect, useRef } from 'react';
-import { ConfigProvider, VariableSizeGrid as Grid } from 'react-window';
+import { VariableSizeGrid as Grid } from 'react-window';
 import ResizeObserver from 'rc-resize-observer';
 import classNames from 'classnames';
-import { Table } from '@abiz/rc-aeps';
+import { ConfigProvider, Table } from '@abiz/rc-aeps';
 
 function VirtualTable(props) {
   const { columns, scroll } = props;

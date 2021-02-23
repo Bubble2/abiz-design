@@ -5,7 +5,7 @@ order: 4.1
 ```tsx
 /**
  * title: 测试栅格列表
- * desc: List `grid` 在各种情况下的样式表现，如 Fragment 和封装了 List.Item.
+ * desc: List`grid`在各种情况下的样式表现，如Fragment和封装了List.Item.
  */
 
 import React from 'react';

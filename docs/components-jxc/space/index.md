@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 间距
+
 <div>
 <embed src="@docs-common/space/index.md"></embed>
 </div>
@@ -24,17 +26,17 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/base-space-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/customize-space-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/debug-space-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/vertical-space-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/size-space-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/split-space-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/vertical-space-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/customize-space-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/wrap-space-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/debug-space-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/space/demo/split-space-jxc.md"></embed></div>
           
   </Col>
           

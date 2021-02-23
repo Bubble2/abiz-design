@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 进度条
+
 <div>
 <embed src="@docs-common/progress/index.md"></embed>
 </div>
@@ -20,33 +22,33 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/circle-dynamic-progress-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/circle-progress-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/dynamic-progress-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/gradient-line-progress-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/line-progress-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/line-mini-progress-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/circle-dynamic-progress-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/format-progress-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/segment-progress-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/steps-progress-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
+  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/circle-progress-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/circle-mini-progress-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/dynamic-progress-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/dashboard-progress-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/format-progress-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/line-mini-progress-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/linecap-progress-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/steps-progress-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/progress/demo/gradient-line-progress-miccn.md"></embed></div>
           
   </Col>
           

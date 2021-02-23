@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: Radio.Group 组合 - 配置方式
- * desc: 通过配置 `options` 参数来渲染单选框。也可通过 `optionType` 参数来设置 Radio 类型。
+ * desc: 通过配置`options`参数来渲染单选框。也可通过`optionType`参数来设置Radio类型。
  */
 
 import React from 'react';

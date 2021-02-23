@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 可点击
- * desc: 用 a 标签进行包裹即可。
+ * desc: 用a标签进行包裹即可。
  */
 
 import React from 'react';

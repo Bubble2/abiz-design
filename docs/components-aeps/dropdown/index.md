@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 下拉菜单
+
 <div>
 <embed src="@docs-common/dropdown/index.md"></embed>
 </div>
@@ -20,31 +22,31 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/arrow-dropdown-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/basic-dropdown-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/context-menu-dropdown-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/event-dropdown-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/menu-full-dropdown-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/placement-dropdown-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/item-dropdown-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/trigger-dropdown-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/dropdown-button-dropdown-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/overlay-visible-dropdown-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/menu-full-dropdown-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/basic-dropdown-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/placement-dropdown-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/dropdown-button-dropdown-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/arrow-dropdown-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/item-dropdown-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/overlay-visible-dropdown-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/event-dropdown-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/sub-menu-dropdown-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/dropdown/demo/context-menu-dropdown-aeps.md"></embed></div>
           
   </Col>
           

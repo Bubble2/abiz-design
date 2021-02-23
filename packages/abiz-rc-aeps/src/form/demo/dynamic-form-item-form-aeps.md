@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 动态增减表单项
- * desc: 动态增加、减少表单项。`add` 方法参数可用于设置初始值。
+ * desc: 动态增加、减少表单项。`add`方法参数可用于设置初始值。
  */
 
 import React from 'react';

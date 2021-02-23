@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 触发事件
- * desc: 点击菜单项后会触发事件，用户可以通过相应的菜单项 key 进行不同的操作。
+ * desc: 点击菜单项后会触发事件，用户可以通过相应的菜单项key进行不同的操作。
  */
 
 import React from 'react';

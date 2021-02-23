@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 页头
+
 <div>
 <embed src="@docs-common/page-header/index.md"></embed>
 </div>

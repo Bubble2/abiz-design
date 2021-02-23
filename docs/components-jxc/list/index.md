@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 列表
+
 <div>
 <embed src="@docs-common/list/index.md"></embed>
 </div>
@@ -28,15 +30,15 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/infinite-load-list-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/infinite-virtualized-load-list-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/simple-list-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/loadmore-list-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/vertical-list-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/resposive-list-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/simple-list-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/vertical-list-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/list/demo/infinite-virtualized-load-list-jxc.md"></embed></div>
           
   </Col>
           

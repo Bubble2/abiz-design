@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 已上传的文件列表
- * desc: 使用 `defaultFileList` 设置已上传的内容。
+ * desc: 使用`defaultFileList`设置已上传的内容。
  */
 
 import React from 'react';

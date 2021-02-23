@@ -5,7 +5,7 @@ order: 3.1
 ```tsx
 /**
  * title: 表单尺寸
- * desc: 设置表单组件尺寸，仅对 antd 组件有效。
+ * desc: 设置表单组件尺寸，仅对antd组件有效。
  */
 
 import React, { useState } from 'react';

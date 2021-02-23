@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 位置
- * desc: 位置有十二个方向。如需箭头指向目标元素中心，可以设置 `arrowPointAtCenter`。
+ * desc: 位置有十二个方向。如需箭头指向目标元素中心，可以设置`arrowPointAtCenter`。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 12
 ```tsx
 /**
  * title: 使用 hooks 获得上下文
- * desc: 通过 `Modal.useModal` 创建支持读取 context 的 `contextHolder`。
+ * desc: 通过`Modal.useModal`创建支持读取context的`contextHolder`。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 卡片加载中
- * desc: 可以直接把内容内嵌到 `Spin` 中，将现有容器变为加载状态。
+ * desc: 可以直接把内容内嵌到`Spin`中，将现有容器变为加载状态。
  */
 
 import React from 'react';

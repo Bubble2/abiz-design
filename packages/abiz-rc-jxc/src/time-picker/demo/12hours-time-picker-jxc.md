@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 12 小时制
- * desc: 12 小时制的时间选择器，默认的 format 为 `h:mm:ss a`。
+ * desc: 12小时制的时间选择器，默认的format为`h:mm:ssa`。
  */
 
 import React from 'react';

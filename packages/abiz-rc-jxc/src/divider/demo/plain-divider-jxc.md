@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 分割文字使用正文样式
- * desc: 使用 `plain` 可以设置为更轻量的分割文字样式。
+ * desc: 使用`plain`可以设置为更轻量的分割文字样式。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 12
 ```tsx
 /**
  * title: 自定义交互图标
- * desc: 使用 `showUploadList` 设置列表交互图标。
+ * desc: 使用`showUploadList`设置列表交互图标。
  */
 
 import React from 'react';

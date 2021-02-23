@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 嵌套结构与校验信息
- * desc: <span></span>`name` 属性支持嵌套数据结构。通过 `validateMessages` 或 `message` 自定义校验信息模板，模板内容可参考[此处](https://github.com/react-component/field-form/blob/master/src/utils/messages.ts)。
+ * desc: <span></span>`name`属性支持嵌套数据结构。通过`validateMessages`或`message`自定义校验信息模板，模板内容可参考[此处](https://github.com/react-component/field-form/blob/master/src/utils/messages.ts)。
  */
 
 import React from 'react';

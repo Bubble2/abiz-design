@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 隐藏情况下计算字符对齐
- * desc: 切换 Avatar 显示的时候，文本样式应该居中并正确调整字体大小。
+ * desc: 切换Avatar显示的时候，文本样式应该居中并正确调整字体大小。
  */
 
 import React, { useState } from 'react';

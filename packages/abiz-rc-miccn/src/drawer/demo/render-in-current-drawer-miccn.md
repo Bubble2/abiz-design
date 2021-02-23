@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 渲染在当前 DOM
- * desc: 渲染在当前 dom 里。自定义容器，查看 getContainer。
+ * desc: 渲染在当前dom里。自定义容器，查看getContainer。
  */
 
 import React from 'react';

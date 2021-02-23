@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 固钉
+
 <div>
 <embed src="@docs-common/affix/index.md"></embed>
 </div>
@@ -22,15 +24,15 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/affix/demo/basic-affix-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/affix/demo/on-change-affix-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/affix/demo/target-affix-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/affix/demo/debug-affix-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/affix/demo/on-change-affix-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/affix/demo/target-affix-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/affix/demo/debug-affix-aeps.md"></embed></div>
           
   </Col>
           

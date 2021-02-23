@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 分页
+
 <div>
 <embed src="@docs-common/pagination/index.md"></embed>
 </div>
@@ -20,25 +22,25 @@ group:
 
   <Col span=24>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/all-pagination-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/basic-pagination-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/more-pagination-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/changer-pagination-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/controlled-pagination-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/itemRender-pagination-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/jump-pagination-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/mini-pagination-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/more-pagination-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/simple-pagination-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/controlled-pagination-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/total-pagination-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/all-pagination-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/pagination/demo/itemRender-pagination-jxc.md"></embed></div>
           
   </Col>
           

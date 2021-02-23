@@ -5,12 +5,12 @@ order: 5
 ```tsx
 /**
  * title: 标签
- * desc: 使用 `label` 标签单独展示时间。
+ * desc: 使用`label`标签单独展示时间。
  */
 
 import React from 'react';
-import { ConfigProvider, useState } from 'react';
-import { Timeline, Radio } from '@abiz/rc-jxc';
+import { useState } from 'react';
+import { ConfigProvider, Timeline, Radio } from '@abiz/rc-jxc';
 
 function TimelimeLabelDemo() {
   const [mode, setMode] = useState('left');

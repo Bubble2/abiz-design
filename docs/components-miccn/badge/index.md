@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 徽标数
+
 <div>
 <embed src="@docs-common/badge/index.md"></embed>
 </div>
@@ -22,15 +24,15 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/basic-badge-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/colorful-badge-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/overflow-badge-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/link-badge-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/offset-badge-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/ribbbon-badge-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/colorful-badge-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/size-badge-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/ribbbon-badge-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/title-badge-miccn.md"></embed></div>
           
@@ -38,17 +40,17 @@ group:
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/change-badge-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/no-wrapper-badge-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/dot-badge-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/no-wrapper-badge-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/overflow-badge-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/ribbon-debug-badge-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/change-badge-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/status-badge-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/size-badge-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/badge/demo/ribbon-debug-badge-miccn.md"></embed></div>
           
   </Col>
           

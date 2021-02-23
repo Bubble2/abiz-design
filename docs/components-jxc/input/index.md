@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 输入框
+
 <div>
 <embed src="@docs-common/input/index.md"></embed>
 </div>
@@ -20,43 +22,43 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/addon-input-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/allowClear-input-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/basic-input-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/borderless-input-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/password-input-input-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/addon-input-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/search-input-input-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/size-input-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/textarea-resize-input-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/search-input-loading-input-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/tooltip-input-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/password-input-input-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/textarea-show-count-input-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/borderless-debug-input-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/textarea-resize-input-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/align-input-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/autosize-textarea-input-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/borderless-debug-input-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/size-input-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/group-input-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/presuffix-input-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/search-input-loading-input-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/textarea-input-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/textarea-show-count-input-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/autosize-textarea-input-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/presuffix-input-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/allowClear-input-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/borderless-input-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/input/demo/align-input-jxc.md"></embed></div>
           
   </Col>
           

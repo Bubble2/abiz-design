@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 加载中
+
 <div>
 <embed src="@docs-common/spin/index.md"></embed>
 </div>
@@ -22,21 +24,21 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/basic-spin-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/delayAndDebounce-spin-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/nested-spin-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/inside-spin-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/tip-spin-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/custom-indicator-spin-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/custom-indicator-spin-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/inside-spin-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/size-spin-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/nested-spin-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/spin/demo/delayAndDebounce-spin-miccn.md"></embed></div>
           
   </Col>
           

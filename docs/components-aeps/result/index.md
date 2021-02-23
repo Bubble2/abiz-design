@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 结果
+
 <div>
 <embed src="@docs-common/result/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=24>
     
+  <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/success-result-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/info-result-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/warning-result-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/403-result-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/404-result-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/500-result-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/customIcon-result-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/error-result-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/info-result-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/success-result-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/warning-result-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/result/demo/customIcon-result-aeps.md"></embed></div>
           
   </Col>
           

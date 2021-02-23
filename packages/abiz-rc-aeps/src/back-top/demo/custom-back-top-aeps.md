@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 自定义样式
- * desc: 可以自定义回到顶部按钮的样式，限制宽高：`40px * 40px`。
+ * desc: 可以自定义回到顶部按钮的样式，限制宽高：`40px*40px`。
  */
 
 import React from 'react';

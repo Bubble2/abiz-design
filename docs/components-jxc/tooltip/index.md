@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 文字提示
+
 <div>
 <embed src="@docs-common/tooltip/index.md"></embed>
 </div>
@@ -32,9 +34,9 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/tooltip/demo/auto-adjust-overflow-tooltip-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tooltip/demo/colorful-tooltip-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/tooltip/demo/placement-tooltip-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tooltip/demo/colorful-tooltip-jxc.md"></embed></div>
           
   </Col>
           

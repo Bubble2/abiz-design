@@ -5,7 +5,7 @@ order: 13
 ```tsx
 /**
  * title: 自定义渲染对话框
- * desc: 自定义渲染对话框, 可通过 `react-draggable` 来实现拖拽。
+ * desc: 自定义渲染对话框,可通过`react-draggable`来实现拖拽。
  */
 
 import React from 'react';

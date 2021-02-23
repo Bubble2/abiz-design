@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 气泡确认框
+
 <div>
 <embed src="@docs-common/popconfirm/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/async-popconfirm-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/basic-popconfirm-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/dynamic-trigger-popconfirm-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/placement-popconfirm-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/locale-popconfirm-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/icon-popconfirm-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/basic-popconfirm-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/locale-popconfirm-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/icon-popconfirm-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/dynamic-trigger-popconfirm-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/placement-popconfirm-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/popconfirm/demo/async-popconfirm-miccn.md"></embed></div>
           
   </Col>
           

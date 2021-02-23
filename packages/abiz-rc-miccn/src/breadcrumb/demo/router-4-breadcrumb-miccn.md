@@ -5,19 +5,18 @@ order: 3
 ```tsx
 /**
  * title: 其它路由
- * desc: 和 `react-router@4+`，或其他路由进行结合使用。
+ * desc: 和`react-router@4+`，或其他路由进行结合使用。
  */
 
 import React from 'react';
 import {
-  ConfigProvider,
   HashRouter as Router,
   Route,
   Switch,
   Link,
   withRouter,
 } from 'react-router-dom';
-import { Breadcrumb, Alert } from '@abiz/rc-miccn';
+import { ConfigProvider, Breadcrumb, Alert } from '@abiz/rc-miccn';
 
 const Apps = () => (
   <ul className="app-list">

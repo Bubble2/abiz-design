@@ -5,10 +5,11 @@ order: 2
 ```tsx
 /**
  * title: 自定义图标
- * desc: 利用 `Icon` 组件封装一个可复用的自定义图标。可以通过 `component` 属性传入一个组件来渲染最终的图标，以满足特定的需求。
+ * desc: 利用`Icon`组件封装一个可复用的自定义图标。可以通过`component`属性传入一个组件来渲染最终的图标，以满足特定的需求。
  */
 
 import React from 'react';
+import { ConfigProvider } from '@abiz/rc-miccn';
 import Icon from '@abiz/icons-miccn';
 
 const HeartSvg = () => (

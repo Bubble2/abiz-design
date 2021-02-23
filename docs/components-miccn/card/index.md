@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 卡片
+
 <div>
 <embed src="@docs-common/card/index.md"></embed>
 </div>
@@ -24,21 +26,21 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/border-less-card-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/flexible-content-card-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/simple-card-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/grid-card-card-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/flexible-content-card-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/in-column-card-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/inner-card-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/loading-card-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/meta-card-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/grid-card-card-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/simple-card-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/inner-card-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/tabs-card-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/card/demo/meta-card-miccn.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 0.1
 ```tsx
 /**
  * title: 单向样式
- * desc: 通过 `oneWay` 将 Transfer 转为单向样式。
+ * desc: 通过`oneWay`将Transfer转为单向样式。
  */
 
 import React from 'react';

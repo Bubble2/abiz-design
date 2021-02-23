@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 提及
+
 <div>
 <embed src="@docs-common/mentions/index.md"></embed>
 </div>
@@ -20,23 +22,23 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/async-mentions-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/basic-mentions-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/placement-mentions-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/form-mentions-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/readonly-mentions-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/autoSize-mentions-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/autoSize-mentions-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/form-mentions-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/async-mentions-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/prefix-mentions-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/mentions/demo/placement-mentions-aeps.md"></embed></div>
           
   </Col>
           

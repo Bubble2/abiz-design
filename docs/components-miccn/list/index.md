@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 列表
+
 <div>
 <embed src="@docs-common/list/index.md"></embed>
 </div>
@@ -28,15 +30,15 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/infinite-load-list-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/infinite-virtualized-load-list-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/simple-list-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/loadmore-list-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/vertical-list-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/resposive-list-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/simple-list-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/vertical-list-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/list/demo/infinite-virtualized-load-list-miccn.md"></embed></div>
           
   </Col>
           

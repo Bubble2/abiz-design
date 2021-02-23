@@ -5,7 +5,7 @@ order: 27
 ```tsx
 /**
  * title: 拖拽手柄列
- * desc: 也可以使用 [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) 来实现一个拖拽操作列。
+ * desc: 也可以使用[react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)来实现一个拖拽操作列。
  */
 
 import React from 'react';

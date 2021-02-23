@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 垂直
- * desc: 垂直方向的 Slider。
+ * desc: 垂直方向的Slider。
  */
 
 import React from 'react';

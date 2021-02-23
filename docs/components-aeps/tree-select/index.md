@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 树选择
+
 <div>
 <embed src="@docs-common/tree-select/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=12>
     
+  <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/basic-tree-select-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/treeData-tree-select-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/async-tree-select-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/checkable-tree-select-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/suffix-tree-select-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/basic-tree-select-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/multiple-tree-select-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/treeData-tree-select-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/checkable-tree-select-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tree-select/demo/suffix-tree-select-aeps.md"></embed></div>
           
   </Col>
           

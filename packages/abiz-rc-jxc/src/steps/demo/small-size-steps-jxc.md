@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 迷你版
- * desc: 迷你版的步骤条，通过设置 `<Steps size="small">` 启用.
+ * desc: 迷你版的步骤条，通过设置`<Stepssize="small">`启用.
  */
 
 import React from 'react';

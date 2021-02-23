@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 按钮
+
 <div>
 <embed src="@docs-common/button/index.md"></embed>
 </div>
@@ -22,27 +24,27 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/basic-button-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/danger-button-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/size-button-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/loading-button-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/ghost-button-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/legacy-group-button-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/multiple-button-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/block-button-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/block-button-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/icon-button-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/disabled-button-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/icon-button-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/multiple-button-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/loading-button-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/danger-button-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/size-button-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/button/demo/legacy-group-button-aeps.md"></embed></div>
           
   </Col>
           

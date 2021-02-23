@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 自动完成
+
 <div>
 <embed src="@docs-common/auto-complete/index.md"></embed>
 </div>
@@ -24,19 +26,19 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/custom-auto-complete-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/non-case-sensitive-auto-complete-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/certain-category-auto-complete-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/uncertain-category-auto-complete-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/form-debug-auto-complete-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/certain-category-auto-complete-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/form-debug-auto-complete-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/options-auto-complete-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/non-case-sensitive-auto-complete-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/auto-complete/demo/uncertain-category-auto-complete-jxc.md"></embed></div>
           
   </Col>
           

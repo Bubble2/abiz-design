@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 列表
+
 <div>
 <embed src="@docs-common/list/index.md"></embed>
 </div>
@@ -28,15 +30,15 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/infinite-load-list-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/infinite-virtualized-load-list-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/simple-list-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/loadmore-list-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/vertical-list-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/resposive-list-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/simple-list-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/vertical-list-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/list/demo/infinite-virtualized-load-list-aeps.md"></embed></div>
           
   </Col>
           

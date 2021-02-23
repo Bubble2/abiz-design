@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 主题
- * desc: 内建了两套主题 `light` 和 `dark`，默认 `light`。
+ * desc: 内建了两套主题`light`和`dark`，默认`light`。
  */
 
 import React from 'react';

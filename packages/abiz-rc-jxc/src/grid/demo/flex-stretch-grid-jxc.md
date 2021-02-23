@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: Flex 填充
- * desc: Col 提供 `flex` 属性以支持填充。
+ * desc: Col提供`flex`属性以支持填充。
  */
 
 import React from 'react';

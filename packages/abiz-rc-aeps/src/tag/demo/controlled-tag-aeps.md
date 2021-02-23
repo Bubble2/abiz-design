@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 控制关闭状态
- * desc: 通过 `visible` 属性控制关闭状态。
+ * desc: 通过`visible`属性控制关闭状态。
  */
 
 import React from 'react';

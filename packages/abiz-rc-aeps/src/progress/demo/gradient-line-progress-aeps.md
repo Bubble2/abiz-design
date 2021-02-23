@@ -5,7 +5,7 @@ order: 11
 ```tsx
 /**
  * title: 自定义进度条渐变色
- * desc: <span></span>`linear-gradient` 的封装。推荐只传两种颜色。
+ * desc: <span></span>`linear-gradient`的封装。推荐只传两种颜色。
  */
 
 import React from 'react';

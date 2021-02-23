@@ -5,7 +5,7 @@ order: 8
 ```tsx
 /**
  * title: 可控的筛选和排序
- * desc: 使用受控属性对筛选和排序状态进行控制。> 1. columns 中定义了 filteredValue 和 sortOrder 属性即视为受控模式。> 2. 只支持同时对一列进行排序，请保证只有一列的 sortOrder 属性是生效的。> 3. 务必指定 `column.key`。
+ * desc: 使用受控属性对筛选和排序状态进行控制。>1.columns中定义了filteredValue和sortOrder属性即视为受控模式。>2.只支持同时对一列进行排序，请保证只有一列的sortOrder属性是生效的。>3.务必指定`column.key`。
  */
 
 import React from 'react';

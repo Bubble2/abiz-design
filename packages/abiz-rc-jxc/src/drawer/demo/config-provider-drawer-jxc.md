@@ -5,7 +5,7 @@ order: 99
 ```tsx
 /**
  * title: ConfigProvider
- * desc: 支持 ConfigProvider 配置。
+ * desc: 支持ConfigProvider配置。
  */
 
 import React, { useState, useRef } from 'react';

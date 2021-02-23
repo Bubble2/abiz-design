@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 可选择
- * desc: 第一列是联动的选择框。可以通过 `rowSelection.type` 属性指定选择类型，默认为 `checkbox`。> 默认点击 checkbox 触发选择行为，需要点击行触发可以参考例子：<https://codesandbox.io/s/000vqw38rl>
+ * desc: 第一列是联动的选择框。可以通过`rowSelection.type`属性指定选择类型，默认为`checkbox`。>默认点击checkbox触发选择行为，需要点击行触发可以参考例子：<https://codesandbox.io/s/000vqw38rl>
  */
 
 import React, { useState } from 'react';

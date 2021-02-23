@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 总数
- * desc: 通过设置 `showTotal` 展示总共有多少数据。
+ * desc: 通过设置`showTotal`展示总共有多少数据。
  */
 
 import React from 'react';

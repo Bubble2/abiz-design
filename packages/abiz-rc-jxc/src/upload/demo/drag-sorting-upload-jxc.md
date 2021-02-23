@@ -5,7 +5,7 @@ order: 13
 ```tsx
 /**
  * title: 上传列表拖拽排序
- * desc: 使用 `itemRender` ，我们可以集成 react-dnd 来实现对上传列表拖拽排序。
+ * desc: 使用`itemRender`，我们可以集成react-dnd来实现对上传列表拖拽排序。
  */
 
 import React, { useState, useCallback, useRef } from 'react';

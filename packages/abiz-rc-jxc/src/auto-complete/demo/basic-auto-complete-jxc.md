@@ -5,7 +5,7 @@ order: 0
 ```tsx
 /**
  * title: 基本使用
- * desc: 基本使用，通过 `options` 设置自动完成的数据源。
+ * desc: 基本使用，通过`options`设置自动完成的数据源。
  */
 
 import React, { useState } from 'react';

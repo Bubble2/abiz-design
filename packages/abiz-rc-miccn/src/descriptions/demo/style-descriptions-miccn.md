@@ -5,7 +5,7 @@ order: 999
 ```tsx
 /**
  * title: 自定义 label & wrapper 样式
- * desc: 自定义 label & wrapper 样式
+ * desc: 自定义label&wrapper样式
  */
 
 import React from 'react';

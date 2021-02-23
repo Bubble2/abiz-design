@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 树选择
+
 <div>
 <embed src="@docs-common/tree-select/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=12>
     
+  <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/basic-tree-select-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/treeData-tree-select-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/async-tree-select-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/checkable-tree-select-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/suffix-tree-select-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/basic-tree-select-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/multiple-tree-select-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/treeData-tree-select-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/checkable-tree-select-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tree-select/demo/suffix-tree-select-jxc.md"></embed></div>
           
   </Col>
           

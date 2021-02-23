@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 间距
+
 <div>
 <embed src="@docs-common/space/index.md"></embed>
 </div>
@@ -24,17 +26,17 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/base-space-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/customize-space-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/debug-space-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/vertical-space-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/size-space-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/split-space-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/vertical-space-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/customize-space-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/wrap-space-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/debug-space-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/space/demo/split-space-miccn.md"></embed></div>
           
   </Col>
           

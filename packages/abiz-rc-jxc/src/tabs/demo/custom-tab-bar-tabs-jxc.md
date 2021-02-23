@@ -5,7 +5,7 @@ order: 12
 ```tsx
 /**
  * title: 自定义页签头
- * desc: 使用 react-sticky 组件实现吸顶效果。
+ * desc: 使用react-sticky组件实现吸顶效果。
  */
 
 import React from 'react';

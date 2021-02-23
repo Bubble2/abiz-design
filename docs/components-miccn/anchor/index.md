@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 锚点
+
 <div>
 <embed src="@docs-common/anchor/index.md"></embed>
 </div>
@@ -22,19 +24,19 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/basic-anchor-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/onChange-anchor-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/onClick-anchor-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/static-anchor-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/targetOffset-anchor-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
+  <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/static-anchor-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/customizeHighlight-anchor-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/onClick-anchor-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/targetOffset-anchor-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/anchor/demo/onChange-anchor-miccn.md"></embed></div>
           
   </Col>
           

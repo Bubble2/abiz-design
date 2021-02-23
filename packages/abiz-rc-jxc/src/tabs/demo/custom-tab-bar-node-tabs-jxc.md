@@ -5,7 +5,7 @@ order: 13
 ```tsx
 /**
  * title: 可拖拽标签
- * desc: 使用 `react-dnd` 实现标签可拖拽。
+ * desc: 使用`react-dnd`实现标签可拖拽。
  */
 
 import React from 'react';

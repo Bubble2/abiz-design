@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 表格穿梭框
- * desc: 使用 Table 组件作为自定义渲染列表。
+ * desc: 使用Table组件作为自定义渲染列表。
  */
 
 import React from 'react';

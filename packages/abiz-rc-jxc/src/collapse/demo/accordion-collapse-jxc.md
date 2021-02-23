@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 手风琴
- * desc: 手风琴，每次只打开一个 tab。
+ * desc: 手风琴，每次只打开一个tab。
  */
 
 import React from 'react';

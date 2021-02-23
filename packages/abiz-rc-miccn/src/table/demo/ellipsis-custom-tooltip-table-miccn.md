@@ -5,7 +5,7 @@ order: 29
 ```tsx
 /**
  * title: 自定义单元格省略提示
- * desc: 设置 `column.ellipsis.showTitle` 关闭单元格内容自动省略后默认的 `title` 提示, 使用 `Tooltip` 替代。
+ * desc: 设置`column.ellipsis.showTitle`关闭单元格内容自动省略后默认的`title`提示,使用`Tooltip`替代。
  */
 
 import React from 'react';

@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 加载中
+
 <div>
 <embed src="@docs-common/spin/index.md"></embed>
 </div>
@@ -22,21 +24,21 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/basic-spin-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/delayAndDebounce-spin-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/nested-spin-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/inside-spin-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/tip-spin-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/custom-indicator-spin-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/custom-indicator-spin-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/inside-spin-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/size-spin-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/nested-spin-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/spin/demo/delayAndDebounce-spin-aeps.md"></embed></div>
           
   </Col>
           

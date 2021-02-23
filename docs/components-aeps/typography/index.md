@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 排版
+
 <div>
 <embed src="@docs-common/typography/index.md"></embed>
 </div>
@@ -22,19 +24,19 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/basic-typography-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/ellipsis-debug-typography-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/ellipsis-typography-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/interactive-typography-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/title-typography-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/paragraph-debug-typography-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/suffix-typography-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/text-typography-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/title-typography-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/interactive-typography-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/ellipsis-typography-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/ellipsis-debug-typography-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/typography/demo/suffix-typography-aeps.md"></embed></div>
           
   </Col>
           

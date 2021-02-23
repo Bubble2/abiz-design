@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 全局化配置
- * desc: 自定义全局组件的 Empty 样式。
+ * desc: 自定义全局组件的Empty样式。
  */
 
 import React from 'react';

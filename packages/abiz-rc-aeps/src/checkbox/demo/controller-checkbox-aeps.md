@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 受控的 Checkbox
- * desc: 联动 checkbox。
+ * desc: 联动checkbox。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 手动上传
- * desc: <span></span>`beforeUpload` 返回 `false` 后，手动上传文件。
+ * desc: <span></span>`beforeUpload`返回`false`后，手动上传文件。
  */
 
 import React from 'react';

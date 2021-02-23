@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 滑动输入条
+
 <div>
 <embed src="@docs-common/slider/index.md"></embed>
 </div>
@@ -24,23 +26,23 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/icon-slider-slider-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/mark-slider-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/show-tooltip-slider-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/event-slider-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/vertical-slider-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/reverse-slider-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/event-slider-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/input-number-slider-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/reverse-slider-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/tip-formatter-slider-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/mark-slider-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/show-tooltip-slider-miccn.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 修改延时
- * desc: 自定义时长 `10s`，默认时长为 `3s`。
+ * desc: 自定义时长`10s`，默认时长为`3s`。
  */
 
 import React from 'react';

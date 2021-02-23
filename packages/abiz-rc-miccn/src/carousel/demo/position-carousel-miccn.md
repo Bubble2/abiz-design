@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 位置
- * desc: 位置有 4 个方向。
+ * desc: 位置有4个方向。
  */
 
 import React from 'react';

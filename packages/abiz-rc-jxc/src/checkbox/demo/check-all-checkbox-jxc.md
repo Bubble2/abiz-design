@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 全选
- * desc: 在实现全选效果时，你可能会用到 `indeterminate` 属性。
+ * desc: 在实现全选效果时，你可能会用到`indeterminate`属性。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 色付きポップアップ
- * desc: カスタムクラスを `TimePicker`ポップアップに渡す
+ * desc: カスタムクラスを`TimePicker`ポップアップに渡す
  */
 
 import React from 'react';

@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 气泡卡片
+
 <div>
 <embed src="@docs-common/popover/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/arrow-point-at-center-popover-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/control-popover-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/basic-popover-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/placement-popover-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/arrow-point-at-center-popover-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/basic-popover-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/triggerType-popover-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/control-popover-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/hover-with-click-popover-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/popover/demo/triggerType-popover-jxc.md"></embed></div>
           
   </Col>
           

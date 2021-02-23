@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 布局
+
 <div>
 <embed src="@docs-common/layout/index.md"></embed>
 </div>
@@ -22,23 +24,23 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/basic-layout-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/custom-trigger-debug-layout-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/custom-trigger-layout-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/fixed-layout-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/fixed-sider-layout-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/responsive-layout-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/side-layout-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/top-layout-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/top-side-2-layout-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/top-side-layout-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/side-layout-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/custom-trigger-layout-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/responsive-layout-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/fixed-layout-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/fixed-sider-layout-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/layout/demo/custom-trigger-debug-layout-jxc.md"></embed></div>
           
   </Col>
           

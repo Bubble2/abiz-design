@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 可选择标签
- * desc: 可通过 `CheckableTag` 实现类似 Checkbox 的效果，点击切换选中效果。> 该组件为完全受控组件，不支持非受控用法。
+ * desc: 可通过`CheckableTag`实现类似Checkbox的效果，点击切换选中效果。>该组件为完全受控组件，不支持非受控用法。
  */
 
 import React from 'react';

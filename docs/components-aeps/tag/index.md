@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 标签
+
 <div>
 <embed src="@docs-common/tag/index.md"></embed>
 </div>
@@ -20,27 +22,27 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/animation-tag-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/checkable-tag-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/basic-tag-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/control-tag-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/customize-tag-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/controlled-tag-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/status-tag-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/icon-tag-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/customize-tag-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/basic-tag-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/colorful-tag-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/controlled-tag-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/checkable-tag-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/icon-tag-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/animation-tag-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/status-tag-aeps.md"></embed></div>
           
   </Col>
           

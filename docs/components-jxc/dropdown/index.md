@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 下拉菜单
+
 <div>
 <embed src="@docs-common/dropdown/index.md"></embed>
 </div>
@@ -20,31 +22,31 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/arrow-dropdown-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/basic-dropdown-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/context-menu-dropdown-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/event-dropdown-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/menu-full-dropdown-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/placement-dropdown-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/item-dropdown-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/trigger-dropdown-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/dropdown-button-dropdown-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/overlay-visible-dropdown-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/menu-full-dropdown-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/basic-dropdown-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/placement-dropdown-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/dropdown-button-dropdown-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/arrow-dropdown-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/item-dropdown-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/overlay-visible-dropdown-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/event-dropdown-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/sub-menu-dropdown-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/dropdown/demo/context-menu-dropdown-jxc.md"></embed></div>
           
   </Col>
           

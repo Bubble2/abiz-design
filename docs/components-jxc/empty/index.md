@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 空状态
+
 <div>
 <embed src="@docs-common/empty/index.md"></embed>
 </div>
@@ -22,13 +24,13 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/empty/demo/basic-empty-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/empty/demo/config-provider-empty-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/empty/demo/simple-empty-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/empty/demo/customize-empty-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/empty/demo/description-empty-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/empty/demo/config-provider-empty-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/empty/demo/simple-empty-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/empty/demo/description-empty-jxc.md"></embed></div>
           
   </Col>
           

@@ -80,7 +80,7 @@ paths.forEach(item => {
       let subTitle = data.match(/(?<=zh-CN\n*\s+)((?!\n)[\s\S]+)(?=\n*##\s*en-US)/gms);
       if(subTitle && subTitle.length){
         subTitle = subTitle[0];
-        subTitle = subTitle.replace(/[\r\n]*/gs, '');
+        subTitle = subTitle.replace(/[\s\r\n]*/gs, '');
         subTitle = /^\`/g.test(subTitle) ? '<span></span>' + subTitle : subTitle;
         subTitle = /^\[[\s\S]+\]/g.test(subTitle) ? subTitle + ':' : subTitle;
         subTitle = subTitle.replace(/\`\`\`/g, '\\\`\`\`');
@@ -115,13 +115,19 @@ paths.forEach(item => {
         let newCode = '';
         if(/import[\s\S]+ConfigProvider.*antd'/igs.test(code)){
           newCode = code.replace(
-            /import\s*(\{)((?!import).*)antd'/igs,
+            /import\s*(\{)(((?!import).)*)antd'/igs,
             `import $1$2${pkgPath.importPath}'`,
+          );
+        }else if(/import\s*(\{)(((?!import).)*)antd'/igs.test(code)){
+          newCode = code.replace(
+            /import\s*(\{)(((?!import).)*)antd'/igs,
+            `import $1ConfigProvider,$2${pkgPath.importPath}'`,
           );
         }else{
           newCode = code.replace(
-            /import\s*(\{)((?!import).*)antd'/igs,
-            `import $1ConfigProvider,$2${pkgPath.importPath}'`,
+            /(.+)/igs,
+            `import {ConfigProvider} from '${pkgPath.importPath}'
+            $1`,
           );
         }
 

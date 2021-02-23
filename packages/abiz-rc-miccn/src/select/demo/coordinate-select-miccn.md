@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 联动
- * desc: 省市联动是典型的例子。推荐使用 [Cascader](/components/cascader/) 组件。
+ * desc: 省市联动是典型的例子。推荐使用[Cascader](/components/cascader/)组件。
  */
 
 import React from 'react';

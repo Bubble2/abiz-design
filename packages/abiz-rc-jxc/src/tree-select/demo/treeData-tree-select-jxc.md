@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 从数据直接生成
- * desc: 使用 `treeData` 把 JSON 数据直接生成树结构。
+ * desc: 使用`treeData`把JSON数据直接生成树结构。
  */
 
 import React from 'react';

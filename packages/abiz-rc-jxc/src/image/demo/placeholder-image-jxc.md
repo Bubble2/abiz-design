@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 渐进加载
- * desc: 大图使用 placeholder 渐进加载。
+ * desc: 大图使用placeholder渐进加载。
  */
 
 import React from 'react';

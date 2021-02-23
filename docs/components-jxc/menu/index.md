@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 导航菜单
+
 <div>
 <embed src="@docs-common/menu/index.md"></embed>
 </div>
@@ -22,19 +24,19 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/horizontal-menu-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/inline-collapsed-menu-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/inline-menu-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/inline-collapsed-menu-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/sider-current-menu-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/style-debug-menu-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/switch-mode-menu-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/vertical-menu-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/theme-menu-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/vertical-menu-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/switch-mode-menu-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/menu/demo/style-debug-menu-jxc.md"></embed></div>
           
   </Col>
           

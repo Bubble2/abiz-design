@@ -5,7 +5,7 @@ order: 19
 ```tsx
 /**
  * title: 自行处理表单数据
- * desc: <span></span>`Form` 具有自动收集数据并校验的功能，但如果您不需要这个功能，或者默认的行为无法满足业务需求，可以选择自行处理数据。
+ * desc: <span></span>`Form`具有自动收集数据并校验的功能，但如果您不需要这个功能，或者默认的行为无法满足业务需求，可以选择自行处理数据。
  */
 
 import React, { useState } from 'react';

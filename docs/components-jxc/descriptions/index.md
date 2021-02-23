@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 描述列表
+
 <div>
 <embed src="@docs-common/descriptions/index.md"></embed>
 </div>
@@ -24,17 +26,17 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/border-descriptions-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/responsive-descriptions-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/text-descriptions-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/size-descriptions-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/style-descriptions-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/responsive-descriptions-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/text-descriptions-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/vertical-descriptions-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/vertical-border-descriptions-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/vertical-descriptions-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/descriptions/demo/style-descriptions-jxc.md"></embed></div>
           
   </Col>
           

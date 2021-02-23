@@ -36,7 +36,7 @@
 | onOpenChange | SubMenu 展开/关闭的回调 | function(openKeys: string\[]) | - |  |
 | onSelect | 被选中时调用 | function({ item, key, keyPath, selectedKeys, domEvent }) | -   |  |
 
-> 更多属性查看 [rc-menu](https://github.com/react-component/menu#api)
+ 更多属性查看 [rc-menu](https://github.com/react-component/menu#api)
 
 ### Menu.Item
 
@@ -48,25 +48,25 @@
 | key | item 的唯一标志 | string | - |  |
 | title | 设置收缩时展示的悬浮标题 | string | - |  |
 
-> 注意：`icon` 是 `4.2.0` 新增的属性，之前的版本请使用下面的方式定义图标。
->
-> ```jsx | pure
+ 注意：`icon` 是 `4.2.0` 新增的属性，之前的版本请使用下面的方式定义图标。
 
-> <Menu.Item>
->   <PieChartOutlined />
->   <span>Option 1</span>
-> </Menu.Item>
-> <Menu.SubMenu
->   title={
->     <>
->       <PieChartOutlined />
->       <span>Option 2</span>
->     </>
->   }
-> >
->   ...
-> </Menu.SubMenu>
-> ```
+ ```jsx | pure
+
+ <Menu.Item>
+   <PieChartOutlined />
+   <span>Option 1</span>
+ </Menu.Item>
+ <Menu.SubMenu
+   title={
+     <>
+       <PieChartOutlined />
+       <span>Option 2</span>
+     </>
+   }
+ >
+   ...
+ </Menu.SubMenu>
+ ```
 
 ### Menu.SubMenu
 

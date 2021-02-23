@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 评分
+
 <div>
 <embed src="@docs-common/rate/index.md"></embed>
 </div>
@@ -22,21 +24,21 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/basic-rate-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/character-rate-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/disabled-rate-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/text-rate-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/clear-rate-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/character-function-rate-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/character-function-rate-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/clear-rate-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/half-rate-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/disabled-rate-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/rate/demo/character-rate-aeps.md"></embed></div>
           
   </Col>
           

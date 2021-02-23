@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 带输入框的滑块
- * desc: 和 [数字输入框](/components/input-number/) 组件保持同步。
+ * desc: 和[数字输入框](/components/input-number/)组件保持同步。
  */
 
 import React from 'react';

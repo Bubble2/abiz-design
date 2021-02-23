@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 按钮
+
 <div>
 <embed src="@docs-common/button/index.md"></embed>
 </div>
@@ -22,27 +24,27 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/basic-button-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/danger-button-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/size-button-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/loading-button-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/ghost-button-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/legacy-group-button-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/multiple-button-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/block-button-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/block-button-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/icon-button-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/disabled-button-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/icon-button-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/multiple-button-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/loading-button-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/danger-button-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/size-button-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/button/demo/legacy-group-button-jxc.md"></embed></div>
           
   </Col>
           

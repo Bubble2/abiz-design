@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 加载更多
- * desc: 可通过 `loadMore` 属性实现加载更多功能。
+ * desc: 可通过`loadMore`属性实现加载更多功能。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 方向
- * desc: 这里列出了支持 `rtl` 方向的组件，您可以在演示中切换方向。
+ * desc: 这里列出了支持`rtl`方向的组件，您可以在演示中切换方向。
  */
 
 import React from 'react';

@@ -132,7 +132,7 @@ return <div>{contextHolder}</div>;
 
 类似 `message.config()`，全局设置 `Modal.confirm` 等方法的属性（如 `prefixCls`）。
 
-> 此方法只对 `Modal.confirm|success|info|error|warning` 等**静态方法**生效，`<Modal />` 的调用方式是读取 ConfigProvider 的设置。
+ 此方法只对 `Modal.confirm|success|info|error|warning` 等**静态方法**生效，`<Modal />` 的调用方式是读取 ConfigProvider 的设置。
 
 ```jsx | pure
 

@@ -5,7 +5,7 @@ order: 28
 ```tsx
 /**
  * title: 单元格自动省略
- * desc: 设置 `column.ellipsis` 可以让单元格内容根据宽度自动省略。> 列头缩略暂不支持和排序筛选一起使用。
+ * desc: 设置`column.ellipsis`可以让单元格内容根据宽度自动省略。>列头缩略暂不支持和排序筛选一起使用。
  */
 
 import React from 'react';

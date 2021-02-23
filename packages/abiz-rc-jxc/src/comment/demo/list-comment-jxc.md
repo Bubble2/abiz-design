@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 配合 List 组件
- * desc: 配合 List 组件展现评论列表。
+ * desc: 配合List组件展现评论列表。
  */
 
 import React from 'react';

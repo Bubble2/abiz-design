@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 通知提醒框
+
 <div>
 <embed src="@docs-common/notification/index.md"></embed>
 </div>
@@ -22,25 +24,25 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/basic-notification-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/with-icon-notification-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/custom-icon-notification-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/custom-style-notification-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/hooks-notification-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/update-notification-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/with-icon-notification-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/custom-icon-notification-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/duration-notification-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/with-btn-notification-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/placement-notification-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/with-btn-notification-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/notification/demo/update-notification-miccn.md"></embed></div>
           
   </Col>
           

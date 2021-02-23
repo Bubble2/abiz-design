@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 间距
+
 <div>
 <embed src="@docs-common/space/index.md"></embed>
 </div>
@@ -24,17 +26,17 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/base-space-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/customize-space-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/debug-space-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/vertical-space-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/size-space-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/split-space-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/vertical-space-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/customize-space-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/wrap-space-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/debug-space-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/space/demo/split-space-aeps.md"></embed></div>
           
   </Col>
           

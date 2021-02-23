@@ -5,7 +5,7 @@ order: 10
 ```tsx
 /**
  * title: 上传前转换文件
- * desc: 使用 `beforeUpload` 转换上传的文件（例如添加水印）。
+ * desc: 使用`beforeUpload`转换上传的文件（例如添加水印）。
  */
 
 import React from 'react';

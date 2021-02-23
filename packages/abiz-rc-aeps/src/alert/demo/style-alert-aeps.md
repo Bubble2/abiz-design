@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 四种样式
- * desc: 共有四种样式 `success`、`info`、`warning`、`error`。
+ * desc: 共有四种样式`success`、`info`、`warning`、`error`。
  */
 
 import React from 'react';

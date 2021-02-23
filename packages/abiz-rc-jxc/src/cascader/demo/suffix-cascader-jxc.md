@@ -5,7 +5,7 @@ order: 11
 ```tsx
 /**
  * title: 自定义图标
- * desc: 通过 `suffixIcon` 自定义选择框后缀图标，通过 `expandIcon` 自定义次级菜单展开图标。
+ * desc: 通过`suffixIcon`自定义选择框后缀图标，通过`expandIcon`自定义次级菜单展开图标。
  */
 
 import React from 'react';

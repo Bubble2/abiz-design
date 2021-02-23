@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 预设状态的标签
- * desc: 预设五种状态颜色，可以通过设置 `color` 为 `success`、 `processing`、`error`、`default`、`warning` 来代表不同的状态。
+ * desc: 预设五种状态颜色，可以通过设置`color`为`success`、`processing`、`error`、`default`、`warning`来代表不同的状态。
  */
 
 import React from 'react';

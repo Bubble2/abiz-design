@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 自定义位置
- * desc: 使用 `centered` 或类似 `style.top` 的样式来设置对话框位置。
+ * desc: 使用`centered`或类似`style.top`的样式来设置对话框位置。
  */
 
 import React from 'react';

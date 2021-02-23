@@ -5,7 +5,7 @@ order: 0
 ```tsx
 /**
  * title: 基本用法
- * desc: 简单的 checkbox。
+ * desc: 简单的checkbox。
  */
 
 import React from 'react';

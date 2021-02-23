@@ -5,7 +5,7 @@ order: 99
 ```tsx
 /**
  * title: 后缀图标
- * desc: 点击 TimePicker，然后可以在浮层中选择或者输入某一时间。
+ * desc: 点击TimePicker，然后可以在浮层中选择或者输入某一时间。
  */
 
 import React from 'react';

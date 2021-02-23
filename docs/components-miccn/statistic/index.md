@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 统计数值
+
 <div>
 <embed src="@docs-common/statistic/index.md"></embed>
 </div>
@@ -22,15 +24,15 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/statistic/demo/basic-statistic-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/statistic/demo/countdown-statistic-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/statistic/demo/card-statistic-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/statistic/demo/card-statistic-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/statistic/demo/unit-statistic-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/statistic/demo/countdown-statistic-miccn.md"></embed></div>
           
   </Col>
           

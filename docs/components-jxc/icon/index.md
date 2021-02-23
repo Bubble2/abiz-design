@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 图标
+
 <div>
 <embed src="@docs-common/icon/index.md"></embed>
 </div>
@@ -22,17 +24,17 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/basic-icon-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/iconfont-icon-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/custom-icon-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/two-tone-icon-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/scriptUrl-icon-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/custom-icon-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/two-tone-icon-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/scriptUrl-icon-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/icon/demo/iconfont-icon-jxc.md"></embed></div>
           
   </Col>
           

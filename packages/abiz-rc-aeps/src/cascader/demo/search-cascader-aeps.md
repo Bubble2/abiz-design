@@ -5,7 +5,7 @@ order: 8
 ```tsx
 /**
  * title: 搜索
- * desc: 可以直接搜索选项并选择。> `Cascader[showSearch]` 暂不支持服务端搜索，更多信息见 [#5547](https://github.com/ant-design/ant-design/issues/5547)
+ * desc: 可以直接搜索选项并选择。>`Cascader[showSearch]`暂不支持服务端搜索，更多信息见[#5547](https://github.com/ant-design/ant-design/issues/5547)
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 0
 ```tsx
 /**
  * title: 基本
- * desc: 最简单的用法，4.5 秒后自动关闭。
+ * desc: 最简单的用法，4.5秒后自动关闭。
  */
 
 import React from 'react';

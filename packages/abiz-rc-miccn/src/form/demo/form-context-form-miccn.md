@@ -5,7 +5,7 @@ order: 8
 ```tsx
 /**
  * title: 多表单联动
- * desc: 通过 `Form.Provider` 在表单间处理数据。本例子中，Modal 的确认按钮在 Form 之外，通过 `form.submit` 方法调用表单提交功能。反之，则推荐使用 `<Button htmlType="submit" />` 调用 web 原生提交逻辑。
+ * desc: 通过`Form.Provider`在表单间处理数据。本例子中，Modal的确认按钮在Form之外，通过`form.submit`方法调用表单提交功能。反之，则推荐使用`<ButtonhtmlType="submit"/>`调用web原生提交逻辑。
  */
 
 import React, { useState, useEffect, useRef } from 'react';

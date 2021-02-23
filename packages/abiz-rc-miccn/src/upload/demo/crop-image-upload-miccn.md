@@ -5,7 +5,7 @@ order: 14
 ```tsx
 /**
  * title: 上传前裁切图片
- * desc: 配合 [antd-img-crop](https://github.com/nanxiaobei/antd-img-crop) 实现上传前裁切图片。
+ * desc: 配合[antd-img-crop](https://github.com/nanxiaobei/antd-img-crop)实现上传前裁切图片。
  */
 
 import React, { useState } from 'react';

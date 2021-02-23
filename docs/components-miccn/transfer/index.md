@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 穿梭框
+
 <div>
 <embed src="@docs-common/transfer/index.md"></embed>
 </div>
@@ -20,23 +22,23 @@ group:
 
   <Col span=24>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/advanced-transfer-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/basic-transfer-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/custom-item-transfer-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/custom-select-all-labels-transfer-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/large-data-transfer-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/oneWay-transfer-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/search-transfer-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/advanced-transfer-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/custom-item-transfer-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/large-data-transfer-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/table-transfer-transfer-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/tree-transfer-transfer-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/transfer/demo/custom-select-all-labels-transfer-miccn.md"></embed></div>
           
   </Col>
           

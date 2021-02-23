@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 动态加载选项
- * desc: 使用 `loadData` 实现动态加载选项。> 注意：`loadData` 与 `showSearch` 无法一起使用。
+ * desc: 使用`loadData`实现动态加载选项。>注意：`loadData`与`showSearch`无法一起使用。
  */
 
 import React from 'react';

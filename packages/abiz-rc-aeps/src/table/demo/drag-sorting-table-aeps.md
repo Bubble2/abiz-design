@@ -5,7 +5,7 @@ order: 26
 ```tsx
 /**
  * title: 拖拽排序
- * desc: 使用自定义元素，我们可以集成 react-dnd 来实现拖拽排序。
+ * desc: 使用自定义元素，我们可以集成react-dnd来实现拖拽排序。
  */
 
 import React, { useState, useCallback, useRef } from 'react';

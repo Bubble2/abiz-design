@@ -5,7 +5,7 @@ order: 10
 ```tsx
 /**
  * title: Block 按钮
- * desc: <span></span>`block` 属性将使按钮适合其父宽度。
+ * desc: <span></span>`block`属性将使按钮适合其父宽度。
  */
 
 import React from 'react';

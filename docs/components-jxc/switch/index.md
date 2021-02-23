@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 开关
+
 <div>
 <embed src="@docs-common/switch/index.md"></embed>
 </div>
@@ -22,9 +24,9 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/switch/demo/basic-switch-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/switch/demo/loading-switch-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/switch/demo/text-switch-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/switch/demo/loading-switch-jxc.md"></embed></div>
           
   </Col>
           

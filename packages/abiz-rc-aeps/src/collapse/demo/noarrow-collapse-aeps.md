@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 隐藏箭头
- * desc: 你可以通过 `showArrow={false}` 隐藏 `CollapsePanel` 组件的箭头图标。
+ * desc: 你可以通过`showArrow={false}`隐藏`CollapsePanel`组件的箭头图标。
  */
 
 import React from 'react';

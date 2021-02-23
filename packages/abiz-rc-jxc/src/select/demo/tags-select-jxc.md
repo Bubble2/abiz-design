@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 标签
- * desc: tags select，随意输入的内容（scroll the menu）。
+ * desc: tagsselect，随意输入的内容（scrollthemenu）。
  */
 
 import React from 'react';

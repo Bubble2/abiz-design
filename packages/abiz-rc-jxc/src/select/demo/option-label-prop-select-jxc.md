@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 定制回填内容
- * desc: 使用 `optionLabelProp` 指定回填到选择框的 `Option` 属性。
+ * desc: 使用`optionLabelProp`指定回填到选择框的`Option`属性。
  */
 
 import React from 'react';

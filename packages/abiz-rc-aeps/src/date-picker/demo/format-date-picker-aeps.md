@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 日期格式
- * desc: 使用 `format` 属性，可以自定义日期显示格式。
+ * desc: 使用`format`属性，可以自定义日期显示格式。
  */
 
 import React from 'react';

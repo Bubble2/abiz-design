@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 其他属性的响应式
- * desc: <span></span>`span` `pull` `push` `offset` `order` 属性可以通过内嵌到 `xs` `sm` `md` `lg` `xl` `xxl` 属性中来使用。其中 `xs={6}` 相当于 `xs={{ span: 6 }}`。
+ * desc: <span></span>`span``pull``push``offset``order`属性可以通过内嵌到`xs``sm``md``lg``xl``xxl`属性中来使用。其中`xs={6}`相当于`xs={{span:6}}`。
  */
 
 import React from 'react';

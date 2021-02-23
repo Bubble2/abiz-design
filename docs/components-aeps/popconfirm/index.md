@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 气泡确认框
+
 <div>
 <embed src="@docs-common/popconfirm/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/async-popconfirm-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/basic-popconfirm-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/dynamic-trigger-popconfirm-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/placement-popconfirm-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/locale-popconfirm-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/icon-popconfirm-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/basic-popconfirm-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/locale-popconfirm-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/icon-popconfirm-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/dynamic-trigger-popconfirm-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/placement-popconfirm-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/popconfirm/demo/async-popconfirm-aeps.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 排序
- * desc: 通过 `order` 来改变元素的排序。
+ * desc: 通过`order`来改变元素的排序。
  */
 
 import React from 'react';

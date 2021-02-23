@@ -5,7 +5,7 @@ order: 10
 ```tsx
 /**
  * title: 圆角/方角边缘
- * desc: 通过设定 `strokeLinecap="square|round"` 可以调整进度条边缘的形状。
+ * desc: 通过设定`strokeLinecap="square|round"`可以调整进度条边缘的形状。
  */
 
 import React from 'react';

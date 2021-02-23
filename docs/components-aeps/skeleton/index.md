@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 骨架屏
+
 <div>
 <embed src="@docs-common/skeleton/index.md"></embed>
 </div>
@@ -20,15 +22,15 @@ group:
 
   <Col span=24>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/skeleton/demo/active-skeleton-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/skeleton/demo/basic-skeleton-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/skeleton/demo/children-skeleton-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/skeleton/demo/complex-skeleton-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/skeleton/demo/active-skeleton-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/skeleton/demo/element-skeleton-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/skeleton/demo/children-skeleton-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/skeleton/demo/list-skeleton-aeps.md"></embed></div>
           

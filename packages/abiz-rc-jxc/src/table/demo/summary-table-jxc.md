@@ -5,7 +5,7 @@ order: 29
 ```tsx
 /**
  * title: 总结栏
- * desc: 通过 `summary` 设置总结栏。使用 `Table.Summary.Cell` 同步 Column 的固定状态。
+ * desc: 通过`summary`设置总结栏。使用`Table.Summary.Cell`同步Column的固定状态。
  */
 
 import React from 'react';

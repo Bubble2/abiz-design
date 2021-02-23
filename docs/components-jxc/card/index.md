@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 卡片
+
 <div>
 <embed src="@docs-common/card/index.md"></embed>
 </div>
@@ -24,21 +26,21 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/border-less-card-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/flexible-content-card-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/simple-card-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/grid-card-card-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/flexible-content-card-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/in-column-card-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/inner-card-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/loading-card-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/meta-card-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/grid-card-card-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/simple-card-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/inner-card-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/tabs-card-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/card/demo/meta-card-jxc.md"></embed></div>
           
   </Col>
           

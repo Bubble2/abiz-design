@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 空状态
+
 <div>
 <embed src="@docs-common/empty/index.md"></embed>
 </div>
@@ -22,13 +24,13 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/empty/demo/basic-empty-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/empty/demo/config-provider-empty-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/empty/demo/simple-empty-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/empty/demo/customize-empty-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/empty/demo/description-empty-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/empty/demo/config-provider-empty-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/empty/demo/simple-empty-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/empty/demo/description-empty-miccn.md"></embed></div>
           
   </Col>
           

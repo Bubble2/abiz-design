@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 加载中
+
 <div>
 <embed src="@docs-common/spin/index.md"></embed>
 </div>
@@ -22,21 +24,21 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/basic-spin-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/delayAndDebounce-spin-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/nested-spin-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/inside-spin-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/tip-spin-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/custom-indicator-spin-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/custom-indicator-spin-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/inside-spin-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/size-spin-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/nested-spin-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/spin/demo/delayAndDebounce-spin-jxc.md"></embed></div>
           
   </Col>
           

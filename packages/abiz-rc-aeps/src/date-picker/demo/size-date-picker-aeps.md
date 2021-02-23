@@ -5,7 +5,7 @@ order: 11
 ```tsx
 /**
  * title: 三种大小
- * desc: 三种大小的输入框，若不设置，则为 `default`。
+ * desc: 三种大小的输入框，若不设置，则为`default`。
  */
 
 import React from 'react';

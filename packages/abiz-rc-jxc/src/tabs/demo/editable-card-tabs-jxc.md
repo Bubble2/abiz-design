@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 新增和关闭页签
- * desc: 只有卡片样式的页签支持新增和关闭选项。使用 `closable={false}` 禁止关闭。
+ * desc: 只有卡片样式的页签支持新增和关闭选项。使用`closable={false}`禁止关闭。
  */
 
 import React from 'react';

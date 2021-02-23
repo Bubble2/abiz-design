@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 国际化
- * desc: 设置 `okText` 与 `cancelText` 以自定义按钮文字。
+ * desc: 设置`okText`与`cancelText`以自定义按钮文字。
  */
 
 import React from 'react';

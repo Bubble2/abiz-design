@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 虚拟滚动
- * desc: 使用 `height` 属性则切换为虚拟滚动。
+ * desc: 使用`height`属性则切换为虚拟滚动。
  */
 
 import React from 'react';

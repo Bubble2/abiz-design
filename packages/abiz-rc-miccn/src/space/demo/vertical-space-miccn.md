@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 垂直间距
- * desc: 相邻组件垂直间距。可以设置 `width: 100%` 独占一行。
+ * desc: 相邻组件垂直间距。可以设置`width:100%`独占一行。
  */
 
 import React from 'react';

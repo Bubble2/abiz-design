@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: Radio.Group 垂直
- * desc: 垂直的 Radio.Group，配合更多输入框选项。
+ * desc: 垂直的Radio.Group，配合更多输入框选项。
  */
 
 import React from 'react';

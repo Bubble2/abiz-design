@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 分隔符
- * desc: 使用 `separator=">"` 可以自定义分隔符。
+ * desc: 使用`separator=">"`可以自定义分隔符。
  */
 
 import React from 'react';

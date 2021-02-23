@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 单选框
+
 <div>
 <embed src="@docs-common/radio/index.md"></embed>
 </div>
@@ -20,29 +22,29 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/badge-radio-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/basic-radio-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/disabled-radio-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiobutton-solid-radio-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiogroup-radio-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiogroup-options-radio-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiogroup-with-name-radio-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiobutton-solid-radio-jxc.md"></embed></div>
+          
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/basic-radio-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiobutton-radio-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/disabled-radio-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiogroup-more-radio-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiogroup-radio-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/radiobutton-radio-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/size-radio-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/radio/demo/badge-radio-jxc.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 手动更新和移除
- * desc: 手动更新和关闭 `Modal.method` 方式创建的对话框。
+ * desc: 手动更新和关闭`Modal.method`方式创建的对话框。
  */
 
 import React from 'react';

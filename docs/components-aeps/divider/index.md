@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 分割线
+
 <div>
 <embed src="@docs-common/divider/index.md"></embed>
 </div>
@@ -20,17 +22,17 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/divider/demo/customize-style-divider-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/divider/demo/horizontal-divider-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/divider/demo/plain-divider-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/divider/demo/with-text-divider-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/divider/demo/customize-style-divider-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/divider/demo/horizontal-divider-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/divider/demo/with-text-divider-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/divider/demo/vertical-divider-aeps.md"></embed></div>
           

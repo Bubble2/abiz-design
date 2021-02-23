@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 隐藏后销毁
- * desc: 通过 `destroyTooltipOnHide` 控制提示关闭时是否销毁 dom 节点。
+ * desc: 通过`destroyTooltipOnHide`控制提示关闭时是否销毁dom节点。
  */
 
 import React from 'react';

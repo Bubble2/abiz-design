@@ -5,7 +5,7 @@ order: 27
 ```tsx
 /**
  * title: 可伸缩列
- * desc: 集成 [react-resizable](https://github.com/STRML/react-resizable) 来实现可伸缩列。如果有排序需要，可以通过[额外标记](https://codesandbox.io/s/zrj8xvyzxx)阻止触发排序。
+ * desc: 集成[react-resizable](https://github.com/STRML/react-resizable)来实现可伸缩列。如果有排序需要，可以通过[额外标记](https://codesandbox.io/s/zrj8xvyzxx)阻止触发排序。
  */
 
 import React from 'react';

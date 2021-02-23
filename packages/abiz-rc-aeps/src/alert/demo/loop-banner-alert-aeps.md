@@ -5,7 +5,7 @@ order: 6.1
 ```tsx
 /**
  * title: 轮播的公告
- * desc: 配合 [react-text-loop](https://npmjs.com/package/react-text-loop) 实现消息轮播通知栏。
+ * desc: 配合[react-text-loop](https://npmjs.com/package/react-text-loop)实现消息轮播通知栏。
  */
 
 import React from 'react';

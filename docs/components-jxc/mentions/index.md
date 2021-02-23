@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 提及
+
 <div>
 <embed src="@docs-common/mentions/index.md"></embed>
 </div>
@@ -20,23 +22,23 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/async-mentions-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/basic-mentions-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/placement-mentions-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/form-mentions-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/readonly-mentions-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/autoSize-mentions-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/autoSize-mentions-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/form-mentions-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/async-mentions-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/prefix-mentions-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/mentions/demo/placement-mentions-jxc.md"></embed></div>
           
   </Col>
           

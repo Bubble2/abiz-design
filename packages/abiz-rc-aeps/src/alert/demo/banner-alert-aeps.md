@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 顶部公告
- * desc: 页面顶部通告形式，默认有图标且 `type` 为 'warning'。
+ * desc: 页面顶部通告形式，默认有图标且`type`为'warning'。
  */
 
 import React from 'react';

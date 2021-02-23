@@ -5,7 +5,7 @@ order: 8
 ```tsx
 /**
  * title: 反向
- * desc: 设置 `reverse` 可以将滑动条置反。
+ * desc: 设置`reverse`可以将滑动条置反。
  */
 
 import React from 'react';

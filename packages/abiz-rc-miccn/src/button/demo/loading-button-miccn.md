@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 加载中状态
- * desc: 添加 `loading` 属性即可让按钮处于加载状态，最后两个按钮演示点击后进入加载状态。
+ * desc: 添加`loading`属性即可让按钮处于加载状态，最后两个按钮演示点击后进入加载状态。
  */
 
 import React from 'react';

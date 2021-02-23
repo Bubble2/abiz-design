@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 排版
- * desc: 布局基础。子元素根据不同的值 `start`,`center`,`end`,`space-between`,`space-around`，分别定义其在父节点里面的排版方式。
+ * desc: 布局基础。子元素根据不同的值`start`,`center`,`end`,`space-between`,`space-around`，分别定义其在父节点里面的排版方式。
  */
 
 import React from 'react';

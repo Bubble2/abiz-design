@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 标签页
+
 <div>
 <embed src="@docs-common/tabs/index.md"></embed>
 </div>
@@ -22,33 +24,33 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/basic-tabs-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/card-tabs-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/card-top-tabs-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/centered-tabs-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/custom-add-trigger-tabs-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/disabled-tabs-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/custom-tab-bar-node-tabs-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/custom-tab-bar-tabs-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/disabled-tabs-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/editable-card-tabs-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/extra-tabs-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/centered-tabs-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/icon-tabs-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/nest-tabs-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/slide-tabs-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/position-tabs-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/extra-tabs-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/size-tabs-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/slide-tabs-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/position-tabs-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/card-tabs-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/editable-card-tabs-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/card-top-tabs-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/custom-add-trigger-tabs-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/custom-tab-bar-tabs-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tabs/demo/nest-tabs-jxc.md"></embed></div>
           
   </Col>
           

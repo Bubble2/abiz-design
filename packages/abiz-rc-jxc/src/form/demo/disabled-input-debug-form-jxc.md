@@ -5,7 +5,7 @@ order: 30
 ```tsx
 /**
  * title: Disabled Input Debug
- * desc: Test disabled Input with validate state
+ * desc: TestdisabledInputwithvalidatestate
  */
 
 import React from 'react';

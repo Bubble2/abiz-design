@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 回到顶部
+
 <div>
 <embed src="@docs-common/back-top/index.md"></embed>
 </div>

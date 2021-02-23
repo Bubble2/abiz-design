@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 表单方法调用
- * desc: 通过 `Form.useForm` 对表单数据域进行交互。> 注意 `useForm` 是 [React Hooks](https://reactjs.org/docs/hooks-intro.html) 的实现，只能用于函数组件，class 组件请查看下面的例子。
+ * desc: 通过`Form.useForm`对表单数据域进行交互。>注意`useForm`是[ReactHooks](https://reactjs.org/docs/hooks-intro.html)的实现，只能用于函数组件，class组件请查看下面的例子。
  */
 
 import React from 'react';

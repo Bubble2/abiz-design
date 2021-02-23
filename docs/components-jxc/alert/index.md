@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 警告提示
+
 <div>
 <embed src="@docs-common/alert/index.md"></embed>
 </div>
@@ -20,33 +22,33 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/action-alert-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/basic-alert-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/close-text-alert-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/description-alert-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/closable-alert-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/icon-alert-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/banner-alert-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/smooth-closed-alert-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/custom-icon-alert-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/banner-alert-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/style-alert-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/closable-alert-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/description-alert-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/custom-icon-alert-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/error-boundary-alert-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/close-text-alert-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/loop-banner-alert-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/style-alert-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/error-boundary-alert-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/alert/demo/action-alert-jxc.md"></embed></div>
           
   </Col>
           

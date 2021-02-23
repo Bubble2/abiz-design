@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 排版
+
 <div>
 <embed src="@docs-common/typography/index.md"></embed>
 </div>
@@ -22,19 +24,19 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/basic-typography-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/ellipsis-debug-typography-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/ellipsis-typography-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/interactive-typography-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/title-typography-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/paragraph-debug-typography-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/suffix-typography-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/text-typography-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/title-typography-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/interactive-typography-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/ellipsis-typography-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/ellipsis-debug-typography-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/typography/demo/suffix-typography-miccn.md"></embed></div>
           
   </Col>
           

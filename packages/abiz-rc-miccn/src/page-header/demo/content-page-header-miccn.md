@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 组合示例
- * desc: 使用了 PageHeader 提供的所有能力。
+ * desc: 使用了PageHeader提供的所有能力。
  */
 
 import React from 'react';

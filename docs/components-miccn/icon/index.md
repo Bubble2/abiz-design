@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 图标
+
 <div>
 <embed src="@docs-common/icon/index.md"></embed>
 </div>
@@ -22,17 +24,17 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/basic-icon-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/iconfont-icon-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/custom-icon-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/two-tone-icon-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/scriptUrl-icon-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/custom-icon-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/two-tone-icon-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/scriptUrl-icon-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/icon/demo/iconfont-icon-miccn.md"></embed></div>
           
   </Col>
           

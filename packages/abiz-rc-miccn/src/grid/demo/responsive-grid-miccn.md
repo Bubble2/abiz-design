@@ -5,7 +5,7 @@ order: 8
 ```tsx
 /**
  * title: 响应式布局
- * desc: 参照 Bootstrap 的 [响应式设计](http://getbootstrap.com/css/#grid-media-queries)，预设六个响应尺寸：`xs` `sm` `md` `lg` `xl` `xxl`。
+ * desc: 参照Bootstrap的[响应式设计](http://getbootstrap.com/css/#grid-media-queries)，预设六个响应尺寸：`xs``sm``md``lg``xl``xxl`。
  */
 
 import React from 'react';

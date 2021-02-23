@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 警告提示
+
 <div>
 <embed src="@docs-common/alert/index.md"></embed>
 </div>
@@ -20,33 +22,33 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/action-alert-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/basic-alert-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/close-text-alert-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/description-alert-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/closable-alert-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/icon-alert-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/banner-alert-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/smooth-closed-alert-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/custom-icon-alert-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/banner-alert-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/style-alert-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/closable-alert-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/description-alert-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/custom-icon-alert-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/error-boundary-alert-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/close-text-alert-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/loop-banner-alert-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/style-alert-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/error-boundary-alert-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/alert/demo/action-alert-miccn.md"></embed></div>
           
   </Col>
           

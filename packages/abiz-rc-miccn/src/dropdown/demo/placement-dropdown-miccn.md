@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 弹出位置
- * desc: 支持 6 个弹出位置。
+ * desc: 支持6个弹出位置。
  */
 
 import React from 'react';

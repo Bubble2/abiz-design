@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 自定义渲染行数据
- * desc: 自定义渲染每一个 Transfer Item，可用于渲染复杂数据。
+ * desc: 自定义渲染每一个TransferItem，可用于渲染复杂数据。
  */
 
 import React from 'react';

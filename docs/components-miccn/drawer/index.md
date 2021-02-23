@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 抽屉
+
 <div>
 <embed src="@docs-common/drawer/index.md"></embed>
 </div>
@@ -24,7 +26,7 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/form-in-drawer-drawer-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/no-mask-drawer-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/config-provider-drawer-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/render-in-current-drawer-miccn.md"></embed></div>
           
@@ -32,11 +34,11 @@ group:
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/config-provider-drawer-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/placement-drawer-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/multi-level-drawer-drawer-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/placement-drawer-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/no-mask-drawer-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/drawer/demo/user-profile-drawer-miccn.md"></embed></div>
           

@@ -5,7 +5,7 @@ order: 99
 ```tsx
 /**
  * title: Steps 嵌套 Steps
- * desc: 测试 Steps 嵌套 Steps 的样式。
+ * desc: 测试Steps嵌套Steps的样式。
  */
 
 import React, { useState } from 'react';

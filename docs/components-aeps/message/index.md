@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 全局提示
+
 <div>
 <embed src="@docs-common/message/index.md"></embed>
 </div>
@@ -20,25 +22,25 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/custom-style-message-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/info-message-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/hooks-message-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/loading-message-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/duration-message-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/thenable-message-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/custom-style-message-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/duration-message-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/info-message-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/other-message-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/loading-message-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/update-message-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/message/demo/hooks-message-aeps.md"></embed></div>
           
   </Col>
           

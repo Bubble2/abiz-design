@@ -5,7 +5,7 @@ order: 15
 ```tsx
 /**
  * title: 自定义进度条样式
- * desc: 使用 `progress` 属性自定义进度条样式。
+ * desc: 使用`progress`属性自定义进度条样式。
  */
 
 import React from 'react';

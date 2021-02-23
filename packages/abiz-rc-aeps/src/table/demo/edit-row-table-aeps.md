@@ -5,7 +5,7 @@ order: 24
 ```tsx
 /**
  * title: 可编辑行
- * desc: 带行编辑功能的表格。> 🛎️ 想要 3 分钟实现？试试 [ProTable 的可编辑表格](https://procomponents.ant.design/components/table#%E5%8F%AF%E7%BC%96%E8%BE%91%E8%A1%A8%E6%A0%BC)！
+ * desc: 带行编辑功能的表格。>🛎️想要3分钟实现？试试[ProTable的可编辑表格](https://procomponents.ant.design/components/table#%E5%8F%AF%E7%BC%96%E8%BE%91%E8%A1%A8%E6%A0%BC)！
  */
 
 import React, { useState } from 'react';

@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 结果
+
 <div>
 <embed src="@docs-common/result/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=24>
     
+  <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/success-result-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/info-result-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/warning-result-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/403-result-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/404-result-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/500-result-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/customIcon-result-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/error-result-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/info-result-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/success-result-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/warning-result-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/result/demo/customIcon-result-jxc.md"></embed></div>
           
   </Col>
           

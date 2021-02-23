@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: Checkbox 组
- * desc: 方便的从数组生成 Checkbox 组。
+ * desc: 方便的从数组生成Checkbox组。
  */
 
 import React from 'react';

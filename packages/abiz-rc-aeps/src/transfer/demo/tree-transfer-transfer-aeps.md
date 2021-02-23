@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 树穿梭框
- * desc: 使用 Tree 组件作为自定义渲染列表。
+ * desc: 使用Tree组件作为自定义渲染列表。
  */
 
 import React, { useState } from 'react';

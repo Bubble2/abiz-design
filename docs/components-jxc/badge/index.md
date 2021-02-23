@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 徽标数
+
 <div>
 <embed src="@docs-common/badge/index.md"></embed>
 </div>
@@ -22,15 +24,15 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/basic-badge-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/colorful-badge-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/overflow-badge-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/link-badge-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/offset-badge-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/ribbbon-badge-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/colorful-badge-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/size-badge-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/ribbbon-badge-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/title-badge-jxc.md"></embed></div>
           
@@ -38,17 +40,17 @@ group:
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/change-badge-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/no-wrapper-badge-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/dot-badge-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/no-wrapper-badge-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/overflow-badge-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/ribbon-debug-badge-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/change-badge-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/status-badge-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/size-badge-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/badge/demo/ribbon-debug-badge-jxc.md"></embed></div>
           
   </Col>
           

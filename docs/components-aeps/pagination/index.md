@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 分页
+
 <div>
 <embed src="@docs-common/pagination/index.md"></embed>
 </div>
@@ -20,25 +22,25 @@ group:
 
   <Col span=24>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/all-pagination-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/basic-pagination-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/more-pagination-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/changer-pagination-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/controlled-pagination-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/itemRender-pagination-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/jump-pagination-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/mini-pagination-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/more-pagination-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/simple-pagination-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/controlled-pagination-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/total-pagination-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/all-pagination-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/pagination/demo/itemRender-pagination-aeps.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 不可用
- * desc: checkbox 不可用。
+ * desc: checkbox不可用。
  */
 
 import React from 'react';

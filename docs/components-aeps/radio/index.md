@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 单选框
+
 <div>
 <embed src="@docs-common/radio/index.md"></embed>
 </div>
@@ -20,29 +22,29 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/badge-radio-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/basic-radio-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/disabled-radio-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiobutton-solid-radio-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiogroup-radio-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiogroup-options-radio-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiogroup-with-name-radio-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiobutton-solid-radio-aeps.md"></embed></div>
+          
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/basic-radio-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiobutton-radio-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/disabled-radio-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiogroup-more-radio-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiogroup-radio-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/radiobutton-radio-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/size-radio-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/radio/demo/badge-radio-aeps.md"></embed></div>
           
   </Col>
           

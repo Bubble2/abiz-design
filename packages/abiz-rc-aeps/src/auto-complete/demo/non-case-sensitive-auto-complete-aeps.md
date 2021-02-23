@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 不区分大小写
- * desc: 不区分大小写的 AutoComplete
+ * desc: 不区分大小写的AutoComplete
  */
 
 import React from 'react';

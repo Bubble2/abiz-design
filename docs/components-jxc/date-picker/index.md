@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 日期选择框
+
 <div>
 <embed src="@docs-common/date-picker/index.md"></embed>
 </div>
@@ -22,39 +24,39 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/basic-date-picker-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/date-render-date-picker-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/switchable-date-picker-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/disabled-date-picker-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/time-date-picker-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/format-date-picker-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/disabled-date-date-picker-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/presetted-ranges-date-picker-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/select-in-range-date-picker-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/size-date-picker-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/bordered-date-picker-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/start-end-date-picker-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/switchable-date-picker-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/bordered-date-picker-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/range-picker-date-picker-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/disabled-date-date-picker-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/format-date-picker-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/disabled-date-picker-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/select-in-range-date-picker-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/extra-footer-date-picker-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/date-render-date-picker-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/mode-date-picker-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/range-picker-date-picker-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/size-date-picker-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/suffix-date-picker-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/date-picker/demo/time-date-picker-jxc.md"></embed></div>
           
   </Col>
           

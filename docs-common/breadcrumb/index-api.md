@@ -25,7 +25,7 @@
 | -------- | -------------- | --------- | ------ | ---- |
 | children | 要显示的分隔符 | ReactNode | `/`    |      |
 
-> 注意：在使用 `Breadcrumb.Separator` 时，其父组件的分隔符必须设置为 `separator=""`，否则会出现父组件默认的分隔符。
+ 注意：在使用 `Breadcrumb.Separator` 时，其父组件的分隔符必须设置为 `separator=""`，否则会出现父组件默认的分隔符。
 
 ### routes
 

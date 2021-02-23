@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 树选择
+
 <div>
 <embed src="@docs-common/tree-select/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=12>
     
+  <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/basic-tree-select-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/treeData-tree-select-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/async-tree-select-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/checkable-tree-select-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/suffix-tree-select-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/basic-tree-select-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/multiple-tree-select-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/treeData-tree-select-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/checkable-tree-select-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/tree-select/demo/suffix-tree-select-miccn.md"></embed></div>
           
   </Col>
           

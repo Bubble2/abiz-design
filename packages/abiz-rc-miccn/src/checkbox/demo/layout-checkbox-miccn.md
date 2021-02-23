@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 布局
- * desc: Checkbox.Group 内嵌 Checkbox 并与 Grid 组件一起使用，可以实现灵活的布局。
+ * desc: Checkbox.Group内嵌Checkbox并与Grid组件一起使用，可以实现灵活的布局。
  */
 
 import React from 'react';

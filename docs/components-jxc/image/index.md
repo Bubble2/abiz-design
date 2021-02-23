@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 图片
+
 <div>
 <embed src="@docs-common/image/index.md"></embed>
 </div>

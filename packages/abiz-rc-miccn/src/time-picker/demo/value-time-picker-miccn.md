@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 受控组件
- * desc: value 和 onChange 需要配合使用。
+ * desc: value和onChange需要配合使用。
  */
 
 import React, { useState } from 'react';

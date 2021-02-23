@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 添加动画
- * desc: 使用 [rc-tween-one](https://github.com/react-component/tween-one) 给标签增加添加或删除动画。
+ * desc: 使用[rc-tween-one](https://github.com/react-component/tween-one)给标签增加添加或删除动画。
  */
 
 import React from 'react';

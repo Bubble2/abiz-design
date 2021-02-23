@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 头像
+
 <div>
 <embed src="@docs-common/avatar/index.md"></embed>
 </div>
@@ -20,25 +22,25 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/badge-avatar-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/basic-avatar-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/dynamic-avatar-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/group-avatar-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/toggle-debug-avatar-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/responsive-avatar-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/basic-avatar-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/type-avatar-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/badge-avatar-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/toggle-debug-avatar-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/fallback-avatar-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/responsive-avatar-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/avatar/demo/type-avatar-miccn.md"></embed></div>
           
   </Col>
           

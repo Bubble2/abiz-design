@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 自定义选项
- * desc: 也可以直接传 `AutoComplete.Option` 作为 `AutoComplete` 的 `children`，而非使用 `options`。
+ * desc: 也可以直接传`AutoComplete.Option`作为`AutoComplete`的`children`，而非使用`options`。
  */
 
 import React, { useState } from 'react';

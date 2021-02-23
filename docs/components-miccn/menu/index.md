@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 导航菜单
+
 <div>
 <embed src="@docs-common/menu/index.md"></embed>
 </div>
@@ -22,19 +24,19 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/horizontal-menu-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/inline-collapsed-menu-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/inline-menu-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/inline-collapsed-menu-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/sider-current-menu-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/style-debug-menu-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/switch-mode-menu-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/vertical-menu-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/theme-menu-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/vertical-menu-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/switch-mode-menu-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/menu/demo/style-debug-menu-miccn.md"></embed></div>
           
   </Col>
           

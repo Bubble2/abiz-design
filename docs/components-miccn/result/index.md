@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 结果
+
 <div>
 <embed src="@docs-common/result/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=24>
     
+  <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/success-result-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/info-result-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/warning-result-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/403-result-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/404-result-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/500-result-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/customIcon-result-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/error-result-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/info-result-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/success-result-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/warning-result-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/result/demo/customIcon-result-miccn.md"></embed></div>
           
   </Col>
           

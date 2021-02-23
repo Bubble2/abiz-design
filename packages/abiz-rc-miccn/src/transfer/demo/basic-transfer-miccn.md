@@ -5,7 +5,7 @@ order: 0
 ```tsx
 /**
  * title: 基本用法
- * desc: 最基本的用法，展示了 `dataSource`、`targetKeys`、每行的渲染函数 `render` 以及回调函数 `onChange` `onSelectChange` `onScroll` 的用法。
+ * desc: 最基本的用法，展示了`dataSource`、`targetKeys`、每行的渲染函数`render`以及回调函数`onChange``onSelectChange``onScroll`的用法。
  */
 
 import React, { useState } from 'react';

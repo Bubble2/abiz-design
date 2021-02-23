@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 滚动容器
- * desc: 用 `target` 设置 `Affix` 需要监听其滚动事件的元素，默认为 `window`。
+ * desc: 用`target`设置`Affix`需要监听其滚动事件的元素，默认为`window`。
  */
 
 import React, { useState } from 'react';

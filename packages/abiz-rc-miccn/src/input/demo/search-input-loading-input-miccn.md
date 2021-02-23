@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 搜索框 loading
- * desc: 用于 `onSearch` 的时候展示 `loading`。
+ * desc: 用于`onSearch`的时候展示`loading`。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 配合 Form 使用
- * desc: 受控模式，例如配合 Form 使用。
+ * desc: 受控模式，例如配合Form使用。
  */
 
 import React from 'react';

@@ -1,0 +1,11 @@
+[class$="-previewer-demo"] >[class*="-btn"]{
+    margin-right: 8px;
+    margin-bottom: 12px;
+ }
+ .code-box{
+   margin-bottom: 16px;
+ }
+
+ [class$="-previewer-demo"] >[class*="-alert"]{
+    margin-bottom: 16px;
+ }

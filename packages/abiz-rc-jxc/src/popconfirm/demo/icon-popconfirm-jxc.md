@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 自定义 Icon 图标
- * desc: 自定义提示 `icon`。
+ * desc: 自定义提示`icon`。
  */
 
 import React from 'react';

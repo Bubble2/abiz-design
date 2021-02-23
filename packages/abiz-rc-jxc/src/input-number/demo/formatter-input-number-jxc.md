@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 格式化展示
- * desc: 通过 `formatter` 格式化数字，以展示具有具体含义的数据，往往需要配合 `parser` 一起使用。> 这里有一个更复杂的货币格式化输入框：[https://codesandbox.io/s/currency-wrapper-antd-input-3ynzo](https://codesandbox.io/s/currency-wrapper-antd-input-3ynzo)
+ * desc: 通过`formatter`格式化数字，以展示具有具体含义的数据，往往需要配合`parser`一起使用。>这里有一个更复杂的货币格式化输入框：[https://codesandbox.io/s/currency-wrapper-antd-input-3ynzo](https://codesandbox.io/s/currency-wrapper-antd-input-3ynzo)
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 白底模式
- * desc: 默认 PageHeader 是透明底色的。在某些情况下，PageHeader 需要自己的背景颜色。
+ * desc: 默认PageHeader是透明底色的。在某些情况下，PageHeader需要自己的背景颜色。
  */
 
 import React from 'react';

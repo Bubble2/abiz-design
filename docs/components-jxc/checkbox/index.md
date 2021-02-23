@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 多选框
+
 <div>
 <embed src="@docs-common/checkbox/index.md"></embed>
 </div>
@@ -24,15 +26,15 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/checkbox/demo/controller-checkbox-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/checkbox/demo/group-checkbox-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/checkbox/demo/check-all-checkbox-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/checkbox/demo/check-all-checkbox-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/checkbox/demo/disabled-checkbox-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/checkbox/demo/group-checkbox-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/checkbox/demo/layout-checkbox-jxc.md"></embed></div>
           

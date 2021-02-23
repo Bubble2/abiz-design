@@ -5,7 +5,7 @@ order: 999999
 ```tsx
 /**
  * title: 引用字段
- * desc: 请优先使用 `ref`！
+ * desc: 请优先使用`ref`！
  */
 
 import React from 'react';

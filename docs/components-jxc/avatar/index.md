@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 头像
+
 <div>
 <embed src="@docs-common/avatar/index.md"></embed>
 </div>
@@ -20,25 +22,25 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/badge-avatar-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/basic-avatar-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/dynamic-avatar-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/group-avatar-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/toggle-debug-avatar-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/responsive-avatar-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/basic-avatar-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/type-avatar-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/badge-avatar-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/toggle-debug-avatar-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/fallback-avatar-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/responsive-avatar-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/avatar/demo/type-avatar-jxc.md"></embed></div>
           
   </Col>
           

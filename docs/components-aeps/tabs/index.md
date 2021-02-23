@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 标签页
+
 <div>
 <embed src="@docs-common/tabs/index.md"></embed>
 </div>
@@ -22,33 +24,33 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/basic-tabs-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/card-tabs-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/card-top-tabs-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/centered-tabs-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/custom-add-trigger-tabs-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/disabled-tabs-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/custom-tab-bar-node-tabs-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/custom-tab-bar-tabs-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/disabled-tabs-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/editable-card-tabs-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/extra-tabs-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/centered-tabs-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/icon-tabs-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/nest-tabs-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/slide-tabs-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/position-tabs-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/extra-tabs-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/size-tabs-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/slide-tabs-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/position-tabs-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/card-tabs-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/editable-card-tabs-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/card-top-tabs-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/custom-add-trigger-tabs-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/custom-tab-bar-tabs-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tabs/demo/nest-tabs-aeps.md"></embed></div>
           
   </Col>
           

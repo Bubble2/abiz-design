@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 连接线
- * desc: 节点之间带连接线的树，常用于文件目录结构展示。使用 `showLine` 开启，可以用 `switcherIcon` 修改默认图标。
+ * desc: 节点之间带连接线的树，常用于文件目录结构展示。使用`showLine`开启，可以用`switcherIcon`修改默认图标。
  */
 
 import React, { useState } from 'react';

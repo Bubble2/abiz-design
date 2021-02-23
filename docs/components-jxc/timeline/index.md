@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 时间轴
+
 <div>
 <embed src="@docs-common/timeline/index.md"></embed>
 </div>
@@ -20,23 +22,23 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/alternate-timeline-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/basic-timeline-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/color-timeline-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/pending-timeline-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/custom-timeline-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/label-timeline-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/right-timeline-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/basic-timeline-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/color-timeline-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/custom-timeline-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/alternate-timeline-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/pending-timeline-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/timeline/demo/right-timeline-jxc.md"></embed></div>
           
   </Col>
           

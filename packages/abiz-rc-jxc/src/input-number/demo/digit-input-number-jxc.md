@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 小数
- * desc: 和原生的数字输入框一样，value 的精度由 step 的小数位数决定。
+ * desc: 和原生的数字输入框一样，value的精度由step的小数位数决定。
  */
 
 import React from 'react';

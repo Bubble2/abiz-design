@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 布局
+
 <div>
 <embed src="@docs-common/layout/index.md"></embed>
 </div>
@@ -22,23 +24,23 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/basic-layout-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/custom-trigger-debug-layout-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/custom-trigger-layout-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/fixed-layout-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/fixed-sider-layout-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/responsive-layout-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/side-layout-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/top-layout-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/top-side-2-layout-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/top-side-layout-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/side-layout-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/custom-trigger-layout-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/responsive-layout-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/fixed-layout-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/fixed-sider-layout-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/layout/demo/custom-trigger-debug-layout-miccn.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: JSX 风格的 API
- * desc: 使用 JSX 风格的 API（2.5.0 以后引入）> 这个只是一个描述 `columns` 的语法糖，所以你不能用其他组件去包裹 `Column` 和 `ColumnGroup`。
+ * desc: 使用JSX风格的API（2.5.0以后引入）>这个只是一个描述`columns`的语法糖，所以你不能用其他组件去包裹`Column`和`ColumnGroup`。
  */
 
 import React from 'react';

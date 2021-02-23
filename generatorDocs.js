@@ -72,10 +72,18 @@ paths.forEach(item => {
     } else {
 
       //生成docs-common中的文件
+
+      //匹配开始到#API之间的内容
       let docIndexContent = data.match(/(?<=---[\s\S]*---)[\s\S]*(?=##\s*API)/gim)[0];
       docIndexContent = docIndexContent.replace(/(```\s*\w+)/gi, '$1 | pure\n');
+
+      //匹配##API以下的所有内容
       let docIndexApiContent = data.match(/##\s*API[\s\S]*/gim)[0];
+      //删除代码前面的> 
+      docIndexApiContent = docIndexApiContent.replace(/^\>([^\u4e00-\u9fa5])/gim, '$1');
       docIndexApiContent = docIndexApiContent.replace(/(```\s*\w+)/gi, '$1 | pure\n');
+      
+
 
       if (!fs.existsSync(docsCommonPath + '' + itemArr[0])) {
         fs.mkdir(
@@ -107,11 +115,10 @@ paths.forEach(item => {
         console.log(fullIndexApiPath, '生成成功');
       });
 
-
       //生成docs中的文件
-      const titleEn = data.match(/(?<=[^sub]title:\s+).+/g);
-      const titleCn = data.match(/(?<=subtitle:\s+).+/g);
-      let cols = data.match(/(?<=cols:\s+).+/g);
+      const titleEn = data.match(/(?<=[^sub]title:\s+).+/);
+      const titleCn = data.match(/(?<=subtitle:\s+).+/);
+      let cols = data.match(/(?<=cols:\s+).+/);
       cols = (cols && cols[0]) || 2;
       docsPaths.forEach((docPath, index) => {
 
@@ -128,6 +135,8 @@ group:
   order: ${docPath.group.order}
   title: ${docPath.group.title}
 ---
+
+## ${titleCn}
 
 <div>
 <embed src="@docs-common/${itemArr[0]}/index.md"></embed>
@@ -155,9 +164,9 @@ group:
           demoArr.push(demoObj);
 
         })
-        console.log('demoArr', demoArr)
-        console.log('demoArrEnd')
-        // demoArr.sort((a, b) => a.order - b.order);
+        // console.log('demoArr', demoArr)
+        // console.log('demoArrEnd')
+        demoArr.sort((a, b) => a.order - b.order);
         
         let demoStr = '';
         let demoStrArr= new Array(cols);

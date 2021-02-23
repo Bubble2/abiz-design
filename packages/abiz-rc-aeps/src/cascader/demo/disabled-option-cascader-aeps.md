@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 禁用选项
- * desc: 通过指定 options 里的 `disabled` 字段。
+ * desc: 通过指定options里的`disabled`字段。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 响应式布局
- * desc: Layout.Sider 支持响应式布局。> 说明：配置 `breakpoint` 属性即生效，视窗宽度小于 `breakpoint` 时 Sider 缩小为 `collapsedWidth` 宽度，若将 `collapsedWidth` 设置为 0，会出现特殊 trigger。
+ * desc: Layout.Sider支持响应式布局。>说明：配置`breakpoint`属性即生效，视窗宽度小于`breakpoint`时Sider缩小为`collapsedWidth`宽度，若将`collapsedWidth`设置为0，会出现特殊trigger。
  */
 
 import React from 'react';

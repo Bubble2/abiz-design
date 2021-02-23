@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 多列排序
- * desc: <span></span>`column.sorter` 支持 `multiple` 字段以配置多列排序优先级。通过 `sorter.compare` 配置排序逻辑，你可以通过不设置该函数只启动多列排序的交互形式。
+ * desc: <span></span>`column.sorter`支持`multiple`字段以配置多列排序优先级。通过`sorter.compare`配置排序逻辑，你可以通过不设置该函数只启动多列排序的交互形式。
  */
 
 import React from 'react';

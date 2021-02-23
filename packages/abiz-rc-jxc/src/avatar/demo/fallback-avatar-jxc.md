@@ -5,7 +5,7 @@ order: 99
 ```tsx
 /**
  * title: 图片不存在时
- * desc: 图片不存在时，会回退到 `src`。
+ * desc: 图片不存在时，会回退到`src`。
  */
 
 import React from 'react';

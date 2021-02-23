@@ -5,7 +5,7 @@ order: 21
 ```tsx
 /**
  * title: 扩展菜单
- * desc: 使用 `dropdownRender` 对下拉菜单进行自由扩展。
+ * desc: 使用`dropdownRender`对下拉菜单进行自由扩展。
  */
 
 import React from 'react';

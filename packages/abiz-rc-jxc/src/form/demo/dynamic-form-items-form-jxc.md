@@ -5,7 +5,7 @@ order: 4.1
 ```tsx
 /**
  * title: 动态增减嵌套字段
- * desc: 嵌套表单字段需要对 `field` 进行拓展，将 `field.name` 和 `field.fieldKey` 应用于控制字段。
+ * desc: 嵌套表单字段需要对`field`进行拓展，将`field.name`和`field.fieldKey`应用于控制字段。
  */
 
 import React from 'react';

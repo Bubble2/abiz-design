@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 自定义字符
- * desc: 可以使用 `(RateProps) => ReactNode` 的方式自定义每一个字符。
+ * desc: 可以使用`(RateProps)=>ReactNode`的方式自定义每一个字符。
  */
 
 import React from 'react';

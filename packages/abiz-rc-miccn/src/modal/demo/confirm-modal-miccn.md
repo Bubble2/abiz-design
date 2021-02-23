@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 确认对话框
- * desc: 使用 `confirm()` 可以快捷地弹出确认框。onCancel/onOk 返回 promise 可以延迟关闭。
+ * desc: 使用`confirm()`可以快捷地弹出确认框。onCancel/onOk返回promise可以延迟关闭。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 不可用
- * desc: Switch 失效状态。
+ * desc: Switch失效状态。
  */
 
 import React from 'react';

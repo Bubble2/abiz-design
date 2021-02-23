@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 查询模式 - 不确定类目
- * desc: [查询模式: 不确定类目](https://ant.design/docs/spec/reaction#Lookup-Patterns) 示例。:
+ * desc: [查询模式:不确定类目](https://ant.design/docs/spec/reaction#Lookup-Patterns)示例。:
  */
 
 import React, { useState } from 'react';

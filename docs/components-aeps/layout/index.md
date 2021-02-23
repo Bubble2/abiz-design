@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 布局
+
 <div>
 <embed src="@docs-common/layout/index.md"></embed>
 </div>
@@ -22,23 +24,23 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/basic-layout-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/custom-trigger-debug-layout-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/custom-trigger-layout-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/fixed-layout-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/fixed-sider-layout-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/responsive-layout-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/side-layout-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/top-layout-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/top-side-2-layout-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/top-side-layout-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/side-layout-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/custom-trigger-layout-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/responsive-layout-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/fixed-layout-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/fixed-sider-layout-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/layout/demo/custom-trigger-debug-layout-aeps.md"></embed></div>
           
   </Col>
           

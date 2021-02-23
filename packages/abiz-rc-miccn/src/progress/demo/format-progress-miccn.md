@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 自定义文字格式
- * desc: <span></span>`format` 属性指定格式。
+ * desc: <span></span>`format`属性指定格式。
  */
 
 import React from 'react';

@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 全局化配置
+
 <div>
 <embed src="@docs-common/config-provider/index.md"></embed>
 </div>

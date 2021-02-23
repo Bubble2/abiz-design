@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 加载中
- * desc: 进行全局 loading，异步自行移除。
+ * desc: 进行全局loading，异步自行移除。
  */
 
 import React from 'react';

@@ -64,7 +64,7 @@ export default defineConfig({
     '@docs-common': path.resolve(__dirname, 'docs-common'),
   },
   styles: [
-    `[class$="-previewer-demo"] [class*="-btn"]{
+    `[class$="-previewer-demo"] >[class*="-btn"]{
         margin-right: 8px;
         margin-bottom: 12px;
      }
@@ -72,6 +72,7 @@ export default defineConfig({
        margin-bottom: 16px;
      }
      `,
+     `${isProduction?'http://abiz-fe.git.vemic.com/':'http://localhost:8000'}/abiz-design/styles/markdown.css`
   ],
   externals: {
     'react': 'window.React',
@@ -88,29 +89,29 @@ export default defineConfig({
     edge: false,
     ios: false,
   },
-  // dynamicImport: {},
-  // chunks: ['vendors', 'umi'],
-  // chainWebpack: function (config, { webpack }) {
-  //   config.merge({
-  //     optimization: {
-  //       splitChunks: {
-  //         chunks: 'all',
-  //         minSize: 30000,
-  //         minChunks: 3,
-  //         automaticNameDelimiter: '.',
-  //         cacheGroups: {
-  //           vendor: {
-  //             name: 'vendors',
-  //             test({ resource }) {
-  //               return /[\\/]node_modules[\\/]/.test(resource);
-  //             },
-  //             priority: 10,
-  //           },
-  //         },
-  //       },
-  //     }
-  //   });
-  // },
+  dynamicImport: {},
+  chunks: ['vendors', 'umi'],
+  chainWebpack: function (config, { webpack }) {
+    config.merge({
+      optimization: {
+        splitChunks: {
+          chunks: 'all',
+          minSize: 30000,
+          minChunks: 3,
+          automaticNameDelimiter: '.',
+          cacheGroups: {
+            vendor: {
+              name: 'vendors',
+              test({ resource }) {
+                return /[\\/]node_modules[\\/]/.test(resource);
+              },
+              priority: 10,
+            },
+          },
+        },
+      }
+    });
+  },
   devtool: false,
   nodeModulesTransform: {
     type: 'none',
@@ -119,6 +120,6 @@ export default defineConfig({
   esbuild: {},
   extraBabelPlugins: [
     '@babel/plugin-transform-runtime',
-  ],
+  ]
   // more config: https://d.umijs.org/config
 });

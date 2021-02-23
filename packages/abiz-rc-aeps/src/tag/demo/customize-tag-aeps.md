@@ -5,7 +5,7 @@ order: 8
 ```tsx
 /**
  * title: 自定义关闭按钮
- * desc: 可用 `closeIcon` 自定义关闭按钮。
+ * desc: 可用`closeIcon`自定义关闭按钮。
  */
 
 import React from 'react';

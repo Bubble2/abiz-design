@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 用户头像
- * desc: 点击上传用户头像，并使用 `beforeUpload` 限制用户上传的图片格式和大小。> `beforeUpload` 的返回值可以是一个 Promise 以支持异步处理，如服务端校验等：[示例](http://react-component.github.io/upload/examples/beforeUpload.html)。
+ * desc: 点击上传用户头像，并使用`beforeUpload`限制用户上传的图片格式和大小。>`beforeUpload`的返回值可以是一个Promise以支持异步处理，如服务端校验等：[示例](http://react-component.github.io/upload/examples/beforeUpload.html)。
  */
 
 import React from 'react';

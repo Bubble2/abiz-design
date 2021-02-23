@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 提及
+
 <div>
 <embed src="@docs-common/mentions/index.md"></embed>
 </div>
@@ -20,23 +22,23 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/async-mentions-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/basic-mentions-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/placement-mentions-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/form-mentions-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/readonly-mentions-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/autoSize-mentions-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/autoSize-mentions-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/form-mentions-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/async-mentions-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/prefix-mentions-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/mentions/demo/placement-mentions-miccn.md"></embed></div>
           
   </Col>
           

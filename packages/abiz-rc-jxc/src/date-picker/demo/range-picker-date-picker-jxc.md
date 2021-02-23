@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 范围选择器
- * desc: 通过设置 `picker` 属性，指定范围选择器类型。
+ * desc: 通过设置`picker`属性，指定范围选择器类型。
  */
 
 import React from 'react';

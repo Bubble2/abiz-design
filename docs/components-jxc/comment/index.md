@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 评论
+
 <div>
 <embed src="@docs-common/comment/index.md"></embed>
 </div>
@@ -22,11 +24,11 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/comment/demo/basic-comment-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/comment/demo/editor-comment-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/comment/demo/list-comment-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/comment/demo/nested-comment-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/comment/demo/editor-comment-jxc.md"></embed></div>
           
   </Col>
           

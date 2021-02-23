@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 穿梭框
+
 <div>
 <embed src="@docs-common/transfer/index.md"></embed>
 </div>
@@ -20,23 +22,23 @@ group:
 
   <Col span=24>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/advanced-transfer-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/basic-transfer-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/custom-item-transfer-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/custom-select-all-labels-transfer-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/large-data-transfer-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/oneWay-transfer-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/search-transfer-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/advanced-transfer-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/custom-item-transfer-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/large-data-transfer-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/table-transfer-transfer-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/tree-transfer-transfer-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/transfer/demo/custom-select-all-labels-transfer-aeps.md"></embed></div>
           
   </Col>
           

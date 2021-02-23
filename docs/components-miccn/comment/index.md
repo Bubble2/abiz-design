@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 评论
+
 <div>
 <embed src="@docs-common/comment/index.md"></embed>
 </div>
@@ -22,11 +24,11 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/comment/demo/basic-comment-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/comment/demo/editor-comment-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/comment/demo/list-comment-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/comment/demo/nested-comment-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/comment/demo/editor-comment-miccn.md"></embed></div>
           
   </Col>
           

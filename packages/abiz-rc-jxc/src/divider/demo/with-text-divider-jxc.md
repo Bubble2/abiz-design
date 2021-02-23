@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 带文字的分割线
- * desc: 分割线中带有文字，可以用 `orientation` 指定文字位置。
+ * desc: 分割线中带有文字，可以用`orientation`指定文字位置。
  */
 
 import React from 'react';

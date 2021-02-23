@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 抽屉
+
 <div>
 <embed src="@docs-common/drawer/index.md"></embed>
 </div>
@@ -24,7 +26,7 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/form-in-drawer-drawer-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/no-mask-drawer-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/config-provider-drawer-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/render-in-current-drawer-jxc.md"></embed></div>
           
@@ -32,11 +34,11 @@ group:
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/config-provider-drawer-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/placement-drawer-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/multi-level-drawer-drawer-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/placement-drawer-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/no-mask-drawer-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/drawer/demo/user-profile-drawer-jxc.md"></embed></div>
           

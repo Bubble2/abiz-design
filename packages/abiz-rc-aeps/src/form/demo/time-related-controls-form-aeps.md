@@ -5,7 +5,7 @@ order: 16
 ```tsx
 /**
  * title: 时间类控件
- * desc: 时间类组件的 `value` 类型为 `moment` 对象，所以在提交服务器前需要预处理。
+ * desc: 时间类组件的`value`类型为`moment`对象，所以在提交服务器前需要预处理。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 11
 ```tsx
 /**
  * title: 阿里云 OSS
- * desc: 使用阿里云 OSS 上传示例.
+ * desc: 使用阿里云OSS上传示例.
  */
 
 import React from 'react';

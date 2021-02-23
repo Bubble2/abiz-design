@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 描述列表
+
 <div>
 <embed src="@docs-common/descriptions/index.md"></embed>
 </div>
@@ -24,17 +26,17 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/border-descriptions-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/responsive-descriptions-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/text-descriptions-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/size-descriptions-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/style-descriptions-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/responsive-descriptions-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/text-descriptions-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/vertical-descriptions-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/vertical-border-descriptions-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/vertical-descriptions-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/descriptions/demo/style-descriptions-aeps.md"></embed></div>
           
   </Col>
           

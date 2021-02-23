@@ -5,7 +5,7 @@ order: 10
 ```tsx
 /**
  * title: 可点击
- * desc: 设置 `onChange` 后，Steps 变为可点击状态。
+ * desc: 设置`onChange`后，Steps变为可点击状态。
  */
 
 import React from 'react';

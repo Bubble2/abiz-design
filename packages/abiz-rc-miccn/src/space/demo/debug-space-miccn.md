@@ -5,7 +5,7 @@ order: 99
 ```tsx
 /**
  * title: 多样的 Child
- * desc: Debug usage
+ * desc: Debugusage
  */
 
 import React from 'react';

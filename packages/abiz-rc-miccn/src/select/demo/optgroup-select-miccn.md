@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 分组
- * desc: 用 `OptGroup` 进行选项分组。
+ * desc: 用`OptGroup`进行选项分组。
  */
 
 import React from 'react';

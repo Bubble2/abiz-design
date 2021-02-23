@@ -5,7 +5,7 @@ order: 9999
 ```tsx
 /**
  * title: 样式自定义
- * desc: 测试一些 `style` 修改样式的行为。
+ * desc: 测试一些`style`修改样式的行为。
  */
 
 import React from 'react';

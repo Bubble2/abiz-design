@@ -13,7 +13,7 @@
 | srcSet | 设置图片类头像响应式资源地址 | string | - |  |
 | onError | 图片加载失败的事件，返回 false 会关闭组件默认的 fallback 行为 | () => boolean | - |  |
 
-> Tip：你可以设置 `icon` 或 `children` 作为图片加载失败的默认 fallback 行为，优先级为 `icon` > `children`
+ Tip：你可以设置 `icon` 或 `children` 作为图片加载失败的默认 fallback 行为，优先级为 `icon` > `children`
 
 ### Avatar.Group (4.5.0+)
 

@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 响应式的栅格列表
- * desc: 响应式的栅格列表。尺寸与 [Layout Grid](/components/grid/#Col) 保持一致。
+ * desc: 响应式的栅格列表。尺寸与[LayoutGrid](/components/grid/#Col)保持一致。
  */
 
 import React from 'react';

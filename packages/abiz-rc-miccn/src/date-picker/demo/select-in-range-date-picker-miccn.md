@@ -5,7 +5,7 @@ order: 6.1
 ```tsx
 /**
  * title: 选择不超过七天的范围
- * desc: 这里举例如何用 `onCalendarChange` 和 `disabledDate` 来限制动态的日期区间选择。
+ * desc: 这里举例如何用`onCalendarChange`和`disabledDate`来限制动态的日期区间选择。
  */
 
 import React, { useState } from 'react';

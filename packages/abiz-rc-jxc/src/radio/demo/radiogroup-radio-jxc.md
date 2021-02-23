@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 单选组合
- * desc: 一组互斥的 Radio 配合使用。
+ * desc: 一组互斥的Radio配合使用。
  */
 
 import React from 'react';

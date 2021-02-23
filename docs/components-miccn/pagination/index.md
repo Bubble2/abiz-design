@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 分页
+
 <div>
 <embed src="@docs-common/pagination/index.md"></embed>
 </div>
@@ -20,25 +22,25 @@ group:
 
   <Col span=24>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/all-pagination-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/basic-pagination-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/more-pagination-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/changer-pagination-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/controlled-pagination-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/itemRender-pagination-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/jump-pagination-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/mini-pagination-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/more-pagination-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/simple-pagination-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/controlled-pagination-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/total-pagination-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/all-pagination-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/pagination/demo/itemRender-pagination-miccn.md"></embed></div>
           
   </Col>
           

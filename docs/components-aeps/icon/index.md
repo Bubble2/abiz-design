@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 图标
+
 <div>
 <embed src="@docs-common/icon/index.md"></embed>
 </div>
@@ -22,17 +24,17 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/basic-icon-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/iconfont-icon-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/custom-icon-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/two-tone-icon-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/scriptUrl-icon-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/custom-icon-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/two-tone-icon-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/scriptUrl-icon-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/icon/demo/iconfont-icon-aeps.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 自定义筛选菜单
- * desc: 通过 `filterDropdown` 自定义的列筛选功能，并实现一个搜索列的示例。
+ * desc: 通过`filterDropdown`自定义的列筛选功能，并实现一个搜索列的示例。
  */
 
 import React from 'react';

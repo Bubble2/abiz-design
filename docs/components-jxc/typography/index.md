@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 排版
+
 <div>
 <embed src="@docs-common/typography/index.md"></embed>
 </div>
@@ -22,19 +24,19 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/basic-typography-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/ellipsis-debug-typography-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/ellipsis-typography-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/interactive-typography-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/title-typography-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/paragraph-debug-typography-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/suffix-typography-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/text-typography-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/title-typography-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/interactive-typography-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/ellipsis-typography-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/ellipsis-debug-typography-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/typography/demo/suffix-typography-jxc.md"></embed></div>
           
   </Col>
           

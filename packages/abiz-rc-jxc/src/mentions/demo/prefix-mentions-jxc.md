@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 自定义触发字符
- * desc: 通过 `prefix` 属性自定义触发字符。默认为 `@`, 可以定义为数组。
+ * desc: 通过`prefix`属性自定义触发字符。默认为`@`,可以定义为数组。
  */
 
 import React from 'react';

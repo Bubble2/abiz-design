@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 空状态
+
 <div>
 <embed src="@docs-common/empty/index.md"></embed>
 </div>
@@ -22,13 +24,13 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/empty/demo/basic-empty-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/empty/demo/config-provider-empty-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/empty/demo/simple-empty-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/empty/demo/customize-empty-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/empty/demo/description-empty-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/empty/demo/config-provider-empty-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/empty/demo/simple-empty-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/empty/demo/description-empty-aeps.md"></embed></div>
           
   </Col>
           

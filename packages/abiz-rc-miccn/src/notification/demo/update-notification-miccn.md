@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 更新消息内容
- * desc: 可以通过唯一的 key 来更新内容。
+ * desc: 可以通过唯一的key来更新内容。
  */
 
 import React from 'react';

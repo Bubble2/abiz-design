@@ -56,7 +56,7 @@
 
 ### TreeNode props
 
-> 建议使用 treeData 来代替 TreeNode，免去手工构造麻烦
+ 建议使用 treeData 来代替 TreeNode，免去手工构造麻烦
 
 | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |

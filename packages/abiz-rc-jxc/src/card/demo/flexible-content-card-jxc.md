@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 更灵活的内容展示
- * desc: 可以利用 `Card.Meta` 支持更灵活的内容。
+ * desc: 可以利用`Card.Meta`支持更灵活的内容。
  */
 
 import React from 'react';

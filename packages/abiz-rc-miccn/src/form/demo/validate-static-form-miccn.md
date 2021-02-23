@@ -5,12 +5,13 @@ order: 20
 ```tsx
 /**
  * title: 自定义校验
- * desc: 我们提供了 `validateStatus` `help` `hasFeedback` 等属性，你可以不通过 Form 自己定义校验的时机和内容。1. `validateStatus`: 校验状态，可选 'success', 'warning', 'error', 'validating'。2. `hasFeedback`：用于给输入框添加反馈图标。3. `help`：设置校验文案。
+ * desc: 我们提供了`validateStatus``help``hasFeedback`等属性，你可以不通过Form自己定义校验的时机和内容。1.`validateStatus`:校验状态，可选'success','warning','error','validating'。2.`hasFeedback`：用于给输入框添加反馈图标。3.`help`：设置校验文案。
  */
 
 import React from 'react';
-import { ConfigProvider, SmileOutlined } from '@abiz/icons-miccn';
+import { SmileOutlined } from '@abiz/icons-miccn';
 import {
+  ConfigProvider,
   Form,
   Input,
   DatePicker,

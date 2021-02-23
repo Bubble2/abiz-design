@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 危险按钮
- * desc: 在 4.0 之后，危险成为一种按钮属性而不是按钮类型。
+ * desc: 在4.0之后，危险成为一种按钮属性而不是按钮类型。
  */
 
 import React from 'react';

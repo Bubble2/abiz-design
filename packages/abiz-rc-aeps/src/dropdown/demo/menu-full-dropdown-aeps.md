@@ -5,7 +5,7 @@ order: 100
 ```tsx
 /**
  * title: Menu 完整样式
- * desc: 此演示需要注意去掉 Reset 样式后查看 Dropdown 内 Menu 的样式是否正常。[#19150](https://github.com/ant-design/ant-design/pull/19150)
+ * desc: 此演示需要注意去掉Reset样式后查看Dropdown内Menu的样式是否正常。[#19150](https://github.com/ant-design/ant-design/pull/19150)
  */
 
 import React from 'react';

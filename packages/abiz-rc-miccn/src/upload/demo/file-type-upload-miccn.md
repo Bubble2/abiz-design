@@ -5,7 +5,7 @@ order: 12
 ```tsx
 /**
  * title: 自定义显示 icon
- * desc: 根据类型默认显示对应 icon
+ * desc: 根据类型默认显示对应icon
  */
 
 import React from 'react';

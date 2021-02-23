@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 分段进度条
- * desc: 标准的进度条。`type="circle|dashboard"` 时不支持分段颜色。
+ * desc: 标准的进度条。`type="circle|dashboard"`时不支持分段颜色。
  */
 
 import React from 'react';

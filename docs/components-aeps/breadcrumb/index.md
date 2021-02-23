@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 面包屑
+
 <div>
 <embed src="@docs-common/breadcrumb/index.md"></embed>
 </div>
@@ -24,17 +26,17 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/breadcrumb/demo/router-4-breadcrumb-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/breadcrumb/demo/separator-indepent-breadcrumb-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/breadcrumb/demo/overlay-breadcrumb-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/breadcrumb/demo/overlay-breadcrumb-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/breadcrumb/demo/withIcon-breadcrumb-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/breadcrumb/demo/separator-breadcrumb-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/breadcrumb/demo/withIcon-breadcrumb-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/breadcrumb/demo/separator-indepent-breadcrumb-aeps.md"></embed></div>
           
   </Col>
           

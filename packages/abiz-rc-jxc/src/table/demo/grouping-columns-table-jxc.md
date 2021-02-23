@@ -5,7 +5,7 @@ order: 22
 ```tsx
 /**
  * title: 表头分组
- * desc: <span></span>`columns[n]` 可以内嵌 `children`，以渲染分组表头。
+ * desc: <span></span>`columns[n]`可以内嵌`children`，以渲染分组表头。
  */
 
 import React from 'react';

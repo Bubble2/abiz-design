@@ -5,7 +5,7 @@ order: 12
 ```tsx
 /**
  * title: 定制日期单元格
- * desc: 使用 `dateRender` 可以自定义日期单元格的内容和样式。
+ * desc: 使用`dateRender`可以自定义日期单元格的内容和样式。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 从浮层内关闭
- * desc: 使用 `visible` 属性控制浮层显示。
+ * desc: 使用`visible`属性控制浮层显示。
  */
 
 import React from 'react';

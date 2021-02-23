@@ -5,7 +5,7 @@ order: 99
 ```tsx
 /**
  * title: 无遮罩
- * desc: 通过 `mask={false}` 去掉遮罩。
+ * desc: 通过`mask={false}`去掉遮罩。
  */
 
 import React, { useState } from 'react';

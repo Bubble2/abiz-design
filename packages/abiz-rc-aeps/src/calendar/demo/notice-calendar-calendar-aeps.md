@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 通知事项日历
- * desc: 一个复杂的应用示例，用 `dateCellRender` 和 `monthCellRender` 函数来自定义需要渲染的数据。
+ * desc: 一个复杂的应用示例，用`dateCellRender`和`monthCellRender`函数来自定义需要渲染的数据。
  */
 
 import React from 'react';

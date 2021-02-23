@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 时间选择框
+
 <div>
 <embed src="@docs-common/time-picker/index.md"></embed>
 </div>
@@ -20,33 +22,33 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/12hours-time-picker-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/basic-time-picker-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/colored-popup-time-picker-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/size-time-picker-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/hide-column-time-picker-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/range-picker-time-picker-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/addon-time-picker-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/suffix-time-picker-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/colored-popup-time-picker-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/bordered-time-picker-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/addon-time-picker-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/bordered-time-picker-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/value-time-picker-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/disabled-time-picker-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/interval-options-time-picker-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/size-time-picker-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/12hours-time-picker-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/value-time-picker-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/range-picker-time-picker-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/time-picker/demo/suffix-time-picker-miccn.md"></embed></div>
           
   </Col>
           

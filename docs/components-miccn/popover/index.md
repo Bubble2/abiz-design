@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 气泡卡片
+
 <div>
 <embed src="@docs-common/popover/index.md"></embed>
 </div>
@@ -20,21 +22,21 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/arrow-point-at-center-popover-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/control-popover-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/basic-popover-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/placement-popover-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/arrow-point-at-center-popover-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/basic-popover-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/triggerType-popover-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/control-popover-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/hover-with-click-popover-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/popover/demo/triggerType-popover-miccn.md"></embed></div>
           
   </Col>
           

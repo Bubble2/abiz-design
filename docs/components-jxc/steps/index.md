@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 步骤条
+
 <div>
 <embed src="@docs-common/steps/index.md"></embed>
 </div>
@@ -20,33 +22,33 @@ group:
 
   <Col span=24>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/clickable-steps-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/customized-progress-dot-steps-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/error-steps-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/icon-steps-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/nav-steps-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/progress-debug-steps-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/progress-dot-steps-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/progress-steps-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/simple-steps-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/small-size-steps-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/step-next-steps-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/icon-steps-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/steps-in-steps-steps-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/vertical-steps-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/vertical-small-steps-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/vertical-steps-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/error-steps-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/progress-dot-steps-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/customized-progress-dot-steps-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/clickable-steps-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/step-next-steps-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/nav-steps-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/progress-steps-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/progress-debug-steps-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/steps/demo/steps-in-steps-steps-jxc.md"></embed></div>
           
   </Col>
           

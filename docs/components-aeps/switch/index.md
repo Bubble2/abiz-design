@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 开关
+
 <div>
 <embed src="@docs-common/switch/index.md"></embed>
 </div>
@@ -22,9 +24,9 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/switch/demo/basic-switch-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/switch/demo/loading-switch-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/switch/demo/text-switch-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/switch/demo/loading-switch-aeps.md"></embed></div>
           
   </Col>
           

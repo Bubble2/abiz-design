@@ -5,7 +5,7 @@ order: 11
 ```tsx
 /**
  * title: 自定义页脚按钮属性
- * desc: 传入 `okButtonProps` 和 `cancelButtonProps` 可分别自定义确定按钮和取消按钮的 props。
+ * desc: 传入`okButtonProps`和`cancelButtonProps`可分别自定义确定按钮和取消按钮的props。
  */
 
 import React from 'react';

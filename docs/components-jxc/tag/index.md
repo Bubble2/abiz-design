@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 标签
+
 <div>
 <embed src="@docs-common/tag/index.md"></embed>
 </div>
@@ -20,27 +22,27 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/animation-tag-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/checkable-tag-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/basic-tag-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/control-tag-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/customize-tag-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/controlled-tag-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/status-tag-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/icon-tag-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/customize-tag-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/basic-tag-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/colorful-tag-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/controlled-tag-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/checkable-tag-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/icon-tag-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/animation-tag-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/status-tag-jxc.md"></embed></div>
           
   </Col>
           

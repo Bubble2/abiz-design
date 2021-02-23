@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 可折叠触发区域
- * desc: 通过 `collapsible` 属性，可以设置面板的可折叠触发区域。
+ * desc: 通过`collapsible`属性，可以设置面板的可折叠触发区域。
  */
 
 import React from 'react';

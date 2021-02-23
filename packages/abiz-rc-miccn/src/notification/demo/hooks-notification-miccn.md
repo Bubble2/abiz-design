@@ -5,7 +5,7 @@ order: 8
 ```tsx
 /**
  * title: 通过 Hooks 获取上下文
- * desc: 通过 `notification.useNotification` 创建支持读取 context 的 `contextHolder`。
+ * desc: 通过`notification.useNotification`创建支持读取context的`contextHolder`。
  */
 
 import React from 'react';

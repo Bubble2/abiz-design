@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 栅格
+
 <div>
 <embed src="@docs-common/grid/index.md"></embed>
 </div>
@@ -22,25 +24,25 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/basic-grid-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/flex-align-grid-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/gutter-grid-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/flex-grid-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/playground-grid-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/flex-order-grid-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/flex-stretch-grid-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/gutter-grid-miccn.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/offset-grid-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/playground-grid-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/sort-grid-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/flex-grid-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/flex-align-grid-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/flex-stretch-grid-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/responsive-grid-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/responsive-more-grid-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/sort-grid-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/grid/demo/useBreakpoint-grid-miccn.md"></embed></div>
           

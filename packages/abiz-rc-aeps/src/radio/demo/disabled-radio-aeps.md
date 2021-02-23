@@ -5,7 +5,7 @@ order: 1
 ```tsx
 /**
  * title: 不可用
- * desc: Radio 不可用。
+ * desc: Radio不可用。
  */
 
 import React from 'react';

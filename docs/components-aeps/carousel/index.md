@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 走马灯
+
 <div>
 <embed src="@docs-common/carousel/index.md"></embed>
 </div>
@@ -20,17 +22,17 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/carousel/demo/autoplay-carousel-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/carousel/demo/basic-carousel-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/carousel/demo/fade-carousel-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/carousel/demo/autoplay-carousel-aeps.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/carousel/demo/basic-carousel-aeps.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-aeps/carousel/demo/position-carousel-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/carousel/demo/fade-carousel-aeps.md"></embed></div>
           
   </Col>
           

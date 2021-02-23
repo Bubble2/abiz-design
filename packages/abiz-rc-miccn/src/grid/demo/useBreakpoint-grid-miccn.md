@@ -5,7 +5,7 @@ order: 10
 ```tsx
 /**
  * title: null
- * desc: 使用 `useBreakpoint` Hook 个性化布局。
+ * desc: 使用`useBreakpoint`Hook个性化布局。
  */
 
 import React from 'react';

@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 延迟
- * desc: 延迟显示 loading 效果。当 spinning 状态在 `delay` 时间内结束，则不显示 loading 状态。
+ * desc: 延迟显示loading效果。当spinning状态在`delay`时间内结束，则不显示loading状态。
  */
 
 import React from 'react';

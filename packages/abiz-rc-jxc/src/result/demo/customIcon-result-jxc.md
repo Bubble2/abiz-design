@@ -5,7 +5,7 @@ order: 8
 ```tsx
 /**
  * title: 自定义 icon
- * desc: 自定义 icon。
+ * desc: 自定义icon。
  */
 
 import React from 'react';

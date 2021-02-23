@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 徽标数
+
 <div>
 <embed src="@docs-common/badge/index.md"></embed>
 </div>
@@ -22,15 +24,15 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/basic-badge-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/colorful-badge-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/overflow-badge-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/link-badge-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/offset-badge-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/ribbbon-badge-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/colorful-badge-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/size-badge-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/ribbbon-badge-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/title-badge-aeps.md"></embed></div>
           
@@ -38,17 +40,17 @@ group:
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/change-badge-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/no-wrapper-badge-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/dot-badge-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/no-wrapper-badge-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/overflow-badge-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/ribbon-debug-badge-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/change-badge-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/status-badge-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/size-badge-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/badge/demo/ribbon-debug-badge-aeps.md"></embed></div>
           
   </Col>
           

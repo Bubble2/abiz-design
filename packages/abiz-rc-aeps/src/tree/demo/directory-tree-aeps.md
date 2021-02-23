@@ -5,7 +5,7 @@ order: 7
 ```tsx
 /**
  * title: 目录
- * desc: 内置的目录树，`multiple` 模式支持 `ctrl(Windows)` / `command(Mac)` 复选。
+ * desc: 内置的目录树，`multiple`模式支持`ctrl(Windows)`/`command(Mac)`复选。
  */
 
 import React from 'react';

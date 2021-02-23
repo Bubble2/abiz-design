@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 评分
+
 <div>
 <embed src="@docs-common/rate/index.md"></embed>
 </div>
@@ -22,21 +24,21 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/basic-rate-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/character-rate-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/disabled-rate-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/text-rate-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/clear-rate-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/character-function-rate-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/character-function-rate-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/clear-rate-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/half-rate-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/disabled-rate-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/rate/demo/character-rate-jxc.md"></embed></div>
           
   </Col>
           

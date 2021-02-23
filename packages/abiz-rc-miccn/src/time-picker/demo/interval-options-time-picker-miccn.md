@@ -5,7 +5,7 @@ order: 5
 ```tsx
 /**
  * title: 步长选项
- * desc: 可以使用 `hourStep` `minuteStep` `secondStep` 按步长展示可选的时分秒。
+ * desc: 可以使用`hourStep``minuteStep``secondStep`按步长展示可选的时分秒。
  */
 
 import React from 'react';

@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 时间轴
+
 <div>
 <embed src="@docs-common/timeline/index.md"></embed>
 </div>
@@ -20,23 +22,23 @@ group:
 
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/alternate-timeline-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/basic-timeline-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/color-timeline-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/pending-timeline-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/custom-timeline-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/label-timeline-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/right-timeline-miccn.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/basic-timeline-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/color-timeline-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/custom-timeline-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/alternate-timeline-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/pending-timeline-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/timeline/demo/right-timeline-miccn.md"></embed></div>
           
   </Col>
           

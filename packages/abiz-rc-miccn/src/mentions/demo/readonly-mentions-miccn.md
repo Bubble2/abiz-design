@@ -5,7 +5,7 @@ order: 4
 ```tsx
 /**
  * title: 无效或只读
- * desc: 通过 `disabled` 属性设置是否生效。通过 `readOnly` 属性设置是否只读。
+ * desc: 通过`disabled`属性设置是否生效。通过`readOnly`属性设置是否只读。
  */
 
 import React from 'react';

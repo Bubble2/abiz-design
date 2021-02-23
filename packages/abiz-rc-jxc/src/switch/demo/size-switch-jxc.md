@@ -5,7 +5,7 @@ order: 3
 ```tsx
 /**
  * title: 两种大小
- * desc: <span></span>`size="small"` 表示小号开关。
+ * desc: <span></span>`size="small"`表示小号开关。
  */
 
 import React from 'react';

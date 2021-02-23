@@ -5,10 +5,11 @@ order: 3
 ```tsx
 /**
  * title: 使用 iconfont.cn
- * desc: 对于使用 [iconfont.cn](http://iconfont.cn/) 的用户，通过设置 `createFromIconfontCN` 方法参数对象中的 `scriptUrl` 字段， 即可轻松地使用已有项目中的图标。
+ * desc: 对于使用[iconfont.cn](http://iconfont.cn/)的用户，通过设置`createFromIconfontCN`方法参数对象中的`scriptUrl`字段，即可轻松地使用已有项目中的图标。
  */
 
 import React from 'react';
+import { ConfigProvider } from '@abiz/rc-aeps';
 import { createFromIconfontCN } from '@abiz/icons-aeps';
 
 const IconFont = createFromIconfontCN({

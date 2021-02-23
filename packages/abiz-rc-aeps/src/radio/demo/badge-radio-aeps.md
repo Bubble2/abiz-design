@@ -5,7 +5,7 @@ order: 99
 ```tsx
 /**
  * title: Badge style
- * desc: 测试 Badge 的样式。
+ * desc: 测试Badge的样式。
  */
 
 import React from 'react';

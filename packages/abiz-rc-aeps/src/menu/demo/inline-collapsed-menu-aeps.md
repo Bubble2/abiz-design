@@ -5,7 +5,7 @@ order: 2
 ```tsx
 /**
  * title: 缩起内嵌菜单
- * desc: 内嵌菜单可以被缩起/展开。你可以在 [Layout](/components/layout/#components-layout-demo-side) 里查看侧边布局结合的完整示例。
+ * desc: 内嵌菜单可以被缩起/展开。你可以在[Layout](/components/layout/#components-layout-demo-side)里查看侧边布局结合的完整示例。
  */
 
 import React from 'react';

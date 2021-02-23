@@ -10,6 +10,8 @@ group:
   title: 组件
 ---
 
+## 滑动输入条
+
 <div>
 <embed src="@docs-common/slider/index.md"></embed>
 </div>
@@ -24,23 +26,23 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/icon-slider-slider-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/mark-slider-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/show-tooltip-slider-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/event-slider-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/vertical-slider-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/reverse-slider-jxc.md"></embed></div>
           
   </Col>
           
   <Col span=12>
     
-  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/event-slider-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/input-number-slider-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/reverse-slider-jxc.md"></embed></div>
-          
   <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/tip-formatter-slider-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/mark-slider-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/show-tooltip-slider-jxc.md"></embed></div>
           
   </Col>
           

@@ -5,7 +5,7 @@ order: 6
 ```tsx
 /**
  * title: 步骤运行错误
- * desc: 使用 Steps 的 `status` 属性来指定当前步骤的状态。
+ * desc: 使用Steps的`status`属性来指定当前步骤的状态。
  */
 
 import React from 'react';
