@@ -10,7 +10,7 @@ $ npm run init
 
 ### 修改组件源码
 
-#### 打包组件源码
+1. #### 打包组件源码
 
 ```bash
 $ npm run build  //打包所有组件包
@@ -24,7 +24,7 @@ $ npm run build:icons-aeps  //打包大优采图标组件包
 $ npm run build:icons-jxc  //打包小优采图标组件包
 ```
 
-#### 本地调试组件
+2. #### 本地调试组件
 
 ```bash
 $ npm run link
@@ -36,7 +36,15 @@ $ npm run link
 $ npm link [包名称]  //包名称查看packages/[文件夹]/package.json下的name字段
 ```
 
-#### 发布组件源码至`npm`
+3. #### 提交开发分支代码至`git`
+
+```bash
+$ git add .
+$ git commit -m "update"
+$ git push 或者 git push origin dev-2021:dev-2021
+```
+
+4. #### 发布组件源码至`npm`
 
 > 发布之前必须保证所有代码都提交到 git，版本号改动不需要手动改动，在发布时候会提示让你修改
 
@@ -94,14 +102,26 @@ $ npm run publish
 
 ### 文档站点更新
 
-#### 启动组件文档开发
+1. #### 启动组件文档开发
 
 ```bash
 $ npm run docs:dev
 ```
 
-#### 打包组件文档
+2. #### 打包组件文档
 
 ```bash
 $ npm run docs:build
 ```
+
+3. #### 提交开发分支代码至`git`
+
+```bash
+$ git add .
+$ git commit -m "update"
+$ git push 或者 git push origin dev-2021:dev-2021
+```
+
+4. #### 合并分支代码至`master`主干
+
+> 合并之后 git 会自动部署跟新文档站点
