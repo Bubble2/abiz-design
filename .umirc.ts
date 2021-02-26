@@ -46,7 +46,7 @@ export default defineConfig({
   //   ]
   // ],
   resolve: {
-    includes: ['docs'],
+    includes: ['./docs'],
     // includes: ['docs/index.md', 'docs/guide', 'docs/components-aeps'],
   },
   navs: [
@@ -64,34 +64,28 @@ export default defineConfig({
     '@docs-common': path.resolve(__dirname, 'docs-common'),
   },
   styles: [
-    `[class$="-previewer-demo"] >[class*="-btn"]{
-        margin-right: 8px;
-        margin-bottom: 12px;
-     }
-     .code-box{
-       margin-bottom: 16px;
-     }
-     `,
-     `${isProduction?'http://abiz-fe.git.vemic.com/':'http://localhost:8000'}/abiz-design/styles/markdown.css`
+    `${
+      isProduction ? 'http://abiz-fe.git.vemic.com/' : 'http://localhost:8000'
+    }/abiz-design/styles/markdown.css`,
   ],
   externals: {
-    'react': 'window.React',
+    react: 'window.React',
     'react-dom': 'window.ReactDOM',
   },
   scripts: [
     'https://gw.alipayobjects.com/os/lib/react/16.13.1/umd/react.development.js',
     'https://gw.alipayobjects.com/os/lib/react-dom/16.13.1/umd/react-dom.development.js',
   ],
-  targets: {
-    chrome: 79,
-    firefox: false,
-    safari: false,
-    edge: false,
-    ios: false,
-  },
+  // targets: {
+  //   chrome: 79,
+  //   firefox: false,
+  //   safari: false,
+  //   edge: false,
+  //   ios: false,
+  // },
   dynamicImport: {},
   chunks: ['vendors', 'umi'],
-  chainWebpack: function (config, { webpack }) {
+  chainWebpack: function(config, { webpack }) {
     config.merge({
       optimization: {
         splitChunks: {
@@ -109,17 +103,13 @@ export default defineConfig({
             },
           },
         },
-      }
+      },
     });
   },
-  devtool: false,
+  polyfill: false,
+  exportStatic: {},
   nodeModulesTransform: {
     type: 'none',
-    exclude: []
   },
-  esbuild: {},
-  extraBabelPlugins: [
-    '@babel/plugin-transform-runtime',
-  ]
   // more config: https://d.umijs.org/config
 });
