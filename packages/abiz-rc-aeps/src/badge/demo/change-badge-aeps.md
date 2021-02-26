@@ -10,7 +10,11 @@ order: 4
 
 import React from 'react';
 import { ConfigProvider, Badge, Button, Switch } from '@abiz/rc-aeps';
-import { MinusOutlined, PlusOutlined } from '@abiz/icons-aeps';
+import {
+  MinusOutlined,
+  PlusOutlined,
+  QuestionOutlined,
+} from '@abiz/icons-aeps';
 
 const ButtonGroup = Button.Group;
 
@@ -33,6 +37,11 @@ class Demo extends React.Component {
     this.setState({ count });
   };
 
+  random = () => {
+    const count = Math.floor(Math.random() * 100);
+    this.setState({ count });
+  };
+
   onChange = show => {
     this.setState({ show });
   };
@@ -50,6 +59,9 @@ class Demo extends React.Component {
             </Button>
             <Button onClick={this.increase}>
               <PlusOutlined />
+            </Button>
+            <Button onClick={this.random}>
+              <QuestionOutlined />
             </Button>
           </ButtonGroup>
         </div>

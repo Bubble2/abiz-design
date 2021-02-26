@@ -18,6 +18,9 @@ export default () => {
         <Badge count={5} title="Custom hover text">
           <a href="#" className="head-example" />
         </Badge>
+        <Badge count={-5} title="Negative">
+          <a href="#" className="head-example" />
+        </Badge>
       </div>
     </ConfigProvider>
   );

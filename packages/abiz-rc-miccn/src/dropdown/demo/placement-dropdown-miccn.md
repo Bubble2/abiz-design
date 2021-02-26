@@ -17,7 +17,7 @@ const menu = (
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="http://www.alipay.com/"
+        href="https://www.antgroup.com"
       >
         1st menu item
       </a>
@@ -26,13 +26,17 @@ const menu = (
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="http://www.taobao.com/"
+        href="https://www.aliyun.com"
       >
         2nd menu item
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="http://www.tmall.com/">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.luohanacademy.com"
+      >
         3rd menu item
       </a>
     </Menu.Item>

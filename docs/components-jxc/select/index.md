@@ -40,6 +40,8 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/select/demo/hide-selected-select-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/select/demo/responsive-select-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/select/demo/big-data-select-jxc.md"></embed></div>
           
   </Col>
@@ -71,4 +73,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/select/index-api.md"></embed><div>
-        

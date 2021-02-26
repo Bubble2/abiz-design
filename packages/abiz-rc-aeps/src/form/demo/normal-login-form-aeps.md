@@ -13,7 +13,7 @@ import { ConfigProvider, Form, Input, Button, Checkbox } from '@abiz/rc-aeps';
 import { UserOutlined, LockOutlined } from '@abiz/icons-aeps';
 
 const NormalLoginForm = () => {
-  const onFinish = values => {
+  const onFinish = (values: any) => {
     console.log('Received values of form: ', values);
   };
 

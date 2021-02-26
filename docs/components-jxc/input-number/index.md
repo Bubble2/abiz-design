@@ -28,6 +28,8 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/input-number/demo/formatter-input-number-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/input-number/demo/borderless-input-number-jxc.md"></embed></div>
+          
   </Col>
           
   <Col span=12>
@@ -36,9 +38,10 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/input-number/demo/digit-input-number-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/input-number/demo/keyboard-input-number-jxc.md"></embed></div>
+          
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/input-number/index-api.md"></embed><div>
-        

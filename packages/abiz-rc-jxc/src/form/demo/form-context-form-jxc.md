@@ -20,6 +20,7 @@ import {
   Typography,
 } from '@abiz/rc-jxc';
 import { SmileOutlined, UserOutlined } from '@abiz/icons-jxc';
+import { FormInstance } from 'antd/lib/form';
 
 const layout = {
   labelCol: { span: 8 },
@@ -29,14 +30,25 @@ const tailLayout = {
   wrapperCol: { offset: 8, span: 16 },
 };
 
+interface UserType {
+  name: string;
+  age: string;
+}
+
 interface ModalFormProps {
   visible: boolean;
   onCancel: () => void;
 }
 
 // reset form fields when modal is form, closed
-const useResetFormOnCloseModal = ({ form, visible }) => {
-  const prevVisibleRef = useRef();
+const useResetFormOnCloseModal = ({
+  form,
+  visible,
+}: {
+  form: FormInstance;
+  visible: boolean;
+}) => {
+  const prevVisibleRef = useRef<boolean>();
   useEffect(() => {
     prevVisibleRef.current = visible;
   }, [visible]);
@@ -91,7 +103,7 @@ const Demo = () => {
     setVisible(false);
   };
 
-  const onFinish = values => {
+  const onFinish = (values: any) => {
     console.log('Finish:', values);
   };
 
@@ -122,7 +134,7 @@ const Demo = () => {
             }
           >
             {({ getFieldValue }) => {
-              const users = getFieldValue('users') || [];
+              const users: UserType[] = getFieldValue('users') || [];
               return users.length ? (
                 <ul>
                   {users.map((user, index) => (

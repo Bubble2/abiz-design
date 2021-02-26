@@ -12,14 +12,20 @@ import React, { useState } from 'react';
 import { ConfigProvider, Form, Input, Button, Radio } from '@abiz/rc-aeps';
 import { InfoCircleOutlined } from '@abiz/icons-aeps';
 
+type RequiredMark = boolean | 'optional';
+
 const FormLayoutDemo = () => {
   const [form] = Form.useForm();
-  const [requiredMark, setRequiredMarkType] = useState<boolean | 'optional'>(
+  const [requiredMark, setRequiredMarkType] = useState<RequiredMark>(
     'optional',
   );
 
-  const onRequiredTypeChange = ({ requiredMark }) => {
-    setRequiredMarkType(requiredMark);
+  const onRequiredTypeChange = ({
+    requiredMarkValue,
+  }: {
+    requiredMarkValue: RequiredMark;
+  }) => {
+    setRequiredMarkType(requiredMarkValue);
   };
 
   return (
@@ -33,7 +39,7 @@ const FormLayoutDemo = () => {
       <Form.Item label="Required Mark" name="requiredMark">
         <Radio.Group>
           <Radio.Button value="optional">Optional</Radio.Button>
-          <Radio.Button value={true}>Required</Radio.Button>
+          <Radio.Button value>Required</Radio.Button>
           <Radio.Button value={false}>Hidden</Radio.Button>
         </Radio.Group>
       </Form.Item>

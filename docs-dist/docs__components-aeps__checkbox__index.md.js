@@ -1,7 +1,690 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{AYaD:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["disabled-checkbox-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["disabled-checkbox-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},GOXu:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("ZpkN");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(l.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("h3",{id:"\u5C5E\u6027"},e.a.createElement(l.AnchorLink,{to:"#\u5C5E\u6027","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5C5E\u6027"),e.a.createElement("h4",{id:"checkbox"},e.a.createElement(l.AnchorLink,{to:"#checkbox","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Checkbox"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"autoFocus"),e.a.createElement("td",null,"\u81EA\u52A8\u83B7\u53D6\u7126\u70B9"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"checked"),e.a.createElement("td",null,"\u6307\u5B9A\u5F53\u524D\u662F\u5426\u9009\u4E2D"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultChecked"),e.a.createElement("td",null,"\u521D\u59CB\u662F\u5426\u9009\u4E2D"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"disabled"),e.a.createElement("td",null,"\u5931\u6548\u72B6\u6001"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"indeterminate"),e.a.createElement("td",null,"\u8BBE\u7F6E indeterminate \u72B6\u6001\uFF0C\u53EA\u8D1F\u8D23\u6837\u5F0F\u63A7\u5236"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u53D8\u5316\u65F6\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"function(e:Event)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h4",{id:"checkbox-group"},e.a.createElement(l.AnchorLink,{to:"#checkbox-group","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Checkbox Group"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"defaultValue"),e.a.createElement("td",null,"\u9ED8\u8BA4\u9009\u4E2D\u7684\u9009\u9879"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"disabled"),e.a.createElement("td",null,"\u6574\u7EC4\u5931\u6548"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"name"),e.a.createElement("td",null,"CheckboxGroup \u4E0B\u6240\u6709 ",e.a.createElement("code",null,'input[type="checkbox"]')," \u7684 ",e.a.createElement("code",null,"name")," \u5C5E\u6027"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"options"),e.a.createElement("td",null,"\u6307\u5B9A\u53EF\u9009\u9879"),e.a.createElement("td",null,"string[] | Option[]"),e.a.createElement("td",null,"[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"value"),e.a.createElement("td",null,"\u6307\u5B9A\u9009\u4E2D\u7684\u9009\u9879"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u53D8\u5316\u65F6\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"function(checkedValue)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h5",{id:"option"},e.a.createElement(l.AnchorLink,{to:"#option","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Option"),e.a.createElement(u.a,{code:`
-interface Option {
-  label: string;
-  value: string;
-  disabled?: boolean;
-}
-`,lang:"typescript"}),e.a.createElement("h3",{id:"\u65B9\u6CD5"},e.a.createElement(l.AnchorLink,{to:"#\u65B9\u6CD5","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u65B9\u6CD5"),e.a.createElement("h4",{id:"checkbox-1"},e.a.createElement(l.AnchorLink,{to:"#checkbox-1","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Checkbox"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u540D\u79F0"),e.a.createElement("th",null,"\u63CF\u8FF0"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"blur()"),e.a.createElement("td",null,"\u79FB\u9664\u7126\u70B9"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"focus()"),e.a.createElement("td",null,"\u83B7\u53D6\u7126\u70B9"),e.a.createElement("td",null))))))}},PZEi:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u591A\u9009\u6846"},e.a.createElement(l.AnchorLink,{to:"#\u591A\u9009\u6846","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u591A\u9009\u6846"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("TMbv").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(l.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(c.a,{gutter:"8"},e.a.createElement(d.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("TClB").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("sUXg").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("V4G6").default()}))),e.a.createElement(d.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("AYaD").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("dALM").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("wsXx").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("GOXu").default()}),e.a.createElement("div",null))))}},TClB:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["basic-checkbox-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["basic-checkbox-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},TMbv:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u591A\u9009\u6846\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(l.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u5728\u4E00\u7EC4\u53EF\u9009\u9879\u4E2D\u8FDB\u884C\u591A\u9879\u9009\u62E9\u65F6\uFF1B"),e.a.createElement("li",null,"\u5355\u72EC\u4F7F\u7528\u53EF\u4EE5\u8868\u793A\u4E24\u79CD\u72B6\u6001\u4E4B\u95F4\u7684\u5207\u6362\uFF0C\u548C ",e.a.createElement("code",null,"switch")," \u7C7B\u4F3C\u3002\u533A\u522B\u5728\u4E8E\u5207\u6362 ",e.a.createElement("code",null,"switch")," \u4F1A\u76F4\u63A5\u89E6\u53D1\u72B6\u6001\u6539\u53D8\uFF0C\u800C ",e.a.createElement("code",null,"checkbox")," \u4E00\u822C\u7528\u4E8E\u72B6\u6001\u6807\u8BB0\uFF0C\u9700\u8981\u548C\u63D0\u4EA4\u64CD\u4F5C\u914D\u5408\u3002"))))}},V4G6:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["check-all-checkbox-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["check-all-checkbox-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},dALM:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["group-checkbox-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["group-checkbox-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},g5U0:function(m,a,t){"use strict";var n=t("kPKH"),e=t("h9md"),l=t.n(e);a.a=n.a},ltCa:function(m,a,t){"use strict";var n=t("BMrR"),e=t("7xIR"),l=t.n(e);a.a=n.a},sUXg:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["controller-checkbox-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["controller-checkbox-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},wsXx:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["layout-checkbox-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["layout-checkbox-aeps-demo"].previewerProps,e.a.createElement(E,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [23],
+  {
+    AYaD: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['disabled-checkbox-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['disabled-checkbox-aeps-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        c = a('cDcd'),
+        r = a.n(c),
+        m = a('ZpkN');
+      t['a'] = r.a.forwardRef((e, t) => {
+        var a = e.children,
+          c = Object(n['default'])(e, ['children']);
+        return r.a.createElement(
+          m['a'],
+          Object(l['default'])({}, c, { forwardedRef: t }),
+          r.a.createElement(r.a.Fragment, null, a),
+        );
+      });
+    },
+    GOXu: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq'),
+        r = (a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia'));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: '\u5c5e\u6027' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#\u5c5e\u6027', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5c5e\u6027',
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'checkbox' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#checkbox', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Checkbox',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'autoFocus'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u52a8\u83b7\u53d6\u7126\u70b9',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'checked'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u5f53\u524d\u662f\u5426\u9009\u4e2d',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'defaultChecked'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u521d\u59cb\u662f\u5426\u9009\u4e2d',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'disabled'),
+                  n.a.createElement('td', null, '\u5931\u6548\u72b6\u6001'),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'indeterminate'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e indeterminate \u72b6\u6001\uff0c\u53ea\u8d1f\u8d23\u6837\u5f0f\u63a7\u5236',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u53d8\u5316\u65f6\u56de\u8c03\u51fd\u6570',
+                  ),
+                  n.a.createElement('td', null, 'function(e:Event)'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'checkbox-group' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#checkbox-group', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Checkbox Group',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'defaultValue'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u9009\u4e2d\u7684\u9009\u9879',
+                  ),
+                  n.a.createElement('td', null, 'string[]'),
+                  n.a.createElement('td', null, '[]'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'disabled'),
+                  n.a.createElement('td', null, '\u6574\u7ec4\u5931\u6548'),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'name'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'CheckboxGroup \u4e0b\u6240\u6709 ',
+                    n.a.createElement('code', null, 'input[type="checkbox"]'),
+                    ' \u7684 ',
+                    n.a.createElement('code', null, 'name'),
+                    ' \u5c5e\u6027',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'options'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u53ef\u9009\u9879',
+                  ),
+                  n.a.createElement('td', null, 'string[] | Option[]'),
+                  n.a.createElement('td', null, '[]'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'value'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u9009\u4e2d\u7684\u9009\u9879',
+                  ),
+                  n.a.createElement('td', null, 'string[]'),
+                  n.a.createElement('td', null, '[]'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u53d8\u5316\u65f6\u56de\u8c03\u51fd\u6570',
+                  ),
+                  n.a.createElement('td', null, 'function(checkedValue)'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h5',
+              { id: 'option' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#option', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Option',
+            ),
+            n.a.createElement(r['a'], {
+              code:
+                '\ninterface Option {\n  label: string;\n  value: string;\n  disabled?: boolean;\n}\n',
+              lang: 'typescript',
+            }),
+            n.a.createElement(
+              'h3',
+              { id: '\u65b9\u6cd5' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#\u65b9\u6cd5', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u65b9\u6cd5',
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'checkbox-1' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#checkbox-1', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Checkbox',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u540d\u79f0'),
+                  n.a.createElement('th', null, '\u63cf\u8ff0'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'blur()'),
+                  n.a.createElement('td', null, '\u79fb\u9664\u7126\u70b9'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'focus()'),
+                  n.a.createElement('td', null, '\u83b7\u53d6\u7126\u70b9'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    PZEi: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq'),
+        r = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u591a\u9009\u6846' },
+              n.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u591a\u9009\u6846',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u591a\u9009\u6846',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('TMbv').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                r['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('TClB').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('sUXg').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('V4G6').default(),
+                  }),
+                ),
+              ),
+              n.a.createElement(
+                r['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('AYaD').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('dALM').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('wsXx').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('GOXu').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    TClB: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['basic-checkbox-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['basic-checkbox-aeps-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    TMbv: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement('p', null, '\u591a\u9009\u6846\u3002'),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u5728\u4e00\u7ec4\u53ef\u9009\u9879\u4e2d\u8fdb\u884c\u591a\u9879\u9009\u62e9\u65f6\uff1b',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u5355\u72ec\u4f7f\u7528\u53ef\u4ee5\u8868\u793a\u4e24\u79cd\u72b6\u6001\u4e4b\u95f4\u7684\u5207\u6362\uff0c\u548c ',
+                n.a.createElement('code', null, 'switch'),
+                ' \u7c7b\u4f3c\u3002\u533a\u522b\u5728\u4e8e\u5207\u6362 ',
+                n.a.createElement('code', null, 'switch'),
+                ' \u4f1a\u76f4\u63a5\u89e6\u53d1\u72b6\u6001\u6539\u53d8\uff0c\u800c ',
+                n.a.createElement('code', null, 'checkbox'),
+                ' \u4e00\u822c\u7528\u4e8e\u72b6\u6001\u6807\u8bb0\uff0c\u9700\u8981\u548c\u63d0\u4ea4\u64cd\u4f5c\u914d\u5408\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    V4G6: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['check-all-checkbox-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['check-all-checkbox-aeps-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    dALM: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['group-checkbox-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['group-checkbox-aeps-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+    sUXg: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['controller-checkbox-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['controller-checkbox-aeps-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    wsXx: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['layout-checkbox-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['layout-checkbox-aeps-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

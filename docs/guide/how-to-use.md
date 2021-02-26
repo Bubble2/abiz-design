@@ -10,6 +10,7 @@ nav:
 ### 安装
 
 #### 内贸站
+
 ```bash | pure
 npm i @abiz/rc-jxc
 ## or
@@ -17,6 +18,7 @@ yarn add @abiz/rc-jxc
 ```
 
 #### 大优采
+
 ```bash | pure
 npm i @abiz/rc-aeps
 ## or
@@ -24,7 +26,8 @@ yarn add @abiz/rc-aeps
 ```
 
 #### 小优采
-``` bash | pure
+
+```bash | pure
 npm i @abiz/rc-jxc
 ## or
 yarn add @abiz/rc-jxc

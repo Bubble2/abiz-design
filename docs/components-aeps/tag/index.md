@@ -24,6 +24,20 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/basic-tag-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/colorful-inverse-tag-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/checkable-tag-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/animation-tag-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/status-tag-aeps.md"></embed></div>
+          
+  </Col>
+          
+  <Col span=12>
+    
+  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/colorful-tag-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/control-tag-aeps.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/controlled-tag-aeps.md"></embed></div>
@@ -34,19 +48,6 @@ group:
           
   </Col>
           
-  <Col span=12>
-    
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/colorful-tag-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/checkable-tag-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/animation-tag-aeps.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-aeps/tag/demo/status-tag-aeps.md"></embed></div>
-          
-  </Col>
-          
 </Row>
         
 <div><embed src="@docs-common/tag/index-api.md"></embed><div>
-        

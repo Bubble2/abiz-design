@@ -34,11 +34,13 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/preview-file-upload-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/upload-with-aliyun-oss-upload-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/transform-file-upload-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/file-type-upload-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/upload-custom-action-icon-upload-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/crop-image-upload-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/drag-sorting-upload-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/customize-progress-bar-upload-jxc.md"></embed></div>
           
   </Col>
           
@@ -54,17 +56,16 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/picture-style-upload-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/transform-file-upload-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/max-count-upload-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/upload-custom-action-icon-upload-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/upload-with-aliyun-oss-upload-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/drag-sorting-upload-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/file-type-upload-jxc.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/customize-progress-bar-upload-jxc.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-jxc/upload/demo/crop-image-upload-jxc.md"></embed></div>
           
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/upload/index-api.md"></embed><div>
-        

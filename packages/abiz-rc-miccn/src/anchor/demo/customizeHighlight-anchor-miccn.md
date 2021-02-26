@@ -13,9 +13,7 @@ import { ConfigProvider, Anchor } from '@abiz/rc-miccn';
 
 const { Link } = Anchor;
 
-const getCurrentAnchor = () => {
-  return '#components-anchor-demo-static';
-};
+const getCurrentAnchor = () => '#components-anchor-demo-static';
 
 export default () => {
   return (

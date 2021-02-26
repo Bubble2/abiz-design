@@ -1,20 +1,1018 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[173],{"1Kmb":function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["with-icon-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["with-icon-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},"46F+":function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["custom-icon-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["custom-icon-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},KrMg:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["basic-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["basic-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},RRsB:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["duration-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["duration-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},UEj8:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa");u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u5168\u5C40\u5C55\u793A\u901A\u77E5\u63D0\u9192\u4FE1\u606F\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(n.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("p",null,"\u5728\u7CFB\u7EDF\u56DB\u4E2A\u89D2\u663E\u793A\u901A\u77E5\u63D0\u9192\u4FE1\u606F\u3002\u7ECF\u5E38\u7528\u4E8E\u4EE5\u4E0B\u60C5\u51B5\uFF1A"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u8F83\u4E3A\u590D\u6742\u7684\u901A\u77E5\u5185\u5BB9\u3002"),e.a.createElement("li",null,"\u5E26\u6709\u4EA4\u4E92\u7684\u901A\u77E5\uFF0C\u7ED9\u51FA\u7528\u6237\u4E0B\u4E00\u6B65\u7684\u884C\u52A8\u70B9\u3002"),e.a.createElement("li",null,"\u7CFB\u7EDF\u4E3B\u52A8\u63A8\u9001\u3002"))))}},deTw:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("ZpkN");u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(n.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("ul",null,e.a.createElement("li",null,e.a.createElement("code",null,"notification.success(config)")),e.a.createElement("li",null,e.a.createElement("code",null,"notification.error(config)")),e.a.createElement("li",null,e.a.createElement("code",null,"notification.info(config)")),e.a.createElement("li",null,e.a.createElement("code",null,"notification.warning(config)")),e.a.createElement("li",null,e.a.createElement("code",null,"notification.warn(config)")),e.a.createElement("li",null,e.a.createElement("code",null,"notification.open(config)")),e.a.createElement("li",null,e.a.createElement("code",null,"notification.close(key: String)")),e.a.createElement("li",null,e.a.createElement("code",null,"notification.destroy()"))),e.a.createElement("p",null,"config \u53C2\u6570\u5982\u4E0B\uFF1A"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"bottom"),e.a.createElement("td",null,"\u6D88\u606F\u4ECE\u5E95\u90E8\u5F39\u51FA\u65F6\uFF0C\u8DDD\u79BB\u5E95\u90E8\u7684\u4F4D\u7F6E\uFF0C\u5355\u4F4D\u50CF\u7D20"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"24")),e.a.createElement("tr",null,e.a.createElement("td",null,"btn"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5173\u95ED\u6309\u94AE"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"className"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49 CSS class"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"closeIcon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5173\u95ED\u56FE\u6807"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"description"),e.a.createElement("td",null,"\u901A\u77E5\u63D0\u9192\u5185\u5BB9\uFF0C\u5FC5\u9009"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"duration"),e.a.createElement("td",null,"\u9ED8\u8BA4 4.5 \u79D2\u540E\u81EA\u52A8\u5173\u95ED\uFF0C\u914D\u7F6E\u4E3A null \u5219\u4E0D\u81EA\u52A8\u5173\u95ED"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"4.5")),e.a.createElement("tr",null,e.a.createElement("td",null,"getContainer"),e.a.createElement("td",null,"\u914D\u7F6E\u6E32\u67D3\u8282\u70B9\u7684\u8F93\u51FA\u4F4D\u7F6E"),e.a.createElement("td",null,"() => HTMLNode"),e.a.createElement("td",null,"() => document.body")),e.a.createElement("tr",null,e.a.createElement("td",null,"icon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u56FE\u6807"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"key"),e.a.createElement("td",null,"\u5F53\u524D\u901A\u77E5\u552F\u4E00\u6807\u5FD7"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"message"),e.a.createElement("td",null,"\u901A\u77E5\u63D0\u9192\u6807\u9898\uFF0C\u5FC5\u9009"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"placement"),e.a.createElement("td",null,"\u5F39\u51FA\u4F4D\u7F6E\uFF0C\u53EF\u9009 ",e.a.createElement("code",null,"topLeft")," ",e.a.createElement("code",null,"topRight")," ",e.a.createElement("code",null,"bottomLeft")," ",e.a.createElement("code",null,"bottomRight")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"topRight"))),e.a.createElement("tr",null,e.a.createElement("td",null,"style"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5185\u8054\u6837\u5F0F"),e.a.createElement("td",null,e.a.createElement(n.Link,{to:"https://github.com/DefinitelyTyped/DefinitelyTyped/blob/e434515761b36830c3e58a970abf5186f005adac/types/react/index.d.ts#L794"},"CSSProperties")),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"top"),e.a.createElement("td",null,"\u6D88\u606F\u4ECE\u9876\u90E8\u5F39\u51FA\u65F6\uFF0C\u8DDD\u79BB\u9876\u90E8\u7684\u4F4D\u7F6E\uFF0C\u5355\u4F4D\u50CF\u7D20"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"24")),e.a.createElement("tr",null,e.a.createElement("td",null,"onClick"),e.a.createElement("td",null,"\u70B9\u51FB\u901A\u77E5\u65F6\u89E6\u53D1\u7684\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"function"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onClose"),e.a.createElement("td",null,"\u5F53\u901A\u77E5\u5173\u95ED\u65F6\u89E6\u53D1"),e.a.createElement("td",null,"function"),e.a.createElement("td",null,"-")))),e.a.createElement("p",null,"\u8FD8\u63D0\u4F9B\u4E86\u4E00\u4E2A\u5168\u5C40\u914D\u7F6E\u65B9\u6CD5\uFF0C\u5728\u8C03\u7528\u524D\u63D0\u524D\u914D\u7F6E\uFF0C\u5168\u5C40\u4E00\u6B21\u751F\u6548\u3002"),e.a.createElement("ul",null,e.a.createElement("li",null,e.a.createElement("p",null,e.a.createElement("code",null,"notification.config(options)")),e.a.createElement("blockquote",null,e.a.createElement("p",null,"\u5F53\u4F60\u4F7F\u7528 ",e.a.createElement("code",null,"ConfigProvider")," \u8FDB\u884C\u5168\u5C40\u5316\u914D\u7F6E\u65F6\uFF0C\u7CFB\u7EDF\u4F1A\u9ED8\u8BA4\u81EA\u52A8\u5F00\u542F RTL \u6A21\u5F0F\u3002(4.3.0+)"),e.a.createElement("p",null,"\u5F53\u4F60\u60F3\u5355\u72EC\u4F7F\u7528\uFF0C\u53EF\u901A\u8FC7\u5982\u4E0B\u8BBE\u7F6E\u5F00\u542F RTL \u6A21\u5F0F\u3002")))),e.a.createElement(a.a,{code:`
-notification.config({
-  placement: 'bottomRight',
-  bottom: 50,
-  duration: 3,
-  rtl: true,
-});
-`,lang:"js"}),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"bottom"),e.a.createElement("td",null,"\u6D88\u606F\u4ECE\u5E95\u90E8\u5F39\u51FA\u65F6\uFF0C\u8DDD\u79BB\u5E95\u90E8\u7684\u4F4D\u7F6E\uFF0C\u5355\u4F4D\u50CF\u7D20"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"24")),e.a.createElement("tr",null,e.a.createElement("td",null,"closeIcon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5173\u95ED\u56FE\u6807"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"duration"),e.a.createElement("td",null,"\u9ED8\u8BA4\u81EA\u52A8\u5173\u95ED\u5EF6\u65F6\uFF0C\u5355\u4F4D\u79D2"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"4.5")),e.a.createElement("tr",null,e.a.createElement("td",null,"getContainer"),e.a.createElement("td",null,"\u914D\u7F6E\u6E32\u67D3\u8282\u70B9\u7684\u8F93\u51FA\u4F4D\u7F6E"),e.a.createElement("td",null,"() => HTMLNode"),e.a.createElement("td",null,"() => document.body")),e.a.createElement("tr",null,e.a.createElement("td",null,"placement"),e.a.createElement("td",null,"\u5F39\u51FA\u4F4D\u7F6E\uFF0C\u53EF\u9009 ",e.a.createElement("code",null,"topLeft")," ",e.a.createElement("code",null,"topRight")," ",e.a.createElement("code",null,"bottomLeft")," ",e.a.createElement("code",null,"bottomRight")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"topRight"))),e.a.createElement("tr",null,e.a.createElement("td",null,"rtl"),e.a.createElement("td",null,"\u662F\u5426\u5F00\u542F RTL \u6A21\u5F0F"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"top"),e.a.createElement("td",null,"\u6D88\u606F\u4ECE\u9876\u90E8\u5F39\u51FA\u65F6\uFF0C\u8DDD\u79BB\u9876\u90E8\u7684\u4F4D\u7F6E\uFF0C\u5355\u4F4D\u50CF\u7D20"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"24")))),e.a.createElement("h2",{id:"faq"},e.a.createElement(n.AnchorLink,{to:"#faq","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FAQ"),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48-notification-\u4E0D\u80FD\u83B7\u53D6-context\u3001redux-\u7684\u5185\u5BB9\u548C-configprovider-\u7684-localeprefixcls-\u914D\u7F6E\uFF1F"},e.a.createElement(n.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48-notification-\u4E0D\u80FD\u83B7\u53D6-context\u3001redux-\u7684\u5185\u5BB9\u548C-configprovider-\u7684-localeprefixcls-\u914D\u7F6E\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48 notification \u4E0D\u80FD\u83B7\u53D6 context\u3001redux \u7684\u5185\u5BB9\u548C ConfigProvider \u7684 ",e.a.createElement("code",null,"locale/prefixCls")," \u914D\u7F6E\uFF1F"),e.a.createElement("p",null,"\u76F4\u63A5\u8C03\u7528 notification \u65B9\u6CD5\uFF0Cantd \u4F1A\u901A\u8FC7 ",e.a.createElement("code",null,"ReactDOM.render")," \u52A8\u6001\u521B\u5EFA\u65B0\u7684 React \u5B9E\u4F53\u3002\u5176 context \u4E0E\u5F53\u524D\u4EE3\u7801\u6240\u5728 context \u5E76\u4E0D\u76F8\u540C\uFF0C\u56E0\u800C\u65E0\u6CD5\u83B7\u53D6 context \u4FE1\u606F\u3002"),e.a.createElement("p",null,"\u5F53\u4F60\u9700\u8981 context \u4FE1\u606F\uFF08\u4F8B\u5982 ConfigProvider \u914D\u7F6E\u7684\u5185\u5BB9\uFF09\u65F6\uFF0C\u53EF\u4EE5\u901A\u8FC7 ",e.a.createElement("code",null,"notification.useNotification")," \u65B9\u6CD5\u4F1A\u8FD4\u56DE ",e.a.createElement("code",null,"api")," \u5B9E\u4F53\u4EE5\u53CA ",e.a.createElement("code",null,"contextHolder")," \u8282\u70B9\u3002\u5C06\u5176\u63D2\u5165\u5230\u4F60\u9700\u8981\u83B7\u53D6 context \u4F4D\u7F6E\u5373\u53EF\uFF1A"),e.a.createElement(a.a,{code:`
-const [api, contextHolder] = notification.useNotification();
-
-return (
-  <Context1.Provider value="Ant">
-    {/* contextHolder \u5728 Context1 \u5185\uFF0C\u5B83\u53EF\u4EE5\u83B7\u5F97 Context1 \u7684 context */}
-    {contextHolder}
-    <Context2.Provider value="Design">
-      {/* contextHolder \u5728 Context2 \u5916\uFF0C\u56E0\u800C\u4E0D\u4F1A\u83B7\u5F97 Context2 \u7684 context */}
-    </Context2.Provider>
-  </Context1.Provider>
-);
-`,lang:"tsx"}),e.a.createElement("p",null,"**\u5F02\u540C\uFF1A**\u901A\u8FC7 hooks \u521B\u5EFA\u7684 ",e.a.createElement("code",null,"contextHolder")," \u5FC5\u987B\u63D2\u5165\u5230\u5B50\u5143\u7D20\u8282\u70B9\u4E2D\u624D\u4F1A\u751F\u6548\uFF0C\u5F53\u4F60\u4E0D\u9700\u8981\u4E0A\u4E0B\u6587\u4FE1\u606F\u65F6\u8BF7\u76F4\u63A5\u8C03\u7528\u3002")))}},g5U0:function(m,u,t){"use strict";var l=t("kPKH"),e=t("h9md"),n=t.n(e);u.a=l.a},hDkq:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["with-btn-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["with-btn-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},ltCa:function(m,u,t){"use strict";var l=t("BMrR"),e=t("7xIR"),n=t.n(e);u.a=l.a},rEbA:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa");u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u901A\u77E5\u63D0\u9192\u6846"},e.a.createElement(n.AnchorLink,{to:"#\u901A\u77E5\u63D0\u9192\u6846","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u901A\u77E5\u63D0\u9192\u6846"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("UEj8").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(n.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(d.a,{gutter:"8"},e.a.createElement(c.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("KrMg").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("1Kmb").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("46F+").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("uQGn").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("vM4f").default()}))),e.a.createElement(c.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("RRsB").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("hDkq").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("xU+l").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("slX0").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("deTw").default()}),e.a.createElement("div",null))))}},slX0:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["update-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["update-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},uQGn:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["custom-style-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["custom-style-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},vM4f:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["hooks-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["hooks-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},"xU+l":function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),i=t.n(n),c=t("g5U0"),d=t("ltCa"),a=t("0zqC");const E=e.a.memo(t("JjdP").default["placement-notification-miccn-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["placement-notification-miccn-demo"].previewerProps,e.a.createElement(E,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [174],
+  {
+    '1Kmb': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['with-icon-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['with-icon-notification-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    '46F+': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['custom-icon-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['custom-icon-notification-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var n = a('0Owb'),
+        l = a('PpiC'),
+        c = a('cDcd'),
+        r = a.n(c),
+        m = a('ZpkN');
+      t['a'] = r.a.forwardRef((e, t) => {
+        var a = e.children,
+          c = Object(l['default'])(e, ['children']);
+        return r.a.createElement(
+          m['a'],
+          Object(n['default'])({}, c, { forwardedRef: t }),
+          r.a.createElement(r.a.Fragment, null, a),
+        );
+      });
+    },
+    KrMg: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['basic-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['basic-notification-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    RRsB: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['duration-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['duration-notification-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    UEj8: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'p',
+              null,
+              '\u5168\u5c40\u5c55\u793a\u901a\u77e5\u63d0\u9192\u4fe1\u606f\u3002',
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5728\u7cfb\u7edf\u56db\u4e2a\u89d2\u663e\u793a\u901a\u77e5\u63d0\u9192\u4fe1\u606f\u3002\u7ecf\u5e38\u7528\u4e8e\u4ee5\u4e0b\u60c5\u51b5\uff1a',
+            ),
+            l.a.createElement(
+              'ul',
+              null,
+              l.a.createElement(
+                'li',
+                null,
+                '\u8f83\u4e3a\u590d\u6742\u7684\u901a\u77e5\u5185\u5bb9\u3002',
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                '\u5e26\u6709\u4ea4\u4e92\u7684\u901a\u77e5\uff0c\u7ed9\u51fa\u7528\u6237\u4e0b\u4e00\u6b65\u7684\u884c\u52a8\u70b9\u3002',
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                '\u7cfb\u7edf\u4e3b\u52a8\u63a8\u9001\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    deTw: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = a('dEAq'),
+        r = (a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia'));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: 'api' },
+              l.a.createElement(
+                c['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            l.a.createElement(
+              'ul',
+              null,
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement('code', null, 'notification.success(config)'),
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement('code', null, 'notification.error(config)'),
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement('code', null, 'notification.info(config)'),
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement('code', null, 'notification.warning(config)'),
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement('code', null, 'notification.warn(config)'),
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement('code', null, 'notification.open(config)'),
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement(
+                  'code',
+                  null,
+                  'notification.close(key: String)',
+                ),
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement('code', null, 'notification.destroy()'),
+              ),
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              'config \u53c2\u6570\u5982\u4e0b\uff1a',
+            ),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'bottom'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u6d88\u606f\u4ece\u5e95\u90e8\u5f39\u51fa\u65f6\uff0c\u8ddd\u79bb\u5e95\u90e8\u7684\u4f4d\u7f6e\uff0c\u5355\u4f4d\u50cf\u7d20',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '24'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'btn'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5173\u95ed\u6309\u94ae',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'className'),
+                  l.a.createElement('td', null, '\u81ea\u5b9a\u4e49 CSS class'),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'closeIcon'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5173\u95ed\u56fe\u6807',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'description'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u901a\u77e5\u63d0\u9192\u5185\u5bb9\uff0c\u5fc5\u9009',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'duration'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4 4.5 \u79d2\u540e\u81ea\u52a8\u5173\u95ed\uff0c\u914d\u7f6e\u4e3a null \u5219\u4e0d\u81ea\u52a8\u5173\u95ed',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '4.5'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'getContainer'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u914d\u7f6e\u6e32\u67d3\u8282\u70b9\u7684\u8f93\u51fa\u4f4d\u7f6e',
+                  ),
+                  l.a.createElement('td', null, '() => HTMLNode'),
+                  l.a.createElement('td', null, '() => document.body'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'icon'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u56fe\u6807',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'key'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u524d\u901a\u77e5\u552f\u4e00\u6807\u5fd7',
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'message'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u901a\u77e5\u63d0\u9192\u6807\u9898\uff0c\u5fc5\u9009',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'placement'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u5f39\u51fa\u4f4d\u7f6e\uff0c\u53ef\u9009 ',
+                    l.a.createElement('code', null, 'topLeft'),
+                    ' ',
+                    l.a.createElement('code', null, 'topRight'),
+                    ' ',
+                    l.a.createElement('code', null, 'bottomLeft'),
+                    ' ',
+                    l.a.createElement('code', null, 'bottomRight'),
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'topRight'),
+                  ),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'style'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5185\u8054\u6837\u5f0f',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement(
+                      c['Link'],
+                      {
+                        to:
+                          'https://github.com/DefinitelyTyped/DefinitelyTyped/blob/e434515761b36830c3e58a970abf5186f005adac/types/react/index.d.ts#L794',
+                      },
+                      'CSSProperties',
+                    ),
+                  ),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'top'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u6d88\u606f\u4ece\u9876\u90e8\u5f39\u51fa\u65f6\uff0c\u8ddd\u79bb\u9876\u90e8\u7684\u4f4d\u7f6e\uff0c\u5355\u4f4d\u50cf\u7d20',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '24'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onClick'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u901a\u77e5\u65f6\u89e6\u53d1\u7684\u56de\u8c03\u51fd\u6570',
+                  ),
+                  l.a.createElement('td', null, 'function'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onClose'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u901a\u77e5\u5173\u95ed\u65f6\u89e6\u53d1',
+                  ),
+                  l.a.createElement('td', null, 'function'),
+                  l.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u8fd8\u63d0\u4f9b\u4e86\u4e00\u4e2a\u5168\u5c40\u914d\u7f6e\u65b9\u6cd5\uff0c\u5728\u8c03\u7528\u524d\u63d0\u524d\u914d\u7f6e\uff0c\u5168\u5c40\u4e00\u6b21\u751f\u6548\u3002',
+            ),
+            l.a.createElement(
+              'ul',
+              null,
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement(
+                  'p',
+                  null,
+                  l.a.createElement(
+                    'code',
+                    null,
+                    'notification.config(options)',
+                  ),
+                ),
+                l.a.createElement(
+                  'blockquote',
+                  null,
+                  l.a.createElement(
+                    'p',
+                    null,
+                    '\u5f53\u4f60\u4f7f\u7528 ',
+                    l.a.createElement('code', null, 'ConfigProvider'),
+                    ' \u8fdb\u884c\u5168\u5c40\u5316\u914d\u7f6e\u65f6\uff0c\u7cfb\u7edf\u4f1a\u9ed8\u8ba4\u81ea\u52a8\u5f00\u542f RTL \u6a21\u5f0f\u3002(4.3.0+)',
+                  ),
+                  l.a.createElement(
+                    'p',
+                    null,
+                    '\u5f53\u4f60\u60f3\u5355\u72ec\u4f7f\u7528\uff0c\u53ef\u901a\u8fc7\u5982\u4e0b\u8bbe\u7f6e\u5f00\u542f RTL \u6a21\u5f0f\u3002',
+                  ),
+                ),
+              ),
+            ),
+            l.a.createElement(r['a'], {
+              code:
+                "\nnotification.config({\n  placement: 'bottomRight',\n  bottom: 50,\n  duration: 3,\n  rtl: true,\n});\n",
+              lang: 'js',
+            }),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'bottom'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u6d88\u606f\u4ece\u5e95\u90e8\u5f39\u51fa\u65f6\uff0c\u8ddd\u79bb\u5e95\u90e8\u7684\u4f4d\u7f6e\uff0c\u5355\u4f4d\u50cf\u7d20',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '24'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'closeIcon'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5173\u95ed\u56fe\u6807',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'duration'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u81ea\u52a8\u5173\u95ed\u5ef6\u65f6\uff0c\u5355\u4f4d\u79d2',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '4.5'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'getContainer'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u914d\u7f6e\u6e32\u67d3\u8282\u70b9\u7684\u8f93\u51fa\u4f4d\u7f6e',
+                  ),
+                  l.a.createElement('td', null, '() => HTMLNode'),
+                  l.a.createElement('td', null, '() => document.body'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'placement'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u5f39\u51fa\u4f4d\u7f6e\uff0c\u53ef\u9009 ',
+                    l.a.createElement('code', null, 'topLeft'),
+                    ' ',
+                    l.a.createElement('code', null, 'topRight'),
+                    ' ',
+                    l.a.createElement('code', null, 'bottomLeft'),
+                    ' ',
+                    l.a.createElement('code', null, 'bottomRight'),
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'topRight'),
+                  ),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'rtl'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5f00\u542f RTL \u6a21\u5f0f',
+                  ),
+                  l.a.createElement('td', null, 'boolean'),
+                  l.a.createElement('td', null, 'false'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'top'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u6d88\u606f\u4ece\u9876\u90e8\u5f39\u51fa\u65f6\uff0c\u8ddd\u79bb\u9876\u90e8\u7684\u4f4d\u7f6e\uff0c\u5355\u4f4d\u50cf\u7d20',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '24'),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'h2',
+              { id: 'faq' },
+              l.a.createElement(
+                c['AnchorLink'],
+                { to: '#faq', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FAQ',
+            ),
+            l.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48-notification-\u4e0d\u80fd\u83b7\u53d6-context\u3001redux-\u7684\u5185\u5bb9\u548c-configprovider-\u7684-localeprefixcls-\u914d\u7f6e\uff1f',
+              },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48-notification-\u4e0d\u80fd\u83b7\u53d6-context\u3001redux-\u7684\u5185\u5bb9\u548c-configprovider-\u7684-localeprefixcls-\u914d\u7f6e\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48 notification \u4e0d\u80fd\u83b7\u53d6 context\u3001redux \u7684\u5185\u5bb9\u548c ConfigProvider \u7684 ',
+              l.a.createElement('code', null, 'locale/prefixCls'),
+              ' \u914d\u7f6e\uff1f',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u76f4\u63a5\u8c03\u7528 notification \u65b9\u6cd5\uff0cantd \u4f1a\u901a\u8fc7 ',
+              l.a.createElement('code', null, 'ReactDOM.render'),
+              ' \u52a8\u6001\u521b\u5efa\u65b0\u7684 React \u5b9e\u4f53\u3002\u5176 context \u4e0e\u5f53\u524d\u4ee3\u7801\u6240\u5728 context \u5e76\u4e0d\u76f8\u540c\uff0c\u56e0\u800c\u65e0\u6cd5\u83b7\u53d6 context \u4fe1\u606f\u3002',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5f53\u4f60\u9700\u8981 context \u4fe1\u606f\uff08\u4f8b\u5982 ConfigProvider \u914d\u7f6e\u7684\u5185\u5bb9\uff09\u65f6\uff0c\u53ef\u4ee5\u901a\u8fc7 ',
+              l.a.createElement('code', null, 'notification.useNotification'),
+              ' \u65b9\u6cd5\u4f1a\u8fd4\u56de ',
+              l.a.createElement('code', null, 'api'),
+              ' \u5b9e\u4f53\u4ee5\u53ca ',
+              l.a.createElement('code', null, 'contextHolder'),
+              ' \u8282\u70b9\u3002\u5c06\u5176\u63d2\u5165\u5230\u4f60\u9700\u8981\u83b7\u53d6 context \u4f4d\u7f6e\u5373\u53ef\uff1a',
+            ),
+            l.a.createElement(r['a'], {
+              code:
+                '\nconst [api, contextHolder] = notification.useNotification();\n\nreturn (\n  <Context1.Provider value="Ant">\n    {/* contextHolder \u5728 Context1 \u5185\uff0c\u5b83\u53ef\u4ee5\u83b7\u5f97 Context1 \u7684 context */}\n    {contextHolder}\n    <Context2.Provider value="Design">\n      {/* contextHolder \u5728 Context2 \u5916\uff0c\u56e0\u800c\u4e0d\u4f1a\u83b7\u5f97 Context2 \u7684 context */}\n    </Context2.Provider>\n  </Context1.Provider>\n);\n',
+              lang: 'tsx',
+            }),
+            l.a.createElement(
+              'p',
+              null,
+              '**\u5f02\u540c\uff1a**\u901a\u8fc7 hooks \u521b\u5efa\u7684 ',
+              l.a.createElement('code', null, 'contextHolder'),
+              ' \u5fc5\u987b\u63d2\u5165\u5230\u5b50\u5143\u7d20\u8282\u70b9\u4e2d\u624d\u4f1a\u751f\u6548\uff0c\u5f53\u4f60\u4e0d\u9700\u8981\u4e0a\u4e0b\u6587\u4fe1\u606f\u65f6\u8bf7\u76f4\u63a5\u8c03\u7528\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var n = a('kPKH');
+      a('h9md');
+      t['a'] = n['a'];
+    },
+    hDkq: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['with-btn-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['with-btn-notification-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var n = a('BMrR');
+      a('7xIR');
+      t['a'] = n['a'];
+    },
+    rEbA: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = a('dEAq'),
+        r = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: '\u901a\u77e5\u63d0\u9192\u6846' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u901a\u77e5\u63d0\u9192\u6846',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u901a\u77e5\u63d0\u9192\u6846',
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: a('UEj8').default(),
+              }),
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            l.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              l.a.createElement(
+                r['a'],
+                { span: 12 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('KrMg').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('1Kmb').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('46F+').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('uQGn').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('vM4f').default(),
+                  }),
+                ),
+              ),
+              l.a.createElement(
+                r['a'],
+                { span: 12 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('RRsB').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('hDkq').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('xU+l').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('slX0').default(),
+                  }),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: a('deTw').default(),
+              }),
+              l.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    slX0: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['update-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['update-notification-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    uQGn: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['custom-style-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['custom-style-notification-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    vM4f: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['hooks-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['hooks-notification-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    'xU+l': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(
+            a('JjdP').default['placement-notification-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              a('JjdP').default['placement-notification-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

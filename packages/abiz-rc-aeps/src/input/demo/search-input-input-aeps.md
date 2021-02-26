@@ -9,7 +9,7 @@ order: 4
  */
 
 import React from 'react';
-import { ConfigProvider, Input } from '@abiz/rc-aeps';
+import { ConfigProvider, Input, Space } from '@abiz/rc-aeps';
 import { AudioOutlined } from '@abiz/icons-aeps';
 
 const { Search } = Input;
@@ -28,7 +28,7 @@ const onSearch = value => console.log(value);
 export default () => {
   return (
     <ConfigProvider>
-      <>
+      <Space direction="vertical">
         <Search
           placeholder="input search text"
           onSearch={onSearch}
@@ -38,17 +38,13 @@ export default () => {
           placeholder="input search text"
           allowClear
           onSearch={onSearch}
-          style={{ width: 200, margin: '0 10px' }}
+          style={{ width: 200 }}
         />
-        <br />
-        <br />
         <Search
           placeholder="input search text"
           onSearch={onSearch}
           enterButton
         />
-        <br />
-        <br />
         <Search
           placeholder="input search text"
           allowClear
@@ -56,8 +52,6 @@ export default () => {
           size="large"
           onSearch={onSearch}
         />
-        <br />
-        <br />
         <Search
           placeholder="input search text"
           enterButton="Search"
@@ -65,7 +59,7 @@ export default () => {
           suffix={suffix}
           onSearch={onSearch}
         />
-      </>
+      </Space>
     </ConfigProvider>
   );
 };

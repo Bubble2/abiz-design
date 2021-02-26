@@ -1,91 +1,2292 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"/s7O":function(E,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),u=t("dEAq"),r=t.n(u),c=t("g5U0"),m=t("ltCa"),a=t("ZpkN");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(u.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("p",null,"\u53E6\u5916\u6211\u4EEC\u5C01\u88C5\u4E86 ",e.a.createElement(u.Link,{to:"https://procomponents.ant.design/components/table"},"ProTable"),"\uFF0C\u5728 ",e.a.createElement("code",null,"antd")," Table \u4E4B\u4E0A\u6269\u5C55\u4E86\u66F4\u591A\u4FBF\u6377\u6613\u7528\u7684\u529F\u80FD\uFF0C\u5185\u7F6E\u641C\u7D22\u3001\u7B5B\u9009\u3001\u5237\u65B0\u7B49\u5E38\u7528\u8868\u683C\u884C\u4E3A\uFF0C\u5E76\u4E3A\u591A\u79CD\u7C7B\u578B\u6570\u636E\u5C55\u793A\u63D0\u4F9B\u4E86\u5185\u7F6E\u683C\u5F0F\u5316\uFF0C\u6B22\u8FCE\u5C1D\u8BD5\u4F7F\u7528\u3002"),e.a.createElement("h3",{id:"table"},e.a.createElement(u.AnchorLink,{to:"#table","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Table"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"bordered"),e.a.createElement("td",null,"\u662F\u5426\u5C55\u793A\u5916\u8FB9\u6846\u548C\u5217\u8FB9\u6846"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"columns"),e.a.createElement("td",null,"\u8868\u683C\u5217\u7684\u914D\u7F6E\u63CF\u8FF0\uFF0C\u5177\u4F53\u9879\u89C1\u4E0B\u8868"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#Column"},"ColumnsType"),"[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"components"),e.a.createElement("td",null,"\u8986\u76D6\u9ED8\u8BA4\u7684 table \u5143\u7D20"),e.a.createElement("td",null,e.a.createElement(u.Link,{to:"https://git.io/fANxz"},"TableComponents")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"dataSource"),e.a.createElement("td",null,"\u6570\u636E\u6570\u7EC4"),e.a.createElement("td",null,"object[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"expandable"),e.a.createElement("td",null,"\u914D\u7F6E\u5C55\u5F00\u5C5E\u6027"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#expandable"},"expandable")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"footer"),e.a.createElement("td",null,"\u8868\u683C\u5C3E\u90E8"),e.a.createElement("td",null,"function(currentPageData)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getPopupContainer"),e.a.createElement("td",null,"\u8BBE\u7F6E\u8868\u683C\u5185\u5404\u7C7B\u6D6E\u5C42\u7684\u6E32\u67D3\u8282\u70B9\uFF0C\u5982\u7B5B\u9009\u83DC\u5355"),e.a.createElement("td",null,"(triggerNode) => HTMLElement"),e.a.createElement("td",null,"() => TableHtmlElement"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"loading"),e.a.createElement("td",null,"\u9875\u9762\u662F\u5426\u52A0\u8F7D\u4E2D"),e.a.createElement("td",null,"boolean | ",e.a.createElement(u.AnchorLink,{to:"/components/spin/#API"},"object")," (",e.a.createElement(u.Link,{to:"https://github.com/ant-design/ant-design/issues/4544#issuecomment-271533135"},"\u66F4\u591A"),")"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"locale"),e.a.createElement("td",null,"\u9ED8\u8BA4\u6587\u6848\u8BBE\u7F6E\uFF0C\u76EE\u524D\u5305\u62EC\u6392\u5E8F\u3001\u8FC7\u6EE4\u3001\u7A7A\u6570\u636E\u6587\u6848"),e.a.createElement("td",null,"object"),e.a.createElement("td",null,"filterConfirm: ",e.a.createElement("code",null,"\u786E\u5B9A")," ",e.a.createElement("br",null)," filterReset: ",e.a.createElement("code",null,"\u91CD\u7F6E")," ",e.a.createElement("br",null)," emptyText: ",e.a.createElement("code",null,"\u6682\u65E0\u6570\u636E")," ",e.a.createElement("br",null)," ",e.a.createElement(u.Link,{to:"https://github.com/ant-design/ant-design/blob/4ad1ccac277782d7ed14f7e5d02d6346aae0db67/components/locale/default.tsx#L19"},"\u9ED8\u8BA4\u503C")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"pagination"),e.a.createElement("td",null,"\u5206\u9875\u5668\uFF0C\u53C2\u8003",e.a.createElement(u.AnchorLink,{to:"#pagination"},"\u914D\u7F6E\u9879"),"\u6216 ",e.a.createElement(u.Link,{to:"/components/pagination/"},"pagination")," \u6587\u6863\uFF0C\u8BBE\u4E3A false \u65F6\u4E0D\u5C55\u793A\u548C\u8FDB\u884C\u5206\u9875"),e.a.createElement("td",null,"object"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"rowClassName"),e.a.createElement("td",null,"\u8868\u683C\u884C\u7684\u7C7B\u540D"),e.a.createElement("td",null,"function(record, index): string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"rowKey"),e.a.createElement("td",null,"\u8868\u683C\u884C key \u7684\u53D6\u503C\uFF0C\u53EF\u4EE5\u662F\u5B57\u7B26\u4E32\u6216\u4E00\u4E2A\u51FD\u6570"),e.a.createElement("td",null,"string | function(record): string"),e.a.createElement("td",null,e.a.createElement("code",null,"key")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"rowSelection"),e.a.createElement("td",null,"\u8868\u683C\u884C\u662F\u5426\u53EF\u9009\u62E9\uFF0C",e.a.createElement(u.AnchorLink,{to:"#rowSelection"},"\u914D\u7F6E\u9879")),e.a.createElement("td",null,"object"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"scroll"),e.a.createElement("td",null,"\u8868\u683C\u662F\u5426\u53EF\u6EDA\u52A8\uFF0C\u4E5F\u53EF\u4EE5\u6307\u5B9A\u6EDA\u52A8\u533A\u57DF\u7684\u5BBD\u3001\u9AD8\uFF0C",e.a.createElement(u.AnchorLink,{to:"#scroll"},"\u914D\u7F6E\u9879")),e.a.createElement("td",null,"object"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"showHeader"),e.a.createElement("td",null,"\u662F\u5426\u663E\u793A\u8868\u5934"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"showSorterTooltip"),e.a.createElement("td",null,"\u8868\u5934\u662F\u5426\u663E\u793A\u4E0B\u4E00\u6B21\u6392\u5E8F\u7684 tooltip \u63D0\u793A"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"size"),e.a.createElement("td",null,"\u8868\u683C\u5927\u5C0F"),e.a.createElement("td",null,e.a.createElement("code",null,"default")," | ",e.a.createElement("code",null,"middle")," | ",e.a.createElement("code",null,"small")),e.a.createElement("td",null,"default"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"sortDirections"),e.a.createElement("td",null,"\u652F\u6301\u7684\u6392\u5E8F\u65B9\u5F0F\uFF0C\u53D6\u503C\u4E3A ",e.a.createElement("code",null,"ascend")," ",e.a.createElement("code",null,"descend")),e.a.createElement("td",null,"Array"),e.a.createElement("td",null,"[",e.a.createElement("code",null,"ascend"),", ",e.a.createElement("code",null,"descend"),"]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"sticky"),e.a.createElement("td",null,"\u8BBE\u7F6E\u7C98\u6027\u5934\u90E8\u548C\u6EDA\u52A8\u6761"),e.a.createElement("td",null,"boolean | ",e.a.createElement("code",null,"{","offsetHeader?: number, offsetScroll?: number, getContainer?: () => HTMLElement","}")),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.6.0 (getContainer: 4.7.0)")),e.a.createElement("tr",null,e.a.createElement("td",null,"summary"),e.a.createElement("td",null,"\u603B\u7ED3\u680F"),e.a.createElement("td",null,"(currentData) => ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"tableLayout"),e.a.createElement("td",null,"\u8868\u683C\u5143\u7D20\u7684 ",e.a.createElement(u.Link,{to:"https://developer.mozilla.org/zh-CN/docs/Web/CSS/table-layout"},"table-layout")," \u5C5E\u6027\uFF0C\u8BBE\u4E3A ",e.a.createElement("code",null,"fixed")," \u8868\u793A\u5185\u5BB9\u4E0D\u4F1A\u5F71\u54CD\u5217\u7684\u5E03\u5C40"),e.a.createElement("td",null,"- | ",e.a.createElement("code",null,"auto")," | ",e.a.createElement("code",null,"fixed")),e.a.createElement("td",null,"\u65E0",e.a.createElement("hr",null),"\u56FA\u5B9A\u8868\u5934/\u5217\u6216\u4F7F\u7528\u4E86 ",e.a.createElement("code",null,"column.ellipsis")," \u65F6\uFF0C\u9ED8\u8BA4\u503C\u4E3A ",e.a.createElement("code",null,"fixed")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u8868\u683C\u6807\u9898"),e.a.createElement("td",null,"function(currentPageData)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u5206\u9875\u3001\u6392\u5E8F\u3001\u7B5B\u9009\u53D8\u5316\u65F6\u89E6\u53D1"),e.a.createElement("td",null,"function(pagination, filters, sorter, extra: ","{"," currentDataSource: [], action: ",e.a.createElement("code",null,"paginate")," | ",e.a.createElement("code",null,"sort")," | ",e.a.createElement("code",null,"filter")," ","}",")"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onHeaderRow"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5934\u90E8\u884C\u5C5E\u6027"),e.a.createElement("td",null,"function(column, index)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onRow"),e.a.createElement("td",null,"\u8BBE\u7F6E\u884C\u5C5E\u6027"),e.a.createElement("td",null,"function(record, index)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h4",{id:"onrow-\u7528\u6CD5"},e.a.createElement(u.AnchorLink,{to:"#onrow-\u7528\u6CD5","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"onRow \u7528\u6CD5"),e.a.createElement("p",null,"\u9002\u7528\u4E8E ",e.a.createElement("code",null,"onRow")," ",e.a.createElement("code",null,"onHeaderRow")," ",e.a.createElement("code",null,"onCell")," ",e.a.createElement("code",null,"onHeaderCell"),"\u3002"),e.a.createElement(a.a,{code:`
-<Table
-  onRow={record => {
-    return {
-      onClick: event => {}, // \u70B9\u51FB\u884C
-      onDoubleClick: event => {},
-      onContextMenu: event => {},
-      onMouseEnter: event => {}, // \u9F20\u6807\u79FB\u5165\u884C
-      onMouseLeave: event => {},
-    };
-  }}
-  onHeaderRow={column => {
-    return {
-      onClick: () => {}, // \u70B9\u51FB\u8868\u5934\u884C
-    };
-  }}
-/>
-`,lang:"jsx"}),e.a.createElement("h3",{id:"column"},e.a.createElement(u.AnchorLink,{to:"#column","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Column"),e.a.createElement("p",null,"\u5217\u63CF\u8FF0\u6570\u636E\u5BF9\u8C61\uFF0C\u662F columns \u4E2D\u7684\u4E00\u9879\uFF0CColumn \u4F7F\u7528\u76F8\u540C\u7684 API\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"align"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5217\u7684\u5BF9\u9F50\u65B9\u5F0F"),e.a.createElement("td",null,e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"right")," | ",e.a.createElement("code",null,"center")),e.a.createElement("td",null,e.a.createElement("code",null,"left")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"className"),e.a.createElement("td",null,"\u5217\u6837\u5F0F\u7C7B\u540D"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"colSpan"),e.a.createElement("td",null,"\u8868\u5934\u5217\u5408\u5E76,\u8BBE\u7F6E\u4E3A 0 \u65F6\uFF0C\u4E0D\u6E32\u67D3"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"dataIndex"),e.a.createElement("td",null,"\u5217\u6570\u636E\u5728\u6570\u636E\u9879\u4E2D\u5BF9\u5E94\u7684\u8DEF\u5F84\uFF0C\u652F\u6301\u901A\u8FC7\u6570\u7EC4\u67E5\u8BE2\u5D4C\u5957\u8DEF\u5F84"),e.a.createElement("td",null,"string | string[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultFilteredValue"),e.a.createElement("td",null,"\u9ED8\u8BA4\u7B5B\u9009\u503C"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultSortOrder"),e.a.createElement("td",null,"\u9ED8\u8BA4\u6392\u5E8F\u987A\u5E8F"),e.a.createElement("td",null,e.a.createElement("code",null,"ascend")," | ",e.a.createElement("code",null,"descend")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"ellipsis"),e.a.createElement("td",null,"\u8D85\u8FC7\u5BBD\u5EA6\u5C06\u81EA\u52A8\u7701\u7565\uFF0C\u6682\u4E0D\u652F\u6301\u548C\u6392\u5E8F\u7B5B\u9009\u4E00\u8D77\u4F7F\u7528\u3002",e.a.createElement("br",null),"\u8BBE\u7F6E\u4E3A ",e.a.createElement("code",null,"true")," \u6216 ",e.a.createElement("code",null,"{"," showTitle?: boolean ","}")," \u65F6\uFF0C\u8868\u683C\u5E03\u5C40\u5C06\u53D8\u6210 ",e.a.createElement("code",null,'tableLayout="fixed"'),"\u3002"),e.a.createElement("td",null,"boolean | ","{"," showTitle?: boolean ","}"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"showTitle: 4.3.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"filterDropdown"),e.a.createElement("td",null,"\u53EF\u4EE5\u81EA\u5B9A\u4E49\u7B5B\u9009\u83DC\u5355\uFF0C\u6B64\u51FD\u6570\u53EA\u8D1F\u8D23\u6E32\u67D3\u56FE\u5C42\uFF0C\u9700\u8981\u81EA\u884C\u7F16\u5199\u5404\u79CD\u4EA4\u4E92"),e.a.createElement("td",null,"ReactNode | (props: ",e.a.createElement(u.Link,{to:"https://git.io/fjP5h"},"FilterDropdownProps"),") => ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"filterDropdownVisible"),e.a.createElement("td",null,"\u7528\u4E8E\u63A7\u5236\u81EA\u5B9A\u4E49\u7B5B\u9009\u83DC\u5355\u662F\u5426\u53EF\u89C1"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"filtered"),e.a.createElement("td",null,"\u6807\u8BC6\u6570\u636E\u662F\u5426\u7ECF\u8FC7\u8FC7\u6EE4\uFF0C\u7B5B\u9009\u56FE\u6807\u4F1A\u9AD8\u4EAE"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"filteredValue"),e.a.createElement("td",null,"\u7B5B\u9009\u7684\u53D7\u63A7\u5C5E\u6027\uFF0C\u5916\u754C\u53EF\u7528\u6B64\u63A7\u5236\u5217\u7684\u7B5B\u9009\u72B6\u6001\uFF0C\u503C\u4E3A\u5DF2\u7B5B\u9009\u7684 value \u6570\u7EC4"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"filterIcon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49 filter \u56FE\u6807\u3002"),e.a.createElement("td",null,"ReactNode | (filtered: boolean) => ReactNode"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"filterMultiple"),e.a.createElement("td",null,"\u662F\u5426\u591A\u9009"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"filters"),e.a.createElement("td",null,"\u8868\u5934\u7684\u7B5B\u9009\u83DC\u5355\u9879"),e.a.createElement("td",null,"object[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"fixed"),e.a.createElement("td",null,"\uFF08IE \u4E0B\u65E0\u6548\uFF09\u5217\u662F\u5426\u56FA\u5B9A\uFF0C\u53EF\u9009 true (\u7B49\u6548\u4E8E left) ",e.a.createElement("code",null,"left")," ",e.a.createElement("code",null,"right")),e.a.createElement("td",null,"boolean | string"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"key"),e.a.createElement("td",null,"React \u9700\u8981\u7684 key\uFF0C\u5982\u679C\u5DF2\u7ECF\u8BBE\u7F6E\u4E86\u552F\u4E00\u7684 ",e.a.createElement("code",null,"dataIndex"),"\uFF0C\u53EF\u4EE5\u5FFD\u7565\u8FD9\u4E2A\u5C5E\u6027"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"render"),e.a.createElement("td",null,"\u751F\u6210\u590D\u6742\u6570\u636E\u7684\u6E32\u67D3\u51FD\u6570\uFF0C\u53C2\u6570\u5206\u522B\u4E3A\u5F53\u524D\u884C\u7684\u503C\uFF0C\u5F53\u524D\u884C\u6570\u636E\uFF0C\u884C\u7D22\u5F15\uFF0C@return \u91CC\u9762\u53EF\u4EE5\u8BBE\u7F6E\u8868\u683C",e.a.createElement(u.AnchorLink,{to:"#components-table-demo-colspan-rowspan"},"\u884C/\u5217\u5408\u5E76")),e.a.createElement("td",null,"function(text, record, index) ","{","}"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"responsive"),e.a.createElement("td",null,"\u54CD\u5E94\u5F0F breakpoint \u914D\u7F6E\u5217\u8868\u3002\u672A\u8BBE\u7F6E\u5219\u59CB\u7EC8\u53EF\u89C1\u3002"),e.a.createElement("td",null,e.a.createElement(u.Link,{to:"https://github.com/ant-design/ant-design/blob/015109b42b85c63146371b4e32b883cf97b088e8/components/_util/responsiveObserve.ts#L1"},"Breakpoint"),"[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.2.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"shouldCellUpdate"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5355\u5143\u683C\u6E32\u67D3\u65F6\u673A"),e.a.createElement("td",null,"(record, prevRecord) => boolean"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.3.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"showSorterTooltip"),e.a.createElement("td",null,"\u8868\u5934\u663E\u793A\u4E0B\u4E00\u6B21\u6392\u5E8F\u7684 tooltip \u63D0\u793A, \u8986\u76D6 table \u4E2D ",e.a.createElement("code",null,"showSorterTooltip")),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"sortDirections"),e.a.createElement("td",null,"\u652F\u6301\u7684\u6392\u5E8F\u65B9\u5F0F\uFF0C\u8986\u76D6 ",e.a.createElement("code",null,"Table")," \u4E2D ",e.a.createElement("code",null,"sortDirections"),"\uFF0C \u53D6\u503C\u4E3A ",e.a.createElement("code",null,"ascend")," ",e.a.createElement("code",null,"descend")),e.a.createElement("td",null,"Array"),e.a.createElement("td",null,"[",e.a.createElement("code",null,"ascend"),", ",e.a.createElement("code",null,"descend"),"]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"sorter"),e.a.createElement("td",null,"\u6392\u5E8F\u51FD\u6570\uFF0C\u672C\u5730\u6392\u5E8F\u4F7F\u7528\u4E00\u4E2A\u51FD\u6570(\u53C2\u8003 ",e.a.createElement(u.Link,{to:"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"},"Array.sort")," \u7684 compareFunction)\uFF0C\u9700\u8981\u670D\u52A1\u7AEF\u6392\u5E8F\u53EF\u8BBE\u4E3A true"),e.a.createElement("td",null,"function | boolean"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"sortOrder"),e.a.createElement("td",null,"\u6392\u5E8F\u7684\u53D7\u63A7\u5C5E\u6027\uFF0C\u5916\u754C\u53EF\u7528\u6B64\u63A7\u5236\u5217\u7684\u6392\u5E8F\uFF0C\u53EF\u8BBE\u7F6E\u4E3A ",e.a.createElement("code",null,"ascend")," ",e.a.createElement("code",null,"descend")," false"),e.a.createElement("td",null,"boolean | string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u5217\u5934\u663E\u793A\u6587\u5B57\uFF08\u51FD\u6570\u7528\u6CD5 ",e.a.createElement("code",null,"3.10.0")," \u540E\u652F\u6301\uFF09"),e.a.createElement("td",null,"ReactNode | (","{"," sortOrder, sortColumn, filters ","}",") => ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"width"),e.a.createElement("td",null,"\u5217\u5BBD\u5EA6\uFF08",e.a.createElement(u.Link,{to:"https://github.com/ant-design/ant-design/issues/13825#issuecomment-449889241"},"\u6307\u5B9A\u4E86\u4E5F\u4E0D\u751F\u6548\uFF1F"),"\uFF09"),e.a.createElement("td",null,"string | number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onCell"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5355\u5143\u683C\u5C5E\u6027"),e.a.createElement("td",null,"function(record, rowIndex)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onFilter"),e.a.createElement("td",null,"\u672C\u5730\u6A21\u5F0F\u4E0B\uFF0C\u786E\u5B9A\u7B5B\u9009\u7684\u8FD0\u884C\u51FD\u6570"),e.a.createElement("td",null,"function"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onFilterDropdownVisibleChange"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u7B5B\u9009\u83DC\u5355\u53EF\u89C1\u53D8\u5316\u65F6\u8C03\u7528"),e.a.createElement("td",null,"function(visible) ","{","}"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onHeaderCell"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5934\u90E8\u5355\u5143\u683C\u5C5E\u6027"),e.a.createElement("td",null,"function(column)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h3",{id:"columngroup"},e.a.createElement(u.AnchorLink,{to:"#columngroup","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"ColumnGroup"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u5217\u5934\u663E\u793A\u6587\u5B57"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")))),e.a.createElement("h3",{id:"pagination"},e.a.createElement(u.AnchorLink,{to:"#pagination","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"pagination"),e.a.createElement("p",null,"\u5206\u9875\u7684\u914D\u7F6E\u9879\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"position"),e.a.createElement("td",null,"\u6307\u5B9A\u5206\u9875\u663E\u793A\u7684\u4F4D\u7F6E\uFF0C \u53D6\u503C\u4E3A",e.a.createElement("code",null,"topLeft")," | ",e.a.createElement("code",null,"topCenter")," | ",e.a.createElement("code",null,"topRight")," |",e.a.createElement("code",null,"bottomLeft")," | ",e.a.createElement("code",null,"bottomCenter")," | ",e.a.createElement("code",null,"bottomRight")),e.a.createElement("td",null,"Array"),e.a.createElement("td",null,"[",e.a.createElement("code",null,"bottomRight"),"]")))),e.a.createElement("p",null,"\u66F4\u591A\u914D\u7F6E\u9879\uFF0C\u8BF7\u67E5\u770B ",e.a.createElement(u.Link,{to:"/components/pagination/"},e.a.createElement("code",null,"Pagination")),"\u3002"),e.a.createElement("h3",{id:"expandable"},e.a.createElement(u.AnchorLink,{to:"#expandable","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"expandable"),e.a.createElement("p",null,"\u5C55\u5F00\u529F\u80FD\u7684\u914D\u7F6E\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"childrenColumnName"),e.a.createElement("td",null,"\u6307\u5B9A\u6811\u5F62\u7ED3\u6784\u7684\u5217\u540D"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"children")),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultExpandAllRows"),e.a.createElement("td",null,"\u521D\u59CB\u65F6\uFF0C\u662F\u5426\u5C55\u5F00\u6240\u6709\u884C"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultExpandedRowKeys"),e.a.createElement("td",null,"\u9ED8\u8BA4\u5C55\u5F00\u7684\u884C"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"expandedRowClassName"),e.a.createElement("td",null,"\u5C55\u5F00\u884C\u7684 className"),e.a.createElement("td",null,"function(record, index, indent): string"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"expandedRowKeys"),e.a.createElement("td",null,"\u5C55\u5F00\u7684\u884C\uFF0C\u63A7\u5236\u5C5E\u6027"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"expandedRowRender"),e.a.createElement("td",null,"\u989D\u5916\u7684\u5C55\u5F00\u884C"),e.a.createElement("td",null,"function(record, index, indent, expanded): ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"expandIcon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5C55\u5F00\u56FE\u6807\uFF0C\u53C2\u8003",e.a.createElement(u.Link,{to:"https://codesandbox.io/s/fervent-bird-nuzpr"},"\u793A\u4F8B")),e.a.createElement("td",null,"function(props): ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"expandIconColumnIndex"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5C55\u5F00\u6309\u94AE\u7684\u5217\u987A\u5E8F\uFF0C",e.a.createElement("code",null,"-1")," \u65F6\u4E0D\u5C55\u793A"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"expandRowByClick"),e.a.createElement("td",null,"\u901A\u8FC7\u70B9\u51FB\u884C\u6765\u5C55\u5F00\u5B50\u884C"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"indentSize"),e.a.createElement("td",null,"\u5C55\u793A\u6811\u5F62\u6570\u636E\u65F6\uFF0C\u6BCF\u5C42\u7F29\u8FDB\u7684\u5BBD\u5EA6\uFF0C\u4EE5 px \u4E3A\u5355\u4F4D"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"15")),e.a.createElement("tr",null,e.a.createElement("td",null,"rowExpandable"),e.a.createElement("td",null,"\u8BBE\u7F6E\u662F\u5426\u5141\u8BB8\u884C\u5C55\u5F00"),e.a.createElement("td",null,"(record) => boolean"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onExpand"),e.a.createElement("td",null,"\u70B9\u51FB\u5C55\u5F00\u56FE\u6807\u65F6\u89E6\u53D1"),e.a.createElement("td",null,"function(expanded, record)"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onExpandedRowsChange"),e.a.createElement("td",null,"\u5C55\u5F00\u7684\u884C\u53D8\u5316\u65F6\u89E6\u53D1"),e.a.createElement("td",null,"function(expandedRows)"),e.a.createElement("td",null,"-")))),e.a.createElement("h3",{id:"rowselection"},e.a.createElement(u.AnchorLink,{to:"#rowselection","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"rowSelection"),e.a.createElement("p",null,"\u9009\u62E9\u529F\u80FD\u7684\u914D\u7F6E\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"checkStrictly"),e.a.createElement("td",null,"checkable \u72B6\u6001\u4E0B\u8282\u70B9\u9009\u62E9\u5B8C\u5168\u53D7\u63A7\uFF08\u7236\u5B50\u6570\u636E\u9009\u4E2D\u72B6\u6001\u4E0D\u518D\u5173\u8054\uFF09"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null,"4.4.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"columnTitle"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5217\u8868\u9009\u62E9\u6846\u6807\u9898"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"columnWidth"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5217\u8868\u9009\u62E9\u6846\u5BBD\u5EA6"),e.a.createElement("td",null,"string | number"),e.a.createElement("td",null,e.a.createElement("code",null,"60px")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"fixed"),e.a.createElement("td",null,"\u628A\u9009\u62E9\u6846\u5217\u56FA\u5B9A\u5728\u5DE6\u8FB9"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getCheckboxProps"),e.a.createElement("td",null,"\u9009\u62E9\u6846\u7684\u9ED8\u8BA4\u5C5E\u6027\u914D\u7F6E"),e.a.createElement("td",null,"function(record)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"hideSelectAll"),e.a.createElement("td",null,"\u9690\u85CF\u5168\u9009\u52FE\u9009\u6846\u4E0E\u81EA\u5B9A\u4E49\u9009\u62E9\u9879"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"4.3.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"preserveSelectedRowKeys"),e.a.createElement("td",null,"\u5F53\u6570\u636E\u88AB\u5220\u9664\u65F6\u4ECD\u7136\u4FDD\u7559\u9009\u9879\u7684 ",e.a.createElement("code",null,"key")),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.4.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"renderCell"),e.a.createElement("td",null,"\u6E32\u67D3\u52FE\u9009\u6846\uFF0C\u7528\u6CD5\u4E0E Column \u7684 ",e.a.createElement("code",null,"render")," \u76F8\u540C"),e.a.createElement("td",null,"function(checked, record, index, originNode) ","{","}"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.1.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"selectedRowKeys"),e.a.createElement("td",null,"\u6307\u5B9A\u9009\u4E2D\u9879\u7684 key \u6570\u7EC4\uFF0C\u9700\u8981\u548C onChange \u8FDB\u884C\u914D\u5408"),e.a.createElement("td",null,"string[] | number[]"),e.a.createElement("td",null,"[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"selections"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u9009\u62E9\u9879 ",e.a.createElement(u.AnchorLink,{to:"#selection"},"\u914D\u7F6E\u9879"),", \u8BBE\u4E3A ",e.a.createElement("code",null,"true")," \u65F6\u4F7F\u7528\u9ED8\u8BA4\u9009\u62E9\u9879"),e.a.createElement("td",null,"object[] | boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"type"),e.a.createElement("td",null,"\u591A\u9009/\u5355\u9009\uFF0C",e.a.createElement("code",null,"checkbox")," or ",e.a.createElement("code",null,"radio")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"checkbox")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u9009\u4E2D\u9879\u53D1\u751F\u53D8\u5316\u65F6\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(selectedRowKeys, selectedRows)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onSelect"),e.a.createElement("td",null,"\u7528\u6237\u624B\u52A8\u9009\u62E9/\u53D6\u6D88\u9009\u62E9\u67D0\u884C\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(record, selected, selectedRows, nativeEvent)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onSelectAll"),e.a.createElement("td",null,"\u7528\u6237\u624B\u52A8\u9009\u62E9/\u53D6\u6D88\u9009\u62E9\u6240\u6709\u884C\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(selected, selectedRows, changeRows)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onSelectInvert"),e.a.createElement("td",null,"\u7528\u6237\u624B\u52A8\u9009\u62E9\u53CD\u9009\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(selectedRowKeys)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h3",{id:"scroll"},e.a.createElement(u.AnchorLink,{to:"#scroll","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"scroll"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"scrollToFirstRowOnChange"),e.a.createElement("td",null,"\u5F53\u5206\u9875\u3001\u6392\u5E8F\u3001\u7B5B\u9009\u53D8\u5316\u540E\u662F\u5426\u6EDA\u52A8\u5230\u8868\u683C\u9876\u90E8"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"x"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6A2A\u5411\u6EDA\u52A8\uFF0C\u4E5F\u53EF\u7528\u4E8E\u6307\u5B9A\u6EDA\u52A8\u533A\u57DF\u7684\u5BBD\uFF0C\u53EF\u4EE5\u8BBE\u7F6E\u4E3A\u50CF\u7D20\u503C\uFF0C\u767E\u5206\u6BD4\uFF0Ctrue \u548C ",e.a.createElement(u.Link,{to:"https://developer.mozilla.org/zh-CN/docs/Web/CSS/width#max-content"},"'max-content'")),e.a.createElement("td",null,"number | true"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"y"),e.a.createElement("td",null,"\u8BBE\u7F6E\u7EB5\u5411\u6EDA\u52A8\uFF0C\u4E5F\u53EF\u7528\u4E8E\u6307\u5B9A\u6EDA\u52A8\u533A\u57DF\u7684\u9AD8\uFF0C\u53EF\u4EE5\u8BBE\u7F6E\u4E3A\u50CF\u7D20\u503C"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-")))),e.a.createElement("h3",{id:"selection"},e.a.createElement(u.AnchorLink,{to:"#selection","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"selection"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"key"),e.a.createElement("td",null,"React \u9700\u8981\u7684 key\uFF0C\u5EFA\u8BAE\u8BBE\u7F6E"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"text"),e.a.createElement("td",null,"\u9009\u62E9\u9879\u663E\u793A\u7684\u6587\u5B57"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onSelect"),e.a.createElement("td",null,"\u9009\u62E9\u9879\u70B9\u51FB\u56DE\u8C03"),e.a.createElement("td",null,"function(changeableRowKeys)"),e.a.createElement("td",null,"-")))),e.a.createElement("h2",{id:"\u5728-typescript-\u4E2D\u4F7F\u7528"},e.a.createElement(u.AnchorLink,{to:"#\u5728-typescript-\u4E2D\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5728 TypeScript \u4E2D\u4F7F\u7528"),e.a.createElement(a.a,{code:`
-import { Table } from 'antd';
-import { ColumnsType } from 'antd/es/table';
-
-interface User {
-  key: number;
-  name: string;
-}
-
-const columns: ColumnsType<User> = [
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [6],
   {
-    key: 'name',
-    title: 'Name',
-    dataIndex: 'name',
+    '/s7O': function(e, t, l) {
+      'use strict';
+      l.r(t);
+      var n = l('cDcd'),
+        a = l.n(n),
+        r = l('dEAq'),
+        c = (l('g5U0'), l('ekZX'), l('ltCa'), l('Bjia'));
+      t['default'] = function() {
+        return a.a.createElement(
+          a.a.Fragment,
+          null,
+          a.a.createElement(
+            'div',
+            { className: 'markdown' },
+            a.a.createElement(
+              'h2',
+              { id: 'api' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u53e6\u5916\u6211\u4eec\u5c01\u88c5\u4e86 ',
+              a.a.createElement(
+                r['Link'],
+                { to: 'https://procomponents.ant.design/components/table' },
+                'ProTable',
+              ),
+              '\uff0c\u5728 ',
+              a.a.createElement('code', null, 'antd'),
+              ' Table \u4e4b\u4e0a\u6269\u5c55\u4e86\u66f4\u591a\u4fbf\u6377\u6613\u7528\u7684\u529f\u80fd\uff0c\u5185\u7f6e\u641c\u7d22\u3001\u7b5b\u9009\u3001\u5237\u65b0\u7b49\u5e38\u7528\u8868\u683c\u884c\u4e3a\uff0c\u5e76\u4e3a\u591a\u79cd\u7c7b\u578b\u6570\u636e\u5c55\u793a\u63d0\u4f9b\u4e86\u5185\u7f6e\u683c\u5f0f\u5316\uff0c\u6b22\u8fce\u5c1d\u8bd5\u4f7f\u7528\u3002',
+            ),
+            a.a.createElement(
+              'h3',
+              { id: 'table' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#table', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Table',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  a.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'bordered'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5c55\u793a\u5916\u8fb9\u6846\u548c\u5217\u8fb9\u6846',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'columns'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u683c\u5217\u7684\u914d\u7f6e\u63cf\u8ff0\uff0c\u5177\u4f53\u9879\u89c1\u4e0b\u8868',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#Column' },
+                      'ColumnsType',
+                    ),
+                    '[]',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'components'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8986\u76d6\u9ed8\u8ba4\u7684 table \u5143\u7d20',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement(
+                      r['Link'],
+                      { to: 'https://git.io/fANxz' },
+                      'TableComponents',
+                    ),
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'dataSource'),
+                  a.a.createElement('td', null, '\u6570\u636e\u6570\u7ec4'),
+                  a.a.createElement('td', null, 'object[]'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'expandable'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u914d\u7f6e\u5c55\u5f00\u5c5e\u6027',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#expandable' },
+                      'expandable',
+                    ),
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'footer'),
+                  a.a.createElement('td', null, '\u8868\u683c\u5c3e\u90e8'),
+                  a.a.createElement('td', null, 'function(currentPageData)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'getPopupContainer'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u8868\u683c\u5185\u5404\u7c7b\u6d6e\u5c42\u7684\u6e32\u67d3\u8282\u70b9\uff0c\u5982\u7b5b\u9009\u83dc\u5355',
+                  ),
+                  a.a.createElement('td', null, '(triggerNode) => HTMLElement'),
+                  a.a.createElement('td', null, '() => TableHtmlElement'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'loading'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9875\u9762\u662f\u5426\u52a0\u8f7d\u4e2d',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/spin/#API' },
+                      'object',
+                    ),
+                    ' (',
+                    a.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/ant-design/ant-design/issues/4544#issuecomment-271533135',
+                      },
+                      '\u66f4\u591a',
+                    ),
+                    ')',
+                  ),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'locale'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u6587\u6848\u8bbe\u7f6e\uff0c\u76ee\u524d\u5305\u62ec\u6392\u5e8f\u3001\u8fc7\u6ee4\u3001\u7a7a\u6570\u636e\u6587\u6848',
+                  ),
+                  a.a.createElement('td', null, 'object'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'filterConfirm: ',
+                    a.a.createElement('code', null, '\u786e\u5b9a'),
+                    ' ',
+                    a.a.createElement('br', null),
+                    ' filterReset: ',
+                    a.a.createElement('code', null, '\u91cd\u7f6e'),
+                    ' ',
+                    a.a.createElement('br', null),
+                    ' emptyText: ',
+                    a.a.createElement('code', null, '\u6682\u65e0\u6570\u636e'),
+                    ' ',
+                    a.a.createElement('br', null),
+                    ' ',
+                    a.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/ant-design/ant-design/blob/4ad1ccac277782d7ed14f7e5d02d6346aae0db67/components/locale/default.tsx#L19',
+                      },
+                      '\u9ed8\u8ba4\u503c',
+                    ),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'pagination'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5206\u9875\u5668\uff0c\u53c2\u8003',
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#pagination' },
+                      '\u914d\u7f6e\u9879',
+                    ),
+                    '\u6216 ',
+                    a.a.createElement(
+                      r['Link'],
+                      { to: '/components/pagination/' },
+                      'pagination',
+                    ),
+                    ' \u6587\u6863\uff0c\u8bbe\u4e3a false \u65f6\u4e0d\u5c55\u793a\u548c\u8fdb\u884c\u5206\u9875',
+                  ),
+                  a.a.createElement('td', null, 'object'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'rowClassName'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u683c\u884c\u7684\u7c7b\u540d',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(record, index): string',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'rowKey'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u683c\u884c key \u7684\u53d6\u503c\uff0c\u53ef\u4ee5\u662f\u5b57\u7b26\u4e32\u6216\u4e00\u4e2a\u51fd\u6570',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'string | function(record): string',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'key'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'rowSelection'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u683c\u884c\u662f\u5426\u53ef\u9009\u62e9\uff0c',
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#rowSelection' },
+                      '\u914d\u7f6e\u9879',
+                    ),
+                  ),
+                  a.a.createElement('td', null, 'object'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'scroll'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u683c\u662f\u5426\u53ef\u6eda\u52a8\uff0c\u4e5f\u53ef\u4ee5\u6307\u5b9a\u6eda\u52a8\u533a\u57df\u7684\u5bbd\u3001\u9ad8\uff0c',
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#scroll' },
+                      '\u914d\u7f6e\u9879',
+                    ),
+                  ),
+                  a.a.createElement('td', null, 'object'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'showHeader'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u663e\u793a\u8868\u5934',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'showSorterTooltip'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u5934\u662f\u5426\u663e\u793a\u4e0b\u4e00\u6b21\u6392\u5e8f\u7684 tooltip \u63d0\u793a',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'size'),
+                  a.a.createElement('td', null, '\u8868\u683c\u5927\u5c0f'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'default'),
+                    ' | ',
+                    a.a.createElement('code', null, 'middle'),
+                    ' | ',
+                    a.a.createElement('code', null, 'small'),
+                  ),
+                  a.a.createElement('td', null, 'default'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'sortDirections'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u652f\u6301\u7684\u6392\u5e8f\u65b9\u5f0f\uff0c\u53d6\u503c\u4e3a ',
+                    a.a.createElement('code', null, 'ascend'),
+                    ' ',
+                    a.a.createElement('code', null, 'descend'),
+                  ),
+                  a.a.createElement('td', null, 'Array'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '[',
+                    a.a.createElement('code', null, 'ascend'),
+                    ', ',
+                    a.a.createElement('code', null, 'descend'),
+                    ']',
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'sticky'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u7c98\u6027\u5934\u90e8\u548c\u6eda\u52a8\u6761',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    a.a.createElement(
+                      'code',
+                      null,
+                      '{',
+                      'offsetHeader?: number, offsetScroll?: number, getContainer?: () => HTMLElement',
+                      '}',
+                    ),
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null, '4.6.0 (getContainer: 4.7.0)'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'summary'),
+                  a.a.createElement('td', null, '\u603b\u7ed3\u680f'),
+                  a.a.createElement('td', null, '(currentData) => ReactNode'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'tableLayout'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u683c\u5143\u7d20\u7684 ',
+                    a.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://developer.mozilla.org/zh-CN/docs/Web/CSS/table-layout',
+                      },
+                      'table-layout',
+                    ),
+                    ' \u5c5e\u6027\uff0c\u8bbe\u4e3a ',
+                    a.a.createElement('code', null, 'fixed'),
+                    ' \u8868\u793a\u5185\u5bb9\u4e0d\u4f1a\u5f71\u54cd\u5217\u7684\u5e03\u5c40',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '- | ',
+                    a.a.createElement('code', null, 'auto'),
+                    ' | ',
+                    a.a.createElement('code', null, 'fixed'),
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u65e0',
+                    a.a.createElement('hr', null),
+                    '\u56fa\u5b9a\u8868\u5934/\u5217\u6216\u4f7f\u7528\u4e86 ',
+                    a.a.createElement('code', null, 'column.ellipsis'),
+                    ' \u65f6\uff0c\u9ed8\u8ba4\u503c\u4e3a ',
+                    a.a.createElement('code', null, 'fixed'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'title'),
+                  a.a.createElement('td', null, '\u8868\u683c\u6807\u9898'),
+                  a.a.createElement('td', null, 'function(currentPageData)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onChange'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5206\u9875\u3001\u6392\u5e8f\u3001\u7b5b\u9009\u53d8\u5316\u65f6\u89e6\u53d1',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(pagination, filters, sorter, extra: ',
+                    '{',
+                    ' currentDataSource: [], action: ',
+                    a.a.createElement('code', null, 'paginate'),
+                    ' | ',
+                    a.a.createElement('code', null, 'sort'),
+                    ' | ',
+                    a.a.createElement('code', null, 'filter'),
+                    ' ',
+                    '}',
+                    ')',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onHeaderRow'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5934\u90e8\u884c\u5c5e\u6027',
+                  ),
+                  a.a.createElement('td', null, 'function(column, index)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onRow'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u884c\u5c5e\u6027',
+                  ),
+                  a.a.createElement('td', null, 'function(record, index)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'h4',
+              { id: 'onrow-\u7528\u6cd5' },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#onrow-\u7528\u6cd5',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'onRow \u7528\u6cd5',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u9002\u7528\u4e8e ',
+              a.a.createElement('code', null, 'onRow'),
+              ' ',
+              a.a.createElement('code', null, 'onHeaderRow'),
+              ' ',
+              a.a.createElement('code', null, 'onCell'),
+              ' ',
+              a.a.createElement('code', null, 'onHeaderCell'),
+              '\u3002',
+            ),
+            a.a.createElement(c['a'], {
+              code:
+                '\n<Table\n  onRow={record => {\n    return {\n      onClick: event => {}, // \u70b9\u51fb\u884c\n      onDoubleClick: event => {},\n      onContextMenu: event => {},\n      onMouseEnter: event => {}, // \u9f20\u6807\u79fb\u5165\u884c\n      onMouseLeave: event => {},\n    };\n  }}\n  onHeaderRow={column => {\n    return {\n      onClick: () => {}, // \u70b9\u51fb\u8868\u5934\u884c\n    };\n  }}\n/>\n',
+              lang: 'jsx',
+            }),
+            a.a.createElement(
+              'h3',
+              { id: 'column' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#column', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Column',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u5217\u63cf\u8ff0\u6570\u636e\u5bf9\u8c61\uff0c\u662f columns \u4e2d\u7684\u4e00\u9879\uff0cColumn \u4f7f\u7528\u76f8\u540c\u7684 API\u3002',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  a.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'align'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5217\u7684\u5bf9\u9f50\u65b9\u5f0f',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'left'),
+                    ' | ',
+                    a.a.createElement('code', null, 'right'),
+                    ' | ',
+                    a.a.createElement('code', null, 'center'),
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'left'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'className'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5217\u6837\u5f0f\u7c7b\u540d',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'colSpan'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u5934\u5217\u5408\u5e76,\u8bbe\u7f6e\u4e3a 0 \u65f6\uff0c\u4e0d\u6e32\u67d3',
+                  ),
+                  a.a.createElement('td', null, 'number'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'dataIndex'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5217\u6570\u636e\u5728\u6570\u636e\u9879\u4e2d\u5bf9\u5e94\u7684\u8def\u5f84\uff0c\u652f\u6301\u901a\u8fc7\u6570\u7ec4\u67e5\u8be2\u5d4c\u5957\u8def\u5f84',
+                  ),
+                  a.a.createElement('td', null, 'string | string[]'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'defaultFilteredValue'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u7b5b\u9009\u503c',
+                  ),
+                  a.a.createElement('td', null, 'string[]'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'defaultSortOrder'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u6392\u5e8f\u987a\u5e8f',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'ascend'),
+                    ' | ',
+                    a.a.createElement('code', null, 'descend'),
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'ellipsis'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8d85\u8fc7\u5bbd\u5ea6\u5c06\u81ea\u52a8\u7701\u7565\uff0c\u6682\u4e0d\u652f\u6301\u548c\u6392\u5e8f\u7b5b\u9009\u4e00\u8d77\u4f7f\u7528\u3002',
+                    a.a.createElement('br', null),
+                    '\u8bbe\u7f6e\u4e3a ',
+                    a.a.createElement('code', null, 'true'),
+                    ' \u6216 ',
+                    a.a.createElement(
+                      'code',
+                      null,
+                      '{',
+                      ' showTitle?: boolean ',
+                      '}',
+                    ),
+                    ' \u65f6\uff0c\u8868\u683c\u5e03\u5c40\u5c06\u53d8\u6210 ',
+                    a.a.createElement('code', null, 'tableLayout="fixed"'),
+                    '\u3002',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    '{',
+                    ' showTitle?: boolean ',
+                    '}',
+                  ),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null, 'showTitle: 4.3.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'filterDropdown'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u53ef\u4ee5\u81ea\u5b9a\u4e49\u7b5b\u9009\u83dc\u5355\uff0c\u6b64\u51fd\u6570\u53ea\u8d1f\u8d23\u6e32\u67d3\u56fe\u5c42\uff0c\u9700\u8981\u81ea\u884c\u7f16\u5199\u5404\u79cd\u4ea4\u4e92',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'ReactNode | (props: ',
+                    a.a.createElement(
+                      r['Link'],
+                      { to: 'https://git.io/fjP5h' },
+                      'FilterDropdownProps',
+                    ),
+                    ') => ReactNode',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'filterDropdownVisible'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u7528\u4e8e\u63a7\u5236\u81ea\u5b9a\u4e49\u7b5b\u9009\u83dc\u5355\u662f\u5426\u53ef\u89c1',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'filtered'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6807\u8bc6\u6570\u636e\u662f\u5426\u7ecf\u8fc7\u8fc7\u6ee4\uff0c\u7b5b\u9009\u56fe\u6807\u4f1a\u9ad8\u4eae',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'filteredValue'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u7b5b\u9009\u7684\u53d7\u63a7\u5c5e\u6027\uff0c\u5916\u754c\u53ef\u7528\u6b64\u63a7\u5236\u5217\u7684\u7b5b\u9009\u72b6\u6001\uff0c\u503c\u4e3a\u5df2\u7b5b\u9009\u7684 value \u6570\u7ec4',
+                  ),
+                  a.a.createElement('td', null, 'string[]'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'filterIcon'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49 filter \u56fe\u6807\u3002',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'ReactNode | (filtered: boolean) => ReactNode',
+                  ),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'filterMultiple'),
+                  a.a.createElement('td', null, '\u662f\u5426\u591a\u9009'),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'filters'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u5934\u7684\u7b5b\u9009\u83dc\u5355\u9879',
+                  ),
+                  a.a.createElement('td', null, 'object[]'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'fixed'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\uff08IE \u4e0b\u65e0\u6548\uff09\u5217\u662f\u5426\u56fa\u5b9a\uff0c\u53ef\u9009 true (\u7b49\u6548\u4e8e left) ',
+                    a.a.createElement('code', null, 'left'),
+                    ' ',
+                    a.a.createElement('code', null, 'right'),
+                  ),
+                  a.a.createElement('td', null, 'boolean | string'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'key'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'React \u9700\u8981\u7684 key\uff0c\u5982\u679c\u5df2\u7ecf\u8bbe\u7f6e\u4e86\u552f\u4e00\u7684 ',
+                    a.a.createElement('code', null, 'dataIndex'),
+                    '\uff0c\u53ef\u4ee5\u5ffd\u7565\u8fd9\u4e2a\u5c5e\u6027',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'render'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u751f\u6210\u590d\u6742\u6570\u636e\u7684\u6e32\u67d3\u51fd\u6570\uff0c\u53c2\u6570\u5206\u522b\u4e3a\u5f53\u524d\u884c\u7684\u503c\uff0c\u5f53\u524d\u884c\u6570\u636e\uff0c\u884c\u7d22\u5f15\uff0c@return \u91cc\u9762\u53ef\u4ee5\u8bbe\u7f6e\u8868\u683c',
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#components-table-demo-colspan-rowspan' },
+                      '\u884c/\u5217\u5408\u5e76',
+                    ),
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(text, record, index) ',
+                    '{',
+                    '}',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'responsive'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u54cd\u5e94\u5f0f breakpoint \u914d\u7f6e\u5217\u8868\u3002\u672a\u8bbe\u7f6e\u5219\u59cb\u7ec8\u53ef\u89c1\u3002',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/ant-design/ant-design/blob/015109b42b85c63146371b4e32b883cf97b088e8/components/_util/responsiveObserve.ts#L1',
+                      },
+                      'Breakpoint',
+                    ),
+                    '[]',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null, '4.2.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'shouldCellUpdate'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5355\u5143\u683c\u6e32\u67d3\u65f6\u673a',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '(record, prevRecord) => boolean',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null, '4.3.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'showSorterTooltip'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u5934\u663e\u793a\u4e0b\u4e00\u6b21\u6392\u5e8f\u7684 tooltip \u63d0\u793a, \u8986\u76d6 table \u4e2d ',
+                    a.a.createElement('code', null, 'showSorterTooltip'),
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'sortDirections'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u652f\u6301\u7684\u6392\u5e8f\u65b9\u5f0f\uff0c\u8986\u76d6 ',
+                    a.a.createElement('code', null, 'Table'),
+                    ' \u4e2d ',
+                    a.a.createElement('code', null, 'sortDirections'),
+                    '\uff0c \u53d6\u503c\u4e3a ',
+                    a.a.createElement('code', null, 'ascend'),
+                    ' ',
+                    a.a.createElement('code', null, 'descend'),
+                  ),
+                  a.a.createElement('td', null, 'Array'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '[',
+                    a.a.createElement('code', null, 'ascend'),
+                    ', ',
+                    a.a.createElement('code', null, 'descend'),
+                    ']',
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'sorter'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6392\u5e8f\u51fd\u6570\uff0c\u672c\u5730\u6392\u5e8f\u4f7f\u7528\u4e00\u4e2a\u51fd\u6570(\u53c2\u8003 ',
+                    a.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort',
+                      },
+                      'Array.sort',
+                    ),
+                    ' \u7684 compareFunction)\uff0c\u9700\u8981\u670d\u52a1\u7aef\u6392\u5e8f\u53ef\u8bbe\u4e3a true',
+                  ),
+                  a.a.createElement('td', null, 'function | boolean'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'sortOrder'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6392\u5e8f\u7684\u53d7\u63a7\u5c5e\u6027\uff0c\u5916\u754c\u53ef\u7528\u6b64\u63a7\u5236\u5217\u7684\u6392\u5e8f\uff0c\u53ef\u8bbe\u7f6e\u4e3a ',
+                    a.a.createElement('code', null, 'ascend'),
+                    ' ',
+                    a.a.createElement('code', null, 'descend'),
+                    ' false',
+                  ),
+                  a.a.createElement('td', null, 'boolean | string'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'title'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5217\u5934\u663e\u793a\u6587\u5b57\uff08\u51fd\u6570\u7528\u6cd5 ',
+                    a.a.createElement('code', null, '3.10.0'),
+                    ' \u540e\u652f\u6301\uff09',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'ReactNode | (',
+                    '{',
+                    ' sortOrder, sortColumn, filters ',
+                    '}',
+                    ') => ReactNode',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'width'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5217\u5bbd\u5ea6\uff08',
+                    a.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/ant-design/ant-design/issues/13825#issuecomment-449889241',
+                      },
+                      '\u6307\u5b9a\u4e86\u4e5f\u4e0d\u751f\u6548\uff1f',
+                    ),
+                    '\uff09',
+                  ),
+                  a.a.createElement('td', null, 'string | number'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onCell'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5355\u5143\u683c\u5c5e\u6027',
+                  ),
+                  a.a.createElement('td', null, 'function(record, rowIndex)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onFilter'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u672c\u5730\u6a21\u5f0f\u4e0b\uff0c\u786e\u5b9a\u7b5b\u9009\u7684\u8fd0\u884c\u51fd\u6570',
+                  ),
+                  a.a.createElement('td', null, 'function'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'onFilterDropdownVisibleChange',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u7b5b\u9009\u83dc\u5355\u53ef\u89c1\u53d8\u5316\u65f6\u8c03\u7528',
+                  ),
+                  a.a.createElement('td', null, 'function(visible) ', '{', '}'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onHeaderCell'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5934\u90e8\u5355\u5143\u683c\u5c5e\u6027',
+                  ),
+                  a.a.createElement('td', null, 'function(column)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'h3',
+              { id: 'columngroup' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#columngroup', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'ColumnGroup',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'title'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5217\u5934\u663e\u793a\u6587\u5b57',
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'h3',
+              { id: 'pagination' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#pagination', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'pagination',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u5206\u9875\u7684\u914d\u7f6e\u9879\u3002',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'position'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u5206\u9875\u663e\u793a\u7684\u4f4d\u7f6e\uff0c \u53d6\u503c\u4e3a',
+                    a.a.createElement('code', null, 'topLeft'),
+                    ' | ',
+                    a.a.createElement('code', null, 'topCenter'),
+                    ' | ',
+                    a.a.createElement('code', null, 'topRight'),
+                    ' |',
+                    a.a.createElement('code', null, 'bottomLeft'),
+                    ' | ',
+                    a.a.createElement('code', null, 'bottomCenter'),
+                    ' | ',
+                    a.a.createElement('code', null, 'bottomRight'),
+                  ),
+                  a.a.createElement('td', null, 'Array'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '[',
+                    a.a.createElement('code', null, 'bottomRight'),
+                    ']',
+                  ),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u66f4\u591a\u914d\u7f6e\u9879\uff0c\u8bf7\u67e5\u770b ',
+              a.a.createElement(
+                r['Link'],
+                { to: '/components/pagination/' },
+                a.a.createElement('code', null, 'Pagination'),
+              ),
+              '\u3002',
+            ),
+            a.a.createElement(
+              'h3',
+              { id: 'expandable' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#expandable', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'expandable',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u5c55\u5f00\u529f\u80fd\u7684\u914d\u7f6e\u3002',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'childrenColumnName'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u6811\u5f62\u7ed3\u6784\u7684\u5217\u540d',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement('td', null, 'children'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'defaultExpandAllRows'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u521d\u59cb\u65f6\uff0c\u662f\u5426\u5c55\u5f00\u6240\u6709\u884c',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'defaultExpandedRowKeys'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u5c55\u5f00\u7684\u884c',
+                  ),
+                  a.a.createElement('td', null, 'string[]'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'expandedRowClassName'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5c55\u5f00\u884c\u7684 className',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(record, index, indent): string',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'expandedRowKeys'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5c55\u5f00\u7684\u884c\uff0c\u63a7\u5236\u5c5e\u6027',
+                  ),
+                  a.a.createElement('td', null, 'string[]'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'expandedRowRender'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u989d\u5916\u7684\u5c55\u5f00\u884c',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(record, index, indent, expanded): ReactNode',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'expandIcon'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5c55\u5f00\u56fe\u6807\uff0c\u53c2\u8003',
+                    a.a.createElement(
+                      r['Link'],
+                      { to: 'https://codesandbox.io/s/fervent-bird-nuzpr' },
+                      '\u793a\u4f8b',
+                    ),
+                  ),
+                  a.a.createElement('td', null, 'function(props): ReactNode'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'expandIconColumnIndex'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5c55\u5f00\u6309\u94ae\u7684\u5217\u987a\u5e8f\uff0c',
+                    a.a.createElement('code', null, '-1'),
+                    ' \u65f6\u4e0d\u5c55\u793a',
+                  ),
+                  a.a.createElement('td', null, 'number'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'expandRowByClick'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u901a\u8fc7\u70b9\u51fb\u884c\u6765\u5c55\u5f00\u5b50\u884c',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'indentSize'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5c55\u793a\u6811\u5f62\u6570\u636e\u65f6\uff0c\u6bcf\u5c42\u7f29\u8fdb\u7684\u5bbd\u5ea6\uff0c\u4ee5 px \u4e3a\u5355\u4f4d',
+                  ),
+                  a.a.createElement('td', null, 'number'),
+                  a.a.createElement('td', null, '15'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'rowExpandable'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u662f\u5426\u5141\u8bb8\u884c\u5c55\u5f00',
+                  ),
+                  a.a.createElement('td', null, '(record) => boolean'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onExpand'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u5c55\u5f00\u56fe\u6807\u65f6\u89e6\u53d1',
+                  ),
+                  a.a.createElement('td', null, 'function(expanded, record)'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onExpandedRowsChange'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5c55\u5f00\u7684\u884c\u53d8\u5316\u65f6\u89e6\u53d1',
+                  ),
+                  a.a.createElement('td', null, 'function(expandedRows)'),
+                  a.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'h3',
+              { id: 'rowselection' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#rowselection', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'rowSelection',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u9009\u62e9\u529f\u80fd\u7684\u914d\u7f6e\u3002',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  a.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'checkStrictly'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'checkable \u72b6\u6001\u4e0b\u8282\u70b9\u9009\u62e9\u5b8c\u5168\u53d7\u63a7\uff08\u7236\u5b50\u6570\u636e\u9009\u4e2d\u72b6\u6001\u4e0d\u518d\u5173\u8054\uff09',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null, '4.4.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'columnTitle'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5217\u8868\u9009\u62e9\u6846\u6807\u9898',
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'columnWidth'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5217\u8868\u9009\u62e9\u6846\u5bbd\u5ea6',
+                  ),
+                  a.a.createElement('td', null, 'string | number'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, '60px'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'fixed'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u628a\u9009\u62e9\u6846\u5217\u56fa\u5b9a\u5728\u5de6\u8fb9',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'getCheckboxProps'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u62e9\u6846\u7684\u9ed8\u8ba4\u5c5e\u6027\u914d\u7f6e',
+                  ),
+                  a.a.createElement('td', null, 'function(record)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'hideSelectAll'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9690\u85cf\u5168\u9009\u52fe\u9009\u6846\u4e0e\u81ea\u5b9a\u4e49\u9009\u62e9\u9879',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null, '4.3.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'preserveSelectedRowKeys'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u6570\u636e\u88ab\u5220\u9664\u65f6\u4ecd\u7136\u4fdd\u7559\u9009\u9879\u7684 ',
+                    a.a.createElement('code', null, 'key'),
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null, '4.4.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'renderCell'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6e32\u67d3\u52fe\u9009\u6846\uff0c\u7528\u6cd5\u4e0e Column \u7684 ',
+                    a.a.createElement('code', null, 'render'),
+                    ' \u76f8\u540c',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(checked, record, index, originNode) ',
+                    '{',
+                    '}',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null, '4.1.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'selectedRowKeys'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u9009\u4e2d\u9879\u7684 key \u6570\u7ec4\uff0c\u9700\u8981\u548c onChange \u8fdb\u884c\u914d\u5408',
+                  ),
+                  a.a.createElement('td', null, 'string[] | number[]'),
+                  a.a.createElement('td', null, '[]'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'selections'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u9009\u62e9\u9879 ',
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#selection' },
+                      '\u914d\u7f6e\u9879',
+                    ),
+                    ', \u8bbe\u4e3a ',
+                    a.a.createElement('code', null, 'true'),
+                    ' \u65f6\u4f7f\u7528\u9ed8\u8ba4\u9009\u62e9\u9879',
+                  ),
+                  a.a.createElement('td', null, 'object[] | boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'type'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u591a\u9009/\u5355\u9009\uff0c',
+                    a.a.createElement('code', null, 'checkbox'),
+                    ' or ',
+                    a.a.createElement('code', null, 'radio'),
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'checkbox'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onChange'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u4e2d\u9879\u53d1\u751f\u53d8\u5316\u65f6\u7684\u56de\u8c03',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(selectedRowKeys, selectedRows)',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onSelect'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u7528\u6237\u624b\u52a8\u9009\u62e9/\u53d6\u6d88\u9009\u62e9\u67d0\u884c\u7684\u56de\u8c03',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(record, selected, selectedRows, nativeEvent)',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onSelectAll'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u7528\u6237\u624b\u52a8\u9009\u62e9/\u53d6\u6d88\u9009\u62e9\u6240\u6709\u884c\u7684\u56de\u8c03',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'function(selected, selectedRows, changeRows)',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onSelectInvert'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u7528\u6237\u624b\u52a8\u9009\u62e9\u53cd\u9009\u7684\u56de\u8c03',
+                  ),
+                  a.a.createElement('td', null, 'function(selectedRowKeys)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'h3',
+              { id: 'scroll' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#scroll', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'scroll',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'scrollToFirstRowOnChange'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u5206\u9875\u3001\u6392\u5e8f\u3001\u7b5b\u9009\u53d8\u5316\u540e\u662f\u5426\u6eda\u52a8\u5230\u8868\u683c\u9876\u90e8',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'x'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u6a2a\u5411\u6eda\u52a8\uff0c\u4e5f\u53ef\u7528\u4e8e\u6307\u5b9a\u6eda\u52a8\u533a\u57df\u7684\u5bbd\uff0c\u53ef\u4ee5\u8bbe\u7f6e\u4e3a\u50cf\u7d20\u503c\uff0c\u767e\u5206\u6bd4\uff0ctrue \u548c ',
+                    a.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://developer.mozilla.org/zh-CN/docs/Web/CSS/width#max-content',
+                      },
+                      "'max-content'",
+                    ),
+                  ),
+                  a.a.createElement('td', null, 'number | true'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'y'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u7eb5\u5411\u6eda\u52a8\uff0c\u4e5f\u53ef\u7528\u4e8e\u6307\u5b9a\u6eda\u52a8\u533a\u57df\u7684\u9ad8\uff0c\u53ef\u4ee5\u8bbe\u7f6e\u4e3a\u50cf\u7d20\u503c',
+                  ),
+                  a.a.createElement('td', null, 'number'),
+                  a.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'h3',
+              { id: 'selection' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#selection', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'selection',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'key'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'React \u9700\u8981\u7684 key\uff0c\u5efa\u8bae\u8bbe\u7f6e',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'text'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u62e9\u9879\u663e\u793a\u7684\u6587\u5b57',
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, '-'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onSelect'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u62e9\u9879\u70b9\u51fb\u56de\u8c03',
+                  ),
+                  a.a.createElement('td', null, 'function(changeableRowKeys)'),
+                  a.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'h2',
+              { id: '\u5728-typescript-\u4e2d\u4f7f\u7528' },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u5728-typescript-\u4e2d\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5728 TypeScript \u4e2d\u4f7f\u7528',
+            ),
+            a.a.createElement(c['a'], {
+              code:
+                "\nimport { Table } from 'antd';\nimport { ColumnsType } from 'antd/es/table';\n\ninterface User {\n  key: number;\n  name: string;\n}\n\nconst columns: ColumnsType<User> = [\n  {\n    key: 'name',\n    title: 'Name',\n    dataIndex: 'name',\n  },\n];\n\nconst data: User[] = [\n  {\n    key: 0,\n    name: 'Jack',\n  },\n];\n\nexport default () => (\n  <>\n    <Table<User> columns={columns} dataSource={data} />\n    /* \u4f7f\u7528 JSX \u98ce\u683c\u7684 API */\n    <Table<User> dataSource={data}>\n      <Table.Column<User> key=\"name\" title=\"Name\" dataIndex=\"name\" />\n    </Table>\n  </>\n);\n",
+              lang: 'tsx',
+            }),
+            a.a.createElement(
+              'p',
+              null,
+              'TypeScript | pure \u91cc\u4f7f\u7528 Table \u7684 ',
+              a.a.createElement(
+                r['Link'],
+                { to: 'https://codesandbox.io/s/serene-platform-0jo5t' },
+                'CodeSandbox \u5b9e\u4f8b',
+              ),
+              '\u3002',
+            ),
+            a.a.createElement(
+              'h2',
+              { id: '\u6ce8\u610f' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#\u6ce8\u610f', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u6ce8\u610f',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u6309\u7167 ',
+              a.a.createElement(
+                r['Link'],
+                {
+                  to:
+                    'https://zh-hans.reactjs.org/docs/lists-and-keys.html#keys',
+                },
+                'React \u7684\u89c4\u8303',
+              ),
+              '\uff0c\u6240\u6709\u7684\u6570\u7ec4\u7ec4\u4ef6\u5fc5\u987b\u7ed1\u5b9a ',
+              a.a.createElement('code', null, 'key'),
+              '\u3002\u5728 Table \u4e2d\uff0c',
+              a.a.createElement('code', null, 'dataSource'),
+              ' \u548c ',
+              a.a.createElement('code', null, 'columns'),
+              ' \u91cc\u7684\u6570\u636e\u503c\u90fd\u9700\u8981\u6307\u5b9a ',
+              a.a.createElement('code', null, 'key'),
+              ' \u503c\u3002\u5bf9\u4e8e ',
+              a.a.createElement('code', null, 'dataSource'),
+              ' \u9ed8\u8ba4\u5c06\u6bcf\u5217\u6570\u636e\u7684 ',
+              a.a.createElement('code', null, 'key'),
+              ' \u5c5e\u6027\u4f5c\u4e3a\u552f\u4e00\u7684\u6807\u8bc6\u3002',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              a.a.createElement('img', {
+                src:
+                  'https://os.alipayobjects.com/rmsportal/luLdLvhPOiRpyss.png',
+                alt: '\u63a7\u5236\u53f0\u8b66\u544a',
+              }),
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u5982\u679c ',
+              a.a.createElement('code', null, 'dataSource[i].key'),
+              ' \u6ca1\u6709\u63d0\u4f9b\uff0c\u4f60\u5e94\u8be5\u4f7f\u7528 ',
+              a.a.createElement('code', null, 'rowKey'),
+              ' \u6765\u6307\u5b9a ',
+              a.a.createElement('code', null, 'dataSource'),
+              ' \u7684\u4e3b\u952e\uff0c\u5982\u4e0b\u6240\u793a\u3002\u82e5\u6ca1\u6709\u6307\u5b9a\uff0c\u63a7\u5236\u53f0\u4f1a\u51fa\u73b0\u4ee5\u4e0a\u7684\u63d0\u793a\uff0c\u8868\u683c\u7ec4\u4ef6\u4e5f\u4f1a\u51fa\u73b0\u5404\u7c7b\u5947\u602a\u7684\u9519\u8bef\u3002',
+            ),
+            a.a.createElement(c['a'], {
+              code:
+                '\n// \u6bd4\u5982\u4f60\u7684\u6570\u636e\u4e3b\u952e\u662f uid\nreturn <Table rowKey="uid" />;\n// \u6216\nreturn <Table rowKey={record => record.uid} />;\n',
+              lang: 'jsx',
+            }),
+            a.a.createElement(
+              'h2',
+              { id: '\u4ece-v3-\u5347\u7ea7\u5230-v4' },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ece-v3-\u5347\u7ea7\u5230-v4',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ece v3 \u5347\u7ea7\u5230 v4',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              'Table \u79fb\u9664\u4e86\u5728 v3 \u4e2d\u5e9f\u5f03\u7684 ',
+              a.a.createElement('code', null, 'onRowClick'),
+              '\u3001',
+              a.a.createElement('code', null, 'onRowDoubleClick'),
+              '\u3001',
+              a.a.createElement('code', null, 'onRowMouseEnter'),
+              '\u3001',
+              a.a.createElement('code', null, 'onRowMouseLeave'),
+              ' \u7b49\u65b9\u6cd5\u3002\u5982\u679c\u4f60\u4f7f\u7528\u7684 api \u4e3a\u6587\u6863\u4e2d\u5217\u4e3e\u7684 api\uff0c\u90a3\u4f60\u4e0d\u7528\u62c5\u5fc3\u4f1a\u4e22\u5931\u529f\u80fd\u3002',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u6b64\u5916\uff0c\u6bd4\u8f83\u91cd\u5927\u7684\u6539\u52a8\u4e3a ',
+              a.a.createElement('code', null, 'dataIndex'),
+              ' \u4ece\u652f\u6301\u8def\u5f84\u5d4c\u5957\u5982 ',
+              a.a.createElement('code', null, 'user.age'),
+              ' \u6539\u6210\u4e86\u6570\u7ec4\u8def\u5f84\u5982 ',
+              a.a.createElement('code', null, "['user', 'age']"),
+              '\u3002\u4ee5\u89e3\u51b3\u8fc7\u53bb\u5c5e\u6027\u540d\u5e26 ',
+              a.a.createElement('code', null, '.'),
+              ' \u9700\u8981\u989d\u5916\u7684\u6570\u636e\u8f6c\u5316\u95ee\u9898\u3002',
+            ),
+            a.a.createElement(
+              'h2',
+              { id: 'faq' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#faq', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FAQ',
+            ),
+            a.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u5982\u4f55\u5728\u6ca1\u6709\u6570\u636e\u6216\u53ea\u6709\u4e00\u9875\u6570\u636e\u65f6\u9690\u85cf\u5206\u9875\u680f',
+              },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u5982\u4f55\u5728\u6ca1\u6709\u6570\u636e\u6216\u53ea\u6709\u4e00\u9875\u6570\u636e\u65f6\u9690\u85cf\u5206\u9875\u680f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5982\u4f55\u5728\u6ca1\u6709\u6570\u636e\u6216\u53ea\u6709\u4e00\u9875\u6570\u636e\u65f6\u9690\u85cf\u5206\u9875\u680f',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u4f60\u53ef\u4ee5\u8bbe\u7f6e ',
+              a.a.createElement('code', null, 'pagination'),
+              ' \u7684 ',
+              a.a.createElement('code', null, 'hideOnSinglePage'),
+              ' \u5c5e\u6027\u4e3a ',
+              a.a.createElement('code', null, 'true'),
+              '\u3002',
+            ),
+            a.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u8868\u683c\u8fc7\u6ee4\u65f6\u4f1a\u56de\u5230\u7b2c\u4e00\u9875\uff1f',
+              },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u8868\u683c\u8fc7\u6ee4\u65f6\u4f1a\u56de\u5230\u7b2c\u4e00\u9875\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u8868\u683c\u8fc7\u6ee4\u65f6\u4f1a\u56de\u5230\u7b2c\u4e00\u9875\uff1f',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u524d\u7aef\u8fc7\u6ee4\u65f6\u901a\u5e38\u6761\u76ee\u603b\u6570\u4f1a\u51cf\u5c11\uff0c\u4ece\u800c\u5bfc\u81f4\u603b\u9875\u6570\u5c0f\u4e8e\u7b5b\u9009\u524d\u7684\u5f53\u524d\u9875\u6570\uff0c\u4e3a\u4e86\u9632\u6b62\u5f53\u524d\u9875\u9762\u6ca1\u6709\u6570\u636e\uff0c\u6211\u4eec\u9ed8\u8ba4\u4f1a\u8fd4\u56de\u7b2c\u4e00\u9875\u3002',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u5982\u679c\u4f60\u5728\u4f7f\u7528\u8fdc\u7a0b\u5206\u9875\uff0c\u5f88\u53ef\u80fd\u9700\u8981\u4fdd\u6301\u5f53\u524d\u9875\u9762\uff0c\u4f60\u53ef\u4ee5\u53c2\u7167\u8fd9\u4e2a ',
+              a.a.createElement(
+                r['Link'],
+                {
+                  to:
+                    'https://codesandbox.io/s/yuanchengjiazaishuju-ant-design-demo-7y2uf',
+                },
+                '\u53d7\u63a7\u4f8b\u5b50',
+              ),
+              ' \u63a7\u5236\u5f53\u524d\u9875\u9762\u4e0d\u53d8\u3002',
+            ),
+            a.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u8868\u683c\u5206\u9875\u4e3a\u4f55\u4f1a\u51fa\u73b0-size-\u5207\u6362\u5668\uff1f',
+              },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u8868\u683c\u5206\u9875\u4e3a\u4f55\u4f1a\u51fa\u73b0-size-\u5207\u6362\u5668\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u8868\u683c\u5206\u9875\u4e3a\u4f55\u4f1a\u51fa\u73b0 size \u5207\u6362\u5668\uff1f',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u81ea ',
+              a.a.createElement('code', null, '4.1.0'),
+              ' \u8d77\uff0cPagination \u5728 ',
+              a.a.createElement('code', null, 'total'),
+              ' \u5927\u4e8e 50 \u6761\u65f6\u4f1a\u9ed8\u8ba4\u663e\u793a size \u5207\u6362\u5668\u4ee5\u63d0\u5347\u7528\u6237\u4ea4\u4e92\u4f53\u9a8c\u3002\u5982\u679c\u4f60\u4e0d\u9700\u8981\u8be5\u529f\u80fd\uff0c\u53ef\u4ee5\u901a\u8fc7\u8bbe\u7f6e ',
+              a.a.createElement('code', null, 'showSizeChanger'),
+              ' \u4e3a ',
+              a.a.createElement('code', null, 'false'),
+              ' \u6765\u5173\u95ed\u3002',
+            ),
+            a.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48-\u66f4\u65b0-state-\u4f1a\u5bfc\u81f4\u5168\u8868\u6e32\u67d3\uff1f',
+              },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48-\u66f4\u65b0-state-\u4f1a\u5bfc\u81f4\u5168\u8868\u6e32\u67d3\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48 \u66f4\u65b0 state \u4f1a\u5bfc\u81f4\u5168\u8868\u6e32\u67d3\uff1f',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u7531\u4e8e ',
+              a.a.createElement('code', null, 'columns'),
+              ' \u652f\u6301 ',
+              a.a.createElement('code', null, 'render'),
+              ' \u65b9\u6cd5\uff0c\u56e0\u800c Table \u65e0\u6cd5\u77e5\u9053\u54ea\u4e9b\u5355\u5143\u4f1a\u53d7\u5230\u5f71\u54cd\u3002\u4f60\u53ef\u4ee5\u901a\u8fc7 ',
+              a.a.createElement('code', null, 'column.shouldCellUpdate'),
+              ' \u6765\u63a7\u5236\u5355\u5143\u683c\u7684\u6e32\u67d3\u3002',
+            ),
+            a.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u56fa\u5b9a\u5217\u7a7f\u900f\u5230\u6700\u4e0a\u5c42\u8be5\u600e\u4e48\u529e\uff1f',
+              },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u56fa\u5b9a\u5217\u7a7f\u900f\u5230\u6700\u4e0a\u5c42\u8be5\u600e\u4e48\u529e\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u56fa\u5b9a\u5217\u7a7f\u900f\u5230\u6700\u4e0a\u5c42\u8be5\u600e\u4e48\u529e\uff1f',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u56fa\u5b9a\u5217\u901a\u8fc7 ',
+              a.a.createElement('code', null, 'z-index'),
+              ' \u5c5e\u6027\u5c06\u5176\u60ac\u6d6e\u4e8e\u975e\u56fa\u5b9a\u5217\u4e4b\u4e0a\uff0c\u8fd9\u4f7f\u5f97\u6709\u65f6\u5019\u4f60\u4f1a\u53d1\u73b0\u5728 Table \u4e0a\u653e\u7f6e\u906e\u7f69\u5c42\u65f6\u56fa\u5b9a\u5217\u4f1a\u88ab\u900f\u8fc7\u7684\u60c5\u51b5\u3002\u4e3a\u906e\u7f69\u5c42\u8bbe\u7f6e\u66f4\u9ad8\u7684 ',
+              a.a.createElement('code', null, 'z-index'),
+              ' \u8986\u76d6\u4f4f\u56fa\u5b9a\u5217\u5373\u53ef\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, l) {
+      'use strict';
+      var n = l('0Owb'),
+        a = l('PpiC'),
+        r = l('cDcd'),
+        c = l.n(r),
+        m = l('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var l = e.children,
+          r = Object(a['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(n['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, l),
+        );
+      });
+    },
+    Y3H2: function(e, t, l) {
+      'use strict';
+      l.r(t);
+      var n = l('cDcd'),
+        a = l.n(n),
+        r = l('dEAq'),
+        c = (l('g5U0'), l('ekZX'), l('ltCa'), l('Bjia'));
+      t['default'] = function() {
+        return a.a.createElement(
+          a.a.Fragment,
+          null,
+          a.a.createElement(
+            'div',
+            { className: 'markdown' },
+            a.a.createElement(
+              'p',
+              null,
+              '\u5c55\u793a\u884c\u5217\u6570\u636e\u3002',
+            ),
+            a.a.createElement(
+              'h2',
+              { id: '\u8bbe\u8ba1\u5e08\u4e13\u5c5e' },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u8bbe\u8ba1\u5e08\u4e13\u5c5e',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u8bbe\u8ba1\u5e08\u4e13\u5c5e',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u5b89\u88c5 ',
+              a.a.createElement(
+                r['Link'],
+                { to: 'https://kitchen.alipay.com/' },
+                'Kitchen Sketch \u63d2\u4ef6 \ud83d\udc8e',
+              ),
+              '\uff0c\u4e24\u6b65\u5c31\u53ef\u4ee5\u81ea\u52a8\u751f\u6210 Ant Design \u8868\u683c\u7ec4\u4ef6\u3002',
+            ),
+            a.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            a.a.createElement(
+              'ul',
+              null,
+              a.a.createElement(
+                'li',
+                null,
+                '\u5f53\u6709\u5927\u91cf\u7ed3\u6784\u5316\u7684\u6570\u636e\u9700\u8981\u5c55\u73b0\u65f6\uff1b',
+              ),
+              a.a.createElement(
+                'li',
+                null,
+                '\u5f53\u9700\u8981\u5bf9\u6570\u636e\u8fdb\u884c\u6392\u5e8f\u3001\u641c\u7d22\u3001\u5206\u9875\u3001\u81ea\u5b9a\u4e49\u64cd\u4f5c\u7b49\u590d\u6742\u884c\u4e3a\u65f6\u3002',
+              ),
+            ),
+            a.a.createElement(
+              'h2',
+              { id: '\u5982\u4f55\u4f7f\u7528' },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u5982\u4f55\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5982\u4f55\u4f7f\u7528',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u6307\u5b9a\u8868\u683c\u7684\u6570\u636e\u6e90 ',
+              a.a.createElement('code', null, 'dataSource'),
+              ' \u4e3a\u4e00\u4e2a\u6570\u7ec4\u3002',
+            ),
+            a.a.createElement(c['a'], {
+              code:
+                "\nconst dataSource = [\n  {\n    key: '1',\n    name: '\u80e1\u5f66\u658c',\n    age: 32,\n    address: '\u897f\u6e56\u533a\u6e56\u5e95\u516c\u56ed1\u53f7',\n  },\n  {\n    key: '2',\n    name: '\u80e1\u5f66\u7956',\n    age: 42,\n    address: '\u897f\u6e56\u533a\u6e56\u5e95\u516c\u56ed1\u53f7',\n  },\n];\n\nconst columns = [\n  {\n    title: '\u59d3\u540d',\n    dataIndex: 'name',\n    key: 'name',\n  },\n  {\n    title: '\u5e74\u9f84',\n    dataIndex: 'age',\n    key: 'age',\n  },\n  {\n    title: '\u4f4f\u5740',\n    dataIndex: 'address',\n    key: 'address',\n  },\n];\n\n<Table dataSource={dataSource} columns={columns} />;\n",
+              lang: 'jsx',
+            }),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, l) {
+      'use strict';
+      var n = l('kPKH');
+      l('h9md');
+      t['a'] = n['a'];
+    },
+    ltCa: function(e, t, l) {
+      'use strict';
+      var n = l('BMrR');
+      l('7xIR');
+      t['a'] = n['a'];
+    },
   },
-];
-
-const data: User[] = [
-  {
-    key: 0,
-    name: 'Jack',
-  },
-];
-
-export default () => (
-  <>
-    <Table<User> columns={columns} dataSource={data} />
-    /* \u4F7F\u7528 JSX \u98CE\u683C\u7684 API */
-    <Table<User> dataSource={data}>
-      <Table.Column<User> key="name" title="Name" dataIndex="name" />
-    </Table>
-  </>
-);
-`,lang:"tsx"}),e.a.createElement("p",null,"TypeScript | pure \u91CC\u4F7F\u7528 Table \u7684 ",e.a.createElement(u.Link,{to:"https://codesandbox.io/s/serene-platform-0jo5t"},"CodeSandbox \u5B9E\u4F8B"),"\u3002"),e.a.createElement("h2",{id:"\u6CE8\u610F"},e.a.createElement(u.AnchorLink,{to:"#\u6CE8\u610F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u6CE8\u610F"),e.a.createElement("p",null,"\u6309\u7167 ",e.a.createElement(u.Link,{to:"https://zh-hans.reactjs.org/docs/lists-and-keys.html#keys"},"React \u7684\u89C4\u8303"),"\uFF0C\u6240\u6709\u7684\u6570\u7EC4\u7EC4\u4EF6\u5FC5\u987B\u7ED1\u5B9A ",e.a.createElement("code",null,"key"),"\u3002\u5728 Table \u4E2D\uFF0C",e.a.createElement("code",null,"dataSource")," \u548C ",e.a.createElement("code",null,"columns")," \u91CC\u7684\u6570\u636E\u503C\u90FD\u9700\u8981\u6307\u5B9A ",e.a.createElement("code",null,"key")," \u503C\u3002\u5BF9\u4E8E ",e.a.createElement("code",null,"dataSource")," \u9ED8\u8BA4\u5C06\u6BCF\u5217\u6570\u636E\u7684 ",e.a.createElement("code",null,"key")," \u5C5E\u6027\u4F5C\u4E3A\u552F\u4E00\u7684\u6807\u8BC6\u3002"),e.a.createElement("p",null,e.a.createElement("img",{src:"https://os.alipayobjects.com/rmsportal/luLdLvhPOiRpyss.png",alt:"\u63A7\u5236\u53F0\u8B66\u544A"})),e.a.createElement("p",null,"\u5982\u679C ",e.a.createElement("code",null,"dataSource[i].key")," \u6CA1\u6709\u63D0\u4F9B\uFF0C\u4F60\u5E94\u8BE5\u4F7F\u7528 ",e.a.createElement("code",null,"rowKey")," \u6765\u6307\u5B9A ",e.a.createElement("code",null,"dataSource")," \u7684\u4E3B\u952E\uFF0C\u5982\u4E0B\u6240\u793A\u3002\u82E5\u6CA1\u6709\u6307\u5B9A\uFF0C\u63A7\u5236\u53F0\u4F1A\u51FA\u73B0\u4EE5\u4E0A\u7684\u63D0\u793A\uFF0C\u8868\u683C\u7EC4\u4EF6\u4E5F\u4F1A\u51FA\u73B0\u5404\u7C7B\u5947\u602A\u7684\u9519\u8BEF\u3002"),e.a.createElement(a.a,{code:`
-// \u6BD4\u5982\u4F60\u7684\u6570\u636E\u4E3B\u952E\u662F uid
-return <Table rowKey="uid" />;
-// \u6216
-return <Table rowKey={record => record.uid} />;
-`,lang:"jsx"}),e.a.createElement("h2",{id:"\u4ECE-v3-\u5347\u7EA7\u5230-v4"},e.a.createElement(u.AnchorLink,{to:"#\u4ECE-v3-\u5347\u7EA7\u5230-v4","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4ECE v3 \u5347\u7EA7\u5230 v4"),e.a.createElement("p",null,"Table \u79FB\u9664\u4E86\u5728 v3 \u4E2D\u5E9F\u5F03\u7684 ",e.a.createElement("code",null,"onRowClick"),"\u3001",e.a.createElement("code",null,"onRowDoubleClick"),"\u3001",e.a.createElement("code",null,"onRowMouseEnter"),"\u3001",e.a.createElement("code",null,"onRowMouseLeave")," \u7B49\u65B9\u6CD5\u3002\u5982\u679C\u4F60\u4F7F\u7528\u7684 api \u4E3A\u6587\u6863\u4E2D\u5217\u4E3E\u7684 api\uFF0C\u90A3\u4F60\u4E0D\u7528\u62C5\u5FC3\u4F1A\u4E22\u5931\u529F\u80FD\u3002"),e.a.createElement("p",null,"\u6B64\u5916\uFF0C\u6BD4\u8F83\u91CD\u5927\u7684\u6539\u52A8\u4E3A ",e.a.createElement("code",null,"dataIndex")," \u4ECE\u652F\u6301\u8DEF\u5F84\u5D4C\u5957\u5982 ",e.a.createElement("code",null,"user.age")," \u6539\u6210\u4E86\u6570\u7EC4\u8DEF\u5F84\u5982 ",e.a.createElement("code",null,"['user', 'age']"),"\u3002\u4EE5\u89E3\u51B3\u8FC7\u53BB\u5C5E\u6027\u540D\u5E26 ",e.a.createElement("code",null,".")," \u9700\u8981\u989D\u5916\u7684\u6570\u636E\u8F6C\u5316\u95EE\u9898\u3002"),e.a.createElement("h2",{id:"faq"},e.a.createElement(u.AnchorLink,{to:"#faq","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FAQ"),e.a.createElement("h3",{id:"\u5982\u4F55\u5728\u6CA1\u6709\u6570\u636E\u6216\u53EA\u6709\u4E00\u9875\u6570\u636E\u65F6\u9690\u85CF\u5206\u9875\u680F"},e.a.createElement(u.AnchorLink,{to:"#\u5982\u4F55\u5728\u6CA1\u6709\u6570\u636E\u6216\u53EA\u6709\u4E00\u9875\u6570\u636E\u65F6\u9690\u85CF\u5206\u9875\u680F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5982\u4F55\u5728\u6CA1\u6709\u6570\u636E\u6216\u53EA\u6709\u4E00\u9875\u6570\u636E\u65F6\u9690\u85CF\u5206\u9875\u680F"),e.a.createElement("p",null,"\u4F60\u53EF\u4EE5\u8BBE\u7F6E ",e.a.createElement("code",null,"pagination")," \u7684 ",e.a.createElement("code",null,"hideOnSinglePage")," \u5C5E\u6027\u4E3A ",e.a.createElement("code",null,"true"),"\u3002"),e.a.createElement("h3",{id:"\u8868\u683C\u8FC7\u6EE4\u65F6\u4F1A\u56DE\u5230\u7B2C\u4E00\u9875\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u8868\u683C\u8FC7\u6EE4\u65F6\u4F1A\u56DE\u5230\u7B2C\u4E00\u9875\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u8868\u683C\u8FC7\u6EE4\u65F6\u4F1A\u56DE\u5230\u7B2C\u4E00\u9875\uFF1F"),e.a.createElement("p",null,"\u524D\u7AEF\u8FC7\u6EE4\u65F6\u901A\u5E38\u6761\u76EE\u603B\u6570\u4F1A\u51CF\u5C11\uFF0C\u4ECE\u800C\u5BFC\u81F4\u603B\u9875\u6570\u5C0F\u4E8E\u7B5B\u9009\u524D\u7684\u5F53\u524D\u9875\u6570\uFF0C\u4E3A\u4E86\u9632\u6B62\u5F53\u524D\u9875\u9762\u6CA1\u6709\u6570\u636E\uFF0C\u6211\u4EEC\u9ED8\u8BA4\u4F1A\u8FD4\u56DE\u7B2C\u4E00\u9875\u3002"),e.a.createElement("p",null,"\u5982\u679C\u4F60\u5728\u4F7F\u7528\u8FDC\u7A0B\u5206\u9875\uFF0C\u5F88\u53EF\u80FD\u9700\u8981\u4FDD\u6301\u5F53\u524D\u9875\u9762\uFF0C\u4F60\u53EF\u4EE5\u53C2\u7167\u8FD9\u4E2A ",e.a.createElement(u.Link,{to:"https://codesandbox.io/s/yuanchengjiazaishuju-ant-design-demo-7y2uf"},"\u53D7\u63A7\u4F8B\u5B50")," \u63A7\u5236\u5F53\u524D\u9875\u9762\u4E0D\u53D8\u3002"),e.a.createElement("h3",{id:"\u8868\u683C\u5206\u9875\u4E3A\u4F55\u4F1A\u51FA\u73B0-size-\u5207\u6362\u5668\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u8868\u683C\u5206\u9875\u4E3A\u4F55\u4F1A\u51FA\u73B0-size-\u5207\u6362\u5668\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u8868\u683C\u5206\u9875\u4E3A\u4F55\u4F1A\u51FA\u73B0 size \u5207\u6362\u5668\uFF1F"),e.a.createElement("p",null,"\u81EA ",e.a.createElement("code",null,"4.1.0")," \u8D77\uFF0CPagination \u5728 ",e.a.createElement("code",null,"total")," \u5927\u4E8E 50 \u6761\u65F6\u4F1A\u9ED8\u8BA4\u663E\u793A size \u5207\u6362\u5668\u4EE5\u63D0\u5347\u7528\u6237\u4EA4\u4E92\u4F53\u9A8C\u3002\u5982\u679C\u4F60\u4E0D\u9700\u8981\u8BE5\u529F\u80FD\uFF0C\u53EF\u4EE5\u901A\u8FC7\u8BBE\u7F6E ",e.a.createElement("code",null,"showSizeChanger")," \u4E3A ",e.a.createElement("code",null,"false")," \u6765\u5173\u95ED\u3002"),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48-\u66F4\u65B0-state-\u4F1A\u5BFC\u81F4\u5168\u8868\u6E32\u67D3\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48-\u66F4\u65B0-state-\u4F1A\u5BFC\u81F4\u5168\u8868\u6E32\u67D3\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48 \u66F4\u65B0 state \u4F1A\u5BFC\u81F4\u5168\u8868\u6E32\u67D3\uFF1F"),e.a.createElement("p",null,"\u7531\u4E8E ",e.a.createElement("code",null,"columns")," \u652F\u6301 ",e.a.createElement("code",null,"render")," \u65B9\u6CD5\uFF0C\u56E0\u800C Table \u65E0\u6CD5\u77E5\u9053\u54EA\u4E9B\u5355\u5143\u4F1A\u53D7\u5230\u5F71\u54CD\u3002\u4F60\u53EF\u4EE5\u901A\u8FC7 ",e.a.createElement("code",null,"column.shouldCellUpdate")," \u6765\u63A7\u5236\u5355\u5143\u683C\u7684\u6E32\u67D3\u3002"),e.a.createElement("h3",{id:"\u56FA\u5B9A\u5217\u7A7F\u900F\u5230\u6700\u4E0A\u5C42\u8BE5\u600E\u4E48\u529E\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u56FA\u5B9A\u5217\u7A7F\u900F\u5230\u6700\u4E0A\u5C42\u8BE5\u600E\u4E48\u529E\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u56FA\u5B9A\u5217\u7A7F\u900F\u5230\u6700\u4E0A\u5C42\u8BE5\u600E\u4E48\u529E\uFF1F"),e.a.createElement("p",null,"\u56FA\u5B9A\u5217\u901A\u8FC7 ",e.a.createElement("code",null,"z-index")," \u5C5E\u6027\u5C06\u5176\u60AC\u6D6E\u4E8E\u975E\u56FA\u5B9A\u5217\u4E4B\u4E0A\uFF0C\u8FD9\u4F7F\u5F97\u6709\u65F6\u5019\u4F60\u4F1A\u53D1\u73B0\u5728 Table \u4E0A\u653E\u7F6E\u906E\u7F69\u5C42\u65F6\u56FA\u5B9A\u5217\u4F1A\u88AB\u900F\u8FC7\u7684\u60C5\u51B5\u3002\u4E3A\u906E\u7F69\u5C42\u8BBE\u7F6E\u66F4\u9AD8\u7684 ",e.a.createElement("code",null,"z-index")," \u8986\u76D6\u4F4F\u56FA\u5B9A\u5217\u5373\u53EF\u3002")))}},Y3H2:function(E,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),u=t("dEAq"),r=t.n(u),c=t("g5U0"),m=t("ltCa"),a=t("ZpkN");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u5C55\u793A\u884C\u5217\u6570\u636E\u3002"),e.a.createElement("h2",{id:"\u8BBE\u8BA1\u5E08\u4E13\u5C5E"},e.a.createElement(u.AnchorLink,{to:"#\u8BBE\u8BA1\u5E08\u4E13\u5C5E","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u8BBE\u8BA1\u5E08\u4E13\u5C5E"),e.a.createElement("p",null,"\u5B89\u88C5 ",e.a.createElement(u.Link,{to:"https://kitchen.alipay.com/"},"Kitchen Sketch \u63D2\u4EF6 \u{1F48E}"),"\uFF0C\u4E24\u6B65\u5C31\u53EF\u4EE5\u81EA\u52A8\u751F\u6210 Ant Design \u8868\u683C\u7EC4\u4EF6\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(u.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u5F53\u6709\u5927\u91CF\u7ED3\u6784\u5316\u7684\u6570\u636E\u9700\u8981\u5C55\u73B0\u65F6\uFF1B"),e.a.createElement("li",null,"\u5F53\u9700\u8981\u5BF9\u6570\u636E\u8FDB\u884C\u6392\u5E8F\u3001\u641C\u7D22\u3001\u5206\u9875\u3001\u81EA\u5B9A\u4E49\u64CD\u4F5C\u7B49\u590D\u6742\u884C\u4E3A\u65F6\u3002")),e.a.createElement("h2",{id:"\u5982\u4F55\u4F7F\u7528"},e.a.createElement(u.AnchorLink,{to:"#\u5982\u4F55\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5982\u4F55\u4F7F\u7528"),e.a.createElement("p",null,"\u6307\u5B9A\u8868\u683C\u7684\u6570\u636E\u6E90 ",e.a.createElement("code",null,"dataSource")," \u4E3A\u4E00\u4E2A\u6570\u7EC4\u3002"),e.a.createElement(a.a,{code:`
-const dataSource = [
-  {
-    key: '1',
-    name: '\u80E1\u5F66\u658C',
-    age: 32,
-    address: '\u897F\u6E56\u533A\u6E56\u5E95\u516C\u56ED1\u53F7',
-  },
-  {
-    key: '2',
-    name: '\u80E1\u5F66\u7956',
-    age: 42,
-    address: '\u897F\u6E56\u533A\u6E56\u5E95\u516C\u56ED1\u53F7',
-  },
-];
-
-const columns = [
-  {
-    title: '\u59D3\u540D',
-    dataIndex: 'name',
-    key: 'name',
-  },
-  {
-    title: '\u5E74\u9F84',
-    dataIndex: 'age',
-    key: 'age',
-  },
-  {
-    title: '\u4F4F\u5740',
-    dataIndex: 'address',
-    key: 'address',
-  },
-];
-
-<Table dataSource={dataSource} columns={columns} />;
-`,lang:"jsx"})))}},g5U0:function(E,l,t){"use strict";var n=t("kPKH"),e=t("h9md"),u=t.n(e);l.a=n.a},ltCa:function(E,l,t){"use strict";var n=t("BMrR"),e=t("7xIR"),u=t.n(e);l.a=n.a}}]);
+]);

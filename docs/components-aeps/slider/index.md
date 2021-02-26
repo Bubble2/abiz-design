@@ -44,9 +44,10 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/slider/demo/show-tooltip-slider-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/slider/demo/dragableTrack-slider-aeps.md"></embed></div>
+          
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/slider/index-api.md"></embed><div>
-        

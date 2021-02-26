@@ -1,9 +1,911 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[79],{"2e6E":function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["ribbbon-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["ribbbon-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},"41cK":function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u5FBD\u6807\u6570"},e.a.createElement(l.AnchorLink,{to:"#\u5FBD\u6807\u6570","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5FBD\u6807\u6570"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("MCOv").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(l.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(c.a,{gutter:"8"},e.a.createElement(d.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("4aZq").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("kn2R").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("imm+").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("ZGwd").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("LIUa").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("2e6E").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("ak2/").default()}))),e.a.createElement(d.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("bCGD").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Rojl").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Ktkv").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("szrl").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("fI64").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("hY8D").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("xZOL").default()}),e.a.createElement("div",null))))}},"4aZq":function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["basic-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["basic-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},Ktkv:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["change-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["change-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},LIUa:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC"),u=t("ZpkN");const r=e.a.memo(t("JjdP").default["colorful-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["colorful-badge-jxc-demo"].previewerProps,e.a.createElement(r,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(u.a,{code:`.ant-tag {
-  margin-bottom: 8px;
-}
-`,lang:"css"}))))}},MCOv:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u56FE\u6807\u53F3\u4E0A\u89D2\u7684\u5706\u5F62\u5FBD\u6807\u6570\u5B57\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(l.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("p",null,"\u4E00\u822C\u51FA\u73B0\u5728\u901A\u77E5\u56FE\u6807\u6216\u5934\u50CF\u7684\u53F3\u4E0A\u89D2\uFF0C\u7528\u4E8E\u663E\u793A\u9700\u8981\u5904\u7406\u7684\u6D88\u606F\u6761\u6570\uFF0C\u901A\u8FC7\u9192\u76EE\u89C6\u89C9\u5F62\u5F0F\u5438\u5F15\u7528\u6237\u5904\u7406\u3002")))}},Rojl:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["dot-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["dot-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},ZGwd:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["offset-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["offset-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},"ak2/":function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["title-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["title-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},bCGD:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC"),u=t("ZpkN");const r=e.a.memo(t("JjdP").default["no-wrapper-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["no-wrapper-badge-jxc-demo"].previewerProps,e.a.createElement(r,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(u.a,{code:`.site-badge-count-4 .ant-badge-count {
-  color: #999;
-  background-color: #fff;
-  box-shadow: 0 0 0 1px #d9d9d9 inset;
-}
-`,lang:"css"}))))}},fI64:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["size-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["size-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},g5U0:function(m,a,t){"use strict";var n=t("kPKH"),e=t("h9md"),l=t.n(e);a.a=n.a},hY8D:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["ribbon-debug-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["ribbon-debug-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},"imm+":function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["link-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["link-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},kn2R:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["overflow-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["overflow-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},ltCa:function(m,a,t){"use strict";var n=t("BMrR"),e=t("7xIR"),l=t.n(e);a.a=n.a},szrl:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa"),E=t("0zqC");const u=e.a.memo(t("JjdP").default["status-badge-jxc-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(E.default,t("JjdP").default["status-badge-jxc-demo"].previewerProps,e.a.createElement(u,null))))}},xZOL:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),_=t.n(l),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(l.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("h3",{id:"badge"},e.a.createElement(l.AnchorLink,{to:"#badge","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Badge"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"color"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5C0F\u5706\u70B9\u7684\u989C\u8272"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"count"),e.a.createElement("td",null,"\u5C55\u793A\u7684\u6570\u5B57\uFF0C\u5927\u4E8E overflowCount \u65F6\u663E\u793A\u4E3A ",e.a.createElement("code",null,"$","{","overflowCount","}","+"),"\uFF0C\u4E3A 0 \u65F6\u9690\u85CF"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"dot"),e.a.createElement("td",null,"\u4E0D\u5C55\u793A\u6570\u5B57\uFF0C\u53EA\u6709\u4E00\u4E2A\u5C0F\u7EA2\u70B9"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"offset"),e.a.createElement("td",null,"\u8BBE\u7F6E\u72B6\u6001\u70B9\u7684\u4F4D\u7F6E\u504F\u79FB"),e.a.createElement("td",null,"[number, number]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"overflowCount"),e.a.createElement("td",null,"\u5C55\u793A\u5C01\u9876\u7684\u6570\u5B57\u503C"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"99"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"showZero"),e.a.createElement("td",null,"\u5F53\u6570\u503C\u4E3A 0 \u65F6\uFF0C\u662F\u5426\u5C55\u793A Badge"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"size"),e.a.createElement("td",null,"\u5728\u8BBE\u7F6E\u4E86 ",e.a.createElement("code",null,"count")," \u7684\u524D\u63D0\u4E0B\u6709\u6548\uFF0C\u8BBE\u7F6E\u5C0F\u5706\u70B9\u7684\u5927\u5C0F"),e.a.createElement("td",null,e.a.createElement("code",null,"default")," | ",e.a.createElement("code",null,"small")),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.6.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"status"),e.a.createElement("td",null,"\u8BBE\u7F6E Badge \u4E3A\u72B6\u6001\u70B9"),e.a.createElement("td",null,e.a.createElement("code",null,"success")," | ",e.a.createElement("code",null,"processing")," | ",e.a.createElement("code",null,"default")," | ",e.a.createElement("code",null,"error")," | ",e.a.createElement("code",null,"warning")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"text"),e.a.createElement("td",null,"\u5728\u8BBE\u7F6E\u4E86 ",e.a.createElement("code",null,"status")," \u7684\u524D\u63D0\u4E0B\u6709\u6548\uFF0C\u8BBE\u7F6E\u72B6\u6001\u70B9\u7684\u6587\u672C"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u8BBE\u7F6E\u9F20\u6807\u653E\u5728\u72B6\u6001\u70B9\u4E0A\u65F6\u663E\u793A\u7684\u6587\u5B57"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h3",{id:"badgeribbon-450"},e.a.createElement(l.AnchorLink,{to:"#badgeribbon-450","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Badge.Ribbon (4.5.0+)"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"color"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u7F0E\u5E26\u7684\u989C\u8272"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"placement"),e.a.createElement("td",null,"\u7F0E\u5E26\u7684\u4F4D\u7F6E\uFF0C",e.a.createElement("code",null,"start")," \u548C ",e.a.createElement("code",null,"end")," \u968F\u6587\u5B57\u65B9\u5411\uFF08RTL \u6216 LTR\uFF09\u53D8\u52A8"),e.a.createElement("td",null,e.a.createElement("code",null,"start")," | ",e.a.createElement("code",null,"end")),e.a.createElement("td",null,e.a.createElement("code",null,"end")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"text"),e.a.createElement("td",null,"\u7F0E\u5E26\u4E2D\u586B\u5165\u7684\u5185\u5BB9"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null))))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [80],
+  {
+    '2e6E': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['ribbbon-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['ribbbon-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    '41cK': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = t('dEAq'),
+        c = t('g5U0'),
+        m = (t('ekZX'), t('ltCa'));
+      t('Bjia');
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u5fbd\u6807\u6570' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u5fbd\u6807\u6570',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5fbd\u6807\u6570',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: t('MCOv').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('4aZq').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('kn2R').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('imm+').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('ZGwd').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('LIUa').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('2e6E').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('ak2/').default(),
+                  }),
+                ),
+              ),
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('bCGD').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('Rojl').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('Ktkv').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('szrl').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('fI64').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: t('hY8D').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: t('xZOL').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    '4aZq': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['basic-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['basic-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, a, t) {
+      'use strict';
+      var l = t('0Owb'),
+        n = t('PpiC'),
+        r = t('cDcd'),
+        c = t.n(r),
+        m = t('ZpkN');
+      a['a'] = c.a.forwardRef((e, a) => {
+        var t = e.children,
+          r = Object(n['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(l['default'])({}, r, { forwardedRef: a }),
+          c.a.createElement(c.a.Fragment, null, t),
+        );
+      });
+    },
+    Ktkv: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['change-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['change-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    LIUa: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c = (t('ltCa'), t('Bjia')),
+        m = n.a.memo(t('JjdP').default['colorful-badge-jxc-demo'].component);
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['colorful-badge-jxc-demo'].previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code: '.ant-tag {\n  margin-bottom: 8px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    MCOv: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = t('dEAq');
+      t('g5U0'), t('ekZX'), t('ltCa'), t('Bjia');
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u56fe\u6807\u53f3\u4e0a\u89d2\u7684\u5706\u5f62\u5fbd\u6807\u6570\u5b57\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4e00\u822c\u51fa\u73b0\u5728\u901a\u77e5\u56fe\u6807\u6216\u5934\u50cf\u7684\u53f3\u4e0a\u89d2\uff0c\u7528\u4e8e\u663e\u793a\u9700\u8981\u5904\u7406\u7684\u6d88\u606f\u6761\u6570\uff0c\u901a\u8fc7\u9192\u76ee\u89c6\u89c9\u5f62\u5f0f\u5438\u5f15\u7528\u6237\u5904\u7406\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    Rojl: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['dot-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['dot-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ZGwd: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['offset-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['offset-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    'ak2/': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['title-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['title-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    bCGD: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c = (t('ltCa'), t('Bjia')),
+        m = n.a.memo(t('JjdP').default['no-wrapper-badge-jxc-demo'].component);
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['no-wrapper-badge-jxc-demo'].previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code:
+                  '.site-badge-count-4 .ant-badge-count {\n  color: #999;\n  background-color: #fff;\n  box-shadow: 0 0 0 1px #d9d9d9 inset;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    fI64: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['size-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['size-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, a, t) {
+      'use strict';
+      var l = t('kPKH');
+      t('h9md');
+      a['a'] = l['a'];
+    },
+    hY8D: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['ribbon-debug-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['ribbon-debug-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    'imm+': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['link-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['link-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    kn2R: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['overflow-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['overflow-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, a, t) {
+      'use strict';
+      var l = t('BMrR');
+      t('7xIR');
+      a['a'] = l['a'];
+    },
+    szrl: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          n.a.memo(t('JjdP').default['status-badge-jxc-demo'].component));
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              t('JjdP').default['status-badge-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    xZOL: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var l = t('cDcd'),
+        n = t.n(l),
+        r = t('dEAq');
+      t('g5U0'), t('ekZX'), t('ltCa'), t('Bjia');
+      a['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'badge' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#badge', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Badge',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'color'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5c0f\u5706\u70b9\u7684\u989c\u8272',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'count'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5c55\u793a\u7684\u6570\u5b57\uff0c\u5927\u4e8e overflowCount \u65f6\u663e\u793a\u4e3a ',
+                    n.a.createElement(
+                      'code',
+                      null,
+                      '$',
+                      '{',
+                      'overflowCount',
+                      '}',
+                      '+',
+                    ),
+                    '\uff0c\u4e3a 0 \u65f6\u9690\u85cf',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'dot'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0d\u5c55\u793a\u6570\u5b57\uff0c\u53ea\u6709\u4e00\u4e2a\u5c0f\u7ea2\u70b9',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'offset'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u72b6\u6001\u70b9\u7684\u4f4d\u7f6e\u504f\u79fb',
+                  ),
+                  n.a.createElement('td', null, '[number, number]'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'overflowCount'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5c55\u793a\u5c01\u9876\u7684\u6570\u5b57\u503c',
+                  ),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement('td', null, '99'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'showZero'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u6570\u503c\u4e3a 0 \u65f6\uff0c\u662f\u5426\u5c55\u793a Badge',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'size'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5728\u8bbe\u7f6e\u4e86 ',
+                    n.a.createElement('code', null, 'count'),
+                    ' \u7684\u524d\u63d0\u4e0b\u6709\u6548\uff0c\u8bbe\u7f6e\u5c0f\u5706\u70b9\u7684\u5927\u5c0f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'default'),
+                    ' | ',
+                    n.a.createElement('code', null, 'small'),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.6.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'status'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e Badge \u4e3a\u72b6\u6001\u70b9',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'success'),
+                    ' | ',
+                    n.a.createElement('code', null, 'processing'),
+                    ' | ',
+                    n.a.createElement('code', null, 'default'),
+                    ' | ',
+                    n.a.createElement('code', null, 'error'),
+                    ' | ',
+                    n.a.createElement('code', null, 'warning'),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'text'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5728\u8bbe\u7f6e\u4e86 ',
+                    n.a.createElement('code', null, 'status'),
+                    ' \u7684\u524d\u63d0\u4e0b\u6709\u6548\uff0c\u8bbe\u7f6e\u72b6\u6001\u70b9\u7684\u6587\u672c',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'title'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u9f20\u6807\u653e\u5728\u72b6\u6001\u70b9\u4e0a\u65f6\u663e\u793a\u7684\u6587\u5b57',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'badgeribbon-450' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#badgeribbon-450', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Badge.Ribbon (4.5.0+)',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'color'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u7f0e\u5e26\u7684\u989c\u8272',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'placement'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u7f0e\u5e26\u7684\u4f4d\u7f6e\uff0c',
+                    n.a.createElement('code', null, 'start'),
+                    ' \u548c ',
+                    n.a.createElement('code', null, 'end'),
+                    ' \u968f\u6587\u5b57\u65b9\u5411\uff08RTL \u6216 LTR\uff09\u53d8\u52a8',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'start'),
+                    ' | ',
+                    n.a.createElement('code', null, 'end'),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'end'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'text'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u7f0e\u5e26\u4e2d\u586b\u5165\u7684\u5185\u5bb9',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

@@ -14,14 +14,14 @@ import { UserOutlined, LockOutlined } from '@abiz/icons-aeps';
 
 const HorizontalLoginForm = () => {
   const [form] = Form.useForm();
-  const [, forceUpdate] = useState();
+  const [, forceUpdate] = useState({});
 
   // To disable submit button at the beginning.
   useEffect(() => {
     forceUpdate({});
   }, []);
 
-  const onFinish = values => {
+  const onFinish = (values: any) => {
     console.log('Finish:', values);
   };
 
@@ -51,14 +51,15 @@ const HorizontalLoginForm = () => {
           placeholder="Password"
         />
       </Form.Item>
-      <Form.Item shouldUpdate={true}>
+      <Form.Item shouldUpdate>
         {() => (
           <Button
             type="primary"
             htmlType="submit"
             disabled={
               !form.isFieldsTouched(true) ||
-              form.getFieldsError().filter(({ errors }) => errors.length).length
+              !!form.getFieldsError().filter(({ errors }) => errors.length)
+                .length
             }
           >
             Log in

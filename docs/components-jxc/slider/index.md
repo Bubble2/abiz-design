@@ -44,9 +44,10 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/show-tooltip-slider-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/slider/demo/dragableTrack-slider-jxc.md"></embed></div>
+          
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/slider/index-api.md"></embed><div>
-        

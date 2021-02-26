@@ -1,8 +1,720 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[101],{"3pKC":function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),E=t("g5U0"),r=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u901A\u8FC7\u9F20\u6807\u6216\u952E\u76D8\uFF0C\u8F93\u5165\u8303\u56F4\u5185\u7684\u6570\u503C\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(a.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("p",null,"\u5F53\u9700\u8981\u83B7\u53D6\u6807\u51C6\u6570\u503C\u65F6\u3002")))}},"54AS":function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),E=t("g5U0"),r=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["disabled-input-number-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["disabled-input-number-jxc-demo"].previewerProps,e.a.createElement(d,null))))}},Geat:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),E=t("g5U0"),r=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["formatter-input-number-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["formatter-input-number-jxc-demo"].previewerProps,e.a.createElement(d,null))))}},MNSZ:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),E=t("g5U0"),r=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["basic-input-number-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["basic-input-number-jxc-demo"].previewerProps,e.a.createElement(d,null))))}},TriK:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),E=t("g5U0"),r=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(a.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("p",null,"\u5C5E\u6027\u5982\u4E0B"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u6210\u5458"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"autoFocus"),e.a.createElement("td",null,"\u81EA\u52A8\u83B7\u53D6\u7126\u70B9"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"decimalSeparator"),e.a.createElement("td",null,"\u5C0F\u6570\u70B9"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultValue"),e.a.createElement("td",null,"\u521D\u59CB\u503C"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"disabled"),e.a.createElement("td",null,"\u7981\u7528"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"formatter"),e.a.createElement("td",null,"\u6307\u5B9A\u8F93\u5165\u6846\u5C55\u793A\u503C\u7684\u683C\u5F0F"),e.a.createElement("td",null,"function(value: number | string): string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"max"),e.a.createElement("td",null,"\u6700\u5927\u503C"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,e.a.createElement(a.Link,{to:"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER"},"Number.MAX_SAFE_INTEGER")),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"min"),e.a.createElement("td",null,"\u6700\u5C0F\u503C"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,e.a.createElement(a.Link,{to:"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_SAFE_INTEGER"},"Number.MIN_SAFE_INTEGER")),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"parser"),e.a.createElement("td",null,"\u6307\u5B9A\u4ECE ",e.a.createElement("code",null,"formatter")," \u91CC\u8F6C\u6362\u56DE\u6570\u5B57\u7684\u65B9\u5F0F\uFF0C\u548C ",e.a.createElement("code",null,"formatter")," \u642D\u914D\u4F7F\u7528"),e.a.createElement("td",null,"function(string): number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"precision"),e.a.createElement("td",null,"\u6570\u503C\u7CBE\u5EA6"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"readOnly"),e.a.createElement("td",null,"\u53EA\u8BFB"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"size"),e.a.createElement("td",null,"\u8F93\u5165\u6846\u5927\u5C0F"),e.a.createElement("td",null,e.a.createElement("code",null,"large")," | ",e.a.createElement("code",null,"middle")," | ",e.a.createElement("code",null,"small")),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"step"),e.a.createElement("td",null,"\u6BCF\u6B21\u6539\u53D8\u6B65\u6570\uFF0C\u53EF\u4EE5\u4E3A\u5C0F\u6570"),e.a.createElement("td",null,"number | string"),e.a.createElement("td",null,"1"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"value"),e.a.createElement("td",null,"\u5F53\u524D\u503C"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u53D8\u5316\u56DE\u8C03"),e.a.createElement("td",null,"function(value: number | string)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onPressEnter"),e.a.createElement("td",null,"\u6309\u4E0B\u56DE\u8F66\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(e)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onStep"),e.a.createElement("td",null,"\u70B9\u51FB\u4E0A\u4E0B\u7BAD\u5934\u7684\u56DE\u8C03"),e.a.createElement("td",null,"(value: number, info: ","{"," offset: number, type: 'up' | 'down' ","}",") => void"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.7.0")))),e.a.createElement("h2",{id:"\u65B9\u6CD5"},e.a.createElement(a.AnchorLink,{to:"#\u65B9\u6CD5","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u65B9\u6CD5"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u540D\u79F0"),e.a.createElement("th",null,"\u63CF\u8FF0"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"blur()"),e.a.createElement("td",null,"\u79FB\u9664\u7126\u70B9")),e.a.createElement("tr",null,e.a.createElement("td",null,"focus()"),e.a.createElement("td",null,"\u83B7\u53D6\u7126\u70B9"))))))}},VgqS:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),E=t("g5U0"),r=t("ltCa"),m=t("0zqC"),d=t("ZpkN");const _=e.a.memo(t("JjdP").default["size-input-number-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["size-input-number-jxc-demo"].previewerProps,e.a.createElement(_,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(d.a,{code:`.code-box-demo .ant-input-number {
-  margin-right: 10px;
-}
-.ant-row-rtl .code-box-demo .ant-input-number {
-  margin-right: 0;
-  margin-left: 10px;
-}
-`,lang:"css"}))))}},g5U0:function(u,l,t){"use strict";var n=t("kPKH"),e=t("h9md"),a=t.n(e);l.a=n.a},jiiu:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),E=t("g5U0"),r=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u6570\u5B57\u8F93\u5165\u6846"},e.a.createElement(a.AnchorLink,{to:"#\u6570\u5B57\u8F93\u5165\u6846","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u6570\u5B57\u8F93\u5165\u6846"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("3pKC").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(a.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(r.a,{gutter:"8"},e.a.createElement(E.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("MNSZ").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("54AS").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Geat").default()}))),e.a.createElement(E.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("VgqS").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("vgY4").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("TriK").default()}),e.a.createElement("div",null))))}},ltCa:function(u,l,t){"use strict";var n=t("BMrR"),e=t("7xIR"),a=t.n(e);l.a=n.a},vgY4:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),E=t("g5U0"),r=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["digit-input-number-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["digit-input-number-jxc-demo"].previewerProps,e.a.createElement(d,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [102],
+  {
+    '2aPZ': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['borderless-input-number-jxc-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['borderless-input-number-jxc-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    '3pKC': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u901a\u8fc7\u9f20\u6807\u6216\u952e\u76d8\uff0c\u8f93\u5165\u8303\u56f4\u5185\u7684\u6570\u503c\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5f53\u9700\u8981\u83b7\u53d6\u6807\u51c6\u6570\u503c\u65f6\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    '54AS': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['disabled-input-number-jxc-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['disabled-input-number-jxc-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        r = a('cDcd'),
+        c = a.n(r),
+        m = a('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var a = e.children,
+          r = Object(n['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(l['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, a),
+        );
+      });
+    },
+    Geat: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['formatter-input-number-jxc-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['formatter-input-number-jxc-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    MNSZ: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['basic-input-number-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['basic-input-number-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    TriK: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement('p', null, '\u5c5e\u6027\u5982\u4e0b'),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u6210\u5458'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'autoFocus'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u52a8\u83b7\u53d6\u7126\u70b9',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'decimalSeparator'),
+                  n.a.createElement('td', null, '\u5c0f\u6570\u70b9'),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'defaultValue'),
+                  n.a.createElement('td', null, '\u521d\u59cb\u503c'),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'disabled'),
+                  n.a.createElement('td', null, '\u7981\u7528'),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'formatter'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u8f93\u5165\u6846\u5c55\u793a\u503c\u7684\u683c\u5f0f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(value: number | string): string',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'max'),
+                  n.a.createElement('td', null, '\u6700\u5927\u503c'),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER',
+                      },
+                      'Number.MAX_SAFE_INTEGER',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'min'),
+                  n.a.createElement('td', null, '\u6700\u5c0f\u503c'),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_SAFE_INTEGER',
+                      },
+                      'Number.MIN_SAFE_INTEGER',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'parser'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u4ece ',
+                    n.a.createElement('code', null, 'formatter'),
+                    ' \u91cc\u8f6c\u6362\u56de\u6570\u5b57\u7684\u65b9\u5f0f\uff0c\u548c ',
+                    n.a.createElement('code', null, 'formatter'),
+                    ' \u642d\u914d\u4f7f\u7528',
+                  ),
+                  n.a.createElement('td', null, 'function(string): number'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'precision'),
+                  n.a.createElement('td', null, '\u6570\u503c\u7cbe\u5ea6'),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'readOnly'),
+                  n.a.createElement('td', null, '\u53ea\u8bfb'),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'size'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8f93\u5165\u6846\u5927\u5c0f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'large'),
+                    ' | ',
+                    n.a.createElement('code', null, 'middle'),
+                    ' | ',
+                    n.a.createElement('code', null, 'small'),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'step'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6bcf\u6b21\u6539\u53d8\u6b65\u6570\uff0c\u53ef\u4ee5\u4e3a\u5c0f\u6570',
+                  ),
+                  n.a.createElement('td', null, 'number | string'),
+                  n.a.createElement('td', null, '1'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'value'),
+                  n.a.createElement('td', null, '\u5f53\u524d\u503c'),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onChange'),
+                  n.a.createElement('td', null, '\u53d8\u5316\u56de\u8c03'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(value: number | string)',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onPressEnter'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6309\u4e0b\u56de\u8f66\u7684\u56de\u8c03',
+                  ),
+                  n.a.createElement('td', null, 'function(e)'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onStep'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u4e0a\u4e0b\u7bad\u5934\u7684\u56de\u8c03',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(value: number, info: ',
+                    '{',
+                    " offset: number, type: 'up' | 'down' ",
+                    '}',
+                    ') => void',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.7.0'),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u65b9\u6cd5' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#\u65b9\u6cd5', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u65b9\u6cd5',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u540d\u79f0'),
+                  n.a.createElement('th', null, '\u63cf\u8ff0'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'blur()'),
+                  n.a.createElement('td', null, '\u79fb\u9664\u7126\u70b9'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'focus()'),
+                  n.a.createElement('td', null, '\u83b7\u53d6\u7126\u70b9'),
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    VgqS: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = n.a.memo(a('JjdP').default['size-input-number-jxc-demo'].component);
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['size-input-number-jxc-demo'].previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code:
+                  '.code-box-demo .ant-input-number {\n  margin-right: 10px;\n}\n.ant-row-rtl .code-box-demo .ant-input-number {\n  margin-right: 0;\n  margin-left: 10px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    jiiu: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u6570\u5b57\u8f93\u5165\u6846' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u6570\u5b57\u8f93\u5165\u6846',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u6570\u5b57\u8f93\u5165\u6846',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('3pKC').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('MNSZ').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('54AS').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('Geat').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('2aPZ').default(),
+                  }),
+                ),
+              ),
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('VgqS').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('vgY4').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('mdfy').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('TriK').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+    mdfy: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['keyboard-input-number-jxc-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['keyboard-input-number-jxc-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    vgY4: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['digit-input-number-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['digit-input-number-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

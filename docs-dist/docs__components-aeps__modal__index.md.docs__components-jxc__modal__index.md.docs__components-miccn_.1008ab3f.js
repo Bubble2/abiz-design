@@ -1,49 +1,1173 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"18oY":function(E,l,u){"use strict";u.r(l);var n=u("cDcd"),e=u.n(n),t=u("dEAq"),r=u.n(t),c=u("g5U0"),m=u("ltCa"),a=u("ZpkN");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(t.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"afterClose"),e.a.createElement("td",null,"Modal \u5B8C\u5168\u5173\u95ED\u540E\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"bodyStyle"),e.a.createElement("td",null,"Modal body \u6837\u5F0F"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"cancelButtonProps"),e.a.createElement("td",null,"cancel \u6309\u94AE props"),e.a.createElement("td",null,e.a.createElement(t.AnchorLink,{to:"/components/button/#API"},"ButtonProps")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"cancelText"),e.a.createElement("td",null,"\u53D6\u6D88\u6309\u94AE\u6587\u5B57"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,e.a.createElement("code",null,"\u53D6\u6D88")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"centered"),e.a.createElement("td",null,"\u5782\u76F4\u5C45\u4E2D\u5C55\u793A Modal"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"closable"),e.a.createElement("td",null,"\u662F\u5426\u663E\u793A\u53F3\u4E0A\u89D2\u7684\u5173\u95ED\u6309\u94AE"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"closeIcon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5173\u95ED\u56FE\u6807"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"<CloseOutlined />"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"confirmLoading"),e.a.createElement("td",null,"\u786E\u5B9A\u6309\u94AE loading"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"destroyOnClose"),e.a.createElement("td",null,"\u5173\u95ED\u65F6\u9500\u6BC1 Modal \u91CC\u7684\u5B50\u5143\u7D20"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"focusTriggerAfterClose"),e.a.createElement("td",null,"\u5BF9\u8BDD\u6846\u5173\u95ED\u540E\u662F\u5426\u9700\u8981\u805A\u7126\u89E6\u53D1\u5143\u7D20"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null,"4.9.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"footer"),e.a.createElement("td",null,"\u5E95\u90E8\u5185\u5BB9\uFF0C\u5F53\u4E0D\u9700\u8981\u9ED8\u8BA4\u5E95\u90E8\u6309\u94AE\u65F6\uFF0C\u53EF\u4EE5\u8BBE\u4E3A ",e.a.createElement("code",null,"footer=","{","null","}")),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"(\u786E\u5B9A\u53D6\u6D88\u6309\u94AE)"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"forceRender"),e.a.createElement("td",null,"\u5F3A\u5236\u6E32\u67D3 Modal"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getContainer"),e.a.createElement("td",null,"\u6307\u5B9A Modal \u6302\u8F7D\u7684 HTML \u8282\u70B9, false \u4E3A\u6302\u8F7D\u5728\u5F53\u524D dom"),e.a.createElement("td",null,"HTMLElement | () => HTMLElement | Selectors | false"),e.a.createElement("td",null,"document.body"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"keyboard"),e.a.createElement("td",null,"\u662F\u5426\u652F\u6301\u952E\u76D8 esc \u5173\u95ED"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"mask"),e.a.createElement("td",null,"\u662F\u5426\u5C55\u793A\u906E\u7F69"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"maskClosable"),e.a.createElement("td",null,"\u70B9\u51FB\u8499\u5C42\u662F\u5426\u5141\u8BB8\u5173\u95ED"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"maskStyle"),e.a.createElement("td",null,"\u906E\u7F69\u6837\u5F0F"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"modalRender"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6E32\u67D3\u5BF9\u8BDD\u6846"),e.a.createElement("td",null,"(node: ReactNode) => ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.7.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"okButtonProps"),e.a.createElement("td",null,"ok \u6309\u94AE props"),e.a.createElement("td",null,e.a.createElement(t.AnchorLink,{to:"/components/button/#API"},"ButtonProps")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"okText"),e.a.createElement("td",null,"\u786E\u8BA4\u6309\u94AE\u6587\u5B57"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,e.a.createElement("code",null,"\u786E\u5B9A")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"okType"),e.a.createElement("td",null,"\u786E\u8BA4\u6309\u94AE\u7C7B\u578B"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"primary")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"style"),e.a.createElement("td",null,"\u53EF\u7528\u4E8E\u8BBE\u7F6E\u6D6E\u5C42\u7684\u6837\u5F0F\uFF0C\u8C03\u6574\u6D6E\u5C42\u4F4D\u7F6E\u7B49"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u6807\u9898"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"visible"),e.a.createElement("td",null,"\u5BF9\u8BDD\u6846\u662F\u5426\u53EF\u89C1"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"width"),e.a.createElement("td",null,"\u5BBD\u5EA6"),e.a.createElement("td",null,"string | number"),e.a.createElement("td",null,"520"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"wrapClassName"),e.a.createElement("td",null,"\u5BF9\u8BDD\u6846\u5916\u5C42\u5BB9\u5668\u7684\u7C7B\u540D"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"zIndex"),e.a.createElement("td",null,"\u8BBE\u7F6E Modal \u7684 ",e.a.createElement("code",null,"z-index")),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"1000"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onCancel"),e.a.createElement("td",null,"\u70B9\u51FB\u906E\u7F69\u5C42\u6216\u53F3\u4E0A\u89D2\u53C9\u6216\u53D6\u6D88\u6309\u94AE\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(e)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onOk"),e.a.createElement("td",null,"\u70B9\u51FB\u786E\u5B9A\u56DE\u8C03"),e.a.createElement("td",null,"function(e)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h4",{id:"\u6CE8\u610F"},e.a.createElement(t.AnchorLink,{to:"#\u6CE8\u610F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u6CE8\u610F"),e.a.createElement("ul",null,e.a.createElement("li",null,e.a.createElement("code",null,"<Modal />")," \u9ED8\u8BA4\u5173\u95ED\u540E\u72B6\u6001\u4E0D\u4F1A\u81EA\u52A8\u6E05\u7A7A, \u5982\u679C\u5E0C\u671B\u6BCF\u6B21\u6253\u5F00\u90FD\u662F\u65B0\u5185\u5BB9\uFF0C\u8BF7\u8BBE\u7F6E ",e.a.createElement("code",null,"destroyOnClose"),"\u3002"),e.a.createElement("li",null,e.a.createElement("code",null,"<Modal />")," \u548C Form \u4E00\u8D77\u914D\u5408\u4F7F\u7528\u65F6\uFF0C\u8BBE\u7F6E ",e.a.createElement("code",null,"destroyOnClose")," \u4E5F\u4E0D\u4F1A\u5728 Modal \u5173\u95ED\u65F6\u9500\u6BC1\u8868\u5355\u5B57\u6BB5\u6570\u636E\uFF0C\u9700\u8981\u8BBE\u7F6E ",e.a.createElement("code",null,"<Form preserve=","{","false","}"," />"),"\u3002"),e.a.createElement("li",null,e.a.createElement("code",null,"Modal.method()")," RTL \u6A21\u5F0F\u4EC5\u652F\u6301 hooks \u7528\u6CD5\u3002")),e.a.createElement("h3",{id:"modalmethod"},e.a.createElement(t.AnchorLink,{to:"#modalmethod","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Modal.method()"),e.a.createElement("p",null,"\u5305\u62EC\uFF1A"),e.a.createElement("ul",null,e.a.createElement("li",null,e.a.createElement("code",null,"Modal.info")),e.a.createElement("li",null,e.a.createElement("code",null,"Modal.success")),e.a.createElement("li",null,e.a.createElement("code",null,"Modal.error")),e.a.createElement("li",null,e.a.createElement("code",null,"Modal.warning")),e.a.createElement("li",null,e.a.createElement("code",null,"Modal.confirm"))),e.a.createElement("p",null,"\u4EE5\u4E0A\u5747\u4E3A\u4E00\u4E2A\u51FD\u6570\uFF0C\u53C2\u6570\u4E3A object\uFF0C\u5177\u4F53\u5C5E\u6027\u5982\u4E0B\uFF1A"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"autoFocusButton"),e.a.createElement("td",null,"\u6307\u5B9A\u81EA\u52A8\u83B7\u5F97\u7126\u70B9\u7684\u6309\u94AE"),e.a.createElement("td",null,"null | ",e.a.createElement("code",null,"ok")," | ",e.a.createElement("code",null,"cancel")),e.a.createElement("td",null,e.a.createElement("code",null,"ok")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"bodyStyle"),e.a.createElement("td",null,"Modal body \u6837\u5F0F"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null),e.a.createElement("td",null,"4.8.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"cancelButtonProps"),e.a.createElement("td",null,"cancel \u6309\u94AE props"),e.a.createElement("td",null,e.a.createElement(t.AnchorLink,{to:"/components/button/#API"},"ButtonProps")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"cancelText"),e.a.createElement("td",null,"\u8BBE\u7F6E Modal.confirm \u53D6\u6D88\u6309\u94AE\u6587\u5B57"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"\u53D6\u6D88")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"centered"),e.a.createElement("td",null,"\u5782\u76F4\u5C45\u4E2D\u5C55\u793A Modal"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"className"),e.a.createElement("td",null,"\u5BB9\u5668\u7C7B\u540D"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"closable"),e.a.createElement("td",null,"\u662F\u5426\u663E\u793A\u53F3\u4E0A\u89D2\u7684\u5173\u95ED\u6309\u94AE"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"4.9.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"closeIcon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5173\u95ED\u56FE\u6807"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"undefined"),e.a.createElement("td",null,"4.9.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"content"),e.a.createElement("td",null,"\u5185\u5BB9"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getContainer"),e.a.createElement("td",null,"\u6307\u5B9A Modal \u6302\u8F7D\u7684 HTML \u8282\u70B9, false \u4E3A\u6302\u8F7D\u5728\u5F53\u524D dom"),e.a.createElement("td",null,"HTMLElement | () => HTMLElement | Selectors | false"),e.a.createElement("td",null,"document.body"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"icon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u56FE\u6807"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"<QuestionCircle />"),e.a.createElement("td",null,"3.12.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"keyboard"),e.a.createElement("td",null,"\u662F\u5426\u652F\u6301\u952E\u76D8 esc \u5173\u95ED"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"mask"),e.a.createElement("td",null,"\u662F\u5426\u5C55\u793A\u906E\u7F69"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"maskClosable"),e.a.createElement("td",null,"\u70B9\u51FB\u8499\u5C42\u662F\u5426\u5141\u8BB8\u5173\u95ED"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"maskStyle"),e.a.createElement("td",null,"\u906E\u7F69\u6837\u5F0F"),e.a.createElement("td",null,"object"),e.a.createElement("td",null,"{","}"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"okButtonProps"),e.a.createElement("td",null,"ok \u6309\u94AE props"),e.a.createElement("td",null,e.a.createElement(t.AnchorLink,{to:"/components/button/#API"},"ButtonProps")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"okText"),e.a.createElement("td",null,"\u786E\u8BA4\u6309\u94AE\u6587\u5B57"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"\u786E\u5B9A")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"okType"),e.a.createElement("td",null,"\u786E\u8BA4\u6309\u94AE\u7C7B\u578B"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"primary")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"style"),e.a.createElement("td",null,"\u53EF\u7528\u4E8E\u8BBE\u7F6E\u6D6E\u5C42\u7684\u6837\u5F0F\uFF0C\u8C03\u6574\u6D6E\u5C42\u4F4D\u7F6E\u7B49"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u6807\u9898"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"width"),e.a.createElement("td",null,"\u5BBD\u5EA6"),e.a.createElement("td",null,"string | number"),e.a.createElement("td",null,"416"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"zIndex"),e.a.createElement("td",null,"\u8BBE\u7F6E Modal \u7684 ",e.a.createElement("code",null,"z-index")),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"1000"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onCancel"),e.a.createElement("td",null,"\u53D6\u6D88\u56DE\u8C03\uFF0C\u53C2\u6570\u4E3A\u5173\u95ED\u51FD\u6570\uFF0C\u8FD4\u56DE promise \u65F6 resolve \u540E\u81EA\u52A8\u5173\u95ED"),e.a.createElement("td",null,"function(close)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onOk"),e.a.createElement("td",null,"\u70B9\u51FB\u786E\u5B9A\u56DE\u8C03\uFF0C\u53C2\u6570\u4E3A\u5173\u95ED\u51FD\u6570\uFF0C\u8FD4\u56DE promise \u65F6 resolve \u540E\u81EA\u52A8\u5173\u95ED"),e.a.createElement("td",null,"function(close)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("p",null,"\u4EE5\u4E0A\u51FD\u6570\u8C03\u7528\u540E\uFF0C\u4F1A\u8FD4\u56DE\u4E00\u4E2A\u5F15\u7528\uFF0C\u53EF\u4EE5\u901A\u8FC7\u8BE5\u5F15\u7528\u66F4\u65B0\u548C\u5173\u95ED\u5F39\u7A97\u3002"),e.a.createElement(a.a,{code:`
-const modal = Modal.info();
-
-modal.update({
-  title: '\u4FEE\u6539\u7684\u6807\u9898',
-  content: '\u4FEE\u6539\u7684\u5185\u5BB9',
-});
-
-// \u5728 4.8.0 \u6216\u66F4\u9AD8\u7248\u672C\u4E2D\uFF0C\u53EF\u4EE5\u901A\u8FC7\u4F20\u5165\u51FD\u6570\u7684\u65B9\u5F0F\u66F4\u65B0\u5F39\u7A97
-modal.update(prevConfig => ({
-  ...prevConfig,
-  title: \`\${prevConfig.title}\uFF08\u65B0\uFF09\`,
-}));
-
-modal.destroy();
-`,lang:"jsx"}),e.a.createElement("ul",null,e.a.createElement("li",null,e.a.createElement("code",null,"Modal.destroyAll"))),e.a.createElement("p",null,"\u4F7F\u7528 ",e.a.createElement("code",null,"Modal.destroyAll()")," \u53EF\u4EE5\u9500\u6BC1\u5F39\u51FA\u7684\u786E\u8BA4\u7A97\uFF08\u5373\u4E0A\u8FF0\u7684 ",e.a.createElement("code",null,"Modal.info"),"\u3001",e.a.createElement("code",null,"Modal.success"),"\u3001",e.a.createElement("code",null,"Modal.error"),"\u3001",e.a.createElement("code",null,"Modal.warning"),"\u3001",e.a.createElement("code",null,"Modal.confirm"),"\uFF09\u3002\u901A\u5E38\u7528\u4E8E\u8DEF\u7531\u76D1\u542C\u5F53\u4E2D\uFF0C\u5904\u7406\u8DEF\u7531\u524D\u8FDB\u3001\u540E\u9000\u4E0D\u80FD\u9500\u6BC1\u786E\u8BA4\u5BF9\u8BDD\u6846\u7684\u95EE\u9898\uFF0C\u800C\u4E0D\u7528\u5404\u5904\u53BB\u4F7F\u7528\u5B9E\u4F8B\u7684\u8FD4\u56DE\u503C\u8FDB\u884C\u5173\u95ED\uFF08",e.a.createElement("code",null,"modal.destroy()")," \u9002\u7528\u4E8E\u4E3B\u52A8\u5173\u95ED\uFF0C\u800C\u4E0D\u662F\u8DEF\u7531\u8FD9\u6837\u88AB\u52A8\u5173\u95ED\uFF09"),e.a.createElement(a.a,{code:`
-import { browserHistory } from 'react-router';
-
-// router change
-browserHistory.listen(() => {
-  Modal.destroyAll();
-});
-`,lang:"jsx"}),e.a.createElement("h3",{id:"modalusemodal"},e.a.createElement(t.AnchorLink,{to:"#modalusemodal","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Modal.useModal()"),e.a.createElement("p",null,"\u5F53\u4F60\u9700\u8981\u4F7F\u7528 Context \u65F6\uFF0C\u53EF\u4EE5\u901A\u8FC7 ",e.a.createElement("code",null,"Modal.useModal")," \u521B\u5EFA\u4E00\u4E2A ",e.a.createElement("code",null,"contextHolder")," \u63D2\u5165\u5B50\u8282\u70B9\u4E2D\u3002\u901A\u8FC7 hooks \u521B\u5EFA\u7684\u4E34\u65F6 Modal \u5C06\u4F1A\u5F97\u5230 ",e.a.createElement("code",null,"contextHolder")," \u6240\u5728\u4F4D\u7F6E\u7684\u6240\u6709\u4E0A\u4E0B\u6587\u3002\u521B\u5EFA\u7684 ",e.a.createElement("code",null,"modal")," \u5BF9\u8C61\u62E5\u6709\u4E0E ",e.a.createElement(t.AnchorLink,{to:"#Modal.method()"},e.a.createElement("code",null,"Modal.method"))," \u76F8\u540C\u7684\u521B\u5EFA\u901A\u77E5\u65B9\u6CD5\u3002"),e.a.createElement(a.a,{code:`
-const [modal, contextHolder] = Modal.useModal();
-
-React.useEffect(() => {
-  modal.confirm({
-    // ...
-  });
-}, []);
-
-return <div>{contextHolder}</div>;
-`,lang:"jsx"}),e.a.createElement("h3",{id:"modalconfig-450"},e.a.createElement(t.AnchorLink,{to:"#modalconfig-450","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Modal.config() ",e.a.createElement("code",null,"4.5.0+")),e.a.createElement("p",null,"\u7C7B\u4F3C ",e.a.createElement("code",null,"message.config()"),"\uFF0C\u5168\u5C40\u8BBE\u7F6E ",e.a.createElement("code",null,"Modal.confirm")," \u7B49\u65B9\u6CD5\u7684\u5C5E\u6027\uFF08\u5982 ",e.a.createElement("code",null,"prefixCls"),"\uFF09\u3002"),e.a.createElement("p",null,"\u6B64\u65B9\u6CD5\u53EA\u5BF9 ",e.a.createElement("code",null,"Modal.confirm|success|info|error|warning")," \u7B49",e.a.createElement("strong",null,"\u9759\u6001\u65B9\u6CD5"),"\u751F\u6548\uFF0C",e.a.createElement("code",null,"<Modal />")," \u7684\u8C03\u7528\u65B9\u5F0F\u662F\u8BFB\u53D6 ConfigProvider \u7684\u8BBE\u7F6E\u3002"),e.a.createElement(a.a,{code:`
-Modal.config({
-  rootPrefixCls: 'ant',
-});
-`,lang:"jsx"}),e.a.createElement("h2",{id:"faq"},e.a.createElement(t.AnchorLink,{to:"#faq","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FAQ"),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48-modal-\u65B9\u6CD5\u4E0D\u80FD\u83B7\u53D6-context\u3001redux\u3001\u7684\u5185\u5BB9\u548C-configprovider-localeprefixcls-\u914D\u7F6E\uFF1F"},e.a.createElement(t.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48-modal-\u65B9\u6CD5\u4E0D\u80FD\u83B7\u53D6-context\u3001redux\u3001\u7684\u5185\u5BB9\u548C-configprovider-localeprefixcls-\u914D\u7F6E\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48 Modal \u65B9\u6CD5\u4E0D\u80FD\u83B7\u53D6 context\u3001redux\u3001\u7684\u5185\u5BB9\u548C ConfigProvider ",e.a.createElement("code",null,"locale/prefixCls")," \u914D\u7F6E\uFF1F"),e.a.createElement("p",null,"\u76F4\u63A5\u8C03\u7528 Modal \u65B9\u6CD5\uFF0Cantd \u4F1A\u901A\u8FC7 ",e.a.createElement("code",null,"ReactDOM.render")," \u52A8\u6001\u521B\u5EFA\u65B0\u7684 React \u5B9E\u4F53\u3002\u5176 context \u4E0E\u5F53\u524D\u4EE3\u7801\u6240\u5728 context \u5E76\u4E0D\u76F8\u540C\uFF0C\u56E0\u800C\u65E0\u6CD5\u83B7\u53D6 context \u4FE1\u606F\u3002"),e.a.createElement("p",null,"\u5F53\u4F60\u9700\u8981 context \u4FE1\u606F\uFF08\u4F8B\u5982 ConfigProvider \u914D\u7F6E\u7684\u5185\u5BB9\uFF09\u65F6\uFF0C\u53EF\u4EE5\u901A\u8FC7 ",e.a.createElement("code",null,"Modal.useModal")," \u65B9\u6CD5\u4F1A\u8FD4\u56DE ",e.a.createElement("code",null,"modal")," \u5B9E\u4F53\u4EE5\u53CA ",e.a.createElement("code",null,"contextHolder")," \u8282\u70B9\u3002\u5C06\u5176\u63D2\u5165\u5230\u4F60\u9700\u8981\u83B7\u53D6 context \u4F4D\u7F6E\u5373\u53EF\uFF1A"),e.a.createElement(a.a,{code:`
-const [modal, contextHolder] = Modal.useModal();
-
-return (
-  <Context1.Provider value="Ant">
-    {/* contextHolder \u5728 Context1 \u5185\uFF0C\u5B83\u53EF\u4EE5\u83B7\u5F97 Context1 \u7684 context */}
-    {contextHolder}
-    <Context2.Provider value="Design">
-      {/* contextHolder \u5728 Context2 \u5916\uFF0C\u56E0\u800C\u4E0D\u4F1A\u83B7\u5F97 Context2 \u7684 context */}
-    </Context2.Provider>
-  </Context1.Provider>
-);
-`,lang:"tsx"}),e.a.createElement("p",null,"**\u5F02\u540C\uFF1A**\u901A\u8FC7 hooks \u521B\u5EFA\u7684 ",e.a.createElement("code",null,"contextHolder")," \u5FC5\u987B\u63D2\u5165\u5230\u5B50\u5143\u7D20\u8282\u70B9\u4E2D\u624D\u4F1A\u751F\u6548\uFF0C\u5F53\u4F60\u4E0D\u9700\u8981\u4E0A\u4E0B\u6587\u4FE1\u606F\u65F6\u8BF7\u76F4\u63A5\u8C03\u7528\u3002"),e.a.createElement("h3",{id:"\u5982\u4F55\u5173\u95ED-modal-\u52A8\u753B\uFF1F"},e.a.createElement(t.AnchorLink,{to:"#\u5982\u4F55\u5173\u95ED-modal-\u52A8\u753B\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5982\u4F55\u5173\u95ED Modal \u52A8\u753B\uFF1F"),e.a.createElement("p",null,"\u4F60\u53EF\u4EE5\u901A\u8FC7 ",e.a.createElement("code",null,'transitionName=""')," \u548C ",e.a.createElement("code",null,'maskTransitionName=""')," \u53BB\u9664\u52A8\u753B CSS\uFF0C\u4F46\u662F\u9700\u8981\u6CE8\u610F\u7684\u662F\u3002\u8BE5\u65B9\u6CD5\u4E3A\u5185\u90E8\u65B9\u6CD5\uFF0C\u6211\u4EEC\u4E0D\u4FDD\u8BC1\u4E0B\u4E2A\u5927\u7248\u672C\u91CD\u6784\u65F6\u8BE5\u5C5E\u6027\u4F1A\u88AB\u4FDD\u7559\u3002")))}},g5U0:function(E,l,u){"use strict";var n=u("kPKH"),e=u("h9md"),t=u.n(e);l.a=n.a},ltCa:function(E,l,u){"use strict";var n=u("BMrR"),e=u("7xIR"),t=u.n(e);l.a=n.a},rOvh:function(E,l,u){"use strict";u.r(l);var n=u("cDcd"),e=u.n(n),t=u("dEAq"),r=u.n(t),c=u("g5U0"),m=u("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u6A21\u6001\u5BF9\u8BDD\u6846\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(t.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("p",null,"\u9700\u8981\u7528\u6237\u5904\u7406\u4E8B\u52A1\uFF0C\u53C8\u4E0D\u5E0C\u671B\u8DF3\u8F6C\u9875\u9762\u4EE5\u81F4\u6253\u65AD\u5DE5\u4F5C\u6D41\u7A0B\u65F6\uFF0C\u53EF\u4EE5\u4F7F\u7528 ",e.a.createElement("code",null,"Modal")," \u5728\u5F53\u524D\u9875\u9762\u6B63\u4E2D\u6253\u5F00\u4E00\u4E2A\u6D6E\u5C42\uFF0C\u627F\u8F7D\u76F8\u5E94\u7684\u64CD\u4F5C\u3002"),e.a.createElement("p",null,"\u53E6\u5916\u5F53\u9700\u8981\u4E00\u4E2A\u7B80\u6D01\u7684\u786E\u8BA4\u6846\u8BE2\u95EE\u7528\u6237\u65F6\uFF0C\u53EF\u4EE5\u4F7F\u7528 ",e.a.createElement("code",null,"Modal.confirm()")," \u7B49\u8BED\u6CD5\u7CD6\u65B9\u6CD5\u3002")))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [4],
+  {
+    '18oY': function(e, l, t) {
+      'use strict';
+      t.r(l);
+      var n = t('cDcd'),
+        a = t.n(n),
+        r = t('dEAq'),
+        c = (t('g5U0'), t('ekZX'), t('ltCa'), t('Bjia'));
+      l['default'] = function() {
+        return a.a.createElement(
+          a.a.Fragment,
+          null,
+          a.a.createElement(
+            'div',
+            { className: 'markdown' },
+            a.a.createElement(
+              'h2',
+              { id: 'api' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  a.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'afterClose'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'Modal \u5b8c\u5168\u5173\u95ed\u540e\u7684\u56de\u8c03',
+                  ),
+                  a.a.createElement('td', null, 'function'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'bodyStyle'),
+                  a.a.createElement('td', null, 'Modal body \u6837\u5f0f'),
+                  a.a.createElement('td', null, 'CSSProperties'),
+                  a.a.createElement('td', null),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'cancelButtonProps'),
+                  a.a.createElement('td', null, 'cancel \u6309\u94ae props'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/button/#API' },
+                      'ButtonProps',
+                    ),
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'cancelText'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u53d6\u6d88\u6309\u94ae\u6587\u5b57',
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, '\u53d6\u6d88'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'centered'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5782\u76f4\u5c45\u4e2d\u5c55\u793a Modal',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'closable'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u663e\u793a\u53f3\u4e0a\u89d2\u7684\u5173\u95ed\u6309\u94ae',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'closeIcon'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5173\u95ed\u56fe\u6807',
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, '<CloseOutlined />'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'confirmLoading'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u786e\u5b9a\u6309\u94ae loading',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'destroyOnClose'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5173\u95ed\u65f6\u9500\u6bc1 Modal \u91cc\u7684\u5b50\u5143\u7d20',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'focusTriggerAfterClose'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5bf9\u8bdd\u6846\u5173\u95ed\u540e\u662f\u5426\u9700\u8981\u805a\u7126\u89e6\u53d1\u5143\u7d20',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null, '4.9.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'footer'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5e95\u90e8\u5185\u5bb9\uff0c\u5f53\u4e0d\u9700\u8981\u9ed8\u8ba4\u5e95\u90e8\u6309\u94ae\u65f6\uff0c\u53ef\u4ee5\u8bbe\u4e3a ',
+                    a.a.createElement(
+                      'code',
+                      null,
+                      'footer=',
+                      '{',
+                      'null',
+                      '}',
+                    ),
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '(\u786e\u5b9a\u53d6\u6d88\u6309\u94ae)',
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'forceRender'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5f3a\u5236\u6e32\u67d3 Modal',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'getContainer'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a Modal \u6302\u8f7d\u7684 HTML \u8282\u70b9, false \u4e3a\u6302\u8f7d\u5728\u5f53\u524d dom',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'HTMLElement | () => HTMLElement | Selectors | false',
+                  ),
+                  a.a.createElement('td', null, 'document.body'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'keyboard'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u652f\u6301\u952e\u76d8 esc \u5173\u95ed',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'mask'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5c55\u793a\u906e\u7f69',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'maskClosable'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u8499\u5c42\u662f\u5426\u5141\u8bb8\u5173\u95ed',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'maskStyle'),
+                  a.a.createElement('td', null, '\u906e\u7f69\u6837\u5f0f'),
+                  a.a.createElement('td', null, 'CSSProperties'),
+                  a.a.createElement('td', null),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'modalRender'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6e32\u67d3\u5bf9\u8bdd\u6846',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '(node: ReactNode) => ReactNode',
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null, '4.7.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'okButtonProps'),
+                  a.a.createElement('td', null, 'ok \u6309\u94ae props'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/button/#API' },
+                      'ButtonProps',
+                    ),
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'okText'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u786e\u8ba4\u6309\u94ae\u6587\u5b57',
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, '\u786e\u5b9a'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'okType'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u786e\u8ba4\u6309\u94ae\u7c7b\u578b',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'primary'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'style'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u53ef\u7528\u4e8e\u8bbe\u7f6e\u6d6e\u5c42\u7684\u6837\u5f0f\uff0c\u8c03\u6574\u6d6e\u5c42\u4f4d\u7f6e\u7b49',
+                  ),
+                  a.a.createElement('td', null, 'CSSProperties'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'title'),
+                  a.a.createElement('td', null, '\u6807\u9898'),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'visible'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5bf9\u8bdd\u6846\u662f\u5426\u53ef\u89c1',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'width'),
+                  a.a.createElement('td', null, '\u5bbd\u5ea6'),
+                  a.a.createElement('td', null, 'string | number'),
+                  a.a.createElement('td', null, '520'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'wrapClassName'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5bf9\u8bdd\u6846\u5916\u5c42\u5bb9\u5668\u7684\u7c7b\u540d',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'zIndex'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e Modal \u7684 ',
+                    a.a.createElement('code', null, 'z-index'),
+                  ),
+                  a.a.createElement('td', null, 'number'),
+                  a.a.createElement('td', null, '1000'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onCancel'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u906e\u7f69\u5c42\u6216\u53f3\u4e0a\u89d2\u53c9\u6216\u53d6\u6d88\u6309\u94ae\u7684\u56de\u8c03',
+                  ),
+                  a.a.createElement('td', null, 'function(e)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onOk'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u786e\u5b9a\u56de\u8c03',
+                  ),
+                  a.a.createElement('td', null, 'function(e)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'h4',
+              { id: '\u6ce8\u610f' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#\u6ce8\u610f', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u6ce8\u610f',
+            ),
+            a.a.createElement(
+              'ul',
+              null,
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, '<Modal />'),
+                ' \u9ed8\u8ba4\u5173\u95ed\u540e\u72b6\u6001\u4e0d\u4f1a\u81ea\u52a8\u6e05\u7a7a, \u5982\u679c\u5e0c\u671b\u6bcf\u6b21\u6253\u5f00\u90fd\u662f\u65b0\u5185\u5bb9\uff0c\u8bf7\u8bbe\u7f6e ',
+                a.a.createElement('code', null, 'destroyOnClose'),
+                '\u3002',
+              ),
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, '<Modal />'),
+                ' \u548c Form \u4e00\u8d77\u914d\u5408\u4f7f\u7528\u65f6\uff0c\u8bbe\u7f6e ',
+                a.a.createElement('code', null, 'destroyOnClose'),
+                ' \u4e5f\u4e0d\u4f1a\u5728 Modal \u5173\u95ed\u65f6\u9500\u6bc1\u8868\u5355\u5b57\u6bb5\u6570\u636e\uff0c\u9700\u8981\u8bbe\u7f6e ',
+                a.a.createElement(
+                  'code',
+                  null,
+                  '<Form preserve=',
+                  '{',
+                  'false',
+                  '}',
+                  ' />',
+                ),
+                '\u3002',
+              ),
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, 'Modal.method()'),
+                ' RTL \u6a21\u5f0f\u4ec5\u652f\u6301 hooks \u7528\u6cd5\u3002',
+              ),
+            ),
+            a.a.createElement(
+              'h3',
+              { id: 'modalmethod' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#modalmethod', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Modal.method()',
+            ),
+            a.a.createElement('p', null, '\u5305\u62ec\uff1a'),
+            a.a.createElement(
+              'ul',
+              null,
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, 'Modal.info'),
+              ),
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, 'Modal.success'),
+              ),
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, 'Modal.error'),
+              ),
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, 'Modal.warning'),
+              ),
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, 'Modal.confirm'),
+              ),
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u4ee5\u4e0a\u5747\u4e3a\u4e00\u4e2a\u51fd\u6570\uff0c\u53c2\u6570\u4e3a object\uff0c\u5177\u4f53\u5c5e\u6027\u5982\u4e0b\uff1a',
+            ),
+            a.a.createElement(
+              'table',
+              null,
+              a.a.createElement(
+                'thead',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('th', null, '\u53c2\u6570'),
+                  a.a.createElement('th', null, '\u8bf4\u660e'),
+                  a.a.createElement('th', null, '\u7c7b\u578b'),
+                  a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  a.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              a.a.createElement(
+                'tbody',
+                null,
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'autoFocusButton'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u81ea\u52a8\u83b7\u5f97\u7126\u70b9\u7684\u6309\u94ae',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'null | ',
+                    a.a.createElement('code', null, 'ok'),
+                    ' | ',
+                    a.a.createElement('code', null, 'cancel'),
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'ok'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'bodyStyle'),
+                  a.a.createElement('td', null, 'Modal body \u6837\u5f0f'),
+                  a.a.createElement('td', null, 'CSSProperties'),
+                  a.a.createElement('td', null),
+                  a.a.createElement('td', null, '4.8.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'cancelButtonProps'),
+                  a.a.createElement('td', null, 'cancel \u6309\u94ae props'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/button/#API' },
+                      'ButtonProps',
+                    ),
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'cancelText'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e Modal.confirm \u53d6\u6d88\u6309\u94ae\u6587\u5b57',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, '\u53d6\u6d88'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'centered'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u5782\u76f4\u5c45\u4e2d\u5c55\u793a Modal',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'className'),
+                  a.a.createElement('td', null, '\u5bb9\u5668\u7c7b\u540d'),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'closable'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u663e\u793a\u53f3\u4e0a\u89d2\u7684\u5173\u95ed\u6309\u94ae',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null, '4.9.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'closeIcon'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5173\u95ed\u56fe\u6807',
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, 'undefined'),
+                  a.a.createElement('td', null, '4.9.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'content'),
+                  a.a.createElement('td', null, '\u5185\u5bb9'),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'getContainer'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a Modal \u6302\u8f7d\u7684 HTML \u8282\u70b9, false \u4e3a\u6302\u8f7d\u5728\u5f53\u524d dom',
+                  ),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    'HTMLElement | () => HTMLElement | Selectors | false',
+                  ),
+                  a.a.createElement('td', null, 'document.body'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'icon'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u56fe\u6807',
+                  ),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, '<QuestionCircle />'),
+                  a.a.createElement('td', null, '3.12.0'),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'keyboard'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u652f\u6301\u952e\u76d8 esc \u5173\u95ed',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'mask'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5c55\u793a\u906e\u7f69',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'true'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'maskClosable'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u8499\u5c42\u662f\u5426\u5141\u8bb8\u5173\u95ed',
+                  ),
+                  a.a.createElement('td', null, 'boolean'),
+                  a.a.createElement('td', null, 'false'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'maskStyle'),
+                  a.a.createElement('td', null, '\u906e\u7f69\u6837\u5f0f'),
+                  a.a.createElement('td', null, 'object'),
+                  a.a.createElement('td', null, '{', '}'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'okButtonProps'),
+                  a.a.createElement('td', null, 'ok \u6309\u94ae props'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/button/#API' },
+                      'ButtonProps',
+                    ),
+                  ),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'okText'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u786e\u8ba4\u6309\u94ae\u6587\u5b57',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, '\u786e\u5b9a'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'okType'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u786e\u8ba4\u6309\u94ae\u7c7b\u578b',
+                  ),
+                  a.a.createElement('td', null, 'string'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    a.a.createElement('code', null, 'primary'),
+                  ),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'style'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u53ef\u7528\u4e8e\u8bbe\u7f6e\u6d6e\u5c42\u7684\u6837\u5f0f\uff0c\u8c03\u6574\u6d6e\u5c42\u4f4d\u7f6e\u7b49',
+                  ),
+                  a.a.createElement('td', null, 'CSSProperties'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'title'),
+                  a.a.createElement('td', null, '\u6807\u9898'),
+                  a.a.createElement('td', null, 'ReactNode'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'width'),
+                  a.a.createElement('td', null, '\u5bbd\u5ea6'),
+                  a.a.createElement('td', null, 'string | number'),
+                  a.a.createElement('td', null, '416'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'zIndex'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e Modal \u7684 ',
+                    a.a.createElement('code', null, 'z-index'),
+                  ),
+                  a.a.createElement('td', null, 'number'),
+                  a.a.createElement('td', null, '1000'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onCancel'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u53d6\u6d88\u56de\u8c03\uff0c\u53c2\u6570\u4e3a\u5173\u95ed\u51fd\u6570\uff0c\u8fd4\u56de promise \u65f6 resolve \u540e\u81ea\u52a8\u5173\u95ed',
+                  ),
+                  a.a.createElement('td', null, 'function(close)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+                a.a.createElement(
+                  'tr',
+                  null,
+                  a.a.createElement('td', null, 'onOk'),
+                  a.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u786e\u5b9a\u56de\u8c03\uff0c\u53c2\u6570\u4e3a\u5173\u95ed\u51fd\u6570\uff0c\u8fd4\u56de promise \u65f6 resolve \u540e\u81ea\u52a8\u5173\u95ed',
+                  ),
+                  a.a.createElement('td', null, 'function(close)'),
+                  a.a.createElement('td', null, '-'),
+                  a.a.createElement('td', null),
+                ),
+              ),
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u4ee5\u4e0a\u51fd\u6570\u8c03\u7528\u540e\uff0c\u4f1a\u8fd4\u56de\u4e00\u4e2a\u5f15\u7528\uff0c\u53ef\u4ee5\u901a\u8fc7\u8be5\u5f15\u7528\u66f4\u65b0\u548c\u5173\u95ed\u5f39\u7a97\u3002',
+            ),
+            a.a.createElement(c['a'], {
+              code:
+                "\nconst modal = Modal.info();\n\nmodal.update({\n  title: '\u4fee\u6539\u7684\u6807\u9898',\n  content: '\u4fee\u6539\u7684\u5185\u5bb9',\n});\n\n// \u5728 4.8.0 \u6216\u66f4\u9ad8\u7248\u672c\u4e2d\uff0c\u53ef\u4ee5\u901a\u8fc7\u4f20\u5165\u51fd\u6570\u7684\u65b9\u5f0f\u66f4\u65b0\u5f39\u7a97\nmodal.update(prevConfig => ({\n  ...prevConfig,\n  title: `${prevConfig.title}\uff08\u65b0\uff09`,\n}));\n\nmodal.destroy();\n",
+              lang: 'jsx',
+            }),
+            a.a.createElement(
+              'ul',
+              null,
+              a.a.createElement(
+                'li',
+                null,
+                a.a.createElement('code', null, 'Modal.destroyAll'),
+              ),
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u4f7f\u7528 ',
+              a.a.createElement('code', null, 'Modal.destroyAll()'),
+              ' \u53ef\u4ee5\u9500\u6bc1\u5f39\u51fa\u7684\u786e\u8ba4\u7a97\uff08\u5373\u4e0a\u8ff0\u7684 ',
+              a.a.createElement('code', null, 'Modal.info'),
+              '\u3001',
+              a.a.createElement('code', null, 'Modal.success'),
+              '\u3001',
+              a.a.createElement('code', null, 'Modal.error'),
+              '\u3001',
+              a.a.createElement('code', null, 'Modal.warning'),
+              '\u3001',
+              a.a.createElement('code', null, 'Modal.confirm'),
+              '\uff09\u3002\u901a\u5e38\u7528\u4e8e\u8def\u7531\u76d1\u542c\u5f53\u4e2d\uff0c\u5904\u7406\u8def\u7531\u524d\u8fdb\u3001\u540e\u9000\u4e0d\u80fd\u9500\u6bc1\u786e\u8ba4\u5bf9\u8bdd\u6846\u7684\u95ee\u9898\uff0c\u800c\u4e0d\u7528\u5404\u5904\u53bb\u4f7f\u7528\u5b9e\u4f8b\u7684\u8fd4\u56de\u503c\u8fdb\u884c\u5173\u95ed\uff08',
+              a.a.createElement('code', null, 'modal.destroy()'),
+              ' \u9002\u7528\u4e8e\u4e3b\u52a8\u5173\u95ed\uff0c\u800c\u4e0d\u662f\u8def\u7531\u8fd9\u6837\u88ab\u52a8\u5173\u95ed\uff09',
+            ),
+            a.a.createElement(c['a'], {
+              code:
+                "\nimport { browserHistory } from 'react-router';\n\n// router change\nbrowserHistory.listen(() => {\n  Modal.destroyAll();\n});\n",
+              lang: 'jsx',
+            }),
+            a.a.createElement(
+              'h3',
+              { id: 'modalusemodal' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#modalusemodal', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Modal.useModal()',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u5f53\u4f60\u9700\u8981\u4f7f\u7528 Context \u65f6\uff0c\u53ef\u4ee5\u901a\u8fc7 ',
+              a.a.createElement('code', null, 'Modal.useModal'),
+              ' \u521b\u5efa\u4e00\u4e2a ',
+              a.a.createElement('code', null, 'contextHolder'),
+              ' \u63d2\u5165\u5b50\u8282\u70b9\u4e2d\u3002\u901a\u8fc7 hooks \u521b\u5efa\u7684\u4e34\u65f6 Modal \u5c06\u4f1a\u5f97\u5230 ',
+              a.a.createElement('code', null, 'contextHolder'),
+              ' \u6240\u5728\u4f4d\u7f6e\u7684\u6240\u6709\u4e0a\u4e0b\u6587\u3002\u521b\u5efa\u7684 ',
+              a.a.createElement('code', null, 'modal'),
+              ' \u5bf9\u8c61\u62e5\u6709\u4e0e ',
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#Modal.method()' },
+                a.a.createElement('code', null, 'Modal.method'),
+              ),
+              ' \u76f8\u540c\u7684\u521b\u5efa\u901a\u77e5\u65b9\u6cd5\u3002',
+            ),
+            a.a.createElement(c['a'], {
+              code:
+                '\nconst [modal, contextHolder] = Modal.useModal();\n\nReact.useEffect(() => {\n  modal.confirm({\n    // ...\n  });\n}, []);\n\nreturn <div>{contextHolder}</div>;\n',
+              lang: 'jsx',
+            }),
+            a.a.createElement(
+              'h3',
+              { id: 'modalconfig-450' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#modalconfig-450', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Modal.config() ',
+              a.a.createElement('code', null, '4.5.0+'),
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u7c7b\u4f3c ',
+              a.a.createElement('code', null, 'message.config()'),
+              '\uff0c\u5168\u5c40\u8bbe\u7f6e ',
+              a.a.createElement('code', null, 'Modal.confirm'),
+              ' \u7b49\u65b9\u6cd5\u7684\u5c5e\u6027\uff08\u5982 ',
+              a.a.createElement('code', null, 'prefixCls'),
+              '\uff09\u3002',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u6b64\u65b9\u6cd5\u53ea\u5bf9 ',
+              a.a.createElement(
+                'code',
+                null,
+                'Modal.confirm|success|info|error|warning',
+              ),
+              ' \u7b49',
+              a.a.createElement('strong', null, '\u9759\u6001\u65b9\u6cd5'),
+              '\u751f\u6548\uff0c',
+              a.a.createElement('code', null, '<Modal />'),
+              ' \u7684\u8c03\u7528\u65b9\u5f0f\u662f\u8bfb\u53d6 ConfigProvider \u7684\u8bbe\u7f6e\u3002',
+            ),
+            a.a.createElement(c['a'], {
+              code: "\nModal.config({\n  rootPrefixCls: 'ant',\n});\n",
+              lang: 'jsx',
+            }),
+            a.a.createElement(
+              'h2',
+              { id: 'faq' },
+              a.a.createElement(
+                r['AnchorLink'],
+                { to: '#faq', 'aria-hidden': 'true', tabIndex: -1 },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FAQ',
+            ),
+            a.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48-modal-\u65b9\u6cd5\u4e0d\u80fd\u83b7\u53d6-context\u3001redux\u3001\u7684\u5185\u5bb9\u548c-configprovider-localeprefixcls-\u914d\u7f6e\uff1f',
+              },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48-modal-\u65b9\u6cd5\u4e0d\u80fd\u83b7\u53d6-context\u3001redux\u3001\u7684\u5185\u5bb9\u548c-configprovider-localeprefixcls-\u914d\u7f6e\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48 Modal \u65b9\u6cd5\u4e0d\u80fd\u83b7\u53d6 context\u3001redux\u3001\u7684\u5185\u5bb9\u548c ConfigProvider ',
+              a.a.createElement('code', null, 'locale/prefixCls'),
+              ' \u914d\u7f6e\uff1f',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u76f4\u63a5\u8c03\u7528 Modal \u65b9\u6cd5\uff0cantd \u4f1a\u901a\u8fc7 ',
+              a.a.createElement('code', null, 'ReactDOM.render'),
+              ' \u52a8\u6001\u521b\u5efa\u65b0\u7684 React \u5b9e\u4f53\u3002\u5176 context \u4e0e\u5f53\u524d\u4ee3\u7801\u6240\u5728 context \u5e76\u4e0d\u76f8\u540c\uff0c\u56e0\u800c\u65e0\u6cd5\u83b7\u53d6 context \u4fe1\u606f\u3002',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u5f53\u4f60\u9700\u8981 context \u4fe1\u606f\uff08\u4f8b\u5982 ConfigProvider \u914d\u7f6e\u7684\u5185\u5bb9\uff09\u65f6\uff0c\u53ef\u4ee5\u901a\u8fc7 ',
+              a.a.createElement('code', null, 'Modal.useModal'),
+              ' \u65b9\u6cd5\u4f1a\u8fd4\u56de ',
+              a.a.createElement('code', null, 'modal'),
+              ' \u5b9e\u4f53\u4ee5\u53ca ',
+              a.a.createElement('code', null, 'contextHolder'),
+              ' \u8282\u70b9\u3002\u5c06\u5176\u63d2\u5165\u5230\u4f60\u9700\u8981\u83b7\u53d6 context \u4f4d\u7f6e\u5373\u53ef\uff1a',
+            ),
+            a.a.createElement(c['a'], {
+              code:
+                '\nconst [modal, contextHolder] = Modal.useModal();\n\nreturn (\n  <Context1.Provider value="Ant">\n    {/* contextHolder \u5728 Context1 \u5185\uff0c\u5b83\u53ef\u4ee5\u83b7\u5f97 Context1 \u7684 context */}\n    {contextHolder}\n    <Context2.Provider value="Design">\n      {/* contextHolder \u5728 Context2 \u5916\uff0c\u56e0\u800c\u4e0d\u4f1a\u83b7\u5f97 Context2 \u7684 context */}\n    </Context2.Provider>\n  </Context1.Provider>\n);\n',
+              lang: 'tsx',
+            }),
+            a.a.createElement(
+              'p',
+              null,
+              '**\u5f02\u540c\uff1a**\u901a\u8fc7 hooks \u521b\u5efa\u7684 ',
+              a.a.createElement('code', null, 'contextHolder'),
+              ' \u5fc5\u987b\u63d2\u5165\u5230\u5b50\u5143\u7d20\u8282\u70b9\u4e2d\u624d\u4f1a\u751f\u6548\uff0c\u5f53\u4f60\u4e0d\u9700\u8981\u4e0a\u4e0b\u6587\u4fe1\u606f\u65f6\u8bf7\u76f4\u63a5\u8c03\u7528\u3002',
+            ),
+            a.a.createElement(
+              'h3',
+              { id: '\u5982\u4f55\u5173\u95ed-modal-\u52a8\u753b\uff1f' },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u5982\u4f55\u5173\u95ed-modal-\u52a8\u753b\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5982\u4f55\u5173\u95ed Modal \u52a8\u753b\uff1f',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u4f60\u53ef\u4ee5\u901a\u8fc7 ',
+              a.a.createElement('code', null, 'transitionName=""'),
+              ' \u548c ',
+              a.a.createElement('code', null, 'maskTransitionName=""'),
+              ' \u53bb\u9664\u52a8\u753b CSS\uff0c\u4f46\u662f\u9700\u8981\u6ce8\u610f\u7684\u662f\u3002\u8be5\u65b9\u6cd5\u4e3a\u5185\u90e8\u65b9\u6cd5\uff0c\u6211\u4eec\u4e0d\u4fdd\u8bc1\u4e0b\u4e2a\u5927\u7248\u672c\u91cd\u6784\u65f6\u8be5\u5c5e\u6027\u4f1a\u88ab\u4fdd\u7559\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, l, t) {
+      'use strict';
+      var n = t('0Owb'),
+        a = t('PpiC'),
+        r = t('cDcd'),
+        c = t.n(r),
+        m = t('ZpkN');
+      l['a'] = c.a.forwardRef((e, l) => {
+        var t = e.children,
+          r = Object(a['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(n['default'])({}, r, { forwardedRef: l }),
+          c.a.createElement(c.a.Fragment, null, t),
+        );
+      });
+    },
+    g5U0: function(e, l, t) {
+      'use strict';
+      var n = t('kPKH');
+      t('h9md');
+      l['a'] = n['a'];
+    },
+    ltCa: function(e, l, t) {
+      'use strict';
+      var n = t('BMrR');
+      t('7xIR');
+      l['a'] = n['a'];
+    },
+    rOvh: function(e, l, t) {
+      'use strict';
+      t.r(l);
+      var n = t('cDcd'),
+        a = t.n(n),
+        r = t('dEAq');
+      t('g5U0'), t('ekZX'), t('ltCa'), t('Bjia');
+      l['default'] = function() {
+        return a.a.createElement(
+          a.a.Fragment,
+          null,
+          a.a.createElement(
+            'div',
+            { className: 'markdown' },
+            a.a.createElement(
+              'p',
+              null,
+              '\u6a21\u6001\u5bf9\u8bdd\u6846\u3002',
+            ),
+            a.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              a.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                a.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u9700\u8981\u7528\u6237\u5904\u7406\u4e8b\u52a1\uff0c\u53c8\u4e0d\u5e0c\u671b\u8df3\u8f6c\u9875\u9762\u4ee5\u81f4\u6253\u65ad\u5de5\u4f5c\u6d41\u7a0b\u65f6\uff0c\u53ef\u4ee5\u4f7f\u7528 ',
+              a.a.createElement('code', null, 'Modal'),
+              ' \u5728\u5f53\u524d\u9875\u9762\u6b63\u4e2d\u6253\u5f00\u4e00\u4e2a\u6d6e\u5c42\uff0c\u627f\u8f7d\u76f8\u5e94\u7684\u64cd\u4f5c\u3002',
+            ),
+            a.a.createElement(
+              'p',
+              null,
+              '\u53e6\u5916\u5f53\u9700\u8981\u4e00\u4e2a\u7b80\u6d01\u7684\u786e\u8ba4\u6846\u8be2\u95ee\u7528\u6237\u65f6\uff0c\u53ef\u4ee5\u4f7f\u7528 ',
+              a.a.createElement('code', null, 'Modal.confirm()'),
+              ' \u7b49\u8bed\u6cd5\u7cd6\u65b9\u6cd5\u3002',
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

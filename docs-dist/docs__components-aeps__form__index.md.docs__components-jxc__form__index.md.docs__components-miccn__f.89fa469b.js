@@ -1,134 +1,2892 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{atsV:function(E,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),u=t("dEAq"),r=t.n(u),c=t("g5U0"),m=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u9AD8\u6027\u80FD\u8868\u5355\u63A7\u4EF6\uFF0C\u81EA\u5E26\u6570\u636E\u57DF\u7BA1\u7406\u3002\u5305\u542B\u6570\u636E\u5F55\u5165\u3001\u6821\u9A8C\u4EE5\u53CA\u5BF9\u5E94\u6837\u5F0F\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(u.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u7528\u4E8E\u521B\u5EFA\u4E00\u4E2A\u5B9E\u4F53\u6216\u6536\u96C6\u4FE1\u606F\u3002"),e.a.createElement("li",null,"\u9700\u8981\u5BF9\u8F93\u5165\u7684\u6570\u636E\u7C7B\u578B\u8FDB\u884C\u6821\u9A8C\u65F6\u3002"))))}},g5U0:function(E,a,t){"use strict";var n=t("kPKH"),e=t("h9md"),u=t.n(e);a.a=n.a},ltCa:function(E,a,t){"use strict";var n=t("BMrR"),e=t("7xIR"),u=t.n(e);a.a=n.a},r7g3:function(E,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),u=t("dEAq"),r=t.n(u),c=t("g5U0"),m=t("ltCa"),l=t("ZpkN");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(u.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("h3",{id:"form"},e.a.createElement(u.AnchorLink,{to:"#form","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Form"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"colon"),e.a.createElement("td",null,"\u914D\u7F6E Form.Item \u7684 ",e.a.createElement("code",null,"colon")," \u7684\u9ED8\u8BA4\u503C\u3002\u8868\u793A\u662F\u5426\u663E\u793A label \u540E\u9762\u7684\u5192\u53F7 (\u53EA\u6709\u5728\u5C5E\u6027 layout \u4E3A horizontal \u65F6\u6709\u6548)"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"component"),e.a.createElement("td",null,"\u8BBE\u7F6E Form \u6E32\u67D3\u5143\u7D20\uFF0C\u4E3A ",e.a.createElement("code",null,"false")," \u5219\u4E0D\u521B\u5EFA DOM \u8282\u70B9"),e.a.createElement("td",null,"ComponentType | false"),e.a.createElement("td",null,"form"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"fields"),e.a.createElement("td",null,"\u901A\u8FC7\u72B6\u6001\u7BA1\u7406\uFF08\u5982 redux\uFF09\u63A7\u5236\u8868\u5355\u5B57\u6BB5\uFF0C\u5982\u975E\u5F3A\u9700\u6C42\u4E0D\u63A8\u8350\u4F7F\u7528\u3002\u67E5\u770B",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-global-state"},"\u793A\u4F8B")),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#FieldData"},"FieldData"),"[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"form"),e.a.createElement("td",null,"\u7ECF ",e.a.createElement("code",null,"Form.useForm()")," \u521B\u5EFA\u7684 form \u63A7\u5236\u5B9E\u4F8B\uFF0C\u4E0D\u63D0\u4F9B\u65F6\u4F1A\u81EA\u52A8\u521B\u5EFA"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#FormInstance"},"FormInstance")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"initialValues"),e.a.createElement("td",null,"\u8868\u5355\u9ED8\u8BA4\u503C\uFF0C\u53EA\u6709\u521D\u59CB\u5316\u4EE5\u53CA\u91CD\u7F6E\u65F6\u751F\u6548"),e.a.createElement("td",null,"object"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"labelAlign"),e.a.createElement("td",null,"label \u6807\u7B7E\u7684\u6587\u672C\u5BF9\u9F50\u65B9\u5F0F"),e.a.createElement("td",null,e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"right")),e.a.createElement("td",null,e.a.createElement("code",null,"right")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"labelCol"),e.a.createElement("td",null,"label \u6807\u7B7E\u5E03\u5C40\uFF0C\u540C ",e.a.createElement("code",null,"<Col>")," \u7EC4\u4EF6\uFF0C\u8BBE\u7F6E ",e.a.createElement("code",null,"span")," ",e.a.createElement("code",null,"offset")," \u503C\uFF0C\u5982 ",e.a.createElement("code",null,"{","span: 3, offset: 12","}")," \u6216 ",e.a.createElement("code",null,"sm: ","{","span: 3, offset: 12","}")),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"/components/grid/#Col"},"object")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"layout"),e.a.createElement("td",null,"\u8868\u5355\u5E03\u5C40"),e.a.createElement("td",null,e.a.createElement("code",null,"horizontal")," | ",e.a.createElement("code",null,"vertical")," | ",e.a.createElement("code",null,"inline")),e.a.createElement("td",null,e.a.createElement("code",null,"horizontal")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"name"),e.a.createElement("td",null,"\u8868\u5355\u540D\u79F0\uFF0C\u4F1A\u4F5C\u4E3A\u8868\u5355\u5B57\u6BB5 ",e.a.createElement("code",null,"id")," \u524D\u7F00\u4F7F\u7528"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"preserve"),e.a.createElement("td",null,"\u5F53\u5B57\u6BB5\u88AB\u5220\u9664\u65F6\u4FDD\u7559\u5B57\u6BB5\u503C"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null,"4.4.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"requiredMark"),e.a.createElement("td",null,"\u5FC5\u9009\u6837\u5F0F\uFF0C\u53EF\u4EE5\u5207\u6362\u4E3A\u5FC5\u9009\u6216\u8005\u53EF\u9009\u5C55\u793A\u6837\u5F0F\u3002\u6B64\u4E3A Form \u914D\u7F6E\uFF0CForm.Item \u65E0\u6CD5\u5355\u72EC\u914D\u7F6E"),e.a.createElement("td",null,"boolean | ",e.a.createElement("code",null,"optional")),e.a.createElement("td",null,"true"),e.a.createElement("td",null,"4.6.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"scrollToFirstError"),e.a.createElement("td",null,"\u63D0\u4EA4\u5931\u8D25\u81EA\u52A8\u6EDA\u52A8\u5230\u7B2C\u4E00\u4E2A\u9519\u8BEF\u5B57\u6BB5"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"size"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5B57\u6BB5\u7EC4\u4EF6\u7684\u5C3A\u5BF8\uFF08\u4EC5\u9650 antd \u7EC4\u4EF6\uFF09"),e.a.createElement("td",null,e.a.createElement("code",null,"small")," | ",e.a.createElement("code",null,"middle")," | ",e.a.createElement("code",null,"large")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"validateMessages"),e.a.createElement("td",null,"\u9A8C\u8BC1\u63D0\u793A\u6A21\u677F\uFF0C\u8BF4\u660E",e.a.createElement(u.AnchorLink,{to:"#validateMessages"},"\u89C1\u4E0B")),e.a.createElement("td",null,e.a.createElement(u.Link,{to:"https://github.com/react-component/field-form/blob/master/src/utils/messages.ts"},"ValidateMessages")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"validateTrigger"),e.a.createElement("td",null,"\u7EDF\u4E00\u8BBE\u7F6E\u5B57\u6BB5\u6821\u9A8C\u89C4\u5219"),e.a.createElement("td",null,"string | string[]"),e.a.createElement("td",null,e.a.createElement("code",null,"onChange")),e.a.createElement("td",null,"4.3.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"wrapperCol"),e.a.createElement("td",null,"\u9700\u8981\u4E3A\u8F93\u5165\u63A7\u4EF6\u8BBE\u7F6E\u5E03\u5C40\u6837\u5F0F\u65F6\uFF0C\u4F7F\u7528\u8BE5\u5C5E\u6027\uFF0C\u7528\u6CD5\u540C labelCol"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"/components/grid/#Col"},"object")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onFieldsChange"),e.a.createElement("td",null,"\u5B57\u6BB5\u66F4\u65B0\u65F6\u89E6\u53D1\u56DE\u8C03\u4E8B\u4EF6"),e.a.createElement("td",null,"function(changedFields, allFields)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onFinish"),e.a.createElement("td",null,"\u63D0\u4EA4\u8868\u5355\u4E14\u6570\u636E\u9A8C\u8BC1\u6210\u529F\u540E\u56DE\u8C03\u4E8B\u4EF6"),e.a.createElement("td",null,"function(values)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onFinishFailed"),e.a.createElement("td",null,"\u63D0\u4EA4\u8868\u5355\u4E14\u6570\u636E\u9A8C\u8BC1\u5931\u8D25\u540E\u56DE\u8C03\u4E8B\u4EF6"),e.a.createElement("td",null,"function(","{"," values, errorFields, outOfDate ","}",")"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onValuesChange"),e.a.createElement("td",null,"\u5B57\u6BB5\u503C\u66F4\u65B0\u65F6\u89E6\u53D1\u56DE\u8C03\u4E8B\u4EF6"),e.a.createElement("td",null,"function(changedValues, allValues)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h3",{id:"validatemessages"},e.a.createElement(u.AnchorLink,{to:"#validatemessages","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"validateMessages"),e.a.createElement("p",null,"Form \u4E3A\u9A8C\u8BC1\u63D0\u4F9B\u4E86",e.a.createElement(u.Link,{to:"https://github.com/react-component/field-form/blob/master/src/utils/messages.ts"},"\u9ED8\u8BA4\u7684\u9519\u8BEF\u63D0\u793A\u4FE1\u606F"),"\uFF0C\u4F60\u53EF\u4EE5\u901A\u8FC7\u914D\u7F6E ",e.a.createElement("code",null,"validateMessages")," \u5C5E\u6027\uFF0C\u4FEE\u6539\u5BF9\u5E94\u7684\u63D0\u793A\u6A21\u677F\u3002\u4E00\u79CD\u5E38\u89C1\u7684\u4F7F\u7528\u65B9\u5F0F\uFF0C\u662F\u914D\u7F6E\u56FD\u9645\u5316\u63D0\u793A\u4FE1\u606F\uFF1A"),e.a.createElement(l.a,{code:`
-const validateMessages = {
-  required: "'\${name}' \u662F\u5FC5\u9009\u5B57\u6BB5",
-  // ...
-};
-
-<Form validateMessages={validateMessages} />;
-`,lang:"jsx"}),e.a.createElement("p",null,"\u6B64\u5916\uFF0C",e.a.createElement(u.Link,{to:"/components/config-provider/"},"ConfigProvider")," \u4E5F\u63D0\u4F9B\u4E86\u5168\u5C40\u5316\u914D\u7F6E\u65B9\u6848\uFF0C\u5141\u8BB8\u7EDF\u4E00\u914D\u7F6E\u9519\u8BEF\u63D0\u793A\u6A21\u677F\uFF1A"),e.a.createElement(l.a,{code:`
-const validateMessages = {
-  required: "'\${name}' \u662F\u5FC5\u9009\u5B57\u6BB5",
-  // ...
-};
-
-<ConfigProvider form={{ validateMessages }}>
-  <Form />
-</ConfigProvider>;
-`,lang:"jsx"}),e.a.createElement("h2",{id:"formitem"},e.a.createElement(u.AnchorLink,{to:"#formitem","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Form.Item"),e.a.createElement("p",null,"\u8868\u5355\u5B57\u6BB5\u7EC4\u4EF6\uFF0C\u7528\u4E8E\u6570\u636E\u53CC\u5411\u7ED1\u5B9A\u3001\u6821\u9A8C\u3001\u5E03\u5C40\u7B49\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"colon"),e.a.createElement("td",null,"\u914D\u5408 ",e.a.createElement("code",null,"label")," \u5C5E\u6027\u4F7F\u7528\uFF0C\u8868\u793A\u662F\u5426\u663E\u793A ",e.a.createElement("code",null,"label")," \u540E\u9762\u7684\u5192\u53F7"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"dependencies"),e.a.createElement("td",null,"\u8BBE\u7F6E\u4F9D\u8D56\u5B57\u6BB5\uFF0C\u8BF4\u660E",e.a.createElement(u.AnchorLink,{to:"#dependencies"},"\u89C1\u4E0B")),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),"[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"extra"),e.a.createElement("td",null,"\u989D\u5916\u7684\u63D0\u793A\u4FE1\u606F\uFF0C\u548C ",e.a.createElement("code",null,"help")," \u7C7B\u4F3C\uFF0C\u5F53\u9700\u8981\u9519\u8BEF\u4FE1\u606F\u548C\u63D0\u793A\u6587\u6848\u540C\u65F6\u51FA\u73B0\u65F6\uFF0C\u53EF\u4EE5\u4F7F\u7528\u8FD9\u4E2A\u3002"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getValueFromEvent"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5982\u4F55\u5C06 event \u7684\u503C\u8F6C\u6362\u6210\u5B57\u6BB5\u503C"),e.a.createElement("td",null,"(..args: any[]) => any"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getValueProps"),e.a.createElement("td",null,"\u4E3A\u5B50\u5143\u7D20\u6DFB\u52A0\u989D\u5916\u7684\u5C5E\u6027"),e.a.createElement("td",null,"(value: any) => any"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.2.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"hasFeedback"),e.a.createElement("td",null,"\u914D\u5408 ",e.a.createElement("code",null,"validateStatus")," \u5C5E\u6027\u4F7F\u7528\uFF0C\u5C55\u793A\u6821\u9A8C\u72B6\u6001\u56FE\u6807\uFF0C\u5EFA\u8BAE\u53EA\u914D\u5408 Input \u7EC4\u4EF6\u4F7F\u7528"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"help"),e.a.createElement("td",null,"\u63D0\u793A\u4FE1\u606F\uFF0C\u5982\u4E0D\u8BBE\u7F6E\uFF0C\u5219\u4F1A\u6839\u636E\u6821\u9A8C\u89C4\u5219\u81EA\u52A8\u751F\u6210"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"hidden"),e.a.createElement("td",null,"\u662F\u5426\u9690\u85CF\u5B57\u6BB5\uFF08\u4F9D\u7136\u4F1A\u6536\u96C6\u548C\u6821\u9A8C\u5B57\u6BB5\uFF09"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"htmlFor"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5B50\u5143\u7D20 label ",e.a.createElement("code",null,"htmlFor")," \u5C5E\u6027"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"initialValue"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5B50\u5143\u7D20\u9ED8\u8BA4\u503C\uFF0C\u5982\u679C\u4E0E Form \u7684 ",e.a.createElement("code",null,"initialValues")," \u51B2\u7A81\u5219\u4EE5 Form \u4E3A\u51C6"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.2.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"label"),e.a.createElement("td",null,e.a.createElement("code",null,"label")," \u6807\u7B7E\u7684\u6587\u672C"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"labelAlign"),e.a.createElement("td",null,"\u6807\u7B7E\u6587\u672C\u5BF9\u9F50\u65B9\u5F0F"),e.a.createElement("td",null,e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"right")),e.a.createElement("td",null,e.a.createElement("code",null,"right")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"labelCol"),e.a.createElement("td",null,e.a.createElement("code",null,"label")," \u6807\u7B7E\u5E03\u5C40\uFF0C\u540C ",e.a.createElement("code",null,"<Col>")," \u7EC4\u4EF6\uFF0C\u8BBE\u7F6E ",e.a.createElement("code",null,"span")," ",e.a.createElement("code",null,"offset")," \u503C\uFF0C\u5982 ",e.a.createElement("code",null,"{","span: 3, offset: 12","}")," \u6216 ",e.a.createElement("code",null,"sm: ","{","span: 3, offset: 12","}"),"\u3002\u4F60\u53EF\u4EE5\u901A\u8FC7 Form \u7684 ",e.a.createElement("code",null,"labelCol")," \u8FDB\u884C\u7EDF\u4E00\u8BBE\u7F6E\uFF0C\uFF0C\u4E0D\u4F1A\u4F5C\u7528\u4E8E\u5D4C\u5957 Item\u3002\u5F53\u548C Form \u540C\u65F6\u8BBE\u7F6E\u65F6\uFF0C\u4EE5 Item \u4E3A\u51C6"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"/components/grid/#Col"},"object")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"messageVariables"),e.a.createElement("td",null,"\u9ED8\u8BA4\u9A8C\u8BC1\u5B57\u6BB5\u7684\u4FE1\u606F"),e.a.createElement("td",null,"Record<string, string>"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.7.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"name"),e.a.createElement("td",null,"\u5B57\u6BB5\u540D\uFF0C\u652F\u6301\u6570\u7EC4"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"normalize"),e.a.createElement("td",null,"\u7EC4\u4EF6\u83B7\u53D6\u503C\u540E\u8FDB\u884C\u8F6C\u6362\uFF0C\u518D\u653E\u5165 Form \u4E2D\u3002\u4E0D\u652F\u6301\u5F02\u6B65"),e.a.createElement("td",null,"(value, prevValue, prevValues) => any"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"noStyle"),e.a.createElement("td",null,"\u4E3A ",e.a.createElement("code",null,"true")," \u65F6\u4E0D\u5E26\u6837\u5F0F\uFF0C\u4F5C\u4E3A\u7EAF\u5B57\u6BB5\u63A7\u4EF6\u4F7F\u7528"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"preserve"),e.a.createElement("td",null,"\u5F53\u5B57\u6BB5\u88AB\u5220\u9664\u65F6\u4FDD\u7559\u5B57\u6BB5\u503C"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null,"4.4.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"required"),e.a.createElement("td",null,"\u5FC5\u586B\u6837\u5F0F\u8BBE\u7F6E\u3002\u5982\u4E0D\u8BBE\u7F6E\uFF0C\u5219\u4F1A\u6839\u636E\u6821\u9A8C\u89C4\u5219\u81EA\u52A8\u751F\u6210"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"rules"),e.a.createElement("td",null,"\u6821\u9A8C\u89C4\u5219\uFF0C\u8BBE\u7F6E\u5B57\u6BB5\u7684\u6821\u9A8C\u903B\u8F91\u3002\u70B9\u51FB",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-basic"},"\u6B64\u5904"),"\u67E5\u770B\u793A\u4F8B"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#Rule"},"Rule"),"[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"shouldUpdate"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5B57\u6BB5\u66F4\u65B0\u903B\u8F91\uFF0C\u8BF4\u660E",e.a.createElement(u.AnchorLink,{to:"#shouldUpdate"},"\u89C1\u4E0B")),e.a.createElement("td",null,"boolean | (prevValue, curValue) => boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"tooltip"),e.a.createElement("td",null,"\u914D\u7F6E\u63D0\u793A\u4FE1\u606F"),e.a.createElement("td",null,"ReactNode | ",e.a.createElement(u.AnchorLink,{to:"/components/tooltip#API"},"TooltipProps & ","{"," icon: ReactNode ","}")),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.7.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"trigger"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6536\u96C6\u5B57\u6BB5\u503C\u53D8\u66F4\u7684\u65F6\u673A\u3002\u70B9\u51FB",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-customized-form-controls"},"\u6B64\u5904"),"\u67E5\u770B\u793A\u4F8B"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"onChange")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"validateFirst"),e.a.createElement("td",null,"\u5F53\u67D0\u4E00\u89C4\u5219\u6821\u9A8C\u4E0D\u901A\u8FC7\u65F6\uFF0C\u662F\u5426\u505C\u6B62\u5269\u4E0B\u7684\u89C4\u5219\u7684\u6821\u9A8C\u3002\u8BBE\u7F6E ",e.a.createElement("code",null,"parallel")," \u65F6\u4F1A\u5E76\u884C\u6821\u9A8C"),e.a.createElement("td",null,"boolean | ",e.a.createElement("code",null,"parallel")),e.a.createElement("td",null,"false"),e.a.createElement("td",null,e.a.createElement("code",null,"parallel"),": 4.5.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"validateStatus"),e.a.createElement("td",null,"\u6821\u9A8C\u72B6\u6001\uFF0C\u5982\u4E0D\u8BBE\u7F6E\uFF0C\u5219\u4F1A\u6839\u636E\u6821\u9A8C\u89C4\u5219\u81EA\u52A8\u751F\u6210\uFF0C\u53EF\u9009\uFF1A'success' 'warning' 'error' 'validating'"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"validateTrigger"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5B57\u6BB5\u6821\u9A8C\u7684\u65F6\u673A"),e.a.createElement("td",null,"string | string[]"),e.a.createElement("td",null,e.a.createElement("code",null,"onChange")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"valuePropName"),e.a.createElement("td",null,"\u5B50\u8282\u70B9\u7684\u503C\u7684\u5C5E\u6027\uFF0C\u5982 Switch \u7684\u662F 'checked'\u3002\u8BE5\u5C5E\u6027\u4E3A ",e.a.createElement("code",null,"getValueProps")," \u7684\u5C01\u88C5\uFF0C\u81EA\u5B9A\u4E49 ",e.a.createElement("code",null,"getValueProps")," \u540E\u4F1A\u5931\u6548"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"value")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"wrapperCol"),e.a.createElement("td",null,"\u9700\u8981\u4E3A\u8F93\u5165\u63A7\u4EF6\u8BBE\u7F6E\u5E03\u5C40\u6837\u5F0F\u65F6\uFF0C\u4F7F\u7528\u8BE5\u5C5E\u6027\uFF0C\u7528\u6CD5\u540C ",e.a.createElement("code",null,"labelCol"),"\u3002\u4F60\u53EF\u4EE5\u901A\u8FC7 Form \u7684 ",e.a.createElement("code",null,"wrapperCol")," \u8FDB\u884C\u7EDF\u4E00\u8BBE\u7F6E\uFF0C\u4E0D\u4F1A\u4F5C\u7528\u4E8E\u5D4C\u5957 Item\u3002\u5F53\u548C Form \u540C\u65F6\u8BBE\u7F6E\u65F6\uFF0C\u4EE5 Item \u4E3A\u51C6"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"/components/grid/#Col"},"object")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("p",null,"\u88AB\u8BBE\u7F6E\u4E86 ",e.a.createElement("code",null,"name")," \u5C5E\u6027\u7684 ",e.a.createElement("code",null,"Form.Item")," \u5305\u88C5\u7684\u63A7\u4EF6\uFF0C\u8868\u5355\u63A7\u4EF6\u4F1A\u81EA\u52A8\u6DFB\u52A0 ",e.a.createElement("code",null,"value"),"\uFF08\u6216 ",e.a.createElement("code",null,"valuePropName")," \u6307\u5B9A\u7684\u5176\u4ED6\u5C5E\u6027\uFF09 ",e.a.createElement("code",null,"onChange"),"\uFF08\u6216 ",e.a.createElement("code",null,"trigger")," \u6307\u5B9A\u7684\u5176\u4ED6\u5C5E\u6027\uFF09\uFF0C\u6570\u636E\u540C\u6B65\u5C06\u88AB Form \u63A5\u7BA1\uFF0C\u8FD9\u4F1A\u5BFC\u81F4\u4EE5\u4E0B\u7ED3\u679C\uFF1A"),e.a.createElement("ol",null,e.a.createElement("li",null,"\u4F60",e.a.createElement("strong",null,"\u4E0D\u518D\u9700\u8981\u4E5F\u4E0D\u5E94\u8BE5"),"\u7528 ",e.a.createElement("code",null,"onChange")," \u6765\u505A\u6570\u636E\u6536\u96C6\u540C\u6B65\uFF08\u4F60\u53EF\u4EE5\u4F7F\u7528 Form \u7684 ",e.a.createElement("code",null,"onValuesChange"),"\uFF09\uFF0C\u4F46\u8FD8\u662F\u53EF\u4EE5\u7EE7\u7EED\u76D1\u542C ",e.a.createElement("code",null,"onChange")," \u4E8B\u4EF6\u3002"),e.a.createElement("li",null,"\u4F60\u4E0D\u80FD\u7528\u63A7\u4EF6\u7684 ",e.a.createElement("code",null,"value")," \u6216 ",e.a.createElement("code",null,"defaultValue")," \u7B49\u5C5E\u6027\u6765\u8BBE\u7F6E\u8868\u5355\u57DF\u7684\u503C\uFF0C\u9ED8\u8BA4\u503C\u53EF\u4EE5\u7528 Form \u91CC\u7684 ",e.a.createElement("code",null,"initialValues")," \u6765\u8BBE\u7F6E\u3002\u6CE8\u610F ",e.a.createElement("code",null,"initialValues")," \u4E0D\u80FD\u88AB ",e.a.createElement("code",null,"setState")," \u52A8\u6001\u66F4\u65B0\uFF0C\u4F60\u9700\u8981\u7528 ",e.a.createElement("code",null,"setFieldsValue")," \u6765\u66F4\u65B0\u3002"),e.a.createElement("li",null,"\u4F60\u4E0D\u5E94\u8BE5\u7528 ",e.a.createElement("code",null,"setState"),"\uFF0C\u53EF\u4EE5\u4F7F\u7528 ",e.a.createElement("code",null,"form.setFieldsValue")," \u6765\u52A8\u6001\u6539\u53D8\u8868\u5355\u503C\u3002")),e.a.createElement("h3",{id:"dependencies"},e.a.createElement(u.AnchorLink,{to:"#dependencies","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"dependencies"),e.a.createElement("p",null,"\u5F53\u5B57\u6BB5\u95F4\u5B58\u5728\u4F9D\u8D56\u5173\u7CFB\u65F6\u4F7F\u7528\u3002\u5982\u679C\u4E00\u4E2A\u5B57\u6BB5\u8BBE\u7F6E\u4E86 ",e.a.createElement("code",null,"dependencies")," \u5C5E\u6027\u3002\u90A3\u4E48\u5B83\u6240\u4F9D\u8D56\u7684\u5B57\u6BB5\u66F4\u65B0\u65F6\uFF0C\u8BE5\u5B57\u6BB5\u5C06\u81EA\u52A8\u89E6\u53D1\u66F4\u65B0\u4E0E\u6821\u9A8C\u3002\u4E00\u79CD\u5E38\u89C1\u7684\u573A\u666F\uFF0C\u5C31\u662F\u6CE8\u518C\u7528\u6237\u8868\u5355\u7684\u201C\u5BC6\u7801\u201D\u4E0E\u201C\u786E\u8BA4\u5BC6\u7801\u201D\u5B57\u6BB5\u3002\u201C\u786E\u8BA4\u5BC6\u7801\u201D\u6821\u9A8C\u4F9D\u8D56\u4E8E\u201C\u5BC6\u7801\u201D\u5B57\u6BB5\uFF0C\u8BBE\u7F6E ",e.a.createElement("code",null,"dependencies")," \u540E\uFF0C\u201C\u5BC6\u7801\u201D\u5B57\u6BB5\u66F4\u65B0\u4F1A\u91CD\u65B0\u89E6\u53D1\u201C\u6821\u9A8C\u5BC6\u7801\u201D\u7684\u6821\u9A8C\u903B\u8F91\u3002\u4F60\u53EF\u4EE5\u53C2\u8003",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-register"},"\u5177\u4F53\u4F8B\u5B50"),"\u3002"),e.a.createElement("p",null,e.a.createElement("code",null,"dependencies")," \u4E0D\u5E94\u548C ",e.a.createElement("code",null,"shouldUpdate")," \u4E00\u8D77\u4F7F\u7528\uFF0C\u56E0\u4E3A\u8FD9\u53EF\u80FD\u5E26\u6765\u66F4\u65B0\u903B\u8F91\u7684\u6DF7\u4E71\u3002"),e.a.createElement("p",null,"\u4ECE ",e.a.createElement("code",null,"4.5.0")," \u7248\u672C\u5F00\u59CB\uFF0C",e.a.createElement("code",null,"dependencies")," \u652F\u6301\u4F7F\u7528 render props \u7C7B\u578B children \u7684 ",e.a.createElement("code",null,"Form.Item"),"\u3002"),e.a.createElement("h3",{id:"shouldupdate"},e.a.createElement(u.AnchorLink,{to:"#shouldupdate","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"shouldUpdate"),e.a.createElement("p",null,"Form \u901A\u8FC7\u589E\u91CF\u66F4\u65B0\u65B9\u5F0F\uFF0C\u53EA\u66F4\u65B0\u88AB\u4FEE\u6539\u7684\u5B57\u6BB5\u76F8\u5173\u7EC4\u4EF6\u4EE5\u8FBE\u5230\u6027\u80FD\u4F18\u5316\u76EE\u7684\u3002\u5927\u90E8\u5206\u573A\u666F\u4E0B\uFF0C\u4F60\u53EA\u9700\u8981\u7F16\u5199\u4EE3\u7801\u6216\u8005\u4E0E ",e.a.createElement(u.AnchorLink,{to:"#dependencies"},e.a.createElement("code",null,"dependencies"))," \u5C5E\u6027\u914D\u5408\u6821\u9A8C\u5373\u53EF\u3002\u800C\u5728\u67D0\u4E9B\u7279\u5B9A\u573A\u666F\uFF0C\u4F8B\u5982\u4FEE\u6539\u67D0\u4E2A\u5B57\u6BB5\u503C\u540E\u51FA\u73B0\u65B0\u7684\u5B57\u6BB5\u9009\u9879\u3001\u6216\u8005\u7EAF\u7CB9\u5E0C\u671B\u8868\u5355\u4EFB\u610F\u53D8\u5316\u90FD\u5BF9\u67D0\u4E00\u4E2A\u533A\u57DF\u8FDB\u884C\u6E32\u67D3\u3002\u4F60\u53EF\u4EE5\u901A\u8FC7 ",e.a.createElement("code",null,"shouldUpdate")," \u4FEE\u6539 Form.Item \u7684\u66F4\u65B0\u903B\u8F91\u3002"),e.a.createElement("p",null,"\u5F53 ",e.a.createElement("code",null,"shouldUpdate")," \u4E3A ",e.a.createElement("code",null,"true")," \u65F6\uFF0CForm \u7684\u4EFB\u610F\u53D8\u5316\u90FD\u4F1A\u4F7F\u8BE5 Form.Item \u91CD\u65B0\u6E32\u67D3\u3002\u8FD9\u5BF9\u4E8E\u81EA\u5B9A\u4E49\u6E32\u67D3\u4E00\u4E9B\u533A\u57DF\u5341\u5206\u6709\u5E2E\u52A9\uFF1A"),e.a.createElement(l.a,{code:`
-<Form.Item shouldUpdate>
-  {() => {
-    return <pre>{JSON.stringify(form.getFieldsValue(), null, 2)}</pre>;
-  }}
-</Form.Item>
-`,lang:"jsx"}),e.a.createElement("p",null,"\u4F60\u53EF\u4EE5\u53C2\u8003",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-horizontal-login"},"\u793A\u4F8B"),"\u67E5\u770B\u5177\u4F53\u4F7F\u7528\u573A\u666F\u3002"),e.a.createElement("p",null,"\u5F53 ",e.a.createElement("code",null,"shouldUpdate")," \u4E3A\u65B9\u6CD5\u65F6\uFF0C\u8868\u5355\u7684\u6BCF\u6B21\u6570\u503C\u66F4\u65B0\u90FD\u4F1A\u8C03\u7528\u8BE5\u65B9\u6CD5\uFF0C\u63D0\u4F9B\u539F\u5148\u7684\u503C\u4E0E\u5F53\u524D\u7684\u503C\u4EE5\u4F9B\u4F60\u6BD4\u8F83\u662F\u5426\u9700\u8981\u66F4\u65B0\u3002\u8FD9\u5BF9\u4E8E\u662F\u5426\u6839\u636E\u503C\u6765\u6E32\u67D3\u989D\u5916\u5B57\u6BB5\u5341\u5206\u6709\u5E2E\u52A9\uFF1A"),e.a.createElement(l.a,{code:`
-<Form.Item shouldUpdate={(prevValues, curValues) => prevValues.additional !== curValues.additional}>
-  {() => {
-    return (
-      <Form.Item name="other">
-        <Input />
-      </Form.Item>
-    );
-  }}
-</Form.Item>
-`,lang:"jsx"}),e.a.createElement("p",null,"\u4F60\u53EF\u4EE5\u53C2\u8003",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-control-hooks"},"\u793A\u4F8B"),"\u67E5\u770B\u5177\u4F53\u4F7F\u7528\u573A\u666F\u3002"),e.a.createElement("h3",{id:"messagevariables"},e.a.createElement(u.AnchorLink,{to:"#messagevariables","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"messageVariables"),e.a.createElement("p",null,"\u4F60\u53EF\u4EE5\u901A\u8FC7 ",e.a.createElement("code",null,"messageVariables")," \u4FEE\u6539 Form.Item \u7684\u9ED8\u8BA4\u9A8C\u8BC1\u4FE1\u606F\u3002"),e.a.createElement(l.a,{code:`
-<Form>
-  <Form.Item messageVariables={{ another: 'good' }} label="user">
-    <Input />
-  </Form.Item>
-  <Form.Item messageVariables={{ label: 'good' }} label={<span>user</span>}>
-    <Input />
-  </Form.Item>
-</Form>
-`,lang:"jsx"}),e.a.createElement("h2",{id:"formlist"},e.a.createElement(u.AnchorLink,{to:"#formlist","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Form.List"),e.a.createElement("p",null,"\u4E3A\u5B57\u6BB5\u63D0\u4F9B\u6570\u7EC4\u5316\u7BA1\u7406\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"children"),e.a.createElement("td",null,"\u6E32\u67D3\u51FD\u6570"),e.a.createElement("td",null,"(fields: Field[], operation: ","{"," add, remove, move ","}",", meta: ","{"," errors ","}",") => React.ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"initialValue"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5B50\u5143\u7D20\u9ED8\u8BA4\u503C\uFF0C\u5982\u679C\u4E0E Form \u7684 ",e.a.createElement("code",null,"initialValues")," \u51B2\u7A81\u5219\u4EE5 Form \u4E3A\u51C6"),e.a.createElement("td",null,"any[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.9.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"name"),e.a.createElement("td",null,"\u5B57\u6BB5\u540D\uFF0C\u652F\u6301\u6570\u7EC4"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"rules"),e.a.createElement("td",null,"\u6821\u9A8C\u89C4\u5219\uFF0C\u4EC5\u652F\u6301\u81EA\u5B9A\u4E49\u89C4\u5219\u3002\u9700\u8981\u914D\u5408 ",e.a.createElement(u.AnchorLink,{to:"#Form.ErrorList"},"ErrorList")," \u4E00\u540C\u4F7F\u7528\u3002"),e.a.createElement("td",null,"{"," validator, message ","}","[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.7.0")))),e.a.createElement(l.a,{code:`
-<Form.List>
-  {fields => (
-    <div>
-      {fields.map(field => (
-        <Form.Item {...field}>
-          <Input />
-        </Form.Item>
-      ))}
-    </div>
-  )}
-  1
-</Form.List>
-`,lang:"tsx"}),e.a.createElement("p",null,"\u6CE8\u610F\uFF1AForm.List \u4E0B\u7684\u5B57\u6BB5\u4E0D\u5E94\u8BE5\u914D\u7F6E ",e.a.createElement("code",null,"initialValue"),"\uFF0C\u4F60\u59CB\u7EC8\u5E94\u8BE5\u901A\u8FC7 Form.List \u7684 ",e.a.createElement("code",null,"initialValue")," \u6216\u8005 Form \u7684 ",e.a.createElement("code",null,"initialValues")," \u6765\u914D\u7F6E\u3002"),e.a.createElement("h2",{id:"operation"},e.a.createElement(u.AnchorLink,{to:"#operation","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"operation"),e.a.createElement("p",null,"Form.List \u6E32\u67D3\u8868\u5355\u76F8\u5173\u64CD\u4F5C\u51FD\u6570\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"add"),e.a.createElement("td",null,"\u65B0\u589E\u8868\u5355\u9879"),e.a.createElement("td",null,"(defaultValue?: any, insertIndex?: number) => void"),e.a.createElement("td",null,"insertIndex: 4.6.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"move"),e.a.createElement("td",null,"\u79FB\u52A8\u8868\u5355\u9879"),e.a.createElement("td",null,"(from: number, to: number) => void"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"remove"),e.a.createElement("td",null,"\u5220\u9664\u8868\u5355\u9879"),e.a.createElement("td",null,"(index: number | number[]) => void"),e.a.createElement("td",null,"number[]: 4.5.0")))),e.a.createElement("h2",{id:"formerrorlist"},e.a.createElement(u.AnchorLink,{to:"#formerrorlist","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Form.ErrorList"),e.a.createElement("p",null,"4.7.0 \u65B0\u589E\u3002\u9519\u8BEF\u5C55\u793A\u7EC4\u4EF6\uFF0C\u4EC5\u9650\u914D\u5408 Form.List \u7684 rules \u4E00\u540C\u4F7F\u7528\u3002\u53C2\u8003",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-dynamic-form-item"},"\u793A\u4F8B"),"\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"errors"),e.a.createElement("td",null,"\u9519\u8BEF\u5217\u8868"),e.a.createElement("td",null,"ReactNode[]"),e.a.createElement("td",null,"-")))),e.a.createElement("h2",{id:"formprovider"},e.a.createElement(u.AnchorLink,{to:"#formprovider","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Form.Provider"),e.a.createElement("p",null,"\u63D0\u4F9B\u8868\u5355\u95F4\u8054\u52A8\u529F\u80FD\uFF0C\u5176\u4E0B\u8BBE\u7F6E ",e.a.createElement("code",null,"name")," \u7684 Form \u66F4\u65B0\u65F6\uFF0C\u4F1A\u81EA\u52A8\u89E6\u53D1\u5BF9\u5E94\u4E8B\u4EF6\u3002\u67E5\u770B",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-form-context"},"\u793A\u4F8B"),"\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"onFormChange"),e.a.createElement("td",null,"\u5B50\u8868\u5355\u5B57\u6BB5\u66F4\u65B0\u65F6\u89E6\u53D1"),e.a.createElement("td",null,"function(formName: string, info: ","{"," changedFields, forms ","}",")"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onFormFinish"),e.a.createElement("td",null,"\u5B50\u8868\u5355\u63D0\u4EA4\u65F6\u89E6\u53D1"),e.a.createElement("td",null,"function(formName: string, info: ","{"," values, forms ","}",")"),e.a.createElement("td",null,"-")))),e.a.createElement(l.a,{code:`
-<Form.Provider
-  onFormFinish={name => {
-    if (name === 'form1') {
-      // Do something...
-    }
-  }}
-
-  <Form name="form1">...</Form>
-  <Form name="form2">...</Form>
-</Form.Provider>
-`,lang:"jsx"}),e.a.createElement("h3",{id:"forminstance"},e.a.createElement(u.AnchorLink,{to:"#forminstance","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FormInstance"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u540D\u79F0"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"getFieldError"),e.a.createElement("td",null,"\u83B7\u53D6\u5BF9\u5E94\u5B57\u6BB5\u540D\u7684\u9519\u8BEF\u4FE1\u606F"),e.a.createElement("td",null,"(name: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),") => string[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getFieldInstance"),e.a.createElement("td",null,"\u83B7\u53D6\u5BF9\u5E94\u5B57\u6BB5\u5B9E\u4F8B"),e.a.createElement("td",null,"(name: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),") => any"),e.a.createElement("td",null,"4.4.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"getFieldsError"),e.a.createElement("td",null,"\u83B7\u53D6\u4E00\u7EC4\u5B57\u6BB5\u540D\u5BF9\u5E94\u7684\u9519\u8BEF\u4FE1\u606F\uFF0C\u8FD4\u56DE\u4E3A\u6570\u7EC4\u5F62\u5F0F"),e.a.createElement("td",null,"(nameList?: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),"[]) => FieldError[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getFieldsValue"),e.a.createElement("td",null,"\u83B7\u53D6\u4E00\u7EC4\u5B57\u6BB5\u540D\u5BF9\u5E94\u7684\u503C\uFF0C\u4F1A\u6309\u7167\u5BF9\u5E94\u7ED3\u6784\u8FD4\u56DE"),e.a.createElement("td",null,"(nameList?: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),"[], filterFunc?: (meta: ","{"," touched: boolean, validating: boolean ","}",") => boolean) => any"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"getFieldValue"),e.a.createElement("td",null,"\u83B7\u53D6\u5BF9\u5E94\u5B57\u6BB5\u540D\u7684\u503C"),e.a.createElement("td",null,"(name: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),") => any"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"isFieldsTouched"),e.a.createElement("td",null,"\u68C0\u67E5\u4E00\u7EC4\u5B57\u6BB5\u662F\u5426\u88AB\u7528\u6237\u64CD\u4F5C\u8FC7\uFF0C",e.a.createElement("code",null,"allTouched")," \u4E3A ",e.a.createElement("code",null,"true")," \u65F6\u68C0\u67E5\u662F\u5426\u6240\u6709\u5B57\u6BB5\u90FD\u88AB\u64CD\u4F5C\u8FC7"),e.a.createElement("td",null,"(nameList?: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),"[], allTouched?: boolean) => boolean"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"isFieldTouched"),e.a.createElement("td",null,"\u68C0\u67E5\u5BF9\u5E94\u5B57\u6BB5\u662F\u5426\u88AB\u7528\u6237\u64CD\u4F5C\u8FC7"),e.a.createElement("td",null,"(name: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),") => boolean"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"isFieldValidating"),e.a.createElement("td",null,"\u68C0\u67E5\u4E00\u7EC4\u5B57\u6BB5\u662F\u5426\u6B63\u5728\u6821\u9A8C"),e.a.createElement("td",null,"(name: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),") => boolean"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"resetFields"),e.a.createElement("td",null,"\u91CD\u7F6E\u4E00\u7EC4\u5B57\u6BB5\u5230 ",e.a.createElement("code",null,"initialValues")),e.a.createElement("td",null,"(fields?: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),"[]) => void"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"scrollToField"),e.a.createElement("td",null,"\u6EDA\u52A8\u5230\u5BF9\u5E94\u5B57\u6BB5\u4F4D\u7F6E"),e.a.createElement("td",null,"(name: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),", options: [",e.a.createElement(u.Link,{to:"https://github.com/stipsan/scroll-into-view-if-needed/tree/ece40bd9143f48caf4b99503425ecb16b0ad8249#options"},"ScrollOptions"),"]) => void"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"setFields"),e.a.createElement("td",null,"\u8BBE\u7F6E\u4E00\u7EC4\u5B57\u6BB5\u72B6\u6001"),e.a.createElement("td",null,"(fields: ",e.a.createElement(u.AnchorLink,{to:"#FieldData"},"FieldData"),"[]) => void"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"setFieldsValue"),e.a.createElement("td",null,"\u8BBE\u7F6E\u8868\u5355\u7684\u503C"),e.a.createElement("td",null,"(values) => void"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"submit"),e.a.createElement("td",null,"\u63D0\u4EA4\u8868\u5355\uFF0C\u4E0E\u70B9\u51FB ",e.a.createElement("code",null,"submit")," \u6309\u94AE\u6548\u679C\u76F8\u540C"),e.a.createElement("td",null,"() => void"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"validateFields"),e.a.createElement("td",null,"\u89E6\u53D1\u8868\u5355\u9A8C\u8BC1"),e.a.createElement("td",null,"(nameList?: ",e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),"[]) => Promise"),e.a.createElement("td",null)))),e.a.createElement("h4",{id:"validatefields-\u8FD4\u56DE\u793A\u4F8B"},e.a.createElement(u.AnchorLink,{to:"#validatefields-\u8FD4\u56DE\u793A\u4F8B","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"validateFields \u8FD4\u56DE\u793A\u4F8B"),e.a.createElement(l.a,{code:`
-validateFields()
-  .then(values => {
-    /*
-  values:
-    {
-      username: 'username',
-      password: 'password',
-    }
-  */
-  })
-  .catch(errorInfo => {
-    /*
-    errorInfo:
-      {
-        values: {
-          username: 'username',
-          password: 'password',
-        },
-        errorFields: [
-          { name: ['password'], errors: ['Please input your Password!'] },
-        ],
-        outOfDate: false,
-      }
-    */
-  });
-`,lang:"jsx"}),e.a.createElement("h3",{id:"interface"},e.a.createElement(u.AnchorLink,{to:"#interface","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Interface"),e.a.createElement("h4",{id:"namepath"},e.a.createElement(u.AnchorLink,{to:"#namepath","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"NamePath"),e.a.createElement("p",null,e.a.createElement("code",null,"string | number | (string | number)[]")),e.a.createElement("h4",{id:"fielddata"},e.a.createElement(u.AnchorLink,{to:"#fielddata","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FieldData"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u540D\u79F0"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"errors"),e.a.createElement("td",null,"\u9519\u8BEF\u4FE1\u606F"),e.a.createElement("td",null,"string[]")),e.a.createElement("tr",null,e.a.createElement("td",null,"name"),e.a.createElement("td",null,"\u5B57\u6BB5\u540D\u79F0"),e.a.createElement("td",null,e.a.createElement(u.AnchorLink,{to:"#NamePath"},"NamePath"),"[]")),e.a.createElement("tr",null,e.a.createElement("td",null,"touched"),e.a.createElement("td",null,"\u662F\u5426\u88AB\u7528\u6237\u64CD\u4F5C\u8FC7"),e.a.createElement("td",null,"boolean")),e.a.createElement("tr",null,e.a.createElement("td",null,"validating"),e.a.createElement("td",null,"\u662F\u5426\u6B63\u5728\u6821\u9A8C"),e.a.createElement("td",null,"boolean")),e.a.createElement("tr",null,e.a.createElement("td",null,"value"),e.a.createElement("td",null,"\u5B57\u6BB5\u5BF9\u5E94\u503C"),e.a.createElement("td",null,"any")))),e.a.createElement("h4",{id:"rule"},e.a.createElement(u.AnchorLink,{to:"#rule","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Rule"),e.a.createElement("p",null,"Rule \u652F\u6301\u63A5\u6536 object \u8FDB\u884C\u914D\u7F6E\uFF0C\u4E5F\u652F\u6301 function \u6765\u52A8\u6001\u83B7\u53D6 form \u7684\u6570\u636E\uFF1A"),e.a.createElement(l.a,{code:`
-type Rule = RuleConfig | ((form: FormInstance) => RuleConfig);
-`,lang:"tsx"}),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u540D\u79F0"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"enum"),e.a.createElement("td",null,"\u662F\u5426\u5339\u914D\u679A\u4E3E\u4E2D\u7684\u503C\uFF08\u9700\u8981\u5C06 ",e.a.createElement("code",null,"type")," \u8BBE\u7F6E\u4E3A ",e.a.createElement("code",null,"enum"),"\uFF09"),e.a.createElement("td",null,"any[]")),e.a.createElement("tr",null,e.a.createElement("td",null,"len"),e.a.createElement("td",null,"string \u7C7B\u578B\u65F6\u4E3A\u5B57\u7B26\u4E32\u957F\u5EA6\uFF1Bnumber \u7C7B\u578B\u65F6\u4E3A\u786E\u5B9A\u6570\u5B57\uFF1B array \u7C7B\u578B\u65F6\u4E3A\u6570\u7EC4\u957F\u5EA6"),e.a.createElement("td",null,"number")),e.a.createElement("tr",null,e.a.createElement("td",null,"max"),e.a.createElement("td",null,"\u5FC5\u987B\u8BBE\u7F6E ",e.a.createElement("code",null,"type"),"\uFF1Astring \u7C7B\u578B\u4E3A\u5B57\u7B26\u4E32\u6700\u5927\u957F\u5EA6\uFF1Bnumber \u7C7B\u578B\u65F6\u4E3A\u6700\u5927\u503C\uFF1Barray \u7C7B\u578B\u65F6\u4E3A\u6570\u7EC4\u6700\u5927\u957F\u5EA6"),e.a.createElement("td",null,"number")),e.a.createElement("tr",null,e.a.createElement("td",null,"message"),e.a.createElement("td",null,"\u9519\u8BEF\u4FE1\u606F\uFF0C\u4E0D\u8BBE\u7F6E\u65F6\u4F1A\u901A\u8FC7",e.a.createElement(u.AnchorLink,{to:"#validateMessages"},"\u6A21\u677F"),"\u81EA\u52A8\u751F\u6210"),e.a.createElement("td",null,"string")),e.a.createElement("tr",null,e.a.createElement("td",null,"min"),e.a.createElement("td",null,"\u5FC5\u987B\u8BBE\u7F6E ",e.a.createElement("code",null,"type"),"\uFF1Astring \u7C7B\u578B\u4E3A\u5B57\u7B26\u4E32\u6700\u5C0F\u957F\u5EA6\uFF1Bnumber \u7C7B\u578B\u65F6\u4E3A\u6700\u5C0F\u503C\uFF1Barray \u7C7B\u578B\u65F6\u4E3A\u6570\u7EC4\u6700\u5C0F\u957F\u5EA6"),e.a.createElement("td",null,"number")),e.a.createElement("tr",null,e.a.createElement("td",null,"pattern"),e.a.createElement("td",null,"\u6B63\u5219\u8868\u8FBE\u5F0F\u5339\u914D"),e.a.createElement("td",null,"RegExp")),e.a.createElement("tr",null,e.a.createElement("td",null,"required"),e.a.createElement("td",null,"\u662F\u5426\u4E3A\u5FC5\u9009\u5B57\u6BB5"),e.a.createElement("td",null,"boolean")),e.a.createElement("tr",null,e.a.createElement("td",null,"transform"),e.a.createElement("td",null,"\u5C06\u5B57\u6BB5\u503C\u8F6C\u6362\u6210\u76EE\u6807\u503C\u540E\u8FDB\u884C\u6821\u9A8C"),e.a.createElement("td",null,"(value) => any")),e.a.createElement("tr",null,e.a.createElement("td",null,"type"),e.a.createElement("td",null,"\u7C7B\u578B\uFF0C\u5E38\u89C1\u6709 ",e.a.createElement("code",null,"string")," |",e.a.createElement("code",null,"number")," |",e.a.createElement("code",null,"boolean")," |",e.a.createElement("code",null,"url")," | ",e.a.createElement("code",null,"email"),"\u3002\u66F4\u591A\u8BF7\u53C2\u8003",e.a.createElement(u.Link,{to:"https://github.com/yiminghe/async-validator#type"},"\u6B64\u5904")),e.a.createElement("td",null,"string")),e.a.createElement("tr",null,e.a.createElement("td",null,"validateTrigger"),e.a.createElement("td",null,"\u8BBE\u7F6E\u89E6\u53D1\u9A8C\u8BC1\u65F6\u673A\uFF0C\u5FC5\u987B\u662F Form.Item \u7684 ",e.a.createElement("code",null,"validateTrigger")," \u7684\u5B50\u96C6"),e.a.createElement("td",null,"string | string[]")),e.a.createElement("tr",null,e.a.createElement("td",null,"validator"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6821\u9A8C\uFF0C\u63A5\u6536 Promise \u4F5C\u4E3A\u8FD4\u56DE\u503C\u3002",e.a.createElement(u.AnchorLink,{to:"#components-form-demo-register"},"\u793A\u4F8B"),"\u53C2\u8003"),e.a.createElement("td",null,"(",e.a.createElement(u.AnchorLink,{to:"#Rule"},"rule"),", value) => Promise")),e.a.createElement("tr",null,e.a.createElement("td",null,"whitespace"),e.a.createElement("td",null,"\u5982\u679C\u5B57\u6BB5\u4EC5\u5305\u542B\u7A7A\u683C\u5219\u6821\u9A8C\u4E0D\u901A\u8FC7"),e.a.createElement("td",null,"boolean")))),e.a.createElement("h2",{id:"\u4ECE-v3-\u5347\u7EA7\u5230-v4"},e.a.createElement(u.AnchorLink,{to:"#\u4ECE-v3-\u5347\u7EA7\u5230-v4","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4ECE v3 \u5347\u7EA7\u5230 v4"),e.a.createElement("p",null,"\u5982\u679C\u4F60\u662F antd v3 \u7684\u7528\u6237\uFF0C\u4F60\u53EF\u4EE5\u53C2\u8003",e.a.createElement(u.Link,{to:"/components/form/v3"},"\u8FC1\u79FB\u793A\u4F8B"),"\u3002"),e.a.createElement("style",{dangerouslySetInnerHTML:{__html:`
-.code-box-demo .ant-form:not(.ant-form-inline):not(.ant-form-vertical) {
-  max-width: 600px;
-}
-.markdown.api-container table td:nth-of-type(4) {
-  white-space: nowrap;
-  word-wrap: break-word;
-}
-`}}),e.a.createElement("h2",{id:"faq"},e.a.createElement(u.AnchorLink,{to:"#faq","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FAQ"),e.a.createElement("h3",{id:"\u81EA\u5B9A\u4E49-validator-\u6CA1\u6709\u6548\u679C"},e.a.createElement(u.AnchorLink,{to:"#\u81EA\u5B9A\u4E49-validator-\u6CA1\u6709\u6548\u679C","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u81EA\u5B9A\u4E49 validator \u6CA1\u6709\u6548\u679C"),e.a.createElement("p",null,"\u8FD9\u662F\u7531\u4E8E\u4F60\u7684 ",e.a.createElement("code",null,"validator")," \u6709\u9519\u8BEF\u5BFC\u81F4 ",e.a.createElement("code",null,"callback")," \u6CA1\u6709\u6267\u884C\u5230\u3002\u4F60\u53EF\u4EE5\u9009\u62E9\u901A\u8FC7 ",e.a.createElement("code",null,"async")," \u8FD4\u56DE\u4E00\u4E2A promise \u6216\u8005\u4F7F\u7528 ",e.a.createElement("code",null,"try...catch")," \u8FDB\u884C\u9519\u8BEF\u6355\u83B7\uFF1A"),e.a.createElement(l.a,{code:`
-validator: async (rule, value) => {
-  throw new Error('Something wrong!');
-}
-
-// or
-
-validator(rule, value, callback) => {
-  try {
-    throw new Error('Something wrong!');
-  } catch (err) {
-    callback(err);
-  }
-}
-`,lang:"jsx"}),e.a.createElement("h3",{id:"name-\u4E3A\u6570\u7EC4\u65F6\u7684\u8F6C\u6362\u89C4\u5219\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#name-\u4E3A\u6570\u7EC4\u65F6\u7684\u8F6C\u6362\u89C4\u5219\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"name \u4E3A\u6570\u7EC4\u65F6\u7684\u8F6C\u6362\u89C4\u5219\uFF1F"),e.a.createElement("p",null,"\u5F53 ",e.a.createElement("code",null,"name")," \u4E3A\u6570\u7EC4\u65F6\uFF0C\u4F1A\u6309\u7167\u987A\u5E8F\u586B\u5145\u8DEF\u5F84\u3002\u5F53\u5B58\u5728\u6570\u5B57\u4E14 form store \u4E2D\u6CA1\u6709\u8BE5\u5B57\u6BB5\u65F6\u4F1A\u81EA\u52A8\u8F6C\u53D8\u6210\u6570\u7EC4\u3002\u56E0\u800C\u5982\u679C\u9700\u8981\u6570\u7EC4\u4E3A key \u65F6\u8BF7\u4F7F\u7528 string \u5982\uFF1A",e.a.createElement("code",null,"['1', 'name']"),"\u3002"),e.a.createElement("h3",{id:"\u4E3A\u4F55\u5728-modal-\u4E2D\u8C03\u7528-form-\u63A7\u5236\u53F0\u4F1A\u62A5\u9519\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4F55\u5728-modal-\u4E2D\u8C03\u7528-form-\u63A7\u5236\u53F0\u4F1A\u62A5\u9519\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4F55\u5728 Modal \u4E2D\u8C03\u7528 form \u63A7\u5236\u53F0\u4F1A\u62A5\u9519\uFF1F"),e.a.createElement("p",null,"Warning: Instance created by ",e.a.createElement("code",null,"useForm")," is not connect to any Form element. Forget to pass ",e.a.createElement("code",null,"form")," prop?"),e.a.createElement("p",null,"\u8FD9\u662F\u56E0\u4E3A\u4F60\u5728\u8C03\u7528 form \u65B9\u6CD5\u65F6\uFF0CModal \u8FD8\u672A\u521D\u59CB\u5316\u5BFC\u81F4 form \u6CA1\u6709\u5173\u8054\u4EFB\u4F55 Form \u7EC4\u4EF6\u3002\u4F60\u53EF\u4EE5\u901A\u8FC7\u7ED9 Modal \u8BBE\u7F6E ",e.a.createElement("code",null,"forceRender")," \u5C06\u5176\u9884\u6E32\u67D3\u3002\u793A\u4F8B\u70B9\u51FB",e.a.createElement(u.Link,{to:"https://codesandbox.io/s/antd-reproduction-template-ibu5c"},"\u6B64\u5904"),"\u3002"),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48-formitem-\u4E0B\u7684\u5B50\u7EC4\u4EF6-defaultvalue-\u4E0D\u751F\u6548\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48-formitem-\u4E0B\u7684\u5B50\u7EC4\u4EF6-defaultvalue-\u4E0D\u751F\u6548\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48 Form.Item \u4E0B\u7684\u5B50\u7EC4\u4EF6 ",e.a.createElement("code",null,"defaultValue")," \u4E0D\u751F\u6548\uFF1F"),e.a.createElement("p",null,"\u5F53\u4F60\u4E3A Form.Item \u8BBE\u7F6E ",e.a.createElement("code",null,"name")," \u5C5E\u6027\u540E\uFF0C\u5B50\u7EC4\u4EF6\u4F1A\u8F6C\u4E3A\u53D7\u63A7\u6A21\u5F0F\u3002\u56E0\u800C ",e.a.createElement("code",null,"defaultValue")," \u4E0D\u4F1A\u751F\u6548\u3002\u4F60\u9700\u8981\u5728 Form \u4E0A\u901A\u8FC7 ",e.a.createElement("code",null,"initialValues")," \u8BBE\u7F6E\u9ED8\u8BA4\u503C\u3002"),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48\u7B2C\u4E00\u6B21\u8C03\u7528-ref-\u7684-from-\u4E3A\u7A7A\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48\u7B2C\u4E00\u6B21\u8C03\u7528-ref-\u7684-from-\u4E3A\u7A7A\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48\u7B2C\u4E00\u6B21\u8C03\u7528 ",e.a.createElement("code",null,"ref")," \u7684 From \u4E3A\u7A7A\uFF1F"),e.a.createElement("p",null,e.a.createElement("code",null,"ref")," \u4EC5\u5728\u8282\u70B9\u88AB\u52A0\u8F7D\u65F6\u624D\u4F1A\u88AB\u8D4B\u503C\uFF0C\u8BF7\u53C2\u8003 React \u5B98\u65B9\u6587\u6863\uFF1A",e.a.createElement(u.Link,{to:"https://reactjs.org/docs/refs-and-the-dom.html#accessing-refs"},"https://reactjs.org/docs/refs-and-the-dom.html#accessing-refs")),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48-resetfields-\u4F1A\u91CD\u65B0-mount-\u7EC4\u4EF6\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48-resetfields-\u4F1A\u91CD\u65B0-mount-\u7EC4\u4EF6\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48 ",e.a.createElement("code",null,"resetFields")," \u4F1A\u91CD\u65B0 mount \u7EC4\u4EF6\uFF1F"),e.a.createElement("p",null,e.a.createElement("code",null,"resetFields")," \u4F1A\u91CD\u7F6E\u6574\u4E2A Field\uFF0C\u56E0\u800C\u5176\u5B50\u7EC4\u4EF6\u4E5F\u4F1A\u91CD\u65B0 mount \u4ECE\u800C\u6D88\u9664\u81EA\u5B9A\u4E49\u7EC4\u4EF6\u53EF\u80FD\u5B58\u5728\u7684\u526F\u4F5C\u7528\uFF08\u4F8B\u5982\u5F02\u6B65\u6570\u636E\u3001\u72B6\u6001\u7B49\u7B49\uFF09\u3002"),e.a.createElement("h3",{id:"form-\u7684-initialvalues-\u4E0E-item-\u7684-initialvalue-\u533A\u522B\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#form-\u7684-initialvalues-\u4E0E-item-\u7684-initialvalue-\u533A\u522B\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Form \u7684 initialValues \u4E0E Item \u7684 initialValue \u533A\u522B\uFF1F"),e.a.createElement("p",null,"\u5728\u5927\u90E8\u5206\u573A\u666F\u4E0B\uFF0C\u6211\u4EEC\u603B\u662F\u63A8\u8350\u4F18\u5148\u4F7F\u7528 Form \u7684 ",e.a.createElement("code",null,"initialValues"),"\u3002\u53EA\u6709\u5B58\u5728\u52A8\u6001\u5B57\u6BB5\u65F6\u4F60\u624D\u5E94\u8BE5\u4F7F\u7528 Item \u7684 ",e.a.createElement("code",null,"initialValue"),"\u3002\u9ED8\u8BA4\u503C\u9075\u5FAA\u4EE5\u4E0B\u89C4\u5219\uFF1A"),e.a.createElement("ol",null,e.a.createElement("li",null,"Form \u7684 ",e.a.createElement("code",null,"initialValues")," \u62E5\u6709\u6700\u9AD8\u4F18\u5148\u7EA7"),e.a.createElement("li",null,"Field \u7684 ",e.a.createElement("code",null,"initialValue")," \u6B21\u4E4B *. \u591A\u4E2A\u540C ",e.a.createElement("code",null,"name")," Item \u90FD\u8BBE\u7F6E ",e.a.createElement("code",null,"initialValue")," \u65F6\uFF0C\u5219 Item \u7684 ",e.a.createElement("code",null,"initialValue")," \u4E0D\u751F\u6548")),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48\u5B57\u6BB5\u8BBE\u7F6E-rules-\u540E\u66F4\u6539\u503C-onfieldschange-\u4F1A\u89E6\u53D1\u4E09\u6B21\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48\u5B57\u6BB5\u8BBE\u7F6E-rules-\u540E\u66F4\u6539\u503C-onfieldschange-\u4F1A\u89E6\u53D1\u4E09\u6B21\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48\u5B57\u6BB5\u8BBE\u7F6E ",e.a.createElement("code",null,"rules")," \u540E\u66F4\u6539\u503C ",e.a.createElement("code",null,"onFieldsChange")," \u4F1A\u89E6\u53D1\u4E09\u6B21\uFF1F"),e.a.createElement("p",null,"\u5B57\u6BB5\u9664\u4E86\u672C\u8EAB\u7684\u503C\u53D8\u5316\u5916\uFF0C\u6821\u9A8C\u4E5F\u662F\u5176\u72B6\u6001\u4E4B\u4E00\u3002\u56E0\u800C\u5728\u89E6\u53D1\u5B57\u6BB5\u53D8\u5316\u4F1A\u7ECF\u5386\u4EE5\u4E0B\u51E0\u4E2A\u9636\u6BB5\uFF1A"),e.a.createElement("ol",null,e.a.createElement("li",null,"Trigger value change"),e.a.createElement("li",null,"Rule validating"),e.a.createElement("li",null,"Rule validated")),e.a.createElement("p",null,"\u5728\u89E6\u53D1\u8FC7\u7A0B\u4E2D\uFF0C\u8C03\u7528 ",e.a.createElement("code",null,"isFieldValidating")," \u4F1A\u7ECF\u5386 ",e.a.createElement("code",null,"false")," > ",e.a.createElement("code",null,"true")," > ",e.a.createElement("code",null,"false")," \u7684\u53D8\u5316\u8FC7\u7A0B\u3002"),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48-formlist-\u4E0D\u652F\u6301-label-\u8FD8\u9700\u8981\u4F7F\u7528-errorlist-\u5C55\u793A\u9519\u8BEF\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48-formlist-\u4E0D\u652F\u6301-label-\u8FD8\u9700\u8981\u4F7F\u7528-errorlist-\u5C55\u793A\u9519\u8BEF\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48 Form.List \u4E0D\u652F\u6301 ",e.a.createElement("code",null,"label")," \u8FD8\u9700\u8981\u4F7F\u7528 ErrorList \u5C55\u793A\u9519\u8BEF\uFF1F"),e.a.createElement("p",null,"Form.List \u672C\u8EAB\u662F renderProps\uFF0C\u5185\u90E8\u6837\u5F0F\u975E\u5E38\u81EA\u7531\u3002\u56E0\u800C\u9ED8\u8BA4\u914D\u7F6E ",e.a.createElement("code",null,"label")," \u548C ",e.a.createElement("code",null,"error")," \u8282\u70B9\u5F88\u96BE\u4E0E\u4E4B\u914D\u5408\u3002\u5982\u679C\u4F60\u9700\u8981 antd \u6837\u5F0F\u7684 ",e.a.createElement("code",null,"label"),"\uFF0C\u53EF\u4EE5\u901A\u8FC7\u5916\u90E8\u5305\u88F9 Form.Item \u6765\u5B9E\u73B0\u3002"),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48-formitem-\u7684-dependencies-\u5BF9-formlist-\u4E0B\u7684\u5B57\u6BB5\u6CA1\u6709\u6548\u679C\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48-formitem-\u7684-dependencies-\u5BF9-formlist-\u4E0B\u7684\u5B57\u6BB5\u6CA1\u6709\u6548\u679C\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48 Form.Item \u7684 ",e.a.createElement("code",null,"dependencies")," \u5BF9 Form.List \u4E0B\u7684\u5B57\u6BB5\u6CA1\u6709\u6548\u679C\uFF1F"),e.a.createElement("p",null,"Form.List \u4E0B\u7684\u5B57\u6BB5\u9700\u8981\u5305\u88F9 Form.List \u672C\u8EAB\u7684 ",e.a.createElement("code",null,"name"),"\uFF0C\u6BD4\u5982\uFF1A"),e.a.createElement(l.a,{code:`
-<Form.List name="users">
-  {fields =>
-    fields.map(field => (
-      <React.Fragment key={field.key}>
-        <Form.Item name={[field.name, 'name']} {...someRest1} />
-        <Form.Item name={[field.name, 'age']} {...someRest1} />
-      </React.Fragment>
-    ))
-  }
-</Form.List>
-`,lang:"tsx"}),e.a.createElement("p",null,"\u4F9D\u8D56\u5219\u662F\uFF1A",e.a.createElement("code",null,"['users', 0, 'name']")),e.a.createElement("h3",{id:"\u4E3A\u4EC0\u4E48-normalize-\u4E0D\u80FD\u662F\u5F02\u6B65\u65B9\u6CD5\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u4E3A\u4EC0\u4E48-normalize-\u4E0D\u80FD\u662F\u5F02\u6B65\u65B9\u6CD5\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E3A\u4EC0\u4E48 ",e.a.createElement("code",null,"normalize")," \u4E0D\u80FD\u662F\u5F02\u6B65\u65B9\u6CD5\uFF1F"),e.a.createElement("p",null,"React \u4E2D\u5F02\u6B65\u66F4\u65B0\u4F1A\u5BFC\u81F4\u53D7\u63A7\u7EC4\u4EF6\u4EA4\u4E92\u884C\u4E3A\u5F02\u5E38\u3002\u5F53\u7528\u6237\u4EA4\u4E92\u89E6\u53D1 ",e.a.createElement("code",null,"onChange")," \u540E\uFF0C\u901A\u8FC7\u5F02\u6B65\u6539\u53D8\u503C\u4F1A\u5BFC\u81F4\u7EC4\u4EF6 ",e.a.createElement("code",null,"value")," \u4E0D\u4F1A\u7ACB\u523B\u66F4\u65B0\uFF0C\u4F7F\u5F97\u7EC4\u4EF6\u5448\u73B0\u5047\u6B7B\u72B6\u6001\u3002\u5982\u679C\u4F60\u9700\u8981\u5F02\u6B65\u89E6\u53D1\u53D8\u66F4\uFF0C\u8BF7\u901A\u8FC7\u81EA\u5B9A\u4E49\u7EC4\u4EF6\u5B9E\u73B0\u5185\u90E8\u5F02\u6B65\u72B6\u6001\u3002"),e.a.createElement("style",{dangerouslySetInnerHTML:{__html:`
-  .site-form-item-icon {
-    color: rgba(0, 0, 0, 0.25);
-  }
-  [data-theme="dark"] .site-form-item-icon {
-    color: rgba(255,255,255,.3);
-  }
-`}}),e.a.createElement("h3",{id:"\u81EA\u5B9A\u4E49\u8868\u5355\u63A7\u4EF6-scrolltofirsterror-\u548C-scrolltofield-\u5931\u6548\uFF1F"},e.a.createElement(u.AnchorLink,{to:"#\u81EA\u5B9A\u4E49\u8868\u5355\u63A7\u4EF6-scrolltofirsterror-\u548C-scrolltofield-\u5931\u6548\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u81EA\u5B9A\u4E49\u8868\u5355\u63A7\u4EF6 ",e.a.createElement("code",null,"scrollToFirstError")," \u548C ",e.a.createElement("code",null,"scrollToField")," \u5931\u6548\uFF1F"),e.a.createElement("p",null,"\u7C7B\u4F3C\u95EE\u9898\uFF1A",e.a.createElement(u.Link,{to:"https://github.com/ant-design/ant-design/issues/28370"},"#28370")," ",e.a.createElement(u.Link,{to:"https://github.com/ant-design/ant-design/issues/27994"},"#27994")),e.a.createElement("p",null,"\u6EDA\u52A8\u4F9D\u8D56\u4E8E\u8868\u5355\u63A7\u4EF6\u5143\u7D20\u4E0A\u7ED1\u5B9A\u7684 ",e.a.createElement("code",null,"id")," \u5B57\u6BB5\uFF0C\u5982\u679C\u81EA\u5B9A\u4E49\u63A7\u4EF6\u6CA1\u6709\u5C06 ",e.a.createElement("code",null,"id")," \u8D4B\u5230\u6B63\u786E\u7684\u5143\u7D20\u4E0A\uFF0C\u8FD9\u4E2A\u529F\u80FD\u5C06\u5931\u6548\u3002\u4F60\u53EF\u4EE5\u53C2\u8003\u8FD9\u4E2A ",e.a.createElement(u.Link,{to:"https://codesandbox.io/s/antd-reproduction-template-forked-25nul?file=/index.js"},"codesandbox"),"\u3002")))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [3],
+  {
+    Bjia: function(e, t, l) {
+      'use strict';
+      var a = l('0Owb'),
+        n = l('PpiC'),
+        r = l('cDcd'),
+        c = l.n(r),
+        m = l('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var l = e.children,
+          r = Object(n['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(a['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, l),
+        );
+      });
+    },
+    atsV: function(e, t, l) {
+      'use strict';
+      l.r(t);
+      var a = l('cDcd'),
+        n = l.n(a),
+        r = l('dEAq');
+      l('g5U0'), l('ekZX'), l('ltCa'), l('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u9ad8\u6027\u80fd\u8868\u5355\u63a7\u4ef6\uff0c\u81ea\u5e26\u6570\u636e\u57df\u7ba1\u7406\u3002\u5305\u542b\u6570\u636e\u5f55\u5165\u3001\u6821\u9a8c\u4ee5\u53ca\u5bf9\u5e94\u6837\u5f0f\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u7528\u4e8e\u521b\u5efa\u4e00\u4e2a\u5b9e\u4f53\u6216\u6536\u96c6\u4fe1\u606f\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u9700\u8981\u5bf9\u8f93\u5165\u7684\u6570\u636e\u7c7b\u578b\u8fdb\u884c\u6821\u9a8c\u65f6\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, l) {
+      'use strict';
+      var a = l('kPKH');
+      l('h9md');
+      t['a'] = a['a'];
+    },
+    ltCa: function(e, t, l) {
+      'use strict';
+      var a = l('BMrR');
+      l('7xIR');
+      t['a'] = a['a'];
+    },
+    r7g3: function(e, t, l) {
+      'use strict';
+      l.r(t);
+      var a = l('cDcd'),
+        n = l.n(a),
+        r = l('dEAq'),
+        c = (l('g5U0'), l('ekZX'), l('ltCa'), l('Bjia'));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'form' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#form', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Form',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'colon'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u914d\u7f6e Form.Item \u7684 ',
+                    n.a.createElement('code', null, 'colon'),
+                    ' \u7684\u9ed8\u8ba4\u503c\u3002\u8868\u793a\u662f\u5426\u663e\u793a label \u540e\u9762\u7684\u5192\u53f7 (\u53ea\u6709\u5728\u5c5e\u6027 layout \u4e3a horizontal \u65f6\u6709\u6548)',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'component'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e Form \u6e32\u67d3\u5143\u7d20\uff0c\u4e3a ',
+                    n.a.createElement('code', null, 'false'),
+                    ' \u5219\u4e0d\u521b\u5efa DOM \u8282\u70b9',
+                  ),
+                  n.a.createElement('td', null, 'ComponentType | false'),
+                  n.a.createElement('td', null, 'form'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'fields'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u901a\u8fc7\u72b6\u6001\u7ba1\u7406\uff08\u5982 redux\uff09\u63a7\u5236\u8868\u5355\u5b57\u6bb5\uff0c\u5982\u975e\u5f3a\u9700\u6c42\u4e0d\u63a8\u8350\u4f7f\u7528\u3002\u67e5\u770b',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#components-form-demo-global-state' },
+                      '\u793a\u4f8b',
+                    ),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#FieldData' },
+                      'FieldData',
+                    ),
+                    '[]',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'form'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u7ecf ',
+                    n.a.createElement('code', null, 'Form.useForm()'),
+                    ' \u521b\u5efa\u7684 form \u63a7\u5236\u5b9e\u4f8b\uff0c\u4e0d\u63d0\u4f9b\u65f6\u4f1a\u81ea\u52a8\u521b\u5efa',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#FormInstance' },
+                      'FormInstance',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'initialValues'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u5355\u9ed8\u8ba4\u503c\uff0c\u53ea\u6709\u521d\u59cb\u5316\u4ee5\u53ca\u91cd\u7f6e\u65f6\u751f\u6548',
+                  ),
+                  n.a.createElement('td', null, 'object'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'labelAlign'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'label \u6807\u7b7e\u7684\u6587\u672c\u5bf9\u9f50\u65b9\u5f0f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'left'),
+                    ' | ',
+                    n.a.createElement('code', null, 'right'),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'right'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'labelCol'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'label \u6807\u7b7e\u5e03\u5c40\uff0c\u540c ',
+                    n.a.createElement('code', null, '<Col>'),
+                    ' \u7ec4\u4ef6\uff0c\u8bbe\u7f6e ',
+                    n.a.createElement('code', null, 'span'),
+                    ' ',
+                    n.a.createElement('code', null, 'offset'),
+                    ' \u503c\uff0c\u5982 ',
+                    n.a.createElement(
+                      'code',
+                      null,
+                      '{',
+                      'span: 3, offset: 12',
+                      '}',
+                    ),
+                    ' \u6216 ',
+                    n.a.createElement(
+                      'code',
+                      null,
+                      'sm: ',
+                      '{',
+                      'span: 3, offset: 12',
+                      '}',
+                    ),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/grid/#Col' },
+                      'object',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'layout'),
+                  n.a.createElement('td', null, '\u8868\u5355\u5e03\u5c40'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'horizontal'),
+                    ' | ',
+                    n.a.createElement('code', null, 'vertical'),
+                    ' | ',
+                    n.a.createElement('code', null, 'inline'),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'horizontal'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'name'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8868\u5355\u540d\u79f0\uff0c\u4f1a\u4f5c\u4e3a\u8868\u5355\u5b57\u6bb5 ',
+                    n.a.createElement('code', null, 'id'),
+                    ' \u524d\u7f00\u4f7f\u7528',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'preserve'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u5b57\u6bb5\u88ab\u5220\u9664\u65f6\u4fdd\u7559\u5b57\u6bb5\u503c',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null, '4.4.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'requiredMark'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5fc5\u9009\u6837\u5f0f\uff0c\u53ef\u4ee5\u5207\u6362\u4e3a\u5fc5\u9009\u6216\u8005\u53ef\u9009\u5c55\u793a\u6837\u5f0f\u3002\u6b64\u4e3a Form \u914d\u7f6e\uff0cForm.Item \u65e0\u6cd5\u5355\u72ec\u914d\u7f6e',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    n.a.createElement('code', null, 'optional'),
+                  ),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null, '4.6.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'scrollToFirstError'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63d0\u4ea4\u5931\u8d25\u81ea\u52a8\u6eda\u52a8\u5230\u7b2c\u4e00\u4e2a\u9519\u8bef\u5b57\u6bb5',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'size'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5b57\u6bb5\u7ec4\u4ef6\u7684\u5c3a\u5bf8\uff08\u4ec5\u9650 antd \u7ec4\u4ef6\uff09',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'small'),
+                    ' | ',
+                    n.a.createElement('code', null, 'middle'),
+                    ' | ',
+                    n.a.createElement('code', null, 'large'),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validateMessages'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9a8c\u8bc1\u63d0\u793a\u6a21\u677f\uff0c\u8bf4\u660e',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#validateMessages' },
+                      '\u89c1\u4e0b',
+                    ),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/react-component/field-form/blob/master/src/utils/messages.ts',
+                      },
+                      'ValidateMessages',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validateTrigger'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u7edf\u4e00\u8bbe\u7f6e\u5b57\u6bb5\u6821\u9a8c\u89c4\u5219',
+                  ),
+                  n.a.createElement('td', null, 'string | string[]'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'onChange'),
+                  ),
+                  n.a.createElement('td', null, '4.3.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'wrapperCol'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9700\u8981\u4e3a\u8f93\u5165\u63a7\u4ef6\u8bbe\u7f6e\u5e03\u5c40\u6837\u5f0f\u65f6\uff0c\u4f7f\u7528\u8be5\u5c5e\u6027\uff0c\u7528\u6cd5\u540c labelCol',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/grid/#Col' },
+                      'object',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onFieldsChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5b57\u6bb5\u66f4\u65b0\u65f6\u89e6\u53d1\u56de\u8c03\u4e8b\u4ef6',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(changedFields, allFields)',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onFinish'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63d0\u4ea4\u8868\u5355\u4e14\u6570\u636e\u9a8c\u8bc1\u6210\u529f\u540e\u56de\u8c03\u4e8b\u4ef6',
+                  ),
+                  n.a.createElement('td', null, 'function(values)'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onFinishFailed'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63d0\u4ea4\u8868\u5355\u4e14\u6570\u636e\u9a8c\u8bc1\u5931\u8d25\u540e\u56de\u8c03\u4e8b\u4ef6',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(',
+                    '{',
+                    ' values, errorFields, outOfDate ',
+                    '}',
+                    ')',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onValuesChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5b57\u6bb5\u503c\u66f4\u65b0\u65f6\u89e6\u53d1\u56de\u8c03\u4e8b\u4ef6',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(changedValues, allValues)',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'validatemessages' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#validatemessages',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'validateMessages',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'Form \u4e3a\u9a8c\u8bc1\u63d0\u4f9b\u4e86',
+              n.a.createElement(
+                r['Link'],
+                {
+                  to:
+                    'https://github.com/react-component/field-form/blob/master/src/utils/messages.ts',
+                },
+                '\u9ed8\u8ba4\u7684\u9519\u8bef\u63d0\u793a\u4fe1\u606f',
+              ),
+              '\uff0c\u4f60\u53ef\u4ee5\u901a\u8fc7\u914d\u7f6e ',
+              n.a.createElement('code', null, 'validateMessages'),
+              ' \u5c5e\u6027\uff0c\u4fee\u6539\u5bf9\u5e94\u7684\u63d0\u793a\u6a21\u677f\u3002\u4e00\u79cd\u5e38\u89c1\u7684\u4f7f\u7528\u65b9\u5f0f\uff0c\u662f\u914d\u7f6e\u56fd\u9645\u5316\u63d0\u793a\u4fe1\u606f\uff1a',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\nconst validateMessages = {\n  required: "\'${name}\' \u662f\u5fc5\u9009\u5b57\u6bb5",\n  // ...\n};\n\n<Form validateMessages={validateMessages} />;\n',
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'p',
+              null,
+              '\u6b64\u5916\uff0c',
+              n.a.createElement(
+                r['Link'],
+                { to: '/components/config-provider/' },
+                'ConfigProvider',
+              ),
+              ' \u4e5f\u63d0\u4f9b\u4e86\u5168\u5c40\u5316\u914d\u7f6e\u65b9\u6848\uff0c\u5141\u8bb8\u7edf\u4e00\u914d\u7f6e\u9519\u8bef\u63d0\u793a\u6a21\u677f\uff1a',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\nconst validateMessages = {\n  required: "\'${name}\' \u662f\u5fc5\u9009\u5b57\u6bb5",\n  // ...\n};\n\n<ConfigProvider form={{ validateMessages }}>\n  <Form />\n</ConfigProvider>;\n',
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'h2',
+              { id: 'formitem' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#formitem', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Form.Item',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u8868\u5355\u5b57\u6bb5\u7ec4\u4ef6\uff0c\u7528\u4e8e\u6570\u636e\u53cc\u5411\u7ed1\u5b9a\u3001\u6821\u9a8c\u3001\u5e03\u5c40\u7b49\u3002',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'colon'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u914d\u5408 ',
+                    n.a.createElement('code', null, 'label'),
+                    ' \u5c5e\u6027\u4f7f\u7528\uff0c\u8868\u793a\u662f\u5426\u663e\u793a ',
+                    n.a.createElement('code', null, 'label'),
+                    ' \u540e\u9762\u7684\u5192\u53f7',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'dependencies'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u4f9d\u8d56\u5b57\u6bb5\uff0c\u8bf4\u660e',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#dependencies' },
+                      '\u89c1\u4e0b',
+                    ),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    '[]',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'extra'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u989d\u5916\u7684\u63d0\u793a\u4fe1\u606f\uff0c\u548c ',
+                    n.a.createElement('code', null, 'help'),
+                    ' \u7c7b\u4f3c\uff0c\u5f53\u9700\u8981\u9519\u8bef\u4fe1\u606f\u548c\u63d0\u793a\u6587\u6848\u540c\u65f6\u51fa\u73b0\u65f6\uff0c\u53ef\u4ee5\u4f7f\u7528\u8fd9\u4e2a\u3002',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'getValueFromEvent'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5982\u4f55\u5c06 event \u7684\u503c\u8f6c\u6362\u6210\u5b57\u6bb5\u503c',
+                  ),
+                  n.a.createElement('td', null, '(..args: any[]) => any'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'getValueProps'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e3a\u5b50\u5143\u7d20\u6dfb\u52a0\u989d\u5916\u7684\u5c5e\u6027',
+                  ),
+                  n.a.createElement('td', null, '(value: any) => any'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.2.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'hasFeedback'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u914d\u5408 ',
+                    n.a.createElement('code', null, 'validateStatus'),
+                    ' \u5c5e\u6027\u4f7f\u7528\uff0c\u5c55\u793a\u6821\u9a8c\u72b6\u6001\u56fe\u6807\uff0c\u5efa\u8bae\u53ea\u914d\u5408 Input \u7ec4\u4ef6\u4f7f\u7528',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'help'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63d0\u793a\u4fe1\u606f\uff0c\u5982\u4e0d\u8bbe\u7f6e\uff0c\u5219\u4f1a\u6839\u636e\u6821\u9a8c\u89c4\u5219\u81ea\u52a8\u751f\u6210',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'hidden'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u9690\u85cf\u5b57\u6bb5\uff08\u4f9d\u7136\u4f1a\u6536\u96c6\u548c\u6821\u9a8c\u5b57\u6bb5\uff09',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'htmlFor'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5b50\u5143\u7d20 label ',
+                    n.a.createElement('code', null, 'htmlFor'),
+                    ' \u5c5e\u6027',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'initialValue'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5b50\u5143\u7d20\u9ed8\u8ba4\u503c\uff0c\u5982\u679c\u4e0e Form \u7684 ',
+                    n.a.createElement('code', null, 'initialValues'),
+                    ' \u51b2\u7a81\u5219\u4ee5 Form \u4e3a\u51c6',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.2.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'label'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'label'),
+                    ' \u6807\u7b7e\u7684\u6587\u672c',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'labelAlign'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6807\u7b7e\u6587\u672c\u5bf9\u9f50\u65b9\u5f0f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'left'),
+                    ' | ',
+                    n.a.createElement('code', null, 'right'),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'right'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'labelCol'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'label'),
+                    ' \u6807\u7b7e\u5e03\u5c40\uff0c\u540c ',
+                    n.a.createElement('code', null, '<Col>'),
+                    ' \u7ec4\u4ef6\uff0c\u8bbe\u7f6e ',
+                    n.a.createElement('code', null, 'span'),
+                    ' ',
+                    n.a.createElement('code', null, 'offset'),
+                    ' \u503c\uff0c\u5982 ',
+                    n.a.createElement(
+                      'code',
+                      null,
+                      '{',
+                      'span: 3, offset: 12',
+                      '}',
+                    ),
+                    ' \u6216 ',
+                    n.a.createElement(
+                      'code',
+                      null,
+                      'sm: ',
+                      '{',
+                      'span: 3, offset: 12',
+                      '}',
+                    ),
+                    '\u3002\u4f60\u53ef\u4ee5\u901a\u8fc7 Form \u7684 ',
+                    n.a.createElement('code', null, 'labelCol'),
+                    ' \u8fdb\u884c\u7edf\u4e00\u8bbe\u7f6e\uff0c\uff0c\u4e0d\u4f1a\u4f5c\u7528\u4e8e\u5d4c\u5957 Item\u3002\u5f53\u548c Form \u540c\u65f6\u8bbe\u7f6e\u65f6\uff0c\u4ee5 Item \u4e3a\u51c6',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/grid/#Col' },
+                      'object',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'messageVariables'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u9a8c\u8bc1\u5b57\u6bb5\u7684\u4fe1\u606f',
+                  ),
+                  n.a.createElement('td', null, 'Record<string, string>'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.7.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'name'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5b57\u6bb5\u540d\uff0c\u652f\u6301\u6570\u7ec4',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'normalize'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u7ec4\u4ef6\u83b7\u53d6\u503c\u540e\u8fdb\u884c\u8f6c\u6362\uff0c\u518d\u653e\u5165 Form \u4e2d\u3002\u4e0d\u652f\u6301\u5f02\u6b65',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(value, prevValue, prevValues) => any',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'noStyle'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e3a ',
+                    n.a.createElement('code', null, 'true'),
+                    ' \u65f6\u4e0d\u5e26\u6837\u5f0f\uff0c\u4f5c\u4e3a\u7eaf\u5b57\u6bb5\u63a7\u4ef6\u4f7f\u7528',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'preserve'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u5b57\u6bb5\u88ab\u5220\u9664\u65f6\u4fdd\u7559\u5b57\u6bb5\u503c',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null, '4.4.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'required'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5fc5\u586b\u6837\u5f0f\u8bbe\u7f6e\u3002\u5982\u4e0d\u8bbe\u7f6e\uff0c\u5219\u4f1a\u6839\u636e\u6821\u9a8c\u89c4\u5219\u81ea\u52a8\u751f\u6210',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'rules'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6821\u9a8c\u89c4\u5219\uff0c\u8bbe\u7f6e\u5b57\u6bb5\u7684\u6821\u9a8c\u903b\u8f91\u3002\u70b9\u51fb',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#components-form-demo-basic' },
+                      '\u6b64\u5904',
+                    ),
+                    '\u67e5\u770b\u793a\u4f8b',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(r['AnchorLink'], { to: '#Rule' }, 'Rule'),
+                    '[]',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'shouldUpdate'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5b57\u6bb5\u66f4\u65b0\u903b\u8f91\uff0c\u8bf4\u660e',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#shouldUpdate' },
+                      '\u89c1\u4e0b',
+                    ),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'boolean | (prevValue, curValue) => boolean',
+                  ),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'tooltip'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u914d\u7f6e\u63d0\u793a\u4fe1\u606f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'ReactNode | ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/tooltip#API' },
+                      'TooltipProps & ',
+                      '{',
+                      ' icon: ReactNode ',
+                      '}',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.7.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'trigger'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u6536\u96c6\u5b57\u6bb5\u503c\u53d8\u66f4\u7684\u65f6\u673a\u3002\u70b9\u51fb',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#components-form-demo-customized-form-controls' },
+                      '\u6b64\u5904',
+                    ),
+                    '\u67e5\u770b\u793a\u4f8b',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'onChange'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validateFirst'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u67d0\u4e00\u89c4\u5219\u6821\u9a8c\u4e0d\u901a\u8fc7\u65f6\uff0c\u662f\u5426\u505c\u6b62\u5269\u4e0b\u7684\u89c4\u5219\u7684\u6821\u9a8c\u3002\u8bbe\u7f6e ',
+                    n.a.createElement('code', null, 'parallel'),
+                    ' \u65f6\u4f1a\u5e76\u884c\u6821\u9a8c',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    n.a.createElement('code', null, 'parallel'),
+                  ),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'parallel'),
+                    ': 4.5.0',
+                  ),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validateStatus'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    "\u6821\u9a8c\u72b6\u6001\uff0c\u5982\u4e0d\u8bbe\u7f6e\uff0c\u5219\u4f1a\u6839\u636e\u6821\u9a8c\u89c4\u5219\u81ea\u52a8\u751f\u6210\uff0c\u53ef\u9009\uff1a'success' 'warning' 'error' 'validating'",
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validateTrigger'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5b57\u6bb5\u6821\u9a8c\u7684\u65f6\u673a',
+                  ),
+                  n.a.createElement('td', null, 'string | string[]'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'onChange'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'valuePropName'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    "\u5b50\u8282\u70b9\u7684\u503c\u7684\u5c5e\u6027\uff0c\u5982 Switch \u7684\u662f 'checked'\u3002\u8be5\u5c5e\u6027\u4e3a ",
+                    n.a.createElement('code', null, 'getValueProps'),
+                    ' \u7684\u5c01\u88c5\uff0c\u81ea\u5b9a\u4e49 ',
+                    n.a.createElement('code', null, 'getValueProps'),
+                    ' \u540e\u4f1a\u5931\u6548',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'value'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'wrapperCol'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9700\u8981\u4e3a\u8f93\u5165\u63a7\u4ef6\u8bbe\u7f6e\u5e03\u5c40\u6837\u5f0f\u65f6\uff0c\u4f7f\u7528\u8be5\u5c5e\u6027\uff0c\u7528\u6cd5\u540c ',
+                    n.a.createElement('code', null, 'labelCol'),
+                    '\u3002\u4f60\u53ef\u4ee5\u901a\u8fc7 Form \u7684 ',
+                    n.a.createElement('code', null, 'wrapperCol'),
+                    ' \u8fdb\u884c\u7edf\u4e00\u8bbe\u7f6e\uff0c\u4e0d\u4f1a\u4f5c\u7528\u4e8e\u5d4c\u5957 Item\u3002\u5f53\u548c Form \u540c\u65f6\u8bbe\u7f6e\u65f6\uff0c\u4ee5 Item \u4e3a\u51c6',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/grid/#Col' },
+                      'object',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u88ab\u8bbe\u7f6e\u4e86 ',
+              n.a.createElement('code', null, 'name'),
+              ' \u5c5e\u6027\u7684 ',
+              n.a.createElement('code', null, 'Form.Item'),
+              ' \u5305\u88c5\u7684\u63a7\u4ef6\uff0c\u8868\u5355\u63a7\u4ef6\u4f1a\u81ea\u52a8\u6dfb\u52a0 ',
+              n.a.createElement('code', null, 'value'),
+              '\uff08\u6216 ',
+              n.a.createElement('code', null, 'valuePropName'),
+              ' \u6307\u5b9a\u7684\u5176\u4ed6\u5c5e\u6027\uff09 ',
+              n.a.createElement('code', null, 'onChange'),
+              '\uff08\u6216 ',
+              n.a.createElement('code', null, 'trigger'),
+              ' \u6307\u5b9a\u7684\u5176\u4ed6\u5c5e\u6027\uff09\uff0c\u6570\u636e\u540c\u6b65\u5c06\u88ab Form \u63a5\u7ba1\uff0c\u8fd9\u4f1a\u5bfc\u81f4\u4ee5\u4e0b\u7ed3\u679c\uff1a',
+            ),
+            n.a.createElement(
+              'ol',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u4f60',
+                n.a.createElement(
+                  'strong',
+                  null,
+                  '\u4e0d\u518d\u9700\u8981\u4e5f\u4e0d\u5e94\u8be5',
+                ),
+                '\u7528 ',
+                n.a.createElement('code', null, 'onChange'),
+                ' \u6765\u505a\u6570\u636e\u6536\u96c6\u540c\u6b65\uff08\u4f60\u53ef\u4ee5\u4f7f\u7528 Form \u7684 ',
+                n.a.createElement('code', null, 'onValuesChange'),
+                '\uff09\uff0c\u4f46\u8fd8\u662f\u53ef\u4ee5\u7ee7\u7eed\u76d1\u542c ',
+                n.a.createElement('code', null, 'onChange'),
+                ' \u4e8b\u4ef6\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u4f60\u4e0d\u80fd\u7528\u63a7\u4ef6\u7684 ',
+                n.a.createElement('code', null, 'value'),
+                ' \u6216 ',
+                n.a.createElement('code', null, 'defaultValue'),
+                ' \u7b49\u5c5e\u6027\u6765\u8bbe\u7f6e\u8868\u5355\u57df\u7684\u503c\uff0c\u9ed8\u8ba4\u503c\u53ef\u4ee5\u7528 Form \u91cc\u7684 ',
+                n.a.createElement('code', null, 'initialValues'),
+                ' \u6765\u8bbe\u7f6e\u3002\u6ce8\u610f ',
+                n.a.createElement('code', null, 'initialValues'),
+                ' \u4e0d\u80fd\u88ab ',
+                n.a.createElement('code', null, 'setState'),
+                ' \u52a8\u6001\u66f4\u65b0\uff0c\u4f60\u9700\u8981\u7528 ',
+                n.a.createElement('code', null, 'setFieldsValue'),
+                ' \u6765\u66f4\u65b0\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u4f60\u4e0d\u5e94\u8be5\u7528 ',
+                n.a.createElement('code', null, 'setState'),
+                '\uff0c\u53ef\u4ee5\u4f7f\u7528 ',
+                n.a.createElement('code', null, 'form.setFieldsValue'),
+                ' \u6765\u52a8\u6001\u6539\u53d8\u8868\u5355\u503c\u3002',
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'dependencies' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#dependencies', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'dependencies',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5f53\u5b57\u6bb5\u95f4\u5b58\u5728\u4f9d\u8d56\u5173\u7cfb\u65f6\u4f7f\u7528\u3002\u5982\u679c\u4e00\u4e2a\u5b57\u6bb5\u8bbe\u7f6e\u4e86 ',
+              n.a.createElement('code', null, 'dependencies'),
+              ' \u5c5e\u6027\u3002\u90a3\u4e48\u5b83\u6240\u4f9d\u8d56\u7684\u5b57\u6bb5\u66f4\u65b0\u65f6\uff0c\u8be5\u5b57\u6bb5\u5c06\u81ea\u52a8\u89e6\u53d1\u66f4\u65b0\u4e0e\u6821\u9a8c\u3002\u4e00\u79cd\u5e38\u89c1\u7684\u573a\u666f\uff0c\u5c31\u662f\u6ce8\u518c\u7528\u6237\u8868\u5355\u7684\u201c\u5bc6\u7801\u201d\u4e0e\u201c\u786e\u8ba4\u5bc6\u7801\u201d\u5b57\u6bb5\u3002\u201c\u786e\u8ba4\u5bc6\u7801\u201d\u6821\u9a8c\u4f9d\u8d56\u4e8e\u201c\u5bc6\u7801\u201d\u5b57\u6bb5\uff0c\u8bbe\u7f6e ',
+              n.a.createElement('code', null, 'dependencies'),
+              ' \u540e\uff0c\u201c\u5bc6\u7801\u201d\u5b57\u6bb5\u66f4\u65b0\u4f1a\u91cd\u65b0\u89e6\u53d1\u201c\u6821\u9a8c\u5bc6\u7801\u201d\u7684\u6821\u9a8c\u903b\u8f91\u3002\u4f60\u53ef\u4ee5\u53c2\u8003',
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#components-form-demo-register' },
+                '\u5177\u4f53\u4f8b\u5b50',
+              ),
+              '\u3002',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              n.a.createElement('code', null, 'dependencies'),
+              ' \u4e0d\u5e94\u548c ',
+              n.a.createElement('code', null, 'shouldUpdate'),
+              ' \u4e00\u8d77\u4f7f\u7528\uff0c\u56e0\u4e3a\u8fd9\u53ef\u80fd\u5e26\u6765\u66f4\u65b0\u903b\u8f91\u7684\u6df7\u4e71\u3002',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4ece ',
+              n.a.createElement('code', null, '4.5.0'),
+              ' \u7248\u672c\u5f00\u59cb\uff0c',
+              n.a.createElement('code', null, 'dependencies'),
+              ' \u652f\u6301\u4f7f\u7528 render props \u7c7b\u578b children \u7684 ',
+              n.a.createElement('code', null, 'Form.Item'),
+              '\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'shouldupdate' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#shouldupdate', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'shouldUpdate',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'Form \u901a\u8fc7\u589e\u91cf\u66f4\u65b0\u65b9\u5f0f\uff0c\u53ea\u66f4\u65b0\u88ab\u4fee\u6539\u7684\u5b57\u6bb5\u76f8\u5173\u7ec4\u4ef6\u4ee5\u8fbe\u5230\u6027\u80fd\u4f18\u5316\u76ee\u7684\u3002\u5927\u90e8\u5206\u573a\u666f\u4e0b\uff0c\u4f60\u53ea\u9700\u8981\u7f16\u5199\u4ee3\u7801\u6216\u8005\u4e0e ',
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#dependencies' },
+                n.a.createElement('code', null, 'dependencies'),
+              ),
+              ' \u5c5e\u6027\u914d\u5408\u6821\u9a8c\u5373\u53ef\u3002\u800c\u5728\u67d0\u4e9b\u7279\u5b9a\u573a\u666f\uff0c\u4f8b\u5982\u4fee\u6539\u67d0\u4e2a\u5b57\u6bb5\u503c\u540e\u51fa\u73b0\u65b0\u7684\u5b57\u6bb5\u9009\u9879\u3001\u6216\u8005\u7eaf\u7cb9\u5e0c\u671b\u8868\u5355\u4efb\u610f\u53d8\u5316\u90fd\u5bf9\u67d0\u4e00\u4e2a\u533a\u57df\u8fdb\u884c\u6e32\u67d3\u3002\u4f60\u53ef\u4ee5\u901a\u8fc7 ',
+              n.a.createElement('code', null, 'shouldUpdate'),
+              ' \u4fee\u6539 Form.Item \u7684\u66f4\u65b0\u903b\u8f91\u3002',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5f53 ',
+              n.a.createElement('code', null, 'shouldUpdate'),
+              ' \u4e3a ',
+              n.a.createElement('code', null, 'true'),
+              ' \u65f6\uff0cForm \u7684\u4efb\u610f\u53d8\u5316\u90fd\u4f1a\u4f7f\u8be5 Form.Item \u91cd\u65b0\u6e32\u67d3\u3002\u8fd9\u5bf9\u4e8e\u81ea\u5b9a\u4e49\u6e32\u67d3\u4e00\u4e9b\u533a\u57df\u5341\u5206\u6709\u5e2e\u52a9\uff1a',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\n<Form.Item shouldUpdate>\n  {() => {\n    return <pre>{JSON.stringify(form.getFieldsValue(), null, 2)}</pre>;\n  }}\n</Form.Item>\n',
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4f60\u53ef\u4ee5\u53c2\u8003',
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#components-form-demo-horizontal-login' },
+                '\u793a\u4f8b',
+              ),
+              '\u67e5\u770b\u5177\u4f53\u4f7f\u7528\u573a\u666f\u3002',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5f53 ',
+              n.a.createElement('code', null, 'shouldUpdate'),
+              ' \u4e3a\u65b9\u6cd5\u65f6\uff0c\u8868\u5355\u7684\u6bcf\u6b21\u6570\u503c\u66f4\u65b0\u90fd\u4f1a\u8c03\u7528\u8be5\u65b9\u6cd5\uff0c\u63d0\u4f9b\u539f\u5148\u7684\u503c\u4e0e\u5f53\u524d\u7684\u503c\u4ee5\u4f9b\u4f60\u6bd4\u8f83\u662f\u5426\u9700\u8981\u66f4\u65b0\u3002\u8fd9\u5bf9\u4e8e\u662f\u5426\u6839\u636e\u503c\u6765\u6e32\u67d3\u989d\u5916\u5b57\u6bb5\u5341\u5206\u6709\u5e2e\u52a9\uff1a',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\n<Form.Item shouldUpdate={(prevValues, curValues) => prevValues.additional !== curValues.additional}>\n  {() => {\n    return (\n      <Form.Item name="other">\n        <Input />\n      </Form.Item>\n    );\n  }}\n</Form.Item>\n',
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4f60\u53ef\u4ee5\u53c2\u8003',
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#components-form-demo-control-hooks' },
+                '\u793a\u4f8b',
+              ),
+              '\u67e5\u770b\u5177\u4f53\u4f7f\u7528\u573a\u666f\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'messagevariables' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#messagevariables',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'messageVariables',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4f60\u53ef\u4ee5\u901a\u8fc7 ',
+              n.a.createElement('code', null, 'messageVariables'),
+              ' \u4fee\u6539 Form.Item \u7684\u9ed8\u8ba4\u9a8c\u8bc1\u4fe1\u606f\u3002',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                "\n<Form>\n  <Form.Item messageVariables={{ another: 'good' }} label=\"user\">\n    <Input />\n  </Form.Item>\n  <Form.Item messageVariables={{ label: 'good' }} label={<span>user</span>}>\n    <Input />\n  </Form.Item>\n</Form>\n",
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'h2',
+              { id: 'formlist' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#formlist', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Form.List',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4e3a\u5b57\u6bb5\u63d0\u4f9b\u6570\u7ec4\u5316\u7ba1\u7406\u3002',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'children'),
+                  n.a.createElement('td', null, '\u6e32\u67d3\u51fd\u6570'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(fields: Field[], operation: ',
+                    '{',
+                    ' add, remove, move ',
+                    '}',
+                    ', meta: ',
+                    '{',
+                    ' errors ',
+                    '}',
+                    ') => React.ReactNode',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'initialValue'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5b50\u5143\u7d20\u9ed8\u8ba4\u503c\uff0c\u5982\u679c\u4e0e Form \u7684 ',
+                    n.a.createElement('code', null, 'initialValues'),
+                    ' \u51b2\u7a81\u5219\u4ee5 Form \u4e3a\u51c6',
+                  ),
+                  n.a.createElement('td', null, 'any[]'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.9.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'name'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5b57\u6bb5\u540d\uff0c\u652f\u6301\u6570\u7ec4',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'rules'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6821\u9a8c\u89c4\u5219\uff0c\u4ec5\u652f\u6301\u81ea\u5b9a\u4e49\u89c4\u5219\u3002\u9700\u8981\u914d\u5408 ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#Form.ErrorList' },
+                      'ErrorList',
+                    ),
+                    ' \u4e00\u540c\u4f7f\u7528\u3002',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '{',
+                    ' validator, message ',
+                    '}',
+                    '[]',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.7.0'),
+                ),
+              ),
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\n<Form.List>\n  {fields => (\n    <div>\n      {fields.map(field => (\n        <Form.Item {...field}>\n          <Input />\n        </Form.Item>\n      ))}\n    </div>\n  )}\n  1\n</Form.List>\n',
+              lang: 'tsx',
+            }),
+            n.a.createElement(
+              'p',
+              null,
+              '\u6ce8\u610f\uff1aForm.List \u4e0b\u7684\u5b57\u6bb5\u4e0d\u5e94\u8be5\u914d\u7f6e ',
+              n.a.createElement('code', null, 'initialValue'),
+              '\uff0c\u4f60\u59cb\u7ec8\u5e94\u8be5\u901a\u8fc7 Form.List \u7684 ',
+              n.a.createElement('code', null, 'initialValue'),
+              ' \u6216\u8005 Form \u7684 ',
+              n.a.createElement('code', null, 'initialValues'),
+              ' \u6765\u914d\u7f6e\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: 'operation' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#operation', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'operation',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'Form.List \u6e32\u67d3\u8868\u5355\u76f8\u5173\u64cd\u4f5c\u51fd\u6570\u3002',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'add'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u65b0\u589e\u8868\u5355\u9879',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(defaultValue?: any, insertIndex?: number) => void',
+                  ),
+                  n.a.createElement('td', null, 'insertIndex: 4.6.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'move'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u79fb\u52a8\u8868\u5355\u9879',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(from: number, to: number) => void',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'remove'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5220\u9664\u8868\u5355\u9879',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(index: number | number[]) => void',
+                  ),
+                  n.a.createElement('td', null, 'number[]: 4.5.0'),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: 'formerrorlist' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#formerrorlist', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Form.ErrorList',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '4.7.0 \u65b0\u589e\u3002\u9519\u8bef\u5c55\u793a\u7ec4\u4ef6\uff0c\u4ec5\u9650\u914d\u5408 Form.List \u7684 rules \u4e00\u540c\u4f7f\u7528\u3002\u53c2\u8003',
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#components-form-demo-dynamic-form-item' },
+                '\u793a\u4f8b',
+              ),
+              '\u3002',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'errors'),
+                  n.a.createElement('td', null, '\u9519\u8bef\u5217\u8868'),
+                  n.a.createElement('td', null, 'ReactNode[]'),
+                  n.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: 'formprovider' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#formprovider', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Form.Provider',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u63d0\u4f9b\u8868\u5355\u95f4\u8054\u52a8\u529f\u80fd\uff0c\u5176\u4e0b\u8bbe\u7f6e ',
+              n.a.createElement('code', null, 'name'),
+              ' \u7684 Form \u66f4\u65b0\u65f6\uff0c\u4f1a\u81ea\u52a8\u89e6\u53d1\u5bf9\u5e94\u4e8b\u4ef6\u3002\u67e5\u770b',
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#components-form-demo-form-context' },
+                '\u793a\u4f8b',
+              ),
+              '\u3002',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onFormChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5b50\u8868\u5355\u5b57\u6bb5\u66f4\u65b0\u65f6\u89e6\u53d1',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(formName: string, info: ',
+                    '{',
+                    ' changedFields, forms ',
+                    '}',
+                    ')',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onFormFinish'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5b50\u8868\u5355\u63d0\u4ea4\u65f6\u89e6\u53d1',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(formName: string, info: ',
+                    '{',
+                    ' values, forms ',
+                    '}',
+                    ')',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\n<Form.Provider\n  onFormFinish={name => {\n    if (name === \'form1\') {\n      // Do something...\n    }\n  }}\n\n  <Form name="form1">...</Form>\n  <Form name="form2">...</Form>\n</Form.Provider>\n',
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'h3',
+              { id: 'forminstance' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#forminstance', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FormInstance',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u540d\u79f0'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'getFieldError'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u83b7\u53d6\u5bf9\u5e94\u5b57\u6bb5\u540d\u7684\u9519\u8bef\u4fe1\u606f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(name: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    ') => string[]',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'getFieldInstance'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u83b7\u53d6\u5bf9\u5e94\u5b57\u6bb5\u5b9e\u4f8b',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(name: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    ') => any',
+                  ),
+                  n.a.createElement('td', null, '4.4.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'getFieldsError'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u83b7\u53d6\u4e00\u7ec4\u5b57\u6bb5\u540d\u5bf9\u5e94\u7684\u9519\u8bef\u4fe1\u606f\uff0c\u8fd4\u56de\u4e3a\u6570\u7ec4\u5f62\u5f0f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(nameList?: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    '[]) => FieldError[]',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'getFieldsValue'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u83b7\u53d6\u4e00\u7ec4\u5b57\u6bb5\u540d\u5bf9\u5e94\u7684\u503c\uff0c\u4f1a\u6309\u7167\u5bf9\u5e94\u7ed3\u6784\u8fd4\u56de',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(nameList?: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    '[], filterFunc?: (meta: ',
+                    '{',
+                    ' touched: boolean, validating: boolean ',
+                    '}',
+                    ') => boolean) => any',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'getFieldValue'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u83b7\u53d6\u5bf9\u5e94\u5b57\u6bb5\u540d\u7684\u503c',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(name: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    ') => any',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'isFieldsTouched'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u68c0\u67e5\u4e00\u7ec4\u5b57\u6bb5\u662f\u5426\u88ab\u7528\u6237\u64cd\u4f5c\u8fc7\uff0c',
+                    n.a.createElement('code', null, 'allTouched'),
+                    ' \u4e3a ',
+                    n.a.createElement('code', null, 'true'),
+                    ' \u65f6\u68c0\u67e5\u662f\u5426\u6240\u6709\u5b57\u6bb5\u90fd\u88ab\u64cd\u4f5c\u8fc7',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(nameList?: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    '[], allTouched?: boolean) => boolean',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'isFieldTouched'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u68c0\u67e5\u5bf9\u5e94\u5b57\u6bb5\u662f\u5426\u88ab\u7528\u6237\u64cd\u4f5c\u8fc7',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(name: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    ') => boolean',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'isFieldValidating'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u68c0\u67e5\u4e00\u7ec4\u5b57\u6bb5\u662f\u5426\u6b63\u5728\u6821\u9a8c',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(name: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    ') => boolean',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'resetFields'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u91cd\u7f6e\u4e00\u7ec4\u5b57\u6bb5\u5230 ',
+                    n.a.createElement('code', null, 'initialValues'),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(fields?: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    '[]) => void',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'scrollToField'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6eda\u52a8\u5230\u5bf9\u5e94\u5b57\u6bb5\u4f4d\u7f6e',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(name: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    ', options: [',
+                    n.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/stipsan/scroll-into-view-if-needed/tree/ece40bd9143f48caf4b99503425ecb16b0ad8249#options',
+                      },
+                      'ScrollOptions',
+                    ),
+                    ']) => void',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'setFields'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u4e00\u7ec4\u5b57\u6bb5\u72b6\u6001',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(fields: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#FieldData' },
+                      'FieldData',
+                    ),
+                    '[]) => void',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'setFieldsValue'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u8868\u5355\u7684\u503c',
+                  ),
+                  n.a.createElement('td', null, '(values) => void'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'submit'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63d0\u4ea4\u8868\u5355\uff0c\u4e0e\u70b9\u51fb ',
+                    n.a.createElement('code', null, 'submit'),
+                    ' \u6309\u94ae\u6548\u679c\u76f8\u540c',
+                  ),
+                  n.a.createElement('td', null, '() => void'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validateFields'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u89e6\u53d1\u8868\u5355\u9a8c\u8bc1',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(nameList?: ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    '[]) => Promise',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'validatefields-\u8fd4\u56de\u793a\u4f8b' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#validatefields-\u8fd4\u56de\u793a\u4f8b',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'validateFields \u8fd4\u56de\u793a\u4f8b',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                "\nvalidateFields()\n  .then(values => {\n    /*\n  values:\n    {\n      username: 'username',\n      password: 'password',\n    }\n  */\n  })\n  .catch(errorInfo => {\n    /*\n    errorInfo:\n      {\n        values: {\n          username: 'username',\n          password: 'password',\n        },\n        errorFields: [\n          { name: ['password'], errors: ['Please input your Password!'] },\n        ],\n        outOfDate: false,\n      }\n    */\n  });\n",
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'h3',
+              { id: 'interface' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#interface', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Interface',
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'namepath' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#namepath', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'NamePath',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              n.a.createElement(
+                'code',
+                null,
+                'string | number | (string | number)[]',
+              ),
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'fielddata' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#fielddata', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FieldData',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u540d\u79f0'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'errors'),
+                  n.a.createElement('td', null, '\u9519\u8bef\u4fe1\u606f'),
+                  n.a.createElement('td', null, 'string[]'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'name'),
+                  n.a.createElement('td', null, '\u5b57\u6bb5\u540d\u79f0'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#NamePath' },
+                      'NamePath',
+                    ),
+                    '[]',
+                  ),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'touched'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u88ab\u7528\u6237\u64cd\u4f5c\u8fc7',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validating'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u6b63\u5728\u6821\u9a8c',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'value'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5b57\u6bb5\u5bf9\u5e94\u503c',
+                  ),
+                  n.a.createElement('td', null, 'any'),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'rule' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#rule', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Rule',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'Rule \u652f\u6301\u63a5\u6536 object \u8fdb\u884c\u914d\u7f6e\uff0c\u4e5f\u652f\u6301 function \u6765\u52a8\u6001\u83b7\u53d6 form \u7684\u6570\u636e\uff1a',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\ntype Rule = RuleConfig | ((form: FormInstance) => RuleConfig);\n',
+              lang: 'tsx',
+            }),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u540d\u79f0'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'enum'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5339\u914d\u679a\u4e3e\u4e2d\u7684\u503c\uff08\u9700\u8981\u5c06 ',
+                    n.a.createElement('code', null, 'type'),
+                    ' \u8bbe\u7f6e\u4e3a ',
+                    n.a.createElement('code', null, 'enum'),
+                    '\uff09',
+                  ),
+                  n.a.createElement('td', null, 'any[]'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'len'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'string \u7c7b\u578b\u65f6\u4e3a\u5b57\u7b26\u4e32\u957f\u5ea6\uff1bnumber \u7c7b\u578b\u65f6\u4e3a\u786e\u5b9a\u6570\u5b57\uff1b array \u7c7b\u578b\u65f6\u4e3a\u6570\u7ec4\u957f\u5ea6',
+                  ),
+                  n.a.createElement('td', null, 'number'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'max'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5fc5\u987b\u8bbe\u7f6e ',
+                    n.a.createElement('code', null, 'type'),
+                    '\uff1astring \u7c7b\u578b\u4e3a\u5b57\u7b26\u4e32\u6700\u5927\u957f\u5ea6\uff1bnumber \u7c7b\u578b\u65f6\u4e3a\u6700\u5927\u503c\uff1barray \u7c7b\u578b\u65f6\u4e3a\u6570\u7ec4\u6700\u5927\u957f\u5ea6',
+                  ),
+                  n.a.createElement('td', null, 'number'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'message'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9519\u8bef\u4fe1\u606f\uff0c\u4e0d\u8bbe\u7f6e\u65f6\u4f1a\u901a\u8fc7',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#validateMessages' },
+                      '\u6a21\u677f',
+                    ),
+                    '\u81ea\u52a8\u751f\u6210',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'min'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5fc5\u987b\u8bbe\u7f6e ',
+                    n.a.createElement('code', null, 'type'),
+                    '\uff1astring \u7c7b\u578b\u4e3a\u5b57\u7b26\u4e32\u6700\u5c0f\u957f\u5ea6\uff1bnumber \u7c7b\u578b\u65f6\u4e3a\u6700\u5c0f\u503c\uff1barray \u7c7b\u578b\u65f6\u4e3a\u6570\u7ec4\u6700\u5c0f\u957f\u5ea6',
+                  ),
+                  n.a.createElement('td', null, 'number'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'pattern'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6b63\u5219\u8868\u8fbe\u5f0f\u5339\u914d',
+                  ),
+                  n.a.createElement('td', null, 'RegExp'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'required'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u4e3a\u5fc5\u9009\u5b57\u6bb5',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'transform'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5c06\u5b57\u6bb5\u503c\u8f6c\u6362\u6210\u76ee\u6807\u503c\u540e\u8fdb\u884c\u6821\u9a8c',
+                  ),
+                  n.a.createElement('td', null, '(value) => any'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'type'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u7c7b\u578b\uff0c\u5e38\u89c1\u6709 ',
+                    n.a.createElement('code', null, 'string'),
+                    ' |',
+                    n.a.createElement('code', null, 'number'),
+                    ' |',
+                    n.a.createElement('code', null, 'boolean'),
+                    ' |',
+                    n.a.createElement('code', null, 'url'),
+                    ' | ',
+                    n.a.createElement('code', null, 'email'),
+                    '\u3002\u66f4\u591a\u8bf7\u53c2\u8003',
+                    n.a.createElement(
+                      r['Link'],
+                      {
+                        to: 'https://github.com/yiminghe/async-validator#type',
+                      },
+                      '\u6b64\u5904',
+                    ),
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validateTrigger'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u89e6\u53d1\u9a8c\u8bc1\u65f6\u673a\uff0c\u5fc5\u987b\u662f Form.Item \u7684 ',
+                    n.a.createElement('code', null, 'validateTrigger'),
+                    ' \u7684\u5b50\u96c6',
+                  ),
+                  n.a.createElement('td', null, 'string | string[]'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'validator'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6821\u9a8c\uff0c\u63a5\u6536 Promise \u4f5c\u4e3a\u8fd4\u56de\u503c\u3002',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#components-form-demo-register' },
+                      '\u793a\u4f8b',
+                    ),
+                    '\u53c2\u8003',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(',
+                    n.a.createElement(r['AnchorLink'], { to: '#Rule' }, 'rule'),
+                    ', value) => Promise',
+                  ),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'whitespace'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5982\u679c\u5b57\u6bb5\u4ec5\u5305\u542b\u7a7a\u683c\u5219\u6821\u9a8c\u4e0d\u901a\u8fc7',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ece-v3-\u5347\u7ea7\u5230-v4' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ece-v3-\u5347\u7ea7\u5230-v4',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ece v3 \u5347\u7ea7\u5230 v4',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5982\u679c\u4f60\u662f antd v3 \u7684\u7528\u6237\uff0c\u4f60\u53ef\u4ee5\u53c2\u8003',
+              n.a.createElement(
+                r['Link'],
+                { to: '/components/form/v3' },
+                '\u8fc1\u79fb\u793a\u4f8b',
+              ),
+              '\u3002',
+            ),
+            n.a.createElement('style', {
+              dangerouslySetInnerHTML: {
+                __html:
+                  '\n.code-box-demo .ant-form:not(.ant-form-inline):not(.ant-form-vertical) {\n  max-width: 600px;\n}\n.markdown.api-container table td:nth-of-type(4) {\n  white-space: nowrap;\n  word-wrap: break-word;\n}\n',
+              },
+            }),
+            n.a.createElement(
+              'h2',
+              { id: 'faq' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#faq', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FAQ',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: '\u81ea\u5b9a\u4e49-validator-\u6ca1\u6709\u6548\u679c' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u81ea\u5b9a\u4e49-validator-\u6ca1\u6709\u6548\u679c',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u81ea\u5b9a\u4e49 validator \u6ca1\u6709\u6548\u679c',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u8fd9\u662f\u7531\u4e8e\u4f60\u7684 ',
+              n.a.createElement('code', null, 'validator'),
+              ' \u6709\u9519\u8bef\u5bfc\u81f4 ',
+              n.a.createElement('code', null, 'callback'),
+              ' \u6ca1\u6709\u6267\u884c\u5230\u3002\u4f60\u53ef\u4ee5\u9009\u62e9\u901a\u8fc7 ',
+              n.a.createElement('code', null, 'async'),
+              ' \u8fd4\u56de\u4e00\u4e2a promise \u6216\u8005\u4f7f\u7528 ',
+              n.a.createElement('code', null, 'try...catch'),
+              ' \u8fdb\u884c\u9519\u8bef\u6355\u83b7\uff1a',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                "\nvalidator: async (rule, value) => {\n  throw new Error('Something wrong!');\n}\n\n// or\n\nvalidator(rule, value, callback) => {\n  try {\n    throw new Error('Something wrong!');\n  } catch (err) {\n    callback(err);\n  }\n}\n",
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  'name-\u4e3a\u6570\u7ec4\u65f6\u7684\u8f6c\u6362\u89c4\u5219\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#name-\u4e3a\u6570\u7ec4\u65f6\u7684\u8f6c\u6362\u89c4\u5219\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'name \u4e3a\u6570\u7ec4\u65f6\u7684\u8f6c\u6362\u89c4\u5219\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5f53 ',
+              n.a.createElement('code', null, 'name'),
+              ' \u4e3a\u6570\u7ec4\u65f6\uff0c\u4f1a\u6309\u7167\u987a\u5e8f\u586b\u5145\u8def\u5f84\u3002\u5f53\u5b58\u5728\u6570\u5b57\u4e14 form store \u4e2d\u6ca1\u6709\u8be5\u5b57\u6bb5\u65f6\u4f1a\u81ea\u52a8\u8f6c\u53d8\u6210\u6570\u7ec4\u3002\u56e0\u800c\u5982\u679c\u9700\u8981\u6570\u7ec4\u4e3a key \u65f6\u8bf7\u4f7f\u7528 string \u5982\uff1a',
+              n.a.createElement('code', null, "['1', 'name']"),
+              '\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4f55\u5728-modal-\u4e2d\u8c03\u7528-form-\u63a7\u5236\u53f0\u4f1a\u62a5\u9519\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4f55\u5728-modal-\u4e2d\u8c03\u7528-form-\u63a7\u5236\u53f0\u4f1a\u62a5\u9519\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4f55\u5728 Modal \u4e2d\u8c03\u7528 form \u63a7\u5236\u53f0\u4f1a\u62a5\u9519\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'Warning: Instance created by ',
+              n.a.createElement('code', null, 'useForm'),
+              ' is not connect to any Form element. Forget to pass ',
+              n.a.createElement('code', null, 'form'),
+              ' prop?',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u8fd9\u662f\u56e0\u4e3a\u4f60\u5728\u8c03\u7528 form \u65b9\u6cd5\u65f6\uff0cModal \u8fd8\u672a\u521d\u59cb\u5316\u5bfc\u81f4 form \u6ca1\u6709\u5173\u8054\u4efb\u4f55 Form \u7ec4\u4ef6\u3002\u4f60\u53ef\u4ee5\u901a\u8fc7\u7ed9 Modal \u8bbe\u7f6e ',
+              n.a.createElement('code', null, 'forceRender'),
+              ' \u5c06\u5176\u9884\u6e32\u67d3\u3002\u793a\u4f8b\u70b9\u51fb',
+              n.a.createElement(
+                r['Link'],
+                {
+                  to:
+                    'https://codesandbox.io/s/antd-reproduction-template-ibu5c',
+                },
+                '\u6b64\u5904',
+              ),
+              '\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48-formitem-\u4e0b\u7684\u5b50\u7ec4\u4ef6-defaultvalue-\u4e0d\u751f\u6548\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48-formitem-\u4e0b\u7684\u5b50\u7ec4\u4ef6-defaultvalue-\u4e0d\u751f\u6548\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48 Form.Item \u4e0b\u7684\u5b50\u7ec4\u4ef6 ',
+              n.a.createElement('code', null, 'defaultValue'),
+              ' \u4e0d\u751f\u6548\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5f53\u4f60\u4e3a Form.Item \u8bbe\u7f6e ',
+              n.a.createElement('code', null, 'name'),
+              ' \u5c5e\u6027\u540e\uff0c\u5b50\u7ec4\u4ef6\u4f1a\u8f6c\u4e3a\u53d7\u63a7\u6a21\u5f0f\u3002\u56e0\u800c ',
+              n.a.createElement('code', null, 'defaultValue'),
+              ' \u4e0d\u4f1a\u751f\u6548\u3002\u4f60\u9700\u8981\u5728 Form \u4e0a\u901a\u8fc7 ',
+              n.a.createElement('code', null, 'initialValues'),
+              ' \u8bbe\u7f6e\u9ed8\u8ba4\u503c\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48\u7b2c\u4e00\u6b21\u8c03\u7528-ref-\u7684-from-\u4e3a\u7a7a\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48\u7b2c\u4e00\u6b21\u8c03\u7528-ref-\u7684-from-\u4e3a\u7a7a\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48\u7b2c\u4e00\u6b21\u8c03\u7528 ',
+              n.a.createElement('code', null, 'ref'),
+              ' \u7684 From \u4e3a\u7a7a\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              n.a.createElement('code', null, 'ref'),
+              ' \u4ec5\u5728\u8282\u70b9\u88ab\u52a0\u8f7d\u65f6\u624d\u4f1a\u88ab\u8d4b\u503c\uff0c\u8bf7\u53c2\u8003 React \u5b98\u65b9\u6587\u6863\uff1a',
+              n.a.createElement(
+                r['Link'],
+                {
+                  to:
+                    'https://reactjs.org/docs/refs-and-the-dom.html#accessing-refs',
+                },
+                'https://reactjs.org/docs/refs-and-the-dom.html#accessing-refs',
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48-resetfields-\u4f1a\u91cd\u65b0-mount-\u7ec4\u4ef6\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48-resetfields-\u4f1a\u91cd\u65b0-mount-\u7ec4\u4ef6\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48 ',
+              n.a.createElement('code', null, 'resetFields'),
+              ' \u4f1a\u91cd\u65b0 mount \u7ec4\u4ef6\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              n.a.createElement('code', null, 'resetFields'),
+              ' \u4f1a\u91cd\u7f6e\u6574\u4e2a Field\uff0c\u56e0\u800c\u5176\u5b50\u7ec4\u4ef6\u4e5f\u4f1a\u91cd\u65b0 mount \u4ece\u800c\u6d88\u9664\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u53ef\u80fd\u5b58\u5728\u7684\u526f\u4f5c\u7528\uff08\u4f8b\u5982\u5f02\u6b65\u6570\u636e\u3001\u72b6\u6001\u7b49\u7b49\uff09\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  'form-\u7684-initialvalues-\u4e0e-item-\u7684-initialvalue-\u533a\u522b\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#form-\u7684-initialvalues-\u4e0e-item-\u7684-initialvalue-\u533a\u522b\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Form \u7684 initialValues \u4e0e Item \u7684 initialValue \u533a\u522b\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5728\u5927\u90e8\u5206\u573a\u666f\u4e0b\uff0c\u6211\u4eec\u603b\u662f\u63a8\u8350\u4f18\u5148\u4f7f\u7528 Form \u7684 ',
+              n.a.createElement('code', null, 'initialValues'),
+              '\u3002\u53ea\u6709\u5b58\u5728\u52a8\u6001\u5b57\u6bb5\u65f6\u4f60\u624d\u5e94\u8be5\u4f7f\u7528 Item \u7684 ',
+              n.a.createElement('code', null, 'initialValue'),
+              '\u3002\u9ed8\u8ba4\u503c\u9075\u5faa\u4ee5\u4e0b\u89c4\u5219\uff1a',
+            ),
+            n.a.createElement(
+              'ol',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                'Form \u7684 ',
+                n.a.createElement('code', null, 'initialValues'),
+                ' \u62e5\u6709\u6700\u9ad8\u4f18\u5148\u7ea7',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                'Field \u7684 ',
+                n.a.createElement('code', null, 'initialValue'),
+                ' \u6b21\u4e4b *. \u591a\u4e2a\u540c ',
+                n.a.createElement('code', null, 'name'),
+                ' Item \u90fd\u8bbe\u7f6e ',
+                n.a.createElement('code', null, 'initialValue'),
+                ' \u65f6\uff0c\u5219 Item \u7684 ',
+                n.a.createElement('code', null, 'initialValue'),
+                ' \u4e0d\u751f\u6548',
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48\u5b57\u6bb5\u8bbe\u7f6e-rules-\u540e\u66f4\u6539\u503c-onfieldschange-\u4f1a\u89e6\u53d1\u4e09\u6b21\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48\u5b57\u6bb5\u8bbe\u7f6e-rules-\u540e\u66f4\u6539\u503c-onfieldschange-\u4f1a\u89e6\u53d1\u4e09\u6b21\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48\u5b57\u6bb5\u8bbe\u7f6e ',
+              n.a.createElement('code', null, 'rules'),
+              ' \u540e\u66f4\u6539\u503c ',
+              n.a.createElement('code', null, 'onFieldsChange'),
+              ' \u4f1a\u89e6\u53d1\u4e09\u6b21\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5b57\u6bb5\u9664\u4e86\u672c\u8eab\u7684\u503c\u53d8\u5316\u5916\uff0c\u6821\u9a8c\u4e5f\u662f\u5176\u72b6\u6001\u4e4b\u4e00\u3002\u56e0\u800c\u5728\u89e6\u53d1\u5b57\u6bb5\u53d8\u5316\u4f1a\u7ecf\u5386\u4ee5\u4e0b\u51e0\u4e2a\u9636\u6bb5\uff1a',
+            ),
+            n.a.createElement(
+              'ol',
+              null,
+              n.a.createElement('li', null, 'Trigger value change'),
+              n.a.createElement('li', null, 'Rule validating'),
+              n.a.createElement('li', null, 'Rule validated'),
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5728\u89e6\u53d1\u8fc7\u7a0b\u4e2d\uff0c\u8c03\u7528 ',
+              n.a.createElement('code', null, 'isFieldValidating'),
+              ' \u4f1a\u7ecf\u5386 ',
+              n.a.createElement('code', null, 'false'),
+              ' > ',
+              n.a.createElement('code', null, 'true'),
+              ' > ',
+              n.a.createElement('code', null, 'false'),
+              ' \u7684\u53d8\u5316\u8fc7\u7a0b\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48-formlist-\u4e0d\u652f\u6301-label-\u8fd8\u9700\u8981\u4f7f\u7528-errorlist-\u5c55\u793a\u9519\u8bef\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48-formlist-\u4e0d\u652f\u6301-label-\u8fd8\u9700\u8981\u4f7f\u7528-errorlist-\u5c55\u793a\u9519\u8bef\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48 Form.List \u4e0d\u652f\u6301 ',
+              n.a.createElement('code', null, 'label'),
+              ' \u8fd8\u9700\u8981\u4f7f\u7528 ErrorList \u5c55\u793a\u9519\u8bef\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'Form.List \u672c\u8eab\u662f renderProps\uff0c\u5185\u90e8\u6837\u5f0f\u975e\u5e38\u81ea\u7531\u3002\u56e0\u800c\u9ed8\u8ba4\u914d\u7f6e ',
+              n.a.createElement('code', null, 'label'),
+              ' \u548c ',
+              n.a.createElement('code', null, 'error'),
+              ' \u8282\u70b9\u5f88\u96be\u4e0e\u4e4b\u914d\u5408\u3002\u5982\u679c\u4f60\u9700\u8981 antd \u6837\u5f0f\u7684 ',
+              n.a.createElement('code', null, 'label'),
+              '\uff0c\u53ef\u4ee5\u901a\u8fc7\u5916\u90e8\u5305\u88f9 Form.Item \u6765\u5b9e\u73b0\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48-formitem-\u7684-dependencies-\u5bf9-formlist-\u4e0b\u7684\u5b57\u6bb5\u6ca1\u6709\u6548\u679c\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48-formitem-\u7684-dependencies-\u5bf9-formlist-\u4e0b\u7684\u5b57\u6bb5\u6ca1\u6709\u6548\u679c\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48 Form.Item \u7684 ',
+              n.a.createElement('code', null, 'dependencies'),
+              ' \u5bf9 Form.List \u4e0b\u7684\u5b57\u6bb5\u6ca1\u6709\u6548\u679c\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'Form.List \u4e0b\u7684\u5b57\u6bb5\u9700\u8981\u5305\u88f9 Form.List \u672c\u8eab\u7684 ',
+              n.a.createElement('code', null, 'name'),
+              '\uff0c\u6bd4\u5982\uff1a',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                "\n<Form.List name=\"users\">\n  {fields =>\n    fields.map(field => (\n      <React.Fragment key={field.key}>\n        <Form.Item name={[field.name, 'name']} {...someRest1} />\n        <Form.Item name={[field.name, 'age']} {...someRest1} />\n      </React.Fragment>\n    ))\n  }\n</Form.List>\n",
+              lang: 'tsx',
+            }),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4f9d\u8d56\u5219\u662f\uff1a',
+              n.a.createElement('code', null, "['users', 0, 'name']"),
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u4e3a\u4ec0\u4e48-normalize-\u4e0d\u80fd\u662f\u5f02\u6b65\u65b9\u6cd5\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u4e3a\u4ec0\u4e48-normalize-\u4e0d\u80fd\u662f\u5f02\u6b65\u65b9\u6cd5\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e3a\u4ec0\u4e48 ',
+              n.a.createElement('code', null, 'normalize'),
+              ' \u4e0d\u80fd\u662f\u5f02\u6b65\u65b9\u6cd5\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'React \u4e2d\u5f02\u6b65\u66f4\u65b0\u4f1a\u5bfc\u81f4\u53d7\u63a7\u7ec4\u4ef6\u4ea4\u4e92\u884c\u4e3a\u5f02\u5e38\u3002\u5f53\u7528\u6237\u4ea4\u4e92\u89e6\u53d1 ',
+              n.a.createElement('code', null, 'onChange'),
+              ' \u540e\uff0c\u901a\u8fc7\u5f02\u6b65\u6539\u53d8\u503c\u4f1a\u5bfc\u81f4\u7ec4\u4ef6 ',
+              n.a.createElement('code', null, 'value'),
+              ' \u4e0d\u4f1a\u7acb\u523b\u66f4\u65b0\uff0c\u4f7f\u5f97\u7ec4\u4ef6\u5448\u73b0\u5047\u6b7b\u72b6\u6001\u3002\u5982\u679c\u4f60\u9700\u8981\u5f02\u6b65\u89e6\u53d1\u53d8\u66f4\uff0c\u8bf7\u901a\u8fc7\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u5b9e\u73b0\u5185\u90e8\u5f02\u6b65\u72b6\u6001\u3002',
+            ),
+            n.a.createElement('style', {
+              dangerouslySetInnerHTML: {
+                __html:
+                  '\n  .site-form-item-icon {\n    color: rgba(0, 0, 0, 0.25);\n  }\n  [data-theme="dark"] .site-form-item-icon {\n    color: rgba(255,255,255,.3);\n  }\n',
+              },
+            }),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u81ea\u5b9a\u4e49\u8868\u5355\u63a7\u4ef6-scrolltofirsterror-\u548c-scrolltofield-\u5931\u6548\uff1f',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u81ea\u5b9a\u4e49\u8868\u5355\u63a7\u4ef6-scrolltofirsterror-\u548c-scrolltofield-\u5931\u6548\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u81ea\u5b9a\u4e49\u8868\u5355\u63a7\u4ef6 ',
+              n.a.createElement('code', null, 'scrollToFirstError'),
+              ' \u548c ',
+              n.a.createElement('code', null, 'scrollToField'),
+              ' \u5931\u6548\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u7c7b\u4f3c\u95ee\u9898\uff1a',
+              n.a.createElement(
+                r['Link'],
+                { to: 'https://github.com/ant-design/ant-design/issues/28370' },
+                '#28370',
+              ),
+              ' ',
+              n.a.createElement(
+                r['Link'],
+                { to: 'https://github.com/ant-design/ant-design/issues/27994' },
+                '#27994',
+              ),
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u6eda\u52a8\u4f9d\u8d56\u4e8e\u8868\u5355\u63a7\u4ef6\u5143\u7d20\u4e0a\u7ed1\u5b9a\u7684 ',
+              n.a.createElement('code', null, 'id'),
+              ' \u5b57\u6bb5\uff0c\u5982\u679c\u81ea\u5b9a\u4e49\u63a7\u4ef6\u6ca1\u6709\u5c06 ',
+              n.a.createElement('code', null, 'id'),
+              ' \u8d4b\u5230\u6b63\u786e\u7684\u5143\u7d20\u4e0a\uff0c\u8fd9\u4e2a\u529f\u80fd\u5c06\u5931\u6548\u3002\u4f60\u53ef\u4ee5\u53c2\u8003\u8fd9\u4e2a ',
+              n.a.createElement(
+                r['Link'],
+                {
+                  to:
+                    'https://codesandbox.io/s/antd-reproduction-template-forked-25nul?file=/index.js',
+                },
+                'codesandbox',
+              ),
+              '\u3002',
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

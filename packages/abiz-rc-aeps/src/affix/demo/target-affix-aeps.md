@@ -12,7 +12,7 @@ import React, { useState } from 'react';
 import { ConfigProvider, Affix, Button } from '@abiz/rc-aeps';
 
 const Demo: React.FC = () => {
-  const [container, setContainer] = useState(null);
+  const [container, setContainer] = useState<HTMLDivElement | null>(null);
   return (
     <div className="scrollable-container" ref={setContainer}>
       <div className="background">

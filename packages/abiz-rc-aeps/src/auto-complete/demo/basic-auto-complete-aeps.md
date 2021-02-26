@@ -11,11 +11,9 @@ order: 0
 import React, { useState } from 'react';
 import { ConfigProvider, AutoComplete } from '@abiz/rc-aeps';
 
-const mockVal = (str: string, repeat: number = 1) => {
-  return {
-    value: str.repeat(repeat),
-  };
-};
+const mockVal = (str: string, repeat: number = 1) => ({
+  value: str.repeat(repeat),
+});
 const Complete: React.FC = () => {
   const [value, setValue] = useState('');
   const [options, setOptions] = useState<{ value: string }[]>([]);

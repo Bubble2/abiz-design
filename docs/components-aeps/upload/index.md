@@ -34,11 +34,13 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/preview-file-upload-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/upload-with-aliyun-oss-upload-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/transform-file-upload-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/file-type-upload-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/upload-custom-action-icon-upload-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/crop-image-upload-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/drag-sorting-upload-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/customize-progress-bar-upload-aeps.md"></embed></div>
           
   </Col>
           
@@ -54,17 +56,16 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/picture-style-upload-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/transform-file-upload-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/max-count-upload-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/upload-custom-action-icon-upload-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/upload-with-aliyun-oss-upload-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/drag-sorting-upload-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/file-type-upload-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/customize-progress-bar-upload-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/upload/demo/crop-image-upload-aeps.md"></embed></div>
           
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/upload/index-api.md"></embed><div>
-        

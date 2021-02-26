@@ -26,6 +26,8 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/image/demo/placeholder-image-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/image/demo/previewSrc-image-jxc.md"></embed></div>
+          
   </Col>
           
   <Col span=12>
@@ -34,9 +36,10 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-jxc/image/demo/previewGroup-image-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/image/demo/preview-mask-image-jxc.md"></embed></div>
+          
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/image/index-api.md"></embed><div>
-        

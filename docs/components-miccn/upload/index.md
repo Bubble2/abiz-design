@@ -34,11 +34,13 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/preview-file-upload-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/upload-with-aliyun-oss-upload-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/transform-file-upload-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/file-type-upload-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/upload-custom-action-icon-upload-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/crop-image-upload-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/drag-sorting-upload-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/customize-progress-bar-upload-miccn.md"></embed></div>
           
   </Col>
           
@@ -54,17 +56,16 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/picture-style-upload-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/transform-file-upload-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/max-count-upload-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/upload-custom-action-icon-upload-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/upload-with-aliyun-oss-upload-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/drag-sorting-upload-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/file-type-upload-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/customize-progress-bar-upload-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/upload/demo/crop-image-upload-miccn.md"></embed></div>
           
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/upload/index-api.md"></embed><div>
-        

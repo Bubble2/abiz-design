@@ -70,6 +70,7 @@ class App extends React.Component {
         submitting: false,
         value: '',
         comments: [
+          ...this.state.comments,
           {
             author: 'Han Solo',
             avatar:
@@ -77,7 +78,6 @@ class App extends React.Component {
             content: <p>{this.state.value}</p>,
             datetime: moment().fromNow(),
           },
-          ...this.state.comments,
         ],
       });
     }, 1000);

@@ -16,6 +16,7 @@ import {
   InputNumber,
   Popconfirm,
   Form,
+  Typography,
 } from '@abiz/rc-miccn';
 
 interface Item {
@@ -85,7 +86,7 @@ const EditableTable = () => {
 
   const isEditing = (record: Item) => record.key === editingKey;
 
-  const edit = (record: Item) => {
+  const edit = (record: Partial<Item> & { key: React.Key }) => {
     form.setFieldsValue({ name: '', age: '', address: '', ...record });
     setEditingKey(record.key);
   };
@@ -156,9 +157,12 @@ const EditableTable = () => {
             </Popconfirm>
           </span>
         ) : (
-          <a disabled={editingKey !== ''} onClick={() => edit(record)}>
+          <Typography.Link
+            disabled={editingKey !== ''}
+            onClick={() => edit(record)}
+          >
             Edit
-          </a>
+          </Typography.Link>
         );
       },
     },

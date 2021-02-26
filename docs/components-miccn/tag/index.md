@@ -24,6 +24,20 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/basic-tag-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/colorful-inverse-tag-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/checkable-tag-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/animation-tag-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/status-tag-miccn.md"></embed></div>
+          
+  </Col>
+          
+  <Col span=12>
+    
+  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/colorful-tag-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/control-tag-miccn.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/controlled-tag-miccn.md"></embed></div>
@@ -34,19 +48,6 @@ group:
           
   </Col>
           
-  <Col span=12>
-    
-  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/colorful-tag-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/checkable-tag-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/animation-tag-miccn.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-miccn/tag/demo/status-tag-miccn.md"></embed></div>
-          
-  </Col>
-          
 </Row>
         
 <div><embed src="@docs-common/tag/index-api.md"></embed><div>
-        

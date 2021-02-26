@@ -1,42 +1,1550 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[200],{"2dma":function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u6587\u4EF6\u9009\u62E9\u4E0A\u4F20\u548C\u62D6\u62FD\u4E0A\u4F20\u63A7\u4EF6\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(a.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("p",null,"\u4E0A\u4F20\u662F\u5C06\u4FE1\u606F\uFF08\u7F51\u9875\u3001\u6587\u5B57\u3001\u56FE\u7247\u3001\u89C6\u9891\u7B49\uFF09\u901A\u8FC7\u7F51\u9875\u6216\u8005\u4E0A\u4F20\u5DE5\u5177\u53D1\u5E03\u5230\u8FDC\u7A0B\u670D\u52A1\u5668\u4E0A\u7684\u8FC7\u7A0B\u3002"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u5F53\u9700\u8981\u4E0A\u4F20\u4E00\u4E2A\u6216\u4E00\u4E9B\u6587\u4EF6\u65F6\u3002"),e.a.createElement("li",null,"\u5F53\u9700\u8981\u5C55\u73B0\u4E0A\u4F20\u7684\u8FDB\u5EA6\u65F6\u3002"),e.a.createElement("li",null,"\u5F53\u9700\u8981\u4F7F\u7528\u62D6\u62FD\u4EA4\u4E92\u65F6\u3002"))))}},"2xeS":function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["directory-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["directory-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},"8aFb":function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["upload-png-only-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["upload-png-only-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},FtPn:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["drag-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["drag-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},G43Q:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["transform-file-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["transform-file-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},I1SJ:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["preview-file-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["preview-file-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},WIYb:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["upload-with-aliyun-oss-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["upload-with-aliyun-oss-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},WYVO:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC"),E=t("ZpkN");const r=e.a.memo(t("JjdP").default["drag-sorting-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["drag-sorting-upload-miccn-demo"].previewerProps,e.a.createElement(r,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(E.a,{code:`#components-upload-demo-drag-sorting .ant-upload-draggable-list-item {
-  border-top: 2px dashed rgba(0, 0, 0, 0);
-  border-bottom: 2px dashed rgba(0, 0, 0, 0);
-}
-#components-upload-demo-drag-sorting
-  .ant-upload-draggable-list-item.drop-over-downward {
-  border-bottom-color: #1890ff;
-}
-
-#components-upload-demo-drag-sorting
-  .ant-upload-draggable-list-item.drop-over-upward {
-  border-top-color: #1890ff;
-}
-`,lang:"css"}))))}},XXtg:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u4E0A\u4F20"},e.a.createElement(a.AnchorLink,{to:"#\u4E0A\u4F20","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4E0A\u4F20"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("2dma").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(a.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(c.a,{gutter:"8"},e.a.createElement(d.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("qC/W").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Yfbc").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("hfBy").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("2xeS").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("8aFb").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("I1SJ").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("WIYb").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Y+UD").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("bhx6").default()}))),e.a.createElement(d.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("vLJ8").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("qwdD").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("FtPn").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("ZCXT").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("vGcd").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("G43Q").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("h7tl").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("WYVO").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("YkDm").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("y945").default()}),e.a.createElement("div",null))))}},"Y+UD":function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["file-type-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["file-type-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},Yfbc:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["defaultFileList-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["defaultFileList-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},YkDm:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["customize-progress-bar-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["customize-progress-bar-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},ZCXT:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["upload-manually-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["upload-manually-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},bhx6:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["crop-image-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["crop-image-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},g5U0:function(m,l,t){"use strict";var u=t("kPKH"),e=t("h9md"),a=t.n(e);l.a=u.a},h7tl:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["upload-custom-action-icon-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["upload-custom-action-icon-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},hfBy:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["fileList-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["fileList-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},ltCa:function(m,l,t){"use strict";var u=t("BMrR"),e=t("7xIR"),a=t.n(e);l.a=u.a},"qC/W":function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["basic-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["basic-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},qwdD:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["picture-card-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["picture-card-upload-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},vGcd:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC"),E=t("ZpkN");const r=e.a.memo(t("JjdP").default["picture-style-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["picture-style-upload-miccn-demo"].previewerProps,e.a.createElement(r,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(E.a,{code:`/* tile uploaded pictures */
-.upload-list-inline .ant-upload-list-item {
-  float: left;
-  width: 200px;
-  margin-right: 8px;
-}
-
-.upload-list-inline [class*='-upload-list-rtl'] .ant-upload-list-item {
-  float: right;
-}
-`,lang:"css"}))))}},vLJ8:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("0zqC"),E=t("ZpkN");const r=e.a.memo(t("JjdP").default["avatar-upload-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["avatar-upload-miccn-demo"].previewerProps,e.a.createElement(r,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(E.a,{code:`.avatar-uploader > .ant-upload {
-  width: 128px;
-  height: 128px;
-}
-`,lang:"css"}))))}},y945:function(m,l,t){"use strict";t.r(l);var u=t("cDcd"),e=t.n(u),a=t("dEAq"),o=t.n(a),d=t("g5U0"),c=t("ltCa"),n=t("ZpkN");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(a.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"accept"),e.a.createElement("td",null,"\u63A5\u53D7\u4E0A\u4F20\u7684\u6587\u4EF6\u7C7B\u578B, \u8BE6\u89C1 ",e.a.createElement(a.Link,{to:"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file#accept"},"input accept Attribute")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"action"),e.a.createElement("td",null,"\u4E0A\u4F20\u7684\u5730\u5740"),e.a.createElement("td",null,"string | (file) => Promise<string>"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"beforeUpload"),e.a.createElement("td",null,"\u4E0A\u4F20\u6587\u4EF6\u4E4B\u524D\u7684\u94A9\u5B50\uFF0C\u53C2\u6570\u4E3A\u4E0A\u4F20\u7684\u6587\u4EF6\uFF0C\u82E5\u8FD4\u56DE ",e.a.createElement("code",null,"false")," \u5219\u505C\u6B62\u4E0A\u4F20\u3002\u652F\u6301\u8FD4\u56DE\u4E00\u4E2A Promise \u5BF9\u8C61\uFF0CPromise \u5BF9\u8C61 reject \u65F6\u5219\u505C\u6B62\u4E0A\u4F20\uFF0Cresolve \u65F6\u5F00\u59CB\u4E0A\u4F20\uFF08 resolve \u4F20\u5165 ",e.a.createElement("code",null,"File")," \u6216 ",e.a.createElement("code",null,"Blob")," \u5BF9\u8C61\u5219\u4E0A\u4F20 resolve \u4F20\u5165\u5BF9\u8C61\uFF09\u3002",e.a.createElement("strong",null,"\u6CE8\u610F\uFF1AIE9 \u4E0D\u652F\u6301\u8BE5\u65B9\u6CD5")),e.a.createElement("td",null,"(file, fileList) => boolean | Promise<File>"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"customRequest"),e.a.createElement("td",null,"\u901A\u8FC7\u8986\u76D6\u9ED8\u8BA4\u7684\u4E0A\u4F20\u884C\u4E3A\uFF0C\u53EF\u4EE5\u81EA\u5B9A\u4E49\u81EA\u5DF1\u7684\u4E0A\u4F20\u5B9E\u73B0"),e.a.createElement("td",null,"function"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"data"),e.a.createElement("td",null,"\u4E0A\u4F20\u6240\u9700\u989D\u5916\u53C2\u6570\u6216\u8FD4\u56DE\u4E0A\u4F20\u989D\u5916\u53C2\u6570\u7684\u65B9\u6CD5"),e.a.createElement("td",null,"object|(file) => object | Promise<object>"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultFileList"),e.a.createElement("td",null,"\u9ED8\u8BA4\u5DF2\u7ECF\u4E0A\u4F20\u7684\u6587\u4EF6\u5217\u8868"),e.a.createElement("td",null,"object[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"directory"),e.a.createElement("td",null,"\u652F\u6301\u4E0A\u4F20\u6587\u4EF6\u5939\uFF08",e.a.createElement(a.Link,{to:"https://caniuse.com/#feat=input-file-directory"},"caniuse"),"\uFF09"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"disabled"),e.a.createElement("td",null,"\u662F\u5426\u7981\u7528"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"fileList"),e.a.createElement("td",null,"\u5DF2\u7ECF\u4E0A\u4F20\u7684\u6587\u4EF6\u5217\u8868\uFF08\u53D7\u63A7\uFF09\uFF0C\u4F7F\u7528\u6B64\u53C2\u6570\u65F6\uFF0C\u5982\u679C\u9047\u5230 ",e.a.createElement("code",null,"onChange")," \u53EA\u8C03\u7528\u4E00\u6B21\u7684\u95EE\u9898\uFF0C\u8BF7\u53C2\u8003 ",e.a.createElement(a.Link,{to:"https://github.com/ant-design/ant-design/issues/2423"},"#2423")),e.a.createElement("td",null,"object[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"headers"),e.a.createElement("td",null,"\u8BBE\u7F6E\u4E0A\u4F20\u7684\u8BF7\u6C42\u5934\u90E8\uFF0CIE10 \u4EE5\u4E0A\u6709\u6548"),e.a.createElement("td",null,"object"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"iconRender"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u663E\u793A icon"),e.a.createElement("td",null,"(file: UploadFile, listType?: UploadListType) => ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"isImageUrl"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u7F29\u7565\u56FE\u662F\u5426\u4F7F\u7528 <img /> \u6807\u7B7E\u8FDB\u884C\u663E\u793A"),e.a.createElement("td",null,"(file: UploadFile) => boolean"),e.a.createElement("td",null,e.a.createElement(a.Link,{to:"https://github.com/ant-design/ant-design/blob/4ad5830eecfb87471cd8ac588c5d992862b70770/components/upload/utils.tsx#L47-L68"},"(\u5185\u90E8\u5B9E\u73B0)")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"itemRender"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u4E0A\u4F20\u5217\u8868\u9879"),e.a.createElement("td",null,"(originNode: ReactElement, file: UploadFile, fileList?: object[]) => React.ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.7.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"listType"),e.a.createElement("td",null,"\u4E0A\u4F20\u5217\u8868\u7684\u5185\u5EFA\u6837\u5F0F\uFF0C\u652F\u6301\u4E09\u79CD\u57FA\u672C\u6837\u5F0F ",e.a.createElement("code",null,"text"),", ",e.a.createElement("code",null,"picture")," \u548C ",e.a.createElement("code",null,"picture-card")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"text")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"method"),e.a.createElement("td",null,"\u4E0A\u4F20\u8BF7\u6C42\u7684 http method"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"post")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"multiple"),e.a.createElement("td",null,"\u662F\u5426\u652F\u6301\u591A\u9009\u6587\u4EF6\uFF0C",e.a.createElement("code",null,"ie10+")," \u652F\u6301\u3002\u5F00\u542F\u540E\u6309\u4F4F ctrl \u53EF\u9009\u62E9\u591A\u4E2A\u6587\u4EF6"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"name"),e.a.createElement("td",null,"\u53D1\u5230\u540E\u53F0\u7684\u6587\u4EF6\u53C2\u6570\u540D"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"file")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"openFileDialogOnClick"),e.a.createElement("td",null,"\u70B9\u51FB\u6253\u5F00\u6587\u4EF6\u5BF9\u8BDD\u6846"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"previewFile"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6587\u4EF6\u9884\u89C8\u903B\u8F91"),e.a.createElement("td",null,"(file: File | Blob) => Promise<dataURL: string>"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"progress"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u8FDB\u5EA6\u6761\u6837\u5F0F"),e.a.createElement("td",null,e.a.createElement(a.AnchorLink,{to:"/components/progress/#API"},"ProgressProps"),"\uFF08\u4EC5\u652F\u6301 ",e.a.createElement("code",null,'type="line"'),"\uFF09"),e.a.createElement("td",null,"{"," strokeWidth: 2, showInfo: false ","}"),e.a.createElement("td",null,"4.3.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"showUploadList"),e.a.createElement("td",null,"\u662F\u5426\u5C55\u793A\u6587\u4EF6\u5217\u8868, \u53EF\u8BBE\u4E3A\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u7528\u4E8E\u5355\u72EC\u8BBE\u5B9A ",e.a.createElement("code",null,"showPreviewIcon"),", ",e.a.createElement("code",null,"showRemoveIcon"),", ",e.a.createElement("code",null,"showDownloadIcon"),", ",e.a.createElement("code",null,"removeIcon")," \u548C ",e.a.createElement("code",null,"downloadIcon")),e.a.createElement("td",null,"boolean | ","{"," showPreviewIcon?: boolean, showRemoveIcon?: boolean, showDownloadIcon?: boolean, removeIcon?: ReactNode | (file: UploadFile) => ReactNode, downloadIcon?: ReactNode | (file: UploadFile) => ReactNode ","}"),e.a.createElement("td",null,"true"),e.a.createElement("td",null,"function: 4.7.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"withCredentials"),e.a.createElement("td",null,"\u4E0A\u4F20\u8BF7\u6C42\u65F6\u662F\u5426\u643A\u5E26 cookie"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u4E0A\u4F20\u6587\u4EF6\u6539\u53D8\u65F6\u7684\u72B6\u6001\uFF0C\u8BE6\u89C1 ",e.a.createElement(a.AnchorLink,{to:"#onChange"},"onChange")),e.a.createElement("td",null,"function"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onDownload"),e.a.createElement("td",null,"\u70B9\u51FB\u4E0B\u8F7D\u6587\u4EF6\u65F6\u7684\u56DE\u8C03\uFF0C\u5982\u679C\u6CA1\u6709\u6307\u5B9A\uFF0C\u5219\u9ED8\u8BA4\u8DF3\u8F6C\u5230\u6587\u4EF6 url \u5BF9\u5E94\u7684\u6807\u7B7E\u9875"),e.a.createElement("td",null,"function(file): void"),e.a.createElement("td",null,"(\u8DF3\u8F6C\u65B0\u6807\u7B7E\u9875)"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onPreview"),e.a.createElement("td",null,"\u70B9\u51FB\u6587\u4EF6\u94FE\u63A5\u6216\u9884\u89C8\u56FE\u6807\u65F6\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(file)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onRemove \xA0"),e.a.createElement("td",null,"\u70B9\u51FB\u79FB\u9664\u6587\u4EF6\u65F6\u7684\u56DE\u8C03\uFF0C\u8FD4\u56DE\u503C\u4E3A false \u65F6\u4E0D\u79FB\u9664\u3002\u652F\u6301\u8FD4\u56DE\u4E00\u4E2A Promise \u5BF9\u8C61\uFF0CPromise \u5BF9\u8C61 resolve(false) \u6216 reject \u65F6\u4E0D\u79FB\u9664 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0"),e.a.createElement("td",null,"function(file): boolean | Promise"),e.a.createElement("td",null,"- \xA0"),e.a.createElement("td",null)))),e.a.createElement("h3",{id:"onchange"},e.a.createElement(a.AnchorLink,{to:"#onchange","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"onChange"),e.a.createElement("p",null,"\u4E0A\u4F20\u4E2D\u3001\u5B8C\u6210\u3001\u5931\u8D25\u90FD\u4F1A\u8C03\u7528\u8FD9\u4E2A\u51FD\u6570\u3002"),e.a.createElement("p",null,"\u6587\u4EF6\u72B6\u6001\u6539\u53D8\u7684\u56DE\u8C03\uFF0C\u8FD4\u56DE\u4E3A\uFF1A"),e.a.createElement(n.a,{code:`
-{
-  file: { /* ... */ },
-  fileList: [ /* ... */ ],
-  event: { /* ... */ },
-}
-`,lang:"js"}),e.a.createElement("p",null,"1 | pure . ",e.a.createElement("code",null,"file")," \u5F53\u524D\u64CD\u4F5C\u7684\u6587\u4EF6\u5BF9\u8C61\u3002"),e.a.createElement(n.a,{code:`
-{
-   uid: 'uid',      // \u6587\u4EF6\u552F\u4E00\u6807\u8BC6\uFF0C\u5EFA\u8BAE\u8BBE\u7F6E\u4E3A\u8D1F\u6570\uFF0C\u9632\u6B62\u548C\u5185\u90E8\u4EA7\u751F\u7684 id \u51B2\u7A81
-   name: 'xx.png'   // \u6587\u4EF6\u540D
-   status: 'done', // \u72B6\u6001\u6709\uFF1Auploading done error removed\uFF0C\u88AB beforeUpload \u62E6\u622A\u7684\u6587\u4EF6\u6CA1\u6709 status \u5C5E\u6027
-   response: '{"status": "success"}', // \u670D\u52A1\u7AEF\u54CD\u5E94\u5185\u5BB9
-   linkProps: '{"download": "image"}', // \u4E0B\u8F7D\u94FE\u63A5\u989D\u5916\u7684 HTML \u5C5E\u6027
-}
-`,lang:"js"}),e.a.createElement("p",null,"2 | pure . ",e.a.createElement("code",null,"fileList")," \u5F53\u524D\u7684\u6587\u4EF6\u5217\u8868\u3002"),e.a.createElement("ol",{start:3},e.a.createElement("li",null,e.a.createElement("code",null,"event")," \u4E0A\u4F20\u4E2D\u7684\u670D\u52A1\u7AEF\u54CD\u5E94\u5185\u5BB9\uFF0C\u5305\u542B\u4E86\u4E0A\u4F20\u8FDB\u5EA6\u7B49\u4FE1\u606F\uFF0C\u9AD8\u7EA7\u6D4F\u89C8\u5668\u652F\u6301\u3002")),e.a.createElement("h2",{id:"faq"},e.a.createElement(a.AnchorLink,{to:"#faq","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FAQ"),e.a.createElement("h3",{id:"\u670D\u52A1\u7AEF\u5982\u4F55\u5B9E\u73B0\uFF1F"},e.a.createElement(a.AnchorLink,{to:"#\u670D\u52A1\u7AEF\u5982\u4F55\u5B9E\u73B0\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u670D\u52A1\u7AEF\u5982\u4F55\u5B9E\u73B0\uFF1F"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u670D\u52A1\u7AEF\u4E0A\u4F20\u63A5\u53E3\u5B9E\u73B0\u53EF\u4EE5\u53C2\u8003 ",e.a.createElement(a.Link,{to:"https://github.com/blueimp/jQuery-File-Upload/wiki#server-side"},"jQuery-File-Upload"),"\u3002"),e.a.createElement("li",null,"\u5982\u679C\u8981\u505A\u672C\u5730 mock \u53EF\u4EE5\u53C2\u8003\u8FD9\u4E2A ",e.a.createElement(a.Link,{to:"https://github.com/react-component/upload/blob/master/server.js"},"express \u7684\u4F8B\u5B50"),"\u3002")),e.a.createElement("h3",{id:"\u5982\u4F55\u663E\u793A\u4E0B\u8F7D\u94FE\u63A5\uFF1F"},e.a.createElement(a.AnchorLink,{to:"#\u5982\u4F55\u663E\u793A\u4E0B\u8F7D\u94FE\u63A5\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5982\u4F55\u663E\u793A\u4E0B\u8F7D\u94FE\u63A5\uFF1F"),e.a.createElement("p",null,"\u8BF7\u4F7F\u7528 fileList \u5C5E\u6027\u8BBE\u7F6E\u6570\u7EC4\u9879\u7684 url \u5C5E\u6027\u8FDB\u884C\u5C55\u793A\u63A7\u5236\u3002"),e.a.createElement("h3",{id:"customrequest-\u600E\u4E48\u4F7F\u7528\uFF1F"},e.a.createElement(a.AnchorLink,{to:"#customrequest-\u600E\u4E48\u4F7F\u7528\uFF1F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),e.a.createElement("code",null,"customRequest")," \u600E\u4E48\u4F7F\u7528\uFF1F"),e.a.createElement("p",null,"\u8BF7\u53C2\u8003 ",e.a.createElement(a.Link,{to:"https://github.com/react-component/upload#customrequest"},"https://github.com/react-component/upload#customrequest"),"\u3002")))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [201],
+  {
+    '2dma': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u6587\u4ef6\u9009\u62e9\u4e0a\u4f20\u548c\u62d6\u62fd\u4e0a\u4f20\u63a7\u4ef6\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4e0a\u4f20\u662f\u5c06\u4fe1\u606f\uff08\u7f51\u9875\u3001\u6587\u5b57\u3001\u56fe\u7247\u3001\u89c6\u9891\u7b49\uff09\u901a\u8fc7\u7f51\u9875\u6216\u8005\u4e0a\u4f20\u5de5\u5177\u53d1\u5e03\u5230\u8fdc\u7a0b\u670d\u52a1\u5668\u4e0a\u7684\u8fc7\u7a0b\u3002',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u5f53\u9700\u8981\u4e0a\u4f20\u4e00\u4e2a\u6216\u4e00\u4e9b\u6587\u4ef6\u65f6\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u5f53\u9700\u8981\u5c55\u73b0\u4e0a\u4f20\u7684\u8fdb\u5ea6\u65f6\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u5f53\u9700\u8981\u4f7f\u7528\u62d6\u62fd\u4ea4\u4e92\u65f6\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    '2xeS': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['directory-upload-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['directory-upload-miccn-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    '6Mms': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['max-count-upload-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['max-count-upload-miccn-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    '8aFb': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['upload-png-only-upload-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['upload-png-only-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        r = a('cDcd'),
+        c = a.n(r),
+        m = a('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var a = e.children,
+          r = Object(n['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(l['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, a),
+        );
+      });
+    },
+    FtPn: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['drag-upload-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['drag-upload-miccn-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    G43Q: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['transform-file-upload-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['transform-file-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    I1SJ: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['preview-file-upload-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['preview-file-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    WIYb: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['upload-with-aliyun-oss-upload-miccn-demo']
+              .component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['upload-with-aliyun-oss-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    WYVO: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = n.a.memo(
+          a('JjdP').default['drag-sorting-upload-miccn-demo'].component,
+        );
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['drag-sorting-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code:
+                  '#components-upload-demo-drag-sorting .ant-upload-draggable-list-item {\n  border-top: 2px dashed rgba(0, 0, 0, 0);\n  border-bottom: 2px dashed rgba(0, 0, 0, 0);\n}\n#components-upload-demo-drag-sorting\n  .ant-upload-draggable-list-item.drop-over-downward {\n  border-bottom-color: #1890ff;\n}\n\n#components-upload-demo-drag-sorting\n  .ant-upload-draggable-list-item.drop-over-upward {\n  border-top-color: #1890ff;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    XXtg: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u4e0a\u4f20' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#\u4e0a\u4f20', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4e0a\u4f20',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('2dma').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('qC/W').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('Yfbc').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('hfBy').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('2xeS').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('8aFb').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('I1SJ').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('G43Q').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('h7tl').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('WYVO').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('YkDm').default(),
+                  }),
+                ),
+              ),
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('vLJ8').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('qwdD').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('FtPn').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('ZCXT').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('vGcd').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('6Mms').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('WIYb').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('Y+UD').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('bhx6').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('y945').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    'Y+UD': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['file-type-upload-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['file-type-upload-miccn-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Yfbc: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['defaultFileList-upload-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['defaultFileList-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    YkDm: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['customize-progress-bar-upload-miccn-demo']
+              .component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['customize-progress-bar-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ZCXT: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['upload-manually-upload-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['upload-manually-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    bhx6: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['crop-image-upload-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['crop-image-upload-miccn-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    h7tl: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['upload-custom-action-icon-upload-miccn-demo']
+              .component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['upload-custom-action-icon-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    hfBy: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['fileList-upload-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['fileList-upload-miccn-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+    'qC/W': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['basic-upload-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['basic-upload-miccn-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    qwdD: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['picture-card-upload-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['picture-card-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    vGcd: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = n.a.memo(
+          a('JjdP').default['picture-style-upload-miccn-demo'].component,
+        );
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['picture-style-upload-miccn-demo']
+                .previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code:
+                  "/* tile uploaded pictures */\n.upload-list-inline .ant-upload-list-item {\n  float: left;\n  width: 200px;\n  margin-right: 8px;\n}\n\n.upload-list-inline [class*='-upload-list-rtl'] .ant-upload-list-item {\n  float: right;\n}\n",
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    vLJ8: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = n.a.memo(a('JjdP').default['avatar-upload-miccn-demo'].component);
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['avatar-upload-miccn-demo'].previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code:
+                  '.avatar-uploader > .ant-upload {\n  width: 128px;\n  height: 128px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    y945: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = (a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia'));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'accept'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63a5\u53d7\u4e0a\u4f20\u7684\u6587\u4ef6\u7c7b\u578b, \u8be6\u89c1 ',
+                    n.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file#accept',
+                      },
+                      'input accept Attribute',
+                    ),
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'action'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0a\u4f20\u7684\u5730\u5740',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'string | (file) => Promise<string>',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'beforeUpload'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0a\u4f20\u6587\u4ef6\u4e4b\u524d\u7684\u94a9\u5b50\uff0c\u53c2\u6570\u4e3a\u4e0a\u4f20\u7684\u6587\u4ef6\uff0c\u82e5\u8fd4\u56de ',
+                    n.a.createElement('code', null, 'false'),
+                    ' \u5219\u505c\u6b62\u4e0a\u4f20\u3002\u652f\u6301\u8fd4\u56de\u4e00\u4e2a Promise \u5bf9\u8c61\uff0cPromise \u5bf9\u8c61 reject \u65f6\u5219\u505c\u6b62\u4e0a\u4f20\uff0cresolve \u65f6\u5f00\u59cb\u4e0a\u4f20\uff08 resolve \u4f20\u5165 ',
+                    n.a.createElement('code', null, 'File'),
+                    ' \u6216 ',
+                    n.a.createElement('code', null, 'Blob'),
+                    ' \u5bf9\u8c61\u5219\u4e0a\u4f20 resolve \u4f20\u5165\u5bf9\u8c61\uff09\u3002',
+                    n.a.createElement(
+                      'strong',
+                      null,
+                      '\u6ce8\u610f\uff1aIE9 \u4e0d\u652f\u6301\u8be5\u65b9\u6cd5',
+                    ),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(file, fileList) => boolean | Promise<File>',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'customRequest'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u901a\u8fc7\u8986\u76d6\u9ed8\u8ba4\u7684\u4e0a\u4f20\u884c\u4e3a\uff0c\u53ef\u4ee5\u81ea\u5b9a\u4e49\u81ea\u5df1\u7684\u4e0a\u4f20\u5b9e\u73b0',
+                  ),
+                  n.a.createElement('td', null, 'function'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'data'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0a\u4f20\u6240\u9700\u989d\u5916\u53c2\u6570\u6216\u8fd4\u56de\u4e0a\u4f20\u989d\u5916\u53c2\u6570\u7684\u65b9\u6cd5',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'object|(file) => object | Promise<object>',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'defaultFileList'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u5df2\u7ecf\u4e0a\u4f20\u7684\u6587\u4ef6\u5217\u8868',
+                  ),
+                  n.a.createElement('td', null, 'object[]'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'directory'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u652f\u6301\u4e0a\u4f20\u6587\u4ef6\u5939\uff08',
+                    n.a.createElement(
+                      r['Link'],
+                      { to: 'https://caniuse.com/#feat=input-file-directory' },
+                      'caniuse',
+                    ),
+                    '\uff09',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'disabled'),
+                  n.a.createElement('td', null, '\u662f\u5426\u7981\u7528'),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'fileList'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5df2\u7ecf\u4e0a\u4f20\u7684\u6587\u4ef6\u5217\u8868\uff08\u53d7\u63a7\uff09\uff0c\u4f7f\u7528\u6b64\u53c2\u6570\u65f6\uff0c\u5982\u679c\u9047\u5230 ',
+                    n.a.createElement('code', null, 'onChange'),
+                    ' \u53ea\u8c03\u7528\u4e00\u6b21\u7684\u95ee\u9898\uff0c\u8bf7\u53c2\u8003 ',
+                    n.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/ant-design/ant-design/issues/2423',
+                      },
+                      '#2423',
+                    ),
+                  ),
+                  n.a.createElement('td', null, 'object[]'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'headers'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u4e0a\u4f20\u7684\u8bf7\u6c42\u5934\u90e8\uff0cIE10 \u4ee5\u4e0a\u6709\u6548',
+                  ),
+                  n.a.createElement('td', null, 'object'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'iconRender'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u663e\u793a icon',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(file: UploadFile, listType?: UploadListType) => ReactNode',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'isImageUrl'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u7f29\u7565\u56fe\u662f\u5426\u4f7f\u7528 <img /> \u6807\u7b7e\u8fdb\u884c\u663e\u793a',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(file: UploadFile) => boolean',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/ant-design/ant-design/blob/4ad5830eecfb87471cd8ac588c5d992862b70770/components/upload/utils.tsx#L47-L68',
+                      },
+                      '(\u5185\u90e8\u5b9e\u73b0)',
+                    ),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'itemRender'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u4e0a\u4f20\u5217\u8868\u9879',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(originNode: ReactElement, file: UploadFile, fileList?: object[]) => React.ReactNode',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.7.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'listType'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0a\u4f20\u5217\u8868\u7684\u5185\u5efa\u6837\u5f0f\uff0c\u652f\u6301\u4e09\u79cd\u57fa\u672c\u6837\u5f0f ',
+                    n.a.createElement('code', null, 'text'),
+                    ', ',
+                    n.a.createElement('code', null, 'picture'),
+                    ' \u548c ',
+                    n.a.createElement('code', null, 'picture-card'),
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'text'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'method'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0a\u4f20\u8bf7\u6c42\u7684 http method',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'post'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'multiple'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u652f\u6301\u591a\u9009\u6587\u4ef6\uff0c',
+                    n.a.createElement('code', null, 'ie10+'),
+                    ' \u652f\u6301\u3002\u5f00\u542f\u540e\u6309\u4f4f ctrl \u53ef\u9009\u62e9\u591a\u4e2a\u6587\u4ef6',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'name'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u53d1\u5230\u540e\u53f0\u7684\u6587\u4ef6\u53c2\u6570\u540d',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'file'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'openFileDialogOnClick'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u6253\u5f00\u6587\u4ef6\u5bf9\u8bdd\u6846',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'previewFile'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6587\u4ef6\u9884\u89c8\u903b\u8f91',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(file: File | Blob) => Promise<dataURL: string>',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'progress'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u8fdb\u5ea6\u6761\u6837\u5f0f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '/components/progress/#API' },
+                      'ProgressProps',
+                    ),
+                    '\uff08\u4ec5\u652f\u6301 ',
+                    n.a.createElement('code', null, 'type="line"'),
+                    '\uff09',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '{',
+                    ' strokeWidth: 2, showInfo: false ',
+                    '}',
+                  ),
+                  n.a.createElement('td', null, '4.3.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'showUploadList'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5c55\u793a\u6587\u4ef6\u5217\u8868, \u53ef\u8bbe\u4e3a\u4e00\u4e2a\u5bf9\u8c61\uff0c\u7528\u4e8e\u5355\u72ec\u8bbe\u5b9a ',
+                    n.a.createElement('code', null, 'showPreviewIcon'),
+                    ', ',
+                    n.a.createElement('code', null, 'showRemoveIcon'),
+                    ', ',
+                    n.a.createElement('code', null, 'showDownloadIcon'),
+                    ', ',
+                    n.a.createElement('code', null, 'removeIcon'),
+                    ' \u548c ',
+                    n.a.createElement('code', null, 'downloadIcon'),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    '{',
+                    ' showPreviewIcon?: boolean, showRemoveIcon?: boolean, showDownloadIcon?: boolean, removeIcon?: ReactNode | (file: UploadFile) => ReactNode, downloadIcon?: ReactNode | (file: UploadFile) => ReactNode ',
+                    '}',
+                  ),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null, 'function: 4.7.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'withCredentials'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0a\u4f20\u8bf7\u6c42\u65f6\u662f\u5426\u643a\u5e26 cookie',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0a\u4f20\u6587\u4ef6\u6539\u53d8\u65f6\u7684\u72b6\u6001\uff0c\u8be6\u89c1 ',
+                    n.a.createElement(
+                      r['AnchorLink'],
+                      { to: '#onChange' },
+                      'onChange',
+                    ),
+                  ),
+                  n.a.createElement('td', null, 'function'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onDownload'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u4e0b\u8f7d\u6587\u4ef6\u65f6\u7684\u56de\u8c03\uff0c\u5982\u679c\u6ca1\u6709\u6307\u5b9a\uff0c\u5219\u9ed8\u8ba4\u8df3\u8f6c\u5230\u6587\u4ef6 url \u5bf9\u5e94\u7684\u6807\u7b7e\u9875',
+                  ),
+                  n.a.createElement('td', null, 'function(file): void'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(\u8df3\u8f6c\u65b0\u6807\u7b7e\u9875)',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onPreview'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u6587\u4ef6\u94fe\u63a5\u6216\u9884\u89c8\u56fe\u6807\u65f6\u7684\u56de\u8c03',
+                  ),
+                  n.a.createElement('td', null, 'function(file)'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onRemove \xa0'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u79fb\u9664\u6587\u4ef6\u65f6\u7684\u56de\u8c03\uff0c\u8fd4\u56de\u503c\u4e3a false \u65f6\u4e0d\u79fb\u9664\u3002\u652f\u6301\u8fd4\u56de\u4e00\u4e2a Promise \u5bf9\u8c61\uff0cPromise \u5bf9\u8c61 resolve(false) \u6216 reject \u65f6\u4e0d\u79fb\u9664 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(file): boolean | Promise',
+                  ),
+                  n.a.createElement('td', null, '- \xa0'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'onchange' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#onchange', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'onChange',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4e0a\u4f20\u4e2d\u3001\u5b8c\u6210\u3001\u5931\u8d25\u90fd\u4f1a\u8c03\u7528\u8fd9\u4e2a\u51fd\u6570\u3002',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u6587\u4ef6\u72b6\u6001\u6539\u53d8\u7684\u56de\u8c03\uff0c\u8fd4\u56de\u4e3a\uff1a',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\n{\n  file: { /* ... */ },\n  fileList: [ /* ... */ ],\n  event: { /* ... */ },\n}\n',
+              lang: 'js',
+            }),
+            n.a.createElement(
+              'p',
+              null,
+              '1 | pure . ',
+              n.a.createElement('code', null, 'file'),
+              ' \u5f53\u524d\u64cd\u4f5c\u7684\u6587\u4ef6\u5bf9\u8c61\u3002',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                "\n{\n   uid: 'uid',      // \u6587\u4ef6\u552f\u4e00\u6807\u8bc6\uff0c\u5efa\u8bae\u8bbe\u7f6e\u4e3a\u8d1f\u6570\uff0c\u9632\u6b62\u548c\u5185\u90e8\u4ea7\u751f\u7684 id \u51b2\u7a81\n   name: 'xx.png'   // \u6587\u4ef6\u540d\n   status: 'done', // \u72b6\u6001\u6709\uff1auploading done error removed\uff0c\u88ab beforeUpload \u62e6\u622a\u7684\u6587\u4ef6\u6ca1\u6709 status \u5c5e\u6027\n   response: '{\"status\": \"success\"}', // \u670d\u52a1\u7aef\u54cd\u5e94\u5185\u5bb9\n   linkProps: '{\"download\": \"image\"}', // \u4e0b\u8f7d\u94fe\u63a5\u989d\u5916\u7684 HTML \u5c5e\u6027\n}\n",
+              lang: 'js',
+            }),
+            n.a.createElement(
+              'p',
+              null,
+              '2 | pure . ',
+              n.a.createElement('code', null, 'fileList'),
+              ' \u5f53\u524d\u7684\u6587\u4ef6\u5217\u8868\u3002',
+            ),
+            n.a.createElement(
+              'ol',
+              { start: 3 },
+              n.a.createElement(
+                'li',
+                null,
+                n.a.createElement('code', null, 'event'),
+                ' \u4e0a\u4f20\u4e2d\u7684\u670d\u52a1\u7aef\u54cd\u5e94\u5185\u5bb9\uff0c\u5305\u542b\u4e86\u4e0a\u4f20\u8fdb\u5ea6\u7b49\u4fe1\u606f\uff0c\u9ad8\u7ea7\u6d4f\u89c8\u5668\u652f\u6301\u3002',
+              ),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: 'faq' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#faq', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FAQ',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: '\u670d\u52a1\u7aef\u5982\u4f55\u5b9e\u73b0\uff1f' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u670d\u52a1\u7aef\u5982\u4f55\u5b9e\u73b0\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u670d\u52a1\u7aef\u5982\u4f55\u5b9e\u73b0\uff1f',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u670d\u52a1\u7aef\u4e0a\u4f20\u63a5\u53e3\u5b9e\u73b0\u53ef\u4ee5\u53c2\u8003 ',
+                n.a.createElement(
+                  r['Link'],
+                  {
+                    to:
+                      'https://github.com/blueimp/jQuery-File-Upload/wiki#server-side',
+                  },
+                  'jQuery-File-Upload',
+                ),
+                '\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u5982\u679c\u8981\u505a\u672c\u5730 mock \u53ef\u4ee5\u53c2\u8003\u8fd9\u4e2a ',
+                n.a.createElement(
+                  r['Link'],
+                  {
+                    to:
+                      'https://github.com/react-component/upload/blob/master/server.js',
+                  },
+                  'express \u7684\u4f8b\u5b50',
+                ),
+                '\u3002',
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              { id: '\u5982\u4f55\u663e\u793a\u4e0b\u8f7d\u94fe\u63a5\uff1f' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u5982\u4f55\u663e\u793a\u4e0b\u8f7d\u94fe\u63a5\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5982\u4f55\u663e\u793a\u4e0b\u8f7d\u94fe\u63a5\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u8bf7\u4f7f\u7528 fileList \u5c5e\u6027\u8bbe\u7f6e\u6570\u7ec4\u9879\u7684 url \u5c5e\u6027\u8fdb\u884c\u5c55\u793a\u63a7\u5236\u3002',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'customrequest-\u600e\u4e48\u4f7f\u7528\uff1f' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#customrequest-\u600e\u4e48\u4f7f\u7528\uff1f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              n.a.createElement('code', null, 'customRequest'),
+              ' \u600e\u4e48\u4f7f\u7528\uff1f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u8bf7\u53c2\u8003 ',
+              n.a.createElement(
+                r['Link'],
+                {
+                  to: 'https://github.com/react-component/upload#customrequest',
+                },
+                'https://github.com/react-component/upload#customrequest',
+              ),
+              '\u3002',
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

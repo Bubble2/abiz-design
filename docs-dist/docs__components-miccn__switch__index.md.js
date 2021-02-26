@@ -1,1 +1,559 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[189],{"/5Wv":function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),_=t.n(a),E=t("g5U0"),c=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u5F00\u5173"},e.a.createElement(a.AnchorLink,{to:"#\u5F00\u5173","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5F00\u5173"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("dGP1").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(a.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(c.a,{gutter:"8"},e.a.createElement(E.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("HyAQ").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("EaPy").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("oJWB").default()}))),e.a.createElement(E.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Q2Y+").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("MhDw").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("IC2T").default()}),e.a.createElement("div",null))))}},EaPy:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),_=t.n(a),E=t("g5U0"),c=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["text-switch-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["text-switch-miccn-demo"].previewerProps,e.a.createElement(d,null))))}},HyAQ:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),_=t.n(a),E=t("g5U0"),c=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["basic-switch-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["basic-switch-miccn-demo"].previewerProps,e.a.createElement(d,null))))}},IC2T:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),_=t.n(a),E=t("g5U0"),c=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(a.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"autoFocus"),e.a.createElement("td",null,"\u7EC4\u4EF6\u81EA\u52A8\u83B7\u53D6\u7126\u70B9"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"checked"),e.a.createElement("td",null,"\u6307\u5B9A\u5F53\u524D\u662F\u5426\u9009\u4E2D"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"checkedChildren"),e.a.createElement("td",null,"\u9009\u4E2D\u65F6\u7684\u5185\u5BB9"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"className"),e.a.createElement("td",null,"Switch \u5668\u7C7B\u540D"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultChecked"),e.a.createElement("td",null,"\u521D\u59CB\u662F\u5426\u9009\u4E2D"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"disabled"),e.a.createElement("td",null,"\u662F\u5426\u7981\u7528"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"loading"),e.a.createElement("td",null,"\u52A0\u8F7D\u4E2D\u7684\u5F00\u5173"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"size"),e.a.createElement("td",null,"\u5F00\u5173\u5927\u5C0F\uFF0C\u53EF\u9009\u503C\uFF1A",e.a.createElement("code",null,"default")," ",e.a.createElement("code",null,"small")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"default"))),e.a.createElement("tr",null,e.a.createElement("td",null,"unCheckedChildren"),e.a.createElement("td",null,"\u975E\u9009\u4E2D\u65F6\u7684\u5185\u5BB9"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u53D8\u5316\u65F6\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"function(checked: boolean, event: Event)"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"onClick"),e.a.createElement("td",null,"\u70B9\u51FB\u65F6\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"function(checked: boolean, event: Event)"),e.a.createElement("td",null,"-")))),e.a.createElement("h2",{id:"\u65B9\u6CD5"},e.a.createElement(a.AnchorLink,{to:"#\u65B9\u6CD5","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u65B9\u6CD5"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u540D\u79F0"),e.a.createElement("th",null,"\u63CF\u8FF0"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"blur()"),e.a.createElement("td",null,"\u79FB\u9664\u7126\u70B9")),e.a.createElement("tr",null,e.a.createElement("td",null,"focus()"),e.a.createElement("td",null,"\u83B7\u53D6\u7126\u70B9"))))))}},MhDw:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),_=t.n(a),E=t("g5U0"),c=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["size-switch-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["size-switch-miccn-demo"].previewerProps,e.a.createElement(d,null))))}},"Q2Y+":function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),_=t.n(a),E=t("g5U0"),c=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["disabled-switch-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["disabled-switch-miccn-demo"].previewerProps,e.a.createElement(d,null))))}},dGP1:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),_=t.n(a),E=t("g5U0"),c=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u5F00\u5173\u9009\u62E9\u5668\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(a.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u9700\u8981\u8868\u793A\u5F00\u5173\u72B6\u6001/\u4E24\u79CD\u72B6\u6001\u4E4B\u95F4\u7684\u5207\u6362\u65F6\uFF1B"),e.a.createElement("li",null,"\u548C ",e.a.createElement("code",null,"checkbox")," \u7684\u533A\u522B\u662F\uFF0C\u5207\u6362 ",e.a.createElement("code",null,"switch")," \u4F1A\u76F4\u63A5\u89E6\u53D1\u72B6\u6001\u6539\u53D8\uFF0C\u800C ",e.a.createElement("code",null,"checkbox")," \u4E00\u822C\u7528\u4E8E\u72B6\u6001\u6807\u8BB0\uFF0C\u9700\u8981\u548C\u63D0\u4EA4\u64CD\u4F5C\u914D\u5408\u3002"))))}},g5U0:function(u,l,t){"use strict";var n=t("kPKH"),e=t("h9md"),a=t.n(e);l.a=n.a},ltCa:function(u,l,t){"use strict";var n=t("BMrR"),e=t("7xIR"),a=t.n(e);l.a=n.a},oJWB:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),_=t.n(a),E=t("g5U0"),c=t("ltCa"),m=t("0zqC");const d=e.a.memo(t("JjdP").default["loading-switch-miccn-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(m.default,t("JjdP").default["loading-switch-miccn-demo"].previewerProps,e.a.createElement(d,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [190],
+  {
+    '/5Wv': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq'),
+        r = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u5f00\u5173' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#\u5f00\u5173', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5f00\u5173',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('dGP1').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                r['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('HyAQ').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('EaPy').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('oJWB').default(),
+                  }),
+                ),
+              ),
+              n.a.createElement(
+                r['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('Q2Y+').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('MhDw').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('IC2T').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        c = a('cDcd'),
+        r = a.n(c),
+        m = a('ZpkN');
+      t['a'] = r.a.forwardRef((e, t) => {
+        var a = e.children,
+          c = Object(n['default'])(e, ['children']);
+        return r.a.createElement(
+          m['a'],
+          Object(l['default'])({}, c, { forwardedRef: t }),
+          r.a.createElement(r.a.Fragment, null, a),
+        );
+      });
+    },
+    EaPy: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['text-switch-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['text-switch-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    HyAQ: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['basic-switch-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['basic-switch-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    IC2T: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'autoFocus'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u7ec4\u4ef6\u81ea\u52a8\u83b7\u53d6\u7126\u70b9',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'checked'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u5f53\u524d\u662f\u5426\u9009\u4e2d',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'checkedChildren'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u4e2d\u65f6\u7684\u5185\u5bb9',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'className'),
+                  n.a.createElement('td', null, 'Switch \u5668\u7c7b\u540d'),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'defaultChecked'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u521d\u59cb\u662f\u5426\u9009\u4e2d',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'disabled'),
+                  n.a.createElement('td', null, '\u662f\u5426\u7981\u7528'),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'loading'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u52a0\u8f7d\u4e2d\u7684\u5f00\u5173',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'size'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5f00\u5173\u5927\u5c0f\uff0c\u53ef\u9009\u503c\uff1a',
+                    n.a.createElement('code', null, 'default'),
+                    ' ',
+                    n.a.createElement('code', null, 'small'),
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'default'),
+                  ),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'unCheckedChildren'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u975e\u9009\u4e2d\u65f6\u7684\u5185\u5bb9',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u53d8\u5316\u65f6\u56de\u8c03\u51fd\u6570',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(checked: boolean, event: Event)',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onClick'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u65f6\u56de\u8c03\u51fd\u6570',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'function(checked: boolean, event: Event)',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u65b9\u6cd5' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#\u65b9\u6cd5', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u65b9\u6cd5',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u540d\u79f0'),
+                  n.a.createElement('th', null, '\u63cf\u8ff0'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'blur()'),
+                  n.a.createElement('td', null, '\u79fb\u9664\u7126\u70b9'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'focus()'),
+                  n.a.createElement('td', null, '\u83b7\u53d6\u7126\u70b9'),
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    MhDw: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['size-switch-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['size-switch-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    'Q2Y+': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['disabled-switch-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['disabled-switch-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    dGP1: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u5f00\u5173\u9009\u62e9\u5668\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u9700\u8981\u8868\u793a\u5f00\u5173\u72b6\u6001/\u4e24\u79cd\u72b6\u6001\u4e4b\u95f4\u7684\u5207\u6362\u65f6\uff1b',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u548c ',
+                n.a.createElement('code', null, 'checkbox'),
+                ' \u7684\u533a\u522b\u662f\uff0c\u5207\u6362 ',
+                n.a.createElement('code', null, 'switch'),
+                ' \u4f1a\u76f4\u63a5\u89e6\u53d1\u72b6\u6001\u6539\u53d8\uff0c\u800c ',
+                n.a.createElement('code', null, 'checkbox'),
+                ' \u4e00\u822c\u7528\u4e8e\u72b6\u6001\u6807\u8bb0\uff0c\u9700\u8981\u548c\u63d0\u4ea4\u64cd\u4f5c\u914d\u5408\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+    oJWB: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['loading-switch-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['loading-switch-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

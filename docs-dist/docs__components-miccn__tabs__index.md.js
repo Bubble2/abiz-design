@@ -1,64 +1,1187 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[191],{"/d0r":function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(n.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("h3",{id:"tabs"},e.a.createElement(n.AnchorLink,{to:"#tabs","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Tabs"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"activeKey"),e.a.createElement("td",null,"\u5F53\u524D\u6FC0\u6D3B tab \u9762\u677F\u7684 key"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"addIcon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6DFB\u52A0\u6309\u94AE"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.4.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"animated"),e.a.createElement("td",null,"\u662F\u5426\u4F7F\u7528\u52A8\u753B\u5207\u6362 Tabs, \u4EC5\u751F\u6548\u4E8E ",e.a.createElement("code",null,'tabPosition="top"')),e.a.createElement("td",null,"boolean | ","{"," inkBar: boolean, tabPane: boolean ","}"),e.a.createElement("td",null,"{"," inkBar: true, tabPane: false ","}"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"centered"),e.a.createElement("td",null,"\u6807\u7B7E\u5C45\u4E2D\u5C55\u793A"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"4.4.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultActiveKey"),e.a.createElement("td",null,"\u521D\u59CB\u5316\u9009\u4E2D\u9762\u677F\u7684 key\uFF0C\u5982\u679C\u6CA1\u6709\u8BBE\u7F6E activeKey"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"\u7B2C\u4E00\u4E2A\u9762\u677F")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"hideAdd"),e.a.createElement("td",null,"\u662F\u5426\u9690\u85CF\u52A0\u53F7\u56FE\u6807\uFF0C\u5728 ",e.a.createElement("code",null,'type="editable-card"')," \u65F6\u6709\u6548"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"keyboard"),e.a.createElement("td",null,"\u5F00\u542F\u952E\u76D8\u5207\u6362\u529F\u80FD"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"renderTabBar"),e.a.createElement("td",null,"\u66FF\u6362 TabBar\uFF0C\u7528\u4E8E\u4E8C\u6B21\u5C01\u88C5\u6807\u7B7E\u5934"),e.a.createElement("td",null,"(props: DefaultTabBarProps, DefaultTabBar: React.ComponentClass) => React.ReactElement"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"size"),e.a.createElement("td",null,"\u5927\u5C0F\uFF0C\u63D0\u4F9B ",e.a.createElement("code",null,"large")," ",e.a.createElement("code",null,"default")," \u548C ",e.a.createElement("code",null,"small")," \u4E09\u79CD\u5927\u5C0F"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"default")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"tabBarExtraContent"),e.a.createElement("td",null,"tab bar \u4E0A\u989D\u5916\u7684\u5143\u7D20"),e.a.createElement("td",null,"ReactNode | ","{","left?: ReactNode, right?: ReactNode","}"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"object: 4.6.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"tabBarGutter"),e.a.createElement("td",null,"tabs \u4E4B\u95F4\u7684\u95F4\u9699"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"tabBarStyle"),e.a.createElement("td",null,"tab bar \u7684\u6837\u5F0F\u5BF9\u8C61"),e.a.createElement("td",null,"object"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"tabPosition"),e.a.createElement("td",null,"\u9875\u7B7E\u4F4D\u7F6E\uFF0C\u53EF\u9009\u503C\u6709 ",e.a.createElement("code",null,"top")," ",e.a.createElement("code",null,"right")," ",e.a.createElement("code",null,"bottom")," ",e.a.createElement("code",null,"left")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"top")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"type"),e.a.createElement("td",null,"\u9875\u7B7E\u7684\u57FA\u672C\u6837\u5F0F\uFF0C\u53EF\u9009 ",e.a.createElement("code",null,"line"),"\u3001",e.a.createElement("code",null,"card")," ",e.a.createElement("code",null,"editable-card")," \u7C7B\u578B"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"line")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u5207\u6362\u9762\u677F\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(activeKey) ","{","}"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onEdit"),e.a.createElement("td",null,"\u65B0\u589E\u548C\u5220\u9664\u9875\u7B7E\u7684\u56DE\u8C03\uFF0C\u5728 ",e.a.createElement("code",null,'type="editable-card"')," \u65F6\u6709\u6548"),e.a.createElement("td",null,"(targetKey, action): void"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onTabClick"),e.a.createElement("td",null,"tab \u88AB\u70B9\u51FB\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(key: string, event: MouseEvent)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onTabScroll"),e.a.createElement("td",null,"tab \u6EDA\u52A8\u65F6\u89E6\u53D1"),e.a.createElement("td",null,"function(","{"," direction: ",e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"right")," | ",e.a.createElement("code",null,"top")," | ",e.a.createElement("code",null,"bottom")," ","}",")"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.3.0")))),e.a.createElement("h3",{id:"tabstabpane"},e.a.createElement(n.AnchorLink,{to:"#tabstabpane","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Tabs.TabPane"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"closeIcon"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5173\u95ED\u56FE\u6807\uFF0C",e.a.createElement("code",null,'\u5728 type="editable-card"'),"\u65F6\u6709\u6548"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"forceRender"),e.a.createElement("td",null,"\u88AB\u9690\u85CF\u65F6\u662F\u5426\u6E32\u67D3 DOM \u7ED3\u6784"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"key"),e.a.createElement("td",null,"\u5BF9\u5E94 activeKey"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"tab"),e.a.createElement("td",null,"\u9009\u9879\u5361\u5934\u663E\u793A\u6587\u5B57"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"))))))}},"0RrK":function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC"),E=t("ZpkN");const o=e.a.memo(t("JjdP").default["extra-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["extra-tabs-miccn-demo"].previewerProps,e.a.createElement(o,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(E.a,{code:`.tabs-extra-demo-button {
-  margin-right: 16px;
-}
-
-.ant-row-rtl .tabs-extra-demo-button {
-  margin-right: 0;
-  margin-left: 16px;
-}
-`,lang:"css"}))))}},"6kHw":function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["nest-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["nest-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},"9jP7":function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["icon-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["icon-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},"B/sN":function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC"),E=t("ZpkN");const o=e.a.memo(t("JjdP").default["custom-tab-bar-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["custom-tab-bar-tabs-miccn-demo"].previewerProps,e.a.createElement(o,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(E.a,{code:`.site-custom-tab-bar {
-  z-index: 1;
-  background: #fff;
-}
-`,lang:"css"}))))}},RNGC:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["centered-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["centered-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},YE9T:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["custom-add-trigger-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["custom-add-trigger-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},aOB4:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u6807\u7B7E\u9875"},e.a.createElement(n.AnchorLink,{to:"#\u6807\u7B7E\u9875","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u6807\u7B7E\u9875"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("eNI4").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(n.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(c.a,{gutter:"8"},e.a.createElement(d.a,{span:24},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("hosZ").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("ohwk").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("r6xu").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("RNGC").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("9jP7").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("oeeH").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("0RrK").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("e7PS").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("ulj4").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("eOGV").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("malg").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("eSG5").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("YE9T").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("B/sN").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("6kHw").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("/d0r").default()}),e.a.createElement("div",null))))}},e7PS:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["size-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["size-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},eNI4:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u9009\u9879\u5361\u5207\u6362\u7EC4\u4EF6\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(n.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("p",null,"\u63D0\u4F9B\u5E73\u7EA7\u7684\u533A\u57DF\u5C06\u5927\u5757\u5185\u5BB9\u8FDB\u884C\u6536\u7EB3\u548C\u5C55\u73B0\uFF0C\u4FDD\u6301\u754C\u9762\u6574\u6D01\u3002"),e.a.createElement("p",null,"Ant Design \u4F9D\u6B21\u63D0\u4F9B\u4E86\u4E09\u7EA7\u9009\u9879\u5361\uFF0C\u5206\u522B\u7528\u4E8E\u4E0D\u540C\u7684\u573A\u666F\u3002"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u5361\u7247\u5F0F\u7684\u9875\u7B7E\uFF0C\u63D0\u4F9B\u53EF\u5173\u95ED\u7684\u6837\u5F0F\uFF0C\u5E38\u7528\u4E8E\u5BB9\u5668\u9876\u90E8\u3002"),e.a.createElement("li",null,"\u65E2\u53EF\u7528\u4E8E\u5BB9\u5668\u9876\u90E8\uFF0C\u4E5F\u53EF\u7528\u4E8E\u5BB9\u5668\u5185\u90E8\uFF0C\u662F\u6700\u901A\u7528\u7684 Tabs\u3002"),e.a.createElement("li",null,e.a.createElement(n.AnchorLink,{to:"/components/radio/#components-radio-demo-radiobutton"},"Radio.Button")," \u53EF\u4F5C\u4E3A\u66F4\u6B21\u7EA7\u7684\u9875\u7B7E\u6765\u4F7F\u7528\u3002"))))}},eOGV:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["card-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["card-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},eSG5:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC"),E=t("ZpkN");const o=e.a.memo(t("JjdP").default["card-top-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["card-top-tabs-miccn-demo"].previewerProps,e.a.createElement(o,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(E.a,{code:`.card-container p {
-  margin: 0;
-}
-.card-container > .ant-tabs-card .ant-tabs-content {
-  height: 120px;
-  margin-top: -16px;
-}
-.card-container > .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {
-  padding: 16px;
-  background: #fff;
-}
-.card-container > .ant-tabs-card > .ant-tabs-nav::before {
-  display: none;
-}
-.card-container > .ant-tabs-card .ant-tabs-tab,
-[data-theme='compact'] .card-container > .ant-tabs-card .ant-tabs-tab {
-  background: transparent;
-  border-color: transparent;
-}
-.card-container > .ant-tabs-card .ant-tabs-tab-active,
-[data-theme='compact'] .card-container > .ant-tabs-card .ant-tabs-tab-active {
-  background: #fff;
-  border-color: #fff;
-}
-#components-tabs-demo-card-top .code-box-demo {
-  padding: 24px;
-  overflow: hidden;
-  background: #f5f5f5;
-}
-[data-theme='compact'] .card-container > .ant-tabs-card .ant-tabs-content {
-  height: 120px;
-  margin-top: -8px;
-}
-[data-theme='dark'] .card-container > .ant-tabs-card .ant-tabs-tab {
-  background: transparent;
-  border-color: transparent;
-}
-[data-theme='dark'] #components-tabs-demo-card-top .code-box-demo {
-  background: #000;
-}
-[data-theme='dark']
-  .card-container
-  > .ant-tabs-card
-  .ant-tabs-content
-  > .ant-tabs-tabpane {
-  background: #141414;
-}
-[data-theme='dark'] .card-container > .ant-tabs-card .ant-tabs-tab-active {
-  background: #141414;
-  border-color: #141414;
-}
-`,lang:"css"}))))}},g5U0:function(m,a,t){"use strict";var l=t("kPKH"),e=t("h9md"),n=t.n(e);a.a=l.a},hosZ:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["basic-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["basic-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},ltCa:function(m,a,t){"use strict";var l=t("BMrR"),e=t("7xIR"),n=t.n(e);a.a=l.a},malg:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["editable-card-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["editable-card-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},oeeH:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["slide-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["slide-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},ohwk:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["disabled-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["disabled-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},r6xu:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["custom-tab-bar-node-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["custom-tab-bar-node-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}},ulj4:function(m,a,t){"use strict";t.r(a);var l=t("cDcd"),e=t.n(l),n=t("dEAq"),r=t.n(n),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["position-tabs-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["position-tabs-miccn-demo"].previewerProps,e.a.createElement(E,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [192],
+  {
+    '/d0r': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = t('dEAq');
+      t('g5U0'), t('ekZX'), t('ltCa'), t('Bjia');
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: 'api' },
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            l.a.createElement(
+              'h3',
+              { id: 'tabs' },
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '#tabs', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Tabs',
+            ),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  l.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'activeKey'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u524d\u6fc0\u6d3b tab \u9762\u677f\u7684 key',
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'addIcon'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6dfb\u52a0\u6309\u94ae',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null, '4.4.0'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'animated'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u4f7f\u7528\u52a8\u753b\u5207\u6362 Tabs, \u4ec5\u751f\u6548\u4e8e ',
+                    l.a.createElement('code', null, 'tabPosition="top"'),
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    '{',
+                    ' inkBar: boolean, tabPane: boolean ',
+                    '}',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '{',
+                    ' inkBar: true, tabPane: false ',
+                    '}',
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'centered'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u6807\u7b7e\u5c45\u4e2d\u5c55\u793a',
+                  ),
+                  l.a.createElement('td', null, 'boolean'),
+                  l.a.createElement('td', null, 'false'),
+                  l.a.createElement('td', null, '4.4.0'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'defaultActiveKey'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u521d\u59cb\u5316\u9009\u4e2d\u9762\u677f\u7684 key\uff0c\u5982\u679c\u6ca1\u6709\u8bbe\u7f6e activeKey',
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement(
+                      'code',
+                      null,
+                      '\u7b2c\u4e00\u4e2a\u9762\u677f',
+                    ),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'hideAdd'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u9690\u85cf\u52a0\u53f7\u56fe\u6807\uff0c\u5728 ',
+                    l.a.createElement('code', null, 'type="editable-card"'),
+                    ' \u65f6\u6709\u6548',
+                  ),
+                  l.a.createElement('td', null, 'boolean'),
+                  l.a.createElement('td', null, 'false'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'keyboard'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u5f00\u542f\u952e\u76d8\u5207\u6362\u529f\u80fd',
+                  ),
+                  l.a.createElement('td', null, 'boolean'),
+                  l.a.createElement('td', null, 'true'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'renderTabBar'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u66ff\u6362 TabBar\uff0c\u7528\u4e8e\u4e8c\u6b21\u5c01\u88c5\u6807\u7b7e\u5934',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '(props: DefaultTabBarProps, DefaultTabBar: React.ComponentClass) => React.ReactElement',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'size'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u5927\u5c0f\uff0c\u63d0\u4f9b ',
+                    l.a.createElement('code', null, 'large'),
+                    ' ',
+                    l.a.createElement('code', null, 'default'),
+                    ' \u548c ',
+                    l.a.createElement('code', null, 'small'),
+                    ' \u4e09\u79cd\u5927\u5c0f',
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'default'),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'tabBarExtraContent'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'tab bar \u4e0a\u989d\u5916\u7684\u5143\u7d20',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'ReactNode | ',
+                    '{',
+                    'left?: ReactNode, right?: ReactNode',
+                    '}',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null, 'object: 4.6.0'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'tabBarGutter'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'tabs \u4e4b\u95f4\u7684\u95f4\u9699',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'tabBarStyle'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'tab bar \u7684\u6837\u5f0f\u5bf9\u8c61',
+                  ),
+                  l.a.createElement('td', null, 'object'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'tabPosition'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u9875\u7b7e\u4f4d\u7f6e\uff0c\u53ef\u9009\u503c\u6709 ',
+                    l.a.createElement('code', null, 'top'),
+                    ' ',
+                    l.a.createElement('code', null, 'right'),
+                    ' ',
+                    l.a.createElement('code', null, 'bottom'),
+                    ' ',
+                    l.a.createElement('code', null, 'left'),
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'top'),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'type'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u9875\u7b7e\u7684\u57fa\u672c\u6837\u5f0f\uff0c\u53ef\u9009 ',
+                    l.a.createElement('code', null, 'line'),
+                    '\u3001',
+                    l.a.createElement('code', null, 'card'),
+                    ' ',
+                    l.a.createElement('code', null, 'editable-card'),
+                    ' \u7c7b\u578b',
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'line'),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onChange'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u5207\u6362\u9762\u677f\u7684\u56de\u8c03',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(activeKey) ',
+                    '{',
+                    '}',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onEdit'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u65b0\u589e\u548c\u5220\u9664\u9875\u7b7e\u7684\u56de\u8c03\uff0c\u5728 ',
+                    l.a.createElement('code', null, 'type="editable-card"'),
+                    ' \u65f6\u6709\u6548',
+                  ),
+                  l.a.createElement('td', null, '(targetKey, action): void'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onTabClick'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'tab \u88ab\u70b9\u51fb\u7684\u56de\u8c03',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(key: string, event: MouseEvent)',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onTabScroll'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'tab \u6eda\u52a8\u65f6\u89e6\u53d1',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(',
+                    '{',
+                    ' direction: ',
+                    l.a.createElement('code', null, 'left'),
+                    ' | ',
+                    l.a.createElement('code', null, 'right'),
+                    ' | ',
+                    l.a.createElement('code', null, 'top'),
+                    ' | ',
+                    l.a.createElement('code', null, 'bottom'),
+                    ' ',
+                    '}',
+                    ')',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null, '4.3.0'),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'h3',
+              { id: 'tabstabpane' },
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '#tabstabpane', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Tabs.TabPane',
+            ),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'closeIcon'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5173\u95ed\u56fe\u6807\uff0c',
+                    l.a.createElement(
+                      'code',
+                      null,
+                      '\u5728 type="editable-card"',
+                    ),
+                    '\u65f6\u6709\u6548',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'forceRender'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u88ab\u9690\u85cf\u65f6\u662f\u5426\u6e32\u67d3 DOM \u7ed3\u6784',
+                  ),
+                  l.a.createElement('td', null, 'boolean'),
+                  l.a.createElement('td', null, 'false'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'key'),
+                  l.a.createElement('td', null, '\u5bf9\u5e94 activeKey'),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement('td', null, '-'),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'tab'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u9879\u5361\u5934\u663e\u793a\u6587\u5b57',
+                  ),
+                  l.a.createElement('td', null, 'ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    '0RrK': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c = (t('ltCa'), t('Bjia')),
+        m = l.a.memo(t('JjdP').default['extra-tabs-miccn-demo'].component);
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['extra-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(c['a'], {
+                code:
+                  '.tabs-extra-demo-button {\n  margin-right: 16px;\n}\n\n.ant-row-rtl .tabs-extra-demo-button {\n  margin-right: 0;\n  margin-left: 16px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    '6kHw': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['nest-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['nest-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    '9jP7': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['icon-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['icon-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    'B/sN': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c = (t('ltCa'), t('Bjia')),
+        m = l.a.memo(
+          t('JjdP').default['custom-tab-bar-tabs-miccn-demo'].component,
+        );
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['custom-tab-bar-tabs-miccn-demo']
+                .previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(c['a'], {
+                code:
+                  '.site-custom-tab-bar {\n  z-index: 1;\n  background: #fff;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, a, t) {
+      'use strict';
+      var n = t('0Owb'),
+        l = t('PpiC'),
+        r = t('cDcd'),
+        c = t.n(r),
+        m = t('ZpkN');
+      a['a'] = c.a.forwardRef((e, a) => {
+        var t = e.children,
+          r = Object(l['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(n['default'])({}, r, { forwardedRef: a }),
+          c.a.createElement(c.a.Fragment, null, t),
+        );
+      });
+    },
+    RNGC: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['centered-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['centered-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    YE9T: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['custom-add-trigger-tabs-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['custom-add-trigger-tabs-miccn-demo']
+                .previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    aOB4: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = t('dEAq'),
+        c = t('g5U0'),
+        m = (t('ekZX'), t('ltCa'));
+      t('Bjia');
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: '\u6807\u7b7e\u9875' },
+              l.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u6807\u7b7e\u9875',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u6807\u7b7e\u9875',
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: t('eNI4').default(),
+              }),
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              l.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            l.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              l.a.createElement(
+                c['a'],
+                { span: 24 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('hosZ').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('ohwk').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('r6xu').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('RNGC').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('9jP7').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('oeeH').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('0RrK').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('e7PS').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('ulj4').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('eOGV').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('malg').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('eSG5').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('YE9T').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('B/sN').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('6kHw').default(),
+                  }),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: t('/d0r').default(),
+              }),
+              l.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    e7PS: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['size-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['size-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    eNI4: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = t('dEAq');
+      t('g5U0'), t('ekZX'), t('ltCa'), t('Bjia');
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'p',
+              null,
+              '\u9009\u9879\u5361\u5207\u6362\u7ec4\u4ef6\u3002',
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              l.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u63d0\u4f9b\u5e73\u7ea7\u7684\u533a\u57df\u5c06\u5927\u5757\u5185\u5bb9\u8fdb\u884c\u6536\u7eb3\u548c\u5c55\u73b0\uff0c\u4fdd\u6301\u754c\u9762\u6574\u6d01\u3002',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              'Ant Design \u4f9d\u6b21\u63d0\u4f9b\u4e86\u4e09\u7ea7\u9009\u9879\u5361\uff0c\u5206\u522b\u7528\u4e8e\u4e0d\u540c\u7684\u573a\u666f\u3002',
+            ),
+            l.a.createElement(
+              'ul',
+              null,
+              l.a.createElement(
+                'li',
+                null,
+                '\u5361\u7247\u5f0f\u7684\u9875\u7b7e\uff0c\u63d0\u4f9b\u53ef\u5173\u95ed\u7684\u6837\u5f0f\uff0c\u5e38\u7528\u4e8e\u5bb9\u5668\u9876\u90e8\u3002',
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                '\u65e2\u53ef\u7528\u4e8e\u5bb9\u5668\u9876\u90e8\uff0c\u4e5f\u53ef\u7528\u4e8e\u5bb9\u5668\u5185\u90e8\uff0c\u662f\u6700\u901a\u7528\u7684 Tabs\u3002',
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement(
+                  r['AnchorLink'],
+                  {
+                    to: '/components/radio/#components-radio-demo-radiobutton',
+                  },
+                  'Radio.Button',
+                ),
+                ' \u53ef\u4f5c\u4e3a\u66f4\u6b21\u7ea7\u7684\u9875\u7b7e\u6765\u4f7f\u7528\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    eOGV: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['card-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['card-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    eSG5: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c = (t('ltCa'), t('Bjia')),
+        m = l.a.memo(t('JjdP').default['card-top-tabs-miccn-demo'].component);
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['card-top-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(c['a'], {
+                code:
+                  ".card-container p {\n  margin: 0;\n}\n.card-container > .ant-tabs-card .ant-tabs-content {\n  height: 120px;\n  margin-top: -16px;\n}\n.card-container > .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {\n  padding: 16px;\n  background: #fff;\n}\n.card-container > .ant-tabs-card > .ant-tabs-nav::before {\n  display: none;\n}\n.card-container > .ant-tabs-card .ant-tabs-tab,\n[data-theme='compact'] .card-container > .ant-tabs-card .ant-tabs-tab {\n  background: transparent;\n  border-color: transparent;\n}\n.card-container > .ant-tabs-card .ant-tabs-tab-active,\n[data-theme='compact'] .card-container > .ant-tabs-card .ant-tabs-tab-active {\n  background: #fff;\n  border-color: #fff;\n}\n#components-tabs-demo-card-top .code-box-demo {\n  padding: 24px;\n  overflow: hidden;\n  background: #f5f5f5;\n}\n[data-theme='compact'] .card-container > .ant-tabs-card .ant-tabs-content {\n  height: 120px;\n  margin-top: -8px;\n}\n[data-theme='dark'] .card-container > .ant-tabs-card .ant-tabs-tab {\n  background: transparent;\n  border-color: transparent;\n}\n[data-theme='dark'] #components-tabs-demo-card-top .code-box-demo {\n  background: #000;\n}\n[data-theme='dark']\n  .card-container\n  > .ant-tabs-card\n  .ant-tabs-content\n  > .ant-tabs-tabpane {\n  background: #141414;\n}\n[data-theme='dark'] .card-container > .ant-tabs-card .ant-tabs-tab-active {\n  background: #141414;\n  border-color: #141414;\n}\n",
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, a, t) {
+      'use strict';
+      var n = t('kPKH');
+      t('h9md');
+      a['a'] = n['a'];
+    },
+    hosZ: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['basic-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['basic-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, a, t) {
+      'use strict';
+      var n = t('BMrR');
+      t('7xIR');
+      a['a'] = n['a'];
+    },
+    malg: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['editable-card-tabs-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['editable-card-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    oeeH: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['slide-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['slide-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ohwk: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['disabled-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['disabled-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    r6xu: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['custom-tab-bar-node-tabs-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['custom-tab-bar-node-tabs-miccn-demo']
+                .previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ulj4: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['position-tabs-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['position-tabs-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

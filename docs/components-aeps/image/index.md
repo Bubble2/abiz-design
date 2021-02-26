@@ -26,6 +26,8 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/image/demo/placeholder-image-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/image/demo/previewSrc-image-aeps.md"></embed></div>
+          
   </Col>
           
   <Col span=12>
@@ -34,9 +36,10 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/image/demo/previewGroup-image-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/image/demo/preview-mask-image-aeps.md"></embed></div>
+          
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/image/index-api.md"></embed><div>
-        

@@ -1,15 +1,839 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[182],{"+tvu":function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["debug-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["debug-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},"0lYr":function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC"),E=e("ZpkN");const D=t.a.memo(e("JjdP").default["size-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["size-select-miccn-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(E.a,{code:`.code-box-demo .ant-select {
-  margin: 0 8px 10px 0;
-}
-
-.ant-row-rtl .code-box-demo .ant-select {
-  margin: 0 0 10px 8px;
-}
-
-#components-select-demo-search-box .code-box-demo .ant-select {
-  margin: 0;
-}
-`,lang:"css"}))))}},"8PIf":function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["search-box-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["search-box-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},"9gKp":function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["coordinate-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["coordinate-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},A9T7:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["tags-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["tags-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},AEuk:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["optgroup-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["optgroup-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},AFaS:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["label-in-value-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["label-in-value-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},BTE0:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["search-sort-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["search-sort-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},Bv8i:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["suffix-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["suffix-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},EJfy:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["custom-tag-render-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["custom-tag-render-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},GKrp:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa");a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"},t.a.createElement("h2",{id:"\u9009\u62E9\u5668"},t.a.createElement(n.AnchorLink,{to:"#\u9009\u62E9\u5668","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u9009\u62E9\u5668"),t.a.createElement("div",null,t.a.createElement(t.a.Fragment,{children:e("P3S1").default()})),t.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},t.a.createElement(n.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),t.a.createElement(i.a,{gutter:"8"},t.a.createElement(d.a,{span:12},t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("pN/V").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("jaav").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("A9T7").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("BTE0").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("AEuk").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("8PIf").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("Gz47").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("Bv8i").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("rkzM").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("dXMd").default()}))),t.a.createElement(d.a,{span:12},t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("rJnb").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("0lYr").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("i0xB").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("+tvu").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("9gKp").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("AFaS").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("Z6jo").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("cE/i").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("mQFV").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("EJfy").default()})))),t.a.createElement("div",null,t.a.createElement(t.a.Fragment,{children:e("4f0r").default()}),t.a.createElement("div",null))))}},Gz47:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["automatic-tokenization-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["automatic-tokenization-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},Z6jo:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["select-users-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["select-users-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},"cE/i":function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["custom-dropdown-menu-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["custom-dropdown-menu-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},dXMd:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["big-data-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["big-data-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},i0xB:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC"),E=e("ZpkN");const D=t.a.memo(e("JjdP").default["option-label-prop-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["option-label-prop-select-miccn-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(E.a,{code:`.demo-option-label-item > span {
-  margin-right: 6px;
-}
-`,lang:"css"}))))}},jaav:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["multiple-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["multiple-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},mQFV:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["bordered-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["bordered-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},"pN/V":function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["basic-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["basic-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},rJnb:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["search-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["search-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},rkzM:function(_,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),s=e.n(n),d=e("g5U0"),i=e("ltCa"),l=e("0zqC");const E=t.a.memo(e("JjdP").default["hide-selected-select-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["hide-selected-select-miccn-demo"].previewerProps,t.a.createElement(E,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [183],
+  {
+    '+tvu': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['debug-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['debug-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    '0lYr': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r = (t('ltCa'), t('Bjia')),
+        m = l.a.memo(t('JjdP').default['size-select-miccn-demo'].component);
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['size-select-miccn-demo'].previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(r['a'], {
+                code:
+                  '.code-box-demo .ant-select {\n  margin: 0 8px 10px 0;\n}\n\n.ant-row-rtl .code-box-demo .ant-select {\n  margin: 0 0 10px 8px;\n}\n\n#components-select-demo-search-box .code-box-demo .ant-select {\n  margin: 0;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    '8PIf': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['search-box-select-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['search-box-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    '9gKp': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['coordinate-select-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['coordinate-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    A9T7: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['tags-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['tags-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    AEuk: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['optgroup-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['optgroup-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    AFaS: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['label-in-value-select-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['label-in-value-select-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    BTE0: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['search-sort-select-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['search-sort-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bv8i: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['suffix-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['suffix-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    EJfy: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['custom-tag-render-select-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['custom-tag-render-select-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    GKrp: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = t('dEAq'),
+        r = t('g5U0'),
+        m = (t('ekZX'), t('ltCa'));
+      t('Bjia');
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: '\u9009\u62e9\u5668' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u9009\u62e9\u5668',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u9009\u62e9\u5668',
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: t('P3S1').default(),
+              }),
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            l.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              l.a.createElement(
+                r['a'],
+                { span: 12 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('pN/V').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('jaav').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('A9T7').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('BTE0').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('AEuk').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('8PIf').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('Gz47').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('Bv8i').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('rkzM').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('GXja').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('dXMd').default(),
+                  }),
+                ),
+              ),
+              l.a.createElement(
+                r['a'],
+                { span: 12 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('rJnb').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('0lYr').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('i0xB').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('+tvu').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('9gKp').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('AFaS').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('Z6jo').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('cE/i').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('mQFV').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('EJfy').default(),
+                  }),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: t('4f0r').default(),
+              }),
+              l.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    GXja: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['responsive-select-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['responsive-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    Gz47: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['automatic-tokenization-select-miccn-demo']
+              .component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['automatic-tokenization-select-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    Z6jo: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['select-users-select-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['select-users-select-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    'cE/i': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['custom-dropdown-menu-select-miccn-demo']
+              .component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['custom-dropdown-menu-select-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    dXMd: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['big-data-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['big-data-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    i0xB: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r = (t('ltCa'), t('Bjia')),
+        m = l.a.memo(
+          t('JjdP').default['option-label-prop-select-miccn-demo'].component,
+        );
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['option-label-prop-select-miccn-demo']
+                .previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(r['a'], {
+                code:
+                  '.demo-option-label-item > span {\n  margin-right: 6px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    jaav: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['multiple-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['multiple-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    mQFV: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['bordered-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['bordered-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    'pN/V': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['basic-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['basic-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    rJnb: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['search-select-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['search-select-miccn-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    rkzM: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        c = (t('dEAq'), t('g5U0'), t('ekZX')),
+        r =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['hide-selected-select-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              t('JjdP').default['hide-selected-select-miccn-demo']
+                .previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

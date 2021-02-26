@@ -1,42 +1,694 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{"2pZZ":function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),r=t.n(a),d=t("g5U0"),c=t("ltCa");n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u6309\u7167\u65E5\u5386\u5F62\u5F0F\u5C55\u793A\u6570\u636E\u7684\u5BB9\u5668\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(a.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("p",null,"\u5F53\u6570\u636E\u662F\u65E5\u671F\u6216\u6309\u7167\u65E5\u671F\u5212\u5206\u65F6\uFF0C\u4F8B\u5982\u65E5\u7A0B\u3001\u8BFE\u8868\u3001\u4EF7\u683C\u65E5\u5386\u7B49\uFF0C\u519C\u5386\u7B49\u3002\u76EE\u524D\u652F\u6301\u5E74/\u6708\u5207\u6362\u3002")))}},"6bZs":function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),r=t.n(a),d=t("g5U0"),c=t("ltCa"),u=t("0zqC"),m=t("ZpkN");const o=e.a.memo(t("JjdP").default["customize-header-calendar-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["customize-header-calendar-aeps-demo"].previewerProps,e.a.createElement(o,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(m.a,{code:`.site-calendar-customize-header-wrapper {
-  width: 300px;
-  border: 1px solid #f0f0f0;
-  border-radius: 2px;
-}
-`,lang:"css"}))))}},AXtW:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),r=t.n(a),d=t("g5U0"),c=t("ltCa"),u=t("0zqC"),m=t("ZpkN");const o=e.a.memo(t("JjdP").default["notice-calendar-calendar-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["notice-calendar-calendar-aeps-demo"].previewerProps,e.a.createElement(o,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(m.a,{code:`.events {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.events .ant-badge-status {
-  width: 100%;
-  overflow: hidden;
-  font-size: 12px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.notes-month {
-  font-size: 28px;
-  text-align: center;
-}
-.notes-month section {
-  font-size: 28px;
-}
-`,lang:"css"}))))}},D4AU:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),r=t.n(a),d=t("g5U0"),c=t("ltCa"),u=t("0zqC"),m=t("ZpkN");const o=e.a.memo(t("JjdP").default["card-calendar-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["card-calendar-aeps-demo"].previewerProps,e.a.createElement(o,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(m.a,{code:`.site-calendar-demo-card {
-  width: 300px;
-  border: 1px solid #f0f0f0;
-  border-radius: 2px;
-}
-`,lang:"css"}))))}},"D6g+":function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),r=t.n(a),d=t("g5U0"),c=t("ltCa"),u=t("ZpkN");n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(a.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("p",null,"**\u6CE8\u610F\uFF1A**Calendar \u90E8\u5206 locale \u662F\u4ECE value \u4E2D\u8BFB\u53D6\uFF0C\u6240\u4EE5\u8BF7\u5148\u6B63\u786E\u8BBE\u7F6E moment \u7684 locale\u3002"),e.a.createElement(u.a,{code:`
-// \u9ED8\u8BA4\u8BED\u8A00\u4E3A en-US\uFF0C\u6240\u4EE5\u5982\u679C\u9700\u8981\u4F7F\u7528\u5176\u4ED6\u8BED\u8A00\uFF0C\u63A8\u8350\u5728\u5165\u53E3\u6587\u4EF6\u5168\u5C40\u8BBE\u7F6E locale
-// import moment from 'moment';
-// import 'moment/locale/zh-cn';
-// moment.locale('zh-cn');
-
-<Calendar
-  dateCellRender={dateCellRender}
-  monthCellRender={monthCellRender}
-  onPanelChange={onPanelChange}
-  onSelect={onSelect}
-/>
-`,lang:"jsx"}),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"dateCellRender"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6E32\u67D3\u65E5\u671F\u5355\u5143\u683C\uFF0C\u8FD4\u56DE\u5185\u5BB9\u4F1A\u88AB\u8FFD\u52A0\u5230\u5355\u5143\u683C"),e.a.createElement("td",null,"function(date: moment): ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"dateFullCellRender"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6E32\u67D3\u65E5\u671F\u5355\u5143\u683C\uFF0C\u8FD4\u56DE\u5185\u5BB9\u8986\u76D6\u5355\u5143\u683C"),e.a.createElement("td",null,"function(date: moment): ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"defaultValue"),e.a.createElement("td",null,"\u9ED8\u8BA4\u5C55\u793A\u7684\u65E5\u671F"),e.a.createElement("td",null,e.a.createElement(a.Link,{to:"http://momentjs.com/"},"moment")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"disabledDate"),e.a.createElement("td",null,"\u4E0D\u53EF\u9009\u62E9\u7684\u65E5\u671F"),e.a.createElement("td",null,"(currentDate: moment) => boolean"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"fullscreen"),e.a.createElement("td",null,"\u662F\u5426\u5168\u5C4F\u663E\u793A"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"headerRender"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5934\u90E8\u5185\u5BB9"),e.a.createElement("td",null,"function(object:","{","value: moment, type: string, onChange: f(), onTypeChange: f()","}",")"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"locale"),e.a.createElement("td",null,"\u56FD\u9645\u5316\u914D\u7F6E"),e.a.createElement("td",null,"object"),e.a.createElement("td",null,e.a.createElement(a.Link,{to:"https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json"},"(\u9ED8\u8BA4\u914D\u7F6E)")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"mode"),e.a.createElement("td",null,"\u521D\u59CB\u6A21\u5F0F"),e.a.createElement("td",null,e.a.createElement("code",null,"month")," | ",e.a.createElement("code",null,"year")),e.a.createElement("td",null,e.a.createElement("code",null,"month")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"monthCellRender"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6E32\u67D3\u6708\u5355\u5143\u683C\uFF0C\u8FD4\u56DE\u5185\u5BB9\u4F1A\u88AB\u8FFD\u52A0\u5230\u5355\u5143\u683C"),e.a.createElement("td",null,"function(date: moment): ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"monthFullCellRender"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6E32\u67D3\u6708\u5355\u5143\u683C\uFF0C\u8FD4\u56DE\u5185\u5BB9\u8986\u76D6\u5355\u5143\u683C"),e.a.createElement("td",null,"function(date: moment): ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"validRange"),e.a.createElement("td",null,"\u8BBE\u7F6E\u53EF\u4EE5\u663E\u793A\u7684\u65E5\u671F"),e.a.createElement("td",null,"[",e.a.createElement(a.Link,{to:"http://momentjs.com/"},"moment"),", ",e.a.createElement(a.Link,{to:"http://momentjs.com/"},"moment"),"]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"value"),e.a.createElement("td",null,"\u5C55\u793A\u65E5\u671F"),e.a.createElement("td",null,e.a.createElement(a.Link,{to:"http://momentjs.com/"},"moment")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u65E5\u671F\u53D8\u5316\u56DE\u8C03"),e.a.createElement("td",null,"function(date: moment\uFF09"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onPanelChange"),e.a.createElement("td",null,"\u65E5\u671F\u9762\u677F\u53D8\u5316\u56DE\u8C03"),e.a.createElement("td",null,"function(date: moment, mode: string)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onSelect"),e.a.createElement("td",null,"\u70B9\u51FB\u9009\u62E9\u65E5\u671F\u56DE\u8C03"),e.a.createElement("td",null,"function(date: moment\uFF09"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h2",{id:"faq"},e.a.createElement(a.AnchorLink,{to:"#faq","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FAQ"),e.a.createElement("ul",null,e.a.createElement("li",null,e.a.createElement(a.AnchorLink,{to:"/docs/react/replace-moment#Calendar"},"\u5982\u4F55\u5728 Calendar \u4E2D\u4F7F\u7528\u81EA\u5B9A\u4E49\u65E5\u671F\u5E93\uFF08\u5982 dayjs \uFF09")))))}},HvXj:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),r=t.n(a),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const m=e.a.memo(t("JjdP").default["select-calendar-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["select-calendar-aeps-demo"].previewerProps,e.a.createElement(m,null))))}},K8hD:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),r=t.n(a),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const m=e.a.memo(t("JjdP").default["basic-calendar-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["basic-calendar-aeps-demo"].previewerProps,e.a.createElement(m,null))))}},dZnc:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),r=t.n(a),d=t("g5U0"),c=t("ltCa");n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u65E5\u5386"},e.a.createElement(a.AnchorLink,{to:"#\u65E5\u5386","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u65E5\u5386"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("2pZZ").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(a.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(c.a,{gutter:"8"},e.a.createElement(d.a,{span:24},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("K8hD").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("D4AU").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("6bZs").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("AXtW").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("HvXj").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("D6g+").default()}),e.a.createElement("div",null))))}},g5U0:function(E,n,t){"use strict";var l=t("kPKH"),e=t("h9md"),a=t.n(e);n.a=l.a},ltCa:function(E,n,t){"use strict";var l=t("BMrR"),e=t("7xIR"),a=t.n(e);n.a=l.a}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [19],
+  {
+    '2pZZ': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'p',
+              null,
+              '\u6309\u7167\u65e5\u5386\u5f62\u5f0f\u5c55\u793a\u6570\u636e\u7684\u5bb9\u5668\u3002',
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              l.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5f53\u6570\u636e\u662f\u65e5\u671f\u6216\u6309\u7167\u65e5\u671f\u5212\u5206\u65f6\uff0c\u4f8b\u5982\u65e5\u7a0b\u3001\u8bfe\u8868\u3001\u4ef7\u683c\u65e5\u5386\u7b49\uff0c\u519c\u5386\u7b49\u3002\u76ee\u524d\u652f\u6301\u5e74/\u6708\u5207\u6362\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    '6bZs': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = l.a.memo(
+          a('JjdP').default['customize-header-calendar-aeps-demo'].component,
+        );
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              a('JjdP').default['customize-header-calendar-aeps-demo']
+                .previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(c['a'], {
+                code:
+                  '.site-calendar-customize-header-wrapper {\n  width: 300px;\n  border: 1px solid #f0f0f0;\n  border-radius: 2px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    AXtW: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = l.a.memo(
+          a('JjdP').default['notice-calendar-calendar-aeps-demo'].component,
+        );
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              a('JjdP').default['notice-calendar-calendar-aeps-demo']
+                .previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(c['a'], {
+                code:
+                  '.events {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n}\n.events .ant-badge-status {\n  width: 100%;\n  overflow: hidden;\n  font-size: 12px;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.notes-month {\n  font-size: 28px;\n  text-align: center;\n}\n.notes-month section {\n  font-size: 28px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var n = a('0Owb'),
+        l = a('PpiC'),
+        r = a('cDcd'),
+        c = a.n(r),
+        m = a('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var a = e.children,
+          r = Object(l['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(n['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, a),
+        );
+      });
+    },
+    D4AU: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = l.a.memo(a('JjdP').default['card-calendar-aeps-demo'].component);
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              a('JjdP').default['card-calendar-aeps-demo'].previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(c['a'], {
+                code:
+                  '.site-calendar-demo-card {\n  width: 300px;\n  border: 1px solid #f0f0f0;\n  border-radius: 2px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    'D6g+': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        r = a('dEAq'),
+        c = (a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia'));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: 'api' },
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '**\u6ce8\u610f\uff1a**Calendar \u90e8\u5206 locale \u662f\u4ece value \u4e2d\u8bfb\u53d6\uff0c\u6240\u4ee5\u8bf7\u5148\u6b63\u786e\u8bbe\u7f6e moment \u7684 locale\u3002',
+            ),
+            l.a.createElement(c['a'], {
+              code:
+                "\n// \u9ed8\u8ba4\u8bed\u8a00\u4e3a en-US\uff0c\u6240\u4ee5\u5982\u679c\u9700\u8981\u4f7f\u7528\u5176\u4ed6\u8bed\u8a00\uff0c\u63a8\u8350\u5728\u5165\u53e3\u6587\u4ef6\u5168\u5c40\u8bbe\u7f6e locale\n// import moment from 'moment';\n// import 'moment/locale/zh-cn';\n// moment.locale('zh-cn');\n\n<Calendar\n  dateCellRender={dateCellRender}\n  monthCellRender={monthCellRender}\n  onPanelChange={onPanelChange}\n  onSelect={onSelect}\n/>\n",
+              lang: 'jsx',
+            }),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  l.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'dateCellRender'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6e32\u67d3\u65e5\u671f\u5355\u5143\u683c\uff0c\u8fd4\u56de\u5185\u5bb9\u4f1a\u88ab\u8ffd\u52a0\u5230\u5355\u5143\u683c',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(date: moment): ReactNode',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'dateFullCellRender'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6e32\u67d3\u65e5\u671f\u5355\u5143\u683c\uff0c\u8fd4\u56de\u5185\u5bb9\u8986\u76d6\u5355\u5143\u683c',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(date: moment): ReactNode',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'defaultValue'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u9ed8\u8ba4\u5c55\u793a\u7684\u65e5\u671f',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement(
+                      r['Link'],
+                      { to: 'http://momentjs.com/' },
+                      'moment',
+                    ),
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'disabledDate'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u4e0d\u53ef\u9009\u62e9\u7684\u65e5\u671f',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '(currentDate: moment) => boolean',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'fullscreen'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5168\u5c4f\u663e\u793a',
+                  ),
+                  l.a.createElement('td', null, 'boolean'),
+                  l.a.createElement('td', null, 'true'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'headerRender'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5934\u90e8\u5185\u5bb9',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(object:',
+                    '{',
+                    'value: moment, type: string, onChange: f(), onTypeChange: f()',
+                    '}',
+                    ')',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'locale'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u56fd\u9645\u5316\u914d\u7f6e',
+                  ),
+                  l.a.createElement('td', null, 'object'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement(
+                      r['Link'],
+                      {
+                        to:
+                          'https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json',
+                      },
+                      '(\u9ed8\u8ba4\u914d\u7f6e)',
+                    ),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'mode'),
+                  l.a.createElement('td', null, '\u521d\u59cb\u6a21\u5f0f'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'month'),
+                    ' | ',
+                    l.a.createElement('code', null, 'year'),
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'month'),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'monthCellRender'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6e32\u67d3\u6708\u5355\u5143\u683c\uff0c\u8fd4\u56de\u5185\u5bb9\u4f1a\u88ab\u8ffd\u52a0\u5230\u5355\u5143\u683c',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(date: moment): ReactNode',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'monthFullCellRender'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6e32\u67d3\u6708\u5355\u5143\u683c\uff0c\u8fd4\u56de\u5185\u5bb9\u8986\u76d6\u5355\u5143\u683c',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(date: moment): ReactNode',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'validRange'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u53ef\u4ee5\u663e\u793a\u7684\u65e5\u671f',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '[',
+                    l.a.createElement(
+                      r['Link'],
+                      { to: 'http://momentjs.com/' },
+                      'moment',
+                    ),
+                    ', ',
+                    l.a.createElement(
+                      r['Link'],
+                      { to: 'http://momentjs.com/' },
+                      'moment',
+                    ),
+                    ']',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'value'),
+                  l.a.createElement('td', null, '\u5c55\u793a\u65e5\u671f'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement(
+                      r['Link'],
+                      { to: 'http://momentjs.com/' },
+                      'moment',
+                    ),
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onChange'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u65e5\u671f\u53d8\u5316\u56de\u8c03',
+                  ),
+                  l.a.createElement('td', null, 'function(date: moment\uff09'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onPanelChange'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u65e5\u671f\u9762\u677f\u53d8\u5316\u56de\u8c03',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'function(date: moment, mode: string)',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'onSelect'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u70b9\u51fb\u9009\u62e9\u65e5\u671f\u56de\u8c03',
+                  ),
+                  l.a.createElement('td', null, 'function(date: moment\uff09'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'h2',
+              { id: 'faq' },
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '#faq', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FAQ',
+            ),
+            l.a.createElement(
+              'ul',
+              null,
+              l.a.createElement(
+                'li',
+                null,
+                l.a.createElement(
+                  r['AnchorLink'],
+                  { to: '/docs/react/replace-moment#Calendar' },
+                  '\u5982\u4f55\u5728 Calendar \u4e2d\u4f7f\u7528\u81ea\u5b9a\u4e49\u65e5\u671f\u5e93\uff08\u5982 dayjs \uff09',
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    HvXj: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(a('JjdP').default['select-calendar-aeps-demo'].component));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              a('JjdP').default['select-calendar-aeps-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    K8hD: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          l.a.memo(a('JjdP').default['basic-calendar-aeps-demo'].component));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              a('JjdP').default['basic-calendar-aeps-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    dZnc: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var n = a('cDcd'),
+        l = a.n(n),
+        r = a('dEAq'),
+        c = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: '\u65e5\u5386' },
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '#\u65e5\u5386', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u65e5\u5386',
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: a('2pZZ').default(),
+              }),
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              l.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            l.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              l.a.createElement(
+                c['a'],
+                { span: 24 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('K8hD').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('D4AU').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('6bZs').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('AXtW').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: a('HvXj').default(),
+                  }),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: a('D6g+').default(),
+              }),
+              l.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var n = a('kPKH');
+      a('h9md');
+      t['a'] = n['a'];
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var n = a('BMrR');
+      a('7xIR');
+      t['a'] = n['a'];
+    },
+  },
+]);

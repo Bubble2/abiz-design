@@ -1,1 +1,549 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[148],{D597:function(u,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),E=t("g5U0"),m=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(l.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"autoplay"),e.a.createElement("td",null,"\u662F\u5426\u81EA\u52A8\u5207\u6362"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"dotPosition"),e.a.createElement("td",null,"\u9762\u677F\u6307\u793A\u70B9\u4F4D\u7F6E\uFF0C\u53EF\u9009 ",e.a.createElement("code",null,"top")," ",e.a.createElement("code",null,"bottom")," ",e.a.createElement("code",null,"left")," ",e.a.createElement("code",null,"right")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"bottom")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"dots"),e.a.createElement("td",null,"\u662F\u5426\u663E\u793A\u9762\u677F\u6307\u793A\u70B9\uFF0C\u5982\u679C\u4E3A ",e.a.createElement("code",null,"object")," \u5219\u540C\u65F6\u53EF\u4EE5\u6307\u5B9A ",e.a.createElement("code",null,"dotsClass")," \u6216\u8005"),e.a.createElement("td",null,"boolean | ","{"," className?: string ","}"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"easing"),e.a.createElement("td",null,"\u52A8\u753B\u6548\u679C"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"linear")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"effect"),e.a.createElement("td",null,"\u52A8\u753B\u6548\u679C\u51FD\u6570"),e.a.createElement("td",null,e.a.createElement("code",null,"scrollx")," | ",e.a.createElement("code",null,"fade")),e.a.createElement("td",null,e.a.createElement("code",null,"scrollx")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"afterChange"),e.a.createElement("td",null,"\u5207\u6362\u9762\u677F\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(current)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"beforeChange"),e.a.createElement("td",null,"\u5207\u6362\u9762\u677F\u7684\u56DE\u8C03"),e.a.createElement("td",null,"function(from, to)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h2",{id:"\u65B9\u6CD5"},e.a.createElement(l.AnchorLink,{to:"#\u65B9\u6CD5","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u65B9\u6CD5"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u540D\u79F0"),e.a.createElement("th",null,"\u63CF\u8FF0"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"goTo(slideNumber, dontAnimate)"),e.a.createElement("td",null,"\u5207\u6362\u5230\u6307\u5B9A\u9762\u677F, dontAnimate = true \u65F6\uFF0C\u4E0D\u4F7F\u7528\u52A8\u753B")),e.a.createElement("tr",null,e.a.createElement("td",null,"next()"),e.a.createElement("td",null,"\u5207\u6362\u5230\u4E0B\u4E00\u9762\u677F")),e.a.createElement("tr",null,e.a.createElement("td",null,"prev()"),e.a.createElement("td",null,"\u5207\u6362\u5230\u4E0A\u4E00\u9762\u677F")))),e.a.createElement("p",null,"\u66F4\u591A API \u53EF\u53C2\u8003\uFF1A",e.a.createElement(l.Link,{to:"https://react-slick.neostack.com/docs/api"},"https://react-slick.neostack.com/docs/api"))))}},aIVf:function(u,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),E=t("g5U0"),m=t("ltCa"),d=t("0zqC");const c=e.a.memo(t("JjdP").default["autoplay-carousel-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(d.default,t("JjdP").default["autoplay-carousel-miccn-demo"].previewerProps,e.a.createElement(c,null))))}},b21Q:function(u,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),E=t("g5U0"),m=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u8D70\u9A6C\u706F"},e.a.createElement(l.AnchorLink,{to:"#\u8D70\u9A6C\u706F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u8D70\u9A6C\u706F"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("gLbD").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(l.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(m.a,{gutter:"8"},e.a.createElement(E.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("vdH3").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("aIVf").default()}))),e.a.createElement(E.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("sDHZ").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("dOB6").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("D597").default()}),e.a.createElement("div",null))))}},dOB6:function(u,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),E=t("g5U0"),m=t("ltCa"),d=t("0zqC");const c=e.a.memo(t("JjdP").default["fade-carousel-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(d.default,t("JjdP").default["fade-carousel-miccn-demo"].previewerProps,e.a.createElement(c,null))))}},g5U0:function(u,a,t){"use strict";var n=t("kPKH"),e=t("h9md"),l=t.n(e);a.a=n.a},gLbD:function(u,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),E=t("g5U0"),m=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u65CB\u8F6C\u6728\u9A6C\uFF0C\u4E00\u7EC4\u8F6E\u64AD\u7684\u533A\u57DF\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(l.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u5F53\u6709\u4E00\u7EC4\u5E73\u7EA7\u7684\u5185\u5BB9\u3002"),e.a.createElement("li",null,"\u5F53\u5185\u5BB9\u7A7A\u95F4\u4E0D\u8DB3\u65F6\uFF0C\u53EF\u4EE5\u7528\u8D70\u9A6C\u706F\u7684\u5F62\u5F0F\u8FDB\u884C\u6536\u7EB3\uFF0C\u8FDB\u884C\u8F6E\u64AD\u5C55\u73B0\u3002"),e.a.createElement("li",null,"\u5E38\u7528\u4E8E\u4E00\u7EC4\u56FE\u7247\u6216\u5361\u7247\u8F6E\u64AD\u3002"))))}},ltCa:function(u,a,t){"use strict";var n=t("BMrR"),e=t("7xIR"),l=t.n(e);a.a=n.a},sDHZ:function(u,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),E=t("g5U0"),m=t("ltCa"),d=t("0zqC");const c=e.a.memo(t("JjdP").default["position-carousel-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(d.default,t("JjdP").default["position-carousel-miccn-demo"].previewerProps,e.a.createElement(c,null))))}},vdH3:function(u,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),E=t("g5U0"),m=t("ltCa"),d=t("0zqC");const c=e.a.memo(t("JjdP").default["basic-carousel-miccn-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(d.default,t("JjdP").default["basic-carousel-miccn-demo"].previewerProps,e.a.createElement(c,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [149],
+  {
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        c = a('cDcd'),
+        r = a.n(c),
+        m = a('ZpkN');
+      t['a'] = r.a.forwardRef((e, t) => {
+        var a = e.children,
+          c = Object(n['default'])(e, ['children']);
+        return r.a.createElement(
+          m['a'],
+          Object(l['default'])({}, c, { forwardedRef: t }),
+          r.a.createElement(r.a.Fragment, null, a),
+        );
+      });
+    },
+    D597: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'autoplay'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u81ea\u52a8\u5207\u6362',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'dotPosition'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9762\u677f\u6307\u793a\u70b9\u4f4d\u7f6e\uff0c\u53ef\u9009 ',
+                    n.a.createElement('code', null, 'top'),
+                    ' ',
+                    n.a.createElement('code', null, 'bottom'),
+                    ' ',
+                    n.a.createElement('code', null, 'left'),
+                    ' ',
+                    n.a.createElement('code', null, 'right'),
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'bottom'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'dots'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u663e\u793a\u9762\u677f\u6307\u793a\u70b9\uff0c\u5982\u679c\u4e3a ',
+                    n.a.createElement('code', null, 'object'),
+                    ' \u5219\u540c\u65f6\u53ef\u4ee5\u6307\u5b9a ',
+                    n.a.createElement('code', null, 'dotsClass'),
+                    ' \u6216\u8005',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    '{',
+                    ' className?: string ',
+                    '}',
+                  ),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'easing'),
+                  n.a.createElement('td', null, '\u52a8\u753b\u6548\u679c'),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'linear'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'effect'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u52a8\u753b\u6548\u679c\u51fd\u6570',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'scrollx'),
+                    ' | ',
+                    n.a.createElement('code', null, 'fade'),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'scrollx'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'afterChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5207\u6362\u9762\u677f\u7684\u56de\u8c03',
+                  ),
+                  n.a.createElement('td', null, 'function(current)'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'beforeChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5207\u6362\u9762\u677f\u7684\u56de\u8c03',
+                  ),
+                  n.a.createElement('td', null, 'function(from, to)'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u65b9\u6cd5' },
+              n.a.createElement(
+                c['AnchorLink'],
+                { to: '#\u65b9\u6cd5', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u65b9\u6cd5',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u540d\u79f0'),
+                  n.a.createElement('th', null, '\u63cf\u8ff0'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'goTo(slideNumber, dontAnimate)',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5207\u6362\u5230\u6307\u5b9a\u9762\u677f, dontAnimate = true \u65f6\uff0c\u4e0d\u4f7f\u7528\u52a8\u753b',
+                  ),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'next()'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5207\u6362\u5230\u4e0b\u4e00\u9762\u677f',
+                  ),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'prev()'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5207\u6362\u5230\u4e0a\u4e00\u9762\u677f',
+                  ),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u66f4\u591a API \u53ef\u53c2\u8003\uff1a',
+              n.a.createElement(
+                c['Link'],
+                { to: 'https://react-slick.neostack.com/docs/api' },
+                'https://react-slick.neostack.com/docs/api',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    aIVf: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['autoplay-carousel-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['autoplay-carousel-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    b21Q: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq'),
+        r = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u8d70\u9a6c\u706f' },
+              n.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u8d70\u9a6c\u706f',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u8d70\u9a6c\u706f',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('gLbD').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                r['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('vdH3').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('aIVf').default(),
+                  }),
+                ),
+              ),
+              n.a.createElement(
+                r['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('sDHZ').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('dOB6').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('D597').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    dOB6: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['fade-carousel-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['fade-carousel-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    gLbD: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u65cb\u8f6c\u6728\u9a6c\uff0c\u4e00\u7ec4\u8f6e\u64ad\u7684\u533a\u57df\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u5f53\u6709\u4e00\u7ec4\u5e73\u7ea7\u7684\u5185\u5bb9\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u5f53\u5185\u5bb9\u7a7a\u95f4\u4e0d\u8db3\u65f6\uff0c\u53ef\u4ee5\u7528\u8d70\u9a6c\u706f\u7684\u5f62\u5f0f\u8fdb\u884c\u6536\u7eb3\uff0c\u8fdb\u884c\u8f6e\u64ad\u5c55\u73b0\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u5e38\u7528\u4e8e\u4e00\u7ec4\u56fe\u7247\u6216\u5361\u7247\u8f6e\u64ad\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+    sDHZ: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['position-carousel-miccn-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['position-carousel-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    vdH3: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        c = (a('dEAq'), a('g5U0'), a('ekZX')),
+        r =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['basic-carousel-miccn-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              c['default'],
+              a('JjdP').default['basic-carousel-miccn-demo'].previewerProps,
+              n.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);
