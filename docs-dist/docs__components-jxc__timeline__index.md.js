@@ -1,15 +1,620 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[130],{"6NWR":function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u5782\u76F4\u5C55\u793A\u7684\u65F6\u95F4\u6D41\u4FE1\u606F\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(a.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u5F53\u6709\u4E00\u7CFB\u5217\u4FE1\u606F\u9700\u6309\u65F6\u95F4\u6392\u5217\u65F6\uFF0C\u53EF\u6B63\u5E8F\u548C\u5012\u5E8F\u3002"),e.a.createElement("li",null,"\u9700\u8981\u6709\u4E00\u6761\u65F6\u95F4\u8F74\u8FDB\u884C\u89C6\u89C9\u4E0A\u7684\u4E32\u8054\u65F6\u3002"))))}},"6sDy":function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["basic-timeline-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["basic-timeline-jxc-demo"].previewerProps,e.a.createElement(E,null))))}},Avbg:function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["pending-timeline-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["pending-timeline-jxc-demo"].previewerProps,e.a.createElement(E,null))))}},JWLT:function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["right-timeline-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["right-timeline-jxc-demo"].previewerProps,e.a.createElement(E,null))))}},M3la:function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa"),u=t("0zqC"),E=t("ZpkN");const _=e.a.memo(t("JjdP").default["custom-timeline-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["custom-timeline-jxc-demo"].previewerProps,e.a.createElement(_,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(E.a,{code:`.timeline-clock-icon {
-  font-size: 16px;
-}
-
-[data-theme='compact'] .timeline-clock-icon {
-  font-size: 14px;
-}
-`,lang:"css"}))))}},T1Zy:function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa"),u=t("ZpkN");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(a.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement(u.a,{code:`
-<Timeline>
-  <Timeline.Item>\u521B\u5EFA\u670D\u52A1\u73B0\u573A 2015-09-01</Timeline.Item>
-  <Timeline.Item>\u521D\u6B65\u6392\u9664\u7F51\u7EDC\u5F02\u5E38 2015-09-01</Timeline.Item>
-  <Timeline.Item>\u6280\u672F\u6D4B\u8BD5\u5F02\u5E38 2015-09-01</Timeline.Item>
-  <Timeline.Item>\u7F51\u7EDC\u5F02\u5E38\u6B63\u5728\u4FEE\u590D 2015-09-01</Timeline.Item>
-</Timeline>
-`,lang:"jsx"}),e.a.createElement("h3",{id:"timeline"},e.a.createElement(a.AnchorLink,{to:"#timeline","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Timeline"),e.a.createElement("p",null,"\u65F6\u95F4\u8F74\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"mode"),e.a.createElement("td",null,"\u901A\u8FC7\u8BBE\u7F6E ",e.a.createElement("code",null,"mode")," \u53EF\u4EE5\u6539\u53D8\u65F6\u95F4\u8F74\u548C\u5185\u5BB9\u7684\u76F8\u5BF9\u4F4D\u7F6E"),e.a.createElement("td",null,e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"alternate")," | ",e.a.createElement("code",null,"right")),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"pending"),e.a.createElement("td",null,"\u6307\u5B9A\u6700\u540E\u4E00\u4E2A\u5E7D\u7075\u8282\u70B9\u662F\u5426\u5B58\u5728\u6216\u5185\u5BB9"),e.a.createElement("td",null,"boolean | ReactNode"),e.a.createElement("td",null,"false")),e.a.createElement("tr",null,e.a.createElement("td",null,"pendingDot"),e.a.createElement("td",null,"\u5F53\u6700\u540E\u4E00\u4E2A\u5E7D\u7075\u8282\u70B9\u5B58\u5728\u6642\uFF0C\u6307\u5B9A\u5176\u65F6\u95F4\u56FE\u70B9"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"<LoadingOutlined />")),e.a.createElement("tr",null,e.a.createElement("td",null,"reverse"),e.a.createElement("td",null,"\u8282\u70B9\u6392\u5E8F"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false")))),e.a.createElement("h3",{id:"timelineitem"},e.a.createElement(a.AnchorLink,{to:"#timelineitem","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Timeline.Item"),e.a.createElement("p",null,"\u65F6\u95F4\u8F74\u7684\u6BCF\u4E00\u4E2A\u8282\u70B9\u3002"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"color"),e.a.createElement("td",null,"\u6307\u5B9A\u5706\u5708\u989C\u8272 ",e.a.createElement("code",null,"blue"),", ",e.a.createElement("code",null,"red"),", ",e.a.createElement("code",null,"green"),", ",e.a.createElement("code",null,"gray"),"\uFF0C\u6216\u81EA\u5B9A\u4E49\u7684\u8272\u503C"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"blue"))),e.a.createElement("tr",null,e.a.createElement("td",null,"dot"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u65F6\u95F4\u8F74\u70B9"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"label"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6807\u7B7E"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-")),e.a.createElement("tr",null,e.a.createElement("td",null,"position"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u8282\u70B9\u4F4D\u7F6E"),e.a.createElement("td",null,e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"right")),e.a.createElement("td",null,"-"))))))}},VPuR:function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["alternate-timeline-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["alternate-timeline-jxc-demo"].previewerProps,e.a.createElement(E,null))))}},cBsf:function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u65F6\u95F4\u8F74"},e.a.createElement(a.AnchorLink,{to:"#\u65F6\u95F4\u8F74","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u65F6\u95F4\u8F74"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("6NWR").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(a.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(i.a,{gutter:"8"},e.a.createElement(d.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("6sDy").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Avbg").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("M3la").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("vyaP").default()}))),e.a.createElement(d.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("fxmu").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("VPuR").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("JWLT").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("T1Zy").default()}),e.a.createElement("div",null))))}},fxmu:function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["color-timeline-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["color-timeline-jxc-demo"].previewerProps,e.a.createElement(E,null))))}},g5U0:function(m,l,t){"use strict";var n=t("kPKH"),e=t("h9md"),a=t.n(e);l.a=n.a},ltCa:function(m,l,t){"use strict";var n=t("BMrR"),e=t("7xIR"),a=t.n(e);l.a=n.a},vyaP:function(m,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),c=t.n(a),d=t("g5U0"),i=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["label-timeline-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["label-timeline-jxc-demo"].previewerProps,e.a.createElement(E,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [131],
+  {
+    '6NWR': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u5782\u76f4\u5c55\u793a\u7684\u65f6\u95f4\u6d41\u4fe1\u606f\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u5f53\u6709\u4e00\u7cfb\u5217\u4fe1\u606f\u9700\u6309\u65f6\u95f4\u6392\u5217\u65f6\uff0c\u53ef\u6b63\u5e8f\u548c\u5012\u5e8f\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u9700\u8981\u6709\u4e00\u6761\u65f6\u95f4\u8f74\u8fdb\u884c\u89c6\u89c9\u4e0a\u7684\u4e32\u8054\u65f6\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    '6sDy': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['basic-timeline-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['basic-timeline-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Avbg: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['pending-timeline-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['pending-timeline-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        r = a('cDcd'),
+        c = a.n(r),
+        m = a('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var a = e.children,
+          r = Object(n['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(l['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, a),
+        );
+      });
+    },
+    JWLT: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['right-timeline-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['right-timeline-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    M3la: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = n.a.memo(a('JjdP').default['custom-timeline-jxc-demo'].component);
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['custom-timeline-jxc-demo'].previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code:
+                  ".timeline-clock-icon {\n  font-size: 16px;\n}\n\n[data-theme='compact'] .timeline-clock-icon {\n  font-size: 14px;\n}\n",
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    T1Zy: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = (a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia'));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\n<Timeline>\n  <Timeline.Item>\u521b\u5efa\u670d\u52a1\u73b0\u573a 2015-09-01</Timeline.Item>\n  <Timeline.Item>\u521d\u6b65\u6392\u9664\u7f51\u7edc\u5f02\u5e38 2015-09-01</Timeline.Item>\n  <Timeline.Item>\u6280\u672f\u6d4b\u8bd5\u5f02\u5e38 2015-09-01</Timeline.Item>\n  <Timeline.Item>\u7f51\u7edc\u5f02\u5e38\u6b63\u5728\u4fee\u590d 2015-09-01</Timeline.Item>\n</Timeline>\n',
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'h3',
+              { id: 'timeline' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#timeline', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Timeline',
+            ),
+            n.a.createElement('p', null, '\u65f6\u95f4\u8f74\u3002'),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'mode'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u901a\u8fc7\u8bbe\u7f6e ',
+                    n.a.createElement('code', null, 'mode'),
+                    ' \u53ef\u4ee5\u6539\u53d8\u65f6\u95f4\u8f74\u548c\u5185\u5bb9\u7684\u76f8\u5bf9\u4f4d\u7f6e',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'left'),
+                    ' | ',
+                    n.a.createElement('code', null, 'alternate'),
+                    ' | ',
+                    n.a.createElement('code', null, 'right'),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'pending'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u6700\u540e\u4e00\u4e2a\u5e7d\u7075\u8282\u70b9\u662f\u5426\u5b58\u5728\u6216\u5185\u5bb9',
+                  ),
+                  n.a.createElement('td', null, 'boolean | ReactNode'),
+                  n.a.createElement('td', null, 'false'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'pendingDot'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5f53\u6700\u540e\u4e00\u4e2a\u5e7d\u7075\u8282\u70b9\u5b58\u5728\u6642\uff0c\u6307\u5b9a\u5176\u65f6\u95f4\u56fe\u70b9',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '<LoadingOutlined />'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'reverse'),
+                  n.a.createElement('td', null, '\u8282\u70b9\u6392\u5e8f'),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'timelineitem' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#timelineitem', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Timeline.Item',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u65f6\u95f4\u8f74\u7684\u6bcf\u4e00\u4e2a\u8282\u70b9\u3002',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'color'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6307\u5b9a\u5706\u5708\u989c\u8272 ',
+                    n.a.createElement('code', null, 'blue'),
+                    ', ',
+                    n.a.createElement('code', null, 'red'),
+                    ', ',
+                    n.a.createElement('code', null, 'green'),
+                    ', ',
+                    n.a.createElement('code', null, 'gray'),
+                    '\uff0c\u6216\u81ea\u5b9a\u4e49\u7684\u8272\u503c',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'blue'),
+                  ),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'dot'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u65f6\u95f4\u8f74\u70b9',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'label'),
+                  n.a.createElement('td', null, '\u8bbe\u7f6e\u6807\u7b7e'),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'position'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u8282\u70b9\u4f4d\u7f6e',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'left'),
+                    ' | ',
+                    n.a.createElement('code', null, 'right'),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    VPuR: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['alternate-timeline-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['alternate-timeline-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    cBsf: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u65f6\u95f4\u8f74' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u65f6\u95f4\u8f74',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u65f6\u95f4\u8f74',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('6NWR').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('6sDy').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('Avbg').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('M3la').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('vyaP').default(),
+                  }),
+                ),
+              ),
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('fxmu').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('VPuR').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('JWLT').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('T1Zy').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    fxmu: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['color-timeline-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['color-timeline-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+    vyaP: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['label-timeline-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['label-timeline-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

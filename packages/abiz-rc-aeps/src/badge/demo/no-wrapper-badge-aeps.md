@@ -10,6 +10,7 @@ order: 1
 
 import React from 'react';
 import { ConfigProvider, Badge, Space, Switch } from '@abiz/rc-aeps';
+import { ClockCircleOutlined } from '@abiz/icons-aeps';
 
 const Demo = () => {
   const [show, setShow] = React.useState(true);
@@ -23,6 +24,9 @@ const Demo = () => {
         }}
       />
       <Badge count={show ? 25 : 0} />
+      <Badge
+        count={show ? <ClockCircleOutlined style={{ color: '#f5222d' }} /> : 0}
+      />
       <Badge count={show ? 4 : 0} className="site-badge-count-4" />
       <Badge
         className="site-badge-count-109"

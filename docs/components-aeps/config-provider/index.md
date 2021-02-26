@@ -28,9 +28,10 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/config-provider/demo/size-config-provider-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/config-provider/demo/prefixCls-config-provider-aeps.md"></embed></div>
+          
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/config-provider/index-api.md"></embed><div>
-        

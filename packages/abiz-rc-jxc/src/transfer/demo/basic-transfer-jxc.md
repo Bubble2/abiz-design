@@ -24,7 +24,7 @@ const initialTargetKeys = mockData
   .filter(item => +item.key > 10)
   .map(item => item.key);
 
-const App1 = () => {
+const App = () => {
   const [targetKeys, setTargetKeys] = useState(initialTargetKeys);
   const [selectedKeys, setSelectedKeys] = useState([]);
   const onChange = (nextTargetKeys, direction, moveKeys) => {
@@ -62,7 +62,7 @@ const App1 = () => {
 export default () => {
   return (
     <ConfigProvider>
-      <App1 />
+      <App />
     </ConfigProvider>
   );
 };

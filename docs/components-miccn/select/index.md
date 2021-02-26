@@ -40,6 +40,8 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/select/demo/hide-selected-select-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/select/demo/responsive-select-miccn.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-miccn/select/demo/big-data-select-miccn.md"></embed></div>
           
   </Col>
@@ -71,4 +73,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/select/index-api.md"></embed><div>
-        

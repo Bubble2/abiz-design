@@ -29,7 +29,7 @@ const App = () => {
     }
   };
 
-  const checkMention = async (rule, value, callback) => {
+  const checkMention = async (_: any, value: string) => {
     const mentions = getMentions(value);
 
     if (mentions.length < 2) {
@@ -46,7 +46,7 @@ const App = () => {
         wrapperCol={{ span: 16 }}
         rules={[{ validator: checkMention }]}
       >
-        <Mentions rows="1">
+        <Mentions rows={1}>
           <Option value="afc163">afc163</Option>
           <Option value="zombieJ">zombieJ</Option>
           <Option value="yesmeck">yesmeck</Option>
@@ -59,7 +59,7 @@ const App = () => {
         wrapperCol={{ span: 16 }}
         rules={[{ required: true }]}
       >
-        <Mentions rows="3" placeholder="You can use @ to ref user here">
+        <Mentions rows={3} placeholder="You can use @ to ref user here">
           <Option value="afc163">afc163</Option>
           <Option value="zombieJ">zombieJ</Option>
           <Option value="yesmeck">yesmeck</Option>

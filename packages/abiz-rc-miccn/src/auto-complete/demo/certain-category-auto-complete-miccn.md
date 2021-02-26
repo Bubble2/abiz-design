@@ -12,40 +12,36 @@ import React from 'react';
 import { ConfigProvider, Input, AutoComplete } from '@abiz/rc-miccn';
 import { UserOutlined } from '@abiz/icons-miccn';
 
-const renderTitle = (title: string) => {
-  return (
-    <span>
-      {title}
-      <a
-        style={{ float: 'right' }}
-        href="https://www.google.com/search?q=antd"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        more
-      </a>
-    </span>
-  );
-};
+const renderTitle = (title: string) => (
+  <span>
+    {title}
+    <a
+      style={{ float: 'right' }}
+      href="https://www.google.com/search?q=antd"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      more
+    </a>
+  </span>
+);
 
-const renderItem = (title: string, count: number) => {
-  return {
-    value: title,
-    label: (
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-        }}
-      >
-        {title}
-        <span>
-          <UserOutlined /> {count}
-        </span>
-      </div>
-    ),
-  };
-};
+const renderItem = (title: string, count: number) => ({
+  value: title,
+  label: (
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+      }}
+    >
+      {title}
+      <span>
+        <UserOutlined /> {count}
+      </span>
+    </div>
+  ),
+});
 
 const options = [
   {

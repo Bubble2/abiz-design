@@ -33,7 +33,7 @@ const formItemLayout = {
   wrapperCol: { span: 14 },
 };
 
-const normFile = e => {
+const normFile = (e: any) => {
   console.log('Upload event:', e);
   if (Array.isArray(e)) {
     return e;
@@ -42,7 +42,7 @@ const normFile = e => {
 };
 
 const Demo = () => {
-  const onFinish = values => {
+  const onFinish = (values: any) => {
     console.log('Received values of form: ', values);
   };
 
@@ -52,8 +52,8 @@ const Demo = () => {
       {...formItemLayout}
       onFinish={onFinish}
       initialValues={{
-        ['input-number']: 3,
-        ['checkbox-group']: ['A', 'B'],
+        'input-number': 3,
+        'checkbox-group': ['A', 'B'],
         rate: 3.5,
       }}
     >

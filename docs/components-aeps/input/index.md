@@ -36,9 +36,9 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/textarea-show-count-input-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/borderless-debug-input-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/focus-input-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/textarea-resize-input-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/align-input-aeps.md"></embed></div>
           
   </Col>
           
@@ -58,11 +58,12 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/borderless-input-aeps.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/align-input-aeps.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/borderless-debug-input-aeps.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-aeps/input/demo/textarea-resize-input-aeps.md"></embed></div>
           
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/input/index-api.md"></embed><div>
-        

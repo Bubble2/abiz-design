@@ -16,7 +16,10 @@ class App extends React.Component {
   state = {
     visible: false,
     disabled: true,
+    bounds: { left: 0, top: 0, bottom: 0, right: 0 },
   };
+
+  draggleRef = React.createRef();
 
   showModal = () => {
     this.setState({
@@ -38,7 +41,21 @@ class App extends React.Component {
     });
   };
 
+  onStart = (event, uiData) => {
+    const { clientWidth, clientHeight } = window?.document?.documentElement;
+    const targetRect = this.draggleRef?.current?.getBoundingClientRect();
+    this.setState({
+      bounds: {
+        left: -targetRect?.left + uiData?.x,
+        right: clientWidth - (targetRect?.right - uiData?.x),
+        top: -targetRect?.top + uiData?.y,
+        bottom: clientHeight - (targetRect?.bottom - uiData?.y),
+      },
+    });
+  };
+
   render() {
+    const { bounds, disabled, visible } = this.state;
     return (
       <>
         <Button onClick={this.showModal}>Open Draggable Modal</Button>
@@ -50,7 +67,7 @@ class App extends React.Component {
                 cursor: 'move',
               }}
               onMouseOver={() => {
-                if (this.state.disabled) {
+                if (disabled) {
                   this.setState({
                     disabled: false,
                   });
@@ -70,11 +87,17 @@ class App extends React.Component {
               Draggable Modal
             </div>
           }
-          visible={this.state.visible}
+          visible={visible}
           onOk={this.handleOk}
           onCancel={this.handleCancel}
           modalRender={modal => (
-            <Draggable disabled={this.state.disabled}>{modal}</Draggable>
+            <Draggable
+              disabled={disabled}
+              bounds={bounds}
+              onStart={(event, uiData) => this.onStart(event, uiData)}
+            >
+              <div ref={this.draggleRef}>{modal}</div>
+            </Draggable>
           )}
         >
           <p>

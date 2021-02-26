@@ -40,7 +40,7 @@ const AdvancedSearchForm = () => {
     return children;
   };
 
-  const onFinish = values => {
+  const onFinish = (values: any) => {
     console.log('Received values of form: ', values);
   };
 

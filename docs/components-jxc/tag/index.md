@@ -24,6 +24,20 @@ group:
     
   <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/basic-tag-jxc.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/colorful-inverse-tag-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/checkable-tag-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/animation-tag-jxc.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/status-tag-jxc.md"></embed></div>
+          
+  </Col>
+          
+  <Col span=12>
+    
+  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/colorful-tag-jxc.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/control-tag-jxc.md"></embed></div>
           
   <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/controlled-tag-jxc.md"></embed></div>
@@ -34,19 +48,6 @@ group:
           
   </Col>
           
-  <Col span=12>
-    
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/colorful-tag-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/checkable-tag-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/animation-tag-jxc.md"></embed></div>
-          
-  <div class="code-box"><embed src="@abiz-rc-jxc/tag/demo/status-tag-jxc.md"></embed></div>
-          
-  </Col>
-          
 </Row>
         
 <div><embed src="@docs-common/tag/index-api.md"></embed><div>
-        

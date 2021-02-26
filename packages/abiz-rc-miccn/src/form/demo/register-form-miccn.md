@@ -25,7 +25,6 @@ import {
 import { QuestionCircleOutlined } from '@abiz/icons-miccn';
 
 const { Option } = Select;
-const AutoCompleteOption = AutoComplete.Option;
 
 const residences = [
   {
@@ -88,7 +87,7 @@ const tailFormItemLayout = {
 const RegistrationForm = () => {
   const [form] = Form.useForm();
 
-  const onFinish = values => {
+  const onFinish = (values: any) => {
     console.log('Received values of form: ', values);
   };
 
@@ -101,9 +100,9 @@ const RegistrationForm = () => {
     </Form.Item>
   );
 
-  const [autoCompleteResult, setAutoCompleteResult] = useState([]);
+  const [autoCompleteResult, setAutoCompleteResult] = useState<string[]>([]);
 
-  const onWebsiteChange = value => {
+  const onWebsiteChange = (value: string) => {
     if (!value) {
       setAutoCompleteResult([]);
     } else {
@@ -172,12 +171,12 @@ const RegistrationForm = () => {
             message: 'Please confirm your password!',
           },
           ({ getFieldValue }) => ({
-            validator(rule, value) {
+            validator(_, value) {
               if (!value || getFieldValue('password') === value) {
                 return Promise.resolve();
               }
               return Promise.reject(
-                'The two passwords that you entered do not match!',
+                new Error('The two passwords that you entered do not match!'),
               );
             },
           }),
@@ -276,7 +275,7 @@ const RegistrationForm = () => {
             validator: (_, value) =>
               value
                 ? Promise.resolve()
-                : Promise.reject('Should accept agreement'),
+                : Promise.reject(new Error('Should accept agreement')),
           },
         ]}
         {...tailFormItemLayout}

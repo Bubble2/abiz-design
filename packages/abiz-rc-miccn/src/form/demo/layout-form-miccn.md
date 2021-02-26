@@ -11,11 +11,13 @@ order: 3
 import React, { useState } from 'react';
 import { ConfigProvider, Form, Input, Button, Radio } from '@abiz/rc-miccn';
 
+type LayoutType = Parameters<typeof Form>[0]['layout'];
+
 const FormLayoutDemo = () => {
   const [form] = Form.useForm();
-  const [formLayout, setFormLayout] = useState('horizontal');
+  const [formLayout, setFormLayout] = useState<LayoutType>('horizontal');
 
-  const onFormLayoutChange = ({ layout }) => {
+  const onFormLayoutChange = ({ layout }: { layout: LayoutType }) => {
     setFormLayout(layout);
   };
 

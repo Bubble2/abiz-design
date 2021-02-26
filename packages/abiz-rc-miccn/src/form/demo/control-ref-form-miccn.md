@@ -25,30 +25,29 @@ const tailLayout = {
 class Demo extends React.Component {
   formRef = React.createRef<FormInstance>();
 
-  onGenderChange = value => {
+  onGenderChange = (value: string) => {
     switch (value) {
       case 'male':
-        this.formRef.current.setFieldsValue({ note: 'Hi, man!' });
+        this.formRef.current!.setFieldsValue({ note: 'Hi, man!' });
         return;
       case 'female':
-        this.formRef.current.setFieldsValue({ note: 'Hi, lady!' });
+        this.formRef.current!.setFieldsValue({ note: 'Hi, lady!' });
         return;
       case 'other':
-        this.formRef.current.setFieldsValue({ note: 'Hi there!' });
-        return;
+        this.formRef.current!.setFieldsValue({ note: 'Hi there!' });
     }
   };
 
-  onFinish = values => {
+  onFinish = (values: any) => {
     console.log(values);
   };
 
   onReset = () => {
-    this.formRef.current.resetFields();
+    this.formRef.current!.resetFields();
   };
 
   onFill = () => {
-    this.formRef.current.setFieldsValue({
+    this.formRef.current!.setFieldsValue({
       note: 'Hello world!',
       gender: 'male',
     });
@@ -82,8 +81,8 @@ class Demo extends React.Component {
             prevValues.gender !== currentValues.gender
           }
         >
-          {({ getFieldValue }) => {
-            return getFieldValue('gender') === 'other' ? (
+          {({ getFieldValue }) =>
+            getFieldValue('gender') === 'other' ? (
               <Form.Item
                 name="customizeGender"
                 label="Customize Gender"
@@ -91,8 +90,8 @@ class Demo extends React.Component {
               >
                 <Input />
               </Form.Item>
-            ) : null;
-          }}
+            ) : null
+          }
         </Form.Item>
         <Form.Item {...tailLayout}>
           <Button type="primary" htmlType="submit">

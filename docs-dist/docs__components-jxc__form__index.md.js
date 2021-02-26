@@ -1,67 +1,1075 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[96],{"1CWp":function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["size-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["size-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},"2jAn":function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC"),d=e("ZpkN");const D=t.a.memo(e("JjdP").default["form-context-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["form-context-form-jxc-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(d.a,{code:`#components-form-demo-form-context .user {
-  margin-bottom: 8px;
-}
-
-#components-form-demo-form-context .user .ant-avatar {
-  margin-right: 8px;
-}
-
-.ant-row-rtl #components-form-demo-form-context .user .ant-avatar {
-  margin-right: 0;
-  margin-left: 8px;
-}
-`,lang:"css"}))))}},"7W70":function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC"),d=e("ZpkN");const D=t.a.memo(e("JjdP").default["control-hooks-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["control-hooks-form-jxc-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(d.a,{code:`#components-form-demo-control-hooks .ant-btn {
-  margin-right: 8px;
-}
-`,lang:"css"}))))}},"7eWJ":function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["layout-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["layout-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},Eh4s:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["validate-other-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["validate-other-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},Fmlw:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC"),d=e("ZpkN");const D=t.a.memo(e("JjdP").default["normal-login-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["normal-login-form-jxc-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(d.a,{code:`#components-form-demo-normal-login .login-form {
-  max-width: 300px;
-}
-#components-form-demo-normal-login .login-form-forgot {
-  float: right;
-}
-#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
-  float: left;
-}
-#components-form-demo-normal-login .login-form-button {
-  width: 100%;
-}
-`,lang:"css"}))))}},Ga7g:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["time-related-controls-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["time-related-controls-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},HNow:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["disabled-input-debug-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["disabled-input-debug-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},JtKO:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["ref-item-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["ref-item-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},LJQW:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["dep-debug-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["dep-debug-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},NBca:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["inline-login-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["inline-login-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},PTK5:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["global-state-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["global-state-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},SGxO:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["nest-messages-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["nest-messages-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},T8q3:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC"),d=e("ZpkN");const D=t.a.memo(e("JjdP").default["advanced-search-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["advanced-search-form-jxc-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(d.a,{code:`[data-theme='compact'] .ant-advanced-search-form,
-.ant-advanced-search-form {
-  padding: 24px;
-  background: #fbfbfb;
-  border: 1px solid #d9d9d9;
-  border-radius: 2px;
-}
-
-[data-theme='compact'] .ant-advanced-search-form .ant-form-item,
-.ant-advanced-search-form .ant-form-item {
-  display: flex;
-}
-
-[data-theme='compact'] .ant-advanced-search-form .ant-form-item-control-wrapper,
-.ant-advanced-search-form .ant-form-item-control-wrapper {
-  flex: 1;
-}
-`,lang:"css"}))))}},W7bI:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa");a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"},t.a.createElement("h2",{id:"\u8868\u5355"},t.a.createElement(n.AnchorLink,{to:"#\u8868\u5355","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u8868\u5355"),t.a.createElement("div",null,t.a.createElement(t.a.Fragment,{children:e("atsV").default()})),t.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},t.a.createElement(n.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),t.a.createElement(o.a,{gutter:"8"},t.a.createElement(E.a,{span:24},t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("T8q3").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("qhW0").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("7W70").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("diL4").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("7eWJ").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("1CWp").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("h4/v").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("zbB3").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("mWJi").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("Y28g").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("SGxO").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("hj4t").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("n9/g").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("PTK5").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("2jAn").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("NBca").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("Fmlw").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("ahyV").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("fJD5").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("Ga7g").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("teeI").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("gNaq").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("ZS0l").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("Eh4s").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("HNow").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("LJQW").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("JtKO").default()})))),t.a.createElement("div",null,t.a.createElement(t.a.Fragment,{children:e("r7g3").default()}),t.a.createElement("div",null))))}},Y28g:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["dynamic-form-items-complex-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["dynamic-form-items-complex-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},ZS0l:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["dynamic-rule-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["dynamic-rule-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},ahyV:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["register-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["register-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},diL4:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC"),d=e("ZpkN");const D=t.a.memo(e("JjdP").default["control-ref-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["control-ref-form-jxc-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(d.a,{code:`#components-form-demo-control-ref .ant-btn {
-  margin-right: 8px;
-}
-`,lang:"css"}))))}},fJD5:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC"),d=e("ZpkN");const D=t.a.memo(e("JjdP").default["form-in-modal-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["form-in-modal-form-jxc-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(d.a,{code:`.collection-create-form_last-form-item {
-  margin-bottom: 0;
-}
-`,lang:"css"}))))}},gNaq:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["validate-static-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["validate-static-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},"h4/v":function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["required-mark-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["required-mark-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},hj4t:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["complex-form-control-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["complex-form-control-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},mWJi:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["dynamic-form-items-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["dynamic-form-items-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},"n9/g":function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["customized-form-controls-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["customized-form-controls-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},qhW0:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["basic-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["basic-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},teeI:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC");const d=t.a.memo(e("JjdP").default["without-form-create-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["without-form-create-form-jxc-demo"].previewerProps,t.a.createElement(d,null))))}},zbB3:function(i,a,e){"use strict";e.r(a);var m=e("cDcd"),t=e.n(m),n=e("dEAq"),_=e.n(n),E=e("g5U0"),o=e("ltCa"),l=e("0zqC"),d=e("ZpkN");const D=t.a.memo(e("JjdP").default["dynamic-form-item-form-jxc-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(l.default,e("JjdP").default["dynamic-form-item-form-jxc-demo"].previewerProps,t.a.createElement(D,null)),t.a.createElement("div",{className:"markdown"},t.a.createElement(d.a,{code:`.dynamic-delete-button {
-  position: relative;
-  top: 4px;
-  margin: 0 8px;
-  color: #999;
-  font-size: 24px;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-.dynamic-delete-button:hover {
-  color: #777;
-}
-.dynamic-delete-button[disabled] {
-  cursor: not-allowed;
-  opacity: 0.5;
-}
-`,lang:"css"}))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [97],
+  {
+    '1CWp': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['size-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['size-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    '2jAn': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m = (t('ltCa'), t('Bjia')),
+        c = r.a.memo(t('JjdP').default['form-context-form-jxc-demo'].component);
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['form-context-form-jxc-demo'].previewerProps,
+              r.a.createElement(c, null),
+            ),
+            r.a.createElement(
+              'div',
+              { className: 'markdown' },
+              r.a.createElement(m['a'], {
+                code:
+                  '#components-form-demo-form-context .user {\n  margin-bottom: 8px;\n}\n\n#components-form-demo-form-context .user .ant-avatar {\n  margin-right: 8px;\n}\n\n.ant-row-rtl #components-form-demo-form-context .user .ant-avatar {\n  margin-right: 0;\n  margin-left: 8px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    '7W70': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m = (t('ltCa'), t('Bjia')),
+        c = r.a.memo(
+          t('JjdP').default['control-hooks-form-jxc-demo'].component,
+        );
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['control-hooks-form-jxc-demo'].previewerProps,
+              r.a.createElement(c, null),
+            ),
+            r.a.createElement(
+              'div',
+              { className: 'markdown' },
+              r.a.createElement(m['a'], {
+                code:
+                  '#components-form-demo-control-hooks .ant-btn {\n  margin-right: 8px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    '7eWJ': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['layout-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['layout-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    Eh4s: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['validate-other-form-jxc-demo'].component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['validate-other-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    Fmlw: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m = (t('ltCa'), t('Bjia')),
+        c = r.a.memo(t('JjdP').default['normal-login-form-jxc-demo'].component);
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['normal-login-form-jxc-demo'].previewerProps,
+              r.a.createElement(c, null),
+            ),
+            r.a.createElement(
+              'div',
+              { className: 'markdown' },
+              r.a.createElement(m['a'], {
+                code:
+                  '#components-form-demo-normal-login .login-form {\n  max-width: 300px;\n}\n#components-form-demo-normal-login .login-form-forgot {\n  float: right;\n}\n#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {\n  float: left;\n}\n#components-form-demo-normal-login .login-form-button {\n  width: 100%;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    Ga7g: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['time-related-controls-form-jxc-demo'].component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['time-related-controls-form-jxc-demo']
+                .previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    HNow: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['disabled-input-debug-form-jxc-demo'].component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['disabled-input-debug-form-jxc-demo']
+                .previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    JtKO: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['ref-item-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['ref-item-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    LJQW: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['dep-debug-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['dep-debug-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    NBca: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['inline-login-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['inline-login-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    PTK5: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['global-state-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['global-state-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    SGxO: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['nest-messages-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['nest-messages-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    T8q3: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m = (t('ltCa'), t('Bjia')),
+        c = r.a.memo(
+          t('JjdP').default['advanced-search-form-jxc-demo'].component,
+        );
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['advanced-search-form-jxc-demo'].previewerProps,
+              r.a.createElement(c, null),
+            ),
+            r.a.createElement(
+              'div',
+              { className: 'markdown' },
+              r.a.createElement(m['a'], {
+                code:
+                  "[data-theme='compact'] .ant-advanced-search-form,\n.ant-advanced-search-form {\n  padding: 24px;\n  background: #fbfbfb;\n  border: 1px solid #d9d9d9;\n  border-radius: 2px;\n}\n\n[data-theme='compact'] .ant-advanced-search-form .ant-form-item,\n.ant-advanced-search-form .ant-form-item {\n  display: flex;\n}\n\n[data-theme='compact'] .ant-advanced-search-form .ant-form-item-control-wrapper,\n.ant-advanced-search-form .ant-form-item-control-wrapper {\n  flex: 1;\n}\n",
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    W7bI: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = t('dEAq'),
+        m = t('g5U0'),
+        c = (t('ekZX'), t('ltCa'));
+      t('Bjia');
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            'div',
+            { className: 'markdown' },
+            r.a.createElement(
+              'h2',
+              { id: '\u8868\u5355' },
+              r.a.createElement(
+                l['AnchorLink'],
+                { to: '#\u8868\u5355', 'aria-hidden': 'true', tabIndex: -1 },
+                r.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u8868\u5355',
+            ),
+            r.a.createElement(
+              'div',
+              null,
+              r.a.createElement(r.a.Fragment, {
+                children: t('atsV').default(),
+              }),
+            ),
+            r.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              r.a.createElement(
+                l['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                r.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            r.a.createElement(
+              c['a'],
+              { gutter: '8' },
+              r.a.createElement(
+                m['a'],
+                { span: 24 },
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('T8q3').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('qhW0').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('7W70').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('diL4').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('7eWJ').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('1CWp').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('h4/v').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('zbB3').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('mWJi').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('Y28g').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('SGxO').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('hj4t').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('n9/g').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('PTK5').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('2jAn').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('NBca').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('Fmlw').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('ahyV').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('fJD5').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('Ga7g').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('teeI').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('gNaq').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('ZS0l').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('Eh4s').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('HNow').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('LJQW').default(),
+                  }),
+                ),
+                r.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  r.a.createElement(r.a.Fragment, {
+                    children: t('JtKO').default(),
+                  }),
+                ),
+              ),
+            ),
+            r.a.createElement(
+              'div',
+              null,
+              r.a.createElement(r.a.Fragment, {
+                children: t('r7g3').default(),
+              }),
+              r.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    Y28g: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['dynamic-form-items-complex-form-jxc-demo']
+              .component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['dynamic-form-items-complex-form-jxc-demo']
+                .previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    ZS0l: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['dynamic-rule-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['dynamic-rule-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    ahyV: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['register-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['register-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    diL4: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m = (t('ltCa'), t('Bjia')),
+        c = r.a.memo(t('JjdP').default['control-ref-form-jxc-demo'].component);
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['control-ref-form-jxc-demo'].previewerProps,
+              r.a.createElement(c, null),
+            ),
+            r.a.createElement(
+              'div',
+              { className: 'markdown' },
+              r.a.createElement(m['a'], {
+                code:
+                  '#components-form-demo-control-ref .ant-btn {\n  margin-right: 8px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    fJD5: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m = (t('ltCa'), t('Bjia')),
+        c = r.a.memo(
+          t('JjdP').default['form-in-modal-form-jxc-demo'].component,
+        );
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['form-in-modal-form-jxc-demo'].previewerProps,
+              r.a.createElement(c, null),
+            ),
+            r.a.createElement(
+              'div',
+              { className: 'markdown' },
+              r.a.createElement(m['a'], {
+                code:
+                  '.collection-create-form_last-form-item {\n  margin-bottom: 0;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    gNaq: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['validate-static-form-jxc-demo'].component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['validate-static-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    'h4/v': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['required-mark-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['required-mark-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    hj4t: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['complex-form-control-form-jxc-demo'].component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['complex-form-control-form-jxc-demo']
+                .previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    mWJi: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['dynamic-form-items-form-jxc-demo'].component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['dynamic-form-items-form-jxc-demo']
+                .previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    'n9/g': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['customized-form-controls-form-jxc-demo']
+              .component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['customized-form-controls-form-jxc-demo']
+                .previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    qhW0: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(t('JjdP').default['basic-form-jxc-demo'].component));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['basic-form-jxc-demo'].previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    teeI: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m =
+          (t('ltCa'),
+          t('Bjia'),
+          r.a.memo(
+            t('JjdP').default['without-form-create-form-jxc-demo'].component,
+          ));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['without-form-create-form-jxc-demo']
+                .previewerProps,
+              r.a.createElement(m, null),
+            ),
+          ),
+        );
+      };
+    },
+    zbB3: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        r = t.n(n),
+        l = (t('dEAq'), t('g5U0'), t('ekZX')),
+        m = (t('ltCa'), t('Bjia')),
+        c = r.a.memo(
+          t('JjdP').default['dynamic-form-item-form-jxc-demo'].component,
+        );
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            r.a.Fragment,
+            null,
+            r.a.createElement('div', { className: 'markdown' }),
+            r.a.createElement(
+              l['default'],
+              t('JjdP').default['dynamic-form-item-form-jxc-demo']
+                .previewerProps,
+              r.a.createElement(c, null),
+            ),
+            r.a.createElement(
+              'div',
+              { className: 'markdown' },
+              r.a.createElement(m['a'], {
+                code:
+                  '.dynamic-delete-button {\n  position: relative;\n  top: 4px;\n  margin: 0 8px;\n  color: #999;\n  font-size: 24px;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n.dynamic-delete-button:hover {\n  color: #777;\n}\n.dynamic-delete-button[disabled] {\n  cursor: not-allowed;\n  opacity: 0.5;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

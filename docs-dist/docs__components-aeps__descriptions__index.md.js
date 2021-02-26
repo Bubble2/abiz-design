@@ -1,1 +1,723 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{"+Kyv":function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["responsive-descriptions-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["responsive-descriptions-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},"9f9b":function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(l.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("h3",{id:"descriptions"},e.a.createElement(l.AnchorLink,{to:"#descriptions","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Descriptions"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"bordered"),e.a.createElement("td",null,"\u662F\u5426\u5C55\u793A\u8FB9\u6846"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"colon"),e.a.createElement("td",null,"\u914D\u7F6E ",e.a.createElement("code",null,"Descriptions.Item")," \u7684 ",e.a.createElement("code",null,"colon")," \u7684\u9ED8\u8BA4\u503C"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"column"),e.a.createElement("td",null,"\u4E00\u884C\u7684 ",e.a.createElement("code",null,"DescriptionItems")," \u6570\u91CF\uFF0C\u53EF\u4EE5\u5199\u6210\u50CF\u7D20\u503C\u6216\u652F\u6301\u54CD\u5E94\u5F0F\u7684\u5BF9\u8C61\u5199\u6CD5 ",e.a.createElement("code",null,"{"," xs: 8, sm: 16, md: 24","}")),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"3"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"extra"),e.a.createElement("td",null,"\u63CF\u8FF0\u5217\u8868\u7684\u64CD\u4F5C\u533A\u57DF\uFF0C\u663E\u793A\u5728\u53F3\u4E0A\u65B9"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.5.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"layout"),e.a.createElement("td",null,"\u63CF\u8FF0\u5E03\u5C40"),e.a.createElement("td",null,e.a.createElement("code",null,"horizontal")," | ",e.a.createElement("code",null,"vertical")),e.a.createElement("td",null,e.a.createElement("code",null,"horizontal")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"size"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5217\u8868\u7684\u5927\u5C0F\u3002\u53EF\u4EE5\u8BBE\u7F6E\u4E3A ",e.a.createElement("code",null,"middle")," \u3001",e.a.createElement("code",null,"small"),", \u6216\u4E0D\u586B\uFF08\u53EA\u6709\u8BBE\u7F6E ",e.a.createElement("code",null,"bordered=","{","true","}")," \u751F\u6548\uFF09"),e.a.createElement("td",null,e.a.createElement("code",null,"default")," | ",e.a.createElement("code",null,"middle")," | ",e.a.createElement("code",null,"small")),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u63CF\u8FF0\u5217\u8868\u7684\u6807\u9898\uFF0C\u663E\u793A\u5728\u6700\u9876\u90E8"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h3",{id:"descriptionitem"},e.a.createElement(l.AnchorLink,{to:"#descriptionitem","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"DescriptionItem"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"contentStyle"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u5185\u5BB9\u6837\u5F0F"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.9.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"label"),e.a.createElement("td",null,"\u5185\u5BB9\u7684\u63CF\u8FF0"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"labelStyle"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6807\u7B7E\u6837\u5F0F"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null,"4.9.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"span"),e.a.createElement("td",null,"\u5305\u542B\u5217\u7684\u6570\u91CF"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"1"),e.a.createElement("td",null)))),e.a.createElement("p",null,"span \u662F Description.Item \u7684\u6570\u91CF\u3002 span=","{","2","}"," \u4F1A\u5360\u7528\u4E24\u4E2A DescriptionItem \u7684\u5BBD\u5EA6\u3002 \u5F53\u540C\u65F6\u914D\u7F6E ",e.a.createElement("code",null,"style")," \u548C ",e.a.createElement("code",null,"labelStyle"),"\uFF08\u6216 ",e.a.createElement("code",null,"contentStyle"),"\uFF09\u65F6\uFF0C\u4E24\u8005\u4F1A\u540C\u65F6\u4F5C\u7528\u3002\u6837\u5F0F\u51B2\u7A81\u65F6\uFF0C\u540E\u8005\u4F1A\u8986\u76D6\u524D\u8005\u3002")))}},JyIG:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["text-descriptions-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["text-descriptions-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},NBIc:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["style-descriptions-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["style-descriptions-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},Q4V0:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["border-descriptions-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["border-descriptions-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},QEvp:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["vertical-border-descriptions-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["vertical-border-descriptions-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},S83K:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["vertical-descriptions-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["vertical-descriptions-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},Xmgg:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u6210\u7EC4\u5C55\u793A\u591A\u4E2A\u53EA\u8BFB\u5B57\u6BB5\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(l.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("p",null,"\u5E38\u89C1\u4E8E\u8BE6\u60C5\u9875\u7684\u4FE1\u606F\u5C55\u793A\u3002")))}},Z60d:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa");a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u63CF\u8FF0\u5217\u8868"},e.a.createElement(l.AnchorLink,{to:"#\u63CF\u8FF0\u5217\u8868","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u63CF\u8FF0\u5217\u8868"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("Xmgg").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(l.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(c.a,{gutter:"8"},e.a.createElement(d.a,{span:24},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("e7yZ").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Q4V0").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("JyIG").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("hmSX").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("+Kyv").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("S83K").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("QEvp").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("NBIc").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("9f9b").default()}),e.a.createElement("div",null))))}},e7yZ:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["basic-descriptions-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["basic-descriptions-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},g5U0:function(m,a,t){"use strict";var n=t("kPKH"),e=t("h9md"),l=t.n(e);a.a=n.a},hmSX:function(m,a,t){"use strict";t.r(a);var n=t("cDcd"),e=t.n(n),l=t("dEAq"),r=t.n(l),d=t("g5U0"),c=t("ltCa"),u=t("0zqC");const E=e.a.memo(t("JjdP").default["size-descriptions-aeps-demo"].component);a.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(u.default,t("JjdP").default["size-descriptions-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},ltCa:function(m,a,t){"use strict";var n=t("BMrR"),e=t("7xIR"),l=t.n(e);a.a=n.a}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [28],
+  {
+    '+Kyv': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['responsive-descriptions-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['responsive-descriptions-aeps-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    '9f9b': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'descriptions' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#descriptions', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Descriptions',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'bordered'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5c55\u793a\u8fb9\u6846',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'colon'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u914d\u7f6e ',
+                    n.a.createElement('code', null, 'Descriptions.Item'),
+                    ' \u7684 ',
+                    n.a.createElement('code', null, 'colon'),
+                    ' \u7684\u9ed8\u8ba4\u503c',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'column'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e00\u884c\u7684 ',
+                    n.a.createElement('code', null, 'DescriptionItems'),
+                    ' \u6570\u91cf\uff0c\u53ef\u4ee5\u5199\u6210\u50cf\u7d20\u503c\u6216\u652f\u6301\u54cd\u5e94\u5f0f\u7684\u5bf9\u8c61\u5199\u6cd5 ',
+                    n.a.createElement(
+                      'code',
+                      null,
+                      '{',
+                      ' xs: 8, sm: 16, md: 24',
+                      '}',
+                    ),
+                  ),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement('td', null, '3'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'extra'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63cf\u8ff0\u5217\u8868\u7684\u64cd\u4f5c\u533a\u57df\uff0c\u663e\u793a\u5728\u53f3\u4e0a\u65b9',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.5.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'layout'),
+                  n.a.createElement('td', null, '\u63cf\u8ff0\u5e03\u5c40'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'horizontal'),
+                    ' | ',
+                    n.a.createElement('code', null, 'vertical'),
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'horizontal'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'size'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5217\u8868\u7684\u5927\u5c0f\u3002\u53ef\u4ee5\u8bbe\u7f6e\u4e3a ',
+                    n.a.createElement('code', null, 'middle'),
+                    ' \u3001',
+                    n.a.createElement('code', null, 'small'),
+                    ', \u6216\u4e0d\u586b\uff08\u53ea\u6709\u8bbe\u7f6e ',
+                    n.a.createElement(
+                      'code',
+                      null,
+                      'bordered=',
+                      '{',
+                      'true',
+                      '}',
+                    ),
+                    ' \u751f\u6548\uff09',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'default'),
+                    ' | ',
+                    n.a.createElement('code', null, 'middle'),
+                    ' | ',
+                    n.a.createElement('code', null, 'small'),
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'title'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63cf\u8ff0\u5217\u8868\u7684\u6807\u9898\uff0c\u663e\u793a\u5728\u6700\u9876\u90e8',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'descriptionitem' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#descriptionitem', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'DescriptionItem',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'contentStyle'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u5185\u5bb9\u6837\u5f0f',
+                  ),
+                  n.a.createElement('td', null, 'CSSProperties'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.9.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'label'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5185\u5bb9\u7684\u63cf\u8ff0',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'labelStyle'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6807\u7b7e\u6837\u5f0f',
+                  ),
+                  n.a.createElement('td', null, 'CSSProperties'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null, '4.9.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'span'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5305\u542b\u5217\u7684\u6570\u91cf',
+                  ),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement('td', null, '1'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'span \u662f Description.Item \u7684\u6570\u91cf\u3002 span=',
+              '{',
+              '2',
+              '}',
+              ' \u4f1a\u5360\u7528\u4e24\u4e2a DescriptionItem \u7684\u5bbd\u5ea6\u3002 \u5f53\u540c\u65f6\u914d\u7f6e ',
+              n.a.createElement('code', null, 'style'),
+              ' \u548c ',
+              n.a.createElement('code', null, 'labelStyle'),
+              '\uff08\u6216 ',
+              n.a.createElement('code', null, 'contentStyle'),
+              '\uff09\u65f6\uff0c\u4e24\u8005\u4f1a\u540c\u65f6\u4f5c\u7528\u3002\u6837\u5f0f\u51b2\u7a81\u65f6\uff0c\u540e\u8005\u4f1a\u8986\u76d6\u524d\u8005\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        r = a('cDcd'),
+        c = a.n(r),
+        m = a('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var a = e.children,
+          r = Object(n['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(l['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, a),
+        );
+      });
+    },
+    JyIG: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['text-descriptions-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['text-descriptions-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    NBIc: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['style-descriptions-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['style-descriptions-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Q4V0: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['border-descriptions-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['border-descriptions-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    QEvp: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['vertical-border-descriptions-aeps-demo']
+              .component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['vertical-border-descriptions-aeps-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    S83K: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['vertical-descriptions-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['vertical-descriptions-aeps-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Xmgg: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u6210\u7ec4\u5c55\u793a\u591a\u4e2a\u53ea\u8bfb\u5b57\u6bb5\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5e38\u89c1\u4e8e\u8be6\u60c5\u9875\u7684\u4fe1\u606f\u5c55\u793a\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    Z60d: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u63cf\u8ff0\u5217\u8868' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u63cf\u8ff0\u5217\u8868',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u63cf\u8ff0\u5217\u8868',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('Xmgg').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                c['a'],
+                { span: 24 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('e7yZ').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('Q4V0').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('JyIG').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('hmSX').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('+Kyv').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('S83K').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('QEvp').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('NBIc').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('9f9b').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    e7yZ: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['basic-descriptions-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['basic-descriptions-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    hmSX: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['size-descriptions-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['size-descriptions-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+  },
+]);

@@ -1,2 +1,70 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[100],{OQ2i:function(l,a,_){"use strict";_.r(a);var n=_("cDcd"),t=_.n(n),E=_("dEAq"),D=_.n(E),s=_("g5U0"),e=_("ltCa"),d=_("ZpkN");a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"},t.a.createElement("h3",{id:"\u4F9D\u8D56\u5B89\u88C5"},t.a.createElement(E.AnchorLink,{to:"#\u4F9D\u8D56\u5B89\u88C5","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u4F9D\u8D56\u5B89\u88C5"),t.a.createElement(d.a,{code:`$ npm i @abiz/rc-jxc
-`,lang:"bash"})))}},g5U0:function(l,a,_){"use strict";var n=_("kPKH"),t=_("h9md"),E=_.n(t);a.a=n.a},ltCa:function(l,a,_){"use strict";var n=_("BMrR"),t=_("7xIR"),E=_.n(t);a.a=n.a}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [101],
+  {
+    Bjia: function(e, a, n) {
+      'use strict';
+      var t = n('0Owb'),
+        r = n('PpiC'),
+        c = n('cDcd'),
+        i = n.n(c),
+        l = n('ZpkN');
+      a['a'] = i.a.forwardRef((e, a) => {
+        var n = e.children,
+          c = Object(r['default'])(e, ['children']);
+        return i.a.createElement(
+          l['a'],
+          Object(t['default'])({}, c, { forwardedRef: a }),
+          i.a.createElement(i.a.Fragment, null, n),
+        );
+      });
+    },
+    OQ2i: function(e, a, n) {
+      'use strict';
+      n.r(a);
+      var t = n('cDcd'),
+        r = n.n(t),
+        c = n('dEAq'),
+        i = (n('g5U0'), n('ekZX'), n('ltCa'), n('Bjia'));
+      a['default'] = function() {
+        return r.a.createElement(
+          r.a.Fragment,
+          null,
+          r.a.createElement(
+            'div',
+            { className: 'markdown' },
+            r.a.createElement(
+              'h3',
+              { id: '\u4f9d\u8d56\u5b89\u88c5' },
+              r.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4f9d\u8d56\u5b89\u88c5',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                r.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f9d\u8d56\u5b89\u88c5',
+            ),
+            r.a.createElement(i['a'], {
+              code: '$ npm i @abiz/rc-jxc\n',
+              lang: 'bash',
+            }),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, a, n) {
+      'use strict';
+      var t = n('kPKH');
+      n('h9md');
+      a['a'] = t['a'];
+    },
+    ltCa: function(e, a, n) {
+      'use strict';
+      var t = n('BMrR');
+      n('7xIR');
+      a['a'] = t['a'];
+    },
+  },
+]);

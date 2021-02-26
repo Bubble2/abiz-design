@@ -5,7 +5,7 @@ order: 9
 ```tsx
 /**
  * title: 自定义筛选菜单
- * desc: 通过`filterDropdown`自定义的列筛选功能，并实现一个搜索列的示例。
+ * desc: 通过`filterDropdown`自定义的列筛选功能，并实现一个搜索列的示例。给函数`confirm`添加`boolean`类型参数`closeDropdown`，是否关闭筛选菜单，默认为`true`。
  */
 
 import React from 'react';
@@ -84,6 +84,19 @@ class App extends React.Component {
             style={{ width: 90 }}
           >
             Reset
+          </Button>
+          <Button
+            type="link"
+            size="small"
+            onClick={() => {
+              confirm({ closeDropdown: false });
+              this.setState({
+                searchText: selectedKeys[0],
+                searchedColumn: dataIndex,
+              });
+            }}
+          >
+            Filter
           </Button>
         </Space>
       </div>

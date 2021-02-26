@@ -15,7 +15,7 @@ const columns = [
   {
     title: 'Name',
     dataIndex: 'name',
-    render: text => <a>{text}</a>,
+    render: (text: string) => <a>{text}</a>,
   },
   {
     title: 'Age',
@@ -26,7 +26,15 @@ const columns = [
     dataIndex: 'address',
   },
 ];
-const data = [
+
+interface DataType {
+  key: React.Key;
+  name: string;
+  age: number;
+  address: string;
+}
+
+const data: DataType[] = [
   {
     key: '1',
     name: 'John Brown',
@@ -55,21 +63,23 @@ const data = [
 
 // rowSelection object indicates the need for row selection
 const rowSelection = {
-  onChange: (selectedRowKeys, selectedRows) => {
+  onChange: (selectedRowKeys: React.Key[], selectedRows: DataType[]) => {
     console.log(
       `selectedRowKeys: ${selectedRowKeys}`,
       'selectedRows: ',
       selectedRows,
     );
   },
-  getCheckboxProps: record => ({
+  getCheckboxProps: (record: DataType) => ({
     disabled: record.name === 'Disabled User', // Column configuration not to be checked
     name: record.name,
   }),
 };
 
 const Demo = () => {
-  const [selectionType, setSelectionType] = useState('checkbox');
+  const [selectionType, setSelectionType] = useState<'checkbox' | 'radio'>(
+    'checkbox',
+  );
 
   return (
     <div>

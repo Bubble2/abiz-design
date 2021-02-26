@@ -22,7 +22,7 @@ const ThrowError: React.FC = () => {
     throw error;
   }
   return (
-    <Button type="danger" onClick={onClick}>
+    <Button danger onClick={onClick}>
       Click me to throw a error
     </Button>
   );

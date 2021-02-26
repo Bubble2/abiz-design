@@ -1,60 +1,1006 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[34],{"1t0S":function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),u=t("dEAq"),d=t.n(u),m=t("g5U0"),r=t("ltCa");n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u56FE\u6807"},e.a.createElement(u.AnchorLink,{to:"#\u56FE\u6807","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u56FE\u6807"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("6T96").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(u.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(r.a,{gutter:"8"},e.a.createElement(m.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("yiHT").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("nlbs").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("5a53").default()}))),e.a.createElement(m.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("aqGt").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("jYLM").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("IkOR").default()}),e.a.createElement("div",null))))}},"5a53":function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),u=t("dEAq"),d=t.n(u),m=t("g5U0"),r=t("ltCa"),a=t("0zqC");const c=e.a.memo(t("JjdP").default["scriptUrl-icon-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["scriptUrl-icon-aeps-demo"].previewerProps,e.a.createElement(c,null))))}},"6T96":function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),u=t("dEAq"),d=t.n(u),m=t("g5U0"),r=t("ltCa"),a=t("ZpkN");n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u8BED\u4E49\u5316\u7684\u77E2\u91CF\u56FE\u5F62\u3002\u4F7F\u7528\u56FE\u6807\u7EC4\u4EF6\uFF0C\u4F60\u9700\u8981\u5B89\u88C5 ",e.a.createElement("code",null,"@ant-design/icons")," \u56FE\u6807\u7EC4\u4EF6\u5305\uFF1A"),e.a.createElement(a.a,{code:`
-npm install --save @ant-design/icons
-`,lang:"bash"}),e.a.createElement("h2",{id:"\u8BBE\u8BA1\u5E08\u4E13\u5C5E"},e.a.createElement(u.AnchorLink,{to:"#\u8BBE\u8BA1\u5E08\u4E13\u5C5E","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u8BBE\u8BA1\u5E08\u4E13\u5C5E"),e.a.createElement("p",null,"\u5B89\u88C5 ",e.a.createElement(u.Link,{to:"https://kitchen.alipay.com/"},"Kitchen Sketch \u63D2\u4EF6 \u{1F48E}"),"\uFF0C\u5C31\u53EF\u4EE5\u4E00\u952E\u62D6\u62FD\u4F7F\u7528 Ant Design \u548C Iconfont \u7684\u6D77\u91CF\u56FE\u6807\uFF0C\u8FD8\u53EF\u4EE5\u5173\u8054\u81EA\u6709\u9879\u76EE\u3002"),e.a.createElement("h2",{id:"\u56FE\u6807\u5217\u8868"},e.a.createElement(u.AnchorLink,{to:"#\u56FE\u6807\u5217\u8868","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u56FE\u6807\u5217\u8868"),e.a.createElement(a.a,{code:`\\_react
-import IconDisplay from 'site/theme/template/IconDisplay';
-ReactDOM.render(<IconDisplay />, mountNode);
-`,lang:"_"})))}},IkOR:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),u=t("dEAq"),d=t.n(u),m=t("g5U0"),r=t("ltCa"),a=t("ZpkN");n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(u.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("p",null,"\u4ECE 4.0 \u5F00\u59CB\uFF0Cantd \u4E0D\u518D\u5185\u7F6E Icon \u7EC4\u4EF6\uFF0C\u8BF7\u4F7F\u7528\u72EC\u7ACB\u7684\u5305 ",e.a.createElement("code",null,"@ant-design/icons"),"\u3002"),e.a.createElement("h3",{id:"\u901A\u7528\u56FE\u6807"},e.a.createElement(u.AnchorLink,{to:"#\u901A\u7528\u56FE\u6807","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u901A\u7528\u56FE\u6807"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"className"),e.a.createElement("td",null,"\u8BBE\u7F6E\u56FE\u6807\u7684\u6837\u5F0F\u540D"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"rotate"),e.a.createElement("td",null,"\u56FE\u6807\u65CB\u8F6C\u89D2\u5EA6\uFF08IE9 \u65E0\u6548\uFF09"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"spin"),e.a.createElement("td",null,"\u662F\u5426\u6709\u65CB\u8F6C\u52A8\u753B"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"style"),e.a.createElement("td",null,"\u8BBE\u7F6E\u56FE\u6807\u7684\u6837\u5F0F\uFF0C\u4F8B\u5982 ",e.a.createElement("code",null,"fontSize")," \u548C ",e.a.createElement("code",null,"color")),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"twoToneColor"),e.a.createElement("td",null,"\u4EC5\u9002\u7528\u53CC\u8272\u56FE\u6807\u3002\u8BBE\u7F6E\u53CC\u8272\u56FE\u6807\u7684\u4E3B\u8981\u989C\u8272"),e.a.createElement("td",null,"string (\u5341\u516D\u8FDB\u5236\u989C\u8272)"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("p",null,"\u5176\u4E2D\u6211\u4EEC\u63D0\u4F9B\u4E86\u4E09\u79CD\u4E3B\u9898\u7684\u56FE\u6807\uFF0C\u4E0D\u540C\u4E3B\u9898\u7684 Icon \u7EC4\u4EF6\u540D\u4E3A\u56FE\u6807\u540D\u52A0\u4E3B\u9898\u505A\u4E3A\u540E\u7F00\u3002"),e.a.createElement(a.a,{code:`
-import { StarOutlined, StarFilled, StarTwoTone } from '@ant-design/icons';
-
-<StarOutlined />
-<StarFilled />
-<StarTwoTone twoToneColor="#eb2f96" />
-`,lang:"jsx"}),e.a.createElement("h3",{id:"\u81EA\u5B9A\u4E49-icon"},e.a.createElement(u.AnchorLink,{to:"#\u81EA\u5B9A\u4E49-icon","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u81EA\u5B9A\u4E49 Icon"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"component"),e.a.createElement("td",null,"\u63A7\u5236\u5982\u4F55\u6E32\u67D3\u56FE\u6807\uFF0C\u901A\u5E38\u662F\u4E00\u4E2A\u6E32\u67D3\u6839\u6807\u7B7E\u4E3A ",e.a.createElement("code",null,"<svg>")," \u7684 React \u7EC4\u4EF6"),e.a.createElement("td",null,"ComponentType<CustomIconComponentProps>"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"rotate"),e.a.createElement("td",null,"\u56FE\u6807\u65CB\u8F6C\u89D2\u5EA6\uFF08IE9 \u65E0\u6548\uFF09"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"spin"),e.a.createElement("td",null,"\u662F\u5426\u6709\u65CB\u8F6C\u52A8\u753B"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"style"),e.a.createElement("td",null,"\u8BBE\u7F6E\u56FE\u6807\u7684\u6837\u5F0F\uFF0C\u4F8B\u5982 ",e.a.createElement("code",null,"fontSize")," \u548C ",e.a.createElement("code",null,"color")),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h3",{id:"\u5173\u4E8E-svg-\u56FE\u6807"},e.a.createElement(u.AnchorLink,{to:"#\u5173\u4E8E-svg-\u56FE\u6807","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u5173\u4E8E SVG \u56FE\u6807"),e.a.createElement("p",null,"\u5728 ",e.a.createElement("code",null,"3.9.0")," \u4E4B\u540E\uFF0C\u6211\u4EEC\u4F7F\u7528\u4E86 SVG \u56FE\u6807\u66FF\u6362\u4E86\u539F\u5148\u7684 font \u56FE\u6807\uFF0C\u4ECE\u800C\u5E26\u6765\u4E86\u4EE5\u4E0B\u4F18\u52BF\uFF1A"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u5B8C\u5168\u79BB\u7EBF\u5316\u4F7F\u7528\uFF0C\u4E0D\u9700\u8981\u4ECE CDN \u4E0B\u8F7D\u5B57\u4F53\u6587\u4EF6\uFF0C\u56FE\u6807\u4E0D\u4F1A\u56E0\u4E3A\u7F51\u7EDC\u95EE\u9898\u5448\u73B0\u65B9\u5757\uFF0C\u4E5F\u65E0\u9700\u5B57\u4F53\u6587\u4EF6\u672C\u5730\u90E8\u7F72\u3002"),e.a.createElement("li",null,"\u5728\u4F4E\u7AEF\u8BBE\u5907\u4E0A SVG \u6709\u66F4\u597D\u7684\u6E05\u6670\u5EA6\u3002"),e.a.createElement("li",null,"\u652F\u6301\u591A\u8272\u56FE\u6807\u3002"),e.a.createElement("li",null,"\u5BF9\u4E8E\u5185\u5EFA\u56FE\u6807\u7684\u66F4\u6362\u53EF\u4EE5\u63D0\u4F9B\u66F4\u591A API\uFF0C\u800C\u4E0D\u9700\u8981\u8FDB\u884C\u6837\u5F0F\u8986\u76D6\u3002")),e.a.createElement("p",null,"\u66F4\u591A\u8BA8\u8BBA\u53EF\u53C2\u8003\uFF1A",e.a.createElement(u.Link,{to:"https://github.com/ant-design/ant-design/issues/10353"},"#10353"),"\u3002"),e.a.createElement("p",null,"\u6240\u6709\u7684\u56FE\u6807\u90FD\u4F1A\u4EE5 ",e.a.createElement("code",null,"<svg>")," \u6807\u7B7E\u6E32\u67D3\uFF0C\u53EF\u4EE5\u4F7F\u7528 ",e.a.createElement("code",null,"style")," \u548C ",e.a.createElement("code",null,"className")," \u8BBE\u7F6E\u56FE\u6807\u7684\u5927\u5C0F\u548C\u5355\u8272\u56FE\u6807\u7684\u989C\u8272\u3002\u4F8B\u5982\uFF1A"),e.a.createElement(a.a,{code:`
-import { MessageOutlined } from '@ant-design/icons';
-
-<MessageOutlined style={{ fontSize: '16px', color: '#08c' }} />;
-`,lang:"jsx"}),e.a.createElement("h3",{id:"\u53CC\u8272\u56FE\u6807\u4E3B\u8272"},e.a.createElement(u.AnchorLink,{to:"#\u53CC\u8272\u56FE\u6807\u4E3B\u8272","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u53CC\u8272\u56FE\u6807\u4E3B\u8272"),e.a.createElement("p",null,"\u5BF9\u4E8E\u53CC\u8272\u56FE\u6807\uFF0C\u53EF\u4EE5\u901A\u8FC7\u4F7F\u7528 ",e.a.createElement("code",null,"getTwoToneColor()")," \u548C ",e.a.createElement("code",null,"setTwoToneColor(colorString)")," \u6765\u5168\u5C40\u8BBE\u7F6E\u56FE\u6807\u4E3B\u8272\u3002"),e.a.createElement(a.a,{code:`
-import { getTwoToneColor, setTwoToneColor } from '@ant-design/icons';
-
-setTwoToneColor('#eb2f96');
-getTwoToneColor(); // #eb2f96
-`,lang:"jsx"}),e.a.createElement("h3",{id:"\u81EA\u5B9A\u4E49-font-\u56FE\u6807"},e.a.createElement(u.AnchorLink,{to:"#\u81EA\u5B9A\u4E49-font-\u56FE\u6807","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u81EA\u5B9A\u4E49 font \u56FE\u6807"),e.a.createElement("p",null,"\u5728 ",e.a.createElement("code",null,"3.9.0")," \u4E4B\u540E\uFF0C\u6211\u4EEC\u63D0\u4F9B\u4E86\u4E00\u4E2A ",e.a.createElement("code",null,"createFromIconfontCN")," \u65B9\u6CD5\uFF0C\u65B9\u4FBF\u5F00\u53D1\u8005\u8C03\u7528\u5728 ",e.a.createElement(u.Link,{to:"http://iconfont.cn/"},"iconfont.cn")," \u4E0A\u81EA\u884C\u7BA1\u7406\u7684\u56FE\u6807\u3002"),e.a.createElement(a.a,{code:`
-import { createFromIconfontCN } from '@ant-design/icons';
-
-const MyIcon = createFromIconfontCN({
-  scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js', // \u5728 iconfont.cn \u4E0A\u751F\u6210
-});
-
-ReactDOM.render(<MyIcon type="icon-example" />, mountedNode);
-`,lang:"js"}),e.a.createElement("p",null,"\u5176\u672C\u8D28\u4E0A\u662F\u521B\u5EFA\u4E86\u4E00\u4E2A\u4F7F\u7528 ",e.a.createElement("code",null,"<use>")," \u6807\u7B7E\u6765\u6E32\u67D3\u56FE\u6807\u7684\u7EC4\u4EF6\u3002"),e.a.createElement("p",null,"options \u7684\u914D\u7F6E\u9879\u5982\u4E0B\uFF1A"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"extraCommonProps"),e.a.createElement("td",null,"\u7ED9\u6240\u6709\u7684 ",e.a.createElement("code",null,"svg")," \u56FE\u6807 ",e.a.createElement("code",null,"<Icon />")," \u7EC4\u4EF6\u8BBE\u7F6E\u989D\u5916\u7684\u5C5E\u6027"),e.a.createElement("td",null,"{"," [key: string]: any ","}"),e.a.createElement("td",null,"{","}"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"scriptUrl"),e.a.createElement("td",null,e.a.createElement(u.Link,{to:"http://iconfont.cn/"},"iconfont.cn")," \u9879\u76EE\u5728\u7EBF\u751F\u6210\u7684 js \u5730\u5740\uFF0C",e.a.createElement("code",null,"@ant-design/icons@4.1.0")," \u4E4B\u540E\u652F\u6301 ",e.a.createElement("code",null,"string[]")," \u7C7B\u578B"),e.a.createElement("td",null,"string | string[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("p",null,"\u5728 ",e.a.createElement("code",null,"scriptUrl")," \u90FD\u8BBE\u7F6E\u6709\u6548\u7684\u60C5\u51B5\u4E0B\uFF0C\u7EC4\u4EF6\u5728\u6E32\u67D3\u524D\u4F1A\u81EA\u52A8\u5F15\u5165 ",e.a.createElement(u.Link,{to:"http://iconfont.cn/"},"iconfont.cn")," \u9879\u76EE\u4E2D\u7684\u56FE\u6807\u7B26\u53F7\u96C6\uFF0C\u65E0\u9700\u624B\u52A8\u5F15\u5165\u3002"),e.a.createElement("p",null,"\u89C1 ",e.a.createElement(u.Link,{to:"http://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code"},"iconfont.cn \u4F7F\u7528\u5E2E\u52A9")," \u67E5\u770B\u5982\u4F55\u751F\u6210 js \u5730\u5740\u3002"),e.a.createElement("h3",{id:"\u81EA\u5B9A\u4E49-svg-\u56FE\u6807"},e.a.createElement(u.AnchorLink,{to:"#\u81EA\u5B9A\u4E49-svg-\u56FE\u6807","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u81EA\u5B9A\u4E49 SVG \u56FE\u6807"),e.a.createElement("p",null,"\u5982\u679C\u4F7F\u7528 ",e.a.createElement("code",null,"webpack"),"\uFF0C\u53EF\u4EE5\u901A\u8FC7\u914D\u7F6E ",e.a.createElement(u.Link,{to:"https://www.npmjs.com/package/@svgr/webpack"},"@svgr/webpack")," \u6765\u5C06 ",e.a.createElement("code",null,"svg")," \u56FE\u6807\u4F5C\u4E3A ",e.a.createElement("code",null,"React")," \u7EC4\u4EF6\u5BFC\u5165\u3002",e.a.createElement("code",null,"@svgr/webpack")," \u7684 ",e.a.createElement("code",null,"options")," \u9009\u9879\u8BF7\u53C2\u9605 ",e.a.createElement(u.Link,{to:"https://github.com/smooth-code/svgr#options"},"svgr \u6587\u6863"),"\u3002"),e.a.createElement(a.a,{code:`
-// webpack.config.js
-{
-  test: /\\.svg(\\?v=\\d+\\.\\d+\\.\\d+)?$/,
-  use: [
-    {
-      loader: 'babel-loader',
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [35],
+  {
+    '1t0S': function(e, t, n) {
+      'use strict';
+      n.r(t);
+      var a = n('cDcd'),
+        l = n.n(a),
+        c = n('dEAq'),
+        r = n('g5U0'),
+        m = (n('ekZX'), n('ltCa'));
+      n('Bjia');
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: '\u56fe\u6807' },
+              l.a.createElement(
+                c['AnchorLink'],
+                { to: '#\u56fe\u6807', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u56fe\u6807',
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: n('6T96').default(),
+              }),
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            l.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              l.a.createElement(
+                r['a'],
+                { span: 12 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: n('yiHT').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: n('nlbs').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: n('5a53').default(),
+                  }),
+                ),
+              ),
+              l.a.createElement(
+                r['a'],
+                { span: 12 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: n('aqGt').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: n('jYLM').default(),
+                  }),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: n('IkOR').default(),
+              }),
+              l.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
     },
-    {
-      loader: '@svgr/webpack',
-      options: {
-        babel: false,
-        icon: true,
-      },
+    '5a53': function(e, t, n) {
+      'use strict';
+      n.r(t);
+      var a = n('cDcd'),
+        l = n.n(a),
+        c = (n('dEAq'), n('g5U0'), n('ekZX')),
+        r =
+          (n('ltCa'),
+          n('Bjia'),
+          l.a.memo(n('JjdP').default['scriptUrl-icon-aeps-demo'].component));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              n('JjdP').default['scriptUrl-icon-aeps-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
     },
-  ],
-}
-`,lang:"js"}),e.a.createElement(a.a,{code:`
-import Icon from '@ant-design/icons';
-import MessageSvg from 'path/to/message.svg'; // path to your '*.svg' file.
-// in create-react-app:
-// import { ReactComponent as MessageSvg } from 'path/to/message.svg';
-
-ReactDOM.render(<Icon component={MessageSvg} />, mountNode);
-`,lang:"jsx"}),e.a.createElement("p",null,e.a.createElement("code",null,"Icon")," \u4E2D\u7684 ",e.a.createElement("code",null,"component")," \u7EC4\u4EF6\u7684\u63A5\u53D7\u7684\u5C5E\u6027\u5982\u4E0B\uFF1A"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u5B57\u6BB5"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u53EA\u8BFB\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"className"),e.a.createElement("td",null,"\u8BA1\u7B97\u540E\u7684 ",e.a.createElement("code",null,"svg")," \u7C7B\u540D"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"fill"),e.a.createElement("td",null,e.a.createElement("code",null,"svg")," \u5143\u7D20\u586B\u5145\u7684\u989C\u8272"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"currentColor")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"height"),e.a.createElement("td",null,e.a.createElement("code",null,"svg")," \u5143\u7D20\u9AD8\u5EA6"),e.a.createElement("td",null,"string | number"),e.a.createElement("td",null,e.a.createElement("code",null,"1em")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"style"),e.a.createElement("td",null,"\u8BA1\u7B97\u540E\u7684 ",e.a.createElement("code",null,"svg")," \u5143\u7D20\u6837\u5F0F"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"width"),e.a.createElement("td",null,e.a.createElement("code",null,"svg")," \u5143\u7D20\u5BBD\u5EA6"),e.a.createElement("td",null,"string | number"),e.a.createElement("td",null,e.a.createElement("code",null,"1em")),e.a.createElement("td",null))))))}},aqGt:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),u=t("dEAq"),d=t.n(u),m=t("g5U0"),r=t("ltCa"),a=t("0zqC");const c=e.a.memo(t("JjdP").default["two-tone-icon-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["two-tone-icon-aeps-demo"].previewerProps,e.a.createElement(c,null))))}},g5U0:function(E,n,t){"use strict";var l=t("kPKH"),e=t("h9md"),u=t.n(e);n.a=l.a},jYLM:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),u=t("dEAq"),d=t.n(u),m=t("g5U0"),r=t("ltCa"),a=t("0zqC");const c=e.a.memo(t("JjdP").default["iconfont-icon-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["iconfont-icon-aeps-demo"].previewerProps,e.a.createElement(c,null))))}},ltCa:function(E,n,t){"use strict";var l=t("BMrR"),e=t("7xIR"),u=t.n(e);n.a=l.a},nlbs:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),u=t("dEAq"),d=t.n(u),m=t("g5U0"),r=t("ltCa"),a=t("0zqC"),c=t("ZpkN");const o=e.a.memo(t("JjdP").default["custom-icon-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["custom-icon-aeps-demo"].previewerProps,e.a.createElement(o,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(c.a,{code:`.custom-icons-list > .anticon {
-  margin-right: 6px;
-}
-.ant-row-rtl .custom-icons-list > .anticon {
-  margin-right: 0;
-  margin-left: 6px;
-}
-`,lang:"css"}))))}},yiHT:function(E,n,t){"use strict";t.r(n);var l=t("cDcd"),e=t.n(l),u=t("dEAq"),d=t.n(u),m=t("g5U0"),r=t("ltCa"),a=t("0zqC");const c=e.a.memo(t("JjdP").default["basic-icon-aeps-demo"].component);n.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(a.default,t("JjdP").default["basic-icon-aeps-demo"].previewerProps,e.a.createElement(c,null))))}}}]);
+    '6T96': function(e, t, n) {
+      'use strict';
+      n.r(t);
+      var a = n('cDcd'),
+        l = n.n(a),
+        c = n('dEAq'),
+        r = (n('g5U0'), n('ekZX'), n('ltCa'), n('Bjia'));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'p',
+              null,
+              '\u8bed\u4e49\u5316\u7684\u77e2\u91cf\u56fe\u5f62\u3002\u4f7f\u7528\u56fe\u6807\u7ec4\u4ef6\uff0c\u4f60\u9700\u8981\u5b89\u88c5 ',
+              l.a.createElement('code', null, '@ant-design/icons'),
+              ' \u56fe\u6807\u7ec4\u4ef6\u5305\uff1a',
+            ),
+            l.a.createElement(r['a'], {
+              code: '\nnpm install --save @ant-design/icons\n',
+              lang: 'bash',
+            }),
+            l.a.createElement(
+              'h2',
+              { id: '\u8bbe\u8ba1\u5e08\u4e13\u5c5e' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u8bbe\u8ba1\u5e08\u4e13\u5c5e',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u8bbe\u8ba1\u5e08\u4e13\u5c5e',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5b89\u88c5 ',
+              l.a.createElement(
+                c['Link'],
+                { to: 'https://kitchen.alipay.com/' },
+                'Kitchen Sketch \u63d2\u4ef6 \ud83d\udc8e',
+              ),
+              '\uff0c\u5c31\u53ef\u4ee5\u4e00\u952e\u62d6\u62fd\u4f7f\u7528 Ant Design \u548c Iconfont \u7684\u6d77\u91cf\u56fe\u6807\uff0c\u8fd8\u53ef\u4ee5\u5173\u8054\u81ea\u6709\u9879\u76ee\u3002',
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u56fe\u6807\u5217\u8868' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u56fe\u6807\u5217\u8868',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u56fe\u6807\u5217\u8868',
+            ),
+            l.a.createElement(r['a'], {
+              code:
+                "\\_react\nimport IconDisplay from 'site/theme/template/IconDisplay';\nReactDOM.render(<IconDisplay />, mountNode);\n",
+              lang: '_',
+            }),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, n) {
+      'use strict';
+      var a = n('0Owb'),
+        l = n('PpiC'),
+        c = n('cDcd'),
+        r = n.n(c),
+        m = n('ZpkN');
+      t['a'] = r.a.forwardRef((e, t) => {
+        var n = e.children,
+          c = Object(l['default'])(e, ['children']);
+        return r.a.createElement(
+          m['a'],
+          Object(a['default'])({}, c, { forwardedRef: t }),
+          r.a.createElement(r.a.Fragment, null, n),
+        );
+      });
+    },
+    IkOR: function(e, t, n) {
+      'use strict';
+      n.r(t);
+      var a = n('cDcd'),
+        l = n.n(a),
+        c = n('dEAq'),
+        r = (n('g5U0'), n('ekZX'), n('ltCa'), n('Bjia'));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: 'api' },
+              l.a.createElement(
+                c['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u4ece 4.0 \u5f00\u59cb\uff0cantd \u4e0d\u518d\u5185\u7f6e Icon \u7ec4\u4ef6\uff0c\u8bf7\u4f7f\u7528\u72ec\u7acb\u7684\u5305 ',
+              l.a.createElement('code', null, '@ant-design/icons'),
+              '\u3002',
+            ),
+            l.a.createElement(
+              'h3',
+              { id: '\u901a\u7528\u56fe\u6807' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u901a\u7528\u56fe\u6807',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u901a\u7528\u56fe\u6807',
+            ),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  l.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'className'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u56fe\u6807\u7684\u6837\u5f0f\u540d',
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'rotate'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u56fe\u6807\u65cb\u8f6c\u89d2\u5ea6\uff08IE9 \u65e0\u6548\uff09',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'spin'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u6709\u65cb\u8f6c\u52a8\u753b',
+                  ),
+                  l.a.createElement('td', null, 'boolean'),
+                  l.a.createElement('td', null, 'false'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'style'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u56fe\u6807\u7684\u6837\u5f0f\uff0c\u4f8b\u5982 ',
+                    l.a.createElement('code', null, 'fontSize'),
+                    ' \u548c ',
+                    l.a.createElement('code', null, 'color'),
+                  ),
+                  l.a.createElement('td', null, 'CSSProperties'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'twoToneColor'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u4ec5\u9002\u7528\u53cc\u8272\u56fe\u6807\u3002\u8bbe\u7f6e\u53cc\u8272\u56fe\u6807\u7684\u4e3b\u8981\u989c\u8272',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'string (\u5341\u516d\u8fdb\u5236\u989c\u8272)',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5176\u4e2d\u6211\u4eec\u63d0\u4f9b\u4e86\u4e09\u79cd\u4e3b\u9898\u7684\u56fe\u6807\uff0c\u4e0d\u540c\u4e3b\u9898\u7684 Icon \u7ec4\u4ef6\u540d\u4e3a\u56fe\u6807\u540d\u52a0\u4e3b\u9898\u505a\u4e3a\u540e\u7f00\u3002',
+            ),
+            l.a.createElement(r['a'], {
+              code:
+                '\nimport { StarOutlined, StarFilled, StarTwoTone } from \'@ant-design/icons\';\n\n<StarOutlined />\n<StarFilled />\n<StarTwoTone twoToneColor="#eb2f96" />\n',
+              lang: 'jsx',
+            }),
+            l.a.createElement(
+              'h3',
+              { id: '\u81ea\u5b9a\u4e49-icon' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u81ea\u5b9a\u4e49-icon',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u81ea\u5b9a\u4e49 Icon',
+            ),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  l.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'component'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u63a7\u5236\u5982\u4f55\u6e32\u67d3\u56fe\u6807\uff0c\u901a\u5e38\u662f\u4e00\u4e2a\u6e32\u67d3\u6839\u6807\u7b7e\u4e3a ',
+                    l.a.createElement('code', null, '<svg>'),
+                    ' \u7684 React \u7ec4\u4ef6',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    'ComponentType<CustomIconComponentProps>',
+                  ),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'rotate'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u56fe\u6807\u65cb\u8f6c\u89d2\u5ea6\uff08IE9 \u65e0\u6548\uff09',
+                  ),
+                  l.a.createElement('td', null, 'number'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'spin'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u6709\u65cb\u8f6c\u52a8\u753b',
+                  ),
+                  l.a.createElement('td', null, 'boolean'),
+                  l.a.createElement('td', null, 'false'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'style'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u56fe\u6807\u7684\u6837\u5f0f\uff0c\u4f8b\u5982 ',
+                    l.a.createElement('code', null, 'fontSize'),
+                    ' \u548c ',
+                    l.a.createElement('code', null, 'color'),
+                  ),
+                  l.a.createElement('td', null, 'CSSProperties'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'h3',
+              { id: '\u5173\u4e8e-svg-\u56fe\u6807' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u5173\u4e8e-svg-\u56fe\u6807',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u5173\u4e8e SVG \u56fe\u6807',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5728 ',
+              l.a.createElement('code', null, '3.9.0'),
+              ' \u4e4b\u540e\uff0c\u6211\u4eec\u4f7f\u7528\u4e86 SVG \u56fe\u6807\u66ff\u6362\u4e86\u539f\u5148\u7684 font \u56fe\u6807\uff0c\u4ece\u800c\u5e26\u6765\u4e86\u4ee5\u4e0b\u4f18\u52bf\uff1a',
+            ),
+            l.a.createElement(
+              'ul',
+              null,
+              l.a.createElement(
+                'li',
+                null,
+                '\u5b8c\u5168\u79bb\u7ebf\u5316\u4f7f\u7528\uff0c\u4e0d\u9700\u8981\u4ece CDN \u4e0b\u8f7d\u5b57\u4f53\u6587\u4ef6\uff0c\u56fe\u6807\u4e0d\u4f1a\u56e0\u4e3a\u7f51\u7edc\u95ee\u9898\u5448\u73b0\u65b9\u5757\uff0c\u4e5f\u65e0\u9700\u5b57\u4f53\u6587\u4ef6\u672c\u5730\u90e8\u7f72\u3002',
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                '\u5728\u4f4e\u7aef\u8bbe\u5907\u4e0a SVG \u6709\u66f4\u597d\u7684\u6e05\u6670\u5ea6\u3002',
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                '\u652f\u6301\u591a\u8272\u56fe\u6807\u3002',
+              ),
+              l.a.createElement(
+                'li',
+                null,
+                '\u5bf9\u4e8e\u5185\u5efa\u56fe\u6807\u7684\u66f4\u6362\u53ef\u4ee5\u63d0\u4f9b\u66f4\u591a API\uff0c\u800c\u4e0d\u9700\u8981\u8fdb\u884c\u6837\u5f0f\u8986\u76d6\u3002',
+              ),
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u66f4\u591a\u8ba8\u8bba\u53ef\u53c2\u8003\uff1a',
+              l.a.createElement(
+                c['Link'],
+                { to: 'https://github.com/ant-design/ant-design/issues/10353' },
+                '#10353',
+              ),
+              '\u3002',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u6240\u6709\u7684\u56fe\u6807\u90fd\u4f1a\u4ee5 ',
+              l.a.createElement('code', null, '<svg>'),
+              ' \u6807\u7b7e\u6e32\u67d3\uff0c\u53ef\u4ee5\u4f7f\u7528 ',
+              l.a.createElement('code', null, 'style'),
+              ' \u548c ',
+              l.a.createElement('code', null, 'className'),
+              ' \u8bbe\u7f6e\u56fe\u6807\u7684\u5927\u5c0f\u548c\u5355\u8272\u56fe\u6807\u7684\u989c\u8272\u3002\u4f8b\u5982\uff1a',
+            ),
+            l.a.createElement(r['a'], {
+              code:
+                "\nimport { MessageOutlined } from '@ant-design/icons';\n\n<MessageOutlined style={{ fontSize: '16px', color: '#08c' }} />;\n",
+              lang: 'jsx',
+            }),
+            l.a.createElement(
+              'h3',
+              { id: '\u53cc\u8272\u56fe\u6807\u4e3b\u8272' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u53cc\u8272\u56fe\u6807\u4e3b\u8272',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u53cc\u8272\u56fe\u6807\u4e3b\u8272',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5bf9\u4e8e\u53cc\u8272\u56fe\u6807\uff0c\u53ef\u4ee5\u901a\u8fc7\u4f7f\u7528 ',
+              l.a.createElement('code', null, 'getTwoToneColor()'),
+              ' \u548c ',
+              l.a.createElement('code', null, 'setTwoToneColor(colorString)'),
+              ' \u6765\u5168\u5c40\u8bbe\u7f6e\u56fe\u6807\u4e3b\u8272\u3002',
+            ),
+            l.a.createElement(r['a'], {
+              code:
+                "\nimport { getTwoToneColor, setTwoToneColor } from '@ant-design/icons';\n\nsetTwoToneColor('#eb2f96');\ngetTwoToneColor(); // #eb2f96\n",
+              lang: 'jsx',
+            }),
+            l.a.createElement(
+              'h3',
+              { id: '\u81ea\u5b9a\u4e49-font-\u56fe\u6807' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u81ea\u5b9a\u4e49-font-\u56fe\u6807',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u81ea\u5b9a\u4e49 font \u56fe\u6807',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5728 ',
+              l.a.createElement('code', null, '3.9.0'),
+              ' \u4e4b\u540e\uff0c\u6211\u4eec\u63d0\u4f9b\u4e86\u4e00\u4e2a ',
+              l.a.createElement('code', null, 'createFromIconfontCN'),
+              ' \u65b9\u6cd5\uff0c\u65b9\u4fbf\u5f00\u53d1\u8005\u8c03\u7528\u5728 ',
+              l.a.createElement(
+                c['Link'],
+                { to: 'http://iconfont.cn/' },
+                'iconfont.cn',
+              ),
+              ' \u4e0a\u81ea\u884c\u7ba1\u7406\u7684\u56fe\u6807\u3002',
+            ),
+            l.a.createElement(r['a'], {
+              code:
+                "\nimport { createFromIconfontCN } from '@ant-design/icons';\n\nconst MyIcon = createFromIconfontCN({\n  scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js', // \u5728 iconfont.cn \u4e0a\u751f\u6210\n});\n\nReactDOM.render(<MyIcon type=\"icon-example\" />, mountedNode);\n",
+              lang: 'js',
+            }),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5176\u672c\u8d28\u4e0a\u662f\u521b\u5efa\u4e86\u4e00\u4e2a\u4f7f\u7528 ',
+              l.a.createElement('code', null, '<use>'),
+              ' \u6807\u7b7e\u6765\u6e32\u67d3\u56fe\u6807\u7684\u7ec4\u4ef6\u3002',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              'options \u7684\u914d\u7f6e\u9879\u5982\u4e0b\uff1a',
+            ),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  l.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'extraCommonProps'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u7ed9\u6240\u6709\u7684 ',
+                    l.a.createElement('code', null, 'svg'),
+                    ' \u56fe\u6807 ',
+                    l.a.createElement('code', null, '<Icon />'),
+                    ' \u7ec4\u4ef6\u8bbe\u7f6e\u989d\u5916\u7684\u5c5e\u6027',
+                  ),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '{',
+                    ' [key: string]: any ',
+                    '}',
+                  ),
+                  l.a.createElement('td', null, '{', '}'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'scriptUrl'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement(
+                      c['Link'],
+                      { to: 'http://iconfont.cn/' },
+                      'iconfont.cn',
+                    ),
+                    ' \u9879\u76ee\u5728\u7ebf\u751f\u6210\u7684 js \u5730\u5740\uff0c',
+                    l.a.createElement('code', null, '@ant-design/icons@4.1.0'),
+                    ' \u4e4b\u540e\u652f\u6301 ',
+                    l.a.createElement('code', null, 'string[]'),
+                    ' \u7c7b\u578b',
+                  ),
+                  l.a.createElement('td', null, 'string | string[]'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5728 ',
+              l.a.createElement('code', null, 'scriptUrl'),
+              ' \u90fd\u8bbe\u7f6e\u6709\u6548\u7684\u60c5\u51b5\u4e0b\uff0c\u7ec4\u4ef6\u5728\u6e32\u67d3\u524d\u4f1a\u81ea\u52a8\u5f15\u5165 ',
+              l.a.createElement(
+                c['Link'],
+                { to: 'http://iconfont.cn/' },
+                'iconfont.cn',
+              ),
+              ' \u9879\u76ee\u4e2d\u7684\u56fe\u6807\u7b26\u53f7\u96c6\uff0c\u65e0\u9700\u624b\u52a8\u5f15\u5165\u3002',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u89c1 ',
+              l.a.createElement(
+                c['Link'],
+                {
+                  to:
+                    'http://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code',
+                },
+                'iconfont.cn \u4f7f\u7528\u5e2e\u52a9',
+              ),
+              ' \u67e5\u770b\u5982\u4f55\u751f\u6210 js \u5730\u5740\u3002',
+            ),
+            l.a.createElement(
+              'h3',
+              { id: '\u81ea\u5b9a\u4e49-svg-\u56fe\u6807' },
+              l.a.createElement(
+                c['AnchorLink'],
+                {
+                  to: '#\u81ea\u5b9a\u4e49-svg-\u56fe\u6807',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u81ea\u5b9a\u4e49 SVG \u56fe\u6807',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5982\u679c\u4f7f\u7528 ',
+              l.a.createElement('code', null, 'webpack'),
+              '\uff0c\u53ef\u4ee5\u901a\u8fc7\u914d\u7f6e ',
+              l.a.createElement(
+                c['Link'],
+                { to: 'https://www.npmjs.com/package/@svgr/webpack' },
+                '@svgr/webpack',
+              ),
+              ' \u6765\u5c06 ',
+              l.a.createElement('code', null, 'svg'),
+              ' \u56fe\u6807\u4f5c\u4e3a ',
+              l.a.createElement('code', null, 'React'),
+              ' \u7ec4\u4ef6\u5bfc\u5165\u3002',
+              l.a.createElement('code', null, '@svgr/webpack'),
+              ' \u7684 ',
+              l.a.createElement('code', null, 'options'),
+              ' \u9009\u9879\u8bf7\u53c2\u9605 ',
+              l.a.createElement(
+                c['Link'],
+                { to: 'https://github.com/smooth-code/svgr#options' },
+                'svgr \u6587\u6863',
+              ),
+              '\u3002',
+            ),
+            l.a.createElement(r['a'], {
+              code:
+                "\n// webpack.config.js\n{\n  test: /\\.svg(\\?v=\\d+\\.\\d+\\.\\d+)?$/,\n  use: [\n    {\n      loader: 'babel-loader',\n    },\n    {\n      loader: '@svgr/webpack',\n      options: {\n        babel: false,\n        icon: true,\n      },\n    },\n  ],\n}\n",
+              lang: 'js',
+            }),
+            l.a.createElement(r['a'], {
+              code:
+                "\nimport Icon from '@ant-design/icons';\nimport MessageSvg from 'path/to/message.svg'; // path to your '*.svg' file.\n// in create-react-app:\n// import { ReactComponent as MessageSvg } from 'path/to/message.svg';\n\nReactDOM.render(<Icon component={MessageSvg} />, mountNode);\n",
+              lang: 'jsx',
+            }),
+            l.a.createElement(
+              'p',
+              null,
+              l.a.createElement('code', null, 'Icon'),
+              ' \u4e2d\u7684 ',
+              l.a.createElement('code', null, 'component'),
+              ' \u7ec4\u4ef6\u7684\u63a5\u53d7\u7684\u5c5e\u6027\u5982\u4e0b\uff1a',
+            ),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u5b57\u6bb5'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u53ea\u8bfb\u503c'),
+                  l.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'className'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u8ba1\u7b97\u540e\u7684 ',
+                    l.a.createElement('code', null, 'svg'),
+                    ' \u7c7b\u540d',
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'fill'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'svg'),
+                    ' \u5143\u7d20\u586b\u5145\u7684\u989c\u8272',
+                  ),
+                  l.a.createElement('td', null, 'string'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'currentColor'),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'height'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'svg'),
+                    ' \u5143\u7d20\u9ad8\u5ea6',
+                  ),
+                  l.a.createElement('td', null, 'string | number'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, '1em'),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'style'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    '\u8ba1\u7b97\u540e\u7684 ',
+                    l.a.createElement('code', null, 'svg'),
+                    ' \u5143\u7d20\u6837\u5f0f',
+                  ),
+                  l.a.createElement('td', null, 'CSSProperties'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'width'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, 'svg'),
+                    ' \u5143\u7d20\u5bbd\u5ea6',
+                  ),
+                  l.a.createElement('td', null, 'string | number'),
+                  l.a.createElement(
+                    'td',
+                    null,
+                    l.a.createElement('code', null, '1em'),
+                  ),
+                  l.a.createElement('td', null),
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    aqGt: function(e, t, n) {
+      'use strict';
+      n.r(t);
+      var a = n('cDcd'),
+        l = n.n(a),
+        c = (n('dEAq'), n('g5U0'), n('ekZX')),
+        r =
+          (n('ltCa'),
+          n('Bjia'),
+          l.a.memo(n('JjdP').default['two-tone-icon-aeps-demo'].component));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              n('JjdP').default['two-tone-icon-aeps-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, n) {
+      'use strict';
+      var a = n('kPKH');
+      n('h9md');
+      t['a'] = a['a'];
+    },
+    jYLM: function(e, t, n) {
+      'use strict';
+      n.r(t);
+      var a = n('cDcd'),
+        l = n.n(a),
+        c = (n('dEAq'), n('g5U0'), n('ekZX')),
+        r =
+          (n('ltCa'),
+          n('Bjia'),
+          l.a.memo(n('JjdP').default['iconfont-icon-aeps-demo'].component));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              n('JjdP').default['iconfont-icon-aeps-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, t, n) {
+      'use strict';
+      var a = n('BMrR');
+      n('7xIR');
+      t['a'] = a['a'];
+    },
+    nlbs: function(e, t, n) {
+      'use strict';
+      n.r(t);
+      var a = n('cDcd'),
+        l = n.n(a),
+        c = (n('dEAq'), n('g5U0'), n('ekZX')),
+        r = (n('ltCa'), n('Bjia')),
+        m = l.a.memo(n('JjdP').default['custom-icon-aeps-demo'].component);
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              n('JjdP').default['custom-icon-aeps-demo'].previewerProps,
+              l.a.createElement(m, null),
+            ),
+            l.a.createElement(
+              'div',
+              { className: 'markdown' },
+              l.a.createElement(r['a'], {
+                code:
+                  '.custom-icons-list > .anticon {\n  margin-right: 6px;\n}\n.ant-row-rtl .custom-icons-list > .anticon {\n  margin-right: 0;\n  margin-left: 6px;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    yiHT: function(e, t, n) {
+      'use strict';
+      n.r(t);
+      var a = n('cDcd'),
+        l = n.n(a),
+        c = (n('dEAq'), n('g5U0'), n('ekZX')),
+        r =
+          (n('ltCa'),
+          n('Bjia'),
+          l.a.memo(n('JjdP').default['basic-icon-aeps-demo'].component));
+      t['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              c['default'],
+              n('JjdP').default['basic-icon-aeps-demo'].previewerProps,
+              l.a.createElement(r, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

@@ -13,7 +13,7 @@ import { ConfigProvider, Form, Input, Button, Checkbox } from '@abiz/rc-jxc';
 import { UserOutlined, LockOutlined } from '@abiz/icons-jxc';
 
 const NormalLoginForm = () => {
-  const onFinish = values => {
+  const onFinish = (values: any) => {
     console.log('Received values of form: ', values);
   };
 

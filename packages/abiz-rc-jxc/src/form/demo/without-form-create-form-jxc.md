@@ -11,7 +11,11 @@ order: 19
 import React, { useState } from 'react';
 import { ConfigProvider, Form, InputNumber } from '@abiz/rc-jxc';
 
-function validatePrimeNumber(number) {
+type ValidateStatus = Parameters<typeof Form.Item>[0]['validateStatus'];
+
+function validatePrimeNumber(
+  number: number,
+): { validateStatus: ValidateStatus; errorMsg: string | null } {
   if (number === 11) {
     return {
       validateStatus: 'success',
@@ -30,14 +34,18 @@ const formItemLayout = {
 };
 
 const RawForm = () => {
-  const [number, setNumber] = useState({
+  const [number, setNumber] = useState<{
+    value: number;
+    validateStatus?: ValidateStatus;
+    errorMsg?: string | null;
+  }>({
     value: 11,
   });
 
   const tips =
     'A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself.';
 
-  const onNumberChange = value => {
+  const onNumberChange = (value: number) => {
     setNumber({
       ...validatePrimeNumber(value),
       value,

@@ -1,9 +1,1128 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[68],{"+Rhz":function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa");u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u7A7F\u68AD\u6846"},e.a.createElement(a.AnchorLink,{to:"#\u7A7F\u68AD\u6846","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u7A7F\u68AD\u6846"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("Fi6C").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(a.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(r.a,{gutter:"8"},e.a.createElement(d.a,{span:24},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("lncX").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("zmQ3").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("ISqS").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("e3al").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("HuG1").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("4M0L").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("jwGr").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Lnbq").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("joWM").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("iwEM").default()}),e.a.createElement("div",null))))}},"4M0L":function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["large-data-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["large-data-transfer-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},Fi6C:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa");u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u53CC\u680F\u7A7F\u68AD\u9009\u62E9\u6846\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(a.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u9700\u8981\u5728\u591A\u4E2A\u53EF\u9009\u9879\u4E2D\u8FDB\u884C\u591A\u9009\u65F6\u3002"),e.a.createElement("li",null,"\u6BD4\u8D77 Select \u548C TreeSelect\uFF0C\u7A7F\u68AD\u6846\u5360\u636E\u66F4\u5927\u7684\u7A7A\u95F4\uFF0C\u53EF\u4EE5\u5C55\u793A\u53EF\u9009\u9879\u7684\u66F4\u591A\u4FE1\u606F\u3002")),e.a.createElement("p",null,"\u7A7F\u68AD\u9009\u62E9\u6846\u7528\u76F4\u89C2\u7684\u65B9\u5F0F\u5728\u4E24\u680F\u4E2D\u79FB\u52A8\u5143\u7D20\uFF0C\u5B8C\u6210\u9009\u62E9\u884C\u4E3A\u3002"),e.a.createElement("p",null,"\u9009\u62E9\u4E00\u4E2A\u6216\u4EE5\u4E0A\u7684\u9009\u9879\u540E\uFF0C\u70B9\u51FB\u5BF9\u5E94\u7684\u65B9\u5411\u952E\uFF0C\u53EF\u4EE5\u628A\u9009\u4E2D\u7684\u9009\u9879\u79FB\u52A8\u5230\u53E6\u4E00\u680F\u3002\u5176\u4E2D\uFF0C\u5DE6\u8FB9\u4E00\u680F\u4E3A ",e.a.createElement("code",null,"source"),"\uFF0C\u53F3\u8FB9\u4E00\u680F\u4E3A ",e.a.createElement("code",null,"target"),"\uFF0CAPI \u7684\u8BBE\u8BA1\u4E5F\u53CD\u6620\u4E86\u8FD9\u4E24\u4E2A\u6982\u5FF5\u3002")))}},HuG1:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["custom-item-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["custom-item-transfer-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},ISqS:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["search-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["search-transfer-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},Lnbq:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["tree-transfer-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["tree-transfer-transfer-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},e3al:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["advanced-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["advanced-transfer-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},g5U0:function(m,u,t){"use strict";var l=t("kPKH"),e=t("h9md"),a=t.n(e);u.a=l.a},iwEM:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("ZpkN");u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(a.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("h3",{id:"transfer"},e.a.createElement(a.AnchorLink,{to:"#transfer","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Transfer"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"dataSource"),e.a.createElement("td",null,"\u6570\u636E\u6E90\uFF0C\u5176\u4E2D\u7684\u6570\u636E\u5C06\u4F1A\u88AB\u6E32\u67D3\u5230\u5DE6\u8FB9\u4E00\u680F\u4E2D\uFF0C",e.a.createElement("code",null,"targetKeys")," \u4E2D\u6307\u5B9A\u7684\u9664\u5916"),e.a.createElement("td",null,e.a.createElement(a.Link,{to:"https://git.io/vMM64"},"RecordType extends TransferItem = TransferItem"),"[]"),e.a.createElement("td",null,"[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"disabled"),e.a.createElement("td",null,"\u662F\u5426\u7981\u7528"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"filterOption"),e.a.createElement("td",null,"\u63A5\u6536 ",e.a.createElement("code",null,"inputValue")," ",e.a.createElement("code",null,"option")," \u4E24\u4E2A\u53C2\u6570\uFF0C\u5F53 ",e.a.createElement("code",null,"option")," \u7B26\u5408\u7B5B\u9009\u6761\u4EF6\u65F6\uFF0C\u5E94\u8FD4\u56DE true\uFF0C\u53CD\u4E4B\u5219\u8FD4\u56DE false"),e.a.createElement("td",null,"(inputValue, option): boolean"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"footer"),e.a.createElement("td",null,"\u5E95\u90E8\u6E32\u67D3\u51FD\u6570"),e.a.createElement("td",null,"(props) => ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"listStyle"),e.a.createElement("td",null,"\u4E24\u4E2A\u7A7F\u68AD\u6846\u7684\u81EA\u5B9A\u4E49\u6837\u5F0F"),e.a.createElement("td",null,"object|(","{","direction: ",e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"right"),"}",") => object"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"locale"),e.a.createElement("td",null,"\u5404\u79CD\u8BED\u8A00"),e.a.createElement("td",null,"{"," itemUnit: string; itemsUnit: string; searchPlaceholder: string; notFoundContent: ReactNode; ","}"),e.a.createElement("td",null,"{"," itemUnit: ",e.a.createElement("code",null,"\u9879"),", itemsUnit: ",e.a.createElement("code",null,"\u9879"),", searchPlaceholder: ",e.a.createElement("code",null,"\u8BF7\u8F93\u5165\u641C\u7D22\u5185\u5BB9")," ","}"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"oneWay"),e.a.createElement("td",null,"\u5C55\u793A\u4E3A\u5355\u5411\u6837\u5F0F"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"4.3.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"operations"),e.a.createElement("td",null,"\u64CD\u4F5C\u6587\u6848\u96C6\u5408\uFF0C\u987A\u5E8F\u4ECE\u4E0A\u81F3\u4E0B"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"[",e.a.createElement("code",null,">"),", ",e.a.createElement("code",null,"<"),"]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"pagination"),e.a.createElement("td",null,"\u4F7F\u7528\u5206\u9875\u6837\u5F0F\uFF0C\u81EA\u5B9A\u4E49\u6E32\u67D3\u5217\u8868\u4E0B\u65E0\u6548"),e.a.createElement("td",null,"boolean | ","{"," pageSize: number ","}"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"4.3.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"render"),e.a.createElement("td",null,"\u6BCF\u884C\u6570\u636E\u6E32\u67D3\u51FD\u6570\uFF0C\u8BE5\u51FD\u6570\u7684\u5165\u53C2\u4E3A ",e.a.createElement("code",null,"dataSource")," \u4E2D\u7684\u9879\uFF0C\u8FD4\u56DE\u503C\u4E3A ReactElement\u3002\u6216\u8005\u8FD4\u56DE\u4E00\u4E2A\u666E\u901A\u5BF9\u8C61\uFF0C\u5176\u4E2D ",e.a.createElement("code",null,"label")," \u5B57\u6BB5\u4E3A ReactElement\uFF0C",e.a.createElement("code",null,"value")," \u5B57\u6BB5\u4E3A title"),e.a.createElement("td",null,"(record) => ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"selectAllLabels"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u9876\u90E8\u591A\u9009\u6846\u6807\u9898\u7684\u96C6\u5408"),e.a.createElement("td",null,"(ReactNode | (info: ","{"," selectedCount: number, totalCount: number ","}",") => ReactNode)[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"selectedKeys"),e.a.createElement("td",null,"\u8BBE\u7F6E\u54EA\u4E9B\u9879\u5E94\u8BE5\u88AB\u9009\u4E2D"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"showSearch"),e.a.createElement("td",null,"\u662F\u5426\u663E\u793A\u641C\u7D22\u6846"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"showSelectAll"),e.a.createElement("td",null,"\u662F\u5426\u5C55\u793A\u5168\u9009\u52FE\u9009\u6846"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"true"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"targetKeys"),e.a.createElement("td",null,"\u663E\u793A\u5728\u53F3\u4FA7\u6846\u6570\u636E\u7684 key \u96C6\u5408"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null,"[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"titles"),e.a.createElement("td",null,"\u6807\u9898\u96C6\u5408\uFF0C\u987A\u5E8F\u4ECE\u5DE6\u81F3\u53F3"),e.a.createElement("td",null,"ReactNode[]"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onChange"),e.a.createElement("td",null,"\u9009\u9879\u5728\u4E24\u680F\u4E4B\u95F4\u8F6C\u79FB\u65F6\u7684\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"(targetKeys, direction, moveKeys): void"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onScroll"),e.a.createElement("td",null,"\u9009\u9879\u5217\u8868\u6EDA\u52A8\u65F6\u7684\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"(direction, event): void"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onSearch"),e.a.createElement("td",null,"\u641C\u7D22\u6846\u5185\u5BB9\u65F6\u6539\u53D8\u65F6\u7684\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"(direction: ",e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"right"),", value: string): void"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onSelectChange"),e.a.createElement("td",null,"\u9009\u4E2D\u9879\u53D1\u751F\u6539\u53D8\u65F6\u7684\u56DE\u8C03\u51FD\u6570"),e.a.createElement("td",null,"(sourceSelectedKeys, targetSelectedKeys): void"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h3",{id:"render-props"},e.a.createElement(a.AnchorLink,{to:"#render-props","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Render Props"),e.a.createElement("p",null,"Transfer \u652F\u6301\u63A5\u6536 ",e.a.createElement("code",null,"children")," \u81EA\u5B9A\u4E49\u6E32\u67D3\u5217\u8868\uFF0C\u5E76\u8FD4\u56DE\u4EE5\u4E0B\u53C2\u6570\uFF1A"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"direction"),e.a.createElement("td",null,"\u6E32\u67D3\u5217\u8868\u7684\u65B9\u5411"),e.a.createElement("td",null,e.a.createElement("code",null,"left")," | ",e.a.createElement("code",null,"right")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"disabled"),e.a.createElement("td",null,"\u662F\u5426\u7981\u7528\u5217\u8868"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"filteredItems"),e.a.createElement("td",null,"\u8FC7\u6EE4\u540E\u7684\u6570\u636E"),e.a.createElement("td",null,"RecordType[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"selectedKeys"),e.a.createElement("td",null,"\u9009\u4E2D\u7684\u6761\u76EE"),e.a.createElement("td",null,"string[]"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onItemSelect"),e.a.createElement("td",null,"\u52FE\u9009\u6761\u76EE"),e.a.createElement("td",null,"(key: string, selected: boolean)"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onItemSelectAll"),e.a.createElement("td",null,"\u52FE\u9009\u4E00\u7EC4\u6761\u76EE"),e.a.createElement("td",null,"(keys: string[], selected: boolean)"),e.a.createElement("td",null)))),e.a.createElement("h4",{id:"\u53C2\u8003\u793A\u4F8B"},e.a.createElement(a.AnchorLink,{to:"#\u53C2\u8003\u793A\u4F8B","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u53C2\u8003\u793A\u4F8B"),e.a.createElement(n.a,{code:`
-<Transfer {...props}>{listProps => <YourComponent {...listProps} />}</Transfer>
-`,lang:"jsx"}),e.a.createElement("h2",{id:"\u6CE8\u610F"},e.a.createElement(a.AnchorLink,{to:"#\u6CE8\u610F","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u6CE8\u610F"),e.a.createElement("p",null,"\u6309\u7167 React \u7684",e.a.createElement(a.Link,{to:"http://facebook.github.io/react/docs/lists-and-keys.html#keys"},"\u89C4\u8303"),"\uFF0C\u6240\u6709\u7684\u7EC4\u4EF6\u6570\u7EC4\u5FC5\u987B\u7ED1\u5B9A key\u3002\u5728 Transfer \u4E2D\uFF0C",e.a.createElement("code",null,"dataSource")," \u91CC\u7684\u6570\u636E\u503C\u9700\u8981\u6307\u5B9A ",e.a.createElement("code",null,"key")," \u503C\u3002\u5BF9\u4E8E ",e.a.createElement("code",null,"dataSource")," \u9ED8\u8BA4\u5C06\u6BCF\u5217\u6570\u636E\u7684 ",e.a.createElement("code",null,"key")," \u5C5E\u6027\u4F5C\u4E3A\u552F\u4E00\u7684\u6807\u8BC6\u3002"),e.a.createElement("p",null,"\u5982\u679C\u4F60\u7684\u6570\u636E\u6CA1\u6709\u8FD9\u4E2A\u5C5E\u6027\uFF0C\u52A1\u5FC5\u4F7F\u7528 ",e.a.createElement("code",null,"rowKey")," \u6765\u6307\u5B9A\u6570\u636E\u5217\u7684\u4E3B\u952E\u3002"),e.a.createElement(n.a,{code:`
-// \u6BD4\u5982\u4F60\u7684\u6570\u636E\u4E3B\u952E\u662F uid
-return <Transfer rowKey={record => record.uid} />;
-`,lang:"jsx"}),e.a.createElement("h2",{id:"faq"},e.a.createElement(a.AnchorLink,{to:"#faq","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"FAQ"),e.a.createElement("h3",{id:"\u600E\u6837\u8BA9-transfer-\u7A7F\u68AD\u6846\u5217\u8868\u652F\u6301\u5F02\u6B65\u6570\u636E\u52A0\u8F7D"},e.a.createElement(a.AnchorLink,{to:"#\u600E\u6837\u8BA9-transfer-\u7A7F\u68AD\u6846\u5217\u8868\u652F\u6301\u5F02\u6B65\u6570\u636E\u52A0\u8F7D","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u600E\u6837\u8BA9 Transfer \u7A7F\u68AD\u6846\u5217\u8868\u652F\u6301\u5F02\u6B65\u6570\u636E\u52A0\u8F7D"),e.a.createElement("p",null,"\u4E3A\u4E86\u4FDD\u6301\u9875\u7801\u540C\u6B65\uFF0C\u5728\u52FE\u9009\u65F6\u53EF\u4EE5\u4E0D\u79FB\u9664\u9009\u9879\u800C\u4EE5\u7981\u7528\u4EE3\u66FF\uFF1A",e.a.createElement(a.Link,{to:"https://codesandbox.io/s/93xeb"},"https://codesandbox.io/s/93xeb"))))}},joWM:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["custom-select-all-labels-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["custom-select-all-labels-transfer-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},jwGr:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC"),E=t("ZpkN");const s=e.a.memo(t("JjdP").default["table-transfer-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["table-transfer-transfer-aeps-demo"].previewerProps,e.a.createElement(s,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(E.a,{code:`#components-transfer-demo-table-transfer .ant-table td {
-  background: transparent;
-}
-`,lang:"css"}))))}},lncX:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["basic-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["basic-transfer-aeps-demo"].previewerProps,e.a.createElement(E,null))))}},ltCa:function(m,u,t){"use strict";var l=t("BMrR"),e=t("7xIR"),a=t.n(e);u.a=l.a},zmQ3:function(m,u,t){"use strict";t.r(u);var l=t("cDcd"),e=t.n(l),a=t("dEAq"),c=t.n(a),d=t("g5U0"),r=t("ltCa"),n=t("0zqC");const E=e.a.memo(t("JjdP").default["oneWay-transfer-aeps-demo"].component);u.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(n.default,t("JjdP").default["oneWay-transfer-aeps-demo"].previewerProps,e.a.createElement(E,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [69],
+  {
+    '+Rhz': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u7a7f\u68ad\u6846' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u7a7f\u68ad\u6846',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u7a7f\u68ad\u6846',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('Fi6C').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                c['a'],
+                { span: 24 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('lncX').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('zmQ3').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('ISqS').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('e3al').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('HuG1').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('4M0L').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('jwGr').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('Lnbq').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('joWM').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('iwEM').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    '4M0L': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['large-data-transfer-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['large-data-transfer-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        r = a('cDcd'),
+        c = a.n(r),
+        m = a('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var a = e.children,
+          r = Object(n['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(l['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, a),
+        );
+      });
+    },
+    Fi6C: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u53cc\u680f\u7a7f\u68ad\u9009\u62e9\u6846\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u9700\u8981\u5728\u591a\u4e2a\u53ef\u9009\u9879\u4e2d\u8fdb\u884c\u591a\u9009\u65f6\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u6bd4\u8d77 Select \u548c TreeSelect\uff0c\u7a7f\u68ad\u6846\u5360\u636e\u66f4\u5927\u7684\u7a7a\u95f4\uff0c\u53ef\u4ee5\u5c55\u793a\u53ef\u9009\u9879\u7684\u66f4\u591a\u4fe1\u606f\u3002',
+              ),
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u7a7f\u68ad\u9009\u62e9\u6846\u7528\u76f4\u89c2\u7684\u65b9\u5f0f\u5728\u4e24\u680f\u4e2d\u79fb\u52a8\u5143\u7d20\uff0c\u5b8c\u6210\u9009\u62e9\u884c\u4e3a\u3002',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u9009\u62e9\u4e00\u4e2a\u6216\u4ee5\u4e0a\u7684\u9009\u9879\u540e\uff0c\u70b9\u51fb\u5bf9\u5e94\u7684\u65b9\u5411\u952e\uff0c\u53ef\u4ee5\u628a\u9009\u4e2d\u7684\u9009\u9879\u79fb\u52a8\u5230\u53e6\u4e00\u680f\u3002\u5176\u4e2d\uff0c\u5de6\u8fb9\u4e00\u680f\u4e3a ',
+              n.a.createElement('code', null, 'source'),
+              '\uff0c\u53f3\u8fb9\u4e00\u680f\u4e3a ',
+              n.a.createElement('code', null, 'target'),
+              '\uff0cAPI \u7684\u8bbe\u8ba1\u4e5f\u53cd\u6620\u4e86\u8fd9\u4e24\u4e2a\u6982\u5ff5\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    HuG1: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['custom-item-transfer-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['custom-item-transfer-aeps-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ISqS: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['search-transfer-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['search-transfer-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Lnbq: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['tree-transfer-transfer-aeps-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['tree-transfer-transfer-aeps-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    e3al: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['advanced-transfer-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['advanced-transfer-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    iwEM: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = (a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia'));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'transfer' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#transfer', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Transfer',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'dataSource'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6570\u636e\u6e90\uff0c\u5176\u4e2d\u7684\u6570\u636e\u5c06\u4f1a\u88ab\u6e32\u67d3\u5230\u5de6\u8fb9\u4e00\u680f\u4e2d\uff0c',
+                    n.a.createElement('code', null, 'targetKeys'),
+                    ' \u4e2d\u6307\u5b9a\u7684\u9664\u5916',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement(
+                      r['Link'],
+                      { to: 'https://git.io/vMM64' },
+                      'RecordType extends TransferItem = TransferItem',
+                    ),
+                    '[]',
+                  ),
+                  n.a.createElement('td', null, '[]'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'disabled'),
+                  n.a.createElement('td', null, '\u662f\u5426\u7981\u7528'),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'filterOption'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u63a5\u6536 ',
+                    n.a.createElement('code', null, 'inputValue'),
+                    ' ',
+                    n.a.createElement('code', null, 'option'),
+                    ' \u4e24\u4e2a\u53c2\u6570\uff0c\u5f53 ',
+                    n.a.createElement('code', null, 'option'),
+                    ' \u7b26\u5408\u7b5b\u9009\u6761\u4ef6\u65f6\uff0c\u5e94\u8fd4\u56de true\uff0c\u53cd\u4e4b\u5219\u8fd4\u56de false',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(inputValue, option): boolean',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'footer'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5e95\u90e8\u6e32\u67d3\u51fd\u6570',
+                  ),
+                  n.a.createElement('td', null, '(props) => ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'listStyle'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4e24\u4e2a\u7a7f\u68ad\u6846\u7684\u81ea\u5b9a\u4e49\u6837\u5f0f',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'object|(',
+                    '{',
+                    'direction: ',
+                    n.a.createElement('code', null, 'left'),
+                    ' | ',
+                    n.a.createElement('code', null, 'right'),
+                    '}',
+                    ') => object',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'locale'),
+                  n.a.createElement('td', null, '\u5404\u79cd\u8bed\u8a00'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '{',
+                    ' itemUnit: string; itemsUnit: string; searchPlaceholder: string; notFoundContent: ReactNode; ',
+                    '}',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '{',
+                    ' itemUnit: ',
+                    n.a.createElement('code', null, '\u9879'),
+                    ', itemsUnit: ',
+                    n.a.createElement('code', null, '\u9879'),
+                    ', searchPlaceholder: ',
+                    n.a.createElement(
+                      'code',
+                      null,
+                      '\u8bf7\u8f93\u5165\u641c\u7d22\u5185\u5bb9',
+                    ),
+                    ' ',
+                    '}',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'oneWay'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5c55\u793a\u4e3a\u5355\u5411\u6837\u5f0f',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null, '4.3.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'operations'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u64cd\u4f5c\u6587\u6848\u96c6\u5408\uff0c\u987a\u5e8f\u4ece\u4e0a\u81f3\u4e0b',
+                  ),
+                  n.a.createElement('td', null, 'string[]'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '[',
+                    n.a.createElement('code', null, '>'),
+                    ', ',
+                    n.a.createElement('code', null, '<'),
+                    ']',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'pagination'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u4f7f\u7528\u5206\u9875\u6837\u5f0f\uff0c\u81ea\u5b9a\u4e49\u6e32\u67d3\u5217\u8868\u4e0b\u65e0\u6548',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    'boolean | ',
+                    '{',
+                    ' pageSize: number ',
+                    '}',
+                  ),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null, '4.3.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'render'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6bcf\u884c\u6570\u636e\u6e32\u67d3\u51fd\u6570\uff0c\u8be5\u51fd\u6570\u7684\u5165\u53c2\u4e3a ',
+                    n.a.createElement('code', null, 'dataSource'),
+                    ' \u4e2d\u7684\u9879\uff0c\u8fd4\u56de\u503c\u4e3a ReactElement\u3002\u6216\u8005\u8fd4\u56de\u4e00\u4e2a\u666e\u901a\u5bf9\u8c61\uff0c\u5176\u4e2d ',
+                    n.a.createElement('code', null, 'label'),
+                    ' \u5b57\u6bb5\u4e3a ReactElement\uff0c',
+                    n.a.createElement('code', null, 'value'),
+                    ' \u5b57\u6bb5\u4e3a title',
+                  ),
+                  n.a.createElement('td', null, '(record) => ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'selectAllLabels'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u9876\u90e8\u591a\u9009\u6846\u6807\u9898\u7684\u96c6\u5408',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(ReactNode | (info: ',
+                    '{',
+                    ' selectedCount: number, totalCount: number ',
+                    '}',
+                    ') => ReactNode)[]',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'selectedKeys'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u54ea\u4e9b\u9879\u5e94\u8be5\u88ab\u9009\u4e2d',
+                  ),
+                  n.a.createElement('td', null, 'string[]'),
+                  n.a.createElement('td', null, '[]'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'showSearch'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u663e\u793a\u641c\u7d22\u6846',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'showSelectAll'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u5c55\u793a\u5168\u9009\u52fe\u9009\u6846',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'true'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'targetKeys'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u663e\u793a\u5728\u53f3\u4fa7\u6846\u6570\u636e\u7684 key \u96c6\u5408',
+                  ),
+                  n.a.createElement('td', null, 'string[]'),
+                  n.a.createElement('td', null, '[]'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'titles'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6807\u9898\u96c6\u5408\uff0c\u987a\u5e8f\u4ece\u5de6\u81f3\u53f3',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode[]'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u9879\u5728\u4e24\u680f\u4e4b\u95f4\u8f6c\u79fb\u65f6\u7684\u56de\u8c03\u51fd\u6570',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(targetKeys, direction, moveKeys): void',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onScroll'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u9879\u5217\u8868\u6eda\u52a8\u65f6\u7684\u56de\u8c03\u51fd\u6570',
+                  ),
+                  n.a.createElement('td', null, '(direction, event): void'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onSearch'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u641c\u7d22\u6846\u5185\u5bb9\u65f6\u6539\u53d8\u65f6\u7684\u56de\u8c03\u51fd\u6570',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(direction: ',
+                    n.a.createElement('code', null, 'left'),
+                    ' | ',
+                    n.a.createElement('code', null, 'right'),
+                    ', value: string): void',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onSelectChange'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u4e2d\u9879\u53d1\u751f\u6539\u53d8\u65f6\u7684\u56de\u8c03\u51fd\u6570',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(sourceSelectedKeys, targetSelectedKeys): void',
+                  ),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h3',
+              { id: 'render-props' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#render-props', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Render Props',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              'Transfer \u652f\u6301\u63a5\u6536 ',
+              n.a.createElement('code', null, 'children'),
+              ' \u81ea\u5b9a\u4e49\u6e32\u67d3\u5217\u8868\uff0c\u5e76\u8fd4\u56de\u4ee5\u4e0b\u53c2\u6570\uff1a',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'direction'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6e32\u67d3\u5217\u8868\u7684\u65b9\u5411',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'left'),
+                    ' | ',
+                    n.a.createElement('code', null, 'right'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'disabled'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u662f\u5426\u7981\u7528\u5217\u8868',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'filteredItems'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8fc7\u6ee4\u540e\u7684\u6570\u636e',
+                  ),
+                  n.a.createElement('td', null, 'RecordType[]'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'selectedKeys'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u9009\u4e2d\u7684\u6761\u76ee',
+                  ),
+                  n.a.createElement('td', null, 'string[]'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onItemSelect'),
+                  n.a.createElement('td', null, '\u52fe\u9009\u6761\u76ee'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(key: string, selected: boolean)',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onItemSelectAll'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u52fe\u9009\u4e00\u7ec4\u6761\u76ee',
+                  ),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '(keys: string[], selected: boolean)',
+                  ),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h4',
+              { id: '\u53c2\u8003\u793a\u4f8b' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u53c2\u8003\u793a\u4f8b',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u53c2\u8003\u793a\u4f8b',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\n<Transfer {...props}>{listProps => <YourComponent {...listProps} />}</Transfer>\n',
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'h2',
+              { id: '\u6ce8\u610f' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#\u6ce8\u610f', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u6ce8\u610f',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u6309\u7167 React \u7684',
+              n.a.createElement(
+                r['Link'],
+                {
+                  to:
+                    'http://facebook.github.io/react/docs/lists-and-keys.html#keys',
+                },
+                '\u89c4\u8303',
+              ),
+              '\uff0c\u6240\u6709\u7684\u7ec4\u4ef6\u6570\u7ec4\u5fc5\u987b\u7ed1\u5b9a key\u3002\u5728 Transfer \u4e2d\uff0c',
+              n.a.createElement('code', null, 'dataSource'),
+              ' \u91cc\u7684\u6570\u636e\u503c\u9700\u8981\u6307\u5b9a ',
+              n.a.createElement('code', null, 'key'),
+              ' \u503c\u3002\u5bf9\u4e8e ',
+              n.a.createElement('code', null, 'dataSource'),
+              ' \u9ed8\u8ba4\u5c06\u6bcf\u5217\u6570\u636e\u7684 ',
+              n.a.createElement('code', null, 'key'),
+              ' \u5c5e\u6027\u4f5c\u4e3a\u552f\u4e00\u7684\u6807\u8bc6\u3002',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u5982\u679c\u4f60\u7684\u6570\u636e\u6ca1\u6709\u8fd9\u4e2a\u5c5e\u6027\uff0c\u52a1\u5fc5\u4f7f\u7528 ',
+              n.a.createElement('code', null, 'rowKey'),
+              ' \u6765\u6307\u5b9a\u6570\u636e\u5217\u7684\u4e3b\u952e\u3002',
+            ),
+            n.a.createElement(c['a'], {
+              code:
+                '\n// \u6bd4\u5982\u4f60\u7684\u6570\u636e\u4e3b\u952e\u662f uid\nreturn <Transfer rowKey={record => record.uid} />;\n',
+              lang: 'jsx',
+            }),
+            n.a.createElement(
+              'h2',
+              { id: 'faq' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#faq', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'FAQ',
+            ),
+            n.a.createElement(
+              'h3',
+              {
+                id:
+                  '\u600e\u6837\u8ba9-transfer-\u7a7f\u68ad\u6846\u5217\u8868\u652f\u6301\u5f02\u6b65\u6570\u636e\u52a0\u8f7d',
+              },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to:
+                    '#\u600e\u6837\u8ba9-transfer-\u7a7f\u68ad\u6846\u5217\u8868\u652f\u6301\u5f02\u6b65\u6570\u636e\u52a0\u8f7d',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u600e\u6837\u8ba9 Transfer \u7a7f\u68ad\u6846\u5217\u8868\u652f\u6301\u5f02\u6b65\u6570\u636e\u52a0\u8f7d',
+            ),
+            n.a.createElement(
+              'p',
+              null,
+              '\u4e3a\u4e86\u4fdd\u6301\u9875\u7801\u540c\u6b65\uff0c\u5728\u52fe\u9009\u65f6\u53ef\u4ee5\u4e0d\u79fb\u9664\u9009\u9879\u800c\u4ee5\u7981\u7528\u4ee3\u66ff\uff1a',
+              n.a.createElement(
+                r['Link'],
+                { to: 'https://codesandbox.io/s/93xeb' },
+                'https://codesandbox.io/s/93xeb',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    joWM: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['custom-select-all-labels-transfer-aeps-demo']
+              .component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['custom-select-all-labels-transfer-aeps-demo']
+                .previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    jwGr: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = n.a.memo(
+          a('JjdP').default['table-transfer-transfer-aeps-demo'].component,
+        );
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['table-transfer-transfer-aeps-demo']
+                .previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code:
+                  '#components-transfer-demo-table-transfer .ant-table td {\n  background: transparent;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    lncX: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['basic-transfer-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['basic-transfer-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+    zmQ3: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['oneWay-transfer-aeps-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['oneWay-transfer-aeps-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

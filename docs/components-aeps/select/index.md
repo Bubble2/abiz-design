@@ -40,6 +40,8 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-aeps/select/demo/hide-selected-select-aeps.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-aeps/select/demo/responsive-select-aeps.md"></embed></div>
+          
   <div class="code-box"><embed src="@abiz-rc-aeps/select/demo/big-data-select-aeps.md"></embed></div>
           
   </Col>
@@ -71,4 +73,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/select/index-api.md"></embed><div>
-        

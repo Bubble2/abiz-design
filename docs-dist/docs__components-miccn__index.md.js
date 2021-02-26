@@ -1,2 +1,70 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[164],{"5NDm":function(l,a,_){"use strict";_.r(a);var n=_("cDcd"),t=_.n(n),E=_("dEAq"),d=_.n(E),s=_("g5U0"),e=_("ltCa"),D=_("ZpkN");a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"},t.a.createElement("h3",{id:"\u4F9D\u8D56\u5B89\u88C5"},t.a.createElement(E.AnchorLink,{to:"#\u4F9D\u8D56\u5B89\u88C5","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u4F9D\u8D56\u5B89\u88C5"),t.a.createElement(D.a,{code:`$ npm i @abiz/rc-miccn
-`,lang:"bash"})))}},g5U0:function(l,a,_){"use strict";var n=_("kPKH"),t=_("h9md"),E=_.n(t);a.a=n.a},ltCa:function(l,a,_){"use strict";var n=_("BMrR"),t=_("7xIR"),E=_.n(t);a.a=n.a}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [165],
+  {
+    '5NDm': function(e, a, n) {
+      'use strict';
+      n.r(a);
+      var t = n('cDcd'),
+        c = n.n(t),
+        r = n('dEAq'),
+        i = (n('g5U0'), n('ekZX'), n('ltCa'), n('Bjia'));
+      a['default'] = function() {
+        return c.a.createElement(
+          c.a.Fragment,
+          null,
+          c.a.createElement(
+            'div',
+            { className: 'markdown' },
+            c.a.createElement(
+              'h3',
+              { id: '\u4f9d\u8d56\u5b89\u88c5' },
+              c.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f9d\u8d56\u5b89\u88c5',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                c.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f9d\u8d56\u5b89\u88c5',
+            ),
+            c.a.createElement(i['a'], {
+              code: '$ npm i @abiz/rc-miccn\n',
+              lang: 'bash',
+            }),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, a, n) {
+      'use strict';
+      var t = n('0Owb'),
+        c = n('PpiC'),
+        r = n('cDcd'),
+        i = n.n(r),
+        l = n('ZpkN');
+      a['a'] = i.a.forwardRef((e, a) => {
+        var n = e.children,
+          r = Object(c['default'])(e, ['children']);
+        return i.a.createElement(
+          l['a'],
+          Object(t['default'])({}, r, { forwardedRef: a }),
+          i.a.createElement(i.a.Fragment, null, n),
+        );
+      });
+    },
+    g5U0: function(e, a, n) {
+      'use strict';
+      var t = n('kPKH');
+      n('h9md');
+      a['a'] = t['a'];
+    },
+    ltCa: function(e, a, n) {
+      'use strict';
+      var t = n('BMrR');
+      n('7xIR');
+      a['a'] = t['a'];
+    },
+  },
+]);

@@ -44,9 +44,10 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/show-tooltip-slider-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/slider/demo/dragableTrack-slider-miccn.md"></embed></div>
+          
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/slider/index-api.md"></embed><div>
-        

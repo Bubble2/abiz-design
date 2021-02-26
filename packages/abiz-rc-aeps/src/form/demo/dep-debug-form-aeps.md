@@ -25,10 +25,9 @@ const Demo = () => {
       }}
     >
       <Form.Item noStyle dependencies={['debug1']}>
-        {() => {
-          return acc++;
-          // return <pre>{JSON.stringify(form.getFieldsValue(), null, 2)}</pre>;
-        }}
+        {() => acc++
+        // return <pre>{JSON.stringify(form.getFieldsValue(), null, 2)}</pre>;
+        }
       </Form.Item>
       <Form.Item label="debug1" name="debug1">
         <Input />

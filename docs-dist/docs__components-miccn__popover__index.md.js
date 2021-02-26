@@ -1,1 +1,477 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[177],{"0Kbt":function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa"),u=e("0zqC");const E=t.a.memo(e("JjdP").default["control-popover-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(u.default,e("JjdP").default["control-popover-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},"9cT8":function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa");a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"},t.a.createElement("p",null,"\u70B9\u51FB/\u9F20\u6807\u79FB\u5165\u5143\u7D20\uFF0C\u5F39\u51FA\u6C14\u6CE1\u5F0F\u7684\u5361\u7247\u6D6E\u5C42\u3002"),t.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},t.a.createElement(n.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),t.a.createElement("p",null,"\u5F53\u76EE\u6807\u5143\u7D20\u6709\u8FDB\u4E00\u6B65\u7684\u63CF\u8FF0\u548C\u76F8\u5173\u64CD\u4F5C\u65F6\uFF0C\u53EF\u4EE5\u6536\u7EB3\u5230\u5361\u7247\u4E2D\uFF0C\u6839\u636E\u7528\u6237\u7684\u64CD\u4F5C\u884C\u4E3A\u8FDB\u884C\u5C55\u73B0\u3002"),t.a.createElement("p",null,"\u548C ",t.a.createElement("code",null,"Tooltip")," \u7684\u533A\u522B\u662F\uFF0C\u7528\u6237\u53EF\u4EE5\u5BF9\u6D6E\u5C42\u4E0A\u7684\u5143\u7D20\u8FDB\u884C\u64CD\u4F5C\uFF0C\u56E0\u6B64\u5B83\u53EF\u4EE5\u627F\u8F7D\u66F4\u590D\u6742\u7684\u5185\u5BB9\uFF0C\u6BD4\u5982\u94FE\u63A5\u6216\u6309\u94AE\u7B49\u3002")))}},"9vV2":function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa"),u=e("0zqC");const E=t.a.memo(e("JjdP").default["basic-popover-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(u.default,e("JjdP").default["basic-popover-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},QwJk:function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa"),u=e("0zqC");const E=t.a.memo(e("JjdP").default["arrow-point-at-center-popover-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(u.default,e("JjdP").default["arrow-point-at-center-popover-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},Ssdk:function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa"),u=e("0zqC");const E=t.a.memo(e("JjdP").default["triggerType-popover-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(u.default,e("JjdP").default["triggerType-popover-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},g5U0:function(m,a,e){"use strict";var l=e("kPKH"),t=e("h9md"),n=e.n(t);a.a=l.a},hCtq:function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa");a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"},t.a.createElement("h2",{id:"\u6C14\u6CE1\u5361\u7247"},t.a.createElement(n.AnchorLink,{to:"#\u6C14\u6CE1\u5361\u7247","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u6C14\u6CE1\u5361\u7247"),t.a.createElement("div",null,t.a.createElement(t.a.Fragment,{children:e("9cT8").default()})),t.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},t.a.createElement(n.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),t.a.createElement(_.a,{gutter:"8"},t.a.createElement(d.a,{span:12},t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("9vV2").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("jSOU").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("QwJk").default()}))),t.a.createElement(d.a,{span:12},t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("Ssdk").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("0Kbt").default()})),t.a.createElement("div",{className:["code-box"]},t.a.createElement(t.a.Fragment,{children:e("rQr2").default()})))),t.a.createElement("div",null,t.a.createElement(t.a.Fragment,{children:e("ywh1").default()}),t.a.createElement("div",null))))}},jSOU:function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa"),u=e("0zqC");const E=t.a.memo(e("JjdP").default["placement-popover-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(u.default,e("JjdP").default["placement-popover-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},ltCa:function(m,a,e){"use strict";var l=e("BMrR"),t=e("7xIR"),n=e.n(t);a.a=l.a},rQr2:function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa"),u=e("0zqC");const E=t.a.memo(e("JjdP").default["hover-with-click-popover-miccn-demo"].component);a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"}),t.a.createElement(u.default,e("JjdP").default["hover-with-click-popover-miccn-demo"].previewerProps,t.a.createElement(E,null))))}},ywh1:function(m,a,e){"use strict";e.r(a);var l=e("cDcd"),t=e.n(l),n=e("dEAq"),i=e.n(n),d=e("g5U0"),_=e("ltCa");a.default=function(){return t.a.createElement(t.a.Fragment,null,t.a.createElement("div",{className:"markdown"},t.a.createElement("h2",{id:"api"},t.a.createElement(n.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"API"),t.a.createElement("table",null,t.a.createElement("thead",null,t.a.createElement("tr",null,t.a.createElement("th",null,"\u53C2\u6570"),t.a.createElement("th",null,"\u8BF4\u660E"),t.a.createElement("th",null,"\u7C7B\u578B"),t.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),t.a.createElement("th",null,"\u7248\u672C"))),t.a.createElement("tbody",null,t.a.createElement("tr",null,t.a.createElement("td",null,"content"),t.a.createElement("td",null,"\u5361\u7247\u5185\u5BB9"),t.a.createElement("td",null,"ReactNode | () => ReactNode"),t.a.createElement("td",null,"-"),t.a.createElement("td",null)),t.a.createElement("tr",null,t.a.createElement("td",null,"title"),t.a.createElement("td",null,"\u5361\u7247\u6807\u9898"),t.a.createElement("td",null,"ReactNode | () => ReactNode"),t.a.createElement("td",null,"-"),t.a.createElement("td",null)))),t.a.createElement("p",null,"\u66F4\u591A\u5C5E\u6027\u8BF7\u53C2\u8003 ",t.a.createElement(n.AnchorLink,{to:"/components/tooltip/#API"},"Tooltip"),"\u3002"),t.a.createElement("h2",{id:"\u6CE8\u610F"},t.a.createElement(n.AnchorLink,{to:"#\u6CE8\u610F","aria-hidden":"true",tabIndex:-1},t.a.createElement("span",{className:["icon","icon-link"]})),"\u6CE8\u610F"),t.a.createElement("p",null,"\u8BF7\u786E\u4FDD ",t.a.createElement("code",null,"Popover")," \u7684\u5B50\u5143\u7D20\u80FD\u63A5\u53D7 ",t.a.createElement("code",null,"onMouseEnter"),"\u3001",t.a.createElement("code",null,"onMouseLeave"),"\u3001",t.a.createElement("code",null,"onFocus"),"\u3001",t.a.createElement("code",null,"onClick")," \u4E8B\u4EF6\u3002")))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [178],
+  {
+    '0Kbt': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['control-popover-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['control-popover-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    '9cT8': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = t('dEAq');
+      t('g5U0'), t('ekZX'), t('ltCa'), t('Bjia');
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'p',
+              null,
+              '\u70b9\u51fb/\u9f20\u6807\u79fb\u5165\u5143\u7d20\uff0c\u5f39\u51fa\u6c14\u6ce1\u5f0f\u7684\u5361\u7247\u6d6e\u5c42\u3002',
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              l.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u5f53\u76ee\u6807\u5143\u7d20\u6709\u8fdb\u4e00\u6b65\u7684\u63cf\u8ff0\u548c\u76f8\u5173\u64cd\u4f5c\u65f6\uff0c\u53ef\u4ee5\u6536\u7eb3\u5230\u5361\u7247\u4e2d\uff0c\u6839\u636e\u7528\u6237\u7684\u64cd\u4f5c\u884c\u4e3a\u8fdb\u884c\u5c55\u73b0\u3002',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u548c ',
+              l.a.createElement('code', null, 'Tooltip'),
+              ' \u7684\u533a\u522b\u662f\uff0c\u7528\u6237\u53ef\u4ee5\u5bf9\u6d6e\u5c42\u4e0a\u7684\u5143\u7d20\u8fdb\u884c\u64cd\u4f5c\uff0c\u56e0\u6b64\u5b83\u53ef\u4ee5\u627f\u8f7d\u66f4\u590d\u6742\u7684\u5185\u5bb9\uff0c\u6bd4\u5982\u94fe\u63a5\u6216\u6309\u94ae\u7b49\u3002',
+            ),
+          ),
+        );
+      };
+    },
+    '9vV2': function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(t('JjdP').default['basic-popover-miccn-demo'].component));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['basic-popover-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, a, t) {
+      'use strict';
+      var n = t('0Owb'),
+        l = t('PpiC'),
+        r = t('cDcd'),
+        c = t.n(r),
+        m = t('ZpkN');
+      a['a'] = c.a.forwardRef((e, a) => {
+        var t = e.children,
+          r = Object(l['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(n['default'])({}, r, { forwardedRef: a }),
+          c.a.createElement(c.a.Fragment, null, t),
+        );
+      });
+    },
+    QwJk: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['arrow-point-at-center-popover-miccn-demo']
+              .component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['arrow-point-at-center-popover-miccn-demo']
+                .previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Ssdk: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['triggerType-popover-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['triggerType-popover-miccn-demo']
+                .previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, a, t) {
+      'use strict';
+      var n = t('kPKH');
+      t('h9md');
+      a['a'] = n['a'];
+    },
+    hCtq: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = t('dEAq'),
+        c = t('g5U0'),
+        m = (t('ekZX'), t('ltCa'));
+      t('Bjia');
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: '\u6c14\u6ce1\u5361\u7247' },
+              l.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u6c14\u6ce1\u5361\u7247',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u6c14\u6ce1\u5361\u7247',
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: t('9cT8').default(),
+              }),
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              l.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            l.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              l.a.createElement(
+                c['a'],
+                { span: 12 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('9vV2').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('jSOU').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('QwJk').default(),
+                  }),
+                ),
+              ),
+              l.a.createElement(
+                c['a'],
+                { span: 12 },
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('Ssdk').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('0Kbt').default(),
+                  }),
+                ),
+                l.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  l.a.createElement(l.a.Fragment, {
+                    children: t('rQr2').default(),
+                  }),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'div',
+              null,
+              l.a.createElement(l.a.Fragment, {
+                children: t('ywh1').default(),
+              }),
+              l.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    jSOU: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['placement-popover-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['placement-popover-miccn-demo'].previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ltCa: function(e, a, t) {
+      'use strict';
+      var n = t('BMrR');
+      t('7xIR');
+      a['a'] = n['a'];
+    },
+    rQr2: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = (t('dEAq'), t('g5U0'), t('ekZX')),
+        c =
+          (t('ltCa'),
+          t('Bjia'),
+          l.a.memo(
+            t('JjdP').default['hover-with-click-popover-miccn-demo'].component,
+          ));
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            l.a.Fragment,
+            null,
+            l.a.createElement('div', { className: 'markdown' }),
+            l.a.createElement(
+              r['default'],
+              t('JjdP').default['hover-with-click-popover-miccn-demo']
+                .previewerProps,
+              l.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    ywh1: function(e, a, t) {
+      'use strict';
+      t.r(a);
+      var n = t('cDcd'),
+        l = t.n(n),
+        r = t('dEAq');
+      t('g5U0'), t('ekZX'), t('ltCa'), t('Bjia');
+      a['default'] = function() {
+        return l.a.createElement(
+          l.a.Fragment,
+          null,
+          l.a.createElement(
+            'div',
+            { className: 'markdown' },
+            l.a.createElement(
+              'h2',
+              { id: 'api' },
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            l.a.createElement(
+              'table',
+              null,
+              l.a.createElement(
+                'thead',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('th', null, '\u53c2\u6570'),
+                  l.a.createElement('th', null, '\u8bf4\u660e'),
+                  l.a.createElement('th', null, '\u7c7b\u578b'),
+                  l.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  l.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              l.a.createElement(
+                'tbody',
+                null,
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'content'),
+                  l.a.createElement('td', null, '\u5361\u7247\u5185\u5bb9'),
+                  l.a.createElement('td', null, 'ReactNode | () => ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+                l.a.createElement(
+                  'tr',
+                  null,
+                  l.a.createElement('td', null, 'title'),
+                  l.a.createElement('td', null, '\u5361\u7247\u6807\u9898'),
+                  l.a.createElement('td', null, 'ReactNode | () => ReactNode'),
+                  l.a.createElement('td', null, '-'),
+                  l.a.createElement('td', null),
+                ),
+              ),
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u66f4\u591a\u5c5e\u6027\u8bf7\u53c2\u8003 ',
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '/components/tooltip/#API' },
+                'Tooltip',
+              ),
+              '\u3002',
+            ),
+            l.a.createElement(
+              'h2',
+              { id: '\u6ce8\u610f' },
+              l.a.createElement(
+                r['AnchorLink'],
+                { to: '#\u6ce8\u610f', 'aria-hidden': 'true', tabIndex: -1 },
+                l.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u6ce8\u610f',
+            ),
+            l.a.createElement(
+              'p',
+              null,
+              '\u8bf7\u786e\u4fdd ',
+              l.a.createElement('code', null, 'Popover'),
+              ' \u7684\u5b50\u5143\u7d20\u80fd\u63a5\u53d7 ',
+              l.a.createElement('code', null, 'onMouseEnter'),
+              '\u3001',
+              l.a.createElement('code', null, 'onMouseLeave'),
+              '\u3001',
+              l.a.createElement('code', null, 'onFocus'),
+              '\u3001',
+              l.a.createElement('code', null, 'onClick'),
+              ' \u4e8b\u4ef6\u3002',
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

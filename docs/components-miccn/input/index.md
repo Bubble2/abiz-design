@@ -36,9 +36,9 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/textarea-show-count-input-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/borderless-debug-input-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/focus-input-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/textarea-resize-input-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/align-input-miccn.md"></embed></div>
           
   </Col>
           
@@ -58,11 +58,12 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/borderless-input-miccn.md"></embed></div>
           
-  <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/align-input-miccn.md"></embed></div>
+  <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/borderless-debug-input-miccn.md"></embed></div>
+          
+  <div class="code-box"><embed src="@abiz-rc-miccn/input/demo/textarea-resize-input-miccn.md"></embed></div>
           
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/input/index-api.md"></embed><div>
-        

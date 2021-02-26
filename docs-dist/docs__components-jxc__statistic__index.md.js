@@ -1,5 +1,625 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[123],{"8B4H":function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),r=t.n(a),E=t("g5U0"),m=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("p",null,"\u5C55\u793A\u7EDF\u8BA1\u6570\u503C\u3002"),e.a.createElement("h2",{id:"\u4F55\u65F6\u4F7F\u7528"},e.a.createElement(a.AnchorLink,{to:"#\u4F55\u65F6\u4F7F\u7528","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4F55\u65F6\u4F7F\u7528"),e.a.createElement("ul",null,e.a.createElement("li",null,"\u5F53\u9700\u8981\u7A81\u51FA\u67D0\u4E2A\u6216\u67D0\u7EC4\u6570\u5B57\u65F6\u3002"),e.a.createElement("li",null,"\u5F53\u9700\u8981\u5C55\u793A\u5E26\u63CF\u8FF0\u7684\u7EDF\u8BA1\u7C7B\u6570\u636E\u65F6\u4F7F\u7528\u3002"))))}},"B/tz":function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),r=t.n(a),E=t("g5U0"),m=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"api"},e.a.createElement(a.AnchorLink,{to:"#api","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"API"),e.a.createElement("h4",{id:"statistic"},e.a.createElement(a.AnchorLink,{to:"#statistic","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Statistic"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"decimalSeparator"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5C0F\u6570\u70B9"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,".")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"formatter"),e.a.createElement("td",null,"\u81EA\u5B9A\u4E49\u6570\u503C\u5C55\u793A"),e.a.createElement("td",null,"(value) => ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"groupSeparator"),e.a.createElement("td",null,"\u8BBE\u7F6E\u5343\u5206\u4F4D\u6807\u8BC6\u7B26"),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,",")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"loading"),e.a.createElement("td",null,"\u6570\u503C\u662F\u5426\u52A0\u8F7D\u4E2D"),e.a.createElement("td",null,"boolean"),e.a.createElement("td",null,"false"),e.a.createElement("td",null,"4.8.0")),e.a.createElement("tr",null,e.a.createElement("td",null,"precision"),e.a.createElement("td",null,"\u6570\u503C\u7CBE\u5EA6"),e.a.createElement("td",null,"number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"prefix"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6570\u503C\u7684\u524D\u7F00"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"suffix"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6570\u503C\u7684\u540E\u7F00"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u6570\u503C\u7684\u6807\u9898"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"value"),e.a.createElement("td",null,"\u6570\u503C\u5185\u5BB9"),e.a.createElement("td",null,"string | number"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"valueStyle"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6570\u503C\u7684\u6837\u5F0F"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)))),e.a.createElement("h4",{id:"statisticcountdown"},e.a.createElement(a.AnchorLink,{to:"#statisticcountdown","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"Statistic.Countdown"),e.a.createElement("table",null,e.a.createElement("thead",null,e.a.createElement("tr",null,e.a.createElement("th",null,"\u53C2\u6570"),e.a.createElement("th",null,"\u8BF4\u660E"),e.a.createElement("th",null,"\u7C7B\u578B"),e.a.createElement("th",null,"\u9ED8\u8BA4\u503C"),e.a.createElement("th",null,"\u7248\u672C"))),e.a.createElement("tbody",null,e.a.createElement("tr",null,e.a.createElement("td",null,"format"),e.a.createElement("td",null,"\u683C\u5F0F\u5316\u5012\u8BA1\u65F6\u5C55\u793A\uFF0C\u53C2\u8003 ",e.a.createElement(a.Link,{to:"http://momentjs.com/"},"moment")),e.a.createElement("td",null,"string"),e.a.createElement("td",null,e.a.createElement("code",null,"HH:mm:ss")),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"prefix"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6570\u503C\u7684\u524D\u7F00"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"suffix"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6570\u503C\u7684\u540E\u7F00"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"title"),e.a.createElement("td",null,"\u6570\u503C\u7684\u6807\u9898"),e.a.createElement("td",null,"ReactNode"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"value"),e.a.createElement("td",null,"\u6570\u503C\u5185\u5BB9"),e.a.createElement("td",null,"number | moment"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"valueStyle"),e.a.createElement("td",null,"\u8BBE\u7F6E\u6570\u503C\u7684\u6837\u5F0F"),e.a.createElement("td",null,"CSSProperties"),e.a.createElement("td",null,"-"),e.a.createElement("td",null)),e.a.createElement("tr",null,e.a.createElement("td",null,"onFinish"),e.a.createElement("td",null,"\u5012\u8BA1\u65F6\u5B8C\u6210\u65F6\u89E6\u53D1"),e.a.createElement("td",null,"() => void"),e.a.createElement("td",null,"-"),e.a.createElement("td",null))))))}},XHNw:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),r=t.n(a),E=t("g5U0"),m=t("ltCa"),d=t("0zqC");const c=e.a.memo(t("JjdP").default["unit-statistic-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(d.default,t("JjdP").default["unit-statistic-jxc-demo"].previewerProps,e.a.createElement(c,null))))}},Zlyv:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),r=t.n(a),E=t("g5U0"),m=t("ltCa"),d=t("0zqC");const c=e.a.memo(t("JjdP").default["basic-statistic-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(d.default,t("JjdP").default["basic-statistic-jxc-demo"].previewerProps,e.a.createElement(c,null))))}},aV4j:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),r=t.n(a),E=t("g5U0"),m=t("ltCa");l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"},e.a.createElement("h2",{id:"\u7EDF\u8BA1\u6570\u503C"},e.a.createElement(a.AnchorLink,{to:"#\u7EDF\u8BA1\u6570\u503C","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u7EDF\u8BA1\u6570\u503C"),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("8B4H").default()})),e.a.createElement("h2",{id:"\u4EE3\u7801\u6F14\u793A"},e.a.createElement(a.AnchorLink,{to:"#\u4EE3\u7801\u6F14\u793A","aria-hidden":"true",tabIndex:-1},e.a.createElement("span",{className:["icon","icon-link"]})),"\u4EE3\u7801\u6F14\u793A"),e.a.createElement(m.a,{gutter:"8"},e.a.createElement(E.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("Zlyv").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("reYg").default()}))),e.a.createElement(E.a,{span:12},e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("XHNw").default()})),e.a.createElement("div",{className:["code-box"]},e.a.createElement(e.a.Fragment,{children:t("xPxM").default()})))),e.a.createElement("div",null,e.a.createElement(e.a.Fragment,{children:t("B/tz").default()}),e.a.createElement("div",null))))}},g5U0:function(u,l,t){"use strict";var n=t("kPKH"),e=t("h9md"),a=t.n(e);l.a=n.a},ltCa:function(u,l,t){"use strict";var n=t("BMrR"),e=t("7xIR"),a=t.n(e);l.a=n.a},reYg:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),r=t.n(a),E=t("g5U0"),m=t("ltCa"),d=t("0zqC"),c=t("ZpkN");const i=e.a.memo(t("JjdP").default["card-statistic-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(d.default,t("JjdP").default["card-statistic-jxc-demo"].previewerProps,e.a.createElement(i,null)),e.a.createElement("div",{className:"markdown"},e.a.createElement(c.a,{code:`.site-statistic-demo-card {
-  padding: 30px;
-  background: #ececec;
-}
-`,lang:"css"}))))}},xPxM:function(u,l,t){"use strict";t.r(l);var n=t("cDcd"),e=t.n(n),a=t("dEAq"),r=t.n(a),E=t("g5U0"),m=t("ltCa"),d=t("0zqC");const c=e.a.memo(t("JjdP").default["countdown-statistic-jxc-demo"].component);l.default=function(){return e.a.createElement(e.a.Fragment,null,e.a.createElement(e.a.Fragment,null,e.a.createElement("div",{className:"markdown"}),e.a.createElement(d.default,t("JjdP").default["countdown-statistic-jxc-demo"].previewerProps,e.a.createElement(c,null))))}}}]);
+(window['webpackJsonp'] = window['webpackJsonp'] || []).push([
+  [124],
+  {
+    '8B4H': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'p',
+              null,
+              '\u5c55\u793a\u7edf\u8ba1\u6570\u503c\u3002',
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4f55\u65f6\u4f7f\u7528' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4f55\u65f6\u4f7f\u7528',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4f55\u65f6\u4f7f\u7528',
+            ),
+            n.a.createElement(
+              'ul',
+              null,
+              n.a.createElement(
+                'li',
+                null,
+                '\u5f53\u9700\u8981\u7a81\u51fa\u67d0\u4e2a\u6216\u67d0\u7ec4\u6570\u5b57\u65f6\u3002',
+              ),
+              n.a.createElement(
+                'li',
+                null,
+                '\u5f53\u9700\u8981\u5c55\u793a\u5e26\u63cf\u8ff0\u7684\u7edf\u8ba1\u7c7b\u6570\u636e\u65f6\u4f7f\u7528\u3002',
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    'B/tz': function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq');
+      a('g5U0'), a('ekZX'), a('ltCa'), a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: 'api' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#api', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'API',
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'statistic' },
+              n.a.createElement(
+                r['AnchorLink'],
+                { to: '#statistic', 'aria-hidden': 'true', tabIndex: -1 },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Statistic',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'decimalSeparator'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5c0f\u6570\u70b9',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, '.'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'formatter'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u81ea\u5b9a\u4e49\u6570\u503c\u5c55\u793a',
+                  ),
+                  n.a.createElement('td', null, '(value) => ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'groupSeparator'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u5343\u5206\u4f4d\u6807\u8bc6\u7b26',
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, ','),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'loading'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6570\u503c\u662f\u5426\u52a0\u8f7d\u4e2d',
+                  ),
+                  n.a.createElement('td', null, 'boolean'),
+                  n.a.createElement('td', null, 'false'),
+                  n.a.createElement('td', null, '4.8.0'),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'precision'),
+                  n.a.createElement('td', null, '\u6570\u503c\u7cbe\u5ea6'),
+                  n.a.createElement('td', null, 'number'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'prefix'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u6570\u503c\u7684\u524d\u7f00',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'suffix'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u6570\u503c\u7684\u540e\u7f00',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'title'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6570\u503c\u7684\u6807\u9898',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'value'),
+                  n.a.createElement('td', null, '\u6570\u503c\u5185\u5bb9'),
+                  n.a.createElement('td', null, 'string | number'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'valueStyle'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u6570\u503c\u7684\u6837\u5f0f',
+                  ),
+                  n.a.createElement('td', null, 'CSSProperties'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'h4',
+              { id: 'statisticcountdown' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#statisticcountdown',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              'Statistic.Countdown',
+            ),
+            n.a.createElement(
+              'table',
+              null,
+              n.a.createElement(
+                'thead',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('th', null, '\u53c2\u6570'),
+                  n.a.createElement('th', null, '\u8bf4\u660e'),
+                  n.a.createElement('th', null, '\u7c7b\u578b'),
+                  n.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                  n.a.createElement('th', null, '\u7248\u672c'),
+                ),
+              ),
+              n.a.createElement(
+                'tbody',
+                null,
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'format'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u683c\u5f0f\u5316\u5012\u8ba1\u65f6\u5c55\u793a\uff0c\u53c2\u8003 ',
+                    n.a.createElement(
+                      r['Link'],
+                      { to: 'http://momentjs.com/' },
+                      'moment',
+                    ),
+                  ),
+                  n.a.createElement('td', null, 'string'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    n.a.createElement('code', null, 'HH:mm:ss'),
+                  ),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'prefix'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u6570\u503c\u7684\u524d\u7f00',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'suffix'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u6570\u503c\u7684\u540e\u7f00',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'title'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u6570\u503c\u7684\u6807\u9898',
+                  ),
+                  n.a.createElement('td', null, 'ReactNode'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'value'),
+                  n.a.createElement('td', null, '\u6570\u503c\u5185\u5bb9'),
+                  n.a.createElement('td', null, 'number | moment'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'valueStyle'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u8bbe\u7f6e\u6570\u503c\u7684\u6837\u5f0f',
+                  ),
+                  n.a.createElement('td', null, 'CSSProperties'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+                n.a.createElement(
+                  'tr',
+                  null,
+                  n.a.createElement('td', null, 'onFinish'),
+                  n.a.createElement(
+                    'td',
+                    null,
+                    '\u5012\u8ba1\u65f6\u5b8c\u6210\u65f6\u89e6\u53d1',
+                  ),
+                  n.a.createElement('td', null, '() => void'),
+                  n.a.createElement('td', null, '-'),
+                  n.a.createElement('td', null),
+                ),
+              ),
+            ),
+          ),
+        );
+      };
+    },
+    Bjia: function(e, t, a) {
+      'use strict';
+      var l = a('0Owb'),
+        n = a('PpiC'),
+        r = a('cDcd'),
+        c = a.n(r),
+        m = a('ZpkN');
+      t['a'] = c.a.forwardRef((e, t) => {
+        var a = e.children,
+          r = Object(n['default'])(e, ['children']);
+        return c.a.createElement(
+          m['a'],
+          Object(l['default'])({}, r, { forwardedRef: t }),
+          c.a.createElement(c.a.Fragment, null, a),
+        );
+      });
+    },
+    XHNw: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['unit-statistic-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['unit-statistic-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    Zlyv: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(a('JjdP').default['basic-statistic-jxc-demo'].component));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['basic-statistic-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+    aV4j: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = a('dEAq'),
+        c = a('g5U0'),
+        m = (a('ekZX'), a('ltCa'));
+      a('Bjia');
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            'div',
+            { className: 'markdown' },
+            n.a.createElement(
+              'h2',
+              { id: '\u7edf\u8ba1\u6570\u503c' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u7edf\u8ba1\u6570\u503c',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u7edf\u8ba1\u6570\u503c',
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('8B4H').default(),
+              }),
+            ),
+            n.a.createElement(
+              'h2',
+              { id: '\u4ee3\u7801\u6f14\u793a' },
+              n.a.createElement(
+                r['AnchorLink'],
+                {
+                  to: '#\u4ee3\u7801\u6f14\u793a',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
+                n.a.createElement('span', { className: ['icon', 'icon-link'] }),
+              ),
+              '\u4ee3\u7801\u6f14\u793a',
+            ),
+            n.a.createElement(
+              m['a'],
+              { gutter: '8' },
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('Zlyv').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('reYg').default(),
+                  }),
+                ),
+              ),
+              n.a.createElement(
+                c['a'],
+                { span: 12 },
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('XHNw').default(),
+                  }),
+                ),
+                n.a.createElement(
+                  'div',
+                  { className: ['code-box'] },
+                  n.a.createElement(n.a.Fragment, {
+                    children: a('xPxM').default(),
+                  }),
+                ),
+              ),
+            ),
+            n.a.createElement(
+              'div',
+              null,
+              n.a.createElement(n.a.Fragment, {
+                children: a('B/tz').default(),
+              }),
+              n.a.createElement('div', null),
+            ),
+          ),
+        );
+      };
+    },
+    g5U0: function(e, t, a) {
+      'use strict';
+      var l = a('kPKH');
+      a('h9md');
+      t['a'] = l['a'];
+    },
+    ltCa: function(e, t, a) {
+      'use strict';
+      var l = a('BMrR');
+      a('7xIR');
+      t['a'] = l['a'];
+    },
+    reYg: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c = (a('ltCa'), a('Bjia')),
+        m = n.a.memo(a('JjdP').default['card-statistic-jxc-demo'].component);
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['card-statistic-jxc-demo'].previewerProps,
+              n.a.createElement(m, null),
+            ),
+            n.a.createElement(
+              'div',
+              { className: 'markdown' },
+              n.a.createElement(c['a'], {
+                code:
+                  '.site-statistic-demo-card {\n  padding: 30px;\n  background: #ececec;\n}\n',
+                lang: 'css',
+              }),
+            ),
+          ),
+        );
+      };
+    },
+    xPxM: function(e, t, a) {
+      'use strict';
+      a.r(t);
+      var l = a('cDcd'),
+        n = a.n(l),
+        r = (a('dEAq'), a('g5U0'), a('ekZX')),
+        c =
+          (a('ltCa'),
+          a('Bjia'),
+          n.a.memo(
+            a('JjdP').default['countdown-statistic-jxc-demo'].component,
+          ));
+      t['default'] = function() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            n.a.Fragment,
+            null,
+            n.a.createElement('div', { className: 'markdown' }),
+            n.a.createElement(
+              r['default'],
+              a('JjdP').default['countdown-statistic-jxc-demo'].previewerProps,
+              n.a.createElement(c, null),
+            ),
+          ),
+        );
+      };
+    },
+  },
+]);

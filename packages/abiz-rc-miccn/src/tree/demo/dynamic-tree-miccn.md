@@ -36,7 +36,8 @@ function updateTreeData(
         ...node,
         children,
       };
-    } else if (node.children) {
+    }
+    if (node.children) {
       return {
         ...node,
         children: updateTreeData(node.children, key, children),
@@ -49,8 +50,8 @@ function updateTreeData(
 const Demo: React.FC<{}> = () => {
   const [treeData, setTreeData] = useState(initTreeDate);
 
-  function onLoadData({ key, children }) {
-    return new Promise(resolve => {
+  function onLoadData({ key, children }: any) {
+    return new Promise<void>(resolve => {
       if (children) {
         resolve();
         return;

@@ -26,6 +26,8 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/image/demo/placeholder-image-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/image/demo/previewSrc-image-miccn.md"></embed></div>
+          
   </Col>
           
   <Col span=12>
@@ -34,9 +36,10 @@ group:
           
   <div class="code-box"><embed src="@abiz-rc-miccn/image/demo/previewGroup-image-miccn.md"></embed></div>
           
+  <div class="code-box"><embed src="@abiz-rc-miccn/image/demo/preview-mask-image-miccn.md"></embed></div>
+          
   </Col>
           
 </Row>
         
 <div><embed src="@docs-common/image/index-api.md"></embed><div>
-        

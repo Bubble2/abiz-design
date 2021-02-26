@@ -2,24 +2,25 @@ const fs = require('fs');
 const path = require('path');
 const walkSync = require('walk-sync');
 const antdPath = 'D:/git/ant-design-4.9.4/components/';
+// const antdPath = 'D:/git/ant-design-master/components/';
 
-function delDir(path){
+function delDir(path) {
   let files = [];
-  if(fs.existsSync(path)){
-      files = fs.readdirSync(path);
-     
-      files.forEach((file, index) => {
-          let curPath = path + "/" + file;
-          if(fs.statSync(curPath).isDirectory()){
-              delDir(curPath); //递归删除文件夹
-          } else {
-              fs.unlinkSync(curPath); //删除文件
-              // console.log('删除文件成功')
-          }
-      });
-      // console.log('files:', files)
-      // console.log('开始删除文件夹')
-      fs.rmdirSync(path);
+  if (fs.existsSync(path)) {
+    files = fs.readdirSync(path);
+
+    files.forEach((file, index) => {
+      let curPath = path + '/' + file;
+      if (fs.statSync(curPath).isDirectory()) {
+        delDir(curPath); //递归删除文件夹
+      } else {
+        fs.unlinkSync(curPath); //删除文件
+        // console.log('删除文件成功')
+      }
+    });
+    // console.log('files:', files)
+    // console.log('开始删除文件夹')
+    fs.rmdirSync(path);
   }
   // console.log('结束删除')
 }
@@ -30,19 +31,19 @@ const packagesPaths = [
     fileNamePrefix: 'aeps',
     path: './packages/abiz-rc-aeps/src/',
     importPath: '@abiz/rc-aeps',
-    iconImportPath: '@abiz/icons-aeps'
+    iconImportPath: '@abiz/icons-aeps',
   },
   {
     fileNamePrefix: 'jxc',
     path: './packages/abiz-rc-jxc/src/',
     importPath: '@abiz/rc-jxc',
-    iconImportPath: '@abiz/icons-jxc'
+    iconImportPath: '@abiz/icons-jxc',
   },
   {
     fileNamePrefix: 'miccn',
     path: './packages/abiz-rc-miccn/src/',
     importPath: '@abiz/rc-miccn',
-    iconImportPath: '@abiz/icons-miccn'
+    iconImportPath: '@abiz/icons-miccn',
   },
 ];
 
@@ -60,13 +61,13 @@ const paths = walkSync(antdPath, {
 // console.log('paths', paths)
 
 //删除所有demo目录文件
-packagesPaths.forEach((pkgPath)=>{
-  paths.forEach((item)=>{
+packagesPaths.forEach(pkgPath => {
+  paths.forEach(item => {
     const itemArr = item.split('/');
     delDir(pkgPath.path + '' + itemArr[0] + '/' + itemArr[1]);
     // console.log('完成删除')
-  })
-})
+  });
+});
 
 paths.forEach(item => {
   const itemArr = item.split('/');
@@ -77,15 +78,18 @@ paths.forEach(item => {
       // console.log(data);
       const title = data.match(/(?<=zh-CN:\s+).+/g);
       // console.log('title', title);
-      let subTitle = data.match(/(?<=zh-CN\n*\s+)((?!\n)[\s\S]+)(?=\n*##\s*en-US)/gms);
-      if(subTitle && subTitle.length){
+      let subTitle = data.match(
+        /(?<=zh-CN\n*\s+)((?!\n)[\s\S]+)(?=\n*##\s*en-US)/gms,
+      );
+      if (subTitle && subTitle.length) {
         subTitle = subTitle[0];
         subTitle = subTitle.replace(/[\s\r\n]*/gs, '');
-        subTitle = /^\`/g.test(subTitle) ? '<span></span>' + subTitle : subTitle;
+        subTitle = /^\`/g.test(subTitle)
+          ? '<span></span>' + subTitle
+          : subTitle;
         subTitle = /^\[[\s\S]+\]/g.test(subTitle) ? subTitle + ':' : subTitle;
-        subTitle = subTitle.replace(/\`\`\`/g, '\\\`\`\`');
+        subTitle = subTitle.replace(/\`\`\`/g, '\\```');
       }
-      
 
       //提取order属性
       let order = data.match(/(?<=---[\s\S]+order:\s+).+(?=[\s\S]+---)/g);
@@ -113,19 +117,19 @@ paths.forEach(item => {
 
       packagesPaths.forEach(pkgPath => {
         let newCode = '';
-        if(/import[\s\S]+ConfigProvider.*antd'/igs.test(code)){
+        if (/import[\s\S]+ConfigProvider.*antd'/gis.test(code)) {
           newCode = code.replace(
-            /import\s*(\{)(((?!import).)*)antd'/igs,
+            /import\s*(\{)(((?!import).)*)antd'/gis,
             `import $1$2${pkgPath.importPath}'`,
           );
-        }else if(/import\s*(\{)(((?!import).)*)antd'/igs.test(code)){
+        } else if (/import\s*(\{)(((?!import).)*)antd'/gis.test(code)) {
           newCode = code.replace(
-            /import\s*(\{)(((?!import).)*)antd'/igs,
+            /import\s*(\{)(((?!import).)*)antd'/gis,
             `import $1ConfigProvider,$2${pkgPath.importPath}'`,
           );
-        }else{
+        } else {
           newCode = code.replace(
-            /(.+)/igs,
+            /(.+)/gis,
             `import {ConfigProvider} from '${pkgPath.importPath}'
             $1`,
           );
@@ -135,7 +139,7 @@ paths.forEach(item => {
           /@ant-design\/icons/g,
           pkgPath.iconImportPath,
         );
-       
+
         //多语言antd/lib/locale这个路径还用antd的
         newCode = newCode.replace(/@abiz\/rc-\w+(\/lib\/locale)/gi, 'antd$1');
 
@@ -155,10 +159,9 @@ order: ${order}
 
         //demo文件夹不存在则创建
         if (!fs.existsSync(pkgPath.path + '' + itemArr[0] + '/' + itemArr[1])) {
-          fs.mkdirSync(
-            pkgPath.path + '' + itemArr[0] + '/' + itemArr[1],
-            { recursive: true },
-          );
+          fs.mkdirSync(pkgPath.path + '' + itemArr[0] + '/' + itemArr[1], {
+            recursive: true,
+          });
         }
         const fileNameArr = itemArr[2].split('.');
         const fullPath =
@@ -170,7 +173,7 @@ order: ${order}
           '/' +
           fileNameArr[0] +
           '-' +
-          itemArr[0] + 
+          itemArr[0] +
           '-' +
           pkgPath.fileNamePrefix +
           '.' +
