@@ -17,8 +17,8 @@
     "jxc-build": "father-build"
   },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "dependencies": {
     "@abiz/rc-core": "^0.0.2"
