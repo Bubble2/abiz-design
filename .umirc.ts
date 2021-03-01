@@ -65,7 +65,7 @@ export default defineConfig({
   },
   styles: [
     `${
-      isProduction ? 'http://abiz-fe.git.vemic.com/' : 'http://localhost:8000'
+      isProduction ? 'http://abiz-fe.git.vemic.com' : 'http://localhost:8000'
     }/abiz-design/styles/markdown.css`,
   ],
   externals: {
