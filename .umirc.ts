@@ -107,7 +107,7 @@ export default defineConfig({
     });
   },
   polyfill: false,
-  exportStatic: {},
+  // exportStatic: {},
   nodeModulesTransform: {
     type: 'none',
   },
