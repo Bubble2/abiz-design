@@ -62,28 +62,28 @@
 }
 .aeps-pagination-item:focus,
 .aeps-pagination-item:hover {
-  border-color: #ff0;
+  border-color: #e76135;
   transition: all 0.3s;
 }
 .aeps-pagination-item:focus a,
 .aeps-pagination-item:hover a {
-  color: #ff0;
+  color: #e76135;
 }
 .aeps-pagination-item-active {
   font-weight: 500;
   background: #2b9262;
-  border-color: #ff0;
+  border-color: #e76135;
 }
 .aeps-pagination-item-active a {
-  color: #ff0;
+  color: #e76135;
 }
 .aeps-pagination-item-active:focus,
 .aeps-pagination-item-active:hover {
-  border-color: #fff829;
+  border-color: #f58a5f;
 }
 .aeps-pagination-item-active:focus a,
 .aeps-pagination-item-active:hover a {
-  color: #fff829;
+  color: #f58a5f;
 }
 .aeps-pagination-jump-prev,
 .aeps-pagination-jump-next {
@@ -95,7 +95,7 @@
 }
 .aeps-pagination-jump-prev .aeps-pagination-item-container .aeps-pagination-item-link-icon,
 .aeps-pagination-jump-next .aeps-pagination-item-container .aeps-pagination-item-link-icon {
-  color: #ff0;
+  color: #e76135;
   font-size: 12px;
   letter-spacing: -1px;
   opacity: 0;
@@ -173,7 +173,7 @@
 }
 .aeps-pagination-prev:hover button,
 .aeps-pagination-next:hover button {
-  border-color: #fff829;
+  border-color: #f58a5f;
 }
 .aeps-pagination-prev .aeps-pagination-item-link,
 .aeps-pagination-next .aeps-pagination-item-link {
@@ -193,8 +193,8 @@
 .aeps-pagination-next:focus .aeps-pagination-item-link,
 .aeps-pagination-prev:hover .aeps-pagination-item-link,
 .aeps-pagination-next:hover .aeps-pagination-item-link {
-  color: #ff0;
-  border-color: #ff0;
+  color: #e76135;
+  border-color: #e76135;
 }
 .aeps-pagination-disabled,
 .aeps-pagination-disabled:hover,
@@ -260,15 +260,15 @@
   text-overflow: ellipsis;
 }
 .aeps-pagination-options-quick-jumper input:hover {
-  border-color: #fff829;
+  border-color: #f58a5f;
   border-right-width: 1px !important;
 }
 .aeps-pagination-options-quick-jumper input:focus,
 .aeps-pagination-options-quick-jumper input-focused {
-  border-color: #fff829;
+  border-color: #f58a5f;
   border-right-width: 1px !important;
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
+  box-shadow: 0 0 0 2px rgba(231, 97, 53, 0.2);
 }
 .aeps-pagination-options-quick-jumper input-disabled {
   color: #ccc;
@@ -350,7 +350,7 @@ textarea.aeps-pagination-options-quick-jumper input {
   transition: border-color 0.3s;
 }
 .aeps-pagination-simple .aeps-pagination-simple-pager input:hover {
-  border-color: #ff0;
+  border-color: #e76135;
 }
 .aeps-pagination-simple .aeps-pagination-simple-pager input[disabled] {
   color: #ccc;

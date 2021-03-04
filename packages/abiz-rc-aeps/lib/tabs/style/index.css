@@ -183,7 +183,7 @@
 .aeps-tabs-left > div > .aeps-tabs-nav .aeps-tabs-tab-active .aeps-tabs-tab-btn,
 .aeps-tabs-right > div > .aeps-tabs-nav .aeps-tabs-tab-active .aeps-tabs-tab-btn {
   font-weight: normal;
-  text-shadow: 0 0 0.25px #d2d900;
+  text-shadow: 0 0 0.25px #c24523;
 }
 .aeps-tabs-left > .aeps-tabs-nav .aeps-tabs-nav-wrap,
 .aeps-tabs-right > .aeps-tabs-nav .aeps-tabs-nav-wrap,
@@ -348,7 +348,7 @@
 }
 .aeps-tabs-card > .aeps-tabs-nav .aeps-tabs-tab-active,
 .aeps-tabs-card > div > .aeps-tabs-nav .aeps-tabs-tab-active {
-  color: #ff0;
+  color: #e76135;
   background: #fff;
 }
 .aeps-tabs-card > .aeps-tabs-nav .aeps-tabs-ink-bar,
@@ -488,13 +488,13 @@
 }
 .aeps-tabs > .aeps-tabs-nav .aeps-tabs-nav-add:hover,
 .aeps-tabs > div > .aeps-tabs-nav .aeps-tabs-nav-add:hover {
-  color: #fff829;
+  color: #f58a5f;
 }
 .aeps-tabs > .aeps-tabs-nav .aeps-tabs-nav-add:active,
 .aeps-tabs > div > .aeps-tabs-nav .aeps-tabs-nav-add:active,
 .aeps-tabs > .aeps-tabs-nav .aeps-tabs-nav-add:focus,
 .aeps-tabs > div > .aeps-tabs-nav .aeps-tabs-nav-add:focus {
-  color: #d2d900;
+  color: #c24523;
 }
 .aeps-tabs-extra-content {
   flex: none;
@@ -505,7 +505,7 @@
 }
 .aeps-tabs-ink-bar {
   position: absolute;
-  background: #ff0;
+  background: #e76135;
   pointer-events: none;
 }
 .aeps-tabs-tab {
@@ -528,7 +528,7 @@
 .aeps-tabs-tab-remove:focus,
 .aeps-tabs-tab-btn:active,
 .aeps-tabs-tab-remove:active {
-  color: #d2d900;
+  color: #c24523;
 }
 .aeps-tabs-tab-btn {
   outline: none;
@@ -550,10 +550,10 @@
   color: #222;
 }
 .aeps-tabs-tab:hover {
-  color: #fff829;
+  color: #f58a5f;
 }
 .aeps-tabs-tab.aeps-tabs-tab-active .aeps-tabs-tab-btn {
-  color: #ff0;
+  color: #e76135;
   font-weight: 500;
 }
 .aeps-tabs-tab.aeps-tabs-tab-disabled {

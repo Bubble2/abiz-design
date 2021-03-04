@@ -64,17 +64,17 @@
   cursor: pointer;
 }
 .aeps-tag-checkable:not(.aeps-tag-checkable-checked):hover {
-  color: #ff0;
+  color: #e76135;
 }
 .aeps-tag-checkable:active,
 .aeps-tag-checkable-checked {
   color: #fff;
 }
 .aeps-tag-checkable-checked {
-  background-color: #ff0;
+  background-color: #e76135;
 }
 .aeps-tag-checkable:active {
-  background-color: #d2d900;
+  background-color: #c24523;
 }
 .aeps-tag-hidden {
   display: none;
