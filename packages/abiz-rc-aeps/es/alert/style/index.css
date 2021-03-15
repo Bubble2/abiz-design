@@ -39,11 +39,11 @@
   color: #2b9262;
 }
 .aeps-alert-info {
-  background-color: #fffbe6;
-  border: 1px solid #fff27a;
+  background-color: #fff6f0;
+  border: 1px solid #ffcfb5;
 }
 .aeps-alert-info .aeps-alert-icon {
-  color: #ff0;
+  color: #e76135;
 }
 .aeps-alert-warning {
   background-color: #fff5eb;

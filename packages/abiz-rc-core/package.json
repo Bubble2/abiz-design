@@ -1,6 +1,6 @@
 {
   "name": "@abiz/rc-core",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "abiz core react component",
   "keywords": [
     "abiz",
@@ -17,8 +17,8 @@
     "core-build": "father-build"
   },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "dependencies": {
     "antd": "^4.9.4"

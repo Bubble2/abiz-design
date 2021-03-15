@@ -1,6 +1,6 @@
 {
   "name": "@abiz/icons-miccn",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "abiz icon react component",
   "keywords": [
     "abiz",
@@ -17,8 +17,8 @@
     "icons-miccn-build": "father-build"
   },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "dependencies": {
     "@ant-design/icons": "^4.3.0"

@@ -98,7 +98,7 @@
 .aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected:hover .aeps-picker-calendar-date .aeps-picker-calendar-date-value,
 .aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected .aeps-picker-calendar-date-today .aeps-picker-calendar-date-value,
 .aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-cell-selected:hover .aeps-picker-calendar-date-today .aeps-picker-calendar-date-value {
-  color: #ff0;
+  color: #e76135;
 }
 .aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date {
   display: block;
@@ -125,7 +125,7 @@
   text-align: left;
 }
 .aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date-today {
-  border-color: #ff0;
+  border-color: #e76135;
 }
 .aeps-picker-calendar-full .aeps-picker-panel .aeps-picker-calendar-date-today .aeps-picker-calendar-date-value {
   color: #222;

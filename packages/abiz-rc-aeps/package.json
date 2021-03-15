@@ -1,6 +1,6 @@
 {
   "name": "@abiz/rc-aeps",
-  "version": "0.0.3",
+  "version": "0.1.1",
   "description": "aeps react component",
   "keywords": [
     "abiz",
@@ -18,11 +18,11 @@
     "aeps-build": "father-build"
   },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@abiz/rc-core": "^0.0.2"
+    "@abiz/rc-core": "^0.1.0"
   },
   "author": "guozhaodong",
   "license": "ISC",

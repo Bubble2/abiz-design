@@ -30,13 +30,13 @@
   box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.1);
 }
 .aeps-switch-checked:focus {
-  box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
+  box-shadow: 0 0 0 2px rgba(231, 97, 53, 0.2);
 }
 .aeps-switch:focus:hover {
   box-shadow: none;
 }
 .aeps-switch-checked {
-  background-color: #ff0;
+  background-color: #e76135;
 }
 .aeps-switch-loading,
 .aeps-switch-disabled {
@@ -96,7 +96,7 @@
   vertical-align: top;
 }
 .aeps-switch-checked .aeps-switch-loading-icon {
-  color: #ff0;
+  color: #e76135;
 }
 .aeps-switch-small {
   min-width: 28px;
