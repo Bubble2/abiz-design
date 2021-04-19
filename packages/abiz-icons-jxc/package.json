@@ -1,6 +1,6 @@
 {
   "name": "@abiz/icons-jxc",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "abiz icon react component",
   "keywords": [
     "abiz",
@@ -24,5 +24,10 @@
     "@ant-design/icons": "^4.3.0"
   },
   "author": "guozhaodong",
+  "maintainers": [
+    {
+      "name": "wangjian0818"
+    }
+  ],
   "license": "ISC"
 }

@@ -2,6 +2,7 @@
 title: Comment 评论
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 评论
+# 评论
 
 <div>
 <embed src="@docs-common/comment/index.md"></embed>
@@ -35,4 +36,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/comment/index-api.md"></embed><div>
-        

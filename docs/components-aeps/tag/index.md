@@ -2,6 +2,7 @@
 title: Tag 标签
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 标签
+# 标签
 
 <div>
 <embed src="@docs-common/tag/index.md"></embed>

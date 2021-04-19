@@ -2,6 +2,7 @@
 title: Mentions 提及
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 提及
+# 提及
 
 <div>
 <embed src="@docs-common/mentions/index.md"></embed>
@@ -45,4 +46,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/mentions/index-api.md"></embed><div>
-        

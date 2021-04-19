@@ -2,6 +2,7 @@
 title: Progress 进度条
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 进度条
+# 进度条
 
 <div>
 <embed src="@docs-common/progress/index.md"></embed>
@@ -55,4 +56,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/progress/index-api.md"></embed><div>
-        

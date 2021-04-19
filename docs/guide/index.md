@@ -1,6 +1,8 @@
 ---
 title: 介绍
+path: /guide/index
 nav:
+  path: /guide/index
   title: 介绍
   order: 1
 ---

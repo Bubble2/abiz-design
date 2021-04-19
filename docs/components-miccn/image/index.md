@@ -2,6 +2,7 @@
 title: Image 图片
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 图片
+# 图片
 
 <div>
 <embed src="@docs-common/image/index.md"></embed>

@@ -1,6 +1,6 @@
 {
   "name": "@abiz/rc-core",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "abiz core react component",
   "keywords": [
     "abiz",
@@ -24,6 +24,11 @@
     "antd": "^4.9.4"
   },
   "author": "guozhaodong",
+  "maintainers": [
+    {
+      "name": "wangjian0818"
+    }
+  ],
   "license": "ISC",
   "gitHead": "75ce07a7bf26d57199271ec26b96c81173a7a713"
 }

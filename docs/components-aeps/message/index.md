@@ -2,6 +2,7 @@
 title: Message 全局提示
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 全局提示
+# 全局提示
 
 <div>
 <embed src="@docs-common/message/index.md"></embed>
@@ -47,4 +48,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/message/index-api.md"></embed><div>
-        

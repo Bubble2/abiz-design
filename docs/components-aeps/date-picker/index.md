@@ -2,6 +2,7 @@
 title: DatePicker 日期选择框
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 日期选择框
+# 日期选择框
 
 <div>
 <embed src="@docs-common/date-picker/index.md"></embed>
@@ -63,4 +64,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/date-picker/index-api.md"></embed><div>
-        

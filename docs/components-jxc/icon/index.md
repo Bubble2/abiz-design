@@ -2,6 +2,7 @@
 title: Icon 图标
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 图标
+# 图标
 
 <div>
 <embed src="@docs-common/icon/index.md"></embed>
@@ -41,4 +42,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/icon/index-api.md"></embed><div>
-        

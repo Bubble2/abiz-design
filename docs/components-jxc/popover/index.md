@@ -2,6 +2,7 @@
 title: Popover 气泡卡片
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 气泡卡片
+# 气泡卡片
 
 <div>
 <embed src="@docs-common/popover/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/popover/index-api.md"></embed><div>
-        

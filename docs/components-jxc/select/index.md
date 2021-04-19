@@ -2,6 +2,7 @@
 title: Select 选择器
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 选择器
+# 选择器
 
 <div>
 <embed src="@docs-common/select/index.md"></embed>

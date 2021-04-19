@@ -2,6 +2,7 @@
 title: Alert 警告提示
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 警告提示
+# 警告提示
 
 <div>
 <embed src="@docs-common/alert/index.md"></embed>
@@ -55,4 +56,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/alert/index-api.md"></embed><div>
-        

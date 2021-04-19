@@ -2,6 +2,7 @@
 title: Popconfirm 气泡确认框
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 气泡确认框
+# 气泡确认框
 
 <div>
 <embed src="@docs-common/popconfirm/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/popconfirm/index-api.md"></embed><div>
-        

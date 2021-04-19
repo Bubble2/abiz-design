@@ -2,6 +2,7 @@
 title: Cascader 级联选择
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 级联选择
+# 级联选择
 
 <div>
 <embed src="@docs-common/cascader/index.md"></embed>
@@ -57,4 +58,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/cascader/index-api.md"></embed><div>
-        

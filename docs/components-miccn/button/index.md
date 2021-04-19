@@ -2,6 +2,7 @@
 title: Button 按钮
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 按钮
+# 按钮
 
 <div>
 <embed src="@docs-common/button/index.md"></embed>
@@ -51,4 +52,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/button/index-api.md"></embed><div>
-        

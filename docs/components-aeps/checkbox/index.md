@@ -2,6 +2,7 @@
 title: Checkbox 多选框
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 多选框
+# 多选框
 
 <div>
 <embed src="@docs-common/checkbox/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/checkbox/index-api.md"></embed><div>
-        

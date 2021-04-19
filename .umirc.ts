@@ -53,7 +53,7 @@ export default defineConfig({
     null, // null 值代表保留约定式生成的导航，只做增量配置
     {
       title: 'GitLab',
-      path: 'http://git.vemic.com/abiz-fe/abiz-design',
+      path: 'http://git.vemic.com/abiz/abiz-design',
     },
   ],
   alias: {
@@ -65,7 +65,7 @@ export default defineConfig({
   },
   styles: [
     `${
-      isProduction ? 'http://abiz-fe.git.vemic.com' : 'http://localhost:8000'
+      isProduction ? 'http://abiz.git.vemic.com/' : 'http://localhost:8000'
     }/abiz-design/styles/markdown.css`,
   ],
   externals: {

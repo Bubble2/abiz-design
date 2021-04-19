@@ -2,6 +2,7 @@
 title: Result 结果
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 结果
+# 结果
 
 <div>
 <embed src="@docs-common/result/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/result/index-api.md"></embed><div>
-        

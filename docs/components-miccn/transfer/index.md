@@ -2,6 +2,7 @@
 title: Transfer 穿梭框
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 穿梭框
+# 穿梭框
 
 <div>
 <embed src="@docs-common/transfer/index.md"></embed>
@@ -45,4 +46,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/transfer/index-api.md"></embed><div>
-        

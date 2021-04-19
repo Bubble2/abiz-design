@@ -2,6 +2,7 @@
 title: PageHeader 页头
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 页头
+# 页头
 
 <div>
 <embed src="@docs-common/page-header/index.md"></embed>
@@ -39,4 +40,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/page-header/index-api.md"></embed><div>
-        

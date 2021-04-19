@@ -2,6 +2,7 @@
 title: Skeleton 骨架屏
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 骨架屏
+# 骨架屏
 
 <div>
 <embed src="@docs-common/skeleton/index.md"></embed>
@@ -39,4 +40,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/skeleton/index-api.md"></embed><div>
-        

@@ -2,6 +2,7 @@
 title: Switch 开关
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 开关
+# 开关
 
 <div>
 <embed src="@docs-common/switch/index.md"></embed>
@@ -41,4 +42,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/switch/index-api.md"></embed><div>
-        

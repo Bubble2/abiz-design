@@ -2,6 +2,7 @@
 title: Notification 通知提醒框
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 通知提醒框
+# 通知提醒框
 
 <div>
 <embed src="@docs-common/notification/index.md"></embed>
@@ -49,4 +50,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/notification/index-api.md"></embed><div>
-        

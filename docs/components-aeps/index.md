@@ -2,6 +2,7 @@
 title: 快速开始
 order: 1
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:

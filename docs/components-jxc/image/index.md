@@ -2,6 +2,7 @@
 title: Image 图片
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 图片
+# 图片
 
 <div>
 <embed src="@docs-common/image/index.md"></embed>

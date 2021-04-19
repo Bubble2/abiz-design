@@ -392,7 +392,7 @@
             'div',
             { className: 'markdown' },
             l.a.createElement(
-              'h2',
+              'h1',
               { id: '\u9009\u62e9\u5668' },
               l.a.createElement(
                 r['AnchorLink'],

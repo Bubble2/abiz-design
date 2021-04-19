@@ -2,6 +2,7 @@
 title: Descriptions 描述列表
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 描述列表
+# 描述列表
 
 <div>
 <embed src="@docs-common/descriptions/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/descriptions/index-api.md"></embed><div>
-        

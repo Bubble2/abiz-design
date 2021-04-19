@@ -1,6 +1,6 @@
 {
   "name": "@abiz/rc-aeps",
-  "version": "0.1.1",
+  "version": "0.1.7",
   "description": "aeps react component",
   "keywords": [
     "abiz",
@@ -22,9 +22,17 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "@abiz/rc-core": "^0.1.0"
+    "@abiz/rc-core": "^0.1.3"
   },
   "author": "guozhaodong",
+  "maintainers": [
+    {
+      "name": "wangjian0818"
+    },
+    {
+      "name": "guozhaodong"
+    }
+  ],
   "license": "ISC",
   "gitHead": "75ce07a7bf26d57199271ec26b96c81173a7a713"
 }

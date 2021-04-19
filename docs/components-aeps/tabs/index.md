@@ -2,6 +2,7 @@
 title: Tabs 标签页
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 标签页
+# 标签页
 
 <div>
 <embed src="@docs-common/tabs/index.md"></embed>
@@ -57,4 +58,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/tabs/index-api.md"></embed><div>
-        

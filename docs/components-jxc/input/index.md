@@ -2,6 +2,7 @@
 title: Input 输入框
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 输入框
+# 输入框
 
 <div>
 <embed src="@docs-common/input/index.md"></embed>

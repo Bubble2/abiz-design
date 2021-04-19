@@ -2,6 +2,7 @@
 title: Progress 进度条
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 进度条
+# 进度条
 
 <div>
 <embed src="@docs-common/progress/index.md"></embed>
@@ -55,4 +56,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/progress/index-api.md"></embed><div>
-        

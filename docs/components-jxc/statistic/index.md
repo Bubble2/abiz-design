@@ -2,6 +2,7 @@
 title: Statistic 统计数值
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 统计数值
+# 统计数值
 
 <div>
 <embed src="@docs-common/statistic/index.md"></embed>
@@ -39,4 +40,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/statistic/index-api.md"></embed><div>
-        

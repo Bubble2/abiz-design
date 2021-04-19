@@ -2,6 +2,7 @@
 title: Table 表格
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 表格
+# 表格
 
 <div>
 <embed src="@docs-common/table/index.md"></embed>
@@ -97,4 +98,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/table/index-api.md"></embed><div>
-        

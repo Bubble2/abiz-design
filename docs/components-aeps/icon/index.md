@@ -2,6 +2,7 @@
 title: Icon 图标
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 图标
+# 图标
 
 <div>
 <embed src="@docs-common/icon/index.md"></embed>
@@ -41,4 +42,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/icon/index-api.md"></embed><div>
-        

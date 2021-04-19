@@ -2,6 +2,7 @@
 title: Steps 步骤条
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 步骤条
+# 步骤条
 
 <div>
 <embed src="@docs-common/steps/index.md"></embed>
@@ -55,4 +56,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/steps/index-api.md"></embed><div>
-        

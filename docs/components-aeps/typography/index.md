@@ -2,6 +2,7 @@
 title: Typography 排版
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 排版
+# 排版
 
 <div>
 <embed src="@docs-common/typography/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/typography/index-api.md"></embed><div>
-        

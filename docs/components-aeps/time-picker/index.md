@@ -2,6 +2,7 @@
 title: TimePicker 时间选择框
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 时间选择框
+# 时间选择框
 
 <div>
 <embed src="@docs-common/time-picker/index.md"></embed>
@@ -55,4 +56,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/time-picker/index-api.md"></embed><div>
-        

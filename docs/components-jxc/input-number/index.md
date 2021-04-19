@@ -2,6 +2,7 @@
 title: InputNumber 数字输入框
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 数字输入框
+# 数字输入框
 
 <div>
 <embed src="@docs-common/input-number/index.md"></embed>

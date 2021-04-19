@@ -2,6 +2,7 @@
 title: Menu 导航菜单
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 导航菜单
+# 导航菜单
 
 <div>
 <embed src="@docs-common/menu/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/menu/index-api.md"></embed><div>
-        

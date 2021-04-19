@@ -137,7 +137,7 @@
             'div',
             { className: 'markdown' },
             n.a.createElement(
-              'h2',
+              'h1',
               { id: '\u5217\u8868' },
               n.a.createElement(
                 r['AnchorLink'],

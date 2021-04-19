@@ -6,6 +6,7 @@ const antdPath = 'D:/git/ant-design-4.9.4/components/';
 const docsPaths = [
   {
     nav: {
+      path: '/components-aeps',
       title: '大优采组件',
       order: 2,
     },
@@ -20,6 +21,7 @@ const docsPaths = [
   },
   {
     nav: {
+      path: '/components-jxc',
       title: '小优采组件',
       order: 3,
     },
@@ -34,6 +36,7 @@ const docsPaths = [
   },
   {
     nav: {
+      path: '/components-miccn',
       title: '内贸站组件',
       order: 4,
     },
@@ -118,6 +121,7 @@ paths.forEach(item => {
 title: ${titleEn} ${titleCn}
 order: ${index}
 nav:
+  path: ${docPath.nav.path}
   order: ${docPath.nav.order}
   title: ${docPath.nav.title}
 group:

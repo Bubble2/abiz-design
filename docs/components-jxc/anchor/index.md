@@ -2,6 +2,7 @@
 title: Anchor 锚点
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 锚点
+# 锚点
 
 <div>
 <embed src="@docs-common/anchor/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/anchor/index-api.md"></embed><div>
-        

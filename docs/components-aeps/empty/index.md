@@ -2,6 +2,7 @@
 title: Empty 空状态
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 空状态
+# 空状态
 
 <div>
 <embed src="@docs-common/empty/index.md"></embed>
@@ -37,4 +38,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/empty/index-api.md"></embed><div>
-        

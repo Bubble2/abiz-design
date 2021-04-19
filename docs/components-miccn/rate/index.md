@@ -2,6 +2,7 @@
 title: Rate 评分
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 评分
+# 评分
 
 <div>
 <embed src="@docs-common/rate/index.md"></embed>
@@ -45,4 +46,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/rate/index-api.md"></embed><div>
-        

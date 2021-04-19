@@ -2,6 +2,7 @@
 title: ConfigProvider 全局化配置
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 全局化配置
+# 全局化配置
 
 <div>
 <embed src="@docs-common/config-provider/index.md"></embed>

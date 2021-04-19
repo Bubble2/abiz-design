@@ -2,6 +2,7 @@
 title: BackTop 回到顶部
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 回到顶部
+# 回到顶部
 
 <div>
 <embed src="@docs-common/back-top/index.md"></embed>
@@ -35,4 +36,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/back-top/index-api.md"></embed><div>
-        

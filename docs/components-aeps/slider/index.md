@@ -2,6 +2,7 @@
 title: Slider 滑动输入条
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 滑动输入条
+# 滑动输入条
 
 <div>
 <embed src="@docs-common/slider/index.md"></embed>

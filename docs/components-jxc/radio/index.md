@@ -2,6 +2,7 @@
 title: Radio 单选框
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 单选框
+# 单选框
 
 <div>
 <embed src="@docs-common/radio/index.md"></embed>
@@ -51,4 +52,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/radio/index-api.md"></embed><div>
-        

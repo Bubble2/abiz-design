@@ -2,6 +2,7 @@
 title: Card 卡片
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 卡片
+# 卡片
 
 <div>
 <embed src="@docs-common/card/index.md"></embed>
@@ -47,4 +48,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/card/index-api.md"></embed><div>
-        

@@ -376,7 +376,7 @@
             'div',
             { className: 'markdown' },
             l.a.createElement(
-              'h2',
+              'h1',
               { id: '\u56fa\u9489' },
               l.a.createElement(
                 r['AnchorLink'],

@@ -2,6 +2,7 @@
 title: Tree 树形控件
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 树形控件
+# 树形控件
 
 <div>
 <embed src="@docs-common/tree/index.md"></embed>
@@ -55,4 +56,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/tree/index-api.md"></embed><div>
-        

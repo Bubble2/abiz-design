@@ -1,6 +1,7 @@
 ---
 title: 如何使用
 nav:
+  path: /guide
   title: 如何使用
   order: 1
 ---

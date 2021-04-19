@@ -2,6 +2,7 @@
 title: Affix 固钉
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 固钉
+# 固钉
 
 <div>
 <embed src="@docs-common/affix/index.md"></embed>
@@ -39,4 +40,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/affix/index-api.md"></embed><div>
-        

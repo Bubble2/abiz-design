@@ -2,6 +2,7 @@
 title: Space 间距
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 间距
+# 间距
 
 <div>
 <embed src="@docs-common/space/index.md"></embed>
@@ -43,4 +44,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/space/index-api.md"></embed><div>
-        

@@ -2,6 +2,7 @@
 title: Calendar 日历
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 日历
+# 日历
 
 <div>
 <embed src="@docs-common/calendar/index.md"></embed>
@@ -37,4 +38,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/calendar/index-api.md"></embed><div>
-        

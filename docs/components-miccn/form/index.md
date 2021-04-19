@@ -2,6 +2,7 @@
 title: Form 表单
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 表单
+# 表单
 
 <div>
 <embed src="@docs-common/form/index.md"></embed>
@@ -81,4 +82,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/form/index-api.md"></embed><div>
-        

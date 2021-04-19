@@ -2,6 +2,7 @@
 title: 快速开始
 order: 1
 nav:
+  path: /components-miccn
   order: 1
   title: 内贸站组件
 group:

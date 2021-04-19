@@ -2,6 +2,7 @@
 title: Dropdown 下拉菜单
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 下拉菜单
+# 下拉菜单
 
 <div>
 <embed src="@docs-common/dropdown/index.md"></embed>
@@ -53,4 +54,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/dropdown/index-api.md"></embed><div>
-        

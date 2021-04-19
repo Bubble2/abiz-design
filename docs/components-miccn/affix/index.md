@@ -2,6 +2,7 @@
 title: Affix 固钉
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 固钉
+# 固钉
 
 <div>
 <embed src="@docs-common/affix/index.md"></embed>
@@ -39,4 +40,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/affix/index-api.md"></embed><div>
-        

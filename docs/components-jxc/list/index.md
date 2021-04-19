@@ -2,6 +2,7 @@
 title: List 列表
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 列表
+# 列表
 
 <div>
 <embed src="@docs-common/list/index.md"></embed>
@@ -45,4 +46,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/list/index-api.md"></embed><div>
-        

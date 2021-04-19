@@ -2,6 +2,7 @@
 title: Upload 上传
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 上传
+# 上传
 
 <div>
 <embed src="@docs-common/upload/index.md"></embed>

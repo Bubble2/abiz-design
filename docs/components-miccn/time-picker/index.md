@@ -2,6 +2,7 @@
 title: TimePicker 时间选择框
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 时间选择框
+# 时间选择框
 
 <div>
 <embed src="@docs-common/time-picker/index.md"></embed>
@@ -55,4 +56,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/time-picker/index-api.md"></embed><div>
-        

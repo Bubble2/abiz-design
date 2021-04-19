@@ -2,6 +2,7 @@
 title: Avatar 头像
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 头像
+# 头像
 
 <div>
 <embed src="@docs-common/avatar/index.md"></embed>
@@ -47,4 +48,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/avatar/index-api.md"></embed><div>
-        

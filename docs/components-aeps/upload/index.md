@@ -2,6 +2,7 @@
 title: Upload 上传
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 上传
+# 上传
 
 <div>
 <embed src="@docs-common/upload/index.md"></embed>

@@ -27,20 +27,18 @@
     "link": "lerna link",
     "generatorDocs": "node generatorDemo.js && npm run prettier && node generatorDocs.js"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
       "prettier --write"
     ],
-    "*.ts?(x)": [
+    "*.{ts?(x),.d.ts}": [
       "prettier --parser=typescript --write"
     ]
   },
   "dependencies": {
     "@umijs/fabric": "^2.4.11",
     "antd": "^4.9.4",
+    "antd-img-crop": "^3.14.1",
     "array-move": "^3.0.1",
     "dumi-assets-types": "^1.0.0",
     "eslint-config-prettier": "^7.1.0",

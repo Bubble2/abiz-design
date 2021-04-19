@@ -2,6 +2,7 @@
 title: Timeline 时间轴
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 时间轴
+# 时间轴
 
 <div>
 <embed src="@docs-common/timeline/index.md"></embed>
@@ -45,4 +46,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/timeline/index-api.md"></embed><div>
-        

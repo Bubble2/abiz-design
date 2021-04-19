@@ -2,6 +2,7 @@
 title: Badge 徽标数
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 徽标数
+# 徽标数
 
 <div>
 <embed src="@docs-common/badge/index.md"></embed>
@@ -57,4 +58,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/badge/index-api.md"></embed><div>
-        

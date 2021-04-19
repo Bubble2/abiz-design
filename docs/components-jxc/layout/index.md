@@ -2,6 +2,7 @@
 title: Layout 布局
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 布局
+# 布局
 
 <div>
 <embed src="@docs-common/layout/index.md"></embed>
@@ -47,4 +48,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/layout/index-api.md"></embed><div>
-        

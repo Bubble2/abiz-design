@@ -2,6 +2,7 @@
 title: Collapse 折叠面板
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 折叠面板
+# 折叠面板
 
 <div>
 <embed src="@docs-common/collapse/index.md"></embed>
@@ -45,4 +46,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/collapse/index-api.md"></embed><div>
-        

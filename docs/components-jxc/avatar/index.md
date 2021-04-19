@@ -2,6 +2,7 @@
 title: Avatar 头像
 order: 1
 nav:
+  path: /components-jxc
   order: 3
   title: 小优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 头像
+# 头像
 
 <div>
 <embed src="@docs-common/avatar/index.md"></embed>
@@ -47,4 +48,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/avatar/index-api.md"></embed><div>
-        

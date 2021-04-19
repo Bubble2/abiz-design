@@ -2,6 +2,7 @@
 title: Slider 滑动输入条
 order: 2
 nav:
+  path: /components-miccn
   order: 4
   title: 内贸站组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 滑动输入条
+# 滑动输入条
 
 <div>
 <embed src="@docs-common/slider/index.md"></embed>

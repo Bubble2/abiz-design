@@ -2,6 +2,7 @@
 title: BackTop 回到顶部
 order: 0
 nav:
+  path: /components-aeps
   order: 2
   title: 大优采组件
 group:
@@ -10,7 +11,7 @@ group:
   title: 组件
 ---
 
-## 回到顶部
+# 回到顶部
 
 <div>
 <embed src="@docs-common/back-top/index.md"></embed>
@@ -35,4 +36,3 @@ group:
 </Row>
         
 <div><embed src="@docs-common/back-top/index-api.md"></embed><div>
-        
